@@ -1,7 +1,7 @@
 <?php
 /**
 *
-* app [English]
+* app [Dutch]
 *
 * @package language
 * @copyright (c) 2012 phpBB Group
