@@ -45,5 +45,5 @@ $lang = array_merge($lang, array(
 	'CONTROLLER_METHOD_NOT_SPECIFIED'	=> 'Er is geen methode gespecificeerd voor de controller.',
 	'CONTROLLER_SERVICE_NOT_GIVEN'		=> 'De controller "<strong>%s</strong>" moet een service hebben die gespecificeerd is in ./config/routing.yml.',
 	'CONTROLLER_SERVICE_UNDEFINED'		=> 'De service voor controller "<strong>%s</strong>" is niet gedefinieerd in ./config/services.yml.',
-	'CONTROLLER_RETURN_TYPE_INVALID'	=> 'De controller object <strong>%s</strong> moet een Symfony\Component\HttpFoundation\Response object terugsturen.',
+	'CONTROLLER_RETURN_TYPE_INVALID'	=> 'Het controller object <strong>%s</strong> moet een Symfony\Component\HttpFoundation\Response object terugsturen.',
 ));
