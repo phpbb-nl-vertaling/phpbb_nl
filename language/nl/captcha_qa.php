@@ -35,28 +35,28 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'CAPTCHA_QA'				=> 'Q&amp;A',
-	'CONFIRM_QUESTION_EXPLAIN'	=> 'This question is a means of preventing automated form submissions by spambots.',
-	'CONFIRM_QUESTION_WRONG'	=> 'You have provided an invalid answer to the question.',
+	'CAPTCHA_QA'				=> 'V&amp;A',
+	'CONFIRM_QUESTION_EXPLAIN'	=> 'Deze vraag is bedoeld om spam te voorkomen.',
+	'CONFIRM_QUESTION_WRONG'	=> 'Je hebt een onjuist antwoord gegeven op de vraag..',
 
-	'QUESTION_ANSWERS'			=> 'Answers',
-	'ANSWERS_EXPLAIN'			=> 'Please enter valid answers to the question, one per line.',
-	'CONFIRM_QUESTION'			=> 'Question',
+	'QUESTION_ANSWERS'			=> 'Antwoorden',
+	'ANSWERS_EXPLAIN'			=> 'Vul hier de antwoorden op de vraag in, één antwoord per regel.',
+	'CONFIRM_QUESTION'			=> 'Vraag',
 
-	'ANSWER'					=> 'Answer',
-	'EDIT_QUESTION'				=> 'Edit Question',
-	'QUESTIONS'					=> 'Questions',
-	'QUESTIONS_EXPLAIN'			=> 'For every form submission where you have enabled the Q&amp;A plugin, users will be asked one of the questions specified here. To use this plugin at least one question must be set in the default language. These questions should be easy for your target audience to answer but beyond the ability of a bot capable of running a Google™ search. Using a large and regularly changed set of questions will yield the best results. Enable the strict setting if your question relies on mixed case, punctuation or whitespace.',
-	'QUESTION_DELETED'			=> 'Question deleted',
-	'QUESTION_LANG'				=> 'Language',
-	'QUESTION_LANG_EXPLAIN'		=> 'The language this question and its answers are written in.',
-	'QUESTION_STRICT'			=> 'Strict check',
-	'QUESTION_STRICT_EXPLAIN'	=> 'Enable to enforce mixed case, punctuation and whitespace.',
+	'ANSWER'					=> 'Antwoord',
+	'EDIT_QUESTION'				=> 'Bewerk vraag',
+	'QUESTIONS'					=> 'Vragen',
+	'QUESTIONS_EXPLAIN'			=> 'Bij elke registratie zal een van de door jou hier opgegeven vragen worden gevraagd als je de V&A plug-in hebt ingeschakeld. Je moet minimaal één vraag in de standaardtaal van het forum opgeven om deze plug-in te gebruiken. De vragen moeten simpel zijn voor je doelpubliek, maar buiten de mogelijkheden van Google™ vallen. Vergeet ook niet regelmatig de vragen aan te passen. Schakel de strikte controle in, indien je vraag afhankelijk is van zowel hoofdletters als kleine, interpunctie of spaties.',
+	'QUESTION_DELETED'			=> 'Vraag verwijderd',
+	'QUESTION_LANG'				=> 'Taal',
+	'QUESTION_LANG_EXPLAIN'		=> 'De taal waarin deze vraag en het antwoord zijn geschreven.',
+	'QUESTION_STRICT'			=> 'Strikte controle',
+	'QUESTION_STRICT_EXPLAIN'	=> 'Schakel in om de controle hoofdletter-, interpunctie- en spatiegevoelig te laten zijn.',
 
-	'QUESTION_TEXT'				=> 'Question',
-	'QUESTION_TEXT_EXPLAIN'		=> 'The question presented to the user.',
+	'QUESTION_TEXT'				=> 'Vraag',
+	'QUESTION_TEXT_EXPLAIN'		=> 'De vraag die gesteld zal worden aan de gebruiker.',
 
-	'QA_ERROR_MSG'				=> 'Please fill in all fields and enter at least one answer.',
-	'QA_LAST_QUESTION'			=> 'You cannot delete all questions while the plugin is active.',
+	'QA_ERROR_MSG'				=> 'Vul alle velden in en minimaal één antwoord.',
+	'QA_LAST_QUESTION'			=> 'Je kunt niet alle vragen verwijderen terwijl de plug-in actief is.',
 
 ));
