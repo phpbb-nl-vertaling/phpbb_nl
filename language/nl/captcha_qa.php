@@ -1,7 +1,7 @@
 <?php
 /**
 *
-* captcha_qa [English]
+* captcha_qa [Dutch]
 *
 * @package language
 * @copyright (c) 2009 phpBB Group
@@ -37,16 +37,16 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'CAPTCHA_QA'				=> 'V&amp;A',
 	'CONFIRM_QUESTION_EXPLAIN'	=> 'Deze vraag is bedoeld om spam te voorkomen.',
-	'CONFIRM_QUESTION_WRONG'	=> 'Je hebt een onjuist antwoord gegeven op de vraag..',
+	'CONFIRM_QUESTION_WRONG'	=> 'Je hebt een onjuist antwoord gegeven op de vraag.',
 
 	'QUESTION_ANSWERS'			=> 'Antwoorden',
 	'ANSWERS_EXPLAIN'			=> 'Vul hier de antwoorden op de vraag in, één antwoord per regel.',
 	'CONFIRM_QUESTION'			=> 'Vraag',
 
 	'ANSWER'					=> 'Antwoord',
-	'EDIT_QUESTION'				=> 'Bewerk vraag',
+	'EDIT_QUESTION'				=> 'Vraag wijzigen',
 	'QUESTIONS'					=> 'Vragen',
-	'QUESTIONS_EXPLAIN'			=> 'Bij elke registratie zal een van de door jou hier opgegeven vragen worden gevraagd als je de V&A plug-in hebt ingeschakeld. Je moet minimaal één vraag in de standaardtaal van het forum opgeven om deze plug-in te gebruiken. De vragen moeten simpel zijn voor je doelpubliek, maar buiten de mogelijkheden van Google™ vallen. Vergeet ook niet regelmatig de vragen aan te passen. Schakel de strikte controle in, indien je vraag afhankelijk is van zowel hoofdletters als kleine, interpunctie of spaties.',
+	'QUESTIONS_EXPLAIN'			=> 'Bij elk verstuurd formulier waar je de V&amp;A plug-in hebt ingeschakeld worden één van de volgende vragen gesteld aan de gebruikers die je hier hebt opgegeven. Je moet minimaal één vraag in de standaardtaal van het forum opgeven om deze plug-in te gebruiken. De vragen moeten simpel zijn voor je doelpubliek, maar buiten de mogelijkheden vallen van dat een bot deze kan opzoeken via Google™. Vergeet ook niet regelmatig de vragen aan te passen. Schakel de strikte controle in, indien je vraag afhankelijk is van zowel hoofdletters als kleine, interpunctie of spaties.',
 	'QUESTION_DELETED'			=> 'Vraag verwijderd',
 	'QUESTION_LANG'				=> 'Taal',
 	'QUESTION_LANG_EXPLAIN'		=> 'De taal waarin deze vraag en het antwoord zijn geschreven.',
@@ -56,7 +56,7 @@ $lang = array_merge($lang, array(
 	'QUESTION_TEXT'				=> 'Vraag',
 	'QUESTION_TEXT_EXPLAIN'		=> 'De vraag die gesteld zal worden aan de gebruiker.',
 
-	'QA_ERROR_MSG'				=> 'Vul alle velden in en minimaal één antwoord.',
+	'QA_ERROR_MSG'				=> 'Vul alle velden in en geef minimaal één antwoord.',
 	'QA_LAST_QUESTION'			=> 'Je kunt niet alle vragen verwijderen terwijl de plug-in actief is.',
 
 ));
