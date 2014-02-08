@@ -56,7 +56,7 @@ $lang = array_merge($lang, array(
 	'QUESTION_TEXT'				=> 'Vraag',
 	'QUESTION_TEXT_EXPLAIN'		=> 'De vraag die gesteld wordt aan de gebruiker.',
 
-	'QA_ERROR_MSG'				=> 'Vul alle velden in en voer tenminste één antwoordt in.',
+	'QA_ERROR_MSG'				=> 'Vul alle velden in en voer tenminste één antwoord in.',
 	'QA_LAST_QUESTION'			=> 'Je kan niet alle vragen verwijderen terwijl de plugin actief is.',
 
 ));
