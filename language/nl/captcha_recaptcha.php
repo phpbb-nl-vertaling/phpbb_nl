@@ -1,7 +1,7 @@
 <?php
 /**
 *
-* recaptcha [English]
+* recaptcha [Dutch]
 *
 * @package language
 * @copyright (c) 2009 phpBB Group
@@ -35,16 +35,16 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'RECAPTCHA_LANG'				=> 'en',
-	'RECAPTCHA_NOT_AVAILABLE'		=> 'In order to use reCaptcha, you must create an account on <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_LANG'				=> 'nl',
+	'RECAPTCHA_NOT_AVAILABLE'		=> 'Om gebruik te kunnen maken van reCaptcha, moet je een account aanmaken op <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha',
-	'RECAPTCHA_INCORRECT'			=> 'The visual confirmation code you submitted was incorrect',
+	'RECAPTCHA_INCORRECT'			=> 'De visuele bevestigingscode die je ingevoerd hebt is ongeldig',
 
-	'RECAPTCHA_PUBLIC'				=> 'Public reCaptcha key',
-	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Your public reCaptcha key. Keys can be obtained on <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
-	'RECAPTCHA_PRIVATE'				=> 'Private reCaptcha key',
-	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Your private reCaptcha key. Keys can be obtained on <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_PUBLIC'				=> 'Publieke reCaptcha sleutel',
+	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Je publieke reCaptcha sleutel. Sleutels kunnen verkregen worden op <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_PRIVATE'				=> 'Privé reCaptcha sleutel',
+	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Je privé reCaptcha sleutel. Sleutels kunnen verkregen worden op <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 
-	'RECAPTCHA_EXPLAIN'				=> 'In an effort to prevent automatic submissions, we require that you enter both of the words displayed into the text field underneath.',
-	'RECAPTCHA_SOCKET_ERROR'		=> 'There was a problem connecting to the RECAPTCHA service: could not open socket. Try again later.',
+	'RECAPTCHA_EXPLAIN'				=> 'In een poging om geautomatiseerde registraties te voorkomen, vragen wij je beide woorden die worden weergegeven in te vullen in het tekstveld hieronder.',
+	'RECAPTCHA_SOCKET_ERROR'		=> 'Er was een probleem met het verbinden met de RECAPTCHA service: kan geen socket openen. Probeer later nog een keer.',
 ));

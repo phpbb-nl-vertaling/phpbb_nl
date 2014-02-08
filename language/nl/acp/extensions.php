@@ -39,7 +39,7 @@ $lang = array_merge($lang, array(
 	'EXTENSIONS'				=> 'Extensions',
 	'EXTENSIONS_ADMIN'			=> 'Extensions Manager',
 	'EXTENSIONS_EXPLAIN'		=> 'The Extensions Manager is a tool in your phpBB Board which allows you to manage all of your extensions statuses and view information about them.',
-	'EXTENSION_INVALID_LIST'	=> 'The ‚Äú%s‚Äù extension is not valid.<br />%s<br /><br />',
+	'EXTENSION_INVALID_LIST'	=> 'The ì%sî extension is not valid.<br />%s<br /><br />',
 	'EXTENSION_NOT_AVAILABLE'	=> 'The selected extension is not available for this board, please verify your phpBB and PHP versions are allowed (see the details page).',
 	'EXTENSION_DIR_INVALID'		=> 'The selected extension has an invalid directory structure and cannot be enabled.',
 
@@ -52,15 +52,15 @@ $lang = array_merge($lang, array(
 	'EXTENSION_DISABLE'		=> 'Disable',
 	'EXTENSION_ENABLE'		=> 'Enable',
 
-	'EXTENSION_DELETE_DATA_EXPLAIN'	=> 'Deleting an extension‚Äôs data removes all of its data and settings. The extension files are retained so it can be enabled again.',
+	'EXTENSION_DELETE_DATA_EXPLAIN'	=> 'Deleting an extensionís data removes all of its data and settings. The extension files are retained so it can be enabled again.',
 	'EXTENSION_DISABLE_EXPLAIN'		=> 'Disabling an extension retains its files, data and settings but removes any functionality added by the extension.',
 	'EXTENSION_ENABLE_EXPLAIN'		=> 'Enabling an extension allows you to use it on your board.',
 
-	'EXTENSION_DELETE_DATA_IN_PROGRESS'	=> 'The extension‚Äôs data is currently being deleted. Please do not leave or refresh this page until it is completed.',
+	'EXTENSION_DELETE_DATA_IN_PROGRESS'	=> 'The extensionís data is currently being deleted. Please do not leave or refresh this page until it is completed.',
 	'EXTENSION_DISABLE_IN_PROGRESS'	=> 'The extension is currently being disabled. Please do not leave or refresh this page until it is completed.',
 	'EXTENSION_ENABLE_IN_PROGRESS'	=> 'The extension is currently being enabled. Please do not leave or refresh this page until it is completed.',
 
-	'EXTENSION_DELETE_DATA_SUCCESS'	=> 'The extension‚Äôs data was deleted successfully',
+	'EXTENSION_DELETE_DATA_SUCCESS'	=> 'The extensionís data was deleted successfully',
 	'EXTENSION_DISABLE_SUCCESS'		=> 'The extension was disabled successfully',
 	'EXTENSION_ENABLE_SUCCESS'		=> 'The extension was enabled successfully',
 
@@ -70,20 +70,20 @@ $lang = array_merge($lang, array(
 	'EXTENSION_UPDATE_HEADLINE'	=> 'Updating an extension',
 	'EXTENSION_UPDATE_EXPLAIN'	=> '<ol>
 			<li>Disable the extension</li>
-			<li>Delete the extension‚Äôs files from the filesystem</li>
+			<li>Delete the extensionís files from the filesystem</li>
 			<li>Upload the new files</li>
 			<li>Enable the extension</li>
 		</ol>',
 	'EXTENSION_REMOVE_HEADLINE'	=> 'Completly removing an extension from your board',
 	'EXTENSION_REMOVE_EXPLAIN'	=> '<ol>
 			<li>Disable the extension</li>
-			<li>Delete the extension‚Äôs data</li>
-			<li>Delete the extension‚Äôs files from the filesystem</li>
+			<li>Delete the extensionís data</li>
+			<li>Delete the extensionís files from the filesystem</li>
 		</ol>',
 
-	'EXTENSION_DELETE_DATA_CONFIRM'	=> 'Are you sure that you wish to delete the data associated with ‚Äú%s‚Äù?<br /><br />This removes all of its data and settings and cannot be undone!',
-	'EXTENSION_DISABLE_CONFIRM'		=> 'Are you sure that you wish to disable the ‚Äú%s‚Äù extension?',
-	'EXTENSION_ENABLE_CONFIRM'		=> 'Are you sure that you wish to enable the ‚Äú%s‚Äù extension?',
+	'EXTENSION_DELETE_DATA_CONFIRM'	=> 'Are you sure that you wish to delete the data associated with ì%sî?<br /><br />This removes all of its data and settings and cannot be undone!',
+	'EXTENSION_DISABLE_CONFIRM'		=> 'Are you sure that you wish to disable the ì%sî extension?',
+	'EXTENSION_ENABLE_CONFIRM'		=> 'Are you sure that you wish to enable the ì%sî extension?',
 
 	'RETURN_TO_EXTENSION_LIST'	=> 'Return to the extension list',
 

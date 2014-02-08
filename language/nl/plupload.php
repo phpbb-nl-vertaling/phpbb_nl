@@ -1,7 +1,7 @@
 <?php
 /**
 *
-* plupload [English]
+* plupload [Dutch]
 *
 * @package language
 * @copyright (c) 2010-2013 Moxiecode Systems AB
@@ -36,42 +36,42 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'PLUPLOAD_ADD_FILES'		=> 'Add files',
-	'PLUPLOAD_ADD_FILES_TO_QUEUE'	=> 'Add files to the upload queue and click the start button.',
-	'PLUPLOAD_ALREADY_QUEUED'	=> '%s already present in the queue.',
+	'PLUPLOAD_ADD_FILES'		=> 'Bestanden toevoegen',
+	'PLUPLOAD_ADD_FILES_TO_QUEUE'	=> 'Bestanden toevoegen aan de wachtrij en klik op de startknop.',
+	'PLUPLOAD_ALREADY_QUEUED'	=> '%s staat al in de wachtrij.',
 	'PLUPLOAD_CLOSE'			=> 'Close',
-	'PLUPLOAD_DRAG'				=> 'Drag files here.',
-	'PLUPLOAD_DUPLICATE_ERROR'	=> 'Duplicate file error.',
-	'PLUPLOAD_DRAG_TEXTAREA'	=> 'You may also attach files by dragging and dropping them in the message box.',
-	'PLUPLOAD_ERR_INPUT'		=> 'Failed to open input stream.',
-	'PLUPLOAD_ERR_MOVE_UPLOADED'	=> 'Failed to move uploaded file.',
-	'PLUPLOAD_ERR_OUTPUT'		=> 'Failed to open output stream.',
-	'PLUPLOAD_ERR_FILE_TOO_LARGE'	=> 'Error: File too large:',
-	'PLUPLOAD_ERR_FILE_COUNT'	=> 'File count error.',
-	'PLUPLOAD_ERR_FILE_INVALID_EXT'	=> 'Error: Invalid file extension:',
-	'PLUPLOAD_ERR_RUNTIME_MEMORY'	=> 'Runtime ran out of available memory.',
-	'PLUPLOAD_ERR_UPLOAD_URL'	=> 'Upload URL might be wrong or does not exist.',
-	'PLUPLOAD_EXTENSION_ERROR'	=> 'File extension error.',
-	'PLUPLOAD_FILE'				=> 'File: %s',
-	'PLUPLOAD_FILE_DETAILS'		=> 'File: %s, size: %d, max file size: %d',
-	'PLUPLOAD_FILENAME'			=> 'Filename',
-	'PLUPLOAD_FILES_QUEUED'		=> '%d files queued',
-	'PLUPLOAD_GENERIC_ERROR'	=> 'Generic error.',
-	'PLUPLOAD_HTTP_ERROR'		=> 'HTTP error.',
-	'PLUPLOAD_IMAGE_FORMAT'		=> 'Image format either wrong or not supported.',
-	'PLUPLOAD_INIT_ERROR'		=> 'Init error.',
-	'PLUPLOAD_IO_ERROR'			=> 'IO error.',
-	'PLUPLOAD_NOT_APPLICABLE'	=> 'N/A',
-	'PLUPLOAD_SECURITY_ERROR'	=> 'Security error.',
-	'PLUPLOAD_SELECT_FILES'		=> 'Select files',
-	'PLUPLOAD_SIZE'				=> 'Size',
-	'PLUPLOAD_SIZE_ERROR'		=> 'File size error.',
+	'PLUPLOAD_DRAG'				=> 'Sleep bestanden hierheen.',
+	'PLUPLOAD_DUPLICATE_ERROR'	=> 'Dubbele bestandsfout.',
+	'PLUPLOAD_DRAG_TEXTAREA'	=> 'Je kan ook bestanden toevoegen door ze naar het tekstvak te slepen.',
+	'PLUPLOAD_ERR_INPUT'		=> 'Mislukt om input stream te openen.',
+	'PLUPLOAD_ERR_MOVE_UPLOADED'	=> 'Mislukt om geüploade bestand te verplaatsen.',
+	'PLUPLOAD_ERR_OUTPUT'		=> 'Mislukt om output stream te openen.',
+	'PLUPLOAD_ERR_FILE_TOO_LARGE'	=> 'Fout: Bestand te groot:',
+	'PLUPLOAD_ERR_FILE_COUNT'	=> 'Bestand teller fout.',
+	'PLUPLOAD_ERR_FILE_INVALID_EXT'	=> 'Fout: Ongeldig bestandsextensie:',
+	'PLUPLOAD_ERR_RUNTIME_MEMORY'	=> 'Runtime heeft geen geheugen meer over.',
+	'PLUPLOAD_ERR_UPLOAD_URL'	=> 'Upload URL kan verkeerd zijn of bestaat niet.',
+	'PLUPLOAD_EXTENSION_ERROR'	=> 'Bestandsextentie fout.',
+	'PLUPLOAD_FILE'				=> 'Bestand: %s',
+	'PLUPLOAD_FILE_DETAILS'		=> 'Bestand: %s, grootte: %d, max bestandsgrootte: %d',
+	'PLUPLOAD_FILENAME'			=> 'Bestandsnaam',
+	'PLUPLOAD_FILES_QUEUED'		=> '%d bestanden in wachtrij',
+	'PLUPLOAD_GENERIC_ERROR'	=> 'Algemene fout.',
+	'PLUPLOAD_HTTP_ERROR'		=> 'HTTP fout.',
+	'PLUPLOAD_IMAGE_FORMAT'		=> 'Afbeeldingsformaat verkeerd of wordt niet ondersteund.',
+	'PLUPLOAD_INIT_ERROR'		=> 'Init fout.',
+	'PLUPLOAD_IO_ERROR'			=> 'IO fout.',
+	'PLUPLOAD_NOT_APPLICABLE'	=> 'N/B',
+	'PLUPLOAD_SECURITY_ERROR'	=> 'Beveiligingsfout.',
+	'PLUPLOAD_SELECT_FILES'		=> 'Selecteer bestanden',
+	'PLUPLOAD_SIZE'				=> 'Grootte',
+	'PLUPLOAD_SIZE_ERROR'		=> 'Bestandsgrootte fout.',
 	'PLUPLOAD_STATUS'			=> 'Status',
 	'PLUPLOAD_START_UPLOAD'		=> 'Start upload',
-	'PLUPLOAD_START_CURRENT_UPLOAD'	=> 'Start uploading queue',
+	'PLUPLOAD_START_CURRENT_UPLOAD'	=> 'Start wachtrij uploaden',
 	'PLUPLOAD_STOP_UPLOAD'		=> 'Stop upload',
-	'PLUPLOAD_STOP_CURRENT_UPLOAD'	=> 'Stop current upload',
+	'PLUPLOAD_STOP_CURRENT_UPLOAD'	=> 'Stop bestaande upload',
 	// Note: This string is formatted independently by plupload and so does not
 	// use the same formatting rules as normal phpBB translation strings
-	'PLUPLOAD_UPLOADED'			=> 'Uploaded %d/%d files',
+	'PLUPLOAD_UPLOADED'			=> '%d/%d bestanden geüpload',
 ));

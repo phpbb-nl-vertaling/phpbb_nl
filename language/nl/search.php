@@ -1,7 +1,7 @@
 <?php
 /**
 *
-* search [English]
+* search [Dutch]
 *
 * @package language
 * @copyright (c) 2005 phpBB Group
@@ -35,84 +35,84 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ALL_AVAILABLE'			=> 'All available',
-	'ALL_RESULTS'			=> 'All results',
+	'ALL_AVAILABLE'			=> 'Alle beschikbare',
+	'ALL_RESULTS'			=> 'Alle resultaten',
 
-	'DISPLAY_RESULTS'		=> 'Display results as',
+	'DISPLAY_RESULTS'		=> 'Resultaten weergeven als',
 
 	'FOUND_SEARCH_MATCHES'		=> array(
-		1	=> 'Search found %d match',
-		2	=> 'Search found %d matches',
+		1	=> 'Zoeken vond %d overeenkomst',
+		2	=> 'Zoeken vond %d overeenkomsten',
 	),
 	'FOUND_MORE_SEARCH_MATCHES'		=> array(
-		1	=> 'Search found more than %d match',
-		2	=> 'Search found more than %d matches',
+		1	=> 'Zoeken vond meer dan %d overeenkomst',
+		2	=> 'Zoeken vond meer dan %d overeenkomsten',
 	),
 
-	'GLOBAL'				=> 'Global announcement',
+	'GLOBAL'				=> 'Algemene aankondiging',
 
-	'IGNORED_TERMS'			=> 'ignored',
-	'IGNORED_TERMS_EXPLAIN'	=> 'The following words in your search query were ignored because they are too common words: <strong>%s</strong>.',
+	'IGNORED_TERMS'			=> 'genegeerd',
+	'IGNORED_TERMS_EXPLAIN'	=> 'De volgende woorden in je zoekopdracht zijn genegeerd omdat ze te vaak voorkomen: <strong>%s</strong>.',
 
-	'JUMP_TO_POST'			=> 'Jump to post',
+	'JUMP_TO_POST'			=> 'Spring naar bericht',
 
-	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'The board requires you to be registered and logged in to view your own posts.',
-	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'The board requires you to be registered and logged in to view your unread posts.',
-	'LOGIN_EXPLAIN_NEWPOSTS'	=> 'The board requires you to be registered and logged in to view new posts since your last visit.',
+	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'Het forum vereist dat je geregistreerd en aangemeld bent om je eigen berichten te bekijken.',
+	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'Het forum vereist dat je geregistreerd en aangemeld bent om je ongelezen berichten te bekijken.',
+	'LOGIN_EXPLAIN_NEWPOSTS'	=> 'Het forum vereist dat je geregistreerd en aangemeld bent om nieuwe berichten sinds je laatste bezoek te bekijken.',
 
 	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> array(
-		1	=> 'You specified too many words to search for. Please do not enter more than %1$d word.',
-		2	=> 'You specified too many words to search for. Please do not enter more than %1$d words.',
+		1	=> 'Je hebt te veel woorden gespecificeerd voor de zoekopdracht. Vul niet meer dan %1$d woord in.',
+		2	=> 'Je hebt te veel woorden gespecificeerd voor de zoekopdracht. Vul niet meer dan %1$d woorden in.',
 	),
 
-	'NO_KEYWORDS'			=> 'You must specify at least one word to search for. Each word must consist of at least %s and must not contain more than %s excluding wildcards.',
-	'NO_RECENT_SEARCHES'	=> 'No searches have been carried out recently.',
-	'NO_SEARCH'				=> 'Sorry but you are not permitted to use the search system.',
-	'NO_SEARCH_RESULTS'		=> 'No suitable matches were found.',
-	'NO_SEARCH_TIME'		=> 'Sorry but you cannot use search at this time. Please try again in a few minutes.',
-	'NO_SEARCH_UNREADS'		=> 'Sorry but searching for unread posts has been disabled on this board.',
-	'WORD_IN_NO_POST'		=> 'No posts were found because the word <strong>%s</strong> is not contained in any post.',
-	'WORDS_IN_NO_POST'		=> 'No posts were found because the words <strong>%s</strong> are not contained in any post.',
+	'NO_KEYWORDS'			=> 'Je moet tenminste één woord specificeren om op te zoeken. Elk woord moet tenminste %s bevatten en mag niet meer dan %s bevatten exclusief jokers.',
+	'NO_RECENT_SEARCHES'	=> 'Geen zoekopdrachten zijn recent uitgevoerd.',
+	'NO_SEARCH'				=> 'Sorry maar je mag het zoeksysteem niet gebruiken.',
+	'NO_SEARCH_RESULTS'		=> 'Geen geschikte overeenkomsten zijn gevonden.',
+	'NO_SEARCH_TIME'		=> 'Sorry maar je kan het zoeksysteem momenteel niet gebruiken. Probeer het nogmaals over enkele minuten.',
+	'NO_SEARCH_UNREADS'		=> 'Sorry maar het zoeken naar ongelezen berichten is uitgeschakeld voor dit forum.',
+	'WORD_IN_NO_POST'		=> 'Geen berichten zijn gevonden omdat het woord <strong>%s</strong> niet in een bericht voorkomt.',
+	'WORDS_IN_NO_POST'		=> 'Geen berichten zijn gevonden omdat de woorden <strong>%s</strong> niet in een bericht voorkomen.',
 
-	'POST_CHARACTERS'		=> 'characters of posts',
-	'PHRASE_SEARCH_DISABLED'	=> 'Searching by exact phrase is not supported on this board.',
+	'POST_CHARACTERS'		=> 'karakters in berichten',
+	'PHRASE_SEARCH_DISABLED'	=> 'Het doorzoeken op exacte zin wordt niet ondersteunt op dit forum.',
 
-	'RECENT_SEARCHES'		=> 'Recent searches',
-	'RESULT_DAYS'			=> 'Limit results to previous',
-	'RESULT_SORT'			=> 'Sort results by',
-	'RETURN_FIRST'			=> 'Return first',
-	'RETURN_TO_SEARCH_ADV'	=> 'Return to advanced search',
+	'RECENT_SEARCHES'		=> 'Recente zoekopdrachten',
+	'RESULT_DAYS'			=> 'Limiteer resultaten tot vorige',
+	'RESULT_SORT'			=> 'Sorteer resultaten op',
+	'RETURN_FIRST'			=> 'Geef eerste',
+	'RETURN_TO_SEARCH_ADV'	=> 'Terug naar uitgebreid zoeken',
 
-	'SEARCHED_FOR'				=> 'Search term used',
-	'SEARCHED_TOPIC'			=> 'Searched topic',
-	'SEARCHED_QUERY'			=> 'Searched query',
-	'SEARCH_ALL_TERMS'			=> 'Search for all terms or use query as entered',
-	'SEARCH_ANY_TERMS'			=> 'Search for any terms',
-	'SEARCH_AUTHOR'				=> 'Search for author',
-	'SEARCH_AUTHOR_EXPLAIN'		=> 'Use * as a wildcard for partial matches.',
-	'SEARCH_FIRST_POST'			=> 'First post of topics only',
-	'SEARCH_FORUMS'				=> 'Search in forums',
-	'SEARCH_FORUMS_EXPLAIN'		=> 'Select the forum or forums you wish to search in. Subforums are searched automatically if you do not disable “search subforums“ below.',
-	'SEARCH_IN_RESULTS'			=> 'Search these results',
-	'SEARCH_KEYWORDS_EXPLAIN'	=> 'Place <strong>+</strong> in front of a word which must be found and <strong>-</strong> in front of a word which must not be found. Put a list of words separated by <strong>|</strong> into brackets if only one of the words must be found. Use * as a wildcard for partial matches.',
-	'SEARCH_MSG_ONLY'			=> 'Message text only',
-	'SEARCH_OPTIONS'			=> 'Search options',
-	'SEARCH_QUERY'				=> 'Search query',
-	'SEARCH_SUBFORUMS'			=> 'Search subforums',
-	'SEARCH_TITLE_MSG'			=> 'Post subjects and message text',
-	'SEARCH_TITLE_ONLY'			=> 'Topic titles only',
-	'SEARCH_WITHIN'				=> 'Search within',
-	'SORT_ASCENDING'			=> 'Ascending',
-	'SORT_AUTHOR'				=> 'Author',
-	'SORT_DESCENDING'			=> 'Descending',
+	'SEARCHED_FOR'				=> 'Zoekterm gebruikt',
+	'SEARCHED_TOPIC'			=> 'Doorzochte onderwerp',
+	'SEARCHED_QUERY'			=> 'Doorzochte query',
+	'SEARCH_ALL_TERMS'			=> 'Zoek naar alle termen of gebruiker query zoals ingevuld',
+	'SEARCH_ANY_TERMS'			=> 'Zoek naar iedere term',
+	'SEARCH_AUTHOR'				=> 'Zoek naar auteur',
+	'SEARCH_AUTHOR_EXPLAIN'		=> 'Gebruik * als een joker voor gedeelde overeenkomsten.',
+	'SEARCH_FIRST_POST'			=> 'Alleen eerste bericht van onderwerp',
+	'SEARCH_FORUMS'				=> 'Zoeken in forums',
+	'SEARCH_FORUMS_EXPLAIN'		=> 'Selecteer de forum of fora die je wilt doorzoeken. Subfora worden automatisch doorzocht als je “Doorzoek subfora“ hieronder niet uitschakeld.',
+	'SEARCH_IN_RESULTS'			=> 'Doorzoek deze resultaten',
+	'SEARCH_KEYWORDS_EXPLAIN'	=> 'Plaats een <strong>+</strong> voor elk woord welke gevonden moet worden en een <strong>-</strong> voor elk woord welke niet gevonden moet worden. Plaats een lijst met woorden gescheiden door een <strong>|</strong> in haakjes als alleen één van de woorden gevonden moet worden. Gebruik * als een joker voor gedeeltelijke overeenkomsten.',
+	'SEARCH_MSG_ONLY'			=> 'Alleen tekst',
+	'SEARCH_OPTIONS'			=> 'Zoekopties',
+	'SEARCH_QUERY'				=> 'Zoek query',
+	'SEARCH_SUBFORUMS'			=> 'Doorzoek subfora',
+	'SEARCH_TITLE_MSG'			=> 'Alleen berichtonderwerpen en tekst',
+	'SEARCH_TITLE_ONLY'			=> 'Alleen onderwerptitels',
+	'SEARCH_WITHIN'				=> 'Zoek in',
+	'SORT_ASCENDING'			=> 'Oplopend',
+	'SORT_AUTHOR'				=> 'Auteur',
+	'SORT_DESCENDING'			=> 'Aflopend',
 	'SORT_FORUM'				=> 'Forum',
-	'SORT_POST_SUBJECT'			=> 'Post subject',
-	'SORT_TIME'					=> 'Post time',
-	'SPHINX_SEARCH_FAILED'		=> 'Search failed: %s',
-	'SPHINX_SEARCH_FAILED_LOG'	=> 'Sorry, search could not be performed. More information about this failure has been logged in the error log.',
+	'SORT_POST_SUBJECT'			=> 'Bericht onderwerp',
+	'SORT_TIME'					=> 'Plaatsingstijd',
+	'SPHINX_SEARCH_FAILED'		=> 'Zoeken gefaald: %s',
+	'SPHINX_SEARCH_FAILED_LOG'	=> 'Sorry, de zoekopdracht kon niet worden uitgevoerd. Meer informatie over deze fout is gelogd in de foutenlog.',
 
 	'TOO_FEW_AUTHOR_CHARS'	=> array(
-		1	=> 'You must specify at least %d character of the authors name.',
-		2	=> 'You must specify at least %d characters of the authors name.',
+		1	=> 'Je moet tenminste %d karakter van de auteursnaam specificeren.',
+		2	=> 'Je moet tenminste %d karakters van de auteursnaam specificeren.',
 	),
 ));

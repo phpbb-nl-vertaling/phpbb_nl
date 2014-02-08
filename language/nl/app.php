@@ -1,7 +1,7 @@
 <?php
 /**
 *
-* app [English]
+* app [Dutch]
 *
 * @package language
 * @copyright (c) 2012 phpBB Group
@@ -39,11 +39,11 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'CONTROLLER_ARGUMENT_VALUE_MISSING'	=> 'Missing value for argument #%1$s: <strong>%3$s</strong> in class <strong>%2$s</strong>',
-	'CONTROLLER_NOT_SPECIFIED'			=> 'No controller has been specified.',
-	'CONTROLLER_NOT_FOUND'				=> 'The requested page could not be found.',
-	'CONTROLLER_METHOD_NOT_SPECIFIED'	=> 'No method was specified for the controller.',
-	'CONTROLLER_SERVICE_NOT_GIVEN'		=> 'The controller "<strong>%s</strong>" must have a service specified in ./config/routing.yml.',
-	'CONTROLLER_SERVICE_UNDEFINED'		=> 'The service for controller "<strong>%s</strong>" is not defined in ./config/services.yml.',
-	'CONTROLLER_RETURN_TYPE_INVALID'	=> 'The controller object <strong>%s</strong> must return a Symfony\Component\HttpFoundation\Response object.',
+	'CONTROLLER_ARGUMENT_VALUE_MISSING'	=> 'Missende waarde voor argument #%1$s: <strong>%3$s</strong> in class <strong>%2$s</strong>',
+	'CONTROLLER_NOT_SPECIFIED'			=> 'Er is geen controller gespecificeerd.',
+	'CONTROLLER_NOT_FOUND'				=> 'De gevraagde pagina kon niet gevonden worden.',
+	'CONTROLLER_METHOD_NOT_SPECIFIED'	=> 'Er is geen methode gespecificeerd voor de controller.',
+	'CONTROLLER_SERVICE_NOT_GIVEN'		=> 'De controller "<strong>%s</strong>" moet een service hebben die gespecificeerd is in ./config/routing.yml.',
+	'CONTROLLER_SERVICE_UNDEFINED'		=> 'De service voor controller "<strong>%s</strong>" is niet gedefinieerd in ./config/services.yml.',
+	'CONTROLLER_RETURN_TYPE_INVALID'	=> 'Het controller object <strong>%s</strong> moet een Symfony\Component\HttpFoundation\Response object terugsturen.',
 ));

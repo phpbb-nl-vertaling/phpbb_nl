@@ -1,7 +1,7 @@
 <?php
 /**
 *
-* acp_ban [English]
+* acp_ban [Dutch]
 *
 * @package language
 * @copyright (c) 2005 phpBB Group
@@ -36,47 +36,47 @@ if (empty($lang) || !is_array($lang))
 
 // Banning
 $lang = array_merge($lang, array(
-	'1_HOUR'		=> '1 hour',
-	'30_MINS'		=> '30 minutes',
-	'6_HOURS'		=> '6 hours',
+	'1_HOUR'		=> '1 uur',
+	'30_MINS'		=> '30 minuten',
+	'6_HOURS'		=> '6 uur',
 
-	'ACP_BAN_EXPLAIN'	=> 'Here you can control the banning of users by name, IP or email address. These methods prevent a user reaching any part of the board. You can give a short (maximum 3000 characters) reason for the ban if you wish. This will be displayed in the admin log. The duration of a ban can also be specified. If you want the ban to end on a specific date rather than after a set time period select <span style="text-decoration: underline;">Until -&gt;</span> for the ban length and enter a date in <kbd>YYYY-MM-DD</kbd> format.',
+	'ACP_BAN_EXPLAIN'	=> 'Hier kan je het verbannen van gebruikers via naam, IP of e-mailadres controleren. Deze methodes voorkomen dat een gebruiker geen enkel deel van het forum meer kan bereiken. Je kan een korte (maximum 3000 karakters) reden geven voor de verbanning als je wilt. Dit zal weergegeven worden in de admin log. De duur van een verbanning kan ook gespecificeerd worden. Als je een verbanning wilt laten eindigen op een specifieke datum in plaats van na een bepaalde tijdsperiode selecteer <span style="text-decoration: underline;">Tot -&gt;</span> voor de verbanningsduur en voer een datum in in het formaat <kbd>JJJJ-MM-DD</kbd>.',
 
-	'BAN_EXCLUDE'			=> 'Exclude from banning',
-	'BAN_LENGTH'			=> 'Length of ban',
-	'BAN_REASON'			=> 'Reason for ban',
-	'BAN_GIVE_REASON'		=> 'Reason shown to the banned',
-	'BAN_UPDATE_SUCCESSFUL'	=> 'The banlist has been updated successfully.',
-	'BANNED_UNTIL_DATE'		=> 'until %s', // Example: "until Mon 13.Jul.2009, 14:44"
-	'BANNED_UNTIL_DURATION'	=> '%1$s (until %2$s)', // Example: "7 days (until Tue 14.Jul.2009, 14:44)"
+	'BAN_EXCLUDE'			=> 'Uitsluiten van verbannen',
+	'BAN_LENGTH'			=> 'Lengte van verbanning',
+	'BAN_REASON'			=> 'Reden voor verbanning',
+	'BAN_GIVE_REASON'		=> 'Reden weergegeven aan de verbande',
+	'BAN_UPDATE_SUCCESSFUL'	=> 'De verbanningslijst is succesvol bijgewerkt.',
+	'BANNED_UNTIL_DATE'		=> 'tot %s', // Example: "until Mon 13.Jul.2009, 14:44"
+	'BANNED_UNTIL_DURATION'	=> '%1$s (tot %2$s)', // Example: "7 days (until Tue 14.Jul.2009, 14:44)"
 
-	'EMAIL_BAN'					=> 'Ban one or more email addresses',
-	'EMAIL_BAN_EXCLUDE_EXPLAIN'	=> 'Enable this to exclude the entered email address from all current bans.',
-	'EMAIL_BAN_EXPLAIN'			=> 'To specify more than one email address enter each on a new line. To match partial addresses use * as the wildcard, e.g. <samp>*@hotmail.com</samp>, <samp>*@*.domain.tld</samp>, etc.',
-	'EMAIL_NO_BANNED'			=> 'No banned email addresses',
-	'EMAIL_UNBAN'				=> 'Un-ban or un-exclude emails',
-	'EMAIL_UNBAN_EXPLAIN'		=> 'You can unban (or un-exclude) multiple email addresses in one go using the appropriate combination of mouse and keyboard for your computer and browser. Excluded email addresses are emphasised.',
+	'EMAIL_BAN'					=> 'Verban één of meerdere e-mailadressen',
+	'EMAIL_BAN_EXCLUDE_EXPLAIN'	=> 'Schakel dit in om de ingevoerde e-mailadres uit te sluiten van alle bestaande verbanningen.',
+	'EMAIL_BAN_EXPLAIN'			=> 'Om meer dan één e-mailadres te specificeren, voer ieder e-mailadres in op een aparte regel. Om gedeeltelijke e-mailadressen overeen te laten komen, gebruik dan * als de joker, bijv. <samp>*@hotmail.com</samp>, <samp>*@*.domain.tld</samp>, etc.',
+	'EMAIL_NO_BANNED'			=> 'Geen verbannen e-mailadressen',
+	'EMAIL_UNBAN'				=> 'Opheffen verbanning of insluiten e-mails',
+	'EMAIL_UNBAN_EXPLAIN'		=> 'Je kan van meerdere e-mailadressen de verbanning in één keer opheffen (of insluiten) door gebruik te maken van de juiste combinatie van muis en toetsenbord van je computer en browser. Uitgesloten e-mailadressen zijn benadrukt.',
 
-	'IP_BAN'					=> 'Ban one or more IPs',
-	'IP_BAN_EXCLUDE_EXPLAIN'	=> 'Enable this to exclude the entered IP from all current bans.',
-	'IP_BAN_EXPLAIN'			=> 'To specify several different IPs or hostnames enter each on a new line. To specify a range of IP addresses separate the start and end with a hyphen (-), to specify a wildcard use “*”.',
-	'IP_HOSTNAME'				=> 'IP addresses or hostnames',
-	'IP_NO_BANNED'				=> 'No banned IP addresses',
-	'IP_UNBAN'					=> 'Un-ban or un-exclude IPs',
-	'IP_UNBAN_EXPLAIN'			=> 'You can unban (or un-exclude) multiple IP addresses in one go using the appropriate combination of mouse and keyboard for your computer and browser. Excluded IPs are emphasised.',
+	'IP_BAN'					=> 'Verban één of meerdere IPs',
+	'IP_BAN_EXCLUDE_EXPLAIN'	=> 'Schakel dit in om de ingevoerde IP uit te sluiten van alle bestaande verbanningen.',
+	'IP_BAN_EXPLAIN'			=> 'Om meer de één IPs of hostnamen te specificeren, voer ieder IP in op een aparte regel. Om een bereik van IP-adressen, scheid de start en einde met een streepje (-), om een joker te specificeren gebruik “*”.',
+	'IP_HOSTNAME'				=> 'IP-adres of hostnamen',
+	'IP_NO_BANNED'				=> 'Geen verbannen IP-adressen',
+	'IP_UNBAN'					=> 'Opheffen verbanning of insluiten IPs',
+	'IP_UNBAN_EXPLAIN'			=> 'Je kan van meerdere IP-adressen de verbanning in één keer opheffen (of insluiten) door gebruik te maken van de juiste combinatie van muis en toetsenbord van je computer en browser. Uitgesloten IPs zijn benadrukt.',
 
-	'LENGTH_BAN_INVALID'		=> 'The date has to be formatted <kbd>YYYY-MM-DD</kbd>.',
+	'LENGTH_BAN_INVALID'		=> 'De datum moet ingevoerd worden als <kbd>JJJJ-MM-DD</kbd>.',
 
-	'OPTIONS_BANNED'			=> 'Banned',
-	'OPTIONS_EXCLUDED'			=> 'Excluded',
+	'OPTIONS_BANNED'			=> 'Verbannen',
+	'OPTIONS_EXCLUDED'			=> 'Uitgesloten',
 
 	'PERMANENT'		=> 'Permanent',
 
-	'UNTIL'						=> 'Until',
-	'USER_BAN'					=> 'Ban one or more usernames',
-	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'Enable this to exclude the entered users from all current bans.',
-	'USER_BAN_EXPLAIN'			=> 'You can ban multiple users in one go by entering each name on a new line. Use the <span style="text-decoration: underline;">Find a member</span> facility to look up and add one or more users automatically.',
-	'USER_NO_BANNED'			=> 'No banned usernames',
-	'USER_UNBAN'				=> 'Un-ban or un-exclude usernames',
-	'USER_UNBAN_EXPLAIN'		=> 'You can unban (or un-exclude) multiple users in one go using the appropriate combination of mouse and keyboard for your computer and browser. Excluded users are emphasised.',
+	'UNTIL'						=> 'Tot',
+	'USER_BAN'					=> 'Verban één of meerdere gebruikersnamen',
+	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'Schakel dit in om de ingevoerde gebruikersnamen uit te sluiten van alle bestaande verbanningen.',
+	'USER_BAN_EXPLAIN'			=> 'Je kan meerdere gebruikers in één keer verbannen door iedere naam op een aparte regel te zetten. Gebruik de <span style="text-decoration: underline;">Zoel een gebruiker</span> faciliteit om gebruikers te zoeken en één of meerdere automatisch toe te voegen.',
+	'USER_NO_BANNED'			=> 'Geen verbannen gebruikersnamen',
+	'USER_UNBAN'				=> 'Opheffen verbanning of insluiten gebruikersnamen',
+	'USER_UNBAN_EXPLAIN'		=> 'Je kan van meerdere gebruikers de verbanning in één keer opheffen (of insluiten) door gebruik te maken van de juiste combinatie van muis en toetsenbord van je computer en browser. Uitgesloten gebruikers zijn benadrukt.',
 ));

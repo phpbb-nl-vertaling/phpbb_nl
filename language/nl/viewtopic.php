@@ -1,7 +1,7 @@
 <?php
 /**
 *
-* viewtopic [English]
+* viewtopic [Dutch]
 *
 * @package language
 * @copyright (c) 2005 phpBB Group
@@ -35,91 +35,91 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'APPROVE'								=> 'Approve',
-	'ATTACHMENT'						=> 'Attachment',
-	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'The attachments feature has been disabled.',
+	'APPROVE'								=> 'Goedkeuren',
+	'ATTACHMENT'						=> 'Bijlage',
+	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'De bijlage functie is uitgeschakeld.',
 
-	'BOOKMARK_ADDED'		=> 'Bookmarked topic successfully.',
-	'BOOKMARK_ERR'			=> 'Bookmarking the topic failed. Please try again.',
-	'BOOKMARK_REMOVED'		=> 'Removed bookmarked topic successfully.',
-	'BOOKMARK_TOPIC'		=> 'Bookmark topic',
-	'BOOKMARK_TOPIC_REMOVE'	=> 'Remove from bookmarks',
-	'BUMPED_BY'				=> 'Last bumped by %1$s on %2$s.',
-	'BUMP_TOPIC'			=> 'Bump topic',
+	'BOOKMARK_ADDED'		=> 'Onderwerp succesvol als bladwijzer gemaakt.',
+	'BOOKMARK_ERR'			=> 'Onderwerp als bladwijzer maken mislukt. Probeer nogmaals.',
+	'BOOKMARK_REMOVED'		=> 'Bladwijzer onderwerp succesvol verwijderd.',
+	'BOOKMARK_TOPIC'		=> 'Onderwerp bladwijzeren',
+	'BOOKMARK_TOPIC_REMOVE'	=> 'Verwijder van bladwijzers',
+	'BUMPED_BY'				=> 'Laatst omhoog gehaald door %1$s op %2$s.',
+	'BUMP_TOPIC'			=> 'Onderwerp omhoog halen',
 
 	'CODE'					=> 'Code',
 
-	'DELETE_TOPIC'			=> 'Delete topic',
-	'DELETED_INFORMATION'	=> 'Deleted by %1$s on %2$s',
-	'DISAPPROVE'					=> 'Disapprove',
-	'DOWNLOAD_NOTICE'		=> 'You do not have the required permissions to view the files attached to this post.',
+	'DELETE_TOPIC'			=> 'Onderwerp verwijderen',
+	'DELETED_INFORMATION'	=> 'Verwijderd door %1$s op %2$s',
+	'DISAPPROVE'					=> 'Afkeuren',
+	'DOWNLOAD_NOTICE'		=> 'Je hebt niet de benodigde permissies om de bijlagen te bekeken van dit bericht.',
 
 	'EDITED_TIMES_TOTAL'	=> array(
-		1	=> 'Last edited by %2$s on %3$s, edited %1$d time in total.',
-		2	=> 'Last edited by %2$s on %3$s, edited %1$d times in total.',
+		1	=> 'Laatst gewijzigd door %2$s op %3$s, %1$d keer in totaal gewijzigd.',
+		2	=> 'Laatst gewijzigd door %2$s op %3$s, %1$d keer in totaal gewijzigd.',
 	),
-	'EMAIL_TOPIC'			=> 'Email friend',
-	'ERROR_NO_ATTACHMENT'	=> 'The selected attachment does not exist anymore.',
+	'EMAIL_TOPIC'			=> 'E-mail vriend',
+	'ERROR_NO_ATTACHMENT'	=> 'De geselecteerde bijlage bestaat niet meer.',
 
-	'FILE_NOT_FOUND_404'	=> 'The file <strong>%s</strong> does not exist.',
-	'FORK_TOPIC'			=> 'Copy topic',
-	'FULL_EDITOR'			=> 'Full Editor &amp; Preview',
+	'FILE_NOT_FOUND_404'	=> 'Het bestand <strong>%s</strong> bestaat niet meer.',
+	'FORK_TOPIC'			=> 'Onderwerp kopiëren',
+	'FULL_EDITOR'			=> 'Volledige bewerker &amp; Voorbeeld',
 
-	'LINKAGE_FORBIDDEN'		=> 'You are not authorised to view, download or link from/to this site.',
-	'LOGIN_NOTIFY_TOPIC'	=> 'You have been notified about this topic, please login to view it.',
-	'LOGIN_VIEWTOPIC'		=> 'The board requires you to be registered and logged in to view this topic.',
+	'LINKAGE_FORBIDDEN'		=> 'Je hebt niet de authorisatie om van of naar deze site te koppelen, downloaden of te bekijken.',
+	'LOGIN_NOTIFY_TOPIC'	=> 'Je bent op de hoogte gebracht van dit onderwerp, meld je aan om het te bekijken.',
+	'LOGIN_VIEWTOPIC'		=> 'De site benodigd je dat je aangemeld en geregistreerd bent om dit onderwerp te kunnen bekijken.',
 
-	'MAKE_ANNOUNCE'				=> 'Change to “Announcement”',
-	'MAKE_GLOBAL'				=> 'Change to “Global”',
-	'MAKE_NORMAL'				=> 'Change to “Standard Topic”',
-	'MAKE_STICKY'				=> 'Change to “Sticky”',
+	'MAKE_ANNOUNCE'				=> 'Verander naar “Aankondiging”',
+	'MAKE_GLOBAL'				=> 'Verander naar “Algemeen”',
+	'MAKE_NORMAL'				=> 'Verander naar “standaard onderwerp”',
+	'MAKE_STICKY'				=> 'Verander naar “Sticky”',
 	'MAX_OPTIONS_SELECT'		=> array(
-		1	=> 'You may select <strong>%d</strong> option',
-		2	=> 'You may select up to <strong>%d</strong> options',
+		1	=> 'Je mag <strong>%d</strong> optie selecteren',
+		2	=> 'Je mag tot <strong>%d</strong> opties selecteren',
 	),
-	'MISSING_INLINE_ATTACHMENT'	=> 'The attachment <strong>%s</strong> is no longer available',
-	'MOVE_TOPIC'				=> 'Move topic',
+	'MISSING_INLINE_ATTACHMENT'	=> 'De bijlage <strong>%s</strong> is niet meer beschikbaar',
+	'MOVE_TOPIC'				=> 'Onderwerp verplaatsen',
 
-	'NO_ATTACHMENT_SELECTED'=> 'You haven’t selected an attachment to download or view.',
-	'NO_NEWER_TOPICS'		=> 'There are no newer topics in this forum.',
-	'NO_OLDER_TOPICS'		=> 'There are no older topics in this forum.',
-	'NO_UNREAD_POSTS'		=> 'There are no new unread posts for this topic.',
-	'NO_VOTE_OPTION'		=> 'You must specify an option when voting.',
-	'NO_VOTES'				=> 'No votes',
+	'NO_ATTACHMENT_SELECTED'=> 'Je hebt geen bijlage geselecteerd om te bekijken of om te downloaden.',
+	'NO_NEWER_TOPICS'		=> 'Er zijn geen nieuwere onderwerpen in dit forum.',
+	'NO_OLDER_TOPICS'		=> 'Er zijn geen oudere onderwerpen in dit forum.',
+	'NO_UNREAD_POSTS'		=> 'Er zijn geen nieuwe ongelezen berichten voor dit onderwerp.',
+	'NO_VOTE_OPTION'		=> 'Je moet een optie specificeren tijdens het stemmen.',
+	'NO_VOTES'				=> 'Geen stemmen',
 
-	'POLL_ENDED_AT'			=> 'Poll ended at %s',
-	'POLL_RUN_TILL'			=> 'Poll runs till %s',
-	'POLL_VOTED_OPTION'		=> 'You voted for this option',
-	'POST_DELETED_RESTORE'	=> 'This post has been deleted. It can be restored.',
-	'PRINT_TOPIC'			=> 'Print view',
+	'POLL_ENDED_AT'			=> 'Peiling eindigde op %s',
+	'POLL_RUN_TILL'			=> 'Peiling loopt tot %s',
+	'POLL_VOTED_OPTION'		=> 'Je hebt gestemd voor deze optie',
+	'POST_DELETED_RESTORE'	=> 'Dit bericht is verwijderd. Het kan teruggebracht worden.',
+	'PRINT_TOPIC'			=> 'Print weergave',
 
-	'QUICK_MOD'				=> 'Quick-mod tools',
-	'QUICKREPLY'			=> 'Quick Reply',
+	'QUICK_MOD'				=> 'Quick-mod gereedschap',
+	'QUICKREPLY'			=> 'Snelle reactie',
 	'QUOTE'					=> 'Quote',
 
-	'REPLY_TO_TOPIC'		=> 'Reply to topic',
-	'RESTORE'				=> 'Restore',
-	'RESTORE_TOPIC'			=> 'Restore topic',
-	'RETURN_POST'			=> '%sReturn to the post%s',
+	'REPLY_TO_TOPIC'		=> 'Reageer op onderwerp',
+	'RESTORE'				=> 'Terugbrengen',
+	'RESTORE_TOPIC'			=> 'Onderwerp terugbrengen',
+	'RETURN_POST'			=> '%sGa terug naar bericht%s',
 
-	'SUBMIT_VOTE'			=> 'Submit vote',
+	'SUBMIT_VOTE'			=> 'Verstuur stem',
 
-	'TOPIC_TOOLS'			=> 'Topic tools',
-	'TOTAL_VOTES'			=> 'Total votes',
+	'TOPIC_TOOLS'			=> 'Onderwerp gereedschap',
+	'TOTAL_VOTES'			=> 'Totaal aantal stemmen',
 
-	'UNLOCK_TOPIC'			=> 'Unlock topic',
+	'UNLOCK_TOPIC'			=> 'Onderwerp openen',
 
-	'VIEW_INFO'				=> 'Post details',
-	'VIEW_NEXT_TOPIC'		=> 'Next topic',
-	'VIEW_PREVIOUS_TOPIC'	=> 'Previous topic',
-	'VIEW_RESULTS'			=> 'View results',
+	'VIEW_INFO'				=> 'Bericht details',
+	'VIEW_NEXT_TOPIC'		=> 'Volgend onderwerp',
+	'VIEW_PREVIOUS_TOPIC'	=> 'Vorig onderwerp',
+	'VIEW_RESULTS'			=> 'Bekijk resultaten',
 	'VIEW_TOPIC_POSTS'		=> array(
-		1	=> '%d post',
-		2	=> '%d posts',
+		1	=> '%d bericht',
+		2	=> '%d berichten',
 	),
-	'VIEW_UNREAD_POST'		=> 'First unread post',
+	'VIEW_UNREAD_POST'		=> 'Eerst ongelezen bericht',
 	'VISIT_WEBSITE'			=> 'WWW',
-	'VOTE_SUBMITTED'		=> 'Your vote has been cast.',
-	'VOTE_CONVERTED'		=> 'Changing votes is not supported for converted polls.',
+	'VOTE_SUBMITTED'		=> 'Je stem is verwerkt.',
+	'VOTE_CONVERTED'		=> 'Veranderen van stemmen wordt niet ondersteund voor geconverteerde peilingen.',
 
 ));
