@@ -36,11 +36,11 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'CAPTCHA_QA'				=> 'V&amp;A',
-	'CONFIRM_QUESTION_EXPLAIN'	=> 'Deze vraag tis bedoeld om geautomatiseerde toegang van spambots tegen te gaan.',
+	'CONFIRM_QUESTION_EXPLAIN'	=> 'Deze vraag is bedoeld om geautomatiseerde toegang van spambots tegen te gaan.',
 	'CONFIRM_QUESTION_WRONG'	=> 'Je hebt een verkeerd antwoord op de vraag gegeven.',
 
 	'QUESTION_ANSWERS'			=> 'Antwoorden',
-	'ANSWERS_EXPLAIN'			=> 'Vul een goed antwoord in voor de vraag, één per regel.',
+	'ANSWERS_EXPLAIN'			=> 'Vul hier de antwoorden op de vraag in, één per regel.',
 	'CONFIRM_QUESTION'			=> 'Vraag',
 
 	'ANSWER'					=> 'Antwoord',
@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 	'QUESTIONS_EXPLAIN'			=> 'Voor elke verzendformulier waar je de V&amp;A plugin voor hebt ingeschakeld, zullen de gebruikers één van de vragen gevraagd worden die hier zijn gespecificeerd. Om deze plugin te kunnen gebruiken, moet tenminste één vraag ingesteld zijn in de standaard taal. Deze vragen moeten makkelijk zijn voor je publiek om te beantwoorden, maar voorbij de mogelijkheid zijn voor een bot om een Google™ zoekopdracht te doen. Een grote en regelmatig wisselende set van vragen zal de beste resultaten voortbrengen. Schakel de strikte instelling in als je vraag vertrouwt op hoofdletter gebruik, leestekens of spaties.',
 	'QUESTION_DELETED'			=> 'Vraag verwijderd',
 	'QUESTION_LANG'				=> 'Taal',
-	'QUESTION_LANG_EXPLAIN'		=> 'Het taalpakket waar in deze vraag en de antwoorden in geschreven zijn.',
+	'QUESTION_LANG_EXPLAIN'		=> 'Het taalpakket waar in deze vraag en de antwoorden geschreven zijn.',
 	'QUESTION_STRICT'			=> 'Strikte controle',
 	'QUESTION_STRICT_EXPLAIN'	=> 'Schakel in om hoofdletter gebruik, leestekens en spaties te controleren.',
 
