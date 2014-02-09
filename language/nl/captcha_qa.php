@@ -44,9 +44,9 @@ $lang = array_merge($lang, array(
 	'CONFIRM_QUESTION'			=> 'Vraag',
 
 	'ANSWER'					=> 'Antwoord',
-	'EDIT_QUESTION'				=> 'Wijzig vraag',
+	'EDIT_QUESTION'				=> 'Vraag wijzigen',
 	'QUESTIONS'					=> 'Vragen',
-	'QUESTIONS_EXPLAIN'			=> 'Voor elke verzendformulier waar je de V&amp;A plugin voor hebt ingeschakeld, zullen de gebruikers één van de vragen gevraagd worden die hier zijn gespecificeerd. Om deze plugin te kunnen gebruiken, moet tenminste één vraag ingesteld zijn in de standaard taal. Deze vragen moeten makkelijk zijn voor je publiek om te beantwoorden, maar voorbij de mogelijkheid zijn voor een bot om een Google™ zoekopdracht te doen. Een grote en regelmatig wisselende set van vragen zal de beste resultaten voortbrengen. Schakel de strikte instelling in als je vraag vertrouwt op hoofdletter gebruik, leestekens of spaties.',
+	'QUESTIONS_EXPLAIN'			=> 'Bij elk verstuurd formulier waar je de V&amp;A plug-in hebt ingeschakeld worden één van de volgende vragen gesteld aan de gebruikers die je hier hebt opgegeven. Je moet minimaal één vraag in de standaardtaal van het forum opgeven om deze plug-in te gebruiken. De vragen moeten simpel zijn voor je doelpubliek, maar buiten de mogelijkheden vallen van dat een bot deze kan opzoeken via Google™. Vergeet ook niet regelmatig de vragen aan te passen. Schakel de strikte controle in, indien je vraag afhankelijk is van zowel hoofdletters als kleine, interpunctie of spaties.',
 	'QUESTION_DELETED'			=> 'Vraag verwijderd',
 	'QUESTION_LANG'				=> 'Taal',
 	'QUESTION_LANG_EXPLAIN'		=> 'Het taalpakket waar in deze vraag en de antwoorden geschreven zijn.',
