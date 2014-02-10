@@ -353,7 +353,7 @@ $lang = array_merge($lang, array(
 	'SPLIT_TOPIC_BEYOND_CONFIRM'		=> 'Weet je zeker dat je dit onderwerp wilt splitsen vanaf het geselecteerde bericht?',
 	'SPLIT_TOPIC_EXPLAIN'				=> 'Door het gebruik van het formulier hieronder kan je een onderwerp splitsen in tweeën, door de berichten individueel te selecteren of door te splitsen vanaf een geselecteerd bericht.',
 
-	'THIS_PM_IP'				=> 'IP voor dit privé bericht',
+	'THIS_PM_IP'				=> 'IP voor dit privébericht',
 	'THIS_POST_IP'				=> 'IP voor dit bericht',
 	'TOPICS_APPROVED_SUCCESS'	=> 'De geselecteerde onderwerpen zijn goedgekeurd.',
 	'TOPICS_DELETED_SUCCESS'	=> 'De geselecteerde onderwerpen zijn succesvol verwijderd van de database.',
@@ -402,7 +402,7 @@ $lang = array_merge($lang, array(
 	'USER_WARNING_ADDED'			=> 'Gebruiker succesvol gewaarschuwd.',
 
 	'VIEW_DETAILS'			=> 'Bekijk details',
-	'VIEW_PM'				=> 'Bekijk privé bericht',
+	'VIEW_PM'				=> 'Bekijk privébericht',
 	'VIEW_POST'				=> 'Bekijk bericht',
 
 	'WARNED_USERS'			=> 'Gewaarschuwde gebruikers',

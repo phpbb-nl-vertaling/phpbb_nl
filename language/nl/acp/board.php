@@ -91,8 +91,8 @@ $lang = array_merge($lang, array(
 	'ALLOW_SIG_SMILIES'			=> 'Gebruik van smilies in onderschriften inschakelen',
 	'ALLOW_SMILIES'				=> 'Smilies inschakelen',
 	'ALLOW_TOPIC_NOTIFY'		=> 'Abonneren op onderwerpen inschakelen',
-	'BOARD_PM'					=> 'Privé berichten',
-	'BOARD_PM_EXPLAIN'			=> 'Privé berichten voor alle gebruikers inschakelen.',
+	'BOARD_PM'					=> 'Privéberichten',
+	'BOARD_PM_EXPLAIN'			=> 'Privéberichten voor alle gebruikers inschakelen.',
 ));
 
 // Avatar Settings
@@ -127,7 +127,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_BBCODE_PM'			=> 'BBCode in privé berichten inschakelen',
 	'ALLOW_FLASH_PM'			=> 'Gebruik van <code>[FLASH]</code> BBCode tag inschakelen',
 	'ALLOW_FLASH_PM_EXPLAIN'	=> 'Let op dat het gebruik van flash in privé berichten, indien toegestaan hier, ook afhankelijk is van de permissies.',
-	'ALLOW_FORWARD_PM'			=> 'Doorsturen van privé berichten inschakelen',
+	'ALLOW_FORWARD_PM'			=> 'Doorsturen van privéberichten inschakelen',
 	'ALLOW_IMG_PM'				=> 'Gebruik van <code>[IMG]</code> BBCode tag inschakelen',
 	'ALLOW_MASS_PM'				=> 'Het sturen van privé berichten naar meerdere gebruikers en groepen inschakelen',
 	'ALLOW_MASS_PM_EXPLAIN'		=> 'Het versturen naar groepen kan aangepast worden per groep in de groepsinstellingen pagina.',
@@ -137,7 +137,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_SMILIES_PM'			=> 'Smilies in privé berichten inschakelen',
 	'BOXES_LIMIT'				=> 'Maximum privé berichten per box',
 	'BOXES_LIMIT_EXPLAIN'		=> 'Gebruikers kunnen niet mer dan deze hoeveelheid ontvangen in ieder privé bericht box. Stel deze waarde in op 0 om ongelimiteerd aantal berichten toe te staan.',
-	'BOXES_MAX'					=> 'Maximum privé berichtmappen',
+	'BOXES_MAX'					=> 'Maximum privébericht mappen',
 	'BOXES_MAX_EXPLAIN'			=> 'Standaard kunnen gebruikers deze hoeveelheid persoonlijke mappen maken voor privé berichten.',
 	'ENABLE_PM_ICONS'			=> 'Gebruik van onderwerpiconen in privé berichten inschakelen',
 	'FULL_FOLDER_ACTION'		=> 'Volle map standaard actie',
@@ -229,7 +229,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_EMAIL_REUSE'			=> 'E-mailadres hergebruik toestaan',
 	'ALLOW_EMAIL_REUSE_EXPLAIN'	=> 'Verschillende gebruikers kunnen registreren met hetzelfde e-mailadres.',
 	'COPPA'						=> 'COPPA',
-	'COPPA_FAX'					=> 'COPPA fax nummer',
+	'COPPA_FAX'					=> 'COPPA faxnummer',
 	'COPPA_MAIL'				=> 'COPPA mailadres',
 	'COPPA_MAIL_EXPLAIN'		=> 'Dit is het mailadres waar ouders de COPPA registratie formulieren heen kunnen sturen.',
 	'ENABLE_COPPA'				=> 'COPPA inschakelen',
@@ -264,7 +264,7 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_SETTINGS_OTHER'			=> 'Andere feeds en instellingen',
 
 	'ACP_FEED_ENABLE'					=> 'Feeds inschakelen',
-	'ACP_FEED_ENABLE_EXPLAIN'			=> 'Zet de ATOM feeds voor het gehele forum aan of uit.<br />Door dit uit te schakelen, worden alle feeds ondanks de instellingen hieronder ook uitgeschakeld.',
+	'ACP_FEED_ENABLE_EXPLAIN'			=> 'Zet de ATOM-feeds voor het gehele forum aan of uit.<br />Door dit uit te schakelen, worden alle feeds ondanks de instellingen hieronder ook uitgeschakeld.',
 	'ACP_FEED_LIMIT'					=> 'Aantal items',
 	'ACP_FEED_LIMIT_EXPLAIN'			=> 'Het maximum aantal feed items om weer te geven.',
 
@@ -285,8 +285,8 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_OVERALL_FORUMS'			=> 'Forums feed inschakelen',
 	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> 'Schakelt de “Alle forums” feed in, welke een lijst van forums weergeeft.',
 
-	'ACP_FEED_HTTP_AUTH'				=> 'HTTP Authenticatie toestaan',
-	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'Schakelt HTTP authenticatie in, welke toestaat gebruikers inhoud te ontvangen dat verborgen is voor gasten door het toevoegen van de <samp>auth=http</samp> parameter aan de feed URL. Let op dat sommige PHP setups extra veranderingen vereisen aan het .htaccess bestand. Instructies kunnen gevonden worden in dat bestand.',
+	'ACP_FEED_HTTP_AUTH'				=> 'HTTP-Authenticatie toestaan',
+	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'Schakelt HTTP-authenticatie in, welke toestaat gebruikers inhoud te ontvangen dat verborgen is voor gasten door het toevoegen van de <samp>auth=http</samp> parameter aan de feed URL. Let op dat sommige PHP setups extra veranderingen vereisen aan het .htaccess bestand. Instructies kunnen gevonden worden in dat bestand.',
 	'ACP_FEED_ITEM_STATISTICS'			=> 'Item statistieken',
 	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'Geeft individuele statistieken weer onder de feed items<br />(bijv. geplaatst door, datum en tijd, reacties, weergaves)',
 	'ACP_FEED_EXCLUDE_ID'				=> 'Deze forums uitsluiten',
@@ -339,14 +339,14 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Deze details definiëren de data dat gebruikt wordt om cookies te versturen naar de browsers van je gebruikers. In de meeste gevallen moet de standaard waardes voor de cookie instellingen genoeg zijn. Als je wel veranderingen moet aanbrengen, doe dit dan voorzichtig, incorrecte instellingen kunnen voorkomen dat gebruiker zich kunnen aanmelden.',
 
-	'COOKIE_DOMAIN'				=> 'Cookie domein',
-	'COOKIE_NAME'				=> 'Cookie naam',
-	'COOKIE_PATH'				=> 'Cookie pad',
-	'COOKIE_SECURE'				=> 'Cookie beveiliging',
+	'COOKIE_DOMAIN'				=> 'Cookie-domein',
+	'COOKIE_NAME'				=> 'Cookie-naam',
+	'COOKIE_PATH'				=> 'Cookie-pad',
+	'COOKIE_SECURE'				=> 'Cookie-beveiliging',
 	'COOKIE_SECURE_EXPLAIN'		=> 'Als je server draait via SSL, stel dit dan ingeschakeld in, laat het anders uitgeschakeld. Als je dit ingeschakeld hebt en niet draait via SSL zal resulteren in server fouten tijdens doorsturingen.',
 	'ONLINE_LENGTH'				=> 'Bekijk online tijdsduur',
 	'ONLINE_LENGTH_EXPLAIN'		=> 'Aantal minuten waarna inactieve gebruikers niet meer in de “Wie is online” lijst zal voorkomen. Hoe hoger deze waarde is, des te groter de verwerking vereist is om de lijst aan te maken.',
-	'SESSION_LENGTH'			=> 'Sessie lengte',
+	'SESSION_LENGTH'			=> 'Sessielengte',
 	'SESSION_LENGTH_EXPLAIN'	=> 'Sessies zullen verlopen na deze tijd, in secondes.',
 ));
 
@@ -404,24 +404,24 @@ $lang = array_merge($lang, array(
 
 	'APACHE_SETUP_BEFORE_USE'	=> 'Je moet apache authenticatie instellen voordat je phpBB schakelt naar deze authenticatie methode. Onthoud dat de gebruikersnaam die je gebruikt voor apache authenticatie gelijk moet zijn als je phpBB gebruikersnaam. Apache authenticatie kan alleen gebruikt worden met mod_php (niet met een CGI versie) en safe_mode uitgeschakeled.',
 
-	'LDAP_DN'						=> 'LDAP base <var>dn</var>',
+	'LDAP_DN'						=> 'LDAP-base <var>dn</var>',
 	'LDAP_DN_EXPLAIN'				=> 'Dit is de Distinguished Naam, lokaliserend de gebruikersinformatie, bijv. <samp>o=Mijn Bedrijf,c=US</samp>.',
-	'LDAP_EMAIL'					=> 'LDAP e-mail attribuut',
+	'LDAP_EMAIL'					=> 'LDAP-e-mailattribuut',
 	'LDAP_EMAIL_EXPLAIN'			=> 'Stel dit in op de naam van je gebruikers aanmeldings e-mail attribuut (als er één bestaat) om automatisch het e-mailadres in te stellen voor nieuwe gebruikers. Als je dit leeg laat, zal dit resulteren in lege e-mailadressen voor gebruikers die zich aanmelden voor de eerste keer.',
 	'LDAP_INCORRECT_USER_PASSWORD'	=> 'Verbinding naar de LDAP server gefaald met gespecificeerde gebruiker/wachtwoord.',
 	'LDAP_NO_EMAIL'					=> 'Het gespecificeerde e-mail attribuut bestaat niet.',
 	'LDAP_NO_IDENTITY'				=> 'Kan geen aanmeld identiteit vinden voor %s.',
 	'LDAP_PASSWORD'					=> 'LDAP wachtwoord',
 	'LDAP_PASSWORD_EXPLAIN'			=> 'Laat dit leeg om anonieme verbinding te gebruiken, vul anders het wachtwoord in voor de bovenstaande gebruiker. Vereist voor Active Directory Servers.<br /><em><strong>Waarschuwing:</strong> Dit wachtwoord zal worden opgeslagen als platte tekst in de database, zichtbaar voor iedereen die toegang heeft tot je database of diegene die deze pagina kan bekijken.</em>',
-	'LDAP_PORT'						=> 'LDAP server port',
+	'LDAP_PORT'						=> 'LDAP-serverpoort',
 	'LDAP_PORT_EXPLAIN'				=> 'Optioneel kan je een port specificeren welke gebruikt moet worden om verbinding te maken met de LDAP server in plaats van de standaard port 389.',
-	'LDAP_SERVER'					=> 'LDAP server naam',
+	'LDAP_SERVER'					=> 'LDAP-servernaam',
 	'LDAP_SERVER_EXPLAIN'			=> 'Als je gebruikt maakt van LDAP dan is dit de hostnaam of IP adres van de LDAP server. Als alternatief kan je ook een URL specificeren zoals ldap://hostname:port/',
-	'LDAP_UID'						=> 'LDAP <var>uid</var>',
+	'LDAP_UID'						=> 'LDAP-<var>uid</var>',
 	'LDAP_UID_EXPLAIN'				=> 'Dit is de sleutel waaronder te zoeken voor een opgegeven aanmeld identiteit, bijv. <var>uid</var>, <var>sn</var>, etc.',
-	'LDAP_USER'						=> 'LDAP gebruiker <var>dn</var>',
+	'LDAP_USER'						=> 'LDAP-gebruiker <var>dn</var>',
 	'LDAP_USER_EXPLAIN'				=> 'Laat dit leeg om anonieme verbinding te gebruiken. Indien ingevuld, phpBB zal dan de gespecificeerde distinguished naam gebruiken bij aanmeldpogingen om de correcte gebruiker te vinden, bijv. <samp>uid=Gebruikersnaam,ou=MijnUnit,o=MijnBedrijf,c=US</samp>. Vereist voor Active Directory Servers.',
-	'LDAP_USER_FILTER'				=> 'LDAP gebruikersfilter',
+	'LDAP_USER_FILTER'				=> 'LDAP-gebruikersfilter',
 	'LDAP_USER_FILTER_EXPLAIN'		=> 'Optioneel kan je de doorzochte objecten limiteren met extra filters. Bijvoorbeeld <samp>objectClass=posixGroup</samp> zal resulteren in het gebruik van <samp>(&amp;(uid=$username)(objectClass=posixGroup))</samp>',
 ));
 
