@@ -1,7 +1,7 @@
 <?php
 /**
 *
-* acp_common [English]
+* acp_common [Dutch]
 *
 * @package language
 * @copyright (c) 2005 phpBB Group
@@ -52,9 +52,9 @@ $lang = array_merge($lang, array(
 	'ACP_BAN_USERNAMES'			=> 'Ban usernames',
 	'ACP_BBCODES'				=> 'BBCodes',
 	'ACP_BOARD_CONFIGURATION'	=> 'Board configuration',
-	'ACP_BOARD_FEATURES'		=> 'Board features',
+	'ACP_BOARD_FEATURES'		=> 'Forumfuncties',
 	'ACP_BOARD_MANAGEMENT'		=> 'Board management',
-	'ACP_BOARD_SETTINGS'		=> 'Board settings',
+	'ACP_BOARD_SETTINGS'		=> 'Foruminstellingen',
 	'ACP_BOTS'					=> 'Spiders/Robots',
 
 	'ACP_CAPTCHA'				=> 'CAPTCHA',
@@ -80,10 +80,10 @@ $lang = array_merge($lang, array(
 	'ACP_DISALLOW'				=> 'Disallow',
 	'ACP_DISALLOW_USERNAMES'	=> 'Disallow usernames',
 
-	'ACP_EMAIL_SETTINGS'		=> 'Email settings',
+	'ACP_EMAIL_SETTINGS'		=> 'E-mailinstellingen',
 	'ACP_EXTENSION_GROUPS'		=> 'Manage attachment extension groups',
 	'ACP_EXTENSION_MANAGEMENT'	=> 'Extension management',
-	'ACP_EXTENSIONS'			=> 'Extensions',
+	'ACP_EXTENSIONS'			=> 'Extensies',
 
 
 	'ACP_FORUM_BASED_PERMISSIONS'	=> 'Forum based permissions',
@@ -98,11 +98,11 @@ $lang = array_merge($lang, array(
 	'ACP_GENERAL_TASKS'				=> 'General tasks',
 	'ACP_GLOBAL_MODERATORS'			=> 'Global moderators',
 	'ACP_GLOBAL_PERMISSIONS'		=> 'Global permissions',
-	'ACP_GROUPS'					=> 'Groups',
+	'ACP_GROUPS'					=> 'Groepen',
 	'ACP_GROUPS_FORUM_PERMISSIONS'	=> 'Group forum permissions',
-	'ACP_GROUPS_MANAGE'				=> 'Manage groups',
-	'ACP_GROUPS_MANAGEMENT'			=> 'Group management',
-	'ACP_GROUPS_PERMISSIONS'		=> 'Group permissions',
+	'ACP_GROUPS_MANAGE'				=> 'Beheer groepen',
+	'ACP_GROUPS_MANAGEMENT'			=> 'Groepsbeheer',
+	'ACP_GROUPS_PERMISSIONS'		=> 'Groepspermissies',
 	'ACP_GROUPS_POSITION'			=> 'Manage group positions',
 
 	'ACP_ICONS'					=> 'Topic icons',
@@ -110,35 +110,35 @@ $lang = array_merge($lang, array(
 	'ACP_INACTIVE_USERS'		=> 'Inactive users',
 	'ACP_INDEX'					=> 'ACP index',
 
-	'ACP_JABBER_SETTINGS'		=> 'Jabber settings',
+	'ACP_JABBER_SETTINGS'		=> 'Jabber-instellingen',
 
 	'ACP_LANGUAGE'				=> 'Language management',
-	'ACP_LANGUAGE_PACKS'		=> 'Language packs',
-	'ACP_LOAD_SETTINGS'			=> 'Load settings',
+	'ACP_LANGUAGE_PACKS'		=> 'Taalpaketten',
+	'ACP_LOAD_SETTINGS'			=> 'Laadinstellingen',
 	'ACP_LOGGING'				=> 'Logging',
 
-	'ACP_MAIN'					=> 'ACP index',
+	'ACP_MAIN'					=> 'Beheerdersoverzicht',
 
 	'ACP_MANAGE_ATTACHMENTS'			=> 'Manage attachments',
 	'ACP_MANAGE_ATTACHMENTS_EXPLAIN'	=> 'Here you can list and delete files attached to posts and private messages.',
 
 	'ACP_MANAGE_EXTENSIONS'		=> 'Manage attachment extensions',
-	'ACP_MANAGE_FORUMS'			=> 'Manage forums',
-	'ACP_MANAGE_RANKS'			=> 'Manage ranks',
+	'ACP_MANAGE_FORUMS'			=> 'Beheer forums',
+	'ACP_MANAGE_RANKS'			=> 'Beheer rangen',
 	'ACP_MANAGE_REASONS'		=> 'Manage report/denial reasons',
 	'ACP_MANAGE_USERS'			=> 'Manage users',
 	'ACP_MASS_EMAIL'			=> 'Mass email',
-	'ACP_MESSAGES'				=> 'Messages',
-	'ACP_MESSAGE_SETTINGS'		=> 'Private message settings',
-	'ACP_MODULE_MANAGEMENT'		=> 'Module management',
+	'ACP_MESSAGES'				=> 'Berichten',
+	'ACP_MESSAGE_SETTINGS'		=> 'Privéberichten instellingen',
+	'ACP_MODULE_MANAGEMENT'		=> 'Modulebeheer',
 	'ACP_MOD_LOGS'				=> 'Moderator log',
-	'ACP_MOD_ROLES'				=> 'Moderator roles',
+	'ACP_MOD_ROLES'				=> 'Moderator rollen',
 
-	'ACP_NO_ITEMS'				=> 'There are no items yet.',
+	'ACP_NO_ITEMS'				=> 'Er zijn nog geen items.',
 
-	'ACP_ORPHAN_ATTACHMENTS'	=> 'Orphaned attachments',
+	'ACP_ORPHAN_ATTACHMENTS'	=> 'Berichtloze bijlagen',
 
-	'ACP_PERMISSIONS'			=> 'Permissions',
+	'ACP_PERMISSIONS'			=> 'Permissies',
 	'ACP_PERMISSION_MASKS'		=> 'Permission masks',
 	'ACP_PERMISSION_ROLES'		=> 'Permission roles',
 	'ACP_PERMISSION_TRACE'		=> 'Permission trace',
@@ -177,7 +177,7 @@ $lang = array_merge($lang, array(
 	'ACP_SUBMIT_CHANGES'		=> 'Submit changes',
 
 	'ACP_TEMPLATES'				=> 'Templates',
-	'ACP_THEMES'				=> 'Themes',
+	'ACP_THEMES'				=> 'Thema\'s',
 
 	'ACP_UPDATE'					=> 'Updating',
 	'ACP_USERS_FORUM_PERMISSIONS'	=> 'User forum permissions',
@@ -186,17 +186,17 @@ $lang = array_merge($lang, array(
 	'ACP_USER_ATTACH'				=> 'Attachments',
 	'ACP_USER_AVATAR'				=> 'Avatar',
 	'ACP_USER_FEEDBACK'				=> 'Feedback',
-	'ACP_USER_GROUPS'				=> 'Groups',
+	'ACP_USER_GROUPS'				=> 'Groepen',
 	'ACP_USER_MANAGEMENT'			=> 'User management',
 	'ACP_USER_OVERVIEW'				=> 'Overview',
-	'ACP_USER_PERM'					=> 'Permissions',
+	'ACP_USER_PERM'					=> 'Permissies',
 	'ACP_USER_PREFS'				=> 'Preferences',
-	'ACP_USER_PROFILE'				=> 'Profile',
-	'ACP_USER_RANK'					=> 'Rank',
-	'ACP_USER_ROLES'				=> 'User roles',
+	'ACP_USER_PROFILE'				=> 'Profiel',
+	'ACP_USER_RANK'					=> 'Rang',
+	'ACP_USER_ROLES'				=> 'Gebruikersrollen',
 	'ACP_USER_SECURITY'				=> 'User security',
-	'ACP_USER_SIG'					=> 'Signature',
-	'ACP_USER_WARNINGS'				=> 'Warnings',
+	'ACP_USER_SIG'					=> 'Onderschrift',
+	'ACP_USER_WARNINGS'				=> 'Waarschuwingen',
 
 	'ACP_VC_SETTINGS'					=> 'Spambot countermeasures',
 	'ACP_VC_CAPTCHA_DISPLAY'			=> 'CAPTCHA image preview',
@@ -209,18 +209,18 @@ $lang = array_merge($lang, array(
 
 	'ACP_WORDS'					=> 'Word censoring',
 
-	'ACTION'				=> 'Action',
-	'ACTIONS'				=> 'Actions',
+	'ACTION'				=> 'Actie',
+	'ACTIONS'				=> 'Acties',
 	'ACTIVATE'				=> 'Activate',
-	'ADD'					=> 'Add',
+	'ADD'					=> 'Toevoegen',
 	'ADMIN'					=> 'Administration',
 	'ADMIN_INDEX'			=> 'Admin index',
-	'ADMIN_PANEL'			=> 'Administration Control Panel',
+	'ADMIN_PANEL'			=> 'Beheerderscontrolepaneel',
 
 	'ADM_LOGOUT'			=> 'ACP&nbsp;Logout',
 	'ADM_LOGGED_OUT'		=> 'Successfully logged out from Administration Control Panel',
 
-	'BACK'					=> 'Back',
+	'BACK'					=> 'Terug',
 
 	'COLOUR_SWATCH'			=> 'Web-safe colour swatch',
 	'CONFIG_UPDATED'		=> 'Configuration updated successfully.',
