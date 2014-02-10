@@ -39,7 +39,7 @@ $lang = array_merge($lang, array(
 	'PLUPLOAD_ADD_FILES'		=> 'Bestanden toevoegen',
 	'PLUPLOAD_ADD_FILES_TO_QUEUE'	=> 'Bestanden toevoegen aan de wachtrij en klik op de startknop.',
 	'PLUPLOAD_ALREADY_QUEUED'	=> '%s staat al in de wachtrij.',
-	'PLUPLOAD_CLOSE'			=> 'Close',
+	'PLUPLOAD_CLOSE'			=> 'Sluit',
 	'PLUPLOAD_DRAG'				=> 'Sleep bestanden hierheen.',
 	'PLUPLOAD_DUPLICATE_ERROR'	=> 'Dubbele bestandsfout.',
 	'PLUPLOAD_DRAG_TEXTAREA'	=> 'Je kan ook bestanden toevoegen door ze naar het tekstvak te slepen.',
@@ -47,7 +47,7 @@ $lang = array_merge($lang, array(
 	'PLUPLOAD_ERR_MOVE_UPLOADED'	=> 'Mislukt om geüploade bestand te verplaatsen.',
 	'PLUPLOAD_ERR_OUTPUT'		=> 'Mislukt om output stream te openen.',
 	'PLUPLOAD_ERR_FILE_TOO_LARGE'	=> 'Fout: Bestand te groot:',
-	'PLUPLOAD_ERR_FILE_COUNT'	=> 'Bestand teller fout.',
+	'PLUPLOAD_ERR_FILE_COUNT'	=> 'Bestandsteller fout.',
 	'PLUPLOAD_ERR_FILE_INVALID_EXT'	=> 'Fout: Ongeldig bestandsextensie:',
 	'PLUPLOAD_ERR_RUNTIME_MEMORY'	=> 'Runtime heeft geen geheugen meer over.',
 	'PLUPLOAD_ERR_UPLOAD_URL'	=> 'Upload URL kan verkeerd zijn of bestaat niet.',
@@ -57,7 +57,7 @@ $lang = array_merge($lang, array(
 	'PLUPLOAD_FILENAME'			=> 'Bestandsnaam',
 	'PLUPLOAD_FILES_QUEUED'		=> '%d bestanden in wachtrij',
 	'PLUPLOAD_GENERIC_ERROR'	=> 'Algemene fout.',
-	'PLUPLOAD_HTTP_ERROR'		=> 'HTTP fout.',
+	'PLUPLOAD_HTTP_ERROR'		=> 'HTTP-fout.',
 	'PLUPLOAD_IMAGE_FORMAT'		=> 'Afbeeldingsformaat verkeerd of wordt niet ondersteund.',
 	'PLUPLOAD_INIT_ERROR'		=> 'Init fout.',
 	'PLUPLOAD_IO_ERROR'			=> 'IO fout.',
@@ -73,5 +73,5 @@ $lang = array_merge($lang, array(
 	'PLUPLOAD_STOP_CURRENT_UPLOAD'	=> 'Stop bestaande upload',
 	// Note: This string is formatted independently by plupload and so does not
 	// use the same formatting rules as normal phpBB translation strings
-	'PLUPLOAD_UPLOADED'			=> '%d/%d bestanden geüpload',
+	'PLUPLOAD_UPLOADED'			=> '%d/%d bestanden geŸpload',
 ));
