@@ -422,7 +422,7 @@ $lang = array_merge($lang, array(
 			'OTHER'		=> 'Anders',
 		),
 		'DESCRIPTION' => array(
-			'WAREZ'		=> 'Het bericht bevat koppelingen naar illegalessoftware.',
+			'WAREZ'		=> 'Het bericht bevat koppelingen naar illegale software.',
 			'SPAM'		=> 'Het gemelde bericht heeft als enige doel om te adverteren voor een website of een ander product.',
 			'OFF_TOPIC'	=> 'Het gemelde bericht valt buiten het onderwerp.',
 			'OTHER'		=> 'Het gemelde bericht val niet onder een categorie, vul het volgende informatieveld in.',
