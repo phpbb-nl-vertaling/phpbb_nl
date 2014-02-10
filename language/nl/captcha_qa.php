@@ -36,11 +36,11 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'CAPTCHA_QA'				=> 'V&amp;A',
-	'CONFIRM_QUESTION_EXPLAIN'	=> 'Deze vraag is bedoeld om geautomatiseerde toegang van spambots tegen te gaan.',
-	'CONFIRM_QUESTION_WRONG'	=> 'Je hebt een verkeerd antwoord op de vraag gegeven.',
+	'CONFIRM_QUESTION_EXPLAIN'	=> 'Deze vraag is bedoeld om spam te voorkomen.',
+	'CONFIRM_QUESTION_WRONG'	=> 'Je hebt een onjuist antwoord gegeven op de vraag.',
 
 	'QUESTION_ANSWERS'			=> 'Antwoorden',
-	'ANSWERS_EXPLAIN'			=> 'Vul hier de antwoorden op de vraag in, één per regel.',
+	'ANSWERS_EXPLAIN'			=> 'Vul hier de antwoorden op de vraag in, één antwoord per regel.',
 	'CONFIRM_QUESTION'			=> 'Vraag',
 
 	'ANSWER'					=> 'Antwoord',
@@ -49,14 +49,14 @@ $lang = array_merge($lang, array(
 	'QUESTIONS_EXPLAIN'			=> 'Bij elk verstuurd formulier waar je de V&amp;A plug-in hebt ingeschakeld worden één van de volgende vragen gesteld aan de gebruikers die je hier hebt opgegeven. Je moet minimaal één vraag in de standaardtaal van het forum opgeven om deze plug-in te gebruiken. De vragen moeten simpel zijn voor je doelpubliek, maar buiten de mogelijkheden vallen van dat een bot deze kan opzoeken via Google™. Vergeet ook niet regelmatig de vragen aan te passen. Schakel de strikte controle in, indien je vraag afhankelijk is van zowel hoofdletters als kleine, interpunctie of spaties.',
 	'QUESTION_DELETED'			=> 'Vraag verwijderd',
 	'QUESTION_LANG'				=> 'Taal',
-	'QUESTION_LANG_EXPLAIN'		=> 'Het taalpakket waar in deze vraag en de antwoorden geschreven zijn.',
+	'QUESTION_LANG_EXPLAIN'		=> 'De taal waarin deze vraag en het antwoord zijn geschreven.',
 	'QUESTION_STRICT'			=> 'Strikte controle',
-	'QUESTION_STRICT_EXPLAIN'	=> 'Schakel in om hoofdletter gebruik, leestekens en spaties te controleren.',
+	'QUESTION_STRICT_EXPLAIN'	=> 'Schakel in om de controle hoofdletter-, interpunctie- en spatiegevoelig te laten zijn.',
 
 	'QUESTION_TEXT'				=> 'Vraag',
-	'QUESTION_TEXT_EXPLAIN'		=> 'De vraag die gesteld wordt aan de gebruiker.',
+	'QUESTION_TEXT_EXPLAIN'		=> 'De vraag die gesteld zal worden aan de gebruiker.',
 
-	'QA_ERROR_MSG'				=> 'Vul alle velden in en voer tenminste één antwoord in.',
-	'QA_LAST_QUESTION'			=> 'Je kan niet alle vragen verwijderen terwijl de plugin actief is.',
+	'QA_ERROR_MSG'				=> 'Vul alle velden in en geef minimaal één antwoord.',
+	'QA_LAST_QUESTION'			=> 'Je kunt niet alle vragen verwijderen terwijl de plug-in actief is.',
 
 ));
