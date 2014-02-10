@@ -1,13 +1,13 @@
-Subject: Topic moderation notification - "{TOPIC_TITLE}"
+Subject: Goedkeuring nodig voor - "{TOPIC_TITLE}"
 
-Hello {USERNAME},
+Hallo {USERNAME},
 
-You are receiving this notification because the topic "{TOPIC_TITLE}" at "{SITENAME}" needs approval.
+Je ontvangt deze e-mail omdat het onderwerp  "{TOPIC_TITLE}" op "{SITENAME}" goedkeuring nodig heeft.
 
-If you want to view the topic, click the following link:
-{U_VIEW_TOPIC}
+Als je het onderwerp wilt lezen, klik dan op de volgende link:
+{U_VIEW_topic}
 
-If you want to view the forum, click the following link:
-{U_FORUM}
+Als je het forum wilt bekijken, klik dan op de volgende link:
+{U_VIEW_FORUM}
 
 {EMAIL_SIG}

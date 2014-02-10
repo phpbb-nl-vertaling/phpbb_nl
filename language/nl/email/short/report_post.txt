@@ -1,13 +1,13 @@
-Subject: Post report - "{TOPIC_TITLE}"
+Subject: Melding ongewenst bericht - "{TOPIC_TITLE}"
 
-Hello {USERNAME},
+Hallo {USERNAME},
 
-You are receiving this notification because the post "{POST_SUBJECT}" at "{SITENAME}" was reported.
+Je ontvangt deze e-mail omdat eenbericht getiteld "{SUBJECT}" op "{SITENAME}" is gemeld als ongewenst.
 
-If you want to view the report, click the following link:
+Als je de melding wilt bekijken, klik dan op de volgende link:
 {U_VIEW_REPORT}
 
-If you want to view the post, click the following link:
+Als je het bericht wilt bekijken, klik dan op de volgende link:
 {U_VIEW_POST}
 
 {EMAIL_SIG}

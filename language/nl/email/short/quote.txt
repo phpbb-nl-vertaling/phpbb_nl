@@ -1,19 +1,20 @@
-Subject: Topic reply notification - "{TOPIC_TITLE}"
+Subject: Nieuwe reactie op onderwerp: {"TOPIC_TITLE}"
 
-Hello {USERNAME},
+Hallo {USERNAME},
 
-You are receiving this notification because "{AUTHOR_NAME}" quoted you in the topic "{TOPIC_TITLE}" at "{SITENAME}". You can use the following link to view the reply made.
+Je ontvangt deze e-mail omdat "{AUTHOR_NAME}" je geciteerd heeft in het onderwerp "{TOPIC_TITLE}" op "{SITENAME}". 
 
-If you want to view the quoted post, click the following link:
+Als je het geciteerde bericht wilt bekijken, klik dan op de volgende link:
 {U_VIEW_POST}
 
-If you want to view the topic, click the following link:
+Als je naar het onderwerp wilt gaan, klik dan op de volgende link:
 {U_TOPIC}
 
-If you want to view the forum, click the following link:
+Als je naar het forum wilt gaan, klik dan op de volgende link:
 {U_FORUM}
 
-If you no longer wish to receive updates about replies quoting you, please update your notification settings here:
+
+Als je geen e-mails wilt ontvangen over geciteerde berichten, kun je dit aanpassen in je instellingen via de volgende link:
 
 {U_NOTIFICATION_SETTINGS}
 

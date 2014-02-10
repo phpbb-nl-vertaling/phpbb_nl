@@ -1,12 +1,12 @@
-Subject: New topic notification - "{FORUM_NAME}"
+Subject: Nieuw onderwerp geplaatst in "{FORUM_NAME}"
 
-Hello {USERNAME},
+Hallo {USERNAME},
 
-You are receiving this notification because you are watching the forum "{FORUM_NAME}" at "{SITENAME}". This forum has received a new topic<!-- IF AUTHOR_NAME --> by {AUTHOR_NAME}<!-- ENDIF --> since your last visit, "{TOPIC_TITLE}". You can use the following link to view the forum, no more notifications will be sent until you visit the forum.
+Je ontvangt deze e-mail omdat je geabonneerd bent op het forum "{FORUM_NAME}" op "{SITENAME}". In dit forum is een nieuw onderwerp "{TOPIC_TITLE}" geplaatst sinds je laatste bezoek. Je kunt de volgende link gebruiken om het forum te bekijken.  Je ontvangt geen e-mails meer over dit forum totdat je dit onderwerp hebt bezocht.
 
 {U_FORUM}
 
-If you no longer wish to watch this forum you can either click the "Unsubscribe forum" link found in the forum above, or by clicking the following link:
+Als je niet langer geabonneerd wilt zijn op dit forum klik dan op de volgende link:
 
 {U_STOP_WATCHING_FORUM}
 

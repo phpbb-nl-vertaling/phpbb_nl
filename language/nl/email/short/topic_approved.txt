@@ -1,10 +1,11 @@
-Subject: Topic approved - "{TOPIC_TITLE}"
+Subject: Onderwerp goedgekeurd - {TOPIC_TITLE}
 
-Hello {USERNAME},
+Hallo {USERNAME},
 
-You are receiving this notification because your topic "{TOPIC_TITLE}" at "{SITENAME}" was approved by a moderator or administrator.
+Je hebt deze e-mail ontvangen omdat je onderwerp "{TOPIC_TITLE}" op {SITENAME} is goedgekeurd door een moderator of een beheerder. 
 
-If you want to view the topic, click the following link:
+Als je het onderwerp wilt lezen, klik dan op de volgende link:
 {U_VIEW_TOPIC}
+
 
 {EMAIL_SIG}
