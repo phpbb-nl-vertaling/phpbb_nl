@@ -91,7 +91,7 @@ $lang = array_merge($lang, array(
 	'POLL_RUN_TILL'			=> 'Peiling loopt tot %s',
 	'POLL_VOTED_OPTION'		=> 'Je hebt gestemd voor deze optie',
 	'POST_DELETED_RESTORE'	=> 'Dit bericht is verwijderd. Het kan teruggebracht worden.',
-	'PRINT_TOPIC'			=> 'Print weergave',
+	'PRINT_TOPIC'			=> 'Afdrukweergave',
 
 	'QUICK_MOD'				=> 'Quick-mod gereedschap',
 	'QUICKREPLY'			=> 'Snelle reactie',

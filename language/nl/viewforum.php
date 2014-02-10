@@ -38,7 +38,7 @@ $lang = array_merge($lang, array(
 	'ACTIVE_TOPICS'			=> 'Actieve onderwerpen',
 	'ANNOUNCEMENTS'			=> 'Aankondigingen',
 
-	'FORUM_PERMISSIONS'		=> 'Forum permissies',
+	'FORUM_PERMISSIONS'		=> 'Forumpermissies',
 
 	'ICON_ANNOUNCEMENT'		=> 'Aankondiging',
 	'ICON_STICKY'			=> 'Sticky',

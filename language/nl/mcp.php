@@ -45,7 +45,7 @@ $lang = array_merge($lang, array(
 	'ALL_NOTES_DELETED'		=> 'Succesvol alle gebruikersnotities verwijderd.',
 	'ALL_REPORTS'			=> 'Alle meldingen',
 	'ALREADY_REPORTED'		=> 'Dit bericht is al gemeld.',
-	'ALREADY_REPORTED_PM'	=> 'Dit privé bericht is al gemeld.',
+	'ALREADY_REPORTED_PM'	=> 'Dit privébericht is al gemeld.',
 	'ALREADY_WARNED'		=> 'Een waarschuwing is al uitgegeven voor dit bericht.',
 	'APPROVE'				=> 'Goedkeuren',
 	'APPROVE_POST'			=> 'Bericht goedkeuren',
@@ -101,11 +101,11 @@ $lang = array_merge($lang, array(
 	'FORK_TOPICS'			=> 'Kopieer geselecteerde onderwerpen',
 	'FORK_TOPICS_CONFIRM'	=> 'Weet je zeker dat je de geselecteerde onderwerpen wilt kopiëren?',
 	'FORUM_DESC'			=> 'Beschrijving',
-	'FORUM_NAME'			=> 'Forum naam',
+	'FORUM_NAME'			=> 'Forumnaam',
 	'FORUM_NOT_EXIST'		=> 'Het forum dat je geselecteerd hebt bestaat niet.',
 	'FORUM_NOT_POSTABLE'	=> 'Het forum dat je geselecteerd hebt kan niet in geplaatst worden.',
-	'FORUM_STATUS'			=> 'Forum status',
-	'FORUM_STYLE'			=> 'Forum stijl',
+	'FORUM_STATUS'			=> 'Forumstatus',
+	'FORUM_STYLE'			=> 'Forumstijl',
 
 	'GLOBAL_ANNOUNCEMENT'	=> 'Algemene aankondiging',
 
@@ -148,10 +148,10 @@ $lang = array_merge($lang, array(
 	'MCP_BAN_IPS'				=> 'Verban IPs',
 	'MCP_BAN_USERNAMES'			=> 'Verban gebruikersnamen',
 
-	'MCP_LOGS'						=> 'Moderator logs',
+	'MCP_LOGS'						=> 'Moderatorlogs',
 	'MCP_LOGS_FRONT'				=> 'Beginpagina',
-	'MCP_LOGS_FORUM_VIEW'			=> 'Forum logs',
-	'MCP_LOGS_TOPIC_VIEW'			=> 'Onderwerpen logs',
+	'MCP_LOGS_FORUM_VIEW'			=> 'Forumlogs',
+	'MCP_LOGS_TOPIC_VIEW'			=> 'Onderwerpenlogs',
 
 	'MCP_MAIN'						=> 'Begin',
 	'MCP_MAIN_FORUM_VIEW'			=> 'Bekijk forum',
@@ -260,7 +260,7 @@ $lang = array_merge($lang, array(
 
 	'PM_REPORT_CLOSED_SUCCESS'	=> 'De geselecteerde PB melding is succesvol gesloten.',
 	'PM_REPORT_DELETED_SUCCESS'	=> 'De geselecteerde PB melding is succesvol verwijderd.',
-	'PM_REPORTED_SUCCESS'		=> 'Dit privé bericht is succesvol gemeld.',
+	'PM_REPORTED_SUCCESS'		=> 'Dit privébericht is succesvol gemeld.',
 	'PM_REPORTS_CLOSED_SUCCESS'	=> 'De geselecteerde PB meldingen zijn succesvol gesloten.',
 	'PM_REPORTS_DELETED_SUCCESS'=> 'De geselecteerde PB meldingen zijn succesvol verwijderd.',
 	'PM_REPORTS_TOTAL'			=> array(
@@ -268,7 +268,7 @@ $lang = array_merge($lang, array(
 		1	=> 'In totaal is er <strong>1</strong> PB melding om te bekijken.',
 		2	=> 'In totaal zijn er <strong>%d</strong> PB meldingen om te bekijken.',
 	),
-	'PM_REPORT_DETAILS'			=> 'Privé bericht meldingsdetails',
+	'PM_REPORT_DETAILS'			=> 'Privébericht meldingsdetails',
 	'POSTER'					=> 'Auteur',
 	'POSTS_APPROVED_SUCCESS'	=> 'De geselecteerde berichten zijn succesvol goedgekeurd.',
 	'POSTS_DELETED_SUCCESS'		=> 'De geselecteerde berichten zijn succesvol verwijderd uit de database.',
@@ -325,7 +325,7 @@ $lang = array_merge($lang, array(
 	'RETURN_MESSAGE'			=> '%sTerug naar het bericht%s',
 	'RETURN_NEW_FORUM'			=> '%sGa naar het nieuwe forum%s',
 	'RETURN_NEW_TOPIC'			=> '%sGa naar het nieuwe onderwerp%s',
-	'RETURN_PM'					=> '%sTerug naar het privé bericht%s',
+	'RETURN_PM'					=> '%sTerug naar het privébericht%s',
 	'RETURN_POST'				=> '%sTerug naar het bericht%s',
 	'RETURN_QUEUE'				=> '%sTerug naar de wachtrij%s',
 	'RETURN_REPORTS'			=> '%sTerug naar de meldingen%s',
@@ -422,7 +422,7 @@ $lang = array_merge($lang, array(
 			'OTHER'		=> 'Anders',
 		),
 		'DESCRIPTION' => array(
-			'WAREZ'		=> 'Het bericht bevat koppelingen naar illegale of piraat software.',
+			'WAREZ'		=> 'Het bericht bevat koppelingen naar illegalessoftware.',
 			'SPAM'		=> 'Het gemelde bericht heeft als enige doel om te adverteren voor een website of een ander product.',
 			'OFF_TOPIC'	=> 'Het gemelde bericht valt buiten het onderwerp.',
 			'OTHER'		=> 'Het gemelde bericht val niet onder een categorie, vul het volgende informatieveld in.',

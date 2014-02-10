@@ -43,7 +43,7 @@ $lang = array_merge($lang, array(
 	'ALREADY_DELETED'			=> 'Sorry maar dit bericht is al verwijderd.',
 	'ATTACH_DISK_FULL'			=> 'Er is niet genoeg vrije schijfruimte om deze bijlage te plaatsen.',
 	'ATTACH_QUOTA_REACHED'		=> 'Sorry, het forum bijlage quotum is bereikt.',
-	'ATTACH_SIG'				=> 'Onderschrift toevoegen (onderschriften kunnen gewijzigd worden via het UCP)',
+	'ATTACH_SIG'				=> 'Onderschrift toevoegen (onderschriften kunnen gewijzigd worden via het gebruikerspaneel)',
 
 	'BBCODE_A_HELP'				=> 'Inline geüploade bijlagen: [attachment=]filename.ext[/attachment]',
 	'BBCODE_B_HELP'				=> 'Vette tekst: [b]tekst[/b]',
@@ -56,7 +56,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_L_HELP'				=> 'Lijst: [list][*]tekst[/list]', 
 	'BBCODE_LISTITEM_HELP'		=> 'Lijst item: [*]tekst',
 	'BBCODE_O_HELP'				=> 'Geordende lijst: bijv. [list=1][*]Eerste punt[/list] of [list=a][*]Punt A[/list]',
-	'BBCODE_P_HELP'				=> 'Afbeelding invoegen: [img]http://image_url[/img]',
+	'BBCODE_P_HELP'				=> 'Afbeelding invoegen: [img]http://www.url_naar_de_afbeelding.eu/afbeeldingnaam.extenstie[/img]',
 	'BBCODE_Q_HELP'				=> 'Quote tekst: [quote]tekst[/quote]',
 	'BBCODE_S_HELP'				=> 'Letterkleur: [color=red]tekst[/color]  Tip: je kan ook color=#FF0000 gebruiken',
 	'BBCODE_U_HELP'				=> 'Onderlijnde tekst: [u]tekst[/u]',
@@ -198,7 +198,7 @@ $lang = array_merge($lang, array(
 	'POST_EDITED'				=> 'Dit bericht is succesvol gewijzigd.',
 	'POST_EDITED_MOD'			=> 'Dit bericht is succesvol gewijzigd, maar het zal goedgekeurd moeten worden door een moderator voordat het publiekelijk zichtbaar zal zijn.',
 	'POST_GLOBAL'				=> 'Algemeen',
-	'POST_ICON'					=> 'Bericht icoon',
+	'POST_ICON'					=> 'Berichticoon',
 	'POST_NORMAL'				=> 'Normaal',
 	'POST_REVIEW'				=> 'Bericht voorbeeld',
 	'POST_REVIEW_EDIT'			=> 'Bericht voorbeeld',
@@ -215,7 +215,7 @@ $lang = array_merge($lang, array(
 	),
 
 	'SAVE'						=> 'Bewaar',
-	'SAVE_DATE'					=> 'Bewaard op',
+	'SAVE_DATE'					=> 'Bewaard op', // opgeslagen op?
 	'SAVE_DRAFT'				=> 'Bewaar concept',
 	'SAVE_DRAFT_CONFIRM'		=> 'Let op dat opgeslaagde concepten alleen de onderwerp en de tekst bevatten, elk ander element zal worden verwijderd. Wil je je concept nu opslaan?',
 	'SMILIES'					=> 'Smilies',
@@ -235,10 +235,10 @@ $lang = array_merge($lang, array(
 	'TOO_MANY_ATTACHMENTS'		=> 'Kan geen andere bijlage toevoegen, %d is het maximum.',
 	'TOO_MANY_CHARS'			=> 'Je bericht bevat te veel karakters.',
 	'TOO_MANY_CHARS_POST'		=> array(
-		2	=> 'Je bericht bevat %1$d karakters. Het maximum aantal toegestane karakters is %2$d.',
+		2	=> 'Je bericht bevat %1$d karakters. Het maximum aantal toegestane karakters is %2$d.', // karakters of tekens?
 	),
 	'TOO_MANY_CHARS_SIG'		=> array(
-		2	=> 'Je onderschrift bevat %1$d karakters. Het maximum aantal toegestane karakters is %2$d.',
+		2	=> 'Je onderschrift bevat %1$d karakters. Het maximum aantal toegestane karakters is %2$d.', // karakters of tekens?
 	),
 	'TOO_MANY_POLL_OPTIONS'		=> 'Je hebt geprobeer te veel peiling opties in te voeren.',
 	'TOO_MANY_SMILIES'			=> 'Je bericht bevat te veel smilies. Het maximum aantal toegestane smilies is %d.',
@@ -260,7 +260,7 @@ $lang = array_merge($lang, array(
 	'USER_CANNOT_FORUM_POST'	=> 'Je kan geen plaatsingsoperaties doen in dit forum omdat het forumtype dit niet ondersteunt.',
 
 	'VIEW_MESSAGE'				=> '%sBekijk je verstuurde bericht%s',
-	'VIEW_PRIVATE_MESSAGE'		=> '%sBekijk je verstuurde privé bericht%s',
+	'VIEW_PRIVATE_MESSAGE'		=> '%sBekijk je verstuurde privébericht%s',
 
 	'WRONG_FILESIZE'			=> 'Het bestand is te groot, maximum toegestane grootte is %1d %2s.',
 	'WRONG_SIZE'				=> 'De afbeelding moet tenminste %1$s breed, %2$s hoog zijn en maximaal %3$s breed en %4$s hoog zijn. De verstuurde afbeelding is %5$s breed en %6$s hoog.',
