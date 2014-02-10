@@ -693,7 +693,7 @@ $lang = array_merge($lang, array(
 	'TOO_LONG_USERNAME'				=> 'De gebruikersnaam die je hebt ingevuld is te lang.',
 	'TOO_LONG_EMAIL'				=> 'Het e-mailadres die je hebt ingevuld is te lang.',
 	'TOO_LONG_WEBSITE'				=> 'Het websiteadres die je hebt ingevuld is te lang.',
-	'TOO_LONG_YIM'					=> 'De Yahoo! Messenger naam die je hebt ingevuld is te lang.',
+	'TOO_LONG_YIM'					=> 'De Yahoo! Messenger-naam die je hebt ingevuld is te lang.',
 
 	'TOO_MANY_VOTE_OPTIONS'			=> 'Je hebt geprobeerd om op te veel opties te stemmen.',
 
