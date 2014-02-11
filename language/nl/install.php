@@ -1,7 +1,7 @@
 <?php
 /**
 *
-* install [English]
+* install [Dutch]
 *
 * @package language
 * @copyright (c) 2005 phpBB Group
@@ -590,46 +590,46 @@ $lang = array_merge($lang, array(
 
 // Default database schema entries...
 $lang = array_merge($lang, array(
-	'CONFIG_BOARD_EMAIL_SIG'		=> 'Thanks, The Management',
-	'CONFIG_SITE_DESC'				=> 'A short text to describe your forum',
-	'CONFIG_SITENAME'				=> 'yourdomain.com',
+	'CONFIG_BOARD_EMAIL_SIG'		=> 'Bedankt, Het beheer',
+	'CONFIG_SITE_DESC'				=> 'Een korte beschrijving van je forum',
+	'CONFIG_SITENAME'				=> 'jedomein.nl',
 
-	'DEFAULT_INSTALL_POST'			=> 'This is an example post in your phpBB3 installation. Everything seems to be working. You may delete this post if you like and continue to set up your board. During the installation process your first category and your first forum are assigned an appropriate set of permissions for the predefined usergroups administrators, bots, global moderators, guests, registered users and registered COPPA users. If you also choose to delete your first category and your first forum, do not forget to assign permissions for all these usergroups for all new categories and forums you create. It is recommended to rename your first category and your first forum and copy permissions from these while creating new categories and forums. Have fun!',
+	'DEFAULT_INSTALL_POST'			=> 'Dit is een voorbeeldbericht van je phpBB3 installatie. Je mag dit bericht, dit onderwerp, en ook nog dit forum verwijderen als je wilt, aangezien alles correct blijkt te werken. Tijdens het installatie proces is je eerste categorie en je eerste forum toegewezen aan en ingesteld voor de voorgeïnstalleerde groepen ; beheerders, zoekrobots, forummoderators, gasten, geregistreerde gebruikers en de geregistreerde COPPA gebruikers. Als je wenst om je eerste categorie en je eerste forum te verwijderen, vergeet dan niet de permissies voor al de gebruikersgroepen te laten toewijzen, vooral je nieuwe categorieën en forums die je aanmaakt. Het is aanbevolen om uwje eerste categorie te hernoemen en je eerste forum, en de permissies te kopiëren van deze forums wanneer je nieuwe categorieën en forums aan het maken bent. Veel plezier!',
 
-	'FORUMS_FIRST_CATEGORY'			=> 'Your first category',
-	'FORUMS_TEST_FORUM_DESC'		=> 'Description of your first forum.',
-	'FORUMS_TEST_FORUM_TITLE'		=> 'Your first forum',
+	'FORUMS_FIRST_CATEGORY'			=> 'Je eerste categorie',
+	'FORUMS_TEST_FORUM_DESC'		=> 'Bechrijving van je eerste forum.',
+	'FORUMS_TEST_FORUM_TITLE'		=> 'Je eerste forum',
 
-	'RANKS_SITE_ADMIN_TITLE'		=> 'Site Admin',
-	'REPORT_WAREZ'					=> 'The post contains links to illegal or pirated software.',
-	'REPORT_SPAM'					=> 'The reported post has the only purpose to advertise for a website or another product.',
-	'REPORT_OFF_TOPIC'				=> 'The reported post is off topic.',
-	'REPORT_OTHER'					=> 'The reported post does not fit into any other category, please use the further information field.',
+	'RANKS_SITE_ADMIN_TITLE'		=> 'Site Beheer',
+	'REPORT_WAREZ'					=> 'Dit bericht bevat links naar illegale software.',
+	'REPORT_SPAM'					=> 'Het gemelde bericht heeft als enig doel om te adverteren voor een website of ander product.',
+	'REPORT_OFF_TOPIC'				=> 'Het gemelde bericht is off-topic.',
+	'REPORT_OTHER'					=> 'Het gemelde bericht valt niet in een andere categorie, gebruik het informatieveld hieronder.',
 
-	'SMILIES_ARROW'					=> 'Arrow',
-	'SMILIES_CONFUSED'				=> 'Confused',
+	'SMILIES_ARROW'					=> 'Pijl',
+	'SMILIES_CONFUSED'				=> 'Verward',
 	'SMILIES_COOL'					=> 'Cool',
-	'SMILIES_CRYING'				=> 'Crying or Very Sad',
-	'SMILIES_EMARRASSED'			=> 'Embarrassed',
-	'SMILIES_EVIL'					=> 'Evil or Very Mad',
-	'SMILIES_EXCLAMATION'			=> 'Exclamation',
+	'SMILIES_CRYING'				=> 'Huilen',
+	'SMILIES_EMARRASSED'			=> 'Beschaamd',
+	'SMILIES_EVIL'					=> 'Erg boos',
+	'SMILIES_EXCLAMATION'			=> 'Uitroep',
 	'SMILIES_GEEK'					=> 'Geek',
-	'SMILIES_IDEA'					=> 'Idea',
-	'SMILIES_LAUGHING'				=> 'Laughing',
-	'SMILIES_MAD'					=> 'Mad',
+	'SMILIES_IDEA'					=> 'Idee',
+	'SMILIES_LAUGHING'				=> 'Lachend',
+	'SMILIES_MAD'					=> 'Gek',
 	'SMILIES_MR_GREEN'				=> 'Mr. Green',
-	'SMILIES_NEUTRAL'				=> 'Neutral',
-	'SMILIES_QUESTION'				=> 'Question',
+	'SMILIES_NEUTRAL'				=> 'Neutraal',
+	'SMILIES_QUESTION'				=> 'Vraag',
 	'SMILIES_RAZZ'					=> 'Razz',
-	'SMILIES_ROLLING_EYES'			=> 'Rolling Eyes',
-	'SMILIES_SAD'					=> 'Sad',
-	'SMILIES_SHOCKED'				=> 'Shocked',
-	'SMILIES_SMILE'					=> 'Smile',
-	'SMILIES_SURPRISED'				=> 'Surprised',
-	'SMILIES_TWISTED_EVIL'			=> 'Twisted Evil',
+	'SMILIES_ROLLING_EYES'			=> 'Rollende Ogen',
+	'SMILIES_SAD'					=> 'Bedroeft',
+	'SMILIES_SHOCKED'				=> 'Geschokt',
+	'SMILIES_SMILE'					=> 'Lach',
+	'SMILIES_SURPRISED'				=> 'Verrast',
+	'SMILIES_TWISTED_EVIL'			=> 'Kwaadaardig',
 	'SMILIES_UBER_GEEK'				=> 'Uber Geek',
-	'SMILIES_VERY_HAPPY'			=> 'Very Happy',
-	'SMILIES_WINK'					=> 'Wink',
+	'SMILIES_VERY_HAPPY'			=> 'Erg Blij',
+	'SMILIES_WINK'					=> 'Knipoog',
 
-	'TOPICS_TOPIC_TITLE'			=> 'Welcome to phpBB3',
+	'TOPICS_TOPIC_TITLE'			=> 'Welkom bij phpBB3',
 ));
