@@ -1,7 +1,7 @@
 <?php
 /**
 *
-* acp_bots [English]
+* acp_bots [Dutch]
 *
 * @package language
 * @copyright (c) 2005 phpBB Group
@@ -36,35 +36,35 @@ if (empty($lang) || !is_array($lang))
 
 // Bot settings
 $lang = array_merge($lang, array(
-	'BOTS'				=> 'Manage bots',
-	'BOTS_EXPLAIN'		=> '“Bots”, “spiders” or “crawlers” are automated agents most commonly used by search engines to update their databases. Since they rarely make proper use of sessions they can distort visitor counts, increase load and sometimes fail to index sites correctly. Here you can define a special type of user to overcome these problems.',
-	'BOT_ACTIVATE'		=> 'Activate',
-	'BOT_ACTIVE'		=> 'Bot active',
-	'BOT_ADD'			=> 'Add bot',
-	'BOT_ADDED'			=> 'New bot successfully added.',
-	'BOT_AGENT'			=> 'Agent match',
-	'BOT_AGENT_EXPLAIN'	=> 'A string matching the bots browser agent, partial matches are allowed.',
-	'BOT_DEACTIVATE'	=> 'Deactivate',
-	'BOT_DELETED'		=> 'Bot deleted successfully.',
-	'BOT_EDIT'			=> 'Edit bots',
-	'BOT_EDIT_EXPLAIN'	=> 'Here you can add or edit an existing bot entry. You may define an agent string and/or one or more IP addresses (or range of addresses) to match. Be careful when defining matching agent strings or addresses. You may also specify a style and language that the bot will view the board using. This may allow you to reduce bandwidth use by setting a simple style for bots. Remember to set appropriate permissions for the special Bot usergroup.',
-	'BOT_LANG'			=> 'Bot language',
-	'BOT_LANG_EXPLAIN'	=> 'The language presented to the bot as it browses.',
-	'BOT_LAST_VISIT'	=> 'Last visit',
-	'BOT_IP'			=> 'Bot IP address',
-	'BOT_IP_EXPLAIN'	=> 'Partial matches are allowed, separate addresses with a comma.',
-	'BOT_NAME'			=> 'Bot name',
-	'BOT_NAME_EXPLAIN'	=> 'Used only for your own information.',
-	'BOT_NAME_TAKEN'	=> 'The name is already in use on your board and can’t be used for the Bot.',
-	'BOT_NEVER'			=> 'Never',
-	'BOT_STYLE'			=> 'Bot style',
-	'BOT_STYLE_EXPLAIN'	=> 'The style used for the board by the bot.',
-	'BOT_UPDATED'		=> 'Existing bot updated successfully.',
+	'BOTS'				=> 'Beheer bots',
+	'BOTS_EXPLAIN'		=> '“Bots”, “spiders” of “crawlers” zijn geautomatiseerde programma’s die meestal gebruikt worden door zoekmachines om hun database bij te werken. Sinds ze bijna nooit goed gebruik maken van sessies, kunnen ze bezoekersaantallen misvormen, serverlaadtijd verhogen en soms falen om sites goed te indexeren. Hier kan je een speciaal type gebruiker definiëren om deze problemen te overkomen.',
+	'BOT_ACTIVATE'		=> 'Activeer',
+	'BOT_ACTIVE'		=> 'Bot actief',
+	'BOT_ADD'			=> 'Bot toevoegen',
+	'BOT_ADDED'			=> 'Nieuwe bot is succesvol toegevoegd.',
+	'BOT_AGENT'			=> 'Agent overeenkomst',
+	'BOT_AGENT_EXPLAIN'	=> 'Een string die overeenkomt met de bots browser-agent, gedeeltelijke overeenkomsten zijn toegestaan.',
+	'BOT_DEACTIVATE'	=> 'Deactiveer',
+	'BOT_DELETED'		=> 'Bot is succesvol verwijderd.',
+	'BOT_EDIT'			=> 'Bots wijzigen',
+	'BOT_EDIT_EXPLAIN'	=> 'Hier kan je bots toevoegen of wijzigen. Je kan een agent-sting en/of één of meerdere IP-adressen (of een bereik van adressen) opgeven die kunnen overeenkomen. Wees voorzichtig tijdens het opgeven van overeenkomstige agent-strings of adressen. Je kan ook een stijl en taal opgeven die de bot zal gebruiken tijdens het bezoeken van het forum. Dit staat je toe om bandbreedte te reduceren door het instellen van een simpele stijl voor bots. Vergeet niet om de juiste permissies in te stellen voor de speciale Bot-gebruikersgroep.',
+	'BOT_LANG'			=> 'Bot taal',
+	'BOT_LANG_EXPLAIN'	=> 'De taal die de bot ziet tijdens zijn bezoek.',
+	'BOT_LAST_VISIT'	=> 'Laatste bezoek',
+	'BOT_IP'			=> 'Bot IP-adres',
+	'BOT_IP_EXPLAIN'	=> 'Gedeeltelijke overeenkomsten zijn toegestaan, scheid adressen met een komma.',
+	'BOT_NAME'			=> 'Bot naam',
+	'BOT_NAME_EXPLAIN'	=> 'Dit wordt alleen voor je eigen informatie gebruikt.',
+	'BOT_NAME_TAKEN'	=> 'De naam is al in gebruik op je forum en kan niet gebruikt worden voor de bot.',
+	'BOT_NEVER'			=> 'Nooit',
+	'BOT_STYLE'			=> 'Bot stijl',
+	'BOT_STYLE_EXPLAIN'	=> 'De stijl die gebruikt wordt op het forum door de bot.',
+	'BOT_UPDATED'		=> 'Bestaande bot is succesvol bijgewerkt.',
 
-	'ERR_BOT_AGENT_MATCHES_UA'	=> 'The bot agent you supplied is similar to the one you are currently using. Please adjust the agent for this bot.',
-	'ERR_BOT_NO_IP'				=> 'The IP addresses you supplied were invalid or the hostname could not be resolved.',
-	'ERR_BOT_NO_MATCHES'		=> 'You must supply at least one of an agent or IP for this bot match.',
+	'ERR_BOT_AGENT_MATCHES_UA'	=> 'De bot-agent die je hebt opgegeven is gelijk aan degene die je momenteel gebruikt. Pas de agent voor deze bot aan.',
+	'ERR_BOT_NO_IP'				=> 'De IP-adressen die je hebt opgegeven is ongeldig of de hostnaam kan niet opgelost worden.',
+	'ERR_BOT_NO_MATCHES'		=> 'Je moet tenminste één agent of IP opgeven voor deze bot overeenkomst.',
 
-	'NO_BOT'		=> 'Found no bot with the specified ID.',
-	'NO_BOT_GROUP'	=> 'Unable to find special bot group.',
+	'NO_BOT'		=> 'Geen bot gevonden met de opgegeven ID.',
+	'NO_BOT_GROUP'	=> 'Kan de speciale botgroep niet vinden.',
 ));
