@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // Bot settings
 $lang = array_merge($lang, array(
 	'BOTS'				=> 'Beheer bots',
-	'BOTS_EXPLAIN'		=> '“Bots”, “spiders” of “crawlers” zijn geautomatiseerde programma’s die meestal gebruikt worden door zoekmachines om hun database bij te werken. Sinds ze bijna nooit goed gebruik maken van sessies, kunnen ze bezoekersaantallen misvormen, serverlaadtijd verhogen en soms falen om sites goed te indexeren. Hier kan je een speciaal type gebruiker definiëren om deze problemen te overkomen.',
+	'BOTS_EXPLAIN'		=> '“Bots”, “spiders” of “crawlers” is een bot die het wereldwijde web op een methodische en geautomatiseerde manier doorbladert, en worden meestal gebruikt om de database van zoekmachines bij te werken. Omdat ze zelden correct gebruik maken van sessies, kunnen ze het bezoekersaantal beïnvloeden, serverlaadtijd verhogen en soms niet in staat zijn om sites goed te indexeren. Hier kan je een speciaal type gebruiker opgeven om deze problemen te voorkomen.',
 	'BOT_ACTIVATE'		=> 'Activeer',
 	'BOT_ACTIVE'		=> 'Bot actief',
 	'BOT_ADD'			=> 'Bot toevoegen',
