@@ -590,7 +590,7 @@ $lang = array_merge($lang, array(
 
 // Default database schema entries...
 $lang = array_merge($lang, array(
-	'CONFIG_BOARD_EMAIL_SIG'		=> 'Bedankt, Het beheer',
+	'CONFIG_BOARD_EMAIL_SIG'		=> 'Bedankt, het beheer',
 	'CONFIG_SITE_DESC'				=> 'Een korte beschrijving van je forum',
 	'CONFIG_SITENAME'				=> 'jedomein.nl',
 
