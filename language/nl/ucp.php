@@ -501,7 +501,7 @@ $lang = array_merge($lang, array(
 	'UCP_MAIN_BOOKMARKS'		=> 'Beheer favorieten',
 	'UCP_MAIN_DRAFTS'			=> 'Beheer concepten',
 	'UCP_MAIN_FRONT'			=> 'Voorpagina',
-	'UCP_MAIN_SUBSCRIBED'		=> 'Behaar abonnementen',
+	'UCP_MAIN_SUBSCRIBED'		=> 'Beheer abonnementen',
 
 	'UCP_MSNM'					=> 'Windows Live Messenger',
 	'UCP_NO_ATTACHMENTS'		=> 'Je hebt geen bestanden geplaatst.',
