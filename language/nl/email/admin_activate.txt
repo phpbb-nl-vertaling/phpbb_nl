@@ -1,13 +1,13 @@
-Subject: Activate user account
+Subject: Activeer je gebruikersaccount
 
-Hello,
+Hallo,
 
-The account owned by "{USERNAME}" has been deactivated or newly created, you should check the details of this user (if required) and handle it appropriately.
+De account gebruikt door "{USERNAME}" is gedeactiveerd of zojuist aangemaakt, je kunt de status en details van deze gebruiker controleren (als nodig is) en dan de juiste handeling uitvoeren.
 
-Use this link to view the user's profile:
+Gebruik de volgende link om de gebruikersprofiel te bekijken:
 {U_USER_DETAILS}
 
-Use this link to activate the account:
+Gebruik deze link om de gebruikersaccount te activeren:
 {U_ACTIVATE}
 
 
