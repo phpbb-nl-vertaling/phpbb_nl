@@ -2,10 +2,10 @@ Subject: Je bent toegevoegd aan deze gebruikersgroep
 
 Gefeliciteerd,
 
-You have been added to the "{GROUP_NAME}" group on "{SITENAME}".
-This action was done by a group leader or the site administrator, contact them for more information.
+Je bent toegevoegd aan de "{GROUP_NAME}" groep op "{SITENAME}".
+Deze actie is gedaan door een groepsleider of de forumbeheerder, neem contact op voor meer informatie met de groepsleider of beheerder.
 
-You can view your groups information here:
+Je kan hier de groepsinformatie bekijken:
 {U_GROUP}
 
 {EMAIL_SIG}
