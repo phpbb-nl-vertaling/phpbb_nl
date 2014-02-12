@@ -122,24 +122,24 @@ $lang = array_merge($lang, array(
 
 // Message Settings
 $lang = array_merge($lang, array(
-	'ACP_MESSAGE_SETTINGS_EXPLAIN'		=> 'Hier kan je alle standaard instellingen voor privé berichten instellen.',
+	'ACP_MESSAGE_SETTINGS_EXPLAIN'		=> 'Hier kan je alle standaard instellingen voor privéberichten instellen.',
 
-	'ALLOW_BBCODE_PM'			=> 'BBCode in privé berichten inschakelen',
+	'ALLOW_BBCODE_PM'			=> 'BBCode in privéberichten inschakelen',
 	'ALLOW_FLASH_PM'			=> 'Gebruik van <code>[FLASH]</code> BBCode tag inschakelen',
-	'ALLOW_FLASH_PM_EXPLAIN'	=> 'Let op dat het gebruik van flash in privé berichten, indien toegestaan hier, ook afhankelijk is van de permissies.',
+	'ALLOW_FLASH_PM_EXPLAIN'	=> 'Let op dat het gebruik van flash in privéberichten, indien toegestaan hier, ook afhankelijk is van de permissies.',
 	'ALLOW_FORWARD_PM'			=> 'Doorsturen van privéberichten inschakelen',
 	'ALLOW_IMG_PM'				=> 'Gebruik van <code>[IMG]</code> BBCode tag inschakelen',
-	'ALLOW_MASS_PM'				=> 'Het sturen van privé berichten naar meerdere gebruikers en groepen inschakelen',
+	'ALLOW_MASS_PM'				=> 'Het sturen van privéberichten naar meerdere gebruikers en groepen inschakelen',
 	'ALLOW_MASS_PM_EXPLAIN'		=> 'Het versturen naar groepen kan aangepast worden per groep in de groepsinstellingen pagina.',
-	'ALLOW_PRINT_PM'			=> 'Print weergave van privé berichten inschakelen',
-	'ALLOW_QUOTE_PM'			=> 'Quotes in privé berichten inschakelen',
-	'ALLOW_SIG_PM'				=> 'Onderschriften in privé berichten inschakelen',
-	'ALLOW_SMILIES_PM'			=> 'Smilies in privé berichten inschakelen',
-	'BOXES_LIMIT'				=> 'Maximum privé berichten per box',
-	'BOXES_LIMIT_EXPLAIN'		=> 'Gebruikers kunnen niet mer dan deze hoeveelheid ontvangen in ieder privé bericht box. Stel deze waarde in op 0 om ongelimiteerd aantal berichten toe te staan.',
+	'ALLOW_PRINT_PM'			=> 'Print weergave van privéberichten inschakelen',
+	'ALLOW_QUOTE_PM'			=> 'Quotes in privéberichten inschakelen',
+	'ALLOW_SIG_PM'				=> 'Onderschriften in privéberichten inschakelen',
+	'ALLOW_SMILIES_PM'			=> 'Smilies in privéberichten inschakelen',
+	'BOXES_LIMIT'				=> 'Maximum privéberichten per box',
+	'BOXES_LIMIT_EXPLAIN'		=> 'Gebruikers kunnen niet mer dan deze hoeveelheid ontvangen in ieder privébericht box. Stel deze waarde in op 0 om ongelimiteerd aantal berichten toe te staan.',
 	'BOXES_MAX'					=> 'Maximum privébericht mappen',
-	'BOXES_MAX_EXPLAIN'			=> 'Standaard kunnen gebruikers deze hoeveelheid persoonlijke mappen maken voor privé berichten.',
-	'ENABLE_PM_ICONS'			=> 'Gebruik van onderwerpiconen in privé berichten inschakelen',
+	'BOXES_MAX_EXPLAIN'			=> 'Standaard kunnen gebruikers deze hoeveelheid persoonlijke mappen maken voor privéberichten.',
+	'ENABLE_PM_ICONS'			=> 'Gebruik van onderwerpiconen in privéberichten inschakelen',
 	'FULL_FOLDER_ACTION'		=> 'Volle map standaard actie',
 	'FULL_FOLDER_ACTION_EXPLAIN'=> 'Standaard actie die toegepast wordt als een gebruikersmap vol is, er van uitgaande dat de gebruikers map actie, indien ingesteld, niet uitgevoerd kan worden. De enigste uitzondering is voor de “Verstuurde berichten” map waar de standaard actie altijd het verwijderen van oude berichten is.',
 	'HOLD_NEW_MESSAGES'			=> 'Tegenhouden nieuwe berichten',
@@ -255,12 +255,12 @@ $lang = array_merge($lang, array(
 
 // Feeds
 $lang = array_merge($lang, array(
-	'ACP_FEED_MANAGEMENT'				=> 'Algemene syndicatie feeds instellingen',
+	'ACP_FEED_MANAGEMENT'				=> 'Algemene syndicatie feedsinstellingen',
 	'ACP_FEED_MANAGEMENT_EXPLAIN'		=> 'Deze module maakt verschillende ATOM feeds beschikbaar, verwerkt iedere BBCode in berichten om hen leesbaar te maken in externe feeds.',
 
-	'ACP_FEED_GENERAL'					=> 'Algemene feed instellingen',
-	'ACP_FEED_POST_BASED'				=> 'Bericht gebaseerde feed instellingen',
-	'ACP_FEED_TOPIC_BASED'				=> 'Onderwerp gebaseerde feed instellingen',
+	'ACP_FEED_GENERAL'					=> 'Algemene feedinstellingen',
+	'ACP_FEED_POST_BASED'				=> 'Bericht gebaseerde feedinstellingen',
+	'ACP_FEED_TOPIC_BASED'				=> 'Onderwerp gebaseerde feedinstellingen',
 	'ACP_FEED_SETTINGS_OTHER'			=> 'Andere feeds en instellingen',
 
 	'ACP_FEED_ENABLE'					=> 'Feeds inschakelen',
@@ -411,7 +411,7 @@ $lang = array_merge($lang, array(
 	'LDAP_INCORRECT_USER_PASSWORD'	=> 'Verbinding naar de LDAP server gefaald met gespecificeerde gebruiker/wachtwoord.',
 	'LDAP_NO_EMAIL'					=> 'Het gespecificeerde e-mail attribuut bestaat niet.',
 	'LDAP_NO_IDENTITY'				=> 'Kan geen aanmeld identiteit vinden voor %s.',
-	'LDAP_PASSWORD'					=> 'LDAP wachtwoord',
+	'LDAP_PASSWORD'					=> 'LDAP-wachtwoord',
 	'LDAP_PASSWORD_EXPLAIN'			=> 'Laat dit leeg om anonieme verbinding te gebruiken, vul anders het wachtwoord in voor de bovenstaande gebruiker. Vereist voor Active Directory Servers.<br /><em><strong>Waarschuwing:</strong> Dit wachtwoord zal worden opgeslagen als platte tekst in de database, zichtbaar voor iedereen die toegang heeft tot je database of diegene die deze pagina kan bekijken.</em>',
 	'LDAP_PORT'						=> 'LDAP-serverpoort',
 	'LDAP_PORT_EXPLAIN'				=> 'Optioneel kan je een port specificeren welke gebruikt moet worden om verbinding te maken met de LDAP server in plaats van de standaard port 389.',
@@ -429,7 +429,7 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_SERVER_SETTINGS_EXPLAIN'	=> 'Hier kan je server en domein afhankelijke instellingen definiëren. Zorg er voor dat de data die je invuld correct is, fouten zullen resulteren in e-mails die incorrecte informatie bevatten. Wanneer je het domeinnaam invult, onthoud dan dat dit inclusief het http:// of een ander protocol moet zijn. Verander alleen het portnummer als je weet dat je server een andere waarde gebruikt, port 80 is correct in de meeste gevallen.',
 
-	'ENABLE_GZIP'				=> 'GZip compressie inschakelen',
+	'ENABLE_GZIP'				=> 'GZip-compressie inschakelen',
 	'ENABLE_GZIP_EXPLAIN'		=> 'Gegenereerde inhoud zal worden gecomprimeerd voordat het naar de gebruiker verstuurd wordt. Dit kan netwerk verkeer verminderen, maar zal ook het CPU gebruik verhogen op zowel de server als bij de gebruiker. Vereist zlib PHP extensie om ingeladen te zijn.',
 	'FORCE_SERVER_VARS'			=> 'Forceer server URL instellingen',
 	'FORCE_SERVER_VARS_EXPLAIN'	=> 'Indien ingesteld op ja, de server instellingen die hier gedefinieerd zijn zullen gebruikt worden in plaats van de geautomatiseerde vastgestelde waardes.',
@@ -450,7 +450,7 @@ $lang = array_merge($lang, array(
 	'SERVER_PORT_EXPLAIN'		=> 'De port waar je server op draait, gebruikelijk 80, verander dit alleen als het verschilt.',
 	'SERVER_PROTOCOL'			=> 'Server protocol',
 	'SERVER_PROTOCOL_EXPLAIN'	=> 'Dit wordt gebruikt als de server protocol als deze instellingen geforceerd worden. Indien leeg of niet geforceerd, dan zal het protocol vastgesteld worden door de cookie beveiliginsinstelling (<samp>http://</samp> of <samp>https://</samp>).',
-	'SERVER_URL_SETTINGS'		=> 'Server URL instellingen',
+	'SERVER_URL_SETTINGS'		=> 'Server URL-instellingen',
 	'SMILIES_PATH'				=> 'Smilies opslagpad',
 	'SMILIES_PATH_EXPLAIN'		=> 'Pad in je phpBB hoofdmap, bijv. <samp>images/smilies</samp>.',
 	'UPLOAD_ICONS_PATH'			=> 'Extensie groepiconen opslagpad',
