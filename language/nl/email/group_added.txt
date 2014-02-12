@@ -1,6 +1,6 @@
-Subject: You have been added to this usergroup
+Subject: Je bent toegevoegd aan deze gebruikersgroep
 
-Congratulations,
+Gefeliciteerd,
 
 You have been added to the "{GROUP_NAME}" group on "{SITENAME}".
 This action was done by a group leader or the site administrator, contact them for more information.
