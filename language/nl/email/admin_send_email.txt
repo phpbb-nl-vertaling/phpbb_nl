@@ -5,7 +5,7 @@ De volgende e-mail is verzonden door een beheerder van "{SITENAME}". Als dit een
 
 Voeg de gehele e-mail toe (in het bijzonder de headers).
 
-Bericht wat naar je is gestuurd is het volgende:
+Het bericht wat naar je is gestuurd, is het volgende:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 {MESSAGE}
