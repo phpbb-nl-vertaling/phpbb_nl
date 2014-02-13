@@ -2,7 +2,7 @@ Subject: Nieuwe reactie op onderwerp: {TOPIC_TITLE}
 
 Hallo {USERNAME},
 
-Je ontvangt deze e-mail omdat je geabonneerd bent op het onderwerp "{TOPIC_TITLE}" op "{SITENAME}". In dit onderwerp is een nieuwe reactie geplaatst sinds je laatste bezoek. Je kunt de volgende link gebruiken om de reactie te bekijken. Je ontvangt geen e-mails meer over dit onderwerp totdat je dit onderwerp hebt bezocht.
+Je ontvangt deze e-mail omdat je geabonneerd bent op het onderwerp "{TOPIC_TITLE}" op "{SITENAME}". In dit onderwerp is een nieuwe reactie geplaatst sinds je laatste bezoek. Je kan de volgende link gebruiken om de reactie te bekijken. Je ontvangt geen e-mails meer over dit onderwerp totdat je dit onderwerp hebt bezocht.
 
 Als je de nieuwe berichten sinds je laatste bezoek wilt zien, klik dan op de volgende link:
 {U_NEWEST_POST}
@@ -13,7 +13,7 @@ Als je naar het onderwerp wilt gaan, klik dan op de volgende link:
 Als je naar het forum wilt gaan, klik dan op de volgende link:
 {U_FORUM}
 
-Als je niet langer emails meer wilt ontvangen over onderwerpen waar je op geabonneerd bent kun je via de volgende link je instellingen aanpassen:
+Als je niet langer e-mails meer wilt ontvangen over onderwerpen waar je op geabonneerd bent, kan je via de volgende link je instellingen aanpassen:
 
 {U_NOTIFICATION_SETTINGS}
 
