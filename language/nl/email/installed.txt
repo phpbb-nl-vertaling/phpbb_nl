@@ -1,19 +1,19 @@
-Subject: phpBB installed
+Subject: phpBB is geïnstalleerd
 
-Congratulations,
+Gefeliciteerd,
 
-You have successfully installed phpBB on your server.
+Je hebt phpBB succesvol geïnstalleerd op je server.
 
-This email contains important information regarding your installation and should be kept for reference. Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
+Deze e-mail omvat belangrijke informatie over je installatie en moet je bewaren als referentie. Je wachtwoord is veilig opgeslagen in onze database en kan niet worden opgevraagd. In een situatie waarin je het wachtwoord bent vergeten, je kunt dit dan resetten door gebruik te maken van de e-mailadres welke gekoppeld is aan je gebruikersaccount.
 
 ----------------------------
-Username: {USERNAME}
+Gebruikersnaam: {USERNAME}
 
-Board URL: {U_BOARD}
+Forum URL: {U_BOARD}
 ----------------------------
 
-Useful information regarding the phpBB software can be found in the docs folder of your installation and on phpBB.com's support page - https://www.phpbb.com/support/
+Handige informatie over de phpBB software kan gevonden worden in de docs map van je installatie en op de phpBB.com ondersteuningspagina - https://www.phpbb.com/support/
 
-In order to keep your board safe and secure, we highly recommended keeping current with software releases. For your convenience, a mailing list is available at the page referenced above.
+Om je forum veilig en bijgewerkt te hebben, is het sterk aanbevolen om de meest actuele versie te installeren. Voor je geruststelling, een mailinglijst is beschikbaar op de pagina wat hierboven is aangegeven.
 
 {EMAIL_SIG}
