@@ -1,9 +1,9 @@
-Subject: A request to join your group has been made
+Subject: Een aanvraag ingediend om deel te nemen aan jouw groep
 
-Dear {USERNAME},
+Hallo {USERNAME},
 
-The user "{REQUEST_USERNAME}" has requested to join the group "{GROUP_NAME}" you moderate on "{SITENAME}".
-To approve or deny this request for group membership please visit the following link:
+De gebruiker "{REQUEST_USERNAME}" heeft een aanvraag ingediend om deel te nemen aan de groep "{GROUP_NAME}" die jij modereert op "{SITENAME}".
+Om deze aanvraag te accepteren of te weigeren kun je op de volgende link klikken:
 
 {U_PENDING}
 

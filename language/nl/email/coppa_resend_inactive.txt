@@ -1,42 +1,42 @@
-Subject: Welcome to "{SITENAME}"
+Subject: Welkom op "{SITENAME}"
 
 {WELCOME_MSG}
 
-In compliance with the COPPA, your account is currently inactive.
+Door de COPPA-wetgeving is je gebruikersaccount nog niet geactiveerd.
 
-Please print this message and have your parent or guardian sign and date it. Then fax it to:
+Print dit bericht uit en laat het ondertekenen door je ouder/verzorger. Dit kan daarna gefaxt worden naar:
 
 {FAX_INFO}
 
-OR mail it to:
+OF e-mail het naar:
 
 {MAIL_INFO}
 
------------------------------- CUT HERE ------------------------------
-Permission to participate at "{SITENAME}" - {U_BOARD}
+------------------------------ KNIP HIER ------------------------------
+Toestemming om deel te nemen aan "{SITENAME}" - {U_BOARD}
 
-Username: {USERNAME}
-Email: {EMAIL_ADDRESS}
+Gebruikersnaam: {USERNAME}
+E-mail: {EMAIL_ADDRESS}
 
-I HAVE REVIEWED THE INFORMATION PROVIDED BY MY CHILD AND HEREBY GRANT PERMISSION TO "{SITENAME}" TO STORE THIS INFORMATION. 
-I UNDERSTAND THIS INFORMATION CAN BE CHANGED AT ANY TIME BY ENTERING A PASSWORD. 
-I UNDERSTAND THAT I MAY REQUEST FOR THIS INFORMATION TO BE REMOVED FROM "{SITENAME}" AT ANY TIME.
-
-
-Parent or guardian 
-(print your name here): _____________________
-
-(sign here): __________________ 
-
-Date: _______________
-
------------------------------- CUT HERE ------------------------------
+IK HEB DE INFORMATIE DIE MIJN KIND HEEFT OPGEGEVEN GECONTROLEERD EN GEEF BIJ DEZE TOESTEMMING AAN "{SITENAME}" OM DEZE INFORMATIE OP TE SLAAN. 
+IK BEGRIJP DAT DEZE INFORMATIE ELKE KEER VERANDERD KAN WORDEN MET HET INVOEREN VAN EEN WACHTWOORD. 
+IK BEGRIJP DAT ER ALTIJD VERZOCHT KAN WORDEN DEZE INFORMATIE TE VERWIJDEREN VAN "{SITENAME}".
 
 
-Once the administrator has received the above form via fax or regular mail, your account will be activated.
+Ouder/verzorger 
+(vul je naam in): _____________________
 
-Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
+(handtekening): __________________ 
 
-Thank you for registering.
+Datum: _______________
+
+------------------------------ KNIP HIER ------------------------------
+
+
+Als de beheerder het bovenstaande formulier heeft ontvangen via fax of e-mail dan wordt je gebruikersaccount geactiveerd.
+
+Je wachtwoord is veilig opgeslagen in onze database en kan niet worden opgevraagd. In een situatie waarin je het wachtwoord bent vergeten, kan je dit resetten door gebruik te maken van het e-mailadres welke gekoppeld is aan je gebruikersaccount.
+
+Bedankt voor het registreren.
 
 {EMAIL_SIG}
