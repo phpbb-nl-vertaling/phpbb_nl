@@ -1,7 +1,7 @@
 <?php
 /**
 *
-* help_faq [English]
+* help_faq [Dutch]
 *
 * @package language
 * @copyright (c) 2005 phpBB Group
