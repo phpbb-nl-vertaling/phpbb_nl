@@ -31,175 +31,175 @@ if (!defined('IN_PHPBB'))
 $help = array(
 	array(
 		0 => '--',
-		1 => 'Login and Registration Issues'
+		1 => 'Inlog- en registratievragen'
 	),
 	array(
-		0 => 'Why can’t I login?',
-		1 => 'There are several reasons why this could occur. First, ensure your username and password are correct. If they are, contact the board owner to make sure you haven’t been banned. It is also possible the website owner has a configuration error on their end, and they would need to fix it.'
+		0 => 'Waarom kan ik niet inloggen?',
+		1 => 'Er zijn verschillende redenen mogelijk waarom je dit probleem hebt. Controleer eerst of je gebruikersnaam en wachtwoord kloppen. Indien ze correct zijn kun je de beheerder contacteren om zeker te zijn dat je niet verbannen bent. Het is ook mogelijk dat de forum configuratie fout is, dan moet dit door de beheerder opgelost worden.'
 	),
 	array(
-		0 => 'Why do I need to register at all?',
-		1 => 'You may not have to, it is up to the administrator of the board as to whether you need to register in order to post messages. However; registration will give you access to additional features not available to guest users such as definable avatar images, private messaging, emailing of fellow users, usergroup subscription, etc. It only takes a few moments to register so it is recommended you do so.'
+		0 => 'Waarom moet ik me registreren?',
+		1 => 'De beheerder heeft bepaalt of je al dan niet geregistreerd moet zijn om berichten te plaatsen. Hoe dan ook, als je geregistreerd bent, kun je meer functies gebruiken. Zo kun je bijvoorbeeld een avatar opgeven, privéberichten sturen, andere gebruikers e-mailen, lid worden van gebruikersgroepen, enz. Het registreren duurt maar even, dus we raden het zeker aan!'
 	),
 	array(
-		0 => 'Why do I get logged off automatically?',
-		1 => 'If you do not check the <em>Remember me</em> box when you login, the board will only keep you logged in for a preset time. This prevents misuse of your account by anyone else. To stay logged in, check the box during login. This is not recommended if you access the board from a shared computer, e.g. library, internet cafe, university computer lab, etc. If you do not see this checkbox, it means the board administrator has disabled this feature.'
+		0 => 'Waarom word ik automatisch uitgelogd?',
+		1 => 'Als je de optie <em>log mij automatisch in bij ieder bezoek</em> niet aanvinkt, blijf je maar voor een bepaalde tijd ingelogd. Zo wordt vermeden dat anderen je account misbruiken. Om ingelogd te blijven, moet je bij het inloggen de optie aanvinken. We raden dit echter af als je het gebruik maakt van een openbare computer, bijvoorbeeld op school, in de bibliotheek, in een internet café, enz. Als deze optie niet beschikbaar is, heeft de beheerder deze uitgeschakeld.'
 	),
 	array(
-		0 => 'How do I prevent my username appearing in the online user listings?',
-		1 => 'Within your User Control Panel, under “Board preferences”, you will find the option <em>Hide your online status</em>. Enable this option with <samp>Yes</samp> and you will only appear to the administrators, moderators and yourself. You will be counted as a hidden user.'
+		0 => 'Hoe kan ik onzichtbaar zijn in de online gebruikers lijst?',
+		1 => 'In het gebruikerspaneel onder "forum instellingen", vind je de optie <em>onzichtbaar als ik online ben</em>. Als je deze optie activeert door <samp>ja</samp> aan te duiden, zal je onzichtbaar zijn voor iedereen, behalve voor beheerders, moderators en jezelf.'
 	),
 	array(
-		0 => 'I’ve lost my password!',
-		1 => 'Don’t panic! While your password cannot be retrieved, it can easily be reset. Visit the login page and click <em>I’ve forgotten my password</em>. Follow the instructions and you should be able to log in again shortly.'
+		0 => 'Ik weet mijn wachtwoord niet meer!',
+		1 => 'Geen paniek! Je kunt je huidige wachtwoord niet terug krijgen, maar er is wel een mogelijk om het te resetten. Hiervoor moet je naar de login pagina gaan en klikken op <em>wachtwoord vergeten?</em>. Volg de instructies op het scherm en wat later kun je weer inloggen.'
 	),
 	array(
-		0 => 'I registered but cannot login!',
-		1 => 'First, check your username and password. If they are correct, then one of two things may have happened. If COPPA support is enabled and you specified being under 13 years old during registration, you will have to follow the instructions you received. Some boards will also require new registrations to be activated, either by yourself or by an administrator before you can logon; this information was present during registration. If you were sent an email, follow the instructions. If you did not receive an email, you may have provided an incorrect email address or the email may have been picked up by a spam filer. If you are sure the email address you provided is correct, try contacting an administrator.'
+		0 => 'Ik ben geregistreerd maar kan niet inloggen!',
+		1 => 'Controleer eerst of je gebruikersnaam en wachtwoord kloppen. Indien ze correct zijn kan één of meerdere zaken hiervan de oorzaak zijn. Indien COPPA geactiveerd is en je tijdens het registratieproces opgaf dat je jonger bent dan 13 jaar, moet je de ontvangen instructies opvolgen. Als dit niet het geval is, moet je account dan geactiveerd worden? Sommige forums vereisen dat iedere nieuwe account geactiveerd wordt, ofwel door jezelf of door een beheerder. Wanneer je je geregistreerd hebt werd ook medegedeeld of dit al dan niet nodig is. Indien je een e-mail ontvangen hebt, moet je de daarin opgegeven instructies volgen. Als je nooit een e-mail ontvangen hebt, was het opgegeven e-mailadres dan wel juist? Één van de redenen van activatie is om het aantal valse accounts te doen dalen. Als je zeker bent dat je e-mailadres correct was, neem dan contact op met de beheerder.'
 	),
 	array(
-		0 => 'I registered in the past but cannot login any more?!',
-		1 => 'It is possible an administrator has deactivated or deleted your account for some reason. Also, many boards periodically remove users who have not posted for a long time to reduce the size of the database. If this has happened, try registering again and being more involved in discussions.'
+		0 => 'Ik heb me ooit geregistreerd maar kan nu niet meer inloggen!?',
+		1 => 'De meest voorkomende oorzaken hiervoor zijn je gaf een verkeerde gebruikersnaam of wachtwoord op (controleer de e-mail met je registratie gegevens) of de beheerder verwijderde je account om één of andere reden. Indien dit laatste het geval is, heb je dan ooit een bericht geplaatst? Het is normaal dat forums om de zoveel tijd gebruikers, die nog geen berichten geplaatst hebben, verwijderen. Dit doen ze om de database qua omvang te verkleinen. Probeer je opnieuw te registreren en vermeng je in de discussies.'
 	),
 	array(
-		0 => 'What is COPPA?',
-		1 => 'COPPA, or the Child Online Privacy and Protection Act of 1998, is a law in the United States requiring websites which can potentially collect information from minors under the age of 13 to have written parental consent or some other method of legal guardian acknowledgment, allowing the collection of personally identifiable information from a minor under the age of 13. If you are unsure if this applies to you as someone trying to register or to the website you are trying to register on, contact legal counsel for assistance. Please note that the phpBB Group cannot provide legal advice and is not a point of contact for legal concerns of any kind, except as outlined below.',
+		0 => 'Wat is COPPA?',
+		1 => 'COPPA is de afkorting voor het Engelse "Child Online Privacy and Protection Act". Dit is een Amerikaanse wet van 1998 die vereist dat iedere website die mogelijk gegevens van jongeren onder de 13 jaar verzamelt, hiervoor de toestemming heeft van de ouders. Deze toestemming moet schriftelijk of op een andere wijze gegeven worden, zodat de ouders weten dat de website persoonlijke gegevens van hun kind, jonger dan 13, heeft. Indien je niet zeker bent of deze wet al dan niet op jou of de website waarop je wilt registreren van toepassing is, neem dan contact op met een juridisch raadgever voor meer informatie. Houd er rekening mee dat het phpBB team geen wettelijke informatie kan verschaffen en ook niet het aanspreekpunt is voor deze wetgeving, tenzij dit hieronder vermeld wordt.',
 	),
 	array(
-		0 => 'Why can’t I register?',
-		1 => 'It is possible the website owner has banned your IP address or disallowed the username you are attempting to register. The website owner could have also disabled registration to prevent new visitors from signing up. Contact a board administrator for assistance.',
+		0 => 'Waarom kan ik niet registreren?',
+		1 => 'Mogelijk heeft de beheerder je IP-adres verbannen, of de gebruikersnaam die je opgeeft verboden. Tevens is het mogelijk dat de beheerder de registratie mogelijkheid heeft uitgeschakeld om zo de registratie van nieuwe gebruikers te voorkomen. Contacteer de beheerder voor verdere hulp.',
 	),
 	array(
-		0 => 'What does the “Delete all board cookies” do?',
-		1 => '“Delete all board cookies” deletes the cookies created by phpBB which keep you authenticated and logged into the board. It also provides functions such as read tracking if they have been enabled by the board owner. If you are having login or logout problems, deleting board cookies may help.',
-	),
-	array(
-		0 => '--',
-		1 => 'User Preferences and settings'
-	),
-	array(
-		0 => 'How do I change my settings?',
-		1 => 'If you are a registered user, all your settings are stored in the board database. To alter them, visit your User Control Panel; a link can usually be found at the top of board pages. This system will allow you to change all your settings and preferences.'
-	),
-	array(
-		0 => 'The times are not correct!',
-		1 => 'It is possible the time displayed is from a timezone different from the one you are in. If this is the case, visit your User Control Panel and change your timezone to match your particular area, e.g. London, Paris, New York, Sydney, etc. Please note that changing the timezone, like most settings, can only be done by registered users. If you are not registered, this is a good time to do so.'
-	),
-	array(
-		0 => 'I changed the timezone and the time is still wrong!',
-		1 => 'If you are sure you have set the timezone correctly and the time is still incorrect, then the time stored on the server clock is incorrect. Please notify an administrator to correct the problem.'
-	),
-	array(
-		0 => 'My language is not in the list!',
-		1 => 'Either the administrator has not installed your language or nobody has translated this board into your language. Try asking the board administrator if they can install the language pack you need. If the language pack does not exist, feel free to create a new translation. More information can be found at the phpBB website (see link at the bottom of board pages).'
-	),
-	array(
-		0 => 'How do I show an image along with my username?',
-		1 => 'There are two images which may appear along with a username when viewing posts. One of them may be an image associated with your rank, generally in the form of stars, blocks or dots, indicating how many posts you have made or your status on the board. Another, usually a larger image, is known as an avatar and is generally unique or personal to each user. It is up to the board administrator to enable avatars and to choose the way in which avatars can be made available. If you are unable to use avatars, contact a board administrator and ask them for their reasons.'
-	),
-	array(
-		0 => 'What is my rank and how do I change it?',
-		1 => 'Ranks, which appear below your username, indicate the number of posts you have made or identify certain users, e.g. moderators and administrators. In general, you cannot directly change the wording of any board ranks as they are set by the board administrator. Please do not abuse the board by posting unnecessarily just to increase your rank. Most boards will not tolerate this and the moderator or administrator will simply lower your post count.'
-	),
-	array(
-		0 => 'When I click the email link for a user it asks me to login?',
-		1 => 'Only registered users can send email to other users via the built-in email form, and only if the administrator has enabled this feature. This is to prevent malicious use of the email system by anonymous users.'
+		0 => 'Wat doet "verwijder alle forum cookies"?',
+		1 => 'Verwijder alle forum cookies zorgt dat alle cookies die door phpBB3 aangemaakt werden, verwijdert worden. Deze cookies zorgen ervoor dat je ingelogd bent en geven ook de mogelijkheid, indien de beheerder dit inschakelde, om te zien welke onderwerpen je al gelezen hebt.',
 	),
 	array(
 		0 => '--',
-		1 => 'Posting Issues'
+		1 => 'Gebruikers voorkeuren en instellingen'
 	),
 	array(
-		0 => 'How do I post a topic in a forum?',
-		1 => 'To post a new topic in a forum, click the relevant button on either the forum or topic screens. You may need to register before you can post a message. A list of your permissions in each forum is available at the bottom of the forum and topic screens. Example: You can post new topics, You can vote in polls, etc.'
+		0 => 'Hoe verander ik mijn instellingen?',
+		1 => 'Als je geregistreerd bent, worden al je gegevens opgeslagen in de database. Om ze te wijzigen moet je op de <em>gebruikerspaneel</em> link klikken (deze staat meestal bovenaan op de pagina, maar dit kan verschillen), daarna kun je jouw instellingen wijzigen.'
 	),
 	array(
-		0 => 'How do I edit or delete a post?',
-		1 => 'Unless you are a board administrator or moderator, you can only edit or delete your own posts. You can edit a post by clicking the edit button for the relevant post, sometimes for only a limited time after the post was made. If someone has already replied to the post, you will find a small piece of text output below the post when you return to the topic which lists the number of times you edited it along with the date and time. This will only appear if someone has made a reply; it will not appear if a moderator or administrator edited the post, though they may leave a note as to why they’ve edited the post at their own discretion. Please note that normal users cannot delete a post once someone has replied.'
+		0 => 'De tijden zijn niet correct!',
+		1 => 'Het is mogelijk dat de tijd die gegeven wordt van een andere tijdzone is dan waarin jij woont. Als dit het geval is, moet je naar het gebruikerspaneel gaan en je tijdzone veranderen in een bepaald gebied (vb: Amsterdam, New York, Sydney, enz.). Wees er bewust van dat het veranderen van de tijdzone, zoals de meeste instellingen, alleen gedaan kunnen worden door geregistreerde gebruikers. Als je nog niet geregistreerd bent is dit een goed moment om dit te doen.'
 	),
 	array(
-		0 => 'How do I add a signature to my post?',
-		1 => 'To add a signature to a post you must first create one via your User Control Panel. Once created, you can check the <em>Attach a signature</em> box on the posting form to add your signature. You can also add a signature by default to all your posts by checking the appropriate radio button in your profile. If you do so, you can still prevent a signature being added to individual posts by un-checking the add signature box within the posting form.'
+		0 => 'Ik wijzigde de tijdzone, maar de tijd is nog steeds verkeerd!',
+		1 => 'Als je zeker bent dat je de correcte tijdzone en zomertijd goed hebt ingevuld en de tijd is nog steeds anders, is waarschijnlijk de tijd op de server verkeerd ingesteld en zullen de beheerders een correctie moeten maken.'
 	),
 	array(
-		0 => 'How do I create a poll?',
-		1 => 'When posting a new topic or editing the first post of a topic, click the “Poll creation” tab below the main posting form; if you cannot see this, you do not have appropriate permissions to create polls. Enter a title and at least two options in the appropriate fields, making sure each option is on a separate line in the textarea. You can also set the number of options users may select during voting under “Options per user”, a time limit in days for the poll (0 for infinite duration) and lastly the option to allow users to amend their votes.'
+		0 => 'Mijn taal zit niet in de lijst!',
+		1 => 'De meest voorkomende reden hiervoor is dat de beheerder jouw taal niet geïnstalleerd heeft, of dat nog niemand het forum in je taal vertaald heeft. Je kunt altijd aan de beheerder vragen of hij het talen pakket dat jij nodig hebt wil installeren. Indien het nog niet bestaat, mag je gerust de vertaling maken. Meer informatie hieromtrent kan gevonden worden op de website van de phpBB groep (de link staat onderaan iedere pagina).'
 	),
 	array(
-		0 => 'Why can’t I add more poll options?',
-		1 => 'The limit for poll options is set by the board administrator. If you feel you need to add more options to your poll than the allowed amount, contact the board administrator.'
+		0 => 'Hoe kan ik een afbeelding bij mijn gebruikersnaam plaatsen?',
+		1 => 'Er kunnen 2 afbeeldingen bij een gebruikersnaam staan als je berichten leest. De eerste afbeelding geeft aan welke rang je hebt, meestal zijn dit sterretjes of blokjes die aangeven hoeveel berichten je geplaatst hebt of wat je status is. Hieronder kan nog een tweede afbeelding staan, beter bekend als een avatar. Deze afbeelding is meestal uniek of persoonlijk voor iedere gebruiker. De beheerders hebben de keuze om avatars al dan niet in te schakelen. Tevens beslissen deze ook over de manier waarop iemand een avatar kan kiezen. Als je dus geen gebruik kan maken van avatars, heeft een beheerder dat zo ingesteld en moet je dus hem/haar contacteren met je vragen hierover.'
 	),
 	array(
-		0 => 'How do I edit or delete a poll?',
-		1 => 'As with posts, polls can only be edited by the original poster, a moderator or an administrator. To edit a poll, click to edit the first post in the topic; this always has the poll associated with it. If no one has cast a vote, users can delete the poll or edit any poll option. However, if members have already placed votes, only moderators or administrators can edit or delete it. This prevents the poll’s options from being changed mid-way through a poll.'
+		0 => 'Hoe verander ik mijn rang?',
+		1 => 'Over het algemeen kun je jouw rang niet wijzigen (deze staat onder je gebruikersnaam bij je berichten en op je profiel, maar dit is afhankelijk van de gebruikte stijl). De meeste forums gebruiken rangen om aan te geven hoeveel berichten je geplaatst hebt, maar bepaalde gebruikers zoals bijvoorbeeld moderators en beheerders hebben ook een aparte rang. Nu moet je natuurlijk het forum niet beginnen spammen met onzinnig veel berichten, gewoon voor een hogere rang. Dit heeft zelfs mogelijk het tegenovergestelde effect, een beheerder of moderator kunnen je berichten aantal doen dalen.'
 	),
 	array(
-		0 => 'Why can’t I access a forum?',
-		1 => 'Some forums may be limited to certain users or groups. To view, read, post or perform another action you may need special permissions. Contact a moderator or board administrator to grant you access.'
-	),
-	array(
-		0 => 'Why can’t I add attachments?',
-		1 => 'Attachment permissions are granted on a per forum, per group, or per user basis. The board administrator may not have allowed attachments to be added for the specific forum you are posting in, or perhaps only certain groups can post attachments. Contact the board administrator if you are unsure about why you are unable to add attachments.'
-	),
-	array(
-		0 => 'Why did I receive a warning?',
-		1 => 'Each board administrator has their own set of rules for their site. If you have broken a rule, you may be issued a warning. Please note that this is the board administrator’s decision, and the phpBB Group has nothing to do with the warnings on the given site. Contact the board administrator if you are unsure about why you were issued a warning.'
-	),
-	array(
-		0 => 'How can I report posts to a moderator?',
-		1 => 'If the board administrator has allowed it, you should see a button for reporting posts next to the post you wish to report. Clicking this will walk you through the steps necessary to report the post.'
-	),
-	array(
-		0 => 'What is the “Save” button for in topic posting?',
-		1 => 'This allows you to save passages to be completed and submitted at a later date. To reload a saved passage, visit the User Control Panel.'
-	),
-	array(
-		0 => 'Why does my post need to be approved?',
-		1 => 'The board administrator may have decided that posts in the forum you are posting to require review before submission. It is also possible that the administrator has placed you in a group of users whose posts require review before submission. Please contact the board administrator for further details.'
-	),
-	array(
-		0 => 'How do I bump my topic?',
-		1 => 'By clicking the “Bump topic” link when you are viewing it, you can “bump” the topic to the top of the forum on the first page. However, if you do not see this, then topic bumping may be disabled or the time allowance between bumps has not yet been reached. It is also possible to bump the topic simply by replying to it, however, be sure to follow the board rules when doing so.'
+		0 => 'Wanneer ik op de e-mail link van een gebruiker klik, moet ik inloggen?',
+		1 => 'Alleen geregistreerde gebruikers kunnen gebruik maken van het ingebouwde e-mail formulier (indien de beheerder dit heeft ingeschakeld). Dit om misbruik van het e-mail systeem door anonieme gebruikers te voorkomen.'
 	),
 	array(
 		0 => '--',
-		1 => 'Formatting and Topic Types'
+		1 => 'Vragen in verband met het plaatsen van berichten'
 	),
 	array(
-		0 => 'What is BBCode?',
-		1 => 'BBCode is a special implementation of HTML, offering great formatting control on particular objects in a post. The use of BBCode is granted by the administrator, but it can also be disabled on a per post basis from the posting form. BBCode itself is similar in style to HTML, but tags are enclosed in square brackets [ and ] rather than &lt; and &gt;. For more information on BBCode see the guide which can be accessed from the posting page.'
+		0 => 'Hoe plaats ik een onderwerp in een forum?',
+		1 => 'Om een nieuw onderwerp in één van de forums te plaatsen, klik je op de bijhorende knop op ofwel de pagina met onderwerpen of in een bepaald onderwerp. Mogelijk moet je je registreren voor je een nieuw onderwerp kan aanmaken, de permissies die je al dan niet hebt in het forum staan onderaan de pagina met onderwerpen of in een onderwerp (de lijst met <em>je mag geen nieuwe onderwerpen in dit forum plaatsen, je mag niet antwoorden op een onderwerp in dit forum, enz.</em>).'
 	),
 	array(
-		0 => 'Can I use HTML?',
-		1 => 'No. It is not possible to post HTML on this board and have it rendered as HTML. Most formatting which can be carried out using HTML can be applied using BBCode instead.'
+		0 => 'Hoe wijzig of verwijder ik een bericht?',
+		1 => 'Tenzij je de beheerder of een moderator bent, kun je alleen je eigen berichten wijzigen en verwijderen. Je kunt een bericht wijzigen (soms maar voor een beperkte tijd nadat het geplaatst is) door te klikken op de <em>wijzig</em> knop van het desbetreffende bericht. Als er al iemand op je bericht gereageerd heeft, komt er onderaan je bericht een klein tekstje dat zegt hoeveel keer en wanneer je het bericht voor het laatst je gewijzigd hebt. Dit zal niet verschijnen als nog niemand gereageerd heeft, evenmin als een beheerder of moderator je bericht gewijzigd heeft. Zij kunnen wel een mededeling toevoegen, waarom ze je bericht gewijzigd hebben. Het verwijderen van een bericht is niet meer mogelijk van zodra er iemand gereageerd heeft.'
 	),
 	array(
-		0 => 'What are Smilies?',
-		1 => 'Smilies, or Emoticons, are small images which can be used to express a feeling using a short code, e.g. :) denotes happy, while :( denotes sad. The full list of emoticons can be seen in the posting form. Try not to overuse smilies, however, as they can quickly render a post unreadable and a moderator may edit them out or remove the post altogether. The board administrator may also have set a limit to the number of smilies you may use within a post.'
+		0 => 'Hoe voeg ik een onderschrift toe aan mijn bericht?',
+		1 => 'Om een onderschrift aan je bericht toe te voegen, moet je er eerst één maken. Dit kun je via het gebruikerspaneel doen. Vanaf je dit gedaan hebt, kun je de optie <em>voeg mijn onderschrift toe</em> aanvinken als je een bericht plaatst. Je kunt er ook voor zorgen dat je onderschrift automatisch aan ieder nieuw bericht wordt toegevoegd. Dit doe je door de bijhorende optie te activeren in het gebruikerspaneel (het is nog altijd mogelijk om het onderschrift uit te schakelen als je het bericht plaatst).'
 	),
 	array(
-		0 => 'Can I post images?',
-		1 => 'Yes, images can be shown in your posts. If the administrator has allowed attachments, you may be able to upload the image to the board. Otherwise, you must link to an image stored on a publicly accessible web server, e.g. http://www.example.com/my-picture.gif. You cannot link to pictures stored on your own PC (unless it is a publicly accessible server) nor images stored behind authentication mechanisms, e.g. hotmail or yahoo mailboxes, password protected sites, etc. To display the image use the BBCode [img] tag.'
+		0 => 'Hoe maak ik een poll?',
+		1 => 'Een poll aanmaken is heel gemakkelijk, als je een nieuw onderwerp aanmaakt (of het eerste bericht in een onderwerp bewerkt, als je daar permissie voor hebt) zou je een "voeg poll toe" tabblad moeten zijn onderaan het posting-gedeelte (als je dit tabblad niet kunt zien heb je niet de juiste permissies om polls aan te maken). Je moet een titel voor de poll invullen bij "poll vraag" en dan minstens 2 mogelijkheden invullen in het "poll opties"-tekstgedeelte (limiet is ingesteld door de beheerder), met elke optie gescheiden door middel van een nieuwe regel. Je kunt ook instellen hoeveel opties een gebruiker mag kiezen onder "opties per gebruiker" en een tijdslimiet in dagen voor de poll (0 is een poll van oneindige duur).'
 	),
 	array(
-		0 => 'What are global announcements?',
-		1 => 'Global announcements contain important information and you should read them whenever possible. They will appear at the top of every forum and within your User Control Panel. Global announcement permissions are granted by the board administrator.'
+		0 => 'Waarom kan ik niet meer poll opties toevoegen?',
+		1 => 'De limiet voor de poll opties is ingesteld door de forum beheerder. Indien je meer opties denkt nodig te hebben dan het toegestane aantal, dien je contact op te nemen met de forum beheerder.'
 	),
 	array(
-		0 => 'What are announcements?',
-		1 => 'Announcements often contain important information for the forum you are currently reading and you should read them whenever possible. Announcements appear at the top of every page in the forum to which they are posted. As with global announcements, announcement permissions are granted by the board administrator.'
+		0 => 'Hoe wijzig of verwijder ik een poll?',
+		1 => 'Net zoals bij de berichten kan een poll alleen gewijzigd worden door degene die hem gemaakt heeft, een moderator of beheerder. Om de poll te wijzigen moet je het allereerste bericht van het onderwerp wijzigen (hieraan is de poll gekoppeld). Als er nog geen stemmen zijn uitgebracht kunnen gebruikers de poll verwijderen of iedere poll optie wijzigen. Maar, als er reeds gestemd is kunnen alleen moderators of beheerders hem wijzigen of verwijderen. Dit om te verkomen dat gebruikers een poll maken en deze daarna vervalsen door de opties te wijzigen.'
 	),
 	array(
-		0 => 'What are sticky topics?',
-		1 => 'Sticky topics within the forum appear below announcements and only on the first page. They are often quite important so you should read them whenever possible. As with announcements and global announcements, sticky topic permissions are granted by the board administrator.'
+		0 => 'Waarom kan ik een bepaald forum niet openen?',
+		1 => 'Sommige forums zijn mogelijk alleen toegankelijk voor bepaalde gebruikers of gebruikersgroepen. Om berichten te zien, lezen, plaatsen, enz. heb je speciale permissies nodig. Deze permissies kun je alleen van moderators of beheerders krijgen, zij zijn dus ook degene die je hierover moet contacteren.'
 	),
 	array(
-		0 => 'What are locked topics?',
-		1 => 'Locked topics are topics where users can no longer reply and any poll it contained was automatically ended. Topics may be locked for many reasons and were set this way by either the forum moderator or board administrator. You may also be able to lock your own topics depending on the permissions you are granted by the board administrator.'
+		0 => 'Waarom kan ik geen bijlagen toevoegen?',
+		1 => 'De mogelijkheid om bijlagen toe te voegen, kan per forum, per gebruikersgroep of per gebruiker ingesteld worden. De beheerder kan het bijvoorbeeld zo ingesteld hebben dat je in een bepaald forum helemaal geen bijlagen mag toevoegen, of dat alleen de beheerders groep dit mag. Neem contact op met de beheerder als je niet zeker weet waarom je geen bijlagen kan toevoegen.'
 	),
 	array(
-		0 => 'What are topic icons?',
-		1 => 'Topic icons are author chosen images associated with posts to indicate their content. The ability to use topic icons depends on the permissions set by the board administrator.'
+		0 => 'Waarom ontving ik een waarschuwing?',
+		1 => 'Op ieder forum gelden specifieke regels, als je één van deze regels (volgens de beheerder) overtreedt, kun je een waarschuwing ontvangen. Het sturen van een waarschuwing naar jouw is een beslissing van de beheerder, de phpBB groep heeft hier dus in geen geval iets mee te maken.'
+	),
+	array(
+		0 => 'Hoe kan ik berichten aan een moderator melden?',
+		1 => 'Als de beheerder het toelaat, kun je op de hiervoor dienende knop klikken bij het bericht. Als je hierop geklikt hebt, moet je een paar nodige stappen volgen om de melding te versturen.'
+	),
+	array(
+		0 => 'Waarvoor dient de "opslaan" knop bij het plaatsen van een bericht?',
+		1 => 'Hiermee kun je berichten opslaan om ze dan later af te werken en te plaatsen. Een opgeslagen bericht kun je, via de bijhorende optie, in het gebruikerspaneel weer laden.'
+	),
+	array(
+		0 => 'Waarom moet mijn bericht goedgekeurd worden?',
+		1 => 'De beheerder kan beslist hebben dat geplaatste berichten eerst nagekeken moeten worden. Het is tevens ook mogelijk dat de beheerder je in een gebruikersgroep geplaatst heeft waarvan de berichten altijd nagelezen moeten worden. Contacteer de beheerder voor verdere informatie.'
+	),
+	array(
+		0 => 'Hoe bump ik mijn onderwerp?',
+		1 => 'Als je een onderwerp aan het bekijken bent, kun je klikken op de "bump onderwerp" link. Hierdoor "bump" je het onderwerp naar boven op de eerste pagina van de onderwerpenlijst. Als deze link er niet staat, kunnen onderwerpen niet gebumpt worden. Een onderwerp kan ook gebumpt worden door een antwoord te plaatsen, maar hou hierbij wel rekening met de regels van het forum.'
+	),
+	array(
+		0 => '--',
+		1 => 'Tekstopmaak en onderwerp soorten'
+	),
+	array(
+		0 => 'Wat is BBCode?',
+		1 => 'BBCode is een vereenvoudigde versie van html, het gebruik ervan is al dan niet toegestaan door de beheerder (je kunt de BBCode ook per bericht uitschakelen, dit is een optie bij het plaatsen van je bericht). De syntax van BBCode is quasi gelijk aan die van HTML, tags worden tussen vierkante haakjes [ en ] geplaatst, dus niet &lt; en &gt;. Daarnaast geeft het ook een grotere controle over hoe iets wordt weergegeven. Meer informatie omtrent BBCode is te vinden in de handleiding die je kunt openen als je een bericht plaatst.'
+	),
+	array(
+		0 => 'Kan ik HTML gebruiken?',
+		1 => 'Nee, het is niet mogelijk om je bericht op te maken met HTML code. De meeste opmaak die je via HTML kan toepassen is ook via BBCode mogelijk.'
+	),
+	array(
+		0 => 'Wat zijn smilies?',
+		1 => 'Smilies zijn kleine afbeeldingen die gebruikt kunnen worden om een gevoelstoestand uit te drukken, bijvoorbeeld :) betekent blij, :( betekent ongelukkig. Alle beschikbare smilies worden weergegeven als je een bericht plaatst. Maak geen overdadig gebruik van smilies, ze maken een bericht snel onleesbaar, wat er toe kan leiden dat een moderator je bericht aanpast of heel je bericht verwijdert. De beheerder kan ook een maximaal aantal smilies, dat in een bericht gebruikt mag worden, bepaald hebben.'
+	),
+	array(
+		0 => 'Kan ik afbeeldingen plaatsen?',
+		1 => 'Ja, je kunt afbeeldingen in je bericht weergeven. Als de beheerder bijlagen toelaat, kun je een afbeelding naar het forum uploaden. Anders moet je er voor zorgen dat de afbeelding op een andere publieke server beschikbaar is, bijvoorbeeld http://www.voorbeeld.com/mijn_afbeelding.gif. Linken naar een afbeelding op je eigen computer is onmogelijk (tenzij het een publieke server is). Ook afbeeldingen die een authentificatie vereisen zoals in: Hotmail of Yahoo mailboxen, een wachtwoord beschermde website, enz. kunnen niet worden weergegeven. Om een afbeelding weer te geven, moet je de BBCode tag [img] gebruiken.'
+	),
+	array(
+		0 => 'Wat zijn globale mededelingen?',
+		1 => 'Globale mededelingen zijn berichten die belangrijke informatie bevatten, je komt ze dan ook op verschillende plaatsen tegen zoals bovenaan ieder forum en in het gebruikerspaneel. Of je al dan niet globale mededelingen kan plaatsen hangt af van de vereiste permissies, deze zijn ingesteld door de beheerder.'
+	),
+	array(
+		0 => 'Wat zijn mededelingen?',
+		1 => 'Mededelingen bevatten vaak belangrijke informatie over het forum dat je aan het lezen bent, je kunt deze berichten dan ook het best zo snel mogelijk lezen. Mededelingen verschijnen bovenaan iedere pagina van het forum waarin ze geplaatst zijn. Zoals bij globale mededelingen, hangt het van de vereiste permissies af of je al dan niet mededelingen kan plaatsen. De nodige permissies zijn bepaald door de beheerder.'
+	),
+	array(
+		0 => 'Wat zijn sticky onderwerpen?',
+		1 => 'Sticky onderwerpen staan onder de mededelingen in het forum en alleen op de eerste pagina. Meestal zijn deze berichten vrij belangrijk, dus het lezen ervan is aangeraden. Net zoals bij mededelingen bepaalt de beheerder welke permissies je moet hebben om een sticky onderwerp te plaatsen.'
+	),
+	array(
+		0 => 'Wat zijn gesloten onderwerpen?',
+		1 => 'Zowel moderators als beheerders kunnen onderwerpen sluiten. Je kunt niet langer antwoorden op deze berichten en als ze een poll bevatte, eindigt deze automatisch. Onderwerpen kunnen om eender welke reden gesloten worden.'
+	),
+	array(
+		0 => 'Wat zijn onderwerp iconen?',
+		1 => 'Onderwerp iconen zijn kleine afbeeldingen die met berichten geassocieerd kunnen worden, om zo hun inhoud aan te tonen. Of je al dan niet gebruik kan maken van onderwerp iconen hangt af van de door de beheerder ingestelde permissies.'
 	),
 	// This block will switch the FAQ-Questions to the second template column
 	array(
@@ -208,134 +208,134 @@ $help = array(
 	),
 	array(
 		0 => '--',
-		1 => 'User Levels and Groups'
+		1 => 'Type gebruikers en gebruikersgroepen'
 	),
 	array(
-		0 => 'What are Administrators?',
-		1 => 'Administrators are members assigned with the highest level of control over the entire board. These members can control all facets of board operation, including setting permissions, banning users, creating usergroups or moderators, etc., dependent upon the board founder and what permissions he or she has given the other administrators. They may also have full moderator capabilities in all forums, depending on the settings put forth by the board founder.'
+		0 => 'Wat zijn beheerders?',
+		1 => 'Beheerders zijn gebruikers die alle permissies hebben over het gehele forum. Zij beheren alles in verband met het forum, zoals: permissies, het verbannen van gebruikers, gebruikersgroepen of moderators creëren, enz. Hun permissies zijn natuurlijk afhankelijk van welke de eigenaar hun heeft toegewezen. Ook afhankelijk van de beslissing van de eigenaar, hebben ze mogelijk alle moderator permissies in de forums.'
 	),
 	array(
-		0 => 'What are Moderators?',
-		1 => 'Moderators are individuals (or groups of individuals) who look after the forums from day to day. They have the authority to edit or delete posts and lock, unlock, move, delete and split topics in the forum they moderate. Generally, moderators are present to prevent users from going off-topic or posting abusive or offensive material.'
+		0 => 'Wat zijn moderators?',
+		1 => 'Moderators zijn gebruikers of gebruikersgroepen die in staan voor de dagelijkse werking van het forum. Ze kunnen, in de forums die ze modereren, berichten wijzigen en verwijderen; onderwerpen sluiten, openen, verplaatsen, splitsen en verwijderen. In het algemeen moeten ze er gewoon op toe zien dat mensen niet van het onderwerp afwijken (<em>off-topic</em>) gaan of ongepaste inhoud plaatsen.'
 	),
 	array(
-		0 => 'What are usergroups?',
-		1 => 'Usergroups are groups of users that divide the community into manageable sections board administrators can work with. Each user can belong to several groups and each group can be assigned individual permissions. This provides an easy way for administrators to change permissions for many users at once, such as changing moderator permissions or granting users access to a private forum.'
+		0 => 'Wat zijn gebruikersgroepen?',
+		1 => 'Als de beheerder gebruikers wil groeperen, kan hij/zij dit doen door middel van gebruikersgroepen. Gebruikers kunnen van meerdere groepen lid zijn (dit verschilt per forum), deze groepen kunnen verschillende permissies/toegangsrechten toegewezen zijn. Op deze manier is het voor de beheerder een stuk gemakkelijker meerdere moderators aan een forum toe te wijzen, bepaalde gebruikers toegang tot een privé forum te verlenen, enz.'
 	),
 	array(
-		0 => 'Where are the usergroups and how do I join one?',
-		1 => 'You can view all usergroups via the “Usergroups” link within your User Control Panel. If you would like to join one, proceed by clicking the appropriate button. Not all groups have open access, however. Some may require approval to join, some may be closed and some may even have hidden memberships. If the group is open, you can join it by clicking the appropriate button. If a group requires approval to join you may request to join by clicking the appropriate button. The user group leader will need to approve your request and may ask why you want to join the group. Please do not harass a group leader if they reject your request; they will have their reasons.'
+		0 => 'Hoe word ik lid van een gebruikersgroep?',
+		1 => 'Om lid van een gebruikersgroep te worden, moet je op de bijhorende link klikken in het gebruikerspaneel, waarna je een overzicht van alle gebruikersgroepen krijgt. Niet alle groepen zijn vrij toegankelijk, ze vereisen een goedkeuring van je lidmaatschap en hebben soms zelf verborgen gebruikers. Als het een open groep is, kun je lid worden door op de hiervoor dienende knop te klikken. Als het een gesloten groep is, kun je je lidmaatschap aanvragen door op de bijhorende knop te klikken. De groepsleider moet je aanvraag dan goedkeuren, hij of zij vraagt mogelijk waarom je lid wil worden. Indien je niet tot een groep toegelaten wordt, moet je de groepsleider niet lastig vallen, hij of zij heeft een reden om je te weigeren.'
 	),
 	array(
-		0 => 'How do I become a usergroup leader?',
-		1 => 'A usergroup leader is usually assigned when usergroups are initially created by a board administrator. If you are interested in creating a usergroup, your first point of contact should be an administrator; try sending a private message.',
+		0 => 'Hoe word ik een groepsleider?',
+		1 => 'Gebruikersgroepen worden door de beheerder gemaakt, deze beslist dus ook wie de groepsleider is. Als je een gebruikersgroep wilt starten, moet je de beheerder contacteren, dit kan door hem/haar een privébericht te sturen.'
 	),
 	array(
-		0 => 'Why do some usergroups appear in a different colour?',
-		1 => 'It is possible for the board administrator to assign a colour to the members of a usergroup to make it easy to identify the members of this group.'
+		0 => 'Waarom staan verscheidene gebruikersgroepen in een andere kleur?',
+		1 => 'De beheerder kan een kleur aan een gebruikersgroep toegewezen hebben, dit is om de leden gemakkelijk te herkennen.'
 	),
 	array(
-		0 => 'What is a “Default usergroup”?',
-		1 => 'If you are a member of more than one usergroup, your default is used to determine which group colour and group rank should be shown for you by default. The board administrator may grant you permission to change your default usergroup via your User Control Panel.'
+		0 => 'Wat is de "standaard gebruikersgroep"?',
+		1 => 'Als je lid bent van meerdere gebruikersgroepen, word je standaard gebruikersgroep gebruikt om je groepskleur en groepsrang te bepalen. De beheerder kun je de permissies geven om je standaard gebruikersgroep te wijzigen via het gebruikerspaneel.'
 	),
 	array(
-		0 => 'What is “The team” link?',
-		1 => 'This page provides you with a list of board staff, including board administrators and moderators and other details such as the forums they moderate.'
-	),
-	array(
-		0 => '--',
-		1 => 'Private Messaging'
-	),
-	array(
-		0 => 'I cannot send private messages!',
-		1 => 'There are three reasons for this; you are not registered and/or not logged on, the board administrator has disabled private messaging for the entire board, or the board administrator has prevented you from sending messages. Contact a board administrator for more information.'
-	),
-	array(
-		0 => 'I keep getting unwanted private messages!',
-		1 => 'You can block a user from sending you private messages by using message rules within your User Control Panel. If you are receiving abusive private messages from a particular user, inform a board administrator; they have the power to prevent a user from sending private messages.'
-	),
-	array(
-		0 => 'I have received a spamming or abusive email from someone on this board!',
-		1 => 'We are sorry to hear that. The email form feature of this board includes safeguards to try and track users who send such posts, so email the board administrator with a full copy of the email you received. It is very important that this includes the headers that contain the details of the user that sent the email. The board administrator can then take action.'
+		0 => 'Waarvoor dient de "het team" link?',
+		1 => 'Als je op deze link klikt, kom je op een pagina die een overzicht geeft van de mensen die het forum beheren. Deze lijst bevat alle beheerders en de moderators, met bijhorende details omtrent welke forums ze modereren.'
 	),
 	array(
 		0 => '--',
-		1 => 'Friends and Foes'
+		1 => 'Privéberichten'
 	),
 	array(
-		0 => 'What are my Friends and Foes lists?',
-		1 => 'You can use these lists to organise other members of the board. Members added to your friends list will be listed within your User Control Panel for quick access to see their online status and to send them private messages. Subject to template support, posts from these users may also be highlighted. If you add a user to your foes list, any posts they make will be hidden by default.'
+		0 => 'Ik kan geen privéberichten sturen!',
+		1 => 'Hiervoor zijn drie redenen mogelijk: ofwel ben je niet geregistreerd en/of ingelogd, de beheerder schakelde de privéberichten functie uit, of de beheerder heeft ingesteld dat jij geen privéberichten kan sturen. Indien dit laatste het geval is, tracht dan de beheerder te contacteren.'
 	),
 	array(
-		0 => 'How can I add / remove users to my Friends or Foes list?',
-		1 => 'You can add users to your list in two ways. Within each user’s profile, there is a link to add them to either your Friend or Foe list. Alternatively, from your User Control Panel, you can directly add users by entering their member name. You may also remove users from your list using the same page.'
+		0 => 'Ik blijf ongewenste privéberichten ontvangen!',
+		1 => 'Je kunt gebruikers blokkeren zodat ze je geen privéberichten meer kunnen sturen, dit gebeurt via het gebruikerspaneel. Als je ongepaste privéberichten ontvangt van een bepaalde gebruiker, contacteer dan de beheerder, deze kan ervoor zorgen dat hij of zij niet langer privéberichten kan sturen.'
 	),
 	array(
-		0 => '--',
-		1 => 'Searching the Forums'
-	),
-	array(
-		0 => 'How can I search a forum or forums?',
-		1 => 'Enter a search term in the search box located on the index, forum or topic pages. Advanced search can be accessed by clicking the “Advance Search” link which is available on all pages on the forum. How to access the search may depend on the style used.'
-	),
-	array(
-		0 => 'Why does my search return no results?',
-		1 => 'Your search was probably too vague and included many common terms which are not indexed by phpBB3. Be more specific and use the options available within Advanced search.'
-	),
-	array(
-		0 => 'Why does my search return a blank page!?',
-		1 => 'Your search returned too many results for the webserver to handle. Use “Advanced search” and be more specific in the terms used and forums that are to be searched.'
-	),
-	array(
-		0 => 'How do I search for members?',
-		1 => 'Visit to the “Members” page and click the “Find a member” link.'
-	),
-	array(
-		0 => 'How can I find my own posts and topics?',
-		1 => 'Your own posts can be retrieved either by clicking the “Search user’s posts” within the User Control Panel or via your own profile page. To search for your topics, use the Advanced search page and fill in the various options appropriately.'
+		0 => 'Ik heb spam of een e-mail met ongepaste inhoud van iemand op dit forum ontvangen!',
+		1 => 'Jammer dat we dit moeten horen. Het e-mail formulier van dit forum werkt met een aantal technieken om zenders van zulke berichten te traceren. Het beste wat je kunt doen is de beheerder een kopie van het bericht e-mailen, inclusief de headers (hierin staan de details van de gebruiker die de e-mail stuurde). Deze zal dan de nodige stappen ondernemen.'
 	),
 	array(
 		0 => '--',
-		1 => 'Topic Subscriptions and Bookmarks'
+		1 => 'Vrienden en vijanden'
 	),
 	array(
-		0 => 'What is the difference between bookmarking and subscribing?',
-		1 => 'Bookmarking in phpBB3 is much like bookmarking in your web browser. You aren’t alerted when there’s an update, but you can come back to the topic later. Subscribing, however, will notify you when there is an update to the topic or forum on the board via your preferred method or methods.'
+		0 => 'Waarvoor dient mijn vrienden en vijanden lijst?',
+		1 => 'Hiermee kun je andere gebruikers op het forum sorteren. Gebruikers die in je vrienden lijst staan, worden in het gebruikerspaneel weergegeven zodat je snel kan controleren of ze online zijn, of een privébericht kan sturen. Tevens is het mogelijk dat hun berichten, in je huidige template, gemarkeerd worden. Als je een gebruiker aan je vijanden lijst toevoegt, worden zijn of haar berichten standaard verborgen.'
 	),
 	array(
-		0 => 'How do I subscribe to specific forums or topics?',
-		1 => 'To subscribe to a specific forum, click the “Subscribe forum” link upon entering the forum. To subscribe to a topic, reply to the topic with the subscribe checkbox checked or click the “Subscribe topic” link within the topic itself.'
-	),
-	array(
-		0 => 'How do I remove my subscriptions?',
-		1 => 'To remove your subscriptions, go to your User Control Panel and follow the links to your subscriptions.'
+		0 => 'Hoe verwijder of voeg ik gebruikers toe aan mijn vrienden en/of vijanden lijst?',
+		1 => 'Het toevoegen van gebruikers kan op 2 manieren. In het profiel van iedere gebruiker staat er een link om de gebruiker aan je vrienden of vijanden lijst toe te voegen. De tweede manier is via het gebruikerspaneel, dan moet je een gebruikersnaam opgeven. Op dezelfde pagina kun je gebruikers weer van de lijst verwijderen.'
 	),
 	array(
 		0 => '--',
-		1 => 'Attachments'
+		1 => 'Forums doorzoeken'
 	),
 	array(
-		0 => 'What attachments are allowed on this board?',
-		1 => 'Each board administrator can allow or disallow certain attachment types. If you are unsure what is allowed to be uploaded, contact the board administrator for assistance.'
+		0 => 'Hoe doorzoek ik het forum?',
+		1 => 'Door een zoekterm op te geven in het zoekveld, dat je vindt op de index, forum en onderwerp pagina. Uitgebreid zoeken is mogelijk door op de "zoeken" link te klikken, deze vind je op iedere pagina.'
 	),
 	array(
-		0 => 'How do I find all my attachments?',
-		1 => 'To find your list of attachments that you have uploaded, go to your User Control Panel and follow the links to the attachments section.'
+		0 => 'Waarom levert mijn zoekopdracht geen resultaten op?',
+		1 => 'Je zoekterm was hoogstwaarschijnlijk niet specifiek genoeg en bevatte mogelijk teveel termen die niet door phpBB3 geïndexeerd worden. Wees specifieker en gebruik, bij uitgebreid zoeken, de beschikbare opties.'
+	),
+	array(
+		0 => 'Waarom resulteert mijn zoekopdracht in een lege pagina?',
+		1 => 'Je zoekopdracht gaf meer resultaten dan de webserver kon verwerken. Gebruik de geavanceerde zoekfunctie en wees specifieker met zowel je zoektermen als de te doorzoeken forums. '
+	),
+	array(
+		0 => 'Hoe zoek ik een gebruiker?',
+		1 => 'Ga naar de "leden" pagina en klik op de "zoek een lid" link. Eens op die pagina, vul je de voor zichzelf sprekende opties in.'
+	),
+	array(
+		0 => 'Hoe kan ik mijn eigen berichten en onderwerpen vinden?',
+		1 => 'Je kunt je eigen berichten vinden door ofwel op de "toon je eigen berichten" link in het gebruikerspaneel te klikken, of via je eigen profiel. Om je eigen onderwerpen te zoeken, moet je de geavanceerde zoekfunctie gebruiken en de nodige opties invullen.'
 	),
 	array(
 		0 => '--',
-		1 => 'phpBB 3 Issues'
+		1 => 'Onderwerp abonnementen en bladwijzers'
 	),
 	array(
-		0 => 'Who wrote this bulletin board?',
-		1 => 'This software (in its unmodified form) is produced, released and is copyright <a href="https://www.phpbb.com/">phpBB Group</a>. It is made available under the GNU General Public License and may be freely distributed. See the link for more details.'
+		0 => 'Wat is het verschil tussen een bladwijzer en abonnement?',
+		1 => 'Bladwijzers in phpBB3 zijn zoals bladwijzers (of favorieten) in je browser. Je wordt niet op de hoogte gebracht van updates, maar je kunt altijd snel terugkeren. Het verschil met abonnementen ligt hem in het feit dat je hierbij automatisch op de hoogte gebracht word van updates, dit gebeurd via de door jou gekozen wijze.'
 	),
 	array(
-		0 => 'Why isn’t X feature available?',
-		1 => 'This software was written by and licensed through phpBB Group. If you believe a feature needs to be added please visit the <a href="https://www.phpbb.com/ideas/">phpBB Ideas Centre</a>, where you can upvote existing ideas or suggest new features.'
+		0 => 'Hoe abonneer ik me op specifieke forums of onderwerpen?',
+		1 => 'Je abonneren op en forum gaat door op de "abonneer je op dit forum" link te klikken zodra je het forum geopend hebt. Een forum en onderwerp abonnement werken op dezelfde wijze. Om je op een onderwerp te abonneren, kan ofwel een antwoord plaatsen en de abonnementsoptie aanvinken, of je kunt op de hiervoor dienende link in het onderwerp klikken.'
 	),
 	array(
-		0 => 'Who do I contact about abusive and/or legal matters related to this board?',
-		1 => 'Any of the administrators listed on the “The team” page should be an appropriate point of contact for your complaints. If this still gets no response then you should contact the owner of the domain (do a <a href="http://www.google.com/search?q=whois">whois lookup</a>) or, if this is running on a free service (e.g. Yahoo!, free.fr, f2s.com, etc.), the management or abuse department of that service. Please note that the phpBB Group has <strong>absolutely no jurisdiction</strong> and cannot in any way be held liable over how, where or by whom this board is used. Do not contact the phpBB Group in relation to any legal (cease and desist, liable, defamatory comment, etc.) matter <strong>not directly related</strong> to the phpBB.com website or the discrete software of phpBB itself. If you do email phpBB Group <strong>about any third party</strong> use of this software then you should expect a terse response or no response at all.'
+		0 => 'Hoe zeg ik mijn abonnement op?',
+		1 => 'Om je abonnement op te zeggen, ga je naar het gebruikerspaneel en klik je op de hier voor dienende links.'
+	),
+	array(
+		0 => '--',
+		1 => 'Bijlagen'
+	),
+	array(
+		0 => 'Welke bijlagen worden toegestaan op dit forum?',
+		1 => 'De beheerder bepaalt welke bestandstypes al dan niet toegestaan worden. Als je niet zeker bent welke bestanden geüpload mogen worden, contacteer dan de beheerder voor verdere informatie.'
+	),
+	array(
+		0 => 'Hoe vind ik al mijn bijlagen?',
+		1 => 'Je vindt een lijst met al je geüploade bijlagen via het gebruikerspaneel, volg hier de links naar het gedeelte omtrent bijlagen.'
+	),
+	array(
+		0 => '--',
+		1 => 'phpBB 3 vragen'
+	),
+	array(
+		0 => 'Wie heeft dit forum geschreven?',
+		1 => 'Deze software (in zijn originele vorm) is geschreven, vrijgegeven en met een copyright beschermd door de <a href="https://www.phpbb.com">phpBB groep</a>. De applicatie is beschikbaar onder de GNU General Public License en mag vrij verspreid worden, raadpleeg de link voor verdere informatie.'
+	),
+	array(
+		0 => 'Waarom is de optie X niet beschikbaar?',
+		1 => 'Deze software is geschreven en eigendom van de phpBB Groep. Als je denkt dat een bepaalde optie toegevoegd moet worden, bezoek dan de <a href="https://www.phpbb.com/ideas/">phpBB Ideeën sectie</a>.'
+	),
+	array(
+		0 => 'Wie contacteer ik omtrent misbruik en/of wettelijke kwesties in verband met dit forum?',
+		1 => 'Alle beheerders die op de "het team"-pagina vermeld worden, staan open voor je klachten. Als je geen reactie hebt gekregen kun je de eigenaar van het domein contacteren (dmv een <a href="http://www.google.com/search?q=whois">whois zoekopdracht</a>) of, als dit forum op een gratis host staat (bijvoorbeeld xsbb.nl, nl.forums.cc, dotbb.be, enz.), het beheer of misbruik-afdeling van de gratis host. Wees je er bewust van dat de phpBB groep <strong>geen inspraak</strong> heeft en dus in geen enkel geval aansprakelijk gehouden worden over hoe, waar en door wie dit forum gebruikt wordt. Contacteer de phpBB groep niet met vragen met betrekking tot wettelijke kwesties (zoals aanspreekbaarheid, ongepaste commentaar, enz.) die <strong>niet direct verband</strong> houden met de phpBB.com-website of de phpBB-software. Als je de phpBB groep toch e-mailt over deze software die <strong>gebruikt wordt door derden</strong> kun je een korte of helemaal geen reactie verwachten.'
 	)
 );
