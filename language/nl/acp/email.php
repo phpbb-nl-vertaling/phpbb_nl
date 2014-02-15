@@ -1,7 +1,7 @@
 <?php
 /**
 *
-* acp_email [English]
+* acp_email [Dutch]
 *
 * @package language
 * @copyright (c) 2005 phpBB Group
@@ -36,31 +36,31 @@ if (empty($lang) || !is_array($lang))
 
 // Email settings
 $lang = array_merge($lang, array(
-	'ACP_MASS_EMAIL_EXPLAIN'		=> 'Here you can email a message to either all of your users or all users of a specific group <strong>having the option to receive mass emails enabled</strong>. To achieve this an email will be sent out to the administrative email address supplied, with a blind carbon copy sent to all recipients. The default setting is to only include 50 recipients in such an email, for more recipients more emails will be sent. If you are emailing a large group of people please be patient after submitting and do not stop the page halfway through. It is normal for a mass emailing to take a long time, you will be notified when the script has completed.',
-	'ALL_USERS'						=> 'All users',
+	'ACP_MASS_EMAIL_EXPLAIN'	=> 'Hier kun je een e-mail naar alle gebruikers of de leden van een specifieke groep, <strong>die de ontvangst van massa e-mails toelaten</strong> sturen. Hiervoor wordt een e-mail met alle ontvangers als onzichtbaar (bcc) ingesteld, naar het beheerders e-mailadres gestuurd. Bij de standaard instellingen wordt de e-mail naar 50 mensen per pakket gestuurd. Indien er meer dan 50 ontvangers zijn, wordt de e-mail via meerdere pakketten verzonden. Indien je een e-mail naar een grote groep stuurt, wees dan geduldig en stop de pagina niet halverwege. Het is normaal dat het versturen van massa e-mails enige tijd in beslag neemt. Je wordt ervan op de hoogte gebracht zodra het script klaar is.',
+	'ALL_USERS'			=> 'Alle gebruikers',
 
-	'COMPOSE'				=> 'Compose',
+	'COMPOSE'			=> 'Opstellen',
 
-	'EMAIL_SEND_ERROR'		=> 'There were one or more errors while sending the email. Please check the %sError log%s for detailed error messages.',
-	'EMAIL_SENT'			=> 'This message has been sent.',
-	'EMAIL_SENT_QUEUE'		=> 'This message has been queued for sending.',
+	'EMAIL_SEND_ERROR'		=> 'Er zijn een of meerdere fouten opgetreden tijdens het verzenden. Controleer het %sfouten logboek%s voor een uitgebreide beschrijving.',
+	'EMAIL_SENT'			=> 'Het bericht is verzonden.',
+	'EMAIL_SENT_QUEUE'		=> 'Het bericht staat in de wachtrij om verstuurd te worden.',
 
-	'LOG_SESSION'			=> 'Log mail session to critical log',
+	'LOG_SESSION'			=> 'Sessie opslaan',
 
-	'SEND_IMMEDIATELY'		=> 'Send immediately',
-	'SEND_TO_GROUP'			=> 'Send to group',
-	'SEND_TO_USERS'			=> 'Send to users',
-	'SEND_TO_USERS_EXPLAIN'	=> 'Entering names here will override any group selected above. Enter each username on a new line.',
+	'SEND_IMMEDIATELY'		=> 'Verstuur direct',
+	'SEND_TO_GROUP'			=> 'Verstuur naar groep',
+	'SEND_TO_USERS'			=> 'Verstuur naar gebruikers',
+	'SEND_TO_USERS_EXPLAIN'		=> 'Door het invullen van namen worden de hierboven geselecteerde groepen genegeerd. Elke gebruikersnaam moet op een nieuwe regel staan.',
+	
+	'MAIL_BANNED'			=> 'Mail verbannen gebruikers',
+	'MAIL_BANNED_EXPLAIN'		=> 'Geef aan bij het versturen naar een groep of de verbannen gebruikers deze e-mail ook moeten ontvangen.',
+	'MAIL_HIGH_PRIORITY'		=> 'Hoog',
+	'MAIL_LOW_PRIORITY'		=> 'Laag',
+	'MAIL_NORMAL_PRIORITY'		=> 'Normaal',
+	'MAIL_PRIORITY'			=> 'Mail prioriteit',
+	'MASS_MESSAGE'			=> 'Je bericht',
+	'MASS_MESSAGE_EXPLAIN'		=> 'Het bericht wordt verzonden zonder tekst-opmaak. Alle opmaak wordt voor het verzenden verwijderd.',
 
-	'MAIL_BANNED'			=> 'Mail banned users',
-	'MAIL_BANNED_EXPLAIN'	=> 'When sending a mass email to a group you can select here whether banned users will also receive the email.',
-	'MAIL_HIGH_PRIORITY'	=> 'High',
-	'MAIL_LOW_PRIORITY'		=> 'Low',
-	'MAIL_NORMAL_PRIORITY'	=> 'Normal',
-	'MAIL_PRIORITY'			=> 'Mail priority',
-	'MASS_MESSAGE'			=> 'Your message',
-	'MASS_MESSAGE_EXPLAIN'	=> 'Please note that you may enter only plain text. All markup will be removed before sending.',
-
-	'NO_EMAIL_MESSAGE'		=> 'You must enter a message.',
-	'NO_EMAIL_SUBJECT'		=> 'You must specify a subject for your message.',
+	'NO_EMAIL_MESSAGE'		=> 'Het berichtveld is nog leeg.',
+	'NO_EMAIL_SUBJECT'		=> 'Je hebt geen onderwerp opgegeven.',
 ));
