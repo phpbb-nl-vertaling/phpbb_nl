@@ -318,19 +318,19 @@ $lang = array_merge($lang, array(
 
 // Logs
 $lang = array_merge($lang, array(
-	'ACP_ADMIN_LOGS_EXPLAIN'	=> 'This lists all the actions carried out by board administrators. You can sort by username, date, IP or action. If you have appropriate permissions you can also clear individual operations or the log as a whole.',
-	'ACP_CRITICAL_LOGS_EXPLAIN'	=> 'This lists the actions carried out by the board itself. This log provides you with information you are able to use for solving specific problems, for example non-delivery of emails. You can sort by username, date, IP or action. If you have appropriate permissions you can also clear individual operations or the log as a whole.',
-	'ACP_MOD_LOGS_EXPLAIN'		=> 'This lists all actions done on forums, topics and posts as well as actions carried out on users by moderators, including banning. You can sort by username, date, IP or action. If you have appropriate permissions you can also clear individual operations or the log as a whole.',
-	'ACP_USERS_LOGS_EXPLAIN'	=> 'This lists all actions carried out by users or on users (reports, warnings and user notes).',
-	'ALL_ENTRIES'				=> 'All entries',
+	'ACP_ADMIN_LOGS_EXPLAIN'	=> 'Dit toont alle acties die uitgevoerd worden door de beheerders. Je kan sorteren op gebruikersnaam, datum, IP of actie. Als je de juiste permissies hebt, kan je ook individuele acties opschonen of de hele log.',
+	'ACP_CRITICAL_LOGS_EXPLAIN'	=> 'Dit toont alle acties die uitgevoerd worden door het forum zelf. Deze log geeft je de informatie waarmee je specifieke problemen kan oplossen, bijvoorbeeld niet afgeleverde e-mails. Je kan sorteren op gebruikersnaam, datum, IP of actie. Als je de juiste permissies hebt, kan je ook individuele acties opschonen of de hele log.',
+	'ACP_MOD_LOGS_EXPLAIN'		=> 'Dit toont alle acties die uitgevoerd worden op forums, onderwerpen en berichten alsmede acties die uitgevoerd worden op gebruikers door moderators, inclusief verbanningen. Je kan sorteren op gebruikersnaam, datum, IP of actie. Als je de juiste permissies hebt, kan je ook individuele acties opschonen of de hele log.',
+	'ACP_USERS_LOGS_EXPLAIN'	=> 'Dit toont alle acties die uitgevoerd worden door gebruikers of op gebruikers (meldingen, waarschuwingen en gebruikersnotities).',
+	'ALL_ENTRIES'				=> 'Alle vermeldingen',
 
-	'DISPLAY_LOG'	=> 'Display entries from previous',
+	'DISPLAY_LOG'	=> 'Toon vermeldingen van vorige',
 
-	'NO_ENTRIES'	=> 'No log entries for this period.',
+	'NO_ENTRIES'	=> 'Geen logvermeldingen voor deze periode.',
 
-	'SORT_IP'		=> 'IP address',
-	'SORT_DATE'		=> 'Date',
-	'SORT_ACTION'	=> 'Log action',
+	'SORT_IP'		=> 'IP-adres',
+	'SORT_DATE'		=> 'Datum',
+	'SORT_ACTION'	=> 'Logactie',
 ));
 
 // Index page

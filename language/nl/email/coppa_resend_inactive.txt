@@ -4,7 +4,7 @@ Subject: Welkom op "{SITENAME}"
 
 Door de COPPA-wetgeving is je gebruikersaccount nog niet geactiveerd.
 
-Print dit bericht uit en laat het ondertekenen door je ouder/verzorger. Dit kan daarna gefaxt worden naar:
+Print dit bericht uit en laat het ondertekenen door je ouder/voogd. Dit kan daarna gefaxt worden naar:
 
 {FAX_INFO}
 
