@@ -337,16 +337,16 @@ $lang = array_merge($lang, array(
 
 // Cookie Settings
 $lang = array_merge($lang, array(
-	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Deze details definiëren de data dat gebruikt wordt om cookies te versturen naar de browsers van je gebruikers. In de meeste gevallen moet de standaard waardes voor de cookie instellingen genoeg zijn. Als je wel veranderingen moet aanbrengen, doe dit dan voorzichtig, incorrecte instellingen kunnen voorkomen dat gebruiker zich kunnen aanmelden.',
+	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Deze details definiëren de data die gebruikt wordt om cookies te versturen naar de browsers van je gebruikers. In de meeste gevallen moet de standaard waardes voor de cookie instellingen genoeg zijn. Als je wel veranderingen moet aanbrengen, doe dit dan voorzichtig, incorrecte instellingen kunnen voorkomen dat gebruikers zich kunnen aanmelden.',
 
 	'COOKIE_DOMAIN'				=> 'Cookie-domein',
 	'COOKIE_NAME'				=> 'Cookie-naam',
 	'COOKIE_PATH'				=> 'Cookie-pad',
 	'COOKIE_SECURE'				=> 'Cookie-beveiliging',
-	'COOKIE_SECURE_EXPLAIN'		=> 'Als je server draait via SSL, stel dit dan ingeschakeld in, laat het anders uitgeschakeld. Als je dit ingeschakeld hebt en niet draait via SSL zal resulteren in server fouten tijdens doorsturingen.',
+	'COOKIE_SECURE_EXPLAIN'		=> 'Als je server draait via SSL, schakel dit dan in, laat het anders uitgeschakeld. Als je dit ingeschakeld hebt en niet draait via SSL zal resulteren in server fouten tijdens doorsturingen.',
 	'ONLINE_LENGTH'				=> 'Bekijk online tijdsduur',
 	'ONLINE_LENGTH_EXPLAIN'		=> 'Aantal minuten waarna inactieve gebruikers niet meer in de “Wie is online” lijst zal voorkomen. Hoe hoger deze waarde is, des te groter de verwerking vereist is om de lijst aan te maken.',
-	'SESSION_LENGTH'			=> 'Sessielengte',
+	'SESSION_LENGTH'			=> 'Sessieduur',
 	'SESSION_LENGTH_EXPLAIN'	=> 'Sessies zullen verlopen na deze tijd, in secondes.',
 ));
 
