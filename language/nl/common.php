@@ -378,7 +378,7 @@ $lang = array_merge($lang, array(
 
 	'MAIN'					=> 'Hoofd',
 	'MARK'					=> 'Markeer',
-	'MARK_ALL'				=> 'Markeer alle',
+	'MARK_ALL'				=> 'Alles markeren',
 	'MARK_ALL_READ'			=> 'Markeer alle gelezen',
 	'MARK_FORUMS_READ'		=> 'Markeer fora gelezen',
 	'MARK_READ'				=> 'Markeer gelezen',
@@ -750,7 +750,7 @@ $lang = array_merge($lang, array(
 	'UNABLE_GET_IMAGE_SIZE'	=> 'Het was niet mogelijk om de dimensies van de afbeelding te bepalen.',
 	'UNABLE_TO_DELIVER_FILE'=> 'Kan bestand niet leveren.',
 	'UNKNOWN_BROWSER'		=> 'Onbekende browser',
-	'UNMARK_ALL'			=> 'Demarkeer alle',
+	'UNMARK_ALL'			=> 'Alles demarkeren',
 	'UNREAD_MESSAGES'		=> 'Ongelezen berichten',
 	'UNREAD_POST'			=> 'Ongelezen bericht',
 	'UNREAD_POSTS'			=> 'Ongelezen berichten',
