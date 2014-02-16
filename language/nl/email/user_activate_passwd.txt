@@ -12,7 +12,6 @@ Als het gelukt is kun je inloggen met het volgende wachtwoord:
 
 Wachtwoord: {PASSWORD}
 
-Je kan ook dit wachtwoord in je gebruikersprofiel aanpassen. Als er problemen zijn met het wijzigen van het wachtwoord, neem dan contact 
-op met de beheerder.
+Je kan ook dit wachtwoord in je gebruikersprofiel aanpassen. Als er problemen zijn met het wijzigen van het wachtwoord, neem dan contact op met de beheerder.
 
 {EMAIL_SIG}
