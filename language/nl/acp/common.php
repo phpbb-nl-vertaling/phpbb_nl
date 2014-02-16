@@ -311,7 +311,7 @@ $lang = array_merge($lang, array(
 
 // PHP info
 $lang = array_merge($lang, array(
-	'ACP_PHP_INFO_EXPLAIN'	=> 'Deze pagina geeft de informatie over de versie van PHP die geïnstalleerd is op deze server. Het bevat detail van geladen modules, beschikbare variabelen en standaard instellingen. Deze informatie kan bruikbaar zijn bij het oplossen van problemen. Let op dat sommige hostingsbedrijven de informatie die hier getoond wordt limiteren voor beveiligingsredenen. Je wordt geadviseerd om geen details van deze pagina openbaar te maken tenzij er naar gevraagd wordt door een <a href="https://www.phpbb.com/about/team/">officiële phpBB.com teamlid</a>, <a href="http://www.phpbbservice.nl/forum/memberlist.php?mode=leaders">officiële phpBBservice.nl teamleden</a> of <a href="http://www.phpbb.nl/medewerkers">officiële phpbb.nl teamleden</a> op de supportforums.',
+	'ACP_PHP_INFO_EXPLAIN'	=> 'Deze pagina geeft de informatie over de versie van PHP die geïnstalleerd is op deze server. Het bevat details van geladen modules, beschikbare variabelen en standaard instellingen. Deze informatie kan bruikbaar zijn bij het oplossen van problemen. Let op dat sommige hostingsbedrijven de informatie die hier getoond wordt limiteren voor beveiligingsredenen. Je wordt geadviseerd om geen details van deze pagina openbaar te maken tenzij er naar gevraagd wordt door een <a href="https://www.phpbb.com/about/team/">officiële phpBB.com teamlid</a>, <a href="http://www.phpbbservice.nl/forum/memberlist.php?mode=leaders">officiële phpBBservice.nl teamleden</a> of <a href="http://www.phpbb.nl/medewerkers">officiële phpbb.nl teamleden</a> op de supportforums.',
 
 	'NO_PHPINFO_AVAILABLE'	=> 'Informatie over je PHP configuratie kan niet vastgesteld worden. Phpinfo() is uitgeschakeld vanwege beveiliginsredenen.',
 ));
@@ -335,7 +335,7 @@ $lang = array_merge($lang, array(
 
 // Index page
 $lang = array_merge($lang, array(
-	'ADMIN_INTRO'				=> 'Dank je wel voor het kiezen van phpBB als je forumoplossing. Dit scherm geeft je een snel overzicht van alle verschillende statistieken van je forum. The links aan de linkerkant van dit scherm staan je toe om ieder aspect van je forum te controleren. Iedere pagina zal instructies hebben over hoe je die pagina kan gebruiken.',
+	'ADMIN_INTRO'				=> 'Dank je wel voor het kiezen van phpBB als je forumoplossing. Dit scherm geeft je een snel overzicht van alle verschillende statistieken van je forum. De links aan de linkerkant van dit scherm staan je toe om ieder aspect van je forum te controleren. Iedere pagina zal instructies hebben over hoe je die pagina kan gebruiken.',
 	'ADMIN_LOG'					=> 'Gelogde beheerdersacties',
 	'ADMIN_LOG_INDEX_EXPLAIN'	=> 'Dit geeft een overzicht van de laatste vijf acties die uitgevoerd zijn door de beheerders. Een volledig overzicht van de log kan bekijken worden via het juiste menu-item of via de link hieronder.',
 	'AVATAR_DIR_SIZE'			=> 'Avatar mapgrootte',
