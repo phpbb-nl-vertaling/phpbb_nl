@@ -564,8 +564,8 @@ $lang = array_merge($lang, array(
 	'LOG_REPORT_CLOSED'			=> '<strong>Melding gesloten</strong><br />» %s',
 	'LOG_REPORT_DELETED'		=> '<strong>Melding verwijderd</strong><br />» %s',
 	'LOG_RESTORE_TOPIC'			=> '<strong>Onderwerp “%1$s” teruggehaald, geschreven door</strong><br />» %2$s',
-	'LOG_SOFTDELETE_POST'		=> '<strong>Bericht “%1$s” zacht verwijderd, geschreven door</strong><br />» %2$s',
-	'LOG_SOFTDELETE_TOPIC'		=> '<strong>Onderwerp “%1$s” zacht verwijderd, geschreven door</strong><br />» %2$s',
+	'LOG_SOFTDELETE_POST'		=> '<strong>Bericht “%1$s” tijdelijk verwijderd, geschreven door</strong><br />» %2$s',
+	'LOG_SOFTDELETE_TOPIC'		=> '<strong>Onderwerp “%1$s” tijdelijk verwijderd, geschreven door</strong><br />» %2$s',
 	'LOG_SPLIT_DESTINATION'		=> '<strong>Afgesplitste berichten verplaatst</strong><br />» naar %s',
 	'LOG_SPLIT_SOURCE'			=> '<strong>Berichten gesplitst</strong><br />» van %s',
 

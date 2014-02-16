@@ -202,9 +202,9 @@ $lang = array_merge($lang, array(
 	'MCP_QUEUE_UNAPPROVED_TOPICS'			=> 'Onderwerpen wachtend op goedkeuring',
 	'MCP_QUEUE_UNAPPROVED_TOPICS_EXPLAIN'	=> 'Dit is een lijst van alle onderwerpen die nog goedgekeurd moeten worden voordat ze zichtbaar zijn voor gebruikers.',
 	'MCP_QUEUE_DELETED_POSTS'				=> 'Verwijderde berichten',
-	'MCP_QUEUE_DELETED_POSTS_EXPLAIN'		=> 'Dit is een lijst van alle zacht verwijderde berichten. Je kan van uit dit scherm de berichten terugzetten of permanent verwijderen.',
+	'MCP_QUEUE_DELETED_POSTS_EXPLAIN'		=> 'Dit is een lijst van alle tijdelijk verwijderde berichten. Je kan van uit dit scherm de berichten terugzetten of permanent verwijderen.',
 	'MCP_QUEUE_DELETED_TOPICS'				=> 'Verwijderde onderwerpen',
-	'MCP_QUEUE_DELETED_TOPICS_EXPLAIN'		=> 'Dit is een lijst van alle zacht verwijderde onderwerpen. Je kan van uit dit scherm de onderwerpen terugzetten of permanent verwijderen.',
+	'MCP_QUEUE_DELETED_TOPICS_EXPLAIN'		=> 'Dit is een lijst van alle tijdelijk verwijderde onderwerpen. Je kan van uit dit scherm de onderwerpen terugzetten of permanent verwijderen.',
 
 	'MCP_VIEW_USER'			=> 'Bekijk waarschuwingen van een specifieke gebruiker',
 
