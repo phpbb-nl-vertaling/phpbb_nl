@@ -71,7 +71,7 @@ $lang = array_merge($lang, array(
 	'ENABLE_TOPIC_ICONS'			=> 'Onderwerpiconen inschakelen',
 
 	'FORUM_ADMIN'						=> 'Forumbeheer',
-	'FORUM_ADMIN_EXPLAIN'				=> 'In phpBB3 is alles forum-gebaseerd. Een categorie is gewoon een speciaal type forum. Elk forum kan een onbeperkt aantal subforums hebben en je kan beslissen of er berichten in geplaatst mogen worden of niet (bijvoorbeeld waneer het zich voor doet als een oude categorie). Hier kan je individuele forums toevoegen, wijzigen, verwijderen, sluiten, openen en ook nog bepaalde extra instellingen instellen. Als je berichten en onderwerpen niet meer kloppen qua aantallen, kan je ook nog een forum synchroniseren. <strong>Je moet permissies kopieren of instellen voor nieuw aangemaakte forums zodat ze zichtbaar zijn.</strong>',
+	'FORUM_ADMIN_EXPLAIN'				=> 'In phpBB3 is alles forum-gebaseerd. Een categorie is gewoon een speciaal type forum. Elk forum kan een onbeperkt aantal subforums hebben en je kan beslissen of er berichten in geplaatst mogen worden of niet (bijvoorbeeld wanneer het zich voor doet als een oude categorie). Hier kan je individuele forums toevoegen, wijzigen, verwijderen, sluiten, openen en ook nog bepaalde extra instellingen instellen. Als je berichten en onderwerpen niet meer kloppen qua aantallen, kan je ook nog een forum synchroniseren. <strong>Je moet permissies kopieren of instellen voor nieuw aangemaakte forums zodat ze zichtbaar zijn.</strong>',
 	'FORUM_AUTO_PRUNE'					=> 'Automatisch opschonen inschakelen',
 	'FORUM_AUTO_PRUNE_EXPLAIN'			=> 'Schoont de forums of onderwerpen op, stel de frequentie/leeftijdsparameters hieronder in.',
 	'FORUM_CREATED'						=> 'Forum succesvol aangemaakt.',
