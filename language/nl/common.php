@@ -665,7 +665,7 @@ $lang = array_merge($lang, array(
 	'SUBFORUM'					=> 'Subforum',
 	'SUBFORUMS'					=> 'Subforums',
 	'SUBJECT'					=> 'Onderwerp',
-	'SUBMIT'					=> 'Verstuur'
+	'SUBMIT'					=> 'Verstuur',
 
 	'TB'				=> 'TB',
 	'TERMS_USE'			=> 'Voorwaarden voor gebruik',
