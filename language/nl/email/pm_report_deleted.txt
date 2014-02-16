@@ -1,8 +1,7 @@
-Subject: Report deleted - "{PM_SUBJECT}"
+Subject: Melding verwijderd - "{PM_SUBJECT}"
 
-Hello {USERNAME},
+Hallo {USERNAME},
 
-You are receiving this notification because the report you filed regarding the private message "{PM_SUBJECT}" at "{SITENAME}" was deleted by a moderator or administrator.
-
+Je ontvangt dit bericht omdat een melding van een privébericht "{PM_SUBJECT}" op "{SITENAME}" is verwijderd door een moderator of door een beheerder.
 
 {EMAIL_SIG}
