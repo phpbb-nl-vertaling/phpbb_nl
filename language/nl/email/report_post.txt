@@ -1,13 +1,13 @@
-Subject: Post report - "{TOPIC_TITLE}"
+Subject: Berichtmelding - "{TOPIC_TITLE}"
 
-Hello {USERNAME},
+Hallo {USERNAME},
 
-You are receiving this notification because the post "{POST_SUBJECT}" at "{SITENAME}" was reported.
+Je ontvangt dit bericht omdat een bericht getiteld "{POST_SUBJECT}" op "{SITENAME}" is gemeld.
 
-If you want to view the report, click the following link:
+Als je de melding wilt bekijken, klik op de volgende link:
 {U_VIEW_REPORT}
 
-If you want to view the post, click the following link:
+Als je het bericht wilt bekijken, klik op de volgende link:
 {U_VIEW_POST}
 
 {EMAIL_SIG}
