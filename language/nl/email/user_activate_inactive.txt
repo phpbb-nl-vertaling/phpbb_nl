@@ -2,6 +2,6 @@ Subject: Je gebruikersaccount is gedeactiveerd
 
 Hallo {USERNAME},
 
-Je gebruikersaccount op "{SITENAME}" is gedeactiveerd, waarschijnlijk door wijzigingen in je gebruikersprofiel. De beheerder van het forum zal het gebruikersaccount eerst moeten activeren voordat je je weer kan aanmelden. Je krijgt een e-mail wanneer je gebruikersaccount weer is geactiveerd.
+Je gebruikersaccount op "{SITENAME}" is gedeactiveerd, waarschijnlijk door wijzigingen in je gebruikersprofiel. De beheerder van het forum zal het gebruikersaccount eerst moeten activeren voordat je weer kan inloggen. Je krijgt een e-mail wanneer je gebruikersaccount weer is geactiveerd.
 
 {EMAIL_SIG}
