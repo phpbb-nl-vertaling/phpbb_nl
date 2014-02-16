@@ -1,18 +1,18 @@
-Subject: Forum post notification - "{FORUM_NAME}"
+Subject: Nieuw berichtmelding - "{FORUM_NAME}"
 
-Hello {USERNAME},
+Hallo {USERNAME},
 
-You are receiving this notification because you are watching the forum "{FORUM_NAME}" at "{SITENAME}". This forum has received a new reply to the topic "{TOPIC_TITLE}"<!-- IF AUTHOR_NAME !== '' --> by {AUTHOR_NAME}<!-- ENDIF --> since your last visit. You can use the following link to view the last unread reply, no more notifications will be sent until you visit the topic.
+Je ontvangt deze e-mail omdat je een forum volgt, "{FORUM_NAME}" op "{SITENAME}". Dit forum heeft een nieuw bericht in het onderwerp "{TOPIC_TITLE}"<!-- IF AUTHOR_NAME !== '' --> door {AUTHOR_NAME}<!-- ENDIF --> sinds je laatste bezoek. Je kan door gebruik te maken van de volgende link de ongelezen bericht bekijken. Er worden geen nieuwe meldingen verzonden totdat je het onderwerp weer hebt bezocht.
 
 {U_NEWEST_POST}
 
-If you want to view the topic, click the following link:
+Als je het onderwerp wilt bekijken, klik op de volgende link:
 {U_TOPIC}
 
-If you want to view the forum, click the following link:
+Als je het forum wilt bekijken, klik op de volgende link:
 {U_FORUM}
 
-If you no longer wish to watch this forum you can either click the "Unsubscribe forum" link found in the forum above, or by clicking the following link:
+Als je dit forum niet langer wilt volgen, klik dan op "Unsubscribe forum" link onderaan het forum, of door te klikken op de volgende link:
 
 {U_STOP_WATCHING_FORUM}
 

@@ -1,19 +1,19 @@
-Subject: Topic reply notification - "{TOPIC_TITLE}"
+Subject: Nieuw bericht in onderwerpmelding - "{TOPIC_TITLE}"
 
-Hello {USERNAME},
+Hallo {USERNAME},
 
-You are receiving this notification because you are watching the topic "{TOPIC_TITLE}" at "{SITENAME}". This topic has received a reply<!-- IF AUTHOR_NAME !== '' --> by {AUTHOR_NAME}<!-- ENDIF --> since your last visit. No more notifications will be sent until you visit the topic.
+Je ontvangt deze e-mail omdat je een onderwerp volgt, "{TOPIC_TITLE}" op "{SITENAME}". Dit onderwerp heeft een nieuw bericht<!-- IF AUTHOR_NAME !== '' --> door {AUTHOR_NAME}<!-- ENDIF --> sinds je laatste bezoekt. Er worden geen nieuwe meldingen verzonden totdat je het onderwerp weer hebt bezocht.
 
-If you want to view the newest post made since your last visit, click the following link:
+Als je het nieuwste bericht wilt bekijken, klik op de volgende link:
 {U_NEWEST_POST}
 
-If you want to view the topic, click the following link:
+Als je het onderwerp wilt bekijken, klik op de volgende link:
 {U_TOPIC}
 
-If you want to view the forum, click the following link:
+Als je het forum wilt bekijken, klik op de volgende link:
 {U_FORUM}
 
-If you no longer wish to watch this topic you can either click the "Unsubscribe topic" link found at the bottom of the topic above, or by clicking the following link:
+Als je dit onderwerp niet meer wilt volgen, klik dan op "Unsubscribe topic" link bovenaan of onderaan het onderwerp, of door te klikken op de volgende link:
 {U_STOP_WATCHING_TOPIC}
 
 {EMAIL_SIG}
