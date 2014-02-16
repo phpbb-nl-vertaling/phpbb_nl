@@ -1,17 +1,18 @@
-Subject: New password activation
+Subject: Nieuw wachtwoord activeren
 
-Hello {USERNAME}
+Hallo {USERNAME}
 
-You are receiving this notification because you have (or someone pretending to be you has) requested a new password be sent for your account on "{SITENAME}". If you did not request this notification then please ignore it, if you keep receiving it please contact the board administrator.
+Je ontvangt deze e-mail omdat je (of iemand die zich voordoet als jou) een nieuw wachtwoord heeft aangevraagd voor je gebruikersaccount op "{SITENAME}". Mocht je geen nieuw wachtwoord hebben aangevraagd, negeer dan deze e-mail. Als je deze melding blijft ontvangen, neem dan contact op met de beheerder.
 
-To use the new password you need to activate it. To do this click the link provided below.
+Om het nieuwe wachtwoord te activeren, klik dan op de onderstaande link.
 
 {U_ACTIVATE}
 
-If successful you will be able to login using the following password:
+Als het gelukt is kun je inloggen met het volgende wachtwoord:
 
-Password: {PASSWORD}
+Wachtwoord: {PASSWORD}
 
-You can of course change this password yourself via the profile page. If you have any difficulties please contact the board administrator.
+Je kan ook dit wachtwoord in je gebruikersprofiel aanpassen. Als er problemen zijn met het wijzigen van het wachtwoord, neem dan contact 
+op met de beheerder.
 
 {EMAIL_SIG}
