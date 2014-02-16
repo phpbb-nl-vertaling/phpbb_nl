@@ -1,7 +1,7 @@
 <?php
 /**
 *
-* acp_extensions [English]
+* acp_extensions [Dutch]
 *
 * @package language
 * @copyright (c) 2012 phpBB Group
@@ -35,75 +35,75 @@ if (empty($lang) || !is_array($lang))
 
 
 $lang = array_merge($lang, array(
-	'EXTENSION'					=> 'Extension',
-	'EXTENSIONS'				=> 'Extensions',
-	'EXTENSIONS_ADMIN'			=> 'Extensions Manager',
-	'EXTENSIONS_EXPLAIN'		=> 'The Extensions Manager is a tool in your phpBB Board which allows you to manage all of your extensions statuses and view information about them.',
-	'EXTENSION_INVALID_LIST'	=> 'The “%s” extension is not valid.<br />%s<br /><br />',
-	'EXTENSION_NOT_AVAILABLE'	=> 'The selected extension is not available for this board, please verify your phpBB and PHP versions are allowed (see the details page).',
-	'EXTENSION_DIR_INVALID'		=> 'The selected extension has an invalid directory structure and cannot be enabled.',
+	'EXTENSION'					=> 'Extensie',
+	'EXTENSIONS'				=> 'Extensies',
+	'EXTENSIONS_ADMIN'			=> 'Extensiebeheer',
+	'EXTENSIONS_EXPLAIN'		=> 'Het extensiebeheer is een gereedschap in je phpBB-forum die je in staat stelt om alle extensiestatussen en informatie over hen te beheren.',
+	'EXTENSION_INVALID_LIST'	=> 'De “%s” extensie is niet geldig.<br />%s<br /><br />',
+	'EXTENSION_NOT_AVAILABLE'	=> 'De geselecteerde extensie is niet beschikbaar voor dit forum, controleer of je phpBB en PHP versies toegestaan zijn (zie de detailspagina).',
+	'EXTENSION_DIR_INVALID'		=> 'De geselecteerde extensie heeft een ongeldige mapstructuur en kan niet ingeschakeld worden.',
 
 	'DETAILS'				=> 'Details',
 
-	'EXTENSIONS_DISABLED'	=> 'Disabled Extensions',
-	'EXTENSIONS_ENABLED'	=> 'Enabled Extensions',
+	'EXTENSIONS_DISABLED'	=> 'Uitgeschakelde Extensies',
+	'EXTENSIONS_ENABLED'	=> 'Ingeschakelde Extensies',
 
-	'EXTENSION_DELETE_DATA'	=> 'Delete data',
-	'EXTENSION_DISABLE'		=> 'Disable',
-	'EXTENSION_ENABLE'		=> 'Enable',
+	'EXTENSION_DELETE_DATA'	=> 'Verwijder data',
+	'EXTENSION_DISABLE'		=> 'Uitschakelen',
+	'EXTENSION_ENABLE'		=> 'Inschakelen',
 
-	'EXTENSION_DELETE_DATA_EXPLAIN'	=> 'Deleting an extension’s data removes all of its data and settings. The extension files are retained so it can be enabled again.',
-	'EXTENSION_DISABLE_EXPLAIN'		=> 'Disabling an extension retains its files, data and settings but removes any functionality added by the extension.',
-	'EXTENSION_ENABLE_EXPLAIN'		=> 'Enabling an extension allows you to use it on your board.',
+	'EXTENSION_DELETE_DATA_EXPLAIN'	=> 'Het verwijderen van extensiedata verwijderd alle data en instellingen. De extensiebestanden zullen behouden blijven zodat het weer ingeschakeld kan worden.',
+	'EXTENSION_DISABLE_EXPLAIN'		=> 'Het uitschakelen van een extensie behoud de bestanden, data en instellingen, maar verwijderd iedere functionaliteit toegevoegd door de extensie aan je forum.',
+	'EXTENSION_ENABLE_EXPLAIN'		=> 'Het inschakelen van een extensie staat je toe om deze te gebruiken op je forum.',
 
-	'EXTENSION_DELETE_DATA_IN_PROGRESS'	=> 'The extension’s data is currently being deleted. Please do not leave or refresh this page until it is completed.',
-	'EXTENSION_DISABLE_IN_PROGRESS'	=> 'The extension is currently being disabled. Please do not leave or refresh this page until it is completed.',
-	'EXTENSION_ENABLE_IN_PROGRESS'	=> 'The extension is currently being enabled. Please do not leave or refresh this page until it is completed.',
+	'EXTENSION_DELETE_DATA_IN_PROGRESS'	=> 'De extensiedata wordt momenteel verwijderd. Verlaat of ververs deze pagina niet tot dat dit gedaan is.',
+	'EXTENSION_DISABLE_IN_PROGRESS'	=> 'De extensie wordt momenteel uitgeschakeld. Verlaat of ververs deze pagina niet tot dat dit gedaan is.',
+	'EXTENSION_ENABLE_IN_PROGRESS'	=> 'De extensie wordt momenteel ingeschakeld. Verlaat of ververs deze pagina niet tot dat dit gedaan is.',
 
-	'EXTENSION_DELETE_DATA_SUCCESS'	=> 'The extension’s data was deleted successfully',
-	'EXTENSION_DISABLE_SUCCESS'		=> 'The extension was disabled successfully',
-	'EXTENSION_ENABLE_SUCCESS'		=> 'The extension was enabled successfully',
+	'EXTENSION_DELETE_DATA_SUCCESS'	=> 'De extensiedata is succesvol verwijderd',
+	'EXTENSION_DISABLE_SUCCESS'		=> 'De extensie is succesvol uitgeschakeld',
+	'EXTENSION_ENABLE_SUCCESS'		=> 'De extensie is succesvol ingeschakeld',
 
-	'EXTENSION_NAME'			=> 'Extension Name',
-	'EXTENSION_ACTIONS'			=> 'Actions',
-	'EXTENSION_OPTIONS'			=> 'Options',
-	'EXTENSION_UPDATE_HEADLINE'	=> 'Updating an extension',
+	'EXTENSION_NAME'			=> 'Extensienaam',
+	'EXTENSION_ACTIONS'			=> 'Acties',
+	'EXTENSION_OPTIONS'			=> 'Opties',
+	'EXTENSION_UPDATE_HEADLINE'	=> 'Het updaten van een extensie',
 	'EXTENSION_UPDATE_EXPLAIN'	=> '<ol>
-			<li>Disable the extension</li>
-			<li>Delete the extension’s files from the filesystem</li>
-			<li>Upload the new files</li>
-			<li>Enable the extension</li>
+			<li>De extensie uitschakelen</li>
+			<li>De extensiebestanden verwijderen van het bestandssysteem</li>
+			<li>De nieuwe bestanden uploaden</li>
+			<li>De extensie inschakelen</li>
 		</ol>',
-	'EXTENSION_REMOVE_HEADLINE'	=> 'Completly removing an extension from your board',
+	'EXTENSION_REMOVE_HEADLINE'	=> 'Het compleet verwijderen van een extensie van je forum',
 	'EXTENSION_REMOVE_EXPLAIN'	=> '<ol>
-			<li>Disable the extension</li>
-			<li>Delete the extension’s data</li>
-			<li>Delete the extension’s files from the filesystem</li>
+			<li>De extensie uitschakelen</li>
+			<li>De extensiedata verwijderen</li>
+			<li>De extensiebestanden verwijderen van het bestandssysteem</li>
 		</ol>',
 
-	'EXTENSION_DELETE_DATA_CONFIRM'	=> 'Are you sure that you wish to delete the data associated with “%s”?<br /><br />This removes all of its data and settings and cannot be undone!',
-	'EXTENSION_DISABLE_CONFIRM'		=> 'Are you sure that you wish to disable the “%s” extension?',
-	'EXTENSION_ENABLE_CONFIRM'		=> 'Are you sure that you wish to enable the “%s” extension?',
+	'EXTENSION_DELETE_DATA_CONFIRM'	=> 'Weet je zeker dat je de data die geassocieerd wordt met “%s” wilt verwijderen?<br /><br />Dit zal alle data en instellingen van de extensie verwijderen en kan niet ongedaan gemaakt worden!',
+	'EXTENSION_DISABLE_CONFIRM'		=> 'Weet je zeker dat je de extensie “%s” wilt uitschakelen?',
+	'EXTENSION_ENABLE_CONFIRM'		=> 'Weet je zeker dat je de extensie “%s” wilt inschakelen?',
 
-	'RETURN_TO_EXTENSION_LIST'	=> 'Return to the extension list',
+	'RETURN_TO_EXTENSION_LIST'	=> 'Terug naar de extensielijst',
 
-	'EXT_DETAILS'			=> 'Extension Details',
-	'DISPLAY_NAME'			=> 'Display Name',
-	'CLEAN_NAME'			=> 'Clean Name',
+	'EXT_DETAILS'			=> 'Extensiedetails',
+	'DISPLAY_NAME'			=> 'Weergave naam',
+	'CLEAN_NAME'			=> 'Schone naam',
 	'TYPE'					=> 'Type',
-	'DESCRIPTION'			=> 'Description',
-	'VERSION'				=> 'Version',
+	'DESCRIPTION'			=> 'Beschrijving',
+	'VERSION'				=> 'Versie',
 	'HOMEPAGE'				=> 'Homepage',
-	'PATH'					=> 'File Path',
-	'TIME'					=> 'Release Time',
-	'LICENCE'				=> 'Licence',
+	'PATH'					=> 'Bestandpad',
+	'TIME'					=> 'Uitgavetijd', //misschien datum beter
+	'LICENCE'				=> 'Licentie',
 
-	'REQUIREMENTS'			=> 'Requirements',
-	'PHPBB_VERSION'			=> 'phpBB Version',
-	'PHP_VERSION'			=> 'PHP Version',
-	'AUTHOR_INFORMATION'	=> 'Author Information',
-	'AUTHOR_NAME'			=> 'Name',
-	'AUTHOR_EMAIL'			=> 'Email',
+	'REQUIREMENTS'			=> 'Benodigdheden',
+	'PHPBB_VERSION'			=> 'phpBB Versie',
+	'PHP_VERSION'			=> 'PHP Versie',
+	'AUTHOR_INFORMATION'	=> 'Auteurinformatie',
+	'AUTHOR_NAME'			=> 'Naam',
+	'AUTHOR_EMAIL'			=> 'E-mail',
 	'AUTHOR_HOMEPAGE'		=> 'Homepage',
-	'AUTHOR_ROLE'			=> 'Role',
+	'AUTHOR_ROLE'			=> 'Rol',
 ));
