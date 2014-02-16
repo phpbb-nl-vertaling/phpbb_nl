@@ -37,8 +37,8 @@ if (empty($lang) || !is_array($lang))
 // Board Settings
 $lang = array_merge($lang, array(
 	'ACP_BOARD_SETTINGS_EXPLAIN'	=> 'Hier kan je de basis instellingen van je forum bepalen, geef het een passende naam en beschrijving en pas samen met andere instellingen de standaard waardes in voor bijvoorbeeld tijdzone en taal.',
-	'BOARD_INDEX_TEXT'				=> 'Forum indextekst',
-	'BOARD_INDEX_TEXT_EXPLAIN'		=> 'Deze tekst wordt weergegeven als forumindex in de broodkruimels. Indien niet gespecificeerd, dan zal dit standaard “Forumindex” zijn.',
+	'BOARD_INDEX_TEXT'				=> 'Forumindex-tekst',
+	'BOARD_INDEX_TEXT_EXPLAIN'		=> 'Deze tekst wordt weergegeven als forumindex in de breadcrumbs. Indien niet gespecificeerd, dan zal dit standaard “Forumindex” zijn.',
 	'CUSTOM_DATEFORMAT'				=> 'Eigen…',
 	'DEFAULT_DATE_FORMAT'			=> 'Datumformaat',
 	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> 'De datumformaat is hetzelfde als de PHP <code>date</code> functie.',
@@ -78,9 +78,9 @@ $lang = array_merge($lang, array(
 	'ALLOW_NO_CENSORS_EXPLAIN'	=> 'Gebruikers kunnen ervoor kiezen dat het automatisch censureren van berichten en privé berichten wordt uitgeschakeld.',
 	'ALLOW_PM_ATTACHMENTS'		=> 'Bijlagen in privé berichten inschakelen',
 	'ALLOW_PM_REPORT'			=> 'Melden van privé berichten inschakelen',
-	'ALLOW_PM_REPORT_EXPLAIN'	=> 'Als deze instelling is ingeschakeld, dan hebben gebruikers de optie om een privé bericht die zij hebben ontvangen te melden of om door te sturen naar de moderator. Deze privé berichten zullen dan zichtbaar zijn in de moderatorpaneel.',
+	'ALLOW_PM_REPORT_EXPLAIN'	=> 'Als deze instelling is ingeschakeld, dan hebben gebruikers de optie om een privébericht die zij hebben ontvangen te melden of om door te sturen naar de moderator. Deze privéberichten zullen dan zichtbaar zijn in het moderatorpaneel.',
 	'ALLOW_QUICK_REPLY'			=> 'Snelle reactie inschakelen',
-	'ALLOW_QUICK_REPLY_EXPLAIN'	=> 'Deze optie zorgt er voor dar de snelle reactie wordt uitgeschakeld in het hele forum. Wanneer ingeschakeld, zullen forum specifieke instellingen gebruikt worden om te bepalen of de snelle reactie wordt weergegeven bij individuele forums.',
+	'ALLOW_QUICK_REPLY_EXPLAIN'	=> 'Deze optie zorgt er voor dat de snelle reactie wordt uitgeschakeld in het hele forum. Wanneer ingeschakeld, zullen forum specifieke instellingen gebruikt worden om te bepalen of de snelle reactie wordt weergegeven bij individuele forums.',
 	'ALLOW_QUICK_REPLY_BUTTON'	=> 'Verstuur en schakel snelle reacties in voor alle fora',
 	'ALLOW_SIG'					=> 'Onderschriften inschakelen',
 	'ALLOW_SIG_BBCODE'			=> 'BBCode in onderschriften inschakelen',
@@ -97,7 +97,7 @@ $lang = array_merge($lang, array(
 
 // Avatar Settings
 $lang = array_merge($lang, array(
-	'ACP_AVATAR_SETTINGS_EXPLAIN'	=> 'Avatars zijn over het algemeen kleine unieke afbeeldignen waarmee een gebruiker zichzelf mee kan associëren. Afhankelijk van de stijl staan ze direct onder de gebruikersnaam wanneer je onderwerpen bekijkt. Hier kan je bepalen hoe gebruikers hun avatar kunnen kiezen. Let op dat om avatars te kunnen uploaden, dat je dan een map hebt aangemaakt die je hieronder benoemt en er voor zorgt dat deze beschreven kan worden door de webserver. Let er ook op de dat bestandsgrootte limieten alleen ingesteld zullen zijn voor geüploade avatars, ze worden dus niet toegepast op externe afbeeldingen van andere servers.',
+	'ACP_AVATAR_SETTINGS_EXPLAIN'	=> 'Avatars zijn over het algemeen kleine unieke afbeeldingen waarmee een gebruiker zichzelf mee kan associëren. Afhankelijk van de stijl staan ze direct onder de gebruikersnaam wanneer je onderwerpen bekijkt. Hier kan je bepalen hoe gebruikers hun avatar kunnen kiezen. Let op dat om avatars te kunnen uploaden, dat je dan een map hebt aangemaakt die je hieronder benoemt en er voor zorgt dat deze beschreven kan worden door de webserver. Let er ook op de dat bestandsgrootte limieten alleen ingesteld zullen zijn voor geüploade avatars, ze worden dus niet toegepast op externe afbeeldingen van andere servers.',
 
 	'ALLOW_AVATARS'					=> 'Avatars inschakelen',
 	'ALLOW_AVATARS_EXPLAIN'			=> 'Algemeen gebruik van avatars inschakelen;<br />Als je avatars in het algemeen uitschakeld of avatars van een bepaalde type, dat de uitgeschakelde avatars dan niet meer weergegeven worden op het forum, maar gebruikers kunnen nog steeds hun eigen avatar downloaden in het gebruikerspaneel.',
@@ -136,7 +136,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_SIG_PM'				=> 'Onderschriften in privéberichten inschakelen',
 	'ALLOW_SMILIES_PM'			=> 'Smilies in privéberichten inschakelen',
 	'BOXES_LIMIT'				=> 'Maximum privéberichten per box',
-	'BOXES_LIMIT_EXPLAIN'		=> 'Gebruikers kunnen niet mer dan deze hoeveelheid ontvangen in ieder privébericht box. Stel deze waarde in op 0 om ongelimiteerd aantal berichten toe te staan.',
+	'BOXES_LIMIT_EXPLAIN'		=> 'Gebruikers kunnen niet meer dan deze hoeveelheid ontvangen in ieder privébericht box. Stel deze waarde in op 0 om ongelimiteerd aantal berichten toe te staan.',
 	'BOXES_MAX'					=> 'Maximum privébericht mappen',
 	'BOXES_MAX_EXPLAIN'			=> 'Standaard kunnen gebruikers deze hoeveelheid persoonlijke mappen maken voor privéberichten.',
 	'ENABLE_PM_ICONS'			=> 'Gebruik van onderwerpiconen in privéberichten inschakelen',
@@ -386,7 +386,7 @@ $lang = array_merge($lang, array(
 	'YES_POST_MARKING'				=> 'Aangestipte onderwerpen inschakelen',
 	'YES_POST_MARKING_EXPLAIN'		=> 'Geeft weer of gebruiker een bericht heeft geplaatst in een onderwerp.',
 	'YES_READ_MARKING'				=> 'Server onderwerp markering inschakelen',
-	'YES_READ_MARKING_EXPLAIN'		=> 'Bewaard gelezen/ongelezen statusinformatie in de database in plaats van een cookie.',
+	'YES_READ_MARKING_EXPLAIN'		=> 'Slaat gelezen/ongelezen statusinformatie op in de database in plaats van een cookie.',
 	'YES_UNREAD_SEARCH'				=> 'Zoeken naar ongelezen berichten inschakelen',
 ));
 
