@@ -1,15 +1,15 @@
-Subject: New private message has arrived
+Subject: Je hebt een nieuw privébericht ontvangen
 
-Hello {USERNAME},
+Hallo {USERNAME},
 
-You have received a new private message from "{AUTHOR_NAME}" to your account on "{SITENAME}" with the following subject:
+Je hebt een nieuw privébericht ontvangen van "{AUTHOR_NAME}" op je gebruikersaccount op "{SITENAME}" met het volgende onderwerp:
 
 {SUBJECT}
 
-You can view your new message by clicking on the following link:
+Je kan je nieuwe bericht bekijken door op de volgende link te klikken:
 
 {U_VIEW_MESSAGE}
 
-You have requested that you be notified on this event, remember that you can always choose not to be notified of new messages by changing the appropriate setting in your profile.
+Je hebt ingesteld dat je op de hoogte wilt zijn van een nieuw privébericht, weet dat je dit kan uitschakelen in je profiel.
 
 {EMAIL_SIG}

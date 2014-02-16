@@ -1,7 +1,7 @@
-Subject: Report closed - "{POST_SUBJECT}"
+Subject: Melding gesloten - "{POST_SUBJECT}"
 
-Hello {USERNAME},
+Hallo {USERNAME},
 
-You are receiving this notification because the report you filed on the post "{POST_SUBJECT}" in "{TOPIC_TITLE}" at "{SITENAME}" was handled by a moderator or by an administrator. The report was afterwards closed. If you have further questions contact {CLOSER_NAME} with a personal message.
+Je ontvangt dit bericht omdat een melding van een bericht "{POST_SUBJECT}" in "{TOPIC_TITLE}" op "{SITENAME}" is afgehandeld door een moderator of door een beheerder. De melding is achteraf gesloten. Als je nog vragen hebt neem dan contact op met {CLOSER_NAME} met een privébericht.
 
 {EMAIL_SIG}
