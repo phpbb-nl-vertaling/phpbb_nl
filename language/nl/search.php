@@ -41,12 +41,12 @@ $lang = array_merge($lang, array(
 	'DISPLAY_RESULTS'		=> 'Resultaten weergeven als',
 
 	'FOUND_SEARCH_MATCHES'		=> array(
-		1	=> 'Zoeken vond %d overeenkomst',
-		2	=> 'Zoeken vond %d overeenkomsten',
+		1	=> 'Er is %d resultaat gevonden',
+		2	=> 'Er zijn %d resultaten gevonden',
 	),
 	'FOUND_MORE_SEARCH_MATCHES'		=> array(
-		1	=> 'Zoeken vond meer dan %d overeenkomst',
-		2	=> 'Zoeken vond meer dan %d overeenkomsten',
+		1	=> 'Er is meer dan %d resultaat gevonden',
+		2	=> 'Er zijn meer dan %d resultaten gevonden',
 	),
 
 	'GLOBAL'				=> 'Algemene aankondiging',
