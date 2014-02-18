@@ -70,8 +70,8 @@ $help = array(
 		1 => 'Mogelijk heeft de beheerder je IP-adres verbannen, of de gebruikersnaam die je opgeeft verboden. Tevens is het mogelijk dat de beheerder de registratie mogelijkheid heeft uitgeschakeld om zo de registratie van nieuwe gebruikers te voorkomen. Neem contact op met de beheerder voor verdere hulp.',
 	),
 	array(
-		0 => 'Wat doet "verwijder alle forum cookies"?',
-		1 => 'Verwijder alle forum cookies zorgt dat alle cookies die door phpBB3 aangemaakt werden, verwijdert worden. Deze cookies zorgen ervoor dat je aangemeld bent en geven ook de mogelijkheid, indien de beheerder dit inschakelde, om te zien welke onderwerpen je al gelezen hebt.',
+		0 => 'Wat doet "verwijder alle forumcookies"?',
+		1 => 'Verwijder alle forumcookies zorgt dat alle cookies die door phpBB3 aangemaakt werden, verwijdert worden. Deze cookies zorgen ervoor dat je aangemeld bent en geven ook de mogelijkheid, indien de beheerder dit inschakelde, om te zien welke onderwerpen je al gelezen hebt.',
 	),
 	array(
 		0 => '--',
