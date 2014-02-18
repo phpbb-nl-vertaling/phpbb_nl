@@ -216,8 +216,8 @@ $lang = array_merge($lang, array(
 
 	'ACC_ACTIVATION'				=> 'Account activatie',
 	'ACC_ACTIVATION_EXPLAIN'		=> 'Dit bepaalt of gebruikers meteen toegang hebben tot het forum of dat bevestiging vereist is. Je kan ook nieuwe registraties compleet uitschakelen. “Forum-wijde e-mails” moet ingeschakeld zijn om gebruiker of beheerdersactivatie te gebruiken.',
-	'NEW_MEMBER_POST_LIMIT'			=> 'Nieuwe lid berichten limiet',
-	'NEW_MEMBER_POST_LIMIT_EXPLAIN'	=> 'Nieuwe leden blijven in de <em>Nieuw geregistreerde gebruikers</em> groep totdat ze dit aantal berichten bereikt. Je kan deze groep gebruiken om te voorkomen dat ze het PB systeem meteen kunnen gebruiken of om hun berichten na te kijken. <strong>Een waarde van 0 zal deze functie uitschakelen.</strong>',
+	'NEW_MEMBER_POST_LIMIT'			=> 'Nieuwe gebruikers berichtenlimiet',
+	'NEW_MEMBER_POST_LIMIT_EXPLAIN'	=> 'Nieuwe gebruikers blijven in de <em>Nieuw geregistreerde gebruikers</em> groep totdat ze dit aantal berichten hebben bereikt. Je kan deze groep gebruiken om te voorkomen dat ze het PB systeem meteen kunnen gebruiken of om hun berichten na te kijken. <strong>Een waarde van 0 zal deze functie uitschakelen.</strong>',
 	'NEW_MEMBER_GROUP_DEFAULT'		=> 'Stel Nieuw Geregistreerde Gebruikers groep standaard in',
 	'NEW_MEMBER_GROUP_DEFAULT_EXPLAIN'	=> 'Indien ingesteld op ja, en een nieuw lid berichten limiet is ingesteld, nieuw geregistreerde gebruikers zullen dan niet alleen in de <em>Nieuw Geregistreerde Gebruikers</em> groep geplaatst worden, maar deze groep zal ook hun standaard groep zijn. Dit kan handig zijn als je een standaard groepsrang en/of avatar wilt toewijzen, welke de gebruiker dan krijgt.',
 
