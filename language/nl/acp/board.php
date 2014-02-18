@@ -290,7 +290,7 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_ITEM_STATISTICS'			=> 'Item statistieken',
 	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'Geeft individuele statistieken weer onder de feed items<br />(bijv. geplaatst door, datum en tijd, reacties, weergaves)',
 	'ACP_FEED_EXCLUDE_ID'				=> 'Deze forums uitsluiten',
-	'ACP_FEED_EXCLUDE_ID_EXPLAIN'		=> 'Inhoud van deze forums zal <strong>niet bijgevoegd worden in de feeds</strong>. Selecteer geen forums om data van alle forums te gebruiken.<br />Selecteer/Deselecteer meerdere forums door <samp>CTRL</samp> ingedrukt te houden en met de muis op e forums te klikken.',
+	'ACP_FEED_EXCLUDE_ID_EXPLAIN'		=> 'Inhoud van deze forums zal <strong>niet bijgevoegd worden in de feeds</strong>. Selecteer geen forums om data van alle forums te gebruiken.<br />Selecteer/Deselecteer meerdere forums door <samp>CTRL</samp> ingedrukt te houden en met de muis op de forums te klikken.',
 ));
 
 // Visual Confirmation Settings
