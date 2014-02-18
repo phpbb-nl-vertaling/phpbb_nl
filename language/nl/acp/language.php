@@ -1,7 +1,7 @@
 <?php
 /**
 *
-* acp_language [English]
+* acp_language [Dutch]
 *
 * @package language
 * @copyright (c) 2005 phpBB Group
@@ -35,66 +35,66 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACP_FILES'						=> 'Admin language files',
-	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Here you are able to install/remove language packs. The default language pack is marked with an asterisk (*).',
+	'ACP_FILES'						=> 'Beheerders taalbestanden',
+	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Hier kan je taalpakketten installeren/verwijderen. Het standaard taalpakket is gemarkeerd met een ster (*).',
 
-	'EMAIL_FILES'			=> 'Email templates',
+	'EMAIL_FILES'			=> 'E-mailtemplates',
 
-	'FILE_CONTENTS'				=> 'File contents',
-	'FILE_FROM_STORAGE'			=> 'File from storage folder',
+	'FILE_CONTENTS'				=> 'Bestandinhoud',
+	'FILE_FROM_STORAGE'			=> 'Bestand uit opslagmap',
 
-	'HELP_FILES'				=> 'Help files',
+	'HELP_FILES'				=> 'Hulpbestanden',
 
-	'INSTALLED_LANGUAGE_PACKS'	=> 'Installed language packs',
-	'INVALID_LANGUAGE_PACK'		=> 'The selected language pack seems to be not valid. Please verify the language pack and upload it again if necessary.',
-	'INVALID_UPLOAD_METHOD'		=> 'The selected upload method is not valid, please choose a different method.',
+	'INSTALLED_LANGUAGE_PACKS'	=> 'Geïnstalleerde taalpakketten',
+	'INVALID_LANGUAGE_PACK'		=> 'De geselecteerde taalpakket lijkt niet geldig te zijn. Controleer het taalpakket en upload het opnieuw mocht dat nodig zijn.',
+	'INVALID_UPLOAD_METHOD'		=> 'De geselecteerde uploadmethode is niet geldig, kies een andere methode.',
 
-	'LANGUAGE_DETAILS_UPDATED'			=> 'Language details successfully updated.',
-	'LANGUAGE_ENTRIES'					=> 'Language entries',
-	'LANGUAGE_ENTRIES_EXPLAIN'			=> 'Here you are able to change existing language pack entries or not already translated ones.<br /><strong>Note:</strong> Once you changed a language file, the changes will be stored within a separate folder for you to download. The changes will not be seen by your users until you replace the original language files at your webspace (by uploading them).',
-	'LANGUAGE_FILES'					=> 'Language files',
-	'LANGUAGE_KEY'						=> 'Language key',
-	'LANGUAGE_PACK_ALREADY_INSTALLED'	=> 'This language pack is already installed.',
-	'LANGUAGE_PACK_DELETED'				=> 'The language pack <strong>%s</strong> has been removed successfully. All users using this language have been reset to the boards default language.',
-	'LANGUAGE_PACK_DETAILS'				=> 'Language pack details',
-	'LANGUAGE_PACK_INSTALLED'			=> 'The language pack <strong>%s</strong> has been successfully installed.',
-	'LANGUAGE_PACK_CPF_UPDATE'			=> 'The custom profile fields’ language strings were copied from the default language. Please change them if necessary.',
+	'LANGUAGE_DETAILS_UPDATED'			=> 'Taaldetails succesvol geüpdate.',
+	'LANGUAGE_ENTRIES'					=> 'Taalverwijzingen',
+	'LANGUAGE_ENTRIES_EXPLAIN'			=> 'Hier kan je bestaande taalpakket verwijzingen veranderen of nog niet vertaalde verwijzingen vertalen.<br /><strong>Notitie:</strong> Wanneer je een taalbestand hebt gewijzigd, dan zullen de veranderingen opgeslagen worden in een aparte map zodat je ze kan downloaden. De veranderingen zullen niet gezien worden door je gebruikers totdat je de originele taalbestanden verwisselt met je eigen taalbestanden op je server (door ze te uploaden).',
+	'LANGUAGE_FILES'					=> 'Taalbestanden',
+	'LANGUAGE_KEY'						=> 'Taalsleutel',
+	'LANGUAGE_PACK_ALREADY_INSTALLED'	=> 'Dit taalpakket is al geïnstalleerd.',
+	'LANGUAGE_PACK_DELETED'				=> 'Het taalpakket <strong>%s</strong> is succesvol verwijderd. Alle gebruikers die deze taal gebruikte zijn opnieuw ingesteld op de forum standaardtaal.',
+	'LANGUAGE_PACK_DETAILS'				=> 'Taalpakket-details',
+	'LANGUAGE_PACK_INSTALLED'			=> 'Het taalpakket <strong>%s</strong> is succesvol geïnstalleerd.',
+	'LANGUAGE_PACK_CPF_UPDATE'			=> 'De eigen profielvelden taalregels zijn gekopieerd van de standaardtaal. Verander ze indien nodig.',
 	'LANGUAGE_PACK_ISO'					=> 'ISO',
-	'LANGUAGE_PACK_LOCALNAME'			=> 'Local name',
-	'LANGUAGE_PACK_NAME'				=> 'Name',
-	'LANGUAGE_PACK_NOT_EXIST'			=> 'The selected language pack does not exist.',
-	'LANGUAGE_PACK_USED_BY'				=> 'Used by (including robots)',
-	'LANGUAGE_VARIABLE'					=> 'Language variable',
-	'LANG_AUTHOR'						=> 'Language pack author',
-	'LANG_ENGLISH_NAME'					=> 'English name',
-	'LANG_ISO_CODE'						=> 'ISO code',
-	'LANG_LOCAL_NAME'					=> 'Local name',
+	'LANGUAGE_PACK_LOCALNAME'			=> 'Lokale naam',
+	'LANGUAGE_PACK_NAME'				=> 'Naam',
+	'LANGUAGE_PACK_NOT_EXIST'			=> 'Het geselecteerde taalpakket bestaat niet.',
+	'LANGUAGE_PACK_USED_BY'				=> 'Gebruikt door (inclusief robots)',
+	'LANGUAGE_VARIABLE'					=> 'Taalvariabele',
+	'LANG_AUTHOR'						=> 'Taalpakket-auteur',
+	'LANG_ENGLISH_NAME'					=> 'Engelse naam',
+	'LANG_ISO_CODE'						=> 'ISO-code',
+	'LANG_LOCAL_NAME'					=> 'Lokale naam',
 
-	'MISSING_LANGUAGE_FILE'		=> 'Missing language file: <strong style="color:red">%s</strong>',
-	'MISSING_LANG_VARIABLES'	=> 'Missing language variables',
-	'MODS_FILES'				=> 'MODs language files',
+	'MISSING_LANGUAGE_FILE'		=> 'Taalbestand missend: <strong style="color:red">%s</strong>',
+	'MISSING_LANG_VARIABLES'	=> 'Taalvariabele missend',
+	'MODS_FILES'				=> 'MODs taalbestanden',
 
-	'NO_FILE_SELECTED'				=> 'You haven’t specified a language file.',
-	'NO_LANG_ID'					=> 'You haven’t specified a language pack.',
-	'NO_REMOVE_DEFAULT_LANG'		=> 'You are not able to remove the default language pack.<br />If you want to remove this language pack, change your boards default language first.',
-	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'No uninstalled language packs',
+	'NO_FILE_SELECTED'				=> 'Je hebt geen taalbestand gespecificeerd.',
+	'NO_LANG_ID'					=> 'Je hebt geen taalpakket gespecificeerd.',
+	'NO_REMOVE_DEFAULT_LANG'		=> 'Je kan het standaard taalpakket niet verwijderen.<br />Als je dit taalpakket wilt verwijderen, verander dan eerst de standaardtaal van je forum.',
+	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'Er zijn geen nog niet geïnstalleerde taalpakketten',
 
-	'REMOVE_FROM_STORAGE_FOLDER'		=> 'Remove from storage folder',
+	'REMOVE_FROM_STORAGE_FOLDER'		=> 'Verwijder uit opslagmap',
 
-	'SELECT_DOWNLOAD_FORMAT'	=> 'Select download format',
-	'SUBMIT_AND_DOWNLOAD'		=> 'Submit and download file',
-	'SUBMIT_AND_UPLOAD'			=> 'Submit and upload file',
+	'SELECT_DOWNLOAD_FORMAT'	=> 'Selecteer downloadformaat',
+	'SUBMIT_AND_DOWNLOAD'		=> 'Verstuur en download bestand',
+	'SUBMIT_AND_UPLOAD'			=> 'Verstuur en upload bestand',
 
-	'THOSE_MISSING_LANG_FILES'			=> 'The following language files are missing from the %s language folder',
-	'THOSE_MISSING_LANG_VARIABLES'		=> 'The following language variables are missing from the <strong>%s</strong> language pack',
+	'THOSE_MISSING_LANG_FILES'			=> 'De volgende taalbestanden missen in de %s taalmap',
+	'THOSE_MISSING_LANG_VARIABLES'		=> 'De volgende taalvariabelen missen in het <strong>%s</strong> taalpakket',
 
-	'UNINSTALLED_LANGUAGE_PACKS'	=> 'Uninstalled language packs',
+	'UNINSTALLED_LANGUAGE_PACKS'	=> 'Niet geïnstalleerde taalpakketten',
 
-	'UNABLE_TO_WRITE_FILE'		=> 'The file could not be written to %s.',
-	'UPLOAD_COMPLETED'			=> 'The upload was completed successfully.',
-	'UPLOAD_FAILED'				=> 'The upload failed for unknown reasons. You may need to replace the relevant file manually.',
-	'UPLOAD_METHOD'				=> 'Upload method',
-	'UPLOAD_SETTINGS'			=> 'Upload settings',
+	'UNABLE_TO_WRITE_FILE'		=> 'Het bestand kon niet beschreven worden %s.',
+	'UPLOAD_COMPLETED'			=> 'De upload is succesvol afgerond.',
+	'UPLOAD_FAILED'				=> 'De upload is mislukt door onbekende redenen. Je moet waarschijnlijk het relevante bestand handmatig vervangen.',
+	'UPLOAD_METHOD'				=> 'Uploadmethode',
+	'UPLOAD_SETTINGS'			=> 'Uploadinstellingen',
 
-	'WRONG_LANGUAGE_FILE'		=> 'Selected language file is invalid.',
+	'WRONG_LANGUAGE_FILE'		=> 'Het geselecteerde taalbestand is ongeldig.',
 ));
