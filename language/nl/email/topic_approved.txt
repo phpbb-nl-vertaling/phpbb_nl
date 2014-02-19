@@ -1,8 +1,8 @@
-Subject: Onderwerp geaccepteerd - "{TOPIC_TITLE}"
+Subject: Onderwerp goedgekeurd - "{TOPIC_TITLE}"
 
 Hallo {USERNAME},
 
-Je ontvangt deze e-mail omdat jouw onderwerp "{POST_SUBJECT}" op "{SITENAME}" is geaccepteerd door een moderator of beheerder.
+Je ontvangt deze e-mail omdat jouw onderwerp "{POST_SUBJECT}" op "{SITENAME}" is goedgekeurd door een moderator of beheerder.
 
 Als je het onderwerp wilt bekijken, klik op de volgende link:
 {U_VIEW_TOPIC}

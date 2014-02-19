@@ -1,10 +1,10 @@
-Subject: Bericht geweigerd - "{POST_SUBJECT}"
+Subject: Bericht afgekeurd - "{POST_SUBJECT}"
 
 Hallo {USERNAME},
 
-Je ontvangt deze e-mail omdat jouw bericht "{POST_SUBJECT}" op "{SITENAME}" is geweigerd door een moderator of beheerder.
+Je ontvangt deze e-mail omdat jouw bericht "{POST_SUBJECT}" op "{SITENAME}" is afgekeurd door een moderator of beheerder.
 
-De volgende reden is gegeven om jouw bericht te weigeren:
+De volgende reden is gegeven voor de afkeuring van jouw bericht:
 
 {REASON}
 
