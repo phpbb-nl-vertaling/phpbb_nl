@@ -553,7 +553,7 @@ $lang = array_merge($lang, array(
 
 // Jabber settings
 $lang = array_merge($lang, array(
-	'ACP_JABBER_SETTINGS_EXPLAIN'	=> 'Hier kan je het gebruik van Jabber voor directe berichten en forumnotificaties inschakelen en controleren. Jabber is een open-source protocol en kan daarom gebruikt worden door iedereen. Sommige Jabber-servers bevatten gateways of transporten welke je toestaan om met gebruikers op andere netwerken in contact te komen. Niet alle servers bieden alle transporten en veranderingen in protocolen kunnen transporten voorkomen. Zorg er voor dat je al geregistreerde accountdetails invoert - phpBB zal de details gebruiken die je hier invoert gebruiken zoals ze zijn.',
+	'ACP_JABBER_SETTINGS_EXPLAIN'	=> 'Hier kan je het gebruik van Jabber voor directe berichten en forumnotificaties inschakelen en controleren. Jabber is een open-source protocol en kan daarom gebruikt worden door iedereen. Sommige Jabber-servers bevatten gateways of transporten welke je toestaan om met gebruikers op andere netwerken in contact te komen. Niet alle servers bieden alle transporten en veranderingen in protocollen kunnen transporten voorkomen. Zorg er voor dat je al geregistreerde accountdetails invoert - phpBB zal de details gebruiken die je hier invoert gebruiken zoals ze zijn.',
 
 	'JAB_ENABLE'				=> 'Jabber inschakelen',
 	'JAB_ENABLE_EXPLAIN'		=> 'Schakelt het gebruik van Jabber-berichten en notificaties in.',
@@ -570,5 +570,5 @@ $lang = array_merge($lang, array(
 	'JAB_USE_SSL'				=> 'Gebruik SSL om te verbinden',
 	'JAB_USE_SSL_EXPLAIN'		=> 'Indien ingeschakeld wordt er geprobeerd om een beveiligde connectie te maken. De Jabber-poort zal aangepast worden naar 5223 als poort 5222 is gespecificeerd.',
 	'JAB_USERNAME'				=> 'Jabber-gebruikersnaam of JID',
-	'JAB_USERNAME_EXPLAIN'		=> 'Specificeer een geregistreerde gebruikersnaam of een geldige JID. De gebruikersnaam zal niet worden gecontroleerd op geldigheid. Als je alleen een gebruikersnaam specificeert, dan zal je JID de gebruikersnaam zijn en de server die je hebt gespecificeert hierboven. Specificeer anders een geldige JID, bijvoorbeeld gebruiker@jabber.org.',
+	'JAB_USERNAME_EXPLAIN'		=> 'Specificeer een geregistreerde gebruikersnaam of een geldige JID. De gebruikersnaam zal niet worden gecontroleerd op geldigheid. Als je alleen een gebruikersnaam specificeert, dan zal je JID de gebruikersnaam zijn en de server die je hebt gespecificeerd hierboven. Specificeer anders een geldige JID, bijvoorbeeld gebruiker@jabber.org.',
 ));
