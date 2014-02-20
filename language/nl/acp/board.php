@@ -427,7 +427,7 @@ $lang = array_merge($lang, array(
 
 // Server Settings
 $lang = array_merge($lang, array(
-	'ACP_SERVER_SETTINGS_EXPLAIN'	=> 'Hier kan je server en domein afhankelijke instellingen definiëren. Zorg er voor dat de data die je invuld correct is, fouten zullen resulteren in e-mails die incorrecte informatie bevatten. Wanneer je het domeinnaam invult, onthoud dan dat dit inclusief het http:// of een ander protocol moet zijn. Verander alleen het portnummer als je weet dat je server een andere waarde gebruikt, port 80 is correct in de meeste gevallen.',
+	'ACP_SERVER_SETTINGS_EXPLAIN'	=> 'Hier kan je server en domein afhankelijke instellingen definiëren. Zorg er voor dat de data die je invult correct is, fouten zullen resulteren in e-mails die incorrecte informatie bevatten. Wanneer je het domeinnaam invult, onthoud dan dat dit inclusief het http:// of een ander protocol moet zijn. Verander alleen het portnummer als je weet dat je server een andere waarde gebruikt, port 80 is correct in de meeste gevallen.',
 
 	'ENABLE_GZIP'				=> 'GZip-compressie inschakelen',
 	'ENABLE_GZIP_EXPLAIN'		=> 'Gegenereerde inhoud zal worden gecomprimeerd voordat het naar de gebruiker verstuurd wordt. Dit kan netwerk verkeer verminderen, maar zal ook het CPU gebruik verhogen op zowel de server als bij de gebruiker. Vereist zlib PHP extensie om ingeladen te zijn.',
@@ -443,20 +443,20 @@ $lang = array_merge($lang, array(
 	'RANKS_PATH'				=> 'Rangafbeelding opslagpad',
 	'RANKS_PATH_EXPLAIN'		=> 'Pad in je phpBB hoofdmap, bijv. <samp>images/ranks</samp>.',
 	'SCRIPT_PATH'				=> 'Script pad',
-	'SCRIPT_PATH_EXPLAIN'		=> 'Het pad waar phpBB is gelocaliseerd relatief aan de domeinnaam, bijv. <samp>/phpBB3</samp>.',
+	'SCRIPT_PATH_EXPLAIN'		=> 'Het pad waar phpBB is gelokaliseerd relatief aan de domeinnaam, bijv. <samp>/phpBB3</samp>.',
 	'SERVER_NAME'				=> 'Domeinnaam',
 	'SERVER_NAME_EXPLAIN'		=> 'De domeinnaam waar dit forum op draait (bijvoorbeeld: <samp>www.voorbeeld.nl</samp>).',
 	'SERVER_PORT'				=> 'Server port',
 	'SERVER_PORT_EXPLAIN'		=> 'De port waar je server op draait, gebruikelijk 80, verander dit alleen als het verschilt.',
 	'SERVER_PROTOCOL'			=> 'Server protocol',
-	'SERVER_PROTOCOL_EXPLAIN'	=> 'Dit wordt gebruikt als de server protocol als deze instellingen geforceerd worden. Indien leeg of niet geforceerd, dan zal het protocol vastgesteld worden door de cookie beveiliginsinstelling (<samp>http://</samp> of <samp>https://</samp>).',
+	'SERVER_PROTOCOL_EXPLAIN'	=> 'Dit wordt gebruikt als de server protocol als deze instellingen geforceerd worden. Indien leeg of niet geforceerd, dan zal het protocol vastgesteld worden door de cookie beveiligingsinstelling (<samp>http://</samp> of <samp>https://</samp>).',
 	'SERVER_URL_SETTINGS'		=> 'Server URL-instellingen',
 	'SMILIES_PATH'				=> 'Smilies opslagpad',
 	'SMILIES_PATH_EXPLAIN'		=> 'Pad in je phpBB hoofdmap, bijv. <samp>images/smilies</samp>.',
 	'UPLOAD_ICONS_PATH'			=> 'Extensie groepiconen opslagpad',
 	'UPLOAD_ICONS_PATH_EXPLAIN'	=> 'Pad in je phpBB hoofdmap, bijv. <samp>images/upload_icons</samp>.',
 	'USE_SYSTEM_CRON'		=> 'Draai periodieke taken van systeem cron',
-	'USE_SYSTEM_CRON_EXPLAIN'		=> 'Wanneeer uitgeschakeld, phpBB zal periodieke taken instellen om automatisch te laten draaien. Wanneer ingeschakeld, phpBB zal dan niet zelf periodieke taken instellen; een systeembeheerder zal dan moeten regelen dat <code>cron.php</code> opgeroepen wordt door de systeemcron-faciliteit op reguliere basis (bijv. iedere 5 minuten).',
+	'USE_SYSTEM_CRON_EXPLAIN'		=> 'Wanneer uitgeschakeld, phpBB zal periodieke taken instellen om automatisch te laten draaien. Wanneer ingeschakeld, phpBB zal dan niet zelf periodieke taken instellen; een systeembeheerder zal dan moeten regelen dat <code>cron.php</code> opgeroepen wordt door de systeemcron-faciliteit op reguliere basis (bijv. iedere 5 minuten).',
 ));
 
 // Security Settings
