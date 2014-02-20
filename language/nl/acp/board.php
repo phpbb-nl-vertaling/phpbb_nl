@@ -471,7 +471,7 @@ $lang = array_merge($lang, array(
 	'AUTOLOGIN_LENGTH'				=> '"Onthoud mij" aanmeldsleutel vervaltijd (in dagen)',
 	'AUTOLOGIN_LENGTH_EXPLAIN'		=> 'Aantal dagen nadat de "Onthoud mij" aanmeldsleutels verwijderd worden. Stel in op 0 om deze functie uit te schakelen.',
 	'BROWSER_VALID'					=> 'Valideer browser',
-	'BROWSER_VALID_EXPLAIN'			=> 'Schakelt browser validatie toe voor iedere sessie wat de beveiling verbeterd.',
+	'BROWSER_VALID_EXPLAIN'			=> 'Schakelt browser validatie toe voor iedere sessie wat de beveiliging verbeterd.',
 	'CHECK_DNSBL'					=> 'Controleer IP in de DNS Blackhole Lijst',
 	'CHECK_DNSBL_EXPLAIN'			=> 'Wanneer ingeschakeld, de gebruikers IP-adres zal gecontroleerd worden met de volgende DNSBL services bij registratie en het plaatsen van berichten: <a href="http://spamcop.net">spamcop.net</a> en <a href="http://www.spamhaus.org">www.spamhaus.org</a>. Deze controle kan enige tijd duren, afhankelijk van de serverconfiguratie. Als er teveel vertragingen voorkomen of te veel vals positieve worden er gemeld, dan is het aan te raden om deze functie uit te schakelen.',
 	'CLASS_B'						=> 'A.B',
