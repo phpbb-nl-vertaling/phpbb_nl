@@ -100,7 +100,7 @@ $lang = array_merge($lang, array(
 	'ACP_AVATAR_SETTINGS_EXPLAIN'	=> 'Avatars zijn over het algemeen kleine unieke afbeeldingen waarmee een gebruiker zichzelf mee kan associëren. Afhankelijk van de stijl staan ze direct onder de gebruikersnaam wanneer je onderwerpen bekijkt. Hier kan je bepalen hoe gebruikers hun avatar kunnen kiezen. Let op dat om avatars te kunnen uploaden, dat je dan een map hebt aangemaakt die je hieronder benoemt en er voor zorgt dat deze beschreven kan worden door de webserver. Let er ook op de dat bestandsgrootte limieten alleen ingesteld zullen zijn voor geüploade avatars, ze worden dus niet toegepast op externe afbeeldingen van andere servers.',
 
 	'ALLOW_AVATARS'					=> 'Avatars inschakelen',
-	'ALLOW_AVATARS_EXPLAIN'			=> 'Algemeen gebruik van avatars inschakelen;<br />Als je avatars in het algemeen uitschakeld of avatars van een bepaalde type, dat de uitgeschakelde avatars dan niet meer weergegeven worden op het forum, maar gebruikers kunnen nog steeds hun eigen avatar downloaden in het gebruikerspaneel.',
+	'ALLOW_AVATARS_EXPLAIN'			=> 'Algemeen gebruik van avatars inschakelen;<br />Als je avatars in het algemeen uitschakelt of avatars van een bepaalde type, dat de uitgeschakelde avatars dan niet meer weergegeven worden op het forum, maar gebruikers kunnen nog steeds hun eigen avatar downloaden in het gebruikerspaneel.',
 	'ALLOW_GRAVATAR'				=> 'Gravatar avatars inschakelen',
 	'ALLOW_LOCAL'					=> 'Galerij avatars inschakelen',
 	'ALLOW_REMOTE'					=> 'Externe avatars inschakelen',
