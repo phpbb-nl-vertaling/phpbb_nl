@@ -451,7 +451,7 @@ $lang = array_merge($lang, array(
 
 // Send statistics page
 $lang = array_merge($lang, array(
-	'EXPLAIN_SEND_STATISTICS'	=> 'Verstuur informatie over je server en foruminstellingen naar phpBB voor statistische analyse. Alle informatie dat je of je website kan indentificeren is verwijderd - de data is compleet <strong>anoniem</strong>. We baseren beslissingen over de toekomstige phpBB versies op deze informatie. De statistieken zullen openbaar worden gemaakt. We delen ook deze data met het PHP project, de programeertaal waarin phpBB is geschreven.',
+	'EXPLAIN_SEND_STATISTICS'	=> 'Verstuur informatie over je server en foruminstellingen naar phpBB voor statistische analyse. Alle informatie dat je of je website kan identificeren is verwijderd - de data is compleet <strong>anoniem</strong>. We baseren beslissingen over de toekomstige phpBB versies op deze informatie. De statistieken zullen openbaar worden gemaakt. We delen ook deze data met het PHP project, de programmeertaal waarin phpBB is geschreven.',
 	'EXPLAIN_SHOW_STATISTICS'	=> 'Door gebruik te maken van de knop hieronder kan je bekijken welke variabelen verstuurd zullen worden.',
 	'DONT_SEND_STATISTICS'		=> 'Ga terug naar de ACP als je geen statistische informatie naar phpBB wilt versturen.',
 	'GO_ACP_MAIN'				=> 'Ga naar de ACP startpagina',
