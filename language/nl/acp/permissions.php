@@ -1,7 +1,7 @@
 <?php
 /**
 *
-* acp_permissions [English]
+* acp_permissions [Dutch]
 *
 * @package language
 * @copyright (c) 2005 phpBB Group
@@ -36,58 +36,58 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACP_PERMISSIONS_EXPLAIN'	=> '
-		<p>Permissions are highly granular and grouped into four major sections, which are:</p>
+		<p>Permissies zijn heel gedetailleerd instelbaar en zijn onderverdeeld in vier grootte secties:</p>
 
-		<h2>Global Permissions</h2>
-		<p>These are used to control access on a global level and apply to the entire bulletin board. They are further divided into User Permissions, Group Permissions, Administrators and Global Moderators.</p>
+		<h2>Globale Permissies</h2>
+		<p>Deze permissies worden gebruikt om toegang op een globale niveau te controleren en zijn van toepassing op het gehele forum. Ze zijn verder opgedeeld in Gebruikerspermissies, Groepspermissies, Beheerderspermissies en Globale Moderatorpermissies.</p>
 
-		<h2>Forum Based Permissions</h2>
-		<p>These are used to control access on a per forum basis. They are further divided into Forum Permissions, Forum Moderators, User Forum Permissions and Group Forum Permissions.</p>
+		<h2>Forum Gebaseerde Permissies</h2>
+		<p>Deze permissies worden gebruikt om toegang te controleren per forum. Ze zijn verder opgedeeld in Forumpermissies, Forum Moderatorpermissies, Gebruiker Forumpermissies en Groep Forumpermissies.</p>
 
-		<h2>Permission Roles</h2>
-		<p>These are used to create different sets of permissions for the different permission types later being able to be assigned on a role-based basis. The default roles should cover the administration of bulletin boards large and small, though within each of the four divisions, you can add/edit/delete roles as you see fit.</p>
+		<h2>Permissierollen</h2>
+		<p>Deze rollen worden gebruikt om verschillende sets van permissies aan te maken van verschillende permissietypes om later toegewezen te kunnen worden op een rol-gebaseerde basis. De standaard rollen omvatten het beheer van het forum klein en groot, waarbinnen ieder van de vier divisies je rollen kan toevoegen/wijzigen/verwijderen naar gelang je eigen keuze.</p>
 
-		<h2>Permission Masks</h2>
-		<p>These are used to view the effective permissions assigned to Users, Moderators (Local and Global), Administrators or Forums.</p>
+		<h2>Permissiemaskers</h2>
+		<p>Deze maskers worden gebruikt om de effectieve permissies toegewezen aan Gebruikers, Moderators (Lokaal en Globaal), Beheerders of Forums te bekijken.</p>
 
 		<br />
 
-		<p>For further information on setting up and managing permissions on your phpBB3 board, please see <a href="https://www.phpbb.com/support/documentation/3.0/quickstart/quick_permissions.html">Chapter 1.5 of our Quick Start Guide</a>.</p>
+		<p>Voor meer informatie over het opzetten en beheren van permissies op je phpBB3 forum, lees dan <a href="https://www.phpbb.com/support/documentation/3.0/quickstart/quick_permissions.html">Hoofdstuk 1.5 van onze Snelle Start Gids</a>.</p>
 	',
 
-	'ACL_NEVER'				=> 'Never',
-	'ACL_SET'				=> 'Setting permissions',
-	'ACL_SET_EXPLAIN'		=> 'Permissions are based on a simple <samp>YES</samp>/<samp>NO</samp> system. Setting an option to <samp>NEVER</samp> for a user or usergroup overrides any other value assigned to it. If you do not wish to assign a value for an option for this user or group select <samp>NO</samp>. If values are assigned for this option elsewhere they will be used in preference, else <samp>NEVER</samp> is assumed. All objects marked (with the checkbox in front of them) will copy the permission set you defined.',
-	'ACL_SETTING'			=> 'Setting',
+	'ACL_NEVER'				=> 'Nooit',
+	'ACL_SET'				=> 'Permissies instellen',
+	'ACL_SET_EXPLAIN'		=> 'Permissies zijn gebaseerd op een simpele <samp>JA</samp>/<samp>NEE</samp> systeem. Door een optie in te stellen op <samp>NOOIT</samp> voor een gebruiker of gebruikersgroep, dan zal deze instellen iedere andere waarde die daar aan wordt toegewezen overschreven worden. Als je geen waarde wenst toe te wijzen voor een optie voor deze gebruiker of gebruikersgroep, selecteer dan <samp>NEE</samp>. Als waardes ergens anders worden toegewezen voor deze optie, zullen ze in plaats daarvoor gebruikt worden, anders wordt <samp>NOOIT</samp> verondersteld. Alle objecten gemarkeerd (met het afvinkvakje voor hen) zal de permissieset die je hebt gedefinieerd kopiëren.',
+	'ACL_SETTING'			=> 'Instelling',
 
-	'ACL_TYPE_A_'			=> 'Administrative permissions',
-	'ACL_TYPE_F_'			=> 'Forum permissions',
-	'ACL_TYPE_M_'			=> 'Moderative permissions',
-	'ACL_TYPE_U_'			=> 'User permissions',
+	'ACL_TYPE_A_'			=> 'Beheerderpermissies',
+	'ACL_TYPE_F_'			=> 'Forumpermissies',
+	'ACL_TYPE_M_'			=> 'Moderatorpermissies',
+	'ACL_TYPE_U_'			=> 'Gebruikerpermissies',
 
-	'ACL_TYPE_GLOBAL_A_'	=> 'Administrative permissions',
-	'ACL_TYPE_GLOBAL_U_'	=> 'User permissions',
-	'ACL_TYPE_GLOBAL_M_'	=> 'Global Moderator permissions',
-	'ACL_TYPE_LOCAL_M_'		=> 'Forum Moderator permissions',
-	'ACL_TYPE_LOCAL_F_'		=> 'Forum permissions',
+	'ACL_TYPE_GLOBAL_A_'	=> 'Beheerderpermissies',
+	'ACL_TYPE_GLOBAL_U_'	=> 'Gebruikerpermissies',
+	'ACL_TYPE_GLOBAL_M_'	=> 'Globale Moderatorpermissies',
+	'ACL_TYPE_LOCAL_M_'		=> 'Forum Moderatorpermissies',
+	'ACL_TYPE_LOCAL_F_'		=> 'Forumpermissies',
 
-	'ACL_NO'				=> 'No',
-	'ACL_VIEW'				=> 'Viewing permissions',
-	'ACL_VIEW_EXPLAIN'		=> 'Here you can see the effective permissions the user/group is having. A red square indicates that the user/group does not have the permission, a green square indicates that the user/group does have the permission.',
-	'ACL_YES'				=> 'Yes',
+	'ACL_NO'				=> 'Nee',
+	'ACL_VIEW'				=> 'Permissies bekijken',
+	'ACL_VIEW_EXPLAIN'		=> 'Hier kan je de effectieve permissies bekijken die de gebruiker/groep heeft. Een rood vierkantje geeft aan dat de gebruiker/groep de permissie niet heeft, een groen vierkantje geeft aan dat de gebruiker/groep de permissie heeft.',
+	'ACL_YES'				=> 'Ja',
 
-	'ACP_ADMINISTRATORS_EXPLAIN'				=> 'Here you can assign administrator permissions to users or groups. All users with administrator permissions can view the administration control panel.',
-	'ACP_FORUM_MODERATORS_EXPLAIN'				=> 'Here you can assign users and groups as forum moderators. To assign users access to forums, to define global moderative permissions or administrators please use the appropriate page.',
-	'ACP_FORUM_PERMISSIONS_EXPLAIN'				=> 'Here you can alter which users and groups can access which forums. To assign moderators or define administrators please use the appropriate page.',
-	'ACP_FORUM_PERMISSIONS_COPY_EXPLAIN'		=> 'Here you can copy forum permissions from one forum to one or more other forums.',
-	'ACP_GLOBAL_MODERATORS_EXPLAIN'				=> 'Here you can assign global moderator permissions to users or groups. These moderators are like ordinary moderators except they have access to every forum on your board.',
-	'ACP_GROUPS_FORUM_PERMISSIONS_EXPLAIN'		=> 'Here you can assign forum permissions to groups.',
-	'ACP_GROUPS_PERMISSIONS_EXPLAIN'			=> 'Here you can assign global permissions to groups - user permissions, global moderator permissions and administrator permissions. User permissions include capabilities such as the use of avatars, sending private messages, et cetera; global moderator permissions such as approving posts, manage topics, manage bans, et cetera and lastly administrator permissions such as altering permissions, define custom BBCodes, manage forums, et cetera. Individual user permissions should only be changed in rare occasions, the preferred method is putting users in groups and assigning the group permissions.',
-	'ACP_ADMIN_ROLES_EXPLAIN'					=> 'Here you are able to manage the roles for administrative permissions. Roles are effective permissions, if you change a role the items having this role assigned will change its permissions too.',
-	'ACP_FORUM_ROLES_EXPLAIN'					=> 'Here you are able to manage the roles for forum permissions. Roles are effective permissions, if you change a role the items having this role assigned will change its permissions too.',
-	'ACP_MOD_ROLES_EXPLAIN'						=> 'Here you are able to manage the roles for moderative permissions. Roles are effective permissions, if you change a role the items having this role assigned will change its permissions too.',
-	'ACP_USER_ROLES_EXPLAIN'					=> 'Here you are able to manage the roles for user permissions. Roles are effective permissions, if you change a role the items having this role assigned will change its permissions too.',
-	'ACP_USERS_FORUM_PERMISSIONS_EXPLAIN'		=> 'Here you can assign forum permissions to users.',
+	'ACP_ADMINISTRATORS_EXPLAIN'				=> 'Hier kan je beheerderpermissies toewijzen aan gebruikers of groepen. Alle gebruikers met beheerderpermissies kunnen het beheerderspaneel bekijken.',
+	'ACP_FORUM_MODERATORS_EXPLAIN'				=> 'Hier kan je gebruikers en groepen toewijzen als forummoderators. Om gebruikers toegang tot forums toe te wijzen, om globale moderatorpermissies of beheerders te definiëren, gebruik daarvoor de juiste pagina.',
+	'ACP_FORUM_PERMISSIONS_EXPLAIN'				=> 'Hier kan je wijzigen welke gebruikers en groepen toegang hebben tot welke forums. Om moderators toe te wijzen of beheerders te definiëren, gebruik daarvoor de juiste pagina.',
+	'ACP_FORUM_PERMISSIONS_COPY_EXPLAIN'		=> 'Hier kan je forumpermissies kopiëren van één forum naar één of meerdere andere forums.',
+	'ACP_GLOBAL_MODERATORS_EXPLAIN'				=> 'Hier kan je globale moderatorpermissies toewijzen aan gebruikers of groepen. Deze moderators zijn net als gewone moderators, behalve dan dat ze toegang hebben tot ieder forum.',
+	'ACP_GROUPS_FORUM_PERMISSIONS_EXPLAIN'		=> 'Hier kan je forumpermissies toewijzen aan groepen.',
+	'ACP_GROUPS_PERMISSIONS_EXPLAIN'			=> 'Hier kan je globale permissies toewijzen aan groepen - gebruikerpermissies, globale moderatorpermissies en beheerderpermissies. Gebruikerpermissies bevatten ook mogelijkheden zoals het gebruik van avatars, het versturen van privéberichten, enzovoort; globale moderatorpermissies zoals het goedkeuren van berichten, beheer van onderwerpen, beheer van verbanningen, enzovoort en als laatste beheerderpermissies zoals het aanpassen van permissies, eigen BBCodes definiëren, beheer van forums, enzovoort. Individuele gebruikerpermissies zouden alleen veranderd moeten worden in uitzonderlijke gevallen, de voorkeursmethode is het plaatsen van gebruikers in groepen en dan het toewijzen van groepspermissies.',
+	'ACP_ADMIN_ROLES_EXPLAIN'					=> 'Hier kan je de rollen voor beheerderpermissies beheren. Rollen zijn effectieve permissies, als je een rol veranderd, zullen de gebruikers/groepen, waar deze rol aan toegewezen is, de permissies ook van veranderen.',
+	'ACP_FORUM_ROLES_EXPLAIN'					=> 'Hier kan je de rollen voor forumpermissies beheren. Rollen zijn effectieve permissies, als je een rol veranderd, zullen de gebruikers/groepen, waar deze rol aan toegewezen is, de permissies ook van veranderen.',
+	'ACP_MOD_ROLES_EXPLAIN'						=> 'Hier kan je de rollen voor moderatorpermissies beheren. Rollen zijn effectieve permissies, als je een rol veranderd, zullen de gebruikers/groepen, waar deze rol aan toegewezen is, de permissies ook van veranderen.',
+	'ACP_USER_ROLES_EXPLAIN'					=> 'Hier kan je de rollen voor gebruikerpermissies beheren. Rollen zijn effectieve permissies, als je een rol veranderd, zullen de gebruikers/groepen, waar deze rol aan toegewezen is, de permissies ook van veranderen.',
+	'ACP_USERS_FORUM_PERMISSIONS_EXPLAIN'		=> 'Hier kan je forumpermissies toewijzen aan gebruikers.',
 	'ACP_USERS_PERMISSIONS_EXPLAIN'				=> 'Here you can assign global permissions to users - user permissions, global moderator permissions and administrator permissions. User permissions include capabilities such as the use of avatars, sending private messages, et cetera; global moderator permissions such as approving posts, manage topics, manage bans, et cetera and lastly administrator permissions such as altering permissions, define custom BBCodes, manage forums, et cetera. To alter these settings for large numbers of users the Group permissions system is the preferred method. User permissions should only be changed in rare occasions, the preferred method is putting users in groups and assigning the group permissions.',
 	'ACP_VIEW_ADMIN_PERMISSIONS_EXPLAIN'		=> 'Here you can view the effective administrative permissions assigned to the selected users/groups.',
 	'ACP_VIEW_GLOBAL_MOD_PERMISSIONS_EXPLAIN'	=> 'Here you can view the global moderative permissions assigned to the selected users/groups.',
