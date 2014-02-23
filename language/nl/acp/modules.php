@@ -1,7 +1,7 @@
 <?php
 /**
 *
-* acp_modules [English]
+* acp_modules [Dutch]
 *
 * @package language
 * @copyright (c) 2005 phpBB Group
@@ -35,47 +35,47 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACP_MODULE_MANAGEMENT_EXPLAIN'	=> 'Here you are able to manage all kind of modules. Please note that the ACP has a three-level menu structure (Category -> Category -> Module) whereby the others having a two-level menu structure (Category -> Module) which must be kept. Please also be aware that you may lock out yourself if you disable or delete the modules responsible for the module management itself.',
-	'ADD_MODULE'					=> 'Add module',
-	'ADD_MODULE_CONFIRM'			=> 'Are you sure you want to add the selected module with the selected mode?',
-	'ADD_MODULE_TITLE'				=> 'Add module',
+	'ACP_MODULE_MANAGEMENT_EXPLAIN'	=> 'Hier kan je alle soorten modules beheren. Let op dat het beheerderspaneel een drielaags menustructuur (Categorie -> Categorie -> Module) heeft, waarbij de andere een tweelaags menustructuur (Categorie -> Module) hebben die behouden moet worden. Wees er ook verdacht op dat je jezelf kan uitsluiten als je de modules uitschakelt of verwijdert die verantwoordelijk zijn voor het modulebeheer zelf.',
+	'ADD_MODULE'					=> 'Module toevoegen',
+	'ADD_MODULE_CONFIRM'			=> 'Weet je zeker dat je de geselecteerde module wilt toevoegen aan de geselecteerde mode?',
+	'ADD_MODULE_TITLE'				=> 'Module toevoegen',
 
-	'CANNOT_REMOVE_MODULE'	=> 'Unable to remove module, it has assigned children. Please remove or move all children before performing this action.',
-	'CATEGORY'				=> 'Category',
-	'CHOOSE_MODE'			=> 'Choose module mode',
-	'CHOOSE_MODE_EXPLAIN'	=> 'Choose the modules mode being used.',
-	'CHOOSE_MODULE'			=> 'Choose module',
-	'CHOOSE_MODULE_EXPLAIN'	=> 'Choose the file being called by this module.',
-	'CREATE_MODULE'			=> 'Create new module',
+	'CANNOT_REMOVE_MODULE'	=> 'Kan module niet verwijderen, het heeft al toegewezen kinderen. Verwijder of verplaats eerst alle kinderen voordat je deze actie uitvoert.',
+	'CATEGORY'				=> 'Categorie',
+	'CHOOSE_MODE'			=> 'Kies modulemode',
+	'CHOOSE_MODE_EXPLAIN'	=> 'Kies de modulemode die gebruikt wordt.',
+	'CHOOSE_MODULE'			=> 'Kies module',
+	'CHOOSE_MODULE_EXPLAIN'	=> 'Kies het bestand wat wordt opgeroepen door deze module.',
+	'CREATE_MODULE'			=> 'Nieuwe module aanmaken',
 
-	'DEACTIVATED_MODULE'	=> 'Deactivated module',
-	'DELETE_MODULE'			=> 'Delete module',
-	'DELETE_MODULE_CONFIRM'	=> 'Are you sure you want to remove this module?',
+	'DEACTIVATED_MODULE'	=> 'Gedeactiveerde module',
+	'DELETE_MODULE'			=> 'Module verwijderen',
+	'DELETE_MODULE_CONFIRM'	=> 'Weet je zeker dat je deze module wilt verwijderen?',
 
-	'EDIT_MODULE'			=> 'Edit module',
-	'EDIT_MODULE_EXPLAIN'	=> 'Here you are able to enter module specific settings.',
+	'EDIT_MODULE'			=> 'Module wijzigen',
+	'EDIT_MODULE_EXPLAIN'	=> 'hier kan je module specifieke instellingen invoeren.',
 
-	'HIDDEN_MODULE'			=> 'Hidden module',
+	'HIDDEN_MODULE'			=> 'Verborgen module',
 
 	'MODULE'					=> 'Module',
-	'MODULE_ADDED'				=> 'Module successfully added.',
-	'MODULE_DELETED'			=> 'Module successfully removed.',
-	'MODULE_DISPLAYED'			=> 'Module displayed',
-	'MODULE_DISPLAYED_EXPLAIN'	=> 'If you do not wish to display this module, but want to use it, set this to no.',
-	'MODULE_EDITED'				=> 'Module successfully edited.',
-	'MODULE_ENABLED'			=> 'Module enabled',
-	'MODULE_LANGNAME'			=> 'Module language name',
-	'MODULE_LANGNAME_EXPLAIN'	=> 'Enter the displayed module name. Use language constant if name is served from language file.',
-	'MODULE_TYPE'				=> 'Module type',
+	'MODULE_ADDED'				=> 'Module succesvol toegevoegd.',
+	'MODULE_DELETED'			=> 'Module succesvol verwijderd.',
+	'MODULE_DISPLAYED'			=> 'Module weergeven',
+	'MODULE_DISPLAYED_EXPLAIN'	=> 'Als je deze module niet wilt weergeven, maar wel wilt gebruiken, stel dit dan in op nee.',
+	'MODULE_EDITED'				=> 'Module succesvol gewijzigd.',
+	'MODULE_ENABLED'			=> 'Module ingeschakeld',
+	'MODULE_LANGNAME'			=> 'Module taalnaam',
+	'MODULE_LANGNAME_EXPLAIN'	=> 'Voer de weergegeven modulenaam in. Gebruik een taalconstante als de naam wordt opgehaald uit een taalbestand.',
+	'MODULE_TYPE'				=> 'Moduletype',
 
-	'NO_CATEGORY_TO_MODULE'	=> 'Unable to turn category into module. Please remove/move all children before performing this action.',
-	'NO_MODULE'				=> 'No module found.',
-	'NO_MODULE_ID'			=> 'No module id specified.',
-	'NO_MODULE_LANGNAME'	=> 'No module language name specified.',
-	'NO_PARENT'				=> 'No Parent',
+	'NO_CATEGORY_TO_MODULE'	=> 'Kan een categorie niet in een module veranderen. Verwijder/verplaats alle kinderen voordat je deze actie uitvoert.',
+	'NO_MODULE'				=> 'Geen module gevonden.',
+	'NO_MODULE_ID'			=> 'Geen module-ID gespecificeerd.',
+	'NO_MODULE_LANGNAME'	=> 'Geen module taalnaam gespecificeerd.',
+	'NO_PARENT'				=> 'Geen Ouder',
 
-	'PARENT'				=> 'Parent',
-	'PARENT_NO_EXIST'		=> 'Parent does not exist.',
+	'PARENT'				=> 'Ouder',
+	'PARENT_NO_EXIST'		=> 'Ouder bestaat niet.',
 
-	'SELECT_MODULE'			=> 'Select a module',
+	'SELECT_MODULE'			=> 'Selecteer een module',
 ));
