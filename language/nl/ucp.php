@@ -205,10 +205,13 @@ $lang = array_merge($lang, array(
 	),
 	'FIELD_TOO_SMALL'					=> 'De waarde van “%2$s” is te klein, een minimum waarde van %1$d is vereist.',
 	'FIELD_TOO_LARGE'					=> 'De waarde van “%2$s” is te lang, een maximum waarde van %1$d is toegestaan.',
+	'FIELD_INVALID_CHARS_INVALID'		=> 'Het veld “%s” heeft ongeldige karakters.',
 	'FIELD_INVALID_CHARS_NUMBERS_ONLY'	=> 'Het veld “%s” heeft ongeldige karakters, alleen nummers zijn toegestaan.',
 	'FIELD_INVALID_CHARS_ALPHA_ONLY'	=> 'Het veld “%s” heeft ongeldige karakters, alleen alfanumerieke karakters zijn toegestaan.',
-	'FIELD_INVALID_CHARS_SPACERS_ONLY'	=> 'Het veld “%s” heeft ongeldige karakters, alleen alfanumerieke, spatie of  -+_[] karakters zijn toegestaan.',
+	'FIELD_INVALID_CHARS_ALPHA_SPACERS'	=> 'Het veld “%s” heeft ongeldige karakters, alleen alfanumerieke, spatie of -+_[] karakters zijn toegestaan.',
+	'FIELD_INVALID_CHARS_ALPHA_UNDERSCORE'	=> 'Het veld “%s” heeft ongeldige karakters, alleen alfanumerieke of _ karakters zijn toegestaan.',
 	'FIELD_INVALID_DATE'				=> 'Het veld “%s” heeft een ongeldige datum.',
+    'FIELD_INVALID_URL'					=> 'Het veld “%s” heeft een ongeldige url.',
 	'FIELD_INVALID_VALUE'				=> 'Het veld “%s” heeft een ongeldige waarde.',
 
 	'FOE_MESSAGE'				=> 'Bericht van vijand',
@@ -225,8 +228,8 @@ $lang = array_merge($lang, array(
 	'FOLDER_RENAMED'			=> 'Map succesvol hernoemd.',
 	'FOLDER_REMOVED'			=> 'Map succesvol verwijderd.',
 	'FOLDER_STATUS_MSG'			=> array(
-		1	=> 'Map is %3$d%% vol (%2$d van %1$d bericht opgeslagen)',
-		2	=> 'Map is %3$d%% vol (%2$d van %1$d berichten opgeslagen)',
+		1	=> '%2$d van de %1$s opgeslagen',
+		2	=> '%2$d van de %1$s opgeslagen',
 	),
 	'FORWARD_PM'				=> 'PB doorsturen',
 	'FORCE_PASSWORD_EXPLAIN'	=> 'Voordat je door kan gaan met het bezoeken van het forum, moet je eerst je wachtwoord veranderen.',
@@ -479,7 +482,6 @@ $lang = array_merge($lang, array(
 	'UCP'						=> 'Gebruikerspaneel',
 	'UCP_ACTIVATE'				=> 'Activeer account',
 	'UCP_ADMIN_ACTIVATE'		=> 'Let op dat je een geldig e-mailadres moet invullen voordat je account is geactiveerd. De beheerder zal je account beoordelen en als het goedgekeurd is, zal je een e-mail ontvangen op het adres dat je hebt gespecificeerd.',
-	'UCP_AIM'					=> 'AOL Instant Messenger',
 	'UCP_ATTACHMENTS'			=> 'Bijlagen',
 	'UCP_AUTH_LINK'				=> 'Externe accounts',
 	'UCP_AUTH_LINK_ASK'			=> 'Je hebt momenteel geen account geassocieerd met deze externe service. Klik op de knop hieronder om je forumaccount te koppelen met een account van deze externe service.',
@@ -492,7 +494,6 @@ $lang = array_merge($lang, array(
 	'UCP_COPPA_BEFORE'			=> 'Voor %s',
 	'UCP_COPPA_ON_AFTER'		=> 'Op of na %s',
 	'UCP_EMAIL_ACTIVATE'		=> 'Let op dat je een geldig e-mailadres in moet vullen voordat je account wordt geactiveerd. Je zal een e-mail ontvangen op het adres dat je hebt opgegeven welke een account activatie koppeling bevat.',
-	'UCP_ICQ'					=> 'ICQ numer',
 	'UCP_JABBER'				=> 'Jabber adres',
 	'UCP_LOGIN_LINK'			=> 'Een externe account associatie opzetten',
 
@@ -503,7 +504,6 @@ $lang = array_merge($lang, array(
 	'UCP_MAIN_FRONT'			=> 'Voorpagina',
 	'UCP_MAIN_SUBSCRIBED'		=> 'Beheer abonnementen',
 
-	'UCP_MSNM'					=> 'Windows Live Messenger',
 	'UCP_NO_ATTACHMENTS'		=> 'Je hebt geen bestanden geplaatst.',
 
 	'UCP_NOTIFICATION_LIST'				=> 'Beheer notificaties',
@@ -539,7 +539,6 @@ $lang = array_merge($lang, array(
 	'UCP_REMIND'					=> 'Verstuur wachtwoord',
 	'UCP_RESEND'					=> 'Verstuur activatie e-mail',
 	'UCP_WELCOME'					=> 'Welkom in het gebruikerspaneel. Hier kan je je profiel, voorkeuren, geabonneerde fora en onderwerpen controleren, bekijken en bijwerken. Je kan ook berichten naar andere gebruikers versturen (indien toegestaan). Zorg er voor dat je iedere aankondiging leest voordat je doorgaat.',
-	'UCP_YIM'						=> 'Yahoo Messenger',
 	'UCP_ZEBRA'						=> 'Vrienden &amp; Vijanden',
 	'UCP_ZEBRA_FOES'				=> 'Beheer vijanden',
 	'UCP_ZEBRA_FRIENDS'				=> 'Beheer vrienden',

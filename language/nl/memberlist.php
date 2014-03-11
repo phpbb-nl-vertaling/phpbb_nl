@@ -71,16 +71,10 @@ $lang = array_merge($lang, array(
 	'HIDE_MEMBER_SEARCH'	=> 'Verberg leden zoeken',
 
 	'IM_ADD_CONTACT'		=> 'Contact toevoegen',
-	'IM_AIM'				=> 'Let op dat je de AOL Instant Messenger geïnstalleerd moet hebben hiervoor.',
-	'IM_AIM_EXPRESS'		=> 'AIM Express',
 	'IM_DOWNLOAD_APP'		=> 'Download applicatie',
-	'IM_ICQ'				=> 'Let op dat gebruikers kunnen hebben ingesteld dat ze geen ongevraagde instant messages willen ontvangen.',
 	'IM_JABBER'				=> 'Let op dat gebruikers kunnen hebben ingesteld dat ze geen ongevraagde instant messages willen ontvangen.',
 	'IM_JABBER_SUBJECT'		=> 'Dit is een geautomatiseerd bericht. Reageer hier niet op! Bericht van gebruiker %1$s op %2$s.',
 	'IM_MESSAGE'			=> 'Je bericht',
-	'IM_MSNM'				=> 'Let op dat je Windows Live Messenger geïnstalleerd moet hebben hiervoor.',
-	'IM_MSNM_BROWSER'		=> 'Je browser ondersteunt dit niet.',
-	'IM_MSNM_CONNECT'		=> 'WLM is niet verbonden.\nJe moet verbonden zijn met WLM om door te gaan.',
 	'IM_NAME'				=> 'Je naam',
 	'IM_NO_DATA'			=> 'Er is geen geschikte contactinformatie voor deze gebruiker.',
 	'IM_NO_JABBER'			=> 'Sorry, direct messaging van Jabber gebruikers wordt niet ondersteunt op dit forum. Je zal een Jabber-cliënt geïnstalleerd moeten hebben op je systeem om contact te kunnen opnemen met de ontvanger hierboven.',
@@ -118,12 +112,10 @@ $lang = array_merge($lang, array(
 
 	'SELECT_MARKED'			=> 'Selecteer gemarkeerden',
 	'SELECT_SORT_METHOD'	=> 'Selecteer sorteer methode',
-	'SEND_AIM_MESSAGE'		=> 'Verstuur AIM-bericht',
 	'SEND_ICQ_MESSAGE'		=> 'Verstuur ICQ-bericht',
 	'SEND_IM'				=> 'Instant messaging',
 	'SEND_JABBER_MESSAGE'	=> 'Verstuur Jabber-bericht',
 	'SEND_MESSAGE'			=> 'Bericht',
-	'SEND_MSNM_MESSAGE'		=> 'Verstuur WLM-bericht',
 	'SEND_YIM_MESSAGE'		=> 'Verstuur YIM-bericht',
 	'SORT_EMAIL'			=> 'E-mail',
 	'SORT_LAST_ACTIVE'		=> 'Laatst actief',
@@ -144,6 +136,4 @@ $lang = array_merge($lang, array(
 
 	'VIEWING_PROFILE'		=> 'Bekijkt profiel - %s',
 	'VISITED'				=> 'Laatste bezoek',
-
-	'WWW'					=> 'Website',
 ));

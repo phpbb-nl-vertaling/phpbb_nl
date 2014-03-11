@@ -118,7 +118,6 @@ $lang = array_merge($lang, array(
 		2	=> '%d berichten',
 	),
 	'VIEW_UNREAD_POST'		=> 'Eerst ongelezen bericht',
-	'VISIT_WEBSITE'			=> 'WWW',
 	'VOTE_SUBMITTED'		=> 'Je stem is verwerkt.',
 	'VOTE_CONVERTED'		=> 'Veranderen van stemmen wordt niet ondersteund voor geconverteerde peilingen.',
 
