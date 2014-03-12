@@ -83,7 +83,7 @@ $lang = array_merge($lang, array(
 	'ACP_EMAIL_SETTINGS'		=> 'E-mailinstellingen',
 	'ACP_EXTENSION_GROUPS'		=> 'Beheer bijlage extensiegroepen',
 	'ACP_EXTENSION_MANAGEMENT'	=> 'Extensiebeheer',
-	'ACP_EXTENSIONS'			=> 'Extensies',
+	'ACP_EXTENSIONS'			=> 'Beheer extensies',
 
 
 	'ACP_FORUM_BASED_PERMISSIONS'	=> 'Forum gebaseerde permissies',

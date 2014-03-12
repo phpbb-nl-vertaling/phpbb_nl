@@ -404,7 +404,7 @@ $lang = array_merge($lang, array(
 	'MODERATORS'			=> 'Moderators',
 	'MODULE_NOT_ACCESS'		=> 'Module niet toegankelijk',
 	'MODULE_NOT_FIND'		=> 'Kan module %s niet vinden',
-	'MODULE_FILE_RIGHT_CLASS'	=> 'Modulebestand %s bevat geen correcte class [%s]',
+	'MODULE_FILE_INCORRECT_CLASS'	=> 'Modulebestand %s bevat geen correcte class [%s]',
 	'MONTH'					=> 'Maand',
 	'MOVE'					=> 'Verplaats',
 
