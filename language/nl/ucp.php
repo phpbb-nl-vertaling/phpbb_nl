@@ -475,7 +475,12 @@ $lang = array_merge($lang, array(
 	'TIMEZONE'					=> 'Tijdzone',
 	'TIMEZONE_DATE_SUGGESTION'	=> 'Suggestie: %s',
 	'TIMEZONE_INVALID'			=> 'De tijdzone die je hebt geselecteerd is ongeldig.',
-	'TO'						=> 'Aan',
+	'TO'						=> 'Ontvanger',
+	'TO_MASS'					=> 'Ontvangers',
+	'TO_ADD'					=> 'Ontvanger toevoegen',
+	'TO_ADD_MASS'				=> 'Ontvangers toevoegen',
+	'TO_ADD_GROUPS'				=> 'Groepen toevoegen',
+
 	'TOO_MANY_RECIPIENTS'		=> 'Je hebt geprobeerd om een privé bericht naar te veel ontvangers te versturen.',
 	'TOO_MANY_REGISTERS'		=> 'Je hebt het maximum aantal registratie pogingen voor deze sessie overschreden. Probeer het later nog een keer.',
 

@@ -600,7 +600,9 @@ $lang = array_merge($lang, array(
 	'RETURN_FORUM'				=> '%sTerug naar laatst bezochte forum%s',
 	'RETURN_PAGE'				=> '%sTerug naar vorige pagina%s',
 	'RETURN_TOPIC'				=> '%sTerug naar laatst bezochte onderwerp%s',
-	'RETURN_TO'					=> 'Terug naar',
+	'RETURN_TO'					=> 'Terug naar “%s”',
+	'RETURN_TO_INDEX'			=> 'Terug naar de indexpagina',
+
 	'FEED'						=> 'Feed',
 	'FEED_NEWS'					=> 'Nieuws',
 	'FEED_TOPICS_ACTIVE'		=> 'Actieve Onderwerpen',

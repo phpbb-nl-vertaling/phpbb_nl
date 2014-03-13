@@ -288,7 +288,6 @@ $lang = array_merge($lang, array(
 	'RESYNC'							=> 'Synchroniseer',
 	'RESYNC_FILES_STATS'				=> 'Synchroniseer bestandenstatistieken',
 	'RESYNC_FILES_STATS_EXPLAIN'		=> 'Herberekend het totaal aantal en grootte van bestanden die zijn bijgevoegd aan berichten en privéberichten.',
-	'RETURN_TO'							=> 'Terug naar…',
 
 	'SELECT_ANONYMOUS'		=> 'Selecteer gastgebruiker',
 	'SELECT_OPTION'			=> 'Selecteer optie',
