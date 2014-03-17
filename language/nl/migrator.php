@@ -39,14 +39,14 @@ $lang = array_merge($lang, array(
 
 	'GROUP_NOT_EXIST'					=> 'De groep "%s" bestaat onverwachts niet.',
 
-	'MIGRATION_DATA_DONE'				=> 'Geïnstalleerde data: %1$s; Tijd: %2$.2f secondes',
+	'MIGRATION_DATA_DONE'				=> 'GeÃ¯nstalleerde data: %1$s; Tijd: %2$.2f secondes',
 	'MIGRATION_DATA_IN_PROGRESS'		=> 'Installeer data: %1$s; Tijd: %2$.2f secondes',
-	'MIGRATION_EFFECTIVELY_INSTALLED'	=> 'Migratie al effectief geïnstalleerd (overgeslagen): %s',
+	'MIGRATION_EFFECTIVELY_INSTALLED'	=> 'Migratie al effectief geÃ¯nstalleerd (overgeslagen): %s',
 	'MIGRATION_EXCEPTION_ERROR'			=> 'Iets ging verkeerd tijdens de aanvraag en een uitzondering is opgeworpen. De veranderingen voordat de fout voorkwam zijn teruggedraaid naar ons beste kunnen, maar je moet het forum controleren op fouten.',
 	'MIGRATION_NOT_FULFILLABLE'			=> 'De migratie "%1$s" is niet uitvoerbaar, mist migratie "%2$s".',
-	'MIGRATION_SCHEMA_DONE'				=> 'Geïnstalleerde schema: %1$s; Tijd: %2$.2f secondes',
+	'MIGRATION_SCHEMA_DONE'				=> 'GeÃ¯nstalleerde schema: %1$s; Tijd: %2$.2f secondes',
 
-	'MODULE_ERROR'						=> 'Een fout is opgetreden tijdens het creëren van een module: %s',
+	'MODULE_ERROR'						=> 'Een fout is opgetreden tijdens het creÃ«ren van een module: %s',
 	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Een benodigde module info bestand mist: %2$s',
 	'MODULE_NOT_EXIST'					=> 'Een benodigde module bestaat niet: %s',
 
