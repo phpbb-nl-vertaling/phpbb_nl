@@ -74,7 +74,7 @@ $lang = array_merge($lang, array(
 	'DISPLAY_ON_VT_EXPLAIN'			=> 'Als deze optie is ingeschakeld, dan zal het veld weergegeven worden in het mini-profiel op de onderwerpenpagina.',
 	'DISPLAY_PROFILE_FIELD'			=> 'Publiekelijk weergeven profielveld',
 	'DISPLAY_PROFILE_FIELD_EXPLAIN'	=> 'Het profielveld zal weergegeven worden op alle locaties, die toegestaan zijn in de laadinstellingen. Het instellen van dit op “nee” zal het veld verbergen van onderwerppagina\'s, profielen en de ledenlijst.',
-	'DROPDOWN_ENTRIES_EXPLAIN'		=> 'Voer je opties nu in, elke optie op een aparte regel.',
+	'DROPDOWN_ENTRIES_EXPLAIN'		=> 'Voer je opties hier in, elke optie op een aparte regel.',
 
 	'EDIT_DROPDOWN_LANG_EXPLAIN'	=> 'Please note that you are able to change your options text and also able to add new options to the end. It is not advised to add new options between existing options - this could result in wrong options assigned to your users. This can also happen if you remove options in-between. Removing options from the end result in users having assigned this item now reverting back to the default one.',
 	'EMPTY_FIELD_IDENT'				=> 'Empty field identification',
