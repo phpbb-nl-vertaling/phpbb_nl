@@ -135,5 +135,4 @@ $lang = array_merge($lang, array(
 	'USERS_PER_PAGE'		=> 'Gebruikers per pagina',
 
 	'VIEWING_PROFILE'		=> 'Bekijkt profiel - %s',
-	'VISITED'				=> 'Laatste bezoek',
 ));
