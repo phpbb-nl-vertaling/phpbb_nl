@@ -73,7 +73,7 @@ $lang = array_merge($lang, array(
 	'PERMANENT'		=> 'Permanent',
 
 	'UNTIL'						=> 'Tot',
-	'USER_BAN'					=> 'Verban één of meerdere gebruikersnamen',
+	'USER_BAN'					=> 'Verban één of meerdere gebruikers doormiddel van de gebruikersnaam',
 	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'Schakel dit in om de ingevoerde gebruikersnamen uit te sluiten van alle bestaande verbanningen.',
 	'USER_BAN_EXPLAIN'			=> 'Je kan meerdere gebruikers in één keer verbannen door iedere naam op een aparte regel te zetten. Gebruik de <span style="text-decoration: underline;">Zoel een gebruiker</span> faciliteit om gebruikers te zoeken en één of meerdere automatisch toe te voegen.',
 	'USER_NO_BANNED'			=> 'Geen verbannen gebruikersnamen',

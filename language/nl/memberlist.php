@@ -90,7 +90,7 @@ $lang = array_merge($lang, array(
 		1	=> '%d gebruiker',
 		2	=> '%d gebruikers',
 	),
-	'LOGIN_EXPLAIN_LEADERS'		=> 'Je moet geregistreerd en aangemeld zijn om de teamlijst te kunnen bekijken.',
+	'LOGIN_EXPLAIN_TEAM'		=> 'Je moet geregistreerd en aangemeld zijn om de teamlijst te kunnen bekijken.',
 	'LOGIN_EXPLAIN_MEMBERLIST'	=> 'Je moet geregistreerd en aangemeld zijn om toegang te hebben tot de ledenlijst.',
 	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'Je moet geregistreerd en aangemeld zijn om gebruikers te kunnen zoeken.',
 	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'Je moet geregistreerd en aangemeld zijn om profielen te kunnen bekijken.',

@@ -422,18 +422,29 @@ $lang = array_merge($lang, array(
 	'NOT_WATCHING_FORUM'		=> 'Je bent niet langer geabonneerd op updates over dit forum.',
 	'NOT_WATCHING_TOPIC'		=> 'Je bent niet langer geabonneerd op dit onderwerp.',
 	'NOTIFICATIONS'				=> 'Notificaties',
-	'NOTIFICATION_BOOKMARK'				=> '%1$s heeft gereageerd op het onderwerp "%2$s" waarvan je een bladwijzer hebt gemaakt.',
-	'NOTIFICATION_BOOKMARK_TRIMMED'		=> '%1$s en %3$d andere hebben gereageerd op het onderwerp “%2$s” waarvan je een bladwijzer hebt gemaakt.',
+	// This applies for NOTIFICATION_BOOKMARK, NOTIFICATION_POST, and NOTIFICATION_QUOTE.
+	// %1$s will return a list of users that's concatenated using "," and "and" - see STRING_LIST
+	// Once the user count reaches 5 users or more, the list is trimmed using NOTIFICATION_X_OTHERS
+	// Examples:
+	// A replied...
+	// A and B replied...
+	// A, B and C replied...
+	// A, B, C and 2 others replied...
+	'NOTIFICATION_BOOKMARK'				=> array(
+		1	=> '%1$s heeft gereageerd op het onderwerp “%2$s” waarvan je een bladwijzer hebt gemaakt.',
+	),		
 	'NOTIFICATION_GROUP_REQUEST'		=> '%1$s vraagt lidmaatschap aan van de groep %2$s.',
 	'NOTIFICATION_GROUP_REQUEST_APPROVED'	=> 'Je aanvraag om lid te worden van groep %1$s is goedgekeurd.',
 	'NOTIFICATION_PM'					=> '%1$s heeft je een privébericht "%2$s" gestuurd.',
-	'NOTIFICATION_POST'					=> '%1$s heeft gereageerd op het onderwerp "%2$s".',
-	'NOTIFICATION_POST_TRIMMED'			=> '%1$s en %3$d andere hebben gereageerd op het onderwerp “%2$s”',
+	'NOTIFICATION_POST'					=> array(
+		1	=> '%1$s heeft gereageerd op het onderwerp “%2$s”.',
+	),	
 	'NOTIFICATION_POST_APPROVED'		=> 'Je bericht is goedgekeurd "%2$s".',
 	'NOTIFICATION_POST_DISAPPROVED'		=> 'Je bericht "%1$s" is afgekeurd om de volgende reden: "%2$s".',
 	'NOTIFICATION_POST_IN_QUEUE'		=> 'Een nieuw bericht genaamd "%2$s" is geplaatst door %1$s en heeft goedkeuring nodig.',
-	'NOTIFICATION_QUOTE'				=> '%1$s heeft je gequoteerd in het bericht "%2$s".',
-	'NOTIFICATION_QUOTE_TRIMMED'		=> '%1$s en %3$d andere hebben je gequoteerd in het onderwerp “%2$s”',
+	'NOTIFICATION_QUOTE'				=> array(
+		1	=> '%1$s heeft je geciteerd in het bericht “%2$s”.',
+	),	
 	'NOTIFICATION_REPORT_PM'			=> '%1$s heeft een privé bericht "%2$s" gemeld om de volgende reden: "%3$s".',
 	'NOTIFICATION_REPORT_POST'			=> '%1$s heeft een bericht "%2$s" gemeld om de volgende reden: "%3$s".',
 	'NOTIFICATION_REPORT_CLOSED'   		=> '%1$s heeft het rapport gesloten dat je gemaakt hebt voor "%2$s".',
@@ -443,6 +454,10 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> 'Een nieuw onderwerp genaamd "%2$s" is geplaatst door %1$s en heeft goedkeuring nodig.',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'Het notificatietype "%s" mist van het bestandssysteem.',
 	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> 'De gebruiker “%1$s” is pas geregistreerd en vereist activatie.',
+	// Used in conjuction with NOTIFICATION_BOOKMARK, NOTIFICATION_POST, and NOTIFICATION_QUOTE.
+	'NOTIFICATION_X_OTHERS'				=> array(
+		2	=> '%d anderen',
+	),	
 	'NOTIFY_ADMIN'				=> 'Breng een forumbeheerder of webbeheerder op de hoogte.',
 	'NOTIFY_ADMIN_EMAIL'		=> 'Breng een forumbeheerder of webbeheerder op de hoogt: <a href="mailto:%1$s">%1$s</a>',
 	'NO_ACCESS_ATTACHMENT'		=> 'Je hebt geen toestemming om dit bestand te openen.',
@@ -667,6 +682,8 @@ $lang = array_merge($lang, array(
 	'START_WATCHING_TOPIC'		=> 'Abonneer onderwerp',
 	'STOP_WATCHING_FORUM'		=> 'Uitschrijven forum',
 	'STOP_WATCHING_TOPIC'		=> 'Uitschrijven onderwerp',
+	'STRING_LIST_MULTI'			=> '%1$s, en %2$s',
+	'STRING_LIST_SIMPLE'		=> '%1$s en %2$s',	
 	'SUBFORUM'					=> 'Subforum',
 	'SUBFORUMS'					=> 'Subforums',
 	'SUBJECT'					=> 'Onderwerp',

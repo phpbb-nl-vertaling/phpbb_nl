@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 	'ACP_BAN'					=> 'Verbannen',
 	'ACP_BAN_EMAILS'			=> 'Verban e-mails',
 	'ACP_BAN_IPS'				=> 'Verban IPs',
-	'ACP_BAN_USERNAMES'			=> 'Verban gebruikersnamen',
+	'ACP_BAN_USERNAMES'			=> 'Verban gebruikers',
 	'ACP_BBCODES'				=> 'BBCodes',
 	'ACP_BOARD_CONFIGURATION'	=> 'Foruminstellingen',
 	'ACP_BOARD_FEATURES'		=> 'Forumfuncties',
@@ -360,7 +360,7 @@ $lang = array_merge($lang, array(
 
 	'GZIP_COMPRESSION'	=> 'GZip-compressie',
 
-	'NO_SEARCH_INDEX'	=> 'De geselecteerde zoek-backend heeft geen zoekindex.<br >Maak de index aan voor “%1$s” in de %2$szoekindex%3$s sectie.',
+	'NO_SEARCH_INDEX'	=> 'De geselecteerde zoek-backend heeft geen zoekindex.<br />Maak de index aan voor “%1$s” in de %2$szoekindex%3$s sectie.',
 	'NOT_AVAILABLE'		=> 'Niet beschikbaar',
 	'NUMBER_FILES'		=> 'Aantal bijlagen',
 	'NUMBER_POSTS'		=> 'Aantal berichten',
