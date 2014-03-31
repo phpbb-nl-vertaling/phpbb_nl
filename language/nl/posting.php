@@ -57,7 +57,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_LISTITEM_HELP'		=> 'Lijst item: [*]tekst',
 	'BBCODE_O_HELP'				=> 'Geordende lijst: bijv. [list=1][*]Eerste punt[/list] of [list=a][*]Punt A[/list]',
 	'BBCODE_P_HELP'				=> 'Afbeelding invoegen: [img]http://www.url_naar_de_afbeelding.eu/afbeeldingnaam.extenstie[/img]',
-	'BBCODE_Q_HELP'				=> 'Quote tekst: [quote]tekst[/quote]',
+	'BBCODE_Q_HELP'				=> 'Geciteerde tekst: [quote]tekst[/quote]',
 	'BBCODE_S_HELP'				=> 'Letterkleur: [color=red]tekst[/color]  Tip: je kan ook color=#FF0000 gebruiken',
 	'BBCODE_U_HELP'				=> 'Onderlijnde tekst: [u]tekst[/u]',
 	'BBCODE_W_HELP'				=> 'URL invoegen: [url]http://url[/url] of [url=http://url]URL tekst[/url]',
@@ -130,7 +130,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_BUMP'		=> 'Je moet aangemeld zijn om onderwerpen in dit forum omhoog te kunnen halen.',
 	'LOGIN_EXPLAIN_DELETE'		=> 'Je moet aangemeld zijn om berichten in dit forum te kunnen verwijderen.',
 	'LOGIN_EXPLAIN_POST'		=> 'Je moet aangemeld zijn om berichten in dit forum te kunnen plaatsen.',
-	'LOGIN_EXPLAIN_QUOTE'		=> 'Je moet aangemeld zijn om berichten in dit forum te kunnen quoten.',
+	'LOGIN_EXPLAIN_QUOTE'		=> 'Je moet aangemeld zijn om berichten in dit forum te kunnen citeren.',
 	'LOGIN_EXPLAIN_REPLY'		=> 'Je moet aangemeld zijn om reacties op onderwerpen in dit forum te kunnen schrijven.',
 
 	'MAX_FONT_SIZE_EXCEEDED'	=> 'Je mag alleen lettertype gebruiken tot grootte %d.',
@@ -210,8 +210,8 @@ $lang = array_merge($lang, array(
 	'PROGRESS_BAR'				=> 'Progressie balk',
 
 	'QUOTE_DEPTH_EXCEEDED'		=> array(
-		1	=> 'Je mag alleen tot %d quote in elkaar voegen.',
-		2	=> 'Je mag alleen tot %d quotes in elkaar voegen.',
+		1	=> 'Je mag alleen tot %d citaat in elkaar voegen.',
+		2	=> 'Je mag alleen tot %d citaten in elkaar voegen.',
 	),
 
 	'SAVE'						=> 'Bewaar',
