@@ -37,13 +37,13 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'APPROVE'								=> 'Goedkeuren',
 	'ATTACHMENT'						=> 'Bijlage',
-	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'De bijlage functie is uitgeschakeld.',
+	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'De bijlagefunctie is uitgeschakeld.',
 
 	'BOOKMARK_ADDED'		=> 'Onderwerp succesvol als bladwijzer gemaakt.',
 	'BOOKMARK_ERR'			=> 'Onderwerp als bladwijzer maken mislukt. Probeer nogmaals.',
-	'BOOKMARK_REMOVED'		=> 'Bladwijzer onderwerp succesvol verwijderd.',
+	'BOOKMARK_REMOVED'		=> 'De bladwijzer van dit onderwerp is succesvol verwijderd.',
 	'BOOKMARK_TOPIC'		=> 'Onderwerp bladwijzeren',
-	'BOOKMARK_TOPIC_REMOVE'	=> 'Verwijder van bladwijzers',
+	'BOOKMARK_TOPIC_REMOVE'	=> 'Verwijder bladwijzer',
 	'BUMPED_BY'				=> 'Laatst omhoog gehaald door %1$s op %2$s.',
 	'BUMP_TOPIC'			=> 'Onderwerp omhoog halen',
 
@@ -52,22 +52,22 @@ $lang = array_merge($lang, array(
 	'DELETE_TOPIC'			=> 'Onderwerp verwijderen',
 	'DELETED_INFORMATION'	=> 'Verwijderd door %1$s op %2$s',
 	'DISAPPROVE'					=> 'Afkeuren',
-	'DOWNLOAD_NOTICE'		=> 'Je hebt niet de benodigde permissies om de bijlagen te bekeken van dit bericht.',
+	'DOWNLOAD_NOTICE'		=> 'Je hebt niet voldoende permissies om de bijlagen te bekijken van dit bericht.',
 
 	'EDITED_TIMES_TOTAL'	=> array(
-		1	=> 'Laatst gewijzigd door %2$s op %3$s, %1$d keer in totaal gewijzigd.',
-		2	=> 'Laatst gewijzigd door %2$s op %3$s, %1$d keer in totaal gewijzigd.',
+		1	=> 'Laatst gewijzigd door %2$s op %3$s, %1$d keer totaal gewijzigd.',
+		2	=> 'Laatst gewijzigd door %2$s op %3$s, %1$d keer totaal gewijzigd.',
 	),
 	'EMAIL_TOPIC'			=> 'E-mail vriend',
 	'ERROR_NO_ATTACHMENT'	=> 'De geselecteerde bijlage bestaat niet meer.',
 
-	'FILE_NOT_FOUND_404'	=> 'Het bestand <strong>%s</strong> bestaat niet meer.',
+	'FILE_NOT_FOUND_404'	=> 'Het bestand <strong>%s</strong> kon niet worden gevonden.',
 	'FORK_TOPIC'			=> 'Onderwerp kopiëren',
 	'FULL_EDITOR'			=> 'Volledige bewerker &amp; Voorbeeld',
 
-	'LINKAGE_FORBIDDEN'		=> 'Je hebt niet de authorisatie om van of naar deze site te koppelen, downloaden of te bekijken.',
+	'LINKAGE_FORBIDDEN'		=> 'Je hebt niet voldoende rechten om van of naar deze site te linken, downloaden of te kunnen bekijken.',
 	'LOGIN_NOTIFY_TOPIC'	=> 'Je bent op de hoogte gebracht van dit onderwerp, meld je aan om het te bekijken.',
-	'LOGIN_VIEWTOPIC'		=> 'De site benodigd je dat je aangemeld en geregistreerd bent om dit onderwerp te kunnen bekijken.',
+	'LOGIN_VIEWTOPIC'		=> 'De site heeft besloten je dat je aangemeld en geregistreerd bent om dit onderwerp te kunnen bekijken.',
 
 	'MAKE_ANNOUNCE'				=> 'Verander naar “Aankondiging”',
 	'MAKE_GLOBAL'				=> 'Verander naar “Algemeen”',
@@ -93,7 +93,7 @@ $lang = array_merge($lang, array(
 	'POST_DELETED_RESTORE'	=> 'Dit bericht is verwijderd. Het kan teruggebracht worden.',
 	'PRINT_TOPIC'			=> 'Afdrukweergave',
 
-	'QUICK_MOD'				=> 'Quick-mod gereedschap',
+	'QUICK_MOD'				=> 'Snelle moderatiehulpmiddelen',
 	'QUICKREPLY'			=> 'Snelle reactie',
 	'QUOTE'					=> 'Citeer',
 

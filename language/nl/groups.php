@@ -89,5 +89,5 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_CHANGE'			=> 'Van “%1$s” groep naar “%2$s”',
 	'USER_GROUP_DEMOTE'			=> 'Degradeer leiderschap',
 	'USER_GROUP_DEMOTE_CONFIRM'	=> 'Weet je zeker dat je wilt degraderen als groepsleider van de geselecteerde groep?',
-	'USER_GROUP_DEMOTED'		=> 'Succesvol je leiderschap gedegradeerd.',
+	'USER_GROUP_DEMOTED'		=> 'Je hebt Succesvol je leiderschap gedegradeerd.',
 ));

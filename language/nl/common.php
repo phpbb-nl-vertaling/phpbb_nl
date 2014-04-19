@@ -665,7 +665,7 @@ $lang = array_merge($lang, array(
 	'SETTINGS'					=> 'Instellingen',
 	'SIGNATURE'					=> 'Onderschrift',
 	'SKIP'						=> 'Sla over naar inhoud',
-	'SMTP_NO_AUTH_SUPPORT'		=> 'SMTP server ondersteunt authenticatie niet.',
+	'SMTP_NO_AUTH_SUPPORT'		=> 'SMTP-server ondersteunt authenticatie niet.',
 	'SORRY_AUTH_READ'			=> 'Je hebt geen toestemming om dit forum te lezen.',
 	'SORRY_AUTH_VIEW_ATTACH'	=> 'Je hebt geen toestemming om deze bijlage te downloaden.',
 	'SORT_BY'					=> 'Sorteer op',
@@ -698,7 +698,7 @@ $lang = array_merge($lang, array(
 	'TIMEOUT_PROCESSING_REQ'			=> 'Aanvraag timed out.',
 
 	'TOO_LARGE'						=> 'De waarde die je hebt ingevuld is te groot.',
-	'TOO_LARGE_MAX_RECIPIENTS'		=> 'De waarde van <strong>Maximum aantal toegestane ontvangers per privé bericht</strong> instelling die je hebt ingevuld is te groot.',
+	'TOO_LARGE_MAX_RECIPIENTS'		=> 'De waarde van <strong>Maximum aantal toegestane ontvangers per privébericht</strong> instelling die je hebt ingevuld is te groot.',
 
 	'TOO_LONG'						=> 'De waarde die je hebt ingevuld is te lang.',
 
@@ -725,7 +725,7 @@ $lang = array_merge($lang, array(
 	'TOO_SHORT_EMAIL'				=> 'Het e-mailadres die je hebt ingevuld is te kort.',
 
 	'TOO_SMALL'						=> 'De waarde die je hebt ingevuld is te klein.',
-	'TOO_SMALL_MAX_RECIPIENTS'		=> 'De waarde van <strong>Maximum aantal toegestane ontvangers van privé berichten</strong> instelling die je hebt ingevuld is te klein.',
+	'TOO_SMALL_MAX_RECIPIENTS'		=> 'De waarde van <strong>Maximum aantal toegestane ontvangers van privéberichten</strong> instelling die je hebt ingevuld is te klein.',
 
 	'TOPIC'				=> 'Onderwerp',
 	'TOPICS'			=> 'Onderwerpen',
@@ -779,7 +779,7 @@ $lang = array_merge($lang, array(
 	'USERGROUPS'			=> 'Groepen',
 	'USERNAME'				=> 'Gebruikersnaam',
 	'USERNAMES'				=> 'Gebruikersnamen',
-	'USER_AVATAR'			=> 'Gebruikers avatar',
+	'USER_AVATAR'			=> 'Gebruikersavatar',
 	'USER_CANNOT_READ'		=> 'Je kan geen berichten lezen in dit forum.',
 	'USER_POSTS'			=> array(
 		1	=> '%d Bericht',

@@ -229,9 +229,9 @@ $lang = array_merge($lang, array(
 	'MOVE_TOPICS'			=> 'Verplaats geselecteerde onderwerpen',
 	'MOVE_TOPICS_CONFIRM'	=> 'Weet je zeker dat je de geselecteerde onderwerpen naar een nieuw forum wilt verplaatsen?',
 
-	'NOTIFY_POSTER_APPROVAL'		=> 'Notificeer auteur over goedkeuring?',
-	'NOTIFY_POSTER_DISAPPROVAL'		=> 'Notificeer auteur over afkeuring?',
-	'NOTIFY_USER_WARN'				=> 'Notificeer gebruiker over waarschuwing?',
+	'NOTIFY_POSTER_APPROVAL'		=> 'Informeer auteur over goedkeuring?',
+	'NOTIFY_POSTER_DISAPPROVAL'		=> 'Informeer auteur over afkeuring?',
+	'NOTIFY_USER_WARN'				=> 'Informeer gebruiker over waarschuwing?',
 	'NOT_MODERATOR'					=> 'Je bent geen moderator van dit forum.',
 	'NO_DESTINATION_FORUM'			=> 'Selecteer een forum voor doel.',
 	'NO_DESTINATION_FORUM_FOUND'	=> 'Er is geen doel forum beschikbaar.',
