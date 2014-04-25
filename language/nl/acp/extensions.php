@@ -39,7 +39,7 @@ $lang = array_merge($lang, array(
 	'EXTENSIONS'				=> 'Extensies',
 	'EXTENSIONS_ADMIN'			=> 'Extensiebeheer',
 	'EXTENSIONS_EXPLAIN'		=> 'Het extensiebeheer is een gereedschap in je phpBB-forum die je in staat stelt om alle extensiestatussen en informatie over hen te beheren.',
-	'EXTENSION_INVALID_LIST'	=> 'De Ò%sÓ extensie is niet geldig.<br />%s<br /><br />',
+	'EXTENSION_INVALID_LIST'	=> 'De â€œ%sâ€ extensie is niet geldig.<br />%s<br /><br />',
 	'EXTENSION_NOT_AVAILABLE'	=> 'De geselecteerde extensie is niet beschikbaar voor dit forum, controleer of je phpBB en PHP-versies toegestaan zijn (zie de detailspagina).',
 	'EXTENSION_DIR_INVALID'		=> 'De geselecteerde extensie heeft een ongeldige mapstructuur en kan niet ingeschakeld worden.',
 
@@ -81,9 +81,9 @@ $lang = array_merge($lang, array(
 			<li>De extensiebestanden verwijderen van het bestandssysteem</li>
 		</ol>',
 
-	'EXTENSION_DELETE_DATA_CONFIRM'	=> 'Weet je zeker dat je de data die geassocieerd wordt met  Ò%sÓ wilt verwijderen?<br /><br />Dit zal alle data en instellingen van de extensie verwijderen en kan niet ongedaan gemaakt worden!',
-	'EXTENSION_DISABLE_CONFIRM'		=> 'Weet je zeker dat je de extensie Ò%sÓ wilt uitschakelen?',
-	'EXTENSION_ENABLE_CONFIRM'		=> 'Weet je zeker dat je de extensie Ò%sÓ wilt inschakelen?',
+	'EXTENSION_DELETE_DATA_CONFIRM'	=> 'Weet je zeker dat je de data die geassocieerd wordt met  â€œ%sâ€ wilt verwijderen?<br /><br />Dit zal alle data en instellingen van de extensie verwijderen en kan niet ongedaan gemaakt worden!',
+	'EXTENSION_DISABLE_CONFIRM'		=> 'Weet je zeker dat je de extensie â€œ%sâ€ wilt uitschakelen?',
+	'EXTENSION_ENABLE_CONFIRM'		=> 'Weet je zeker dat je de extensie â€œ%sâ€ wilt inschakelen?',
 
 	'RETURN_TO_EXTENSION_LIST'	=> 'Terug naar de extensielijst',
 
