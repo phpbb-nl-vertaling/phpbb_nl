@@ -262,7 +262,7 @@ $lang = array_merge($lang, array(
 
 // Reasons
 $lang = array_merge($lang, array(
-	'ACP_REASONS_EXPLAIN'	=> 'HHier kan je de redenen beheren die gebruikt worden in meldingen en afwijsberichten wanneer berichten worden afgewezen. Er is één standaard reden (gemarkeerd met een *), die je niet kan verwijderen, deze reden wordt normaal gebruikt voor eigen berichten als geen andere reden past.',
+	'ACP_REASONS_EXPLAIN'	=> 'Hier kan je de redenen beheren die gebruikt worden in meldingen en afwijsberichten wanneer berichten worden afgewezen. Er is één standaard reden (gemarkeerd met een *), die je niet kan verwijderen, deze reden wordt normaal gebruikt voor eigen berichten als geen andere reden past.',
 	'ADD_NEW_REASON'		=> 'Nieuwe reden toevoegen',
 	'AVAILABLE_TITLES'		=> 'Beschikbare vertaalde redentitels',
 
