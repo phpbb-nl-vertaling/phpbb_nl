@@ -589,10 +589,10 @@ $lang = array_merge($lang, array(
 	'CONFIG_SITE_DESC'				=> 'Een korte beschrijving van je forum',
 	'CONFIG_SITENAME'				=> 'jedomein.nl',
 
-	'DEFAULT_INSTALL_POST'			=> 'Dit is een voorbeeldbericht van je phpBB3 installatie. Je mag dit bericht, dit onderwerp, en ook nog dit forum verwijderen als je wilt, aangezien alles correct blijkt te werken. Tijdens het installatie proces is je eerste categorie en je eerste forum toegewezen aan en ingesteld voor de voorgeïnstalleerde groepen ; beheerders, zoekrobots, forummoderators, gasten, geregistreerde gebruikers en de geregistreerde COPPA gebruikers. Als je wenst om je eerste categorie en je eerste forum te verwijderen, vergeet dan niet de permissies voor al de gebruikersgroepen te laten toewijzen, vooral je nieuwe categorieën en forums die je aanmaakt. Het is aanbevolen om je eerste categorie te hernoemen en je eerste forum, en de permissies te kopiëren van deze forums wanneer je nieuwe categorieën en forums aan het maken bent. Veel plezier!',
+	'DEFAULT_INSTALL_POST'			=> 'Dit is een voorbeeldbericht van je phpBB3 installatie. Je mag dit bericht, dit onderwerp, en ook nog dit forum verwijderen als je wilt, aangezien alles correct blijkt te werken. Tijdens het installatie proces is je eerste categorie en je eerste forum toegewezen aan en ingesteld voor de voorgeïnstalleerde groepen ; beheerders, zoekrobots, forummoderators, gasten, geregistreerde gebruikers en de geregistreerde COPPA-gebruikers. Als je wenst om je eerste categorie en je eerste forum te verwijderen, vergeet dan niet de permissies voor al de gebruikersgroepen te laten toewijzen, vooral je nieuwe categorieën en forums die je aanmaakt. Het is aanbevolen om je eerste categorie te hernoemen en je eerste forum, en de permissies te kopiëren van deze forums wanneer je nieuwe categorieën en forums aan het maken bent. Veel plezier!',
 
 	'FORUMS_FIRST_CATEGORY'			=> 'Je eerste categorie',
-	'FORUMS_TEST_FORUM_DESC'		=> 'Bechrijving van je eerste forum.',
+	'FORUMS_TEST_FORUM_DESC'		=> 'Beschrijving van je eerste forum.',
 	'FORUMS_TEST_FORUM_TITLE'		=> 'Je eerste forum',
 
 	'RANKS_SITE_ADMIN_TITLE'		=> 'Site Beheer',
