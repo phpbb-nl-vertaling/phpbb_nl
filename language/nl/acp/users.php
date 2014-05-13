@@ -57,12 +57,12 @@ $lang = array_merge($lang, array(
 	'CANNOT_SET_FOUNDER_INACTIVE'	=> 'You need to activate users before you promote them to founders, only activated users are able to be promoted.',
 	'CONFIRM_EMAIL_EXPLAIN'			=> 'You only need to specify this if you are changing the users email address.',
 
-	'DELETE_POSTS'			=> 'Delete posts',
-	'DELETE_USER'			=> 'Delete user',
+	'DELETE_POSTS'			=> 'Verwijder berichten',
+	'DELETE_USER'			=> 'Verwijder gebruiker',
 	'DELETE_USER_EXPLAIN'	=> 'Please note that deleting a user is final, they cannot be recovered. Unread private messages sent by this user will be deleted and will not be available to their recipients.',
 
 	'FORCE_REACTIVATION_SUCCESS'	=> 'Successfully forced reactivation.',
-	'FOUNDER'						=> 'Founder',
+	'FOUNDER'						=> 'Oprichter',
 	'FOUNDER_EXPLAIN'				=> 'Founders have all administrative permissions and can never be banned, deleted or altered by non-founder members.',
 
 	'GROUP_APPROVE'					=> 'Approve member',
@@ -73,15 +73,15 @@ $lang = array_merge($lang, array(
 
 	'IP_WHOIS_FOR'			=> 'IP whois for %s',
 
-	'LAST_ACTIVE'			=> 'Last active',
+	'LAST_ACTIVE'			=> 'Laatst actief',
 
 	'MOVE_POSTS_EXPLAIN'	=> 'Please select the forum to which you wish to move all the posts this user has made.',
 
 	'NO_SPECIAL_RANK'		=> 'No special rank assigned',
-	'NO_WARNINGS'			=> 'No warnings.',
+	'NO_WARNINGS'			=> 'Geen waarschuwingen.',
 	'NOT_MANAGE_FOUNDER'	=> 'You tried to manage a user with founder status. Only founders are allowed to manage other founders.',
 
-	'QUICK_TOOLS'			=> 'Quick tools',
+	'QUICK_TOOLS'			=> 'Snelle hulpmiddelen',
 
 	'REGISTERED'			=> 'Registered',
 	'REGISTERED_IP'			=> 'Registered from IP',
@@ -102,11 +102,11 @@ $lang = array_merge($lang, array(
 	'USER_ADMIN_BAN_USER'			=> 'Ban by username',
 	'USER_ADMIN_DEACTIVATE'			=> 'Deactivate account',
 	'USER_ADMIN_DEACTIVED'			=> 'User deactivated successfully.',
-	'USER_ADMIN_DEL_ATTACH'			=> 'Delete all attachments',
-	'USER_ADMIN_DEL_AVATAR'			=> 'Delete avatar',
+	'USER_ADMIN_DEL_ATTACH'			=> 'Verwijder alle bijlagen',
+	'USER_ADMIN_DEL_AVATAR'			=> 'Verwijder avatar',
 	'USER_ADMIN_DEL_OUTBOX'			=> 'Empty PM outbox',
-	'USER_ADMIN_DEL_POSTS'			=> 'Delete all posts',
-	'USER_ADMIN_DEL_SIG'			=> 'Delete signature',
+	'USER_ADMIN_DEL_POSTS'			=> 'Verwijder alle berichten',
+	'USER_ADMIN_DEL_SIG'			=> 'Verwijder onderschrift',
 	'USER_ADMIN_EXPLAIN'			=> 'Here you can change your users information and certain specific options.',
 	'USER_ADMIN_FORCE'				=> 'Force reactivation',
 	'USER_ADMIN_LEAVE_NR'			=> 'Remove from Newly Registered',
@@ -131,11 +131,11 @@ $lang = array_merge($lang, array(
 	'USER_POSTS_DELETED'			=> 'Successfully removed all posts made by this user.',
 	'USER_POSTS_MOVED'				=> 'Successfully moved users posts to target forum.',
 	'USER_PREFS_UPDATED'			=> 'User preferences updated.',
-	'USER_PROFILE'					=> 'User profile',
-	'USER_PROFILE_UPDATED'			=> 'User profile updated.',
-	'USER_RANK'						=> 'User rank',
-	'USER_RANK_UPDATED'				=> 'User rank updated.',
+	'USER_PROFILE'					=> 'Gebruikersprofiel',
+	'USER_PROFILE_UPDATED'			=> 'Gebruikersprofiel bijgewerkt.',
+	'USER_RANK'						=> 'Gebruikersrang',
+	'USER_RANK_UPDATED'				=> 'Gebruikersrang bijgewerkt.',
 	'USER_SIG_UPDATED'				=> 'User signature successfully updated.',
 	'USER_WARNING_LOG_DELETED'		=> 'No information available. Possibly the log entry has been deleted.',
-	'USER_TOOLS'					=> 'Basic tools',
+	'USER_TOOLS'					=> 'Basis hulpmiddelen',
 ));

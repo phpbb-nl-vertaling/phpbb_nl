@@ -134,9 +134,9 @@ $lang = array_merge($lang, array(
 	'IMG_SUBFORUM_READ'			=> 'Legend subforum',
 	'IMG_SUBFORUM_UNREAD'		=> 'Legend subforum unread posts',
 
-	'IMG_TOPIC_MOVED'			=> 'Topic moved',
+	'IMG_TOPIC_MOVED'			=> 'Onderwerp verplaatst',
 
-	'IMG_TOPIC_READ'				=> 'Topic',
+	'IMG_TOPIC_READ'				=> 'Onderwerp',
 	'IMG_TOPIC_READ_MINE'			=> 'Topic posted to',
 	'IMG_TOPIC_READ_HOT'			=> 'Topic popular',
 	'IMG_TOPIC_READ_HOT_MINE'		=> 'Topic popular posted to',
@@ -150,9 +150,9 @@ $lang = array_merge($lang, array(
 	'IMG_TOPIC_UNREAD_LOCKED'		=> 'Topic locked unread',
 	'IMG_TOPIC_UNREAD_LOCKED_MINE'	=> 'Topic locked posted to unread',
 
-	'IMG_STICKY_READ'				=> 'Sticky topic',
+	'IMG_STICKY_READ'				=> 'Sticky onderwerp',
 	'IMG_STICKY_READ_MINE'			=> 'Sticky topic posted to',
-	'IMG_STICKY_READ_LOCKED'		=> 'Sticky topic locked',
+	'IMG_STICKY_READ_LOCKED'		=> 'Sticky onderwerp gesloten',
 	'IMG_STICKY_READ_LOCKED_MINE'	=> 'Sticky topic locked posted to',
 	'IMG_STICKY_UNREAD'				=> 'Sticky topic unread posts',
 	'IMG_STICKY_UNREAD_MINE'		=> 'Sticky topic posted to unread',
@@ -182,36 +182,36 @@ $lang = array_merge($lang, array(
 
 	'IMG_ICON_BACK_TOP'		=> 'Top',
 
-	'IMG_ICON_CONTACT_EMAIL'	=> 'Send email',
+	'IMG_ICON_CONTACT_EMAIL'	=> 'Verstuur e-mail',
 	'IMG_ICON_CONTACT_JABBER'	=> 'Jabber',
-	'IMG_ICON_CONTACT_PM'		=> 'Send message',
+	'IMG_ICON_CONTACT_PM'		=> 'Verstuur bericht',
 
-	'IMG_ICON_POST_DELETE'			=> 'Delete post',
-	'IMG_ICON_POST_EDIT'			=> 'Edit post',
+	'IMG_ICON_POST_DELETE'			=> 'Verwijder bericht',
+	'IMG_ICON_POST_EDIT'			=> 'Wijzig bericht',
 	'IMG_ICON_POST_INFO'			=> 'Show post details',
-	'IMG_ICON_POST_QUOTE'			=> 'Quote post',
-	'IMG_ICON_POST_REPORT'			=> 'Report post',
+	'IMG_ICON_POST_QUOTE'			=> 'Citeer bericht',
+	'IMG_ICON_POST_REPORT'			=> 'Meld bericht',
 	'IMG_ICON_POST_TARGET'			=> 'Minipost',
 	'IMG_ICON_POST_TARGET_UNREAD'	=> 'New minipost',
 
 
-	'IMG_ICON_TOPIC_ATTACH'			=> 'Attachment',
-	'IMG_ICON_TOPIC_LATEST'			=> 'Last post',
-	'IMG_ICON_TOPIC_NEWEST'			=> 'Last unread post',
-	'IMG_ICON_TOPIC_REPORTED'		=> 'Post reported',
+	'IMG_ICON_TOPIC_ATTACH'			=> 'Bijlagen',
+	'IMG_ICON_TOPIC_LATEST'			=> 'Laatste bericht',
+	'IMG_ICON_TOPIC_NEWEST'			=> 'Laatste ongelezen bericht',
+	'IMG_ICON_TOPIC_REPORTED'		=> 'Bericht gemeld',
 	'IMG_ICON_TOPIC_UNAPPROVED'		=> 'Post unapproved',
 
-	'IMG_ICON_USER_ONLINE'		=> 'User online',
-	'IMG_ICON_USER_OFFLINE'		=> 'User offline',
+	'IMG_ICON_USER_ONLINE'		=> 'Gebruiker online',
+	'IMG_ICON_USER_OFFLINE'		=> 'Gebruiker offline',
 	'IMG_ICON_USER_PROFILE'		=> 'Show profile',
 	'IMG_ICON_USER_SEARCH'		=> 'Search posts',
-	'IMG_ICON_USER_WARN'		=> 'Warn user',
+	'IMG_ICON_USER_WARN'		=> 'Waarschuw gebruiker',
 
 	'IMG_BUTTON_PM_FORWARD'		=> 'Forward private message',
 	'IMG_BUTTON_PM_NEW'			=> 'New private message',
 	'IMG_BUTTON_PM_REPLY'		=> 'Reply private message',
 	'IMG_BUTTON_TOPIC_LOCKED'	=> 'Topic locked',
-	'IMG_BUTTON_TOPIC_NEW'		=> 'New topic',
+	'IMG_BUTTON_TOPIC_NEW'		=> 'Nieuw onderwerp',
 	'IMG_BUTTON_TOPIC_REPLY'	=> 'Reply topic',
 
 	'IMG_USER_ICON1'		=> 'User defined image 1',
@@ -240,7 +240,7 @@ $lang = array_merge($lang, array(
 	'LOCALISED_IMAGES'			=> 'Localised',
 
 	'NO_CLASS'					=> 'Cannot find class in stylesheet.',
-	'NO_IMAGE'					=> 'No image',
+	'NO_IMAGE'					=> 'Geen afbeelding',
 	'NO_IMAGE_ERROR'			=> 'Cannot find image on filesystem.',
 	'NO_MATCHING_STYLES_FOUND'	=> 'No styles match your query.',
 	'NO_STYLE'					=> 'Cannot find style on filesystem.',
@@ -255,7 +255,7 @@ $lang = array_merge($lang, array(
 	'PURGED_CACHE'				=> 'Cache was purged.',
 
 	'REFRESH'					=> 'Refresh',
-	'REPEAT_NO'					=> 'None',
+	'REPEAT_NO'					=> 'Geen',
 	'REPEAT_X'					=> 'Only horizontally',
 	'REPEAT_Y'					=> 'Only vertically',
 	'REPEAT_ALL'				=> 'Both directions',
@@ -268,7 +268,7 @@ $lang = array_merge($lang, array(
 	'REPLACE_WITH_OPTION'		=> 'Replace with “%s”',
 	'REQUIRES_STYLE'			=> 'This style requires the style "%s" to be installed.',
 
-	'SELECT_IMAGE'				=> 'Select image',
+	'SELECT_IMAGE'				=> 'Selecteer afbeelding',
 	'SELECT_TEMPLATE'			=> 'Select template file',
 	'SELECT_THEME'				=> 'Select theme file',
 	'SELECTED_IMAGE'			=> 'Selected image',
@@ -337,7 +337,7 @@ $lang = array_merge($lang, array(
 	'TEMPLATE_NAME'				=> 'Template name',
 	'TEMPLATE_FILE_NOT_WRITABLE'=> 'Unable to write to template file %s. Please check the permissions for the directory and the files.',
 
-	'THEME_ADDED'				=> 'New theme added.',
+	'THEME_ADDED'				=> 'Nieuw thema is toegevoegd.',
 	'THEME_CLASS_ADDED'			=> 'Custom class added successfully.',
 	'THEME_DELETED'				=> 'Theme deleted successfully.',
 	'THEME_DELETED_FS'			=> 'Theme removed from database but files remain on the filesystem.',
