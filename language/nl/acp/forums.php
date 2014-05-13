@@ -138,7 +138,7 @@ $lang = array_merge($lang, array(
 	'NO_PERMISSION_FORUM_DELETE'	=> 'Je hebt niet de benodigde permissies om forum te verwijderen.',
 
 	'PARENT_IS_LINK_FORUM'		=> 'De hoofd die je hebt gespecificeerd is een forumlink. Link forums kunnen geen andere forums bevatten, selecteer een categorie of een forum als hoofdforum.',
-	'PARENT_NOT_EXIST'			=> 'Hoofd bestaat niet.',
+	'PARENT_NOT_EXIST'			=> 'Hoofdforum bestaat niet.',
 	'PRUNE_ANNOUNCEMENTS'		=> 'Aankondigingen opschonen',
 	'PRUNE_STICKY'				=> 'Stickies opschonen',
 	'PRUNE_OLD_POLLS'			=> 'Oude peilingen opschonen',
@@ -147,7 +147,7 @@ $lang = array_merge($lang, array(
 	'REDIRECT_ACL'	=> 'Nu kan je de %spermissies instellen%s voor dit forum.',
 
 	'SYNC_IN_PROGRESS'			=> 'Forum synchroniseren',
-	'SYNC_IN_PROGRESS_EXPLAIN'	=> 'Momenteel onderwerpbereik %1$d/%2$d aan het synchroniseren.',
+	'SYNC_IN_PROGRESS_EXPLAIN'	=> 'Momenteel onderwerp %1$d van %2$d aan het synchroniseren.',
 
 	'TYPE_CAT'			=> 'Categorie',
 	'TYPE_FORUM'		=> 'Forum',

@@ -35,21 +35,21 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ADMIN_CONFIG'				=> 'Administrator configuration',
-	'ADMIN_PASSWORD'			=> 'Administrator password',
-	'ADMIN_PASSWORD_CONFIRM'	=> 'Confirm administrator password',
-	'ADMIN_PASSWORD_EXPLAIN'	=> 'Please enter a password between 6 and 30 characters in length.',
-	'ADMIN_TEST'				=> 'Check administrator settings',
-	'ADMIN_USERNAME'			=> 'Administrator username',
-	'ADMIN_USERNAME_EXPLAIN'	=> 'Please enter a username between 3 and 20 characters in length.',
-	'APP_MAGICK'				=> 'Imagemagick support [ Attachments ]',
-	'AUTHOR_NOTES'				=> 'Author notes<br />» %s',
-	'AVAILABLE'					=> 'Available',
-	'AVAILABLE_CONVERTORS'		=> 'Available convertors',
+	'ADMIN_CONFIG'				=> 'Beheerdersconfiguratie',
+	'ADMIN_PASSWORD'			=> 'Beheerderswachtwoord',
+	'ADMIN_PASSWORD_CONFIRM'	=> 'Bevestig beheerderswachtwoord',
+	'ADMIN_PASSWORD_EXPLAIN'	=> 'Voer een gebruikersnaam in die tussen de 6 en 30 tekens lang is.',
+	'ADMIN_TEST'				=> 'Controleer beheerdersinstellingen',
+	'ADMIN_USERNAME'			=> 'Beheerdersgebruikersnaam',
+	'ADMIN_USERNAME_EXPLAIN'	=> 'Voer een gebruikersnaam in die tussen de 3 en 20 tekens lang is.',
+	'APP_MAGICK'				=> 'Imagemagick ondersteuning [ bijlagen ]',
+	'AUTHOR_NOTES'				=> 'Auteur notities<br />» %s',
+	'AVAILABLE'					=> 'Beschikbaar',
+	'AVAILABLE_CONVERTORS'		=> 'Beschikbare convertors',
 
-	'BEGIN_CONVERT'					=> 'Begin conversion',
+	'BEGIN_CONVERT'					=> 'Begin conversie',
 	'BLANK_PREFIX_FOUND'			=> 'A scan of your tables has shown a valid installation using no table prefix.',
-	'BOARD_NOT_INSTALLED'			=> 'No installation found',
+	'BOARD_NOT_INSTALLED'			=> 'Geen installatie gevonden',
 	'BOARD_NOT_INSTALLED_EXPLAIN'	=> 'The phpBB Unified Convertor Framework requires a default installation of phpBB3 to function, please <a href="%s">proceed by first installing phpBB3</a>.',
 	'BACKUP_NOTICE'					=> 'Please backup your board before updating in case any problems arise during the update process.',
 
@@ -554,7 +554,7 @@ $lang = array_merge($lang, array(
 		</p>
 	',
 
-	'UPDATE_METHOD'					=> 'Update method',
+	'UPDATE_METHOD'					=> 'Update methode',
 	'UPDATE_METHOD_EXPLAIN'			=> 'You are now able to choose your preferred update method. Using the FTP upload will present you with a form you need to enter your FTP account details into. With this method the files will be automatically moved to the new location and backups of the old files being created by appending .bak to the filename. If you choose to download the modified files you are able to unpack and upload them to their correct location manually later.',
 	'UPDATE_REQUIRES_FILE'			=> 'The updater requires that the following file is present: %s',
 	'UPDATE_SUCCESS'				=> 'Update was successful',

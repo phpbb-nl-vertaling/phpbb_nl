@@ -328,11 +328,11 @@ $help = array(
 	),
 	array(
 		0 => 'Wie heeft dit forum geschreven?',
-		1 => 'Deze software (in zijn originele vorm) is geschreven, vrijgegeven en met een copyright beschermd door de <a href="https://www.phpbb.com">phpBB groep</a>. De applicatie is beschikbaar onder de GNU General Public License en mag vrij verspreid worden, raadpleeg de link voor verdere informatie.'
+		1 => 'Deze software (in zijn originele vorm) is geschreven, vrijgegeven en met een copyright beschermd door de <a href="https://www.phpbb.com">phpBB groep</a>. De software is beschikbaar onder de GNU General Public License en mag vrij verspreid worden, raadpleeg de link voor verdere informatie.'
 	),
 	array(
 		0 => 'Waarom is de optie X niet beschikbaar?',
-		1 => 'Deze software is geschreven en eigendom van de phpBB Groep. Als je denkt dat een bepaalde optie toegevoegd moet worden, bezoek dan de <a href="https://www.phpbb.com/ideas/">phpBB Ideeën sectie</a>.'
+		1 => 'Deze software is geschreven en eigendom van de phpBB-Groep. Als je denkt dat een bepaalde optie toegevoegd moet worden, bezoek dan de <a href="https://www.phpbb.com/ideas/">phpBB Ideeën sectie</a>.'
 	),
 	array(
 		0 => 'Met wie moet ik contact opnemen omtrent misbruik en/of wettelijke kwesties in verband met dit forum?',

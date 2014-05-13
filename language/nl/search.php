@@ -61,8 +61,8 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_NEWPOSTS'	=> 'Het forum vereist dat je geregistreerd en aangemeld bent om nieuwe berichten sinds je laatste bezoek te bekijken.',
 
 	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> array(
-		1	=> 'Je hebt te veel woorden gespecificeerd voor de zoekopdracht. Vul niet meer dan %1$d woord in.',
-		2	=> 'Je hebt te veel woorden gespecificeerd voor de zoekopdracht. Vul niet meer dan %1$d woorden in.',
+		1	=> 'Je hebt te veel woorden opgegeven voor de zoekopdracht. Vul niet meer dan %1$d woord in.',
+		2	=> 'Je hebt te veel woorden opgegeven voor de zoekopdracht. Vul niet meer dan %1$d woorden in.',
 	),
 
 	'NO_KEYWORDS'			=> 'Je moet tenminste één woord specificeren om op te zoeken. Elk woord moet tenminste %s bevatten en mag niet meer dan %s bevatten exclusief jokers.',
@@ -109,10 +109,10 @@ $lang = array_merge($lang, array(
 	'SORT_POST_SUBJECT'			=> 'Berichtonderwerp',
 	'SORT_TIME'					=> 'Plaatsingstijd',
 	'SPHINX_SEARCH_FAILED'		=> 'Zoeken gefaald: %s',
-	'SPHINX_SEARCH_FAILED_LOG'	=> 'Sorry, de zoekopdracht kon niet worden uitgevoerd. Meer informatie over deze fout is gelogd in de foutenlog.',
+	'SPHINX_SEARCH_FAILED_LOG'	=> 'Sorry, de zoekopdracht kon niet worden uitgevoerd. Meer informatie over deze fout is opgeslagen in de foutenlog.',
 
 	'TOO_FEW_AUTHOR_CHARS'	=> array(
-		1	=> 'Je moet tenminste %d karakter van de auteursnaam specificeren.',
-		2	=> 'Je moet tenminste %d karakters van de auteursnaam specificeren.',
+		1	=> 'Je moet tenminste %d teken van de auteursnaam opgeven.',
+		2	=> 'Je moet tenminste %d tekens van de auteursnaam opgeven.',
 	),
 ));
