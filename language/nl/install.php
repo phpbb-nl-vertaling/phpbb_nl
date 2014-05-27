@@ -159,16 +159,16 @@ $lang = array_merge($lang, array(
 	'DL_DOWNLOAD'				=> 'Downloaden',
 	'DONE'						=> 'Klaar',
 
-	'ENABLE_KEYS'				=> 'Re-enabling keys. This can take a while.',
+	'ENABLE_KEYS'				=> 'Sleutels hertoelaten. Dit kan even duren',
 
-	'FILES_OPTIONAL'			=> 'Optional files and directories',
-	'FILES_OPTIONAL_EXPLAIN'	=> '<strong>Optional</strong> - These files, directories or permission settings are not required. The installation system will attempt to use various techniques to create them if they do not exist or cannot be written to. However, the presence of these will speed installation.',
-	'FILES_REQUIRED'			=> 'Files and Directories',
-	'FILES_REQUIRED_EXPLAIN'	=> '<strong>Required</strong> - In order to function correctly phpBB needs to be able to access or write to certain files or directories. If you see “Not Found” you need to create the relevant file or directory. If you see “Unwritable” you need to change the permissions on the file or directory to allow phpBB to write to it.',
-	'FILLING_TABLE'				=> 'Filling table <strong>%s</strong>',
-	'FILLING_TABLES'			=> 'Filling tables',
+	'FILES_OPTIONAL'			=> 'Optionele bestanden en mappen',
+	'FILES_OPTIONAL_EXPLAIN'	=> '<strong>Optioneel</strong> - Deze bestanden, mappen of permissieinstellingen zijn niet verplicht. Het installatiesysteem zal proberen om diverse technieken te gebruiken om ze aan te maken als ze nog niet bestaan of als ze niet beschrijfbaar zijn. Alhoewel, de aanwezigheid ervan zal de installatie wel versnellen.',
+	'FILES_REQUIRED'			=> 'Bestanden en mappen',
+	'FILES_REQUIRED_EXPLAIN'	=> '<strong>Verplicht</strong> - Om alles correct te laten functioneren, heeft phpBB toegang nodig om verschillende bestanden of mappen te beschrijven. Als je ziet staan “Niet gevonden”, zal je het betreffende bestand of map aan moeten maken. Als je ziet staan “Niet schrijfbaar”, wijzig dan de permissies van het bestand of van de map om te zorgen dat phpBB toegang heeft er na toe te schrijven.',
+	'FILLING_TABLE'				=> 'Vullen van tabel <strong>%s</strong>',
+	'FILLING_TABLES'			=> 'Vullen van tabellen',
 
-	'FIREBIRD_DBMS_UPDATE_REQUIRED'		=> 'phpBB no longer supports Firebird/Interbase prior to Version 2.1. Please update your Firebird installation to at least 2.1.0 before proceeding with the update.',
+	'FIREBIRD_DBMS_UPDATE_REQUIRED'		=> 'phpBB ondersteunt niet langer Firebird/Interbase versie lager dan 2.1. Update je Firebird-installatie zodat die tenminste 2.1.0 is voordat u verder gaat met de update.',
 
 	'FINAL_STEP'				=> 'Process final step',
 	'FORUM_ADDRESS'				=> 'Board address',
