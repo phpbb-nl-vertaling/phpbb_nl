@@ -170,95 +170,91 @@ $lang = array_merge($lang, array(
 
 	'FIREBIRD_DBMS_UPDATE_REQUIRED'		=> 'phpBB ondersteunt niet langer Firebird/Interbase versie lager dan 2.1. Update je Firebird-installatie zodat die tenminste 2.1.0 is voordat u verder gaat met de update.',
 
-	'FINAL_STEP'				=> 'Process final step',
-	'FORUM_ADDRESS'				=> 'Board address',
-	'FORUM_ADDRESS_EXPLAIN'		=> 'This is the URL of your former board, for example <samp>http://www.example.com/phpBB2/</samp>. If an address is entered here and not left empty every instance of this address will be replaced by your new board address within messages, private messages and signatures.',
-	'FORUM_PATH'				=> 'Board path',
-	'FORUM_PATH_EXPLAIN'		=> 'This is the <strong>relative</strong> path on disk to your former board from the <strong>root of this phpBB3 installation</strong>.',
+	'FINAL_STEP'				=> 'Doorgaan met de laatste stap',
+	'FORUM_ADDRESS'				=> 'Forumadres',
+	'FORUM_ADDRESS_EXPLAIN'		=> 'Dit is de oude URL van je oude forum, bijvoorbeeld <samp>http://www.voorbeeld.nl/phpBB2/</samp>. Als een adres hier is ingevoerd en het is niet leeg gelaten, dan zal elk adres worden vervangen door je nieuwe forumadres in berichten, privéberichten en onderschriften.',
+	'FORUM_PATH'				=> 'Forumpad',
+	'FORUM_PATH_EXPLAIN'		=> 'Dit is het <strong>relatieve</strong> pad op de server naar je oude forum vanaf de <strong>root van je phpBB3-installatie</strong>.',
 	'FOUND'						=> 'Gevonden',
-	'FTP_CONFIG'				=> 'Transfer config by FTP',
-	'FTP_CONFIG_EXPLAIN'		=> 'phpBB has detected the presence of the FTP module on this server. You may attempt to install your config.php via this if you wish. You will need to supply the information listed below. Remember your username and password are those to your server! (ask your hosting provider for details if you are unsure what these are).',
-	'FTP_PATH'					=> 'FTP path',
-	'FTP_PATH_EXPLAIN'			=> 'This is the path from your root directory to that of phpBB, e.g. <samp>htdocs/phpBB3/</samp>.',
+	'FTP_CONFIG'				=> 'Config overbrengen via de FTP',
+	'FTP_CONFIG_EXPLAIN'		=> 'phpBB heeft de aanwezigheid van de FTP-module herkend op deze server. Je mag proberen om je config.php te installeren via deze module als je wilt. Je zal de informatie die hieronder staat nodig hebben. Onthoud je gebruikersnaam en wachtwoord deze zijn van je server! (vraag je hostingprovider voor meer informatie als je onzeker bent wat deze zijn).',
+	'FTP_PATH'					=> 'FTP-pad',
+	'FTP_PATH_EXPLAIN'			=> 'Dit is het pad van de hoofdmap waar phpBB in staat, bijvoorbeeld <samp>htdocs/phpBB3/</samp>.',
 	'FTP_UPLOAD'				=> 'Upload',
 
 	'GPL'						=> 'General Public License',
 
-	'INITIAL_CONFIG'			=> 'Basis configuratie',
-	'INITIAL_CONFIG_EXPLAIN'	=> 'Now that install has determined your server can run phpBB you need to supply some specific information. If you do not know how to connect to your database please contact your hosting provider (in the first instance) or use the phpBB support forums. When entering data please ensure you check it thoroughly before continuing.',
-	'INSTALL_CONGRATS'			=> 'Congratulations!',
+	'INITIAL_CONFIG'			=> 'Basisconfiguratie',
+	'INITIAL_CONFIG_EXPLAIN'	=> 'Nu dat je installatie heeft bepaald dat je server phpBB3 kan draaien zal je wat specifieke informatie moeten opgeven. Als u niet weet hoe u moet verbinden met uw database, neem dan contact op met uw hostingprovider (in de eerste instantie) of gebruik de phpBB-supportforums. Wanneer je gegevens invoert, wees er dan zeker van dat je het controleert of het klopt voordat je verder gaat.',
+	'INSTALL_CONGRATS'			=> 'Gefeliciteerd!',
 	'INSTALL_CONGRATS_EXPLAIN'	=> '
-		You have successfully installed phpBB %1$s. Please proceed by choosing one of the following options:</p>
-		<h2>Convert an existing board to phpBB3</h2>
-		<p>The phpBB Unified Convertor Framework supports the conversion of phpBB 2.0.x and other board systems to phpBB3. If you have an existing board that you wish to convert, please <a href="%2$s">proceed to the convertor</a>.</p>
-		<h2>Go live with your phpBB3!</h2>
-		<p>Clicking the button below will take you to a form for submitting statistical data to phpBB in your Administration Control Panel (ACP). We would appreciate it if you could help us by sending that information. Afterwards you should take some time to examine the options available to you. Remember that help is available online via the <a href="https://www.phpbb.com/support/documentation/3.0/">Documentation</a>, <a href="%3$s">README</a> and the <a href="https://www.phpbb.com/community/viewforum.php?f=46">Support Forums</a>.</p><p><strong>Please delete, move or rename the install directory before using your board. While this directory exists, only the Administration Control Panel (ACP) will be accessible.</strong>',
-	'INSTALL_INTRO'				=> 'Welcome to Installation',
+		Je hebt phpBB %1$s succesvol geïnstalleerd. Ga verder door middel van één van de volgende opties te kiezen:</p>
+		<h2>Een bestaand forum converteren naar phpBB3</h2>
+		<p>De phpBB Unified Convertor Framework ondersteunt de conversie van phpBB 2.0.x en andere forumsystemen naar phpBB3. Als je een bestaand forum hebt dat je wilt converteren, <a href="%2$s">ga dan verder naar de convertor</a>.</p>
+		<h2>On-line gaan met uw phpBB3!</h2>
+		<p>Wanneer je op de knop klikt hieronder zal je worden doorgestuurd naar een formulier om statistische data te versturen naar phpBB in je beheerderspaneel. We zullen het erg waarderen als je ons kan helpen om die informatie te versturen. Daarna zal je wat tijd moeten nemen om de opties te onderzoeken die beschikbaar zijn voor je. Vergeet niet dat on-line hulp beschikbaar is via de <a href="http://www.phpbbservice.nl/docs/handleiding/3.0/">documentatie</a>, <a href="%3$s">LEESMIJ</a> en de <a href="http://www.phpbbservice.nl/forum/viewforum.php?f=6">supportforums</a>.</p><p><strong>Verwijder, verplaats of hernoem de install-directory voordat je je forum gaat gebruiken. Wanneer deze directory bestaat, zal alleen het beheerderspaneel toegankelijk zijn.</strong>',
+	'INSTALL_INTRO'				=> 'Welkom bij de installatie',
 
-	'INSTALL_INTRO_BODY'		=> 'With this option, it is possible to install phpBB3 onto your server.</p><p>In order to proceed, you will need your database settings. If you do not know your database settings, please contact your host and ask for them. You will not be able to continue without them. You need:</p>
-
-	<ul>
-		<li>The Database Type - the database you will be using.</li>
-		<li>The Database server hostname or DSN - the address of the database server.</li>
-		<li>The Database server port - the port of the database server (most of the time this is not needed).</li>
-		<li>The Database name - the name of the database on the server.</li>
-		<li>The Database username and Database password - the login data to access the database.</li>
-	</ul>
-
-	<p><strong>Note:</strong> if you are installing using SQLite, you should enter the full path to your database file in the DSN field and leave the username and password fields blank. For security reasons, you should make sure that the database file is not stored in a location accessible from the web.</p>
-
-	<p>phpBB3 supports the following databases:</p>
-	<ul>
-		<li>MySQL 3.23 or above (MySQLi supported)</li>
-		<li>PostgreSQL 8.3+</li>
-		<li>SQLite 2.8.2+</li>
-		<li>Firebird 2.1+</li>
-		<li>MS SQL Server 2000 or above (directly or via ODBC)</li>
-		<li>MS SQL Server 2005 or above (native)</li>
-		<li>Oracle</li>
-	</ul>
-
-	<p>Only those databases supported on your server will be displayed.',
-	'INSTALL_INTRO_NEXT'		=> 'To commence the installation, please press the button below.',
+	'INSTALL_INTRO_BODY'		=> 'Met deze optie, is het mogelijk om phpBB3 te kunnen installeren op je server.</p><p>Om verder te gaan heb je de database-instellingen nodig. Als je niet je database-instellingen weet, neem dan contact op met je host en vraag het aan hun. Je zal niet door kunnen gaan met de installatie zonder die gegevens. Je hebt nodig:</p>
+		<ul>
+			<li>Het Database-type - De database dat je wilt gebruiken.</li>
+			<li>De Database-server hostnaam of DSN - Het adres van de database-server.</li>
+			<li>De Database-serverpoort - De poort van de database-server (in de meeste gevallen is dit niet nodig).</li>
+			<li>De Database-naam - De naam van de database op de server.</li>
+			<li>De Database-gebruikersnaam en Database-wachtwoord - De aanmeldingsgegevens om toegang te hebben tot de database.</li>
+		</ul>
+		<p><strong>Opmerking:</strong> Als je de installatie uitvoert met SQLite, zal je het volledige pad moet invoeren van je database-bestand in het DSN-veld en het veld van de gebruikersnaam en wachtwoord leeglaten. Voor veiligheidsredenen, zal je er zeker van moeten zijn dat je database-bestand niet is opgeslagen in een openbare toegankelijke locatie die je kan bezoeken via het internet.</p>
+		<p>phpBB3 ondersteunt de volgende databases:</p>
+		<ul>
+			<li>MySQL 3.23 of hoger (MySQLi ondersteuning)</li>
+			<li>PostgreSQL 8.3+</li>
+			<li>SQLite 2.8.2+</li>
+			<li>Firebird 2.1+</li>
+			<li>MS SQL Server 2000 of hoger (direct of met ODBC)</li>
+			<li>MS SQL Server 2005 of hoger (native)</li>
+			<li>Oracle</li>
+		</ul>
+		<p>Alleen deze databases die worden ondersteunt door uw server zullen worden weergegeven.',
+	'INSTALL_INTRO_NEXT'		=> 'Om te beginnen met de installatie, klik je op de knop hieronder.',
 	'INSTALL_LOGIN'				=> 'Aanmelden',
 	'INSTALL_NEXT'				=> 'Volgende stap',
-	'INSTALL_NEXT_FAIL'			=> 'Some tests failed and you should correct these problems before proceeding to the next stage. Failure to do so may result in an incomplete installation.',
-	'INSTALL_NEXT_PASS'			=> 'All the basic tests have been passed and you may proceed to the next stage of installation. If you have changed any permissions, modules, etc. and wish to re-test you can do so if you wish.',
+	'INSTALL_NEXT_FAIL'			=> 'Sommige testen zijn mislukt, je zal deze problemen eerst moeten oplossen voordat je verder gaat naar de volgende stap. Wanneer er testen mislukken kan het leiden naar een incomplete installatie.',
+	'INSTALL_NEXT_PASS'			=> 'Als alle basis testen zijn gelukt mag je doorgaan naar de volgende stap van de installatie. Als je enige permissies, modules, enz. hebt veranderd en je wilt de testen opnieuw uitvoeren, dan kan je dat hier doen.',
 	'INSTALL_PANEL'				=> 'Installatiepaneel',
-	'INSTALL_SEND_CONFIG'		=> 'Unfortunately phpBB could not write the configuration information directly to your config.php. This may be because the file does not exist or is not writable. A number of options will be listed below enabling you to complete installation of config.php.',
-	'INSTALL_START'				=> 'Start installatie',
-	'INSTALL_TEST'				=> 'Test opnieuw',
-	'INST_ERR'					=> 'Installatie fout',
+	'INSTALL_SEND_CONFIG'		=> 'Helaas kon phpBB de configuratie-informatie niet meteen schrijven naar je config.php. Dit is mogelijk als het bestand niet bestaat of niet schrijfbaar is. Een aantal opties zullen hieronder worden weergegeven zodat je als nog de installatie van het config.php kunt voltooien.',
+	'INSTALL_START'				=> 'Installatie starten',
+	'INSTALL_TEST'				=> 'Opnieuw testen',
+	'INST_ERR'					=> 'Installatiefout',
 	'INST_ERR_DB_CONNECT'		=> 'Kon geen verbinding leggen met de database, zie de foutmelding hieronder.',
-	'INST_ERR_DB_FORUM_PATH'	=> 'The database file specified is within your board directory tree. You should put this file in a non web-accessible location.',
-	'INST_ERR_DB_INVALID_PREFIX'=> 'The prefix you entered is invalid. It must start with a letter and must only contain letters, numbers and underscores.',
+	'INST_ERR_DB_FORUM_PATH'	=> 'Het database-bestand dat is opgegeven bevindt zich in de forumdirectory hiërarchie. Je zal dit bestand moeten plaatsen in een locatie die niet via het web toegankelijk is.',
+	'INST_ERR_DB_INVALID_PREFIX'=> 'De prefix die je hebt ingevoerd is onjuist. Het moet starten met een letter en mag alleen letters, getallen en onderstrepingen bevatten.',
 	'INST_ERR_DB_NO_ERROR'		=> 'Geen foutmelding gegeven.',
-	'INST_ERR_DB_NO_MYSQLI'		=> 'The version of MySQL installed on this machine is incompatible with the “MySQL with MySQLi Extension” option you have selected. Please try the “MySQL” option instead.',
-	'INST_ERR_DB_NO_SQLITE'		=> 'The version of the SQLite extension you have installed is too old, it must be upgraded to at least 2.8.2.',
-	'INST_ERR_DB_NO_ORACLE'		=> 'The version of Oracle installed on this machine requires you to set the <var>NLS_CHARACTERSET</var> parameter to <var>UTF8</var>. Either upgrade your installation to 9.2+ or change the parameter.',
-	'INST_ERR_DB_NO_FIREBIRD'	=> 'The version of Firebird installed on this machine is older than 2.1, please upgrade to a newer version.',
-	'INST_ERR_DB_NO_FIREBIRD_PS'=> 'The database you selected for Firebird has a page size less than 8192, it must be at least 8192.',
-	'INST_ERR_DB_NO_POSTGRES'	=> 'The database you have selected was not created in <var>UNICODE</var> or <var>UTF8</var> encoding. Try installing with a database in <var>UNICODE</var> or <var>UTF8</var> encoding.',
-	'INST_ERR_DB_NO_NAME'		=> 'No database name specified.',
-	'INST_ERR_EMAIL_INVALID'	=> 'The email address you entered is invalid.',
-	'INST_ERR_EMAIL_MISMATCH'	=> 'The emails you entered did not match.',
+	'INST_ERR_DB_NO_MYSQLI'		=> 'De versie van MySQL die geïnstalleerd is op deze server werkt niet met de “MySQL met MySQLi-extentie” optie die je hebt geselecteerd. Probeer in plaats daarvan de optie “MySQL”.',
+	'INST_ERR_DB_NO_SQLITE'		=> 'De versie van de SQLite-extensie die je hebt geïnstalleerd is te oud, het moet bijgewerkt worden naar versie 2.8.2.',
+	'INST_ERR_DB_NO_ORACLE'		=> 'De versie van Oracle die geïnstalleerd is op deze server verplicht je om de <var>NLS_CHARACTERSET</var>-parameter te laten instellen naar <var>UTF8</var>. Je kan de installatie updaten naar 9.2+ of de paramater veranderen.',
+	'INST_ERR_DB_NO_FIREBIRD'	=> 'De versie van Firebird die geïnstalleerd is op deze server is ouder dan 2.1, update het naar een nieuwere versie.',
+	'INST_ERR_DB_NO_FIREBIRD_PS'=> 'De database die je hebt geselecteerd voor Firebird heeft een pagina minder dan 8192, het moet minstens 8192 zijn.',
+	'INST_ERR_DB_NO_POSTGRES'	=> 'De database die je hebt geselecteerd is niet aangemaakt in <var>UNICODE</var> of <var>UTF8</var> codering. Probeer de database te installeren in <var>UNICODE</var> of <var>UTF8</var> codering.',
+	'INST_ERR_DB_NO_NAME'		=> 'Geen database-naam opgegeven.',
+	'INST_ERR_EMAIL_INVALID'	=> 'Het e-mailadres dat je hebt ingevoerd is ongeldig.',
+	'INST_ERR_EMAIL_MISMATCH'	=> 'De e-mailadressen die je hebt ingevoerd komen niet overeen.',
 	'INST_ERR_FATAL'			=> 'Fatale installatiefout',
-	'INST_ERR_FATAL_DB'			=> 'A fatal and unrecoverable database error has occurred. This may be because the specified user does not have appropriate permissions to <code>CREATE TABLES</code> or <code>INSERT</code> data, etc. Further information may be given below. Please contact your hosting provider in the first instance or the support forums of phpBB for further assistance.',
-	'INST_ERR_FTP_PATH'			=> 'Could not change to the given directory, please check the path.',
-	'INST_ERR_FTP_LOGIN'		=> 'Could not login to FTP server, check your username and password.',
-	'INST_ERR_MISSING_DATA'		=> 'You must fill out all fields in this block.',
+	'INST_ERR_FATAL_DB'			=> 'Een fatale en een onherstelbare database-fout is er opgetreden. Dit kan gebeuren dat de opgegeven gebruiker niet de juiste rechten heeft voor <code>CREATE TABLES</code> of <code>INSERT</code> data, enz. Verdere informatie kan hieronder worden gegevonden. Neem contact op met je hostingprovider in de eerste instantie of de supportforums van phpBB voor verdere hulp.',
+	'INST_ERR_FTP_PATH'			=> 'Kon de opgegeven directory niet veranderen, controleer het pad.',
+	'INST_ERR_FTP_LOGIN'		=> 'Kon niet aanmelden op de FTP-server, controleer je gebruikersnaam en wachtwoord.',
+	'INST_ERR_MISSING_DATA'		=> 'Je moet alle velden van dit blok invullen.',
 	'INST_ERR_NO_DB'			=> 'De PHP-module kon niet worden geladen voor het geselecteerde database-type.',
 	'INST_ERR_PASSWORD_MISMATCH'	=> 'De wachtwoorden die je hebt ingevoerd komen niet overeen.',
-	'INST_ERR_PASSWORD_TOO_LONG'	=> 'The password you entered is too long. The maximum length is 30 characters.',
-	'INST_ERR_PASSWORD_TOO_SHORT'	=> 'The password you entered is too short. The minimum length is 6 characters.',
-	'INST_ERR_PREFIX'			=> 'Tables with the specified prefix already exist, please choose an alternative.',
-	'INST_ERR_PREFIX_INVALID'	=> 'The table prefix you have specified is invalid for your database. Please try another, removing characters such as the hyphen.',
-	'INST_ERR_PREFIX_TOO_LONG'	=> 'The table prefix you have specified is too long. The maximum length is %d characters.',
-	'INST_ERR_USER_TOO_LONG'	=> 'The username you entered is too long. The maximum length is 20 characters.',
-	'INST_ERR_USER_TOO_SHORT'	=> 'The username you entered is too short. The minimum length is 3 characters.',
-	'INVALID_PRIMARY_KEY'		=> 'Invalid primary key : %s',
+	'INST_ERR_PASSWORD_TOO_LONG'	=> 'Het wachtwoord dat je hebt ingevoerd is te lang. De maximale lengte is 30 tekens.',
+	'INST_ERR_PASSWORD_TOO_SHORT'	=> 'Het wachtwoord dat je hebt ingevoerd is te kort. De minimale lengte is 6 tekens.',
+	'INST_ERR_PREFIX'			=> 'Tabellen met de opgegeven prefix bestaan al, kies een andere prefix als alternatief.',
+	'INST_ERR_PREFIX_INVALID'	=> 'De tabelprefix die je hebt ingevoerd is niet geldig voor je database. Probeer een andere verwijder één van de tekens bijvoorbeeld het koppelteken.',
+	'INST_ERR_PREFIX_TOO_LONG'	=> 'De tabelprefix dat je hebt ingevoerd is te lang. De maximale lengte is %d tekens.',
+	'INST_ERR_USER_TOO_LONG'	=> 'De gebruikersnaam die je hebt ingevoerd is te lang. De maximale lengte is 20 tekens.',
+	'INST_ERR_USER_TOO_SHORT'	=> 'De gebruikersnaam die je hebt ingevoerd is te kort. De minimale lengte is 3 tekens.',
+	'INVALID_PRIMARY_KEY'		=> 'Ongeldige hoofdsleutel : %s',
 
-	'LONG_SCRIPT_EXECUTION'		=> 'Please note that this can take a while... Please do not stop the script.',
+	'LONG_SCRIPT_EXECUTION'		=> 'Hou in de gaten dat dit enige tijd kan duren... Onderbreek het script niet.',
 
 	// mbstring
 	'MBSTRING_CHECK'						=> '<samp>mbstring</samp> extension check',
