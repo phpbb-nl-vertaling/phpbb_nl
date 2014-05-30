@@ -217,7 +217,7 @@ $lang = array_merge($lang, array(
 	'ADMIN_INDEX'			=> 'Beheerdersindex',
 	'ADMIN_PANEL'			=> 'Beheerderspaneel',
 
-	'ADM_LOGOUT'			=> 'ACP&nbsp;Afmelden',
+	'ADM_LOGOUT'			=> 'Beheerderspaneel&nbsp;Afmelden',
 	'ADM_LOGGED_OUT'		=> 'Succesvol afgemeld van het beheerderspaneel',
 
 	'BACK'					=> 'Terug',
@@ -450,13 +450,13 @@ $lang = array_merge($lang, array(
 
 // Send statistics page
 $lang = array_merge($lang, array(
-	'EXPLAIN_SEND_STATISTICS'	=> 'Verstuur informatie over je server en foruminstellingen naar phpBB voor statistische analyse. Alle informatie dat je of je website kan identificeren is verwijderd - de data is compleet <strong>anoniem</strong>. We baseren beslissingen over de toekomstige phpBB versies op deze informatie. De statistieken zullen openbaar worden gemaakt. We delen ook deze data met het PHP project, de programmeertaal waarin phpBB is geschreven.',
+	'EXPLAIN_SEND_STATISTICS'	=> 'Verstuur informatie over je server en foruminstellingen naar phpBB voor statistische analyse. Alle informatie dat je of je website kan identificeren is verwijderd - de data is compleet <strong>anoniem</strong>. We baseren beslissingen over de toekomstige phpBB versies op deze informatie. De statistieken zullen openbaar worden gemaakt. We delen ook deze data met het PHP-project, de programmeertaal waarin phpBB is geschreven.',
 	'EXPLAIN_SHOW_STATISTICS'	=> 'Door gebruik te maken van de knop hieronder kan je bekijken welke variabelen verstuurd zullen worden.',
-	'DONT_SEND_STATISTICS'		=> 'Ga terug naar de ACP als je geen statistische informatie naar phpBB wilt versturen.',
-	'GO_ACP_MAIN'				=> 'Ga naar de ACP startpagina',
-	'HIDE_STATISTICS'			=> 'Verberg details',
-	'SEND_STATISTICS'			=> 'Verstuur statistische informatie',
-	'SHOW_STATISTICS'			=> 'Toon details',
+	'DONT_SEND_STATISTICS'		=> 'Ga terug naar de beheerderspaneel als je geen statistische informatie naar phpBB wilt versturen.',
+	'GO_ACP_MAIN'				=> 'Ga naar de beheerderspaneel startpagina',
+	'HIDE_STATISTICS'			=> 'Details verbergen',
+	'SEND_STATISTICS'			=> 'Statistische informatie versturen',
+	'SHOW_STATISTICS'			=> 'Details tonen',
 	'THANKS_SEND_STATISTICS'	=> 'Dank je wel voor het versturen van je informatie.',
 ));
 
@@ -495,7 +495,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_ATTACH_EXT_ADD'		=> '<strong>Bijlage-extensie toegevoegd of gewijzigd</strong><br />» %s',
 	'LOG_ATTACH_EXT_DEL'		=> '<strong>Bijlage-extensie verwijderd</strong><br />» %s',
-	'LOG_ATTACH_EXT_UPDATE'		=> '<strong>Bijlage-extensie geüpdate</strong><br />» %s',
+	'LOG_ATTACH_EXT_UPDATE'		=> '<strong>Bijlage-extensie bijgewerkt</strong><br />» %s',
 	'LOG_ATTACH_EXTGROUP_ADD'	=> '<strong>Extensiegroep toegevoegd</strong><br />» %s',
 	'LOG_ATTACH_EXTGROUP_EDIT'	=> '<strong>Extensiegroep gewijzigd</strong><br />» %s',
 	'LOG_ATTACH_EXTGROUP_DEL'	=> '<strong>Extensiegroep verwijderd</strong><br />» %s',
@@ -518,7 +518,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_BOT_ADDED'		=> '<strong>Nieuwe bot toegevoegd</strong><br />» %s',
 	'LOG_BOT_DELETE'	=> '<strong>Bot verwijderd</strong><br />» %s',
-	'LOG_BOT_UPDATED'	=> '<strong>Bestaande bot geüpdate</strong><br />» %s',
+	'LOG_BOT_UPDATED'	=> '<strong>Bestaande bot bijgewerkt</strong><br />» %s',
 
 	'LOG_CLEAR_ADMIN'		=> '<strong>Beheerderslog opgeschoond</strong>',
 	'LOG_CLEAR_CRITICAL'	=> '<strong>Foutenlog opgeschoond</strong>',
@@ -542,7 +542,7 @@ $lang = array_merge($lang, array(
 	'LOG_CONFIG_SERVER'			=> '<strong>Serverinstellingen aangepast</strong>',
 	'LOG_CONFIG_SETTINGS'		=> '<strong>Foruminstellingen aangepast</strong>',
 	'LOG_CONFIG_SIGNATURE'		=> '<strong>Onderschriftinstellingen aangepast</strong>',
-	'LOG_CONFIG_VISUAL'			=> '<strong>Anti-spambot instellingen aangepast</strong>',
+	'LOG_CONFIG_VISUAL'			=> '<strong>Anti-spambotinstellingen aangepast</strong>',
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>Onderwerp goedgekeurd</strong><br />» %s',
 	'LOG_BUMP_TOPIC'			=> '<strong>Gebruiker bumped onderwerp</strong><br />» %s', //hebben we nog een ander woord voor bumped?
@@ -587,7 +587,7 @@ $lang = array_merge($lang, array(
 	'LOG_DOWNLOAD_IP'			=> '<strong>IP/hostnaam toegevoegd aan downloadlijst</strong><br />» %s',
 	'LOG_DOWNLOAD_REMOVE_IP'	=> '<strong>IP/hostnaam verwijderd van downloadlijst</strong><br />» %s',
 
-	'LOG_ERROR_JABBER'		=> '<strong>Jabber fout</strong><br />» %s',
+	'LOG_ERROR_JABBER'		=> '<strong>Jabber-fout</strong><br />» %s',
 	'LOG_ERROR_EMAIL'		=> '<strong>E-mail fout</strong><br />» %s',
 
 	'LOG_FORUM_ADD'							=> '<strong>Nieuw forum aangemaakt</strong><br />» %s',
@@ -614,13 +614,13 @@ $lang = array_merge($lang, array(
 	'LOG_GROUP_DEMOTED'		=> '<strong>Leiders gedegradeerd in gebruikersgroep</strong> %1$s<br />» %2$s',
 	'LOG_GROUP_PROMOTED'	=> '<strong>Leden gepromoveerd in gebruikersgroep</strong> %1$s<br />» %2$s',
 	'LOG_GROUP_REMOVE'		=> '<strong>Leden verwijderd van gebruikersgroep</strong> %1$s<br />» %2$s',
-	'LOG_GROUP_UPDATED'		=> '<strong>Gebruikersgroep-details geüpdate</strong><br />» %s',
+	'LOG_GROUP_UPDATED'		=> '<strong>Gebruikersgroep-details bijgewerkt</strong><br />» %s',
 	'LOG_MODS_ADDED'		=> '<strong>Nieuwe leiders toegevoegd aan gebruikersgroep</strong> %1$s<br />» %2$s',
 	'LOG_USERS_ADDED'		=> '<strong>Nieuwe leden toegevoegd aan gebruikersgroep</strong> %1$s<br />» %2$s',
 	'LOG_USERS_APPROVED'	=> '<strong>Gebruikers goedgekeurd in gebruikersgroep</strong> %1$s<br />» %2$s',
 	'LOG_USERS_PENDING'		=> '<strong>Gebruikers hebben lidmaatschap aangevraagd voor groep “%1$s” en moeten nog goedgekeurd worden</strong><br />» %2$s',
 
-	'LOG_IMAGE_GENERATION_ERROR'	=> '<strong>Fout tijdens het aanmaken van een afbeeldingd</strong><br />» Fout in %1$s op regel %2$s: %3$s',
+	'LOG_IMAGE_GENERATION_ERROR'	=> '<strong>Fout tijdens het aanmaken van een afbeelding</strong><br />» Fout in %1$s op regel %2$s: %3$s',
 
 	'LOG_INACTIVE_ACTIVATE'	=> '<strong>Inactieve gebruikers geactiveerd</strong><br />» %s',
 	'LOG_INACTIVE_DELETE'	=> '<strong>Inactieve gebruikers verwijderd</strong><br />» %s',
@@ -671,7 +671,7 @@ $lang = array_merge($lang, array(
 	'LOG_PROFILE_FIELD_ACTIVATE'	=> '<strong>Profielveld geactiveerd</strong><br />» %s',
 	'LOG_PROFILE_FIELD_CREATE'		=> '<strong>Profielveld toegevoegd</strong><br />» %s',
 	'LOG_PROFILE_FIELD_DEACTIVATE'	=> '<strong>Profielveld gedeactiveerd</strong><br />» %s',
-	'LOG_PROFILE_FIELD_EDIT'		=> '<strong>Profielveld veranderd</strong><br />» %s',
+	'LOG_PROFILE_FIELD_EDIT'		=> '<strong>Profielveld gewijzigd</strong><br />» %s',
 	'LOG_PROFILE_FIELD_REMOVED'		=> '<strong>Profielveld verwijderd</strong><br />» %s',
 
 	'LOG_PRUNE'					=> '<strong>Forums opgeschoond</strong><br />» %s',
@@ -686,7 +686,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_RANK_ADDED'		=> '<strong>Nieuwe rang toegevoegd</strong><br />» %s',
 	'LOG_RANK_REMOVED'		=> '<strong>Rang verwijderd</strong><br />» %s',
-	'LOG_RANK_UPDATED'		=> '<strong>Rang geüpdate</strong><br />» %s',
+	'LOG_RANK_UPDATED'		=> '<strong>Rang bijgewerkt</strong><br />» %s',
 
 	'LOG_REASON_ADDED'		=> '<strong>Meldings-/afkeurreden toegevoegd</strong><br />» %s',
 	'LOG_REASON_REMOVED'	=> '<strong>Meldings-/afkeurreden verwijderd</strong><br />» %s',
@@ -702,7 +702,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_SEARCH_INDEX_CREATED'	=> '<strong>Zoekindex aangemaakt voor</strong><br />» %s',
 	'LOG_SEARCH_INDEX_REMOVED'	=> '<strong>Zoekindex verwijderd voor</strong><br />» %s',
-	'LOG_SPHINX_ERROR'			=> '<strong>Sphinx fout</strong><br />» %s',
+	'LOG_SPHINX_ERROR'			=> '<strong>Sphinx-fout</strong><br />» %s',
 	'LOG_STYLE_ADD'				=> '<strong>Nieuwe stijl toegevoegd</strong><br />» %s',
 	'LOG_STYLE_DELETE'			=> '<strong>Stijl verwijderd</strong><br />» %s',
 	'LOG_STYLE_EDIT_DETAILS'	=> '<strong>Stijl gewijzigd</strong><br />» %s',
@@ -718,7 +718,7 @@ $lang = array_merge($lang, array(
 	'LOG_TEMPLATE_EDIT_DETAILS'		=> '<strong>Template-details gewijzigd</strong><br />» %s',
 	'LOG_TEMPLATE_EXPORT'			=> '<strong>Templateset geëxporteerd</strong><br />» %s',
 	// @deprecated 3.1
-	'LOG_TEMPLATE_REFRESHED'		=> '<strong>Templateset ververst</strong><br />» %s',
+	'LOG_TEMPLATE_REFRESHED'		=> '<strong>Templateset vernieuwd</strong><br />» %s',
 
 	// @deprecated 3.1
 	'LOG_THEME_ADD_DB'			=> '<strong>Nieuwe thema toegevoegd aan database</strong><br />» %s',
@@ -730,10 +730,10 @@ $lang = array_merge($lang, array(
 	'LOG_THEME_EDIT_FILE'		=> '<strong>Thema gewijzigd <em>%1$s</em></strong><br />» Aangepaste bestand <em>%2$s</em>',
 	'LOG_THEME_EXPORT'			=> '<strong>Thema geëxporteerd</strong><br />» %s',
 	// @deprecated 3.1
-	'LOG_THEME_REFRESHED'		=> '<strong>Thema ververst</strong><br />» %s',
+	'LOG_THEME_REFRESHED'		=> '<strong>Thema vernieuwd</strong><br />» %s',
 
-	'LOG_UPDATE_DATABASE'	=> '<strong>Database geüpdate van versie %1$s naar versie %2$s</strong>',
-	'LOG_UPDATE_PHPBB'		=> '<strong>phpBB geüpdate van versie %1$s naar versie %2$s</strong>',
+	'LOG_UPDATE_DATABASE'	=> '<strong>Database bijgewerkt van versie %1$s naar versie %2$s</strong>',
+	'LOG_UPDATE_PHPBB'		=> '<strong>phpBB bijgewerkt van versie %1$s naar versie %2$s</strong>',
 
 	'LOG_USER_ACTIVE'		=> '<strong>Gebruiker geactiveerd</strong><br />» %s',
 	'LOG_USER_BAN_USER'		=> '<strong>Gebruiker verbannen via gebruikersbeheer</strong> voor reden “<em>%1$s</em>”<br />» %2$s',
@@ -742,7 +742,7 @@ $lang = array_merge($lang, array(
 	'LOG_USER_DELETED'		=> '<strong>Gebruiker verwijderd</strong><br />» %s',
 	'LOG_USER_DEL_ATTACH'	=> '<strong>Alle bijlagen verwijderd, gemaakt door de gebruiker</strong><br />» %s',
 	'LOG_USER_DEL_AVATAR'	=> '<strong>Gebruikersavatar verwijderd</strong><br />» %s',
-	'LOG_USER_DEL_OUTBOX'	=> '<strong>Gebruikers-uitvak geleegd</strong><br />» %s',
+	'LOG_USER_DEL_OUTBOX'	=> '<strong>Gebruikers-postvak Uit geleegd</strong><br />» %s',
 	'LOG_USER_DEL_POSTS'	=> '<strong>Alle berichten verwijderd, gemaakt door de gebruiker</strong><br />» %s',
 	'LOG_USER_DEL_SIG'		=> '<strong>Gebruikersonderschrift verwijderd</strong><br />» %s',
 	'LOG_USER_INACTIVE'		=> '<strong>Gebruiker gedeactiveerd</strong><br />» %s',
@@ -751,9 +751,9 @@ $lang = array_merge($lang, array(
 	'LOG_USER_REACTIVATE'	=> '<strong>Gebruikersaccount heractivatie geforceerd</strong><br />» %s',
 	'LOG_USER_REMOVED_NR'	=> '<strong>Nieuw geregistreerd vlag verwijderd van gebruiker</strong><br />» %s',
 
-	'LOG_USER_UPDATE_EMAIL'	=> '<strong>Gebruiker “%1$s” heeft zijn e-mail veranderd</strong><br />» van “%2$s” naar “%3$s”',
-	'LOG_USER_UPDATE_NAME'	=> '<strong>Gebruikersnaam veranderd</strong><br />» van “%1$s” naar “%2$s”',
-	'LOG_USER_USER_UPDATE'	=> '<strong>Gebruikersdetails geüpdate</strong><br />» %s',
+	'LOG_USER_UPDATE_EMAIL'	=> '<strong>Gebruiker “%1$s” heeft zijn e-mail gewijzigd</strong><br />» van “%2$s” naar “%3$s”',
+	'LOG_USER_UPDATE_NAME'	=> '<strong>Gebruikersnaam gewijzigd</strong><br />» van “%1$s” naar “%2$s”',
+	'LOG_USER_USER_UPDATE'	=> '<strong>Gebruikersdetails bijgewerkt</strong><br />» %s',
 
 	'LOG_USER_ACTIVE_USER'		=> '<strong>Gebruikersaccount geactiveerd</strong>',
 	'LOG_USER_DEL_AVATAR_USER'	=> '<strong>Gebruikersavatar verwijderd</strong>',
