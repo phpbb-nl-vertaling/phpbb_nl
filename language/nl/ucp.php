@@ -411,6 +411,8 @@ $lang = array_merge($lang, array(
 	'PM_SENTBOX'				=> 'Verzonden berichten',
 	'PM_SUBJECT'				=> 'Berichtenonderwerp',
 	'PM_TO'						=> 'Verstuur naar',
+	'PM_TOOLS'					=> 'Berichthulpmiddel',
+	'PM_USERS_REMOVED_NO_PERMISSION'	=> 'Sommige gebruikers konden niet worden toegevoegd aangezien ze niet de permissies hebben om privéberichten te lezen.',
 	'PM_USERS_REMOVED_NO_PM'	=> 'Sommige gebruikers kunnen niet toegevoegd worden, omdat ze het ontvangen van privé berichten hebben uitgeschakeld.',
 	'POST_EDIT_PM'				=> 'Wijzig bericht',
 	'POST_FORWARD_PM'			=> 'Doorsturen bericht',
@@ -602,14 +604,14 @@ $lang = array_merge($lang, array(
 		'PLACE_INTO_FOLDER'	=> 'Plaats in map',
 		'MARK_AS_READ'		=> 'Markeer als gelezen',
 		'MARK_AS_IMPORTANT'	=> 'Markeer bericht',
-		'DELETE_MESSAGE'	=> 'Verwijder bericht'
+		'DELETE_MESSAGE'	=> 'Verwijder bericht',
 	),
 	'PM_CHECK' => array(
 		'SUBJECT'	=> 'Onderwerp',
 		'SENDER'	=> 'Afzender',
 		'MESSAGE'	=> 'Bericht',
 		'STATUS'	=> 'Berichtenstatus',
-		'TO'		=> 'Verstuurd naar'
+		'TO'		=> 'Verstuurd naar',
 	),
 	'PM_RULE' => array(
 		'IS_LIKE'		=> 'is als',
@@ -625,9 +627,8 @@ $lang = array_merge($lang, array(
 		'ANSWERED'		=> 'beantwoord',
 		'FORWARDED'		=> 'doorgestuurd',
 		'TO_GROUP'		=> 'naar mijn standaard gebruikersgroep',
-		'TO_ME'			=> 'naar mij'
+		'TO_ME'			=> 'naar mij',
 	),
-
 
 	'GROUPS_EXPLAIN'	=> 'Gebruikersgroepen staan forumbeheerders in staat om gebruikers beter te beheren. Standaard zal je geplaatst worden in een specifieke groep, dit is je standaard groep. Deze groep definieert hoe je mag voorkomen naar andere gebruikers, bijvoorbeeld de kleur van je gebruikersnaam, avatar, rang, etc. Afhankelijk van de beheerder, kan je je standaard groep veranderen. Je kan ook geplaatst worden of toegestaan om toe te treden tot andere gebruikersgroepen. Sommige groepen kunnen je extra permissies geven om inhoud te kunnen zien of om je mogelijkheden op andere gebieden uit te breiden.',
 	'GROUP_LEADER'		=> 'Leiderschappen',

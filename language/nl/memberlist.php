@@ -47,7 +47,6 @@ $lang = array_merge($lang, array(
 	'BEFORE'				=> 'Voor',
 
 	'CC_EMAIL'				=> 'Verstuur een kopie van deze e-mail naar jezelf.',
-	'CONTACT_USER'			=> 'Contact',
 
 	'DEST_LANG'				=> 'Taal',
 	'DEST_LANG_EXPLAIN'		=> 'Selecteer een taal (indien beschikbaar) voor de ontvanger van dit bericht.',
@@ -126,9 +125,9 @@ $lang = array_merge($lang, array(
 	'USER_BAN'				=> 'Verbannen',
 	'USER_FORUM'			=> 'Gebruikersstatistieken',
 	'USER_LAST_REMINDED'	=> array(
-		0		=> 'Geen herinnering verstuurt momenteel',
-		1		=> '%1$d herinnering verstuurt<br />» %2$s',
-		2		=> '%1$d herinneringen verstuurt<br />» %2$s',
+		0		=> 'Geen herinnering verstuurd momenteel',
+		1		=> '%1$d herinnering verstuurd<br />» %2$s',
+		2		=> '%1$d herinneringen verstuurd<br />» %2$s',
 	),
 	'USER_ONLINE'			=> 'Online',
 	'USER_PRESENCE'			=> 'Forumvoorkeuren',

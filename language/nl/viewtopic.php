@@ -58,7 +58,7 @@ $lang = array_merge($lang, array(
 		1	=> 'Laatst gewijzigd door %2$s op %3$s, %1$d keer totaal gewijzigd.',
 		2	=> 'Laatst gewijzigd door %2$s op %3$s, %1$d keer totaal gewijzigd.',
 	),
-	'EMAIL_TOPIC'			=> 'E-mail vriend',
+	'EMAIL_TOPIC'			=> 'E-mail onderwerp',
 	'ERROR_NO_ATTACHMENT'	=> 'De geselecteerde bijlage bestaat niet meer.',
 
 	'FILE_NOT_FOUND_404'	=> 'Het bestand <strong>%s</strong> kon niet worden gevonden.',
