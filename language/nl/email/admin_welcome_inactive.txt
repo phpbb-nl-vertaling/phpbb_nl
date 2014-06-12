@@ -1,19 +1,19 @@
-Subject: Welcome to "{SITENAME}"
+Subject: Welkom op "{SITENAME}"
 
 {WELCOME_MSG}
 
-Please keep this email for your records. Your account information is as follows:
+Bewaar deze e-mail zuinig! Je account-informatie is als volgt:
 
 ----------------------------
-Username: {USERNAME}
+Gebruikersnaam: {USERNAME}
 
-Board URL: {U_BOARD}
+Forum-URL: {U_BOARD}
 ----------------------------
 
-Your account is currently inactive and will need to be approved by an administrator before you can log in. Another email will be sent when this has occurred.
+Je account is momenteel inactief en zal door een beheerder moeten worden goedgekeurd, voordat je weer kunt inloggen. Je krijgt een nieuwe e-mail na de goedkeuring.
 
-Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
+Je wachtwoord is veilig opgeslagen in onze database en kan niet worden achterhaald. Mocht je het wachtwoord vergeten zijn, dan kun je een nieuw wachtwoord verkrijgen door gebruik te maken van het e-mailadres, dat aan je account gekoppeld is.
 
-Thank you for registering.
+Bedankt voor het registreren!
 
 {EMAIL_SIG}
