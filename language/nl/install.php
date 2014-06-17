@@ -151,7 +151,8 @@ $lang = array_merge($lang, array(
 	'DLL_MYSQLI'				=> 'MySQL met MySQLi extensie',
 	'DLL_ORACLE'				=> 'Oracle',
 	'DLL_POSTGRES'				=> 'PostgreSQL',
-	'DLL_SQLITE'				=> 'SQLite',
+	'DLL_SQLITE'				=> 'SQLite 2',
+	'DLL_SQLITE3'				=> 'SQLite 3',
 	'DLL_XML'					=> 'XML-ondersteuning [ Jabber ]',
 	'DLL_ZLIB'					=> 'zlib compression support [ gz, .tar.gz, .zip ]',
 	'DL_CONFIG'					=> 'Download config-bestand',
@@ -209,6 +210,7 @@ $lang = array_merge($lang, array(
 			<li>MySQL 3.23 of hoger (MySQLi ondersteuning)</li>
 			<li>PostgreSQL 8.3+</li>
 			<li>SQLite 2.8.2+</li>
+			<li>SQLite 3.6.15+</li>
 			<li>Firebird 2.1+</li>
 			<li>MS SQL Server 2000 of hoger (direct of met ODBC)</li>
 			<li>MS SQL Server 2005 of hoger (native)</li>
@@ -231,6 +233,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_ERROR'		=> 'Geen foutmelding gegeven.',
 	'INST_ERR_DB_NO_MYSQLI'		=> 'De versie van MySQL die geïnstalleerd is op deze server werkt niet met de “MySQL met MySQLi-extentie” optie die je hebt geselecteerd. Probeer in plaats daarvan de optie “MySQL”.',
 	'INST_ERR_DB_NO_SQLITE'		=> 'De versie van de SQLite-extensie die je hebt geïnstalleerd is te oud, het moet bijgewerkt worden naar versie 2.8.2.',
+	'INST_ERR_DB_NO_SQLITE3'	=> 'De versie van de SQLite-extensie die je hebt geïnstalleerd is te oud, het moet bijgewerkt worden naar versie 3.6.15.',	
 	'INST_ERR_DB_NO_ORACLE'		=> 'De versie van Oracle die geïnstalleerd is op deze server verplicht je om de <var>NLS_CHARACTERSET</var>-parameter te laten instellen naar <var>UTF8</var>. Je kan de installatie updaten naar 9.2+ of de paramater veranderen.',
 	'INST_ERR_DB_NO_FIREBIRD'	=> 'De versie van Firebird die geïnstalleerd is op deze server is ouder dan 2.1, update het naar een nieuwere versie.',
 	'INST_ERR_DB_NO_FIREBIRD_PS'=> 'De database die je hebt geselecteerd voor Firebird heeft een pagina minder dan 8192, het moet minstens 8192 zijn.',

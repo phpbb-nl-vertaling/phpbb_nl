@@ -106,6 +106,9 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_QUICKTIME_MEDIA'		=> 'Quicktime Media',
 	'EXT_GROUP_REAL_MEDIA'			=> 'Real Media',
 	'EXT_GROUP_WINDOWS_MEDIA'		=> 'Windows Media',
+	
+	'FILES_GONE'			=> 'Some of the attachments you selected for deletion do not exist. They may have been already deleted. Attachments that did exist were deleted.',
+	'FILES_STATS_WRONG'		=> 'Your file statistics are likely inaccurate and need to be resynchronised. Actual values: number of attachments = %1$d, total size of attachments = %2$s.<br />Click %3$shere%4$s to resynchronise them.',
 
 	'GO_TO_EXTENSIONS'		=> 'Ga naar extensie management scherm',
 	'GROUP_NAME'			=> 'Groepnaam',
@@ -130,6 +133,7 @@ $lang = array_merge($lang, array(
 	'NOT_ALLOWED_IN_PM'			=> 'Alleen toegestaan in berichten',
 	'NOT_ALLOWED_IN_PM_POST'	=> 'Niet toegestaan',
 	'NOT_ASSIGNED'				=> 'Niet toegewezen',
+	'NO_ATTACHMENTS'			=> 'No attachments found for this period.',
 	'NO_EXT_GROUP'				=> 'Geen',
 	'NO_EXT_GROUP_NAME'			=> 'Geen groepsnaam ingevoerd',
 	'NO_EXT_GROUP_SPECIFIED'	=> 'Geen extensiegroep opgegeven.',
@@ -142,9 +146,10 @@ $lang = array_merge($lang, array(
 	'ONLY_ALLOWED_IN_PM'	=> 'Alleen toegestaan in privéberichten',
 	'ORDER_ALLOW_DENY'		=> 'Toestaan',
 	'ORDER_DENY_ALLOW'		=> 'Afwijzen',
-
-	'REMOVE_ALLOWED_IPS'		=> 'Verwijder of insluiten <em>toegestane</em> IPs/hostnamen',
-	'REMOVE_DISALLOWED_IPS'		=> 'Verwijder of insluiten <em>verboden</em> IPs/hostnamen',
+	
+	'REMOVE_ALLOWED_IPS'			=> 'Verwijder of uitsluit <em>toegestane</em> IPs/hostnamen',
+	'REMOVE_DISALLOWED_IPS'			=> 'Verwijder of uitsluit <em>verboden</em> IPs/hostnamen',
+	'RESYNC_FILES_STATS_CONFIRM'	=> 'Weet je zeker dat je de bestandstatistieken wilt hersynchroniseren?',	
 
 	'SEARCH_IMAGICK'				=> 'Zoek naar Imagemagick',
 	'SECURE_ALLOW_DENY'				=> 'Toegestaan/Verboden lijst',

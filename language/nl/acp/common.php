@@ -85,7 +85,6 @@ $lang = array_merge($lang, array(
 	'ACP_EXTENSION_MANAGEMENT'	=> 'Extensiebeheer',
 	'ACP_EXTENSIONS'			=> 'Beheer extensies',
 
-
 	'ACP_FORUM_BASED_PERMISSIONS'	=> 'Forum gebaseerde permissies',
 	'ACP_FORUM_LOGS'				=> 'Forumlogs',
 	'ACP_FORUM_MANAGEMENT'			=> 'Forumbeheer',
@@ -241,9 +240,6 @@ $lang = array_merge($lang, array(
 	'EXPORT_DOWNLOAD'		=> 'Download',
 	'EXPORT_STORE'			=> 'Opslaan',
 
-	'FILES_GONE'			=> 'Sommige bijlagen die je hebt geselecteerd om te verwijderen, bestaan niet. Ze kunnen al verwijderd zijn. De bijlagen die wel bestonden zijn verwijderd.',
-	'FILES_STATS_WRONG'		=> 'Je bestandsstatistieken zijn mogelijk niet nauwkeurig en zal gesynchroniseerd moeten worden. Actuele waardes: aantal bijlagen = %1$d, totale grootte van bijlagen = %2$s.',
-
 	'GENERAL_OPTIONS'		=> 'Algemene opties',
 	'GENERAL_SETTINGS'		=> 'Algemene instellingen',
 	'GLOBAL_MASK'			=> 'Globale permissiemasker',
@@ -286,9 +282,7 @@ $lang = array_merge($lang, array(
 
 	'REMIND'							=> 'Herinner',
 	'RESYNC'							=> 'Synchroniseer',
-	'RESYNC_FILES_STATS'				=> 'Synchroniseer bestandenstatistieken',
-	'RESYNC_FILES_STATS_EXPLAIN'		=> 'Herberekend het totaal aantal en grootte van bestanden die zijn bijgevoegd aan berichten en privéberichten.',
-
+	
 	'SELECT_ANONYMOUS'		=> 'Selecteer gastgebruiker',
 	'SELECT_OPTION'			=> 'Selecteer optie',
 
@@ -388,7 +382,6 @@ $lang = array_merge($lang, array(
 	'RESET_ONLINE'					=> 'De meeste gebruikers tegelijkertijd online resetten',
 	'RESET_ONLINE_CONFIRM'			=> 'Weet je zeker dat je de meeste gebruikers tegelijkertijd online wilt resetten?',
 	'RESET_ONLINE_SUCCESS'				=> 'Meeste gebruikers tegelijkertijd online gereset',
-	'RESYNC_FILES_STATS_CONFIRM'	=> 'Weet je zeker dat je de bestandenstatistieken wilt synchroniseren?',
 	'RESYNC_POSTCOUNTS'				=> 'Berichtentellers synchroniseren',
 	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'Alleen bestaande berichten worden meegenomen. Opgeschoonde berichten zullen niet geteld worden.',
 	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'Weet je zeker dat je de berichtentellers wilt synchroniseren?',
@@ -557,7 +550,7 @@ $lang = array_merge($lang, array(
 	'LOG_PM_REPORT_CLOSED'		=> '<strong>PB-melding gesloten</strong><br />» %s',
 	'LOG_PM_REPORT_DELETED'		=> '<strong>PB-melding verwijderd</strong><br />» %s',
 	'LOG_POST_APPROVED'			=> '<strong>Bericht goedgekeurd</strong><br />» %s',
-	'LOG_POST_DISAPPROVED'		=> '<strong>Bericht “%1$s” afgekeurd met de volgende reden</strong><br />» %2$s',
+	'LOG_POST_DISAPPROVED'		=> '<strong>Bericht “%1$s” afgekeurd geschreven door “%3$s” met de volgende reden</strong><br />» %2$s',
 	'LOG_POST_EDITED'			=> '<strong>Bericht “%1$s” gewijzigd, geschreven door</strong><br />» %2$s',
 	'LOG_POST_RESTORED'			=> '<strong>Bericht teruggehaald</strong><br />» %s',
 	'LOG_REPORT_CLOSED'			=> '<strong>Melding gesloten</strong><br />» %s',
