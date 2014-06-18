@@ -1,11 +1,13 @@
 <?php
 /**
 *
-* common [Dutch]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>, phpBBservice.nl <http://www.phpbbservice.nl>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -167,6 +169,7 @@ $lang = array_merge($lang, array(
 	'CONGRATULATIONS'		=> 'Felicitaties aan',
 	'CONNECTION_FAILED'		=> 'Verbinding verbroken.',
 	'CONNECTION_SUCCESS'	=> 'Succesvol verbonden!',
+	'CONTACT_USER'			=> 'Contact',
 	'COOKIES_DELETED'		=> 'Alle forumcookies succesvol verwijderd.',
 	'CURRENT_TIME'			=> 'Het is momenteel %s',
 
@@ -217,8 +220,6 @@ $lang = array_merge($lang, array(
 	'ERROR'									=> 'Fout',
 	'EXPAND_VIEW'						=> 'Weergave uitklappen',
 	'EXTENSION'							=> 'Extensie',
-	'EXTENSION_CONTROLLER_MISSING'		=> 'De extensie <strong>%s</strong> mist een controle class en is niet toegankelijk via de voorkant.',
-	'EXTENSION_CLASS_WRONG_TYPE'		=> 'De extensie controle class <strong>%s</strong> is niet een instantie van de phpbb_extension_controller_interface.',
 	'EXTENSION_DISABLED'				=> 'De extensie <strong>%s</strong> is niet ingeschakeld.',
 	'EXTENSION_DISABLED_AFTER_POSTING'	=> 'De extensie <strong>%s</strong> is uitgeschakeld en kan niet langer worden weergegeven.',
 	'EXTENSION_DOES_NOT_EXIST'			=> 'De extensie <strong>%s</strong> bestaat niet.',
@@ -348,6 +349,7 @@ $lang = array_merge($lang, array(
 	'LDAP_NO_SERVER_CONNECTION'			=> 'Kan niet verbinden met LDAP-server.',
 	'LDAP_SEARCH_FAILED'				=> 'Een fout is opgetreden tijdens het doorzoeken van de LDAP-map.',
 	'LEGEND'							=> 'Legenda',
+	'LIVE_SEARCHES_NOT_ALLOWED'			=> 'Live zoeken is niet toegestaan.',  // live zoeken? :/
 	'LOADING'							=> 'Laden',
 	'LOCATION'							=> 'Locatie',
 	'LOCK_POST'							=> 'Bericht sluiten',
@@ -422,14 +424,16 @@ $lang = array_merge($lang, array(
 	'NOT_WATCHING_FORUM'		=> 'Je bent niet langer geabonneerd op updates over dit forum.',
 	'NOT_WATCHING_TOPIC'		=> 'Je bent niet langer geabonneerd op dit onderwerp.',
 	'NOTIFICATIONS'				=> 'Notificaties',
-	// This applies for NOTIFICATION_BOOKMARK, NOTIFICATION_POST, and NOTIFICATION_QUOTE.
+	// This applies for NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	// %1$s will return a list of users that's concatenated using "," and "and" - see STRING_LIST
 	// Once the user count reaches 5 users or more, the list is trimmed using NOTIFICATION_X_OTHERS
+	// Once the user count reaches 20 users or more, the list is trimmed using NOTIFICATION_MANY_OTHERS
 	// Examples:
 	// A replied...
 	// A and B replied...
 	// A, B and C replied...
 	// A, B, C and 2 others replied...
+	// A, B, C and others replied...
 	'NOTIFICATION_BOOKMARK'				=> array(
 		1	=> '%1$s heeft gereageerd op het onderwerp “%2$s” waarvan je een bladwijzer hebt gemaakt.',
 	),		
@@ -454,7 +458,8 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> 'Een nieuw onderwerp genaamd "%2$s" is geplaatst door %1$s en heeft goedkeuring nodig.',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'Het notificatietype "%s" mist van het bestandssysteem.',
 	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> 'De gebruiker “%1$s” is pas geregistreerd en vereist activatie.',
-	// Used in conjuction with NOTIFICATION_BOOKMARK, NOTIFICATION_POST, and NOTIFICATION_QUOTE.
+	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
+	'NOTIFICATION_MANY_OTHERS'			=> 'anderen',
 	'NOTIFICATION_X_OTHERS'				=> array(
 		2	=> '%d anderen',
 	),	
@@ -759,7 +764,7 @@ $lang = array_merge($lang, array(
 	),
 	'TRACKED_PHP_ERROR'	=> 'Bijgehouden PHP-fouten: %s',
 
-	'UNABLE_GET_IMAGE_SIZE'	=> 'Het was niet mogelijk om de dimensies van de afbeelding te bepalen.',
+	'UNABLE_GET_IMAGE_SIZE'	=> 'Het was niet mogelijk om de afmetingen van de afbeelding te bepalen. Controleer of de URL die je hebt ingevoerd juist is.',
 	'UNABLE_TO_DELIVER_FILE'=> 'Kan bestand niet leveren.',
 	'UNKNOWN_BROWSER'		=> 'Onbekende browser',
 	'UNMARK_ALL'			=> 'Alles demarkeren',
@@ -1371,7 +1376,7 @@ $lang = array_merge($lang, array(
 		'D M d, Y g:i a'		=> 'Ma Jan 01, 2007 1:37 pm',
 		'F jS, Y, g:i a'		=> 'Januari 1ste, 2007, 1:37 pm',
 		'|d M Y|, H:i'			=> 'Vandaag, 13:37 / 01 Jan 2007, 13:37',
-		'|F jS, Y|, g:i a'		=> 'Vandaag, 1:37 pm / Januari 1st, 2007, 1:37 pm'
+		'|F jS, Y|, g:i a'		=> 'Vandaag, 1:37 pm / Januari 1ste, 2007, 1:37 pm',
 	),
 
 	// The default dateformat which will be used on new installs in this language

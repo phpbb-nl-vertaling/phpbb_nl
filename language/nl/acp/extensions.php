@@ -1,15 +1,19 @@
 <?php
 /**
 *
-* acp_extensions [Dutch]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2012 phpBB Group
-* @license http://opensource.org/licenses/gpl-2.0.php GNU Public License
+* @copyright (c) phpBB Limited <https://www.phpbb.com>, phpBBservice.nl <http://www.phpbbservice.nl>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
+
 /**
 */
+
 if (!defined('IN_PHPBB'))
 {
 	exit;
@@ -32,7 +36,6 @@ if (empty($lang) || !is_array($lang))
 // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
-
 
 $lang = array_merge($lang, array(
 	'EXTENSION'					=> 'Extensie',
@@ -84,6 +87,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_DELETE_DATA_CONFIRM'	=> 'Weet je zeker dat je de data die geassocieerd wordt met  “%s” wilt verwijderen?<br /><br />Dit zal alle data en instellingen van de extensie verwijderen en kan niet ongedaan gemaakt worden!',
 	'EXTENSION_DISABLE_CONFIRM'		=> 'Weet je zeker dat je de extensie “%s” wilt uitschakelen?',
 	'EXTENSION_ENABLE_CONFIRM'		=> 'Weet je zeker dat je de extensie “%s” wilt inschakelen?',
+	'EXTENSION_FORCE_UNSTABLE_CONFIRM'	=> 'Weet je zeker dat je het gebruik van de onstabiele versie wilt forceren?',
 
 	'RETURN_TO_EXTENSION_LIST'	=> 'Terug naar de extensielijst',
 
@@ -106,4 +110,15 @@ $lang = array_merge($lang, array(
 	'AUTHOR_EMAIL'			=> 'E-mail',
 	'AUTHOR_HOMEPAGE'		=> 'Homepage',
 	'AUTHOR_ROLE'			=> 'Rol',
+	
+	'NOT_UP_TO_DATE'		=> '%s is niet up-to-date',
+	'UP_TO_DATE'			=> '%s is up-to-date',
+	'ANNOUNCEMENT_TOPIC'	=> 'Versie aankondiging',
+	'DOWNLOAD_LATEST'		=> 'Versie downloaden',
+	'NO_VERSIONCHECK'		=> 'Er is geen versie informatie controle opgegeven.',
+	
+	'VERSIONCHECK_FORCE_UPDATE_ALL'		=> 'Controleer alle versies opnieuw',
+	'FORCE_UNSTABLE'					=> 'Controleer altijd voor onstabiele versies',
+	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'Versie controleinstellingen',
+	
 ));

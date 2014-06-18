@@ -1,11 +1,13 @@
 <?php
 /**
 *
-* help_bbcode [Dutch]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>, phpBBservice.nl <http://www.phpbbservice.nl>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -88,7 +90,7 @@ $help = array(
 	),
 	array(
 		0 => 'Naar een andere website linken',
-		1 => 'BBCode heeft verschillende manieren om URI’s, Uniform Resource Indicators, beter bekend als URL’s te maken.<ul><li>De eerste manier is door de <strong>[url=][/url]</strong> tag te gebruiken, na de = moet je de URL plaatsen. Als je bijvoorbeeld naar phpBBservice.nl linkt kan je dit doen:<br /><br /><strong>[url=http://www.phpbbservice.nl/]</strong>Bezoek phpBB!<strong>[/url]</strong><br /><br />wat zal resulteren in: <a href="http://www.phpbbservice.nl/">Bezoek phpBB!</a>;</li><li>Wij willen er op wijzen dat het aan de instellingen van je browser ligt of deze link in een nieuw of hetzelfde venster opent. Als je gewoon de URL als link wil, kan je dit gebruiken:<br /><br /><strong>[url]</strong>http://www.phpbbservice.nl/<strong>[/url]</strong><br /><br />Wat de volgende link produceert: <a href="http://www.phpbbservice.nl/">http://www.phpbbservice.nl/</a>;</li><li>phpBB heeft ook zoiets als <em>magische links</em>, dit zorgt er voor dat iedere correcte URL in een link verandert, zonder dat je tags moet gebruiken, of de URL met http:// laat beginnen. Als je bijvoorbeeld www.phpbbservice.nl intypt zal dit, als je het bericht bekijkt, automatisch naar <a href="http://www.phpbbservice.nl/">www.phpbbservice.nl</a> verandert worden;</li><li>Hetzelfde gebeurt met e-mailadressen. Je kan een adres expliciet opgeven, bijvoorbeeld:<br /><br /><strong>[email]</strong>niemand@domein.adr<strong>[/email]</strong><br /><br />wat zal resulteren in: <a href="mailto:niemand@domein.adr">niemand@domein.adr</a>, maar je kan ook gewoon niemand@domein.adr in je bericht typen en dat zal dan automatisch vervangen worden als je het bekijkt;</li></ul>Net als met alle BBCodes kan je tags rond elkaar plaatsen zoals <strong>[img][/img]</strong> (zie volgende item), <strong>[b][/b]</strong>, enz. net als bij de opmaaktags is het aan jou om ervoor te zorgen dat de tags correct geopend en weer gesloten worden, bijvoorbeeld:<br /><br /><strong>[url=http://www.google.com/][img]</strong>http://www.google.com/intl/en_ALL/images/logo.gif<strong>[/url][/img]</strong><br /><br />dit is <span style="text-decoration: underline;">niet</span> correct, wat ervoor zou kunnen zorgen dat je bericht verwijderd wordt. Let dus goed op.'
+		1 => 'BBCode heeft verschillende manieren om URI’s, Uniform Resource Indicators, beter bekend als URL’s te maken.<ul><li>De eerste manier is door de <strong>[url=][/url]</strong> tag te gebruiken, na de = moet je de URL plaatsen. Als je bijvoorbeeld naar phpBBservice.nl linkt kan je dit doen:<br /><br /><strong>[url=http://www.phpbbservice.nl/]</strong>Bezoek phpBB!<strong>[/url]</strong><br /><br />wat zal resulteren in: <a href="http://www.phpbbservice.nl/">Bezoek phpBB!</a>;</li><li>Wij willen er op wijzen dat het aan de instellingen van je browser ligt of deze link in een nieuw of hetzelfde venster opent. Als je gewoon de URL als link wil, kan je dit gebruiken:<br /><br /><strong>[url]</strong>http://www.phpbbservice.nl/<strong>[/url]</strong><br /><br />Wat de volgende link geeft: <a href="http://www.phpbbservice.nl/">http://www.phpbbservice.nl/</a>;</li><li>phpBB heeft ook zoiets als <em>magische links</em>, dit zorgt er voor dat iedere correcte URL in een link verandert, zonder dat je tags moet gebruiken, of de URL met http:// laat beginnen. Als je bijvoorbeeld www.phpbbservice.nl intypt zal dit als je het bericht bekijkt automatisch naar <a href="http://www.phpbbservice.nl/">www.phpbbservice.nl</a> verandert worden;</li><li>Hetzelfde gebeurt met e-mailadressen. Je kan een adres expliciet opgeven, bijvoorbeeld:<br /><br /><strong>[email]</strong>niemand@domein.adr<strong>[/email]</strong><br /><br />wat zal resulteren in: <a href="mailto:niemand@domein.adr">niemand@domein.adr</a>, maar je kan ook gewoon niemand@domein.adr in je bericht typen en dat zal dan automatisch vervangen worden als je het bekijkt;</li></ul>Net als met alle BBCodes kan je tags rond elkaar plaatsen zoals <strong>[img][/img]</strong> (zie volgende item), <strong>[b][/b]</strong>, enz. net als bij de opmaaktags is het aan jou om ervoor te zorgen dat de tags correct geopend en weer gesloten worden, bijvoorbeeld:<br /><br /><strong>[url=http://www.phpbbservice.nl][img]</strong>http://www.phpbb.com/theme/images/logos/blue/160x52.png<strong>[/url][/img]</strong><br /><br />dit is <span style="text-decoration: underline;">niet</span> correct, wat ervoor zou kunnen zorgen dat je bericht verwijderd wordt. Let dus goed op.'
 	),
 	array(
 		0 => '--',
@@ -96,7 +98,7 @@ $help = array(
 	),
 	array(
 		0 => 'Een afbeelding toevoegen aan een bericht',
-		1 => 'phpBB BBCode heeft een tag om afbeeldingen aan het bericht toe te voegen. Er zijn twee heel belangrijke dingen waarmee je rekening moet houden als je deze tag gebruikt: veel gebruikers houden niet van veel afbeeldingen in een bericht en de afbeelding moet zich op het internet bevinden (het bestand mag dus bijvoorbeeld niet alleen op jouw computer staan, behalve als je zelf een webserver draait!). Om een afbeelding weer te geven moet je de URL naar de afbeelding tussen <strong>[img]</strong> en <strong>[/img]</strong> tags plaatsen. Bijvoorbeeld:<br /><br /><strong>[img]</strong>http://www.google.com/intl/en_ALL/images/logo.gif<strong>[/img]</strong><br /><br />Je kan, als je wilt, een afbeelding ook tussen <strong>[url][/url]</strong> tag plaatsen, vb:<br /><br /><strong>[url=http://www.google.com/][img]</strong>http://www.google.com/intl/en_ALL/images/logo.gif<strong>[/img][/url]</strong><br /><br />dit wordt dan:<br /><br /><a href="http://www.google.com/"><img src="http://www.google.com/intl/en_ALL/images/logo.gif" alt="" /></a>'
+		1 => 'phpBB BBCode heeft een tag om afbeeldingen aan het bericht toe te voegen. Er zijn twee heel belangrijke dingen waarmee je rekening moet houden als je deze tag gebruikt: veel gebruikers houden niet van veel afbeeldingen in een bericht en de afbeelding moet zich op het internet bevinden (het bestand mag dus bijvoorbeeld niet alleen op jouw computer staan, behalve als je zelf een webserver draait!). Om een afbeelding weer te geven moet je de URL naar de afbeelding tussen <strong>[img]</strong> en <strong>[/img]</strong> tags plaatsen. Bijvoorbeeld:<br /><br /><strong>[img]</strong>http://www.phpbb.com/theme/images/logos/blue/160x52.png<<strong>[/img]</strong><br /><br />Je kan, als je wilt, een afbeelding ook tussen <strong>[url][/url]</strong> tag plaatsen, voorbeeld:<br /><br /><strong>[url=http://www.phpbbservice.nl][img]</strong>http://www.phpbb.com/theme/images/logos/blue/160x52.png<strong>[/img][/url]</strong><br /><br />dit wordt dan:<br /><br /><a href="http://www.phpbbservice.nl/"><img src="http://www.phpbb.com/theme/images/logos/blue/160x52.png<" alt="" /></a>'
 	),
 	array(
 		0 => 'Een bijlage aan een bericht toevoegen',
@@ -109,5 +111,5 @@ $help = array(
 	array(
 		0 => 'Kan ik mijn eigen tags toevoegen?',
 		1 => 'Als je beheerder van dit forum bent en over de nodige permissies beschikt, kan je extra BBCodes toevoegen in het beheerderspaneel op de pagina van "aangepaste BBCodes".'
-	)
+	),
 );

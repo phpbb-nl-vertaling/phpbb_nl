@@ -1,11 +1,13 @@
 <?php
 /**
 *
-* acp_forums [Dutch]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>, phpBBservice.nl <http://www.phpbbservice.nl>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -101,6 +103,8 @@ $lang = array_merge($lang, array(
 	'FORUM_PASSWORD_OLD'				=> 'Het forumwachtwoord gebruikt een oude hashing methode en moet veranderd worden.',
 	'FORUM_PASSWORD_MISMATCH'			=> 'De wachtwoorden die je hebt ingevuld komen niet overeen.',
 	'FORUM_PRUNE_SETTINGS'				=> 'Forum opschoningsinstellingen',
+	'FORUM_PRUNE_SHADOW'				=> 'Automatisch opschonen van schaduwonderwerpen inschakelen',
+	'FORUM_PRUNE_SHADOW_EXPLAIN'		=> 'Verwijderd de schaduwonderwerpen na een bepaalde tijd die hieronder is opgegeven.',
 	'FORUM_RESYNCED'					=> 'Forum “%s” succesvol gesynchroniseerd',
 	'FORUM_RULES_EXPLAIN'				=> 'Forumregels worden weergegeven op iedere pagina in het opgegeven forum.',
 	'FORUM_RULES_LINK'					=> 'Link naar forumregels',

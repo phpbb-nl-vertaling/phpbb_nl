@@ -1,11 +1,13 @@
 <?php
 /**
 *
-* app [Dutch]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2012 phpBB Group
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>, phpBBservice.nl <http://www.phpbbservice.nl>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -41,9 +43,6 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'CONTROLLER_ARGUMENT_VALUE_MISSING'	=> 'Missende waarde voor argument #%1$s: <strong>%3$s</strong> in class <strong>%2$s</strong>',
 	'CONTROLLER_NOT_SPECIFIED'			=> 'Er is geen controller gespecificeerd.',
-	'CONTROLLER_NOT_FOUND'				=> 'De gevraagde pagina kon niet gevonden worden.',
 	'CONTROLLER_METHOD_NOT_SPECIFIED'	=> 'Er is geen methode gespecificeerd voor de controller.',
-	'CONTROLLER_SERVICE_NOT_GIVEN'		=> 'De controller "<strong>%s</strong>" moet een service hebben die gespecificeerd is in ./config/routing.yml.',
 	'CONTROLLER_SERVICE_UNDEFINED'		=> 'De service voor controller "<strong>%s</strong>" is niet gedefinieerd in ./config/services.yml.',
-	'CONTROLLER_RETURN_TYPE_INVALID'	=> 'Het controller object <strong>%s</strong> moet een Symfony\Component\HttpFoundation\Response object terugsturen.',
 ));

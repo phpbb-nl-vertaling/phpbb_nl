@@ -1,11 +1,13 @@
 <?php
 /**
 *
-* acp_common [Dutch]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>, phpBBservice.nl <http://www.phpbbservice.nl>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -563,7 +565,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_TOPIC_APPROVED'		=> '<strong>Onderwerp goedgekeurd</strong><br />» %s',
 	'LOG_TOPIC_RESTORED'		=> '<strong>Onderwerp teruggehaald</strong><br />» %s',
-	'LOG_TOPIC_DISAPPROVED'		=> '<strong>Onderwerp “%1$s” afgekeurd met de volgende reden</strong><br />%2$s',
+	'LOG_TOPIC_DISAPPROVED'		=> '<strong>Onderwerp “%1$s” afgekeurd dat geschreven is door “%3$s” voor de volgende reden</strong><br />» %2$s',
 	'LOG_TOPIC_RESYNC'			=> '<strong>Onderwerptellers gesynchroniseerd</strong><br />» %s',
 	'LOG_TOPIC_TYPE_CHANGED'	=> '<strong>Onderwerptype veranderd</strong><br />» %s',
 	'LOG_UNLOCK'				=> '<strong>Onderwerp geopend</strong><br />» %s',
@@ -669,13 +671,13 @@ $lang = array_merge($lang, array(
 
 	'LOG_PRUNE'					=> '<strong>Forums opgeschoond</strong><br />» %s',
 	'LOG_AUTO_PRUNE'			=> '<strong>Forums automatisch opgeschoond</strong><br />» %s',
+	'LOG_PRUNE_SHADOW'			=> '<strong>Automatisch schaduwonderwerpen opgeschoond</strong><br />» %s',
 	'LOG_PRUNE_USER_DEAC'		=> '<strong>Gebruikers gedeactiveerd</strong><br />» %s',
 	'LOG_PRUNE_USER_DEL_DEL'	=> '<strong>Gebruikers opgeschoond en berichten verwijderd</strong><br />» %s',
 	'LOG_PRUNE_USER_DEL_ANON'	=> '<strong>Gebruikers opgeschoond en berichten behouden</strong><br />» %s',
 
 	'LOG_PURGE_CACHE'			=> '<strong>Cache opgeschoond</strong>',
 	'LOG_PURGE_SESSIONS'		=> '<strong>Sessies opgeschoond</strong>',
-
 
 	'LOG_RANK_ADDED'		=> '<strong>Nieuwe rang toegevoegd</strong><br />» %s',
 	'LOG_RANK_REMOVED'		=> '<strong>Rang verwijderd</strong><br />» %s',
@@ -688,7 +690,7 @@ $lang = array_merge($lang, array(
 	'LOG_REFERER_INVALID'		=> '<strong>Verwijzingsvalidatie mislukt</strong><br />»Verwijzing was “<em>%1$s</em>”. De aanvraag is afgewezen en de sessie gestopt.',
 	'LOG_RESET_DATE'			=> '<strong>Forum opstartdatum gereset</strong>',
 	'LOG_RESET_ONLINE'			=> '<strong>Meeste gebruikers online gereset</strong>',
-	'LOG_RESYNC_FILES_STATS'	=> '<strong>Bestandenstatistieken gesynchroniseerd</strong>',
+	'LOG_RESYNC_FILES_STATS'	=> '<strong>Bestandstatistieken gesynchroniseerd</strong>',
 	'LOG_RESYNC_POSTCOUNTS'		=> '<strong>Gebruiker berichtentellers gesynchroniseerd</strong>',
 	'LOG_RESYNC_POST_MARKING'	=> '<strong>Gestipte onderwerpen gesynchroniseerd</strong>',
 	'LOG_RESYNC_STATS'			=> '<strong>Bericht, onderwerp en gebruikersstatistieken gesynchroniseerd</strong>',
@@ -768,10 +770,17 @@ $lang = array_merge($lang, array(
 	'LOG_USER_GROUP_RESIGN'			=> '<strong>Gebruiker heeft lidmaatschap opgezegd van groep</strong><br />» %s',
 
 	'LOG_WARNING_DELETED'		=> '<strong>Gebruiker waarschuwing verwijderd</strong><br />» %s',
-	'LOG_WARNINGS_DELETED'		=> '<strong>2$s gebruiker waarschuwingen verwijderd</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
+	'LOG_WARNINGS_DELETED'		=> array(
+		1 => '<strong>Gebruikerswaarschuwing verwijderd</strong><br />» %1$s',
+		2 => '<strong>%2$d gebruikerswaarschuwingen verwijderd</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
+	),	
 	'LOG_WARNINGS_DELETED_ALL'	=> '<strong>Alle gebruiker waarschuwingen verwijderd</strong><br />» %s',
 
 	'LOG_WORD_ADD'			=> '<strong>woordcensuur toegevoegd</strong><br />» %s',
 	'LOG_WORD_DELETE'		=> '<strong>Woordcensuur verwijderd</strong><br />» %s',
 	'LOG_WORD_EDIT'			=> '<strong>Woordcensuur gewijzigd</strong><br />» %s',
+	
+	'LOG_EXT_ENABLE'	=> '<strong>Extensie ingeschakeld</strong><br />» %s',
+	'LOG_EXT_DISABLE'	=> '<strong>Extensie uitgeschakeld</strong><br />» %s',
+	'LOG_EXT_PURGE'		=> '<strong>Extensie gegevens verwijderd</strong><br />» %s',	
 ));

@@ -1,11 +1,13 @@
 <?php
 /**
 *
-* install [Dutch]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>, phpBBservice.nl <http://www.phpbbservice.nl>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -440,128 +442,128 @@ $lang = array_merge($lang, array(
 	'FTP_SETTINGS'					=> 'FTP-instellingen',
 	'FTP_UPDATE_METHOD'				=> 'FTP-upload',
 
-	'INCOMPATIBLE_UPDATE_FILES'		=> 'The update files found are incompatible with your installed version. Your installed version is %1$s and the update file is for updating phpBB %2$s to %3$s.',
+	'INCOMPATIBLE_UPDATE_FILES'		=> 'De update-bestanden zijn incompleet met de geïnstalleerde versie. De geïnstaleerde versie is %1$s en de update-bestanden zijn voor het bijwerken van phpBB %2$s naar %3$s.',
 	'INCOMPLETE_UPDATE_FILES'		=> 'De bijgewerkte bestanden zijn niet compleet.',
-	'INLINE_UPDATE_SUCCESSFUL'		=> 'The database update was successful. Now you need to continue the update process.',
+	'INLINE_UPDATE_SUCCESSFUL'		=> 'Het bijwerken van de database is succesvol voltooid. Nu kan je verder gaan met de update.',
 
-	'KEEP_OLD_NAME'		=> 'Keep username',
+	'KEEP_OLD_NAME'		=> 'Gebruikersnaam behouden',
 
-	'LATEST_VERSION'		=> 'Latest version',
-	'LINE'					=> 'Line',
-	'LINE_ADDED'			=> 'Added',
-	'LINE_MODIFIED'			=> 'Modified',
-	'LINE_REMOVED'			=> 'Removed',
-	'LINE_UNMODIFIED'		=> 'Unmodified',
-	'LOGIN_UPDATE_EXPLAIN'	=> 'In order to update your installation you need to login first.',
+	'LATEST_VERSION'		=> 'Laatste versie',
+	'LINE'					=> 'Regel',
+	'LINE_ADDED'			=> 'Toegevoegd',
+	'LINE_MODIFIED'			=> 'Aangepast',
+	'LINE_REMOVED'			=> 'Verwijderd',
+	'LINE_UNMODIFIED'		=> 'Niet aangepast',
+	'LOGIN_UPDATE_EXPLAIN'	=> 'Om de installatie te kunnen bijwerken moet je eerst aangemeld zijn.',
 
-	'MAPPING_FILE_STRUCTURE'	=> 'To ease the upload here are the file locations which map your phpBB installation.',
+	'MAPPING_FILE_STRUCTURE'	=> 'Om het uploaden te vereenvoudingen zijn hier de locaties waar de bestanden te vinden zijn in je phpBB-installatie.',
 
-	'MERGE_MODIFICATIONS_OPTION'	=> 'Merge modifications',
+	'MERGE_MODIFICATIONS_OPTION'	=> 'Modificaties samenvoegen',
 
-	'MERGE_NO_MERGE_NEW_OPTION'	=> 'Do not merge - use new file',
-	'MERGE_NO_MERGE_MOD_OPTION'	=> 'Do not merge - use currently installed file',
-	'MERGE_MOD_FILE_OPTION'		=> 'Merge modifications (removes new phpBB code within conflicting block)',
-	'MERGE_NEW_FILE_OPTION'		=> 'Merge modifications (removes modified code within conflicting block)',
-	'MERGE_SELECT_ERROR'		=> 'Conflicting file merge modes are not correctly selected.',
-	'MERGING_FILES'				=> 'Merging differences',
-	'MERGING_FILES_EXPLAIN'		=> 'Currently collecting final file changes.<br /><br />Please wait until phpBB has completed all operations on changed files.',
+	'MERGE_NO_MERGE_NEW_OPTION'	=> 'Niet samenvoegen - gebruik een nieuw bestand',
+	'MERGE_NO_MERGE_MOD_OPTION'	=> 'Niet samenvoegen - gebruik het huidig geïnstalleerde bestand',
+	'MERGE_MOD_FILE_OPTION'		=> 'Modificaties samenvoegen (Verwijdert de nieuwe phpBB-code binnen het blok dat een conflict vormt)',
+	'MERGE_NEW_FILE_OPTION'		=> 'Modificaties samenvoegen (Verwijdert de aangepaste code binnen het blok dat een conflict vormt)',
+	'MERGE_SELECT_ERROR'		=> 'Conflicterende bestands samenvoegings-mode is niet correct geselecteerd.',
+	'MERGING_FILES'				=> 'Verschillen samenvoegen',
+	'MERGING_FILES_EXPLAIN'		=> 'Momenteel bezig met het verzamelen van de uiteindelijke bestandswijzigingen.<br /><br />Wacht totdat phpBB alle acties heeft uitgevoerd op de gewijzigde bestanden.',
 
-	'NEW_FILE'						=> 'End of Conflict',
-	'NEW_USERNAME'					=> 'New username',
-	'NO_AUTH_UPDATE'				=> 'Not authorised to update',
-	'NO_ERRORS'						=> 'No errors',
-	'NO_UPDATE_FILES'				=> 'Not updating the following files',
-	'NO_UPDATE_FILES_EXPLAIN'		=> 'The following files are new or modified but the directory they normally reside in could not be found on your installation. If this list contains files to other directories than language/ or styles/ than you may have modified your directory structure and the update may be incomplete.',
-	'NO_UPDATE_FILES_OUTDATED'		=> 'No valid update directory was found, please make sure you uploaded the relevant files.<br /><br />Your installation does <strong>not</strong> seem to be up to date. Updates are available for your version of phpBB %1$s, please visit <a href="https://www.phpbb.com/downloads/" rel="external">https://www.phpbb.com/downloads/</a> to obtain the correct package to update from Version %2$s to Version %3$s.',
-	'NO_UPDATE_FILES_UP_TO_DATE'	=> 'Your version is up to date. There is no need to run the update tool. If you want to make an integrity check on your files make sure you uploaded the correct update files.',
-	'NO_UPDATE_INFO'				=> 'Update file information could not be found.',
-	'NO_UPDATES_REQUIRED'			=> 'No updates required',
-	'NO_VISIBLE_CHANGES'			=> 'No visible changes',
-	'NOTICE'						=> 'Notice',
-	'NUM_CONFLICTS'					=> 'Number of conflicts',
-	'NUMBER_OF_FILES_COLLECTED'		=> 'Currently differences from %1$d of %2$d files have been checked.<br />Please wait until all files are checked.',
+	'NEW_FILE'						=> 'Einde van het conflict',
+	'NEW_USERNAME'					=> 'Nieuwe gebruikersnaam',
+	'NO_AUTH_UPDATE'				=> 'Je hebt niet voldoende rechten om te kunnen updaten',
+	'NO_ERRORS'						=> 'Geen fouten',
+	'NO_UPDATE_FILES'				=> 'De volgende bestanden zijn niet bijgewerkt',
+	'NO_UPDATE_FILES_EXPLAIN'		=> 'De volgende bestanden zijn nieuw of aangepast maar de directory waar ze zich normaal in bevinden kon niet worden gevonden in je installatie. Als deze lijst andere bestanden bevat van andere directory dan language of styles/ dan heb je waarschijnlijk de directory structuur aangepast en dan is de update waarschijnlijk incompleet.',
+	'NO_UPDATE_FILES_OUTDATED'		=> 'Er is geen geldige update-directory gevonden, wees er zeker van dat je de relevante bestanden hebt geüpload.<br /><br />Je installatie blijkt <strong>niet</strong> up-to-date te zijn. Update-pakketten zijn beschikbaar voor je versie van phpBB %1$s, bezoek daarvoor <a href="http://www.phpbbservice.nl/downloads/" rel="external">http://www.phpbbservice.nl/downloads/</a> om het correcte pakket te verkrijgen om te updaten van versie %2$s naar versie %3$s.',
+	'NO_UPDATE_FILES_UP_TO_DATE'	=> 'Je versie is up-to-date. Het is niet nodig om het update-hulpmiddel uit te voeren. Als je een integriteitscontrole wilt uitvoeren op de bestanden, wees er dan zeker van dat je de correcte update-bestanden upload.',
+	'NO_UPDATE_INFO'				=> 'Het update informatiebestand kan niet worden gevonden.',
+	'NO_UPDATES_REQUIRED'			=> 'Er zijn geen updates nodig',
+	'NO_VISIBLE_CHANGES'			=> 'Er zijn geen zichtbare wijzigingen',
+	'NOTICE'						=> 'Notitie',
+	'NUM_CONFLICTS'					=> 'Aantal conflicten',
+	'NUMBER_OF_FILES_COLLECTED'		=> 'Momenteel zijn er %1$d van de %2$d bestanden gecontroleerd op verschillen.<br />Wacht totdat alle bestanden zijn gecontroleerd.',
 
-	'OLD_UPDATE_FILES'		=> 'Update files are out of date. The update files found are for updating from phpBB %1$s to phpBB %2$s but the latest version of phpBB is %3$s.',
+	'OLD_UPDATE_FILES'		=> 'De update-bestanden zijn niet up-to-date. De update-bestanden die gevonden zijn, zijn voor een update van phpBB %1$s naar phpBB %2$s, maar de laatste versie van phpBB is %3$s.',
 
-	'PACKAGE_UPDATES_TO'				=> 'Current package updates to version',
-	'PERFORM_DATABASE_UPDATE'			=> 'Perform database update',
-	'PERFORM_DATABASE_UPDATE_EXPLAIN'	=> 'Below you will find a button to the database update script. The database update can take a while, so please do not stop the execution if it seems to hang. After the database update has been performed just follow the instructions to continue the update process.',
-	'PREVIOUS_VERSION'					=> 'Previous version',
-	'PROGRESS'							=> 'Progress',
+	'PACKAGE_UPDATES_TO'				=> 'Huidig pakket werkt versie bij naar',
+	'PERFORM_DATABASE_UPDATE'			=> 'Start een database-update',
+	'PERFORM_DATABASE_UPDATE_EXPLAIN'	=> 'Hieronder vindt je een knop naar het update-database-script. De database-update kan eventjes duren, stop het script niet als het eventueel lijkt dat het vastloopt. Nadat de database-update succesvol is uitgevoerd, volg je de instructies om door te gaan met het update-proces.',
+	'PREVIOUS_VERSION'					=> 'Vorige versie',
+	'PROGRESS'							=> 'Vooruitgang',
 
-	'RELEASE_ANNOUNCEMENT'		=> 'Announcement',
-	'RESULT'					=> 'Result',
+	'RELEASE_ANNOUNCEMENT'		=> 'Aankondiging',
+	'RESULT'					=> 'Resultaat',
 	'RUN_DATABASE_SCRIPT'		=> 'Mijn database nu bijwerken',
 
-	'SELECT_DIFF_MODE'			=> 'Select diff mode',
-	'SELECT_DOWNLOAD_FORMAT'	=> 'Select download archive format',
-	'SELECT_FTP_SETTINGS'		=> 'Select FTP settings',
-	'SHOW_DIFF_CONFLICT'		=> 'Show differences/conflicts',
-	'SHOW_DIFF_FINAL'			=> 'Show resulting file',
-	'SHOW_DIFF_MODIFIED'		=> 'Show merged differences',
-	'SHOW_DIFF_NEW'				=> 'Show file contents',
-	'SHOW_DIFF_NEW_CONFLICT'	=> 'Show differences',
-	'SHOW_DIFF_NOT_MODIFIED'	=> 'Show differences',
-	'SOME_QUERIES_FAILED'		=> 'Some queries failed, the statements and errors are listed below.',
+	'SELECT_DIFF_MODE'			=> 'Diff-mode selecteren',
+	'SELECT_DOWNLOAD_FORMAT'	=> 'Bestandsformaat voor het archief kiezen',
+	'SELECT_FTP_SETTINGS'		=> 'FTP-instellingen selecteren',
+	'SHOW_DIFF_CONFLICT'		=> 'Verschillen/conflicten weergeven',
+	'SHOW_DIFF_FINAL'			=> 'Uiteindelijk bestand weergeven',
+	'SHOW_DIFF_MODIFIED'		=> 'Samengevoegde verschillen weergeven',
+	'SHOW_DIFF_NEW'				=> 'Bestandsinhoud weergeven',
+	'SHOW_DIFF_NEW_CONFLICT'	=> 'Verschillen weergeven',
+	'SHOW_DIFF_NOT_MODIFIED'	=> 'Verschillen weergeven',
+	'SOME_QUERIES_FAILED'		=> 'Sommige queries zijn mislukt, welke dat zijn en de fouten zijn hieronder weergegeven.',
 	'SQL'						=> 'SQL',
-	'SQL_FAILURE_EXPLAIN'		=> 'This is probably nothing to worry about, update will continue. Should this fail to complete you may need to seek help at our support forums. See <a href="../docs/README.html">README</a> for details on how to obtain advice.',
-	'STAGE_FILE_CHECK'			=> 'Check files',
-	'STAGE_UPDATE_DB'			=> 'Update database',
-	'STAGE_UPDATE_FILES'		=> 'Update files',
-	'STAGE_VERSION_CHECK'		=> 'Version check',
-	'STATUS_CONFLICT'			=> 'Modified file producing conflicts',
-	'STATUS_MODIFIED'			=> 'Modified file',
+	'SQL_FAILURE_EXPLAIN'		=> 'Dit is mogelijk nergens om je zorgen over te maken, de update zal worden hervat. Mocht dit mislukken en je kan niet het update-proces voltooien dan zal je ondersteuning moeten vragen op onze <a href="http://www.phpBBservice.nl/forum/">supportforums</a>. Lees ook de <a href="../docs/README.html">README</a> voor verdere informatie over het verkijgen van verdere hulp of bezoek de website van <a href="http://www.phpBBservice.nl">phpBBservice.nl</a>.',
+	'STAGE_FILE_CHECK'			=> 'Bestanden controleren',
+	'STAGE_UPDATE_DB'			=> 'Database bijwerken',
+	'STAGE_UPDATE_FILES'		=> 'Bestanden bijwerken',
+	'STAGE_VERSION_CHECK'		=> 'Versiecontrole',
+	'STATUS_CONFLICT'			=> 'Aangepast bestand veroorzaakt conflicten',
+	'STATUS_MODIFIED'			=> 'Aangepast bestand',
 	'STATUS_NEW'				=> 'Nieuw bestand',
-	'STATUS_NEW_CONFLICT'		=> 'Conflicting new file',
-	'STATUS_NOT_MODIFIED'		=> 'Not modified file',
-	'STATUS_UP_TO_DATE'			=> 'Already updated file',
+	'STATUS_NEW_CONFLICT'		=> 'Nieuw conflicterend bestand',
+	'STATUS_NOT_MODIFIED'		=> 'Niet aangepast bestand',
+	'STATUS_UP_TO_DATE'			=> 'Bestand is al bijgewerkt',
 
-	'TOGGLE_DISPLAY'			=> 'View/Hide file list',
-	'TRY_DOWNLOAD_METHOD'		=> 'You may want to try the download modified files method.<br />This method always works and is also the recommended update path.',
-	'TRY_DOWNLOAD_METHOD_BUTTON'=> 'Try this method now',
+	'TOGGLE_DISPLAY'			=> 'Bestandslijst bekijken/verbergen',
+	'TRY_DOWNLOAD_METHOD'		=> 'Je mag proberen om de aangepaste bestandsmethode te downloaden.<br />Deze methode werkt altijd, en het is ook de aanbevolen update-methode.',
+	'TRY_DOWNLOAD_METHOD_BUTTON'=> 'Probeer deze methode nu',
 
-	'UPDATE_COMPLETED'				=> 'Update completed',
-	'UPDATE_DATABASE'				=> 'Update database',
-	'UPDATE_DATABASE_EXPLAIN'		=> 'Within the next step the database will be updated.',
-	'UPDATE_DATABASE_SCHEMA'		=> 'Updating database schema',
-	'UPDATE_FILES'					=> 'Update files',
-	'UPDATE_FILES_NOTICE'			=> 'Please make sure you have updated your board files too, this file is only updating your database.',
-	'UPDATE_INSTALLATION'			=> 'Update phpBB installation',
-	'UPDATE_INSTALLATION_EXPLAIN'	=> 'With this option, it is possible to update your phpBB installation to the latest version.<br />During the process all of your files will be checked for their integrity. You are able to review all differences and files before the update.<br /><br />The file update itself can be done in two different ways.</p><h2>Manual Update</h2><p>With this update you only download your personal set of changed files to make sure you do not lose your file modifications you may have done. After you downloaded this package you need to manually upload the files to their correct position under your phpBB root directory. Once done, you are able to do the file check stage again to see if you moved the files to their correct location.</p><h2>Automatic Update with FTP</h2><p>This method is similar to the first one but without the need to download the changed files and uploading them on your own. This will be done for you. In order to use this method you need to know your FTP login details since you will be asked for them. Once finished you will be redirected to the file check again to make sure everything got updated correctly.<br /><br />',
+	'UPDATE_COMPLETED'				=> 'Update voltooid',
+	'UPDATE_DATABASE'				=> 'Database bijwerken',
+	'UPDATE_DATABASE_EXPLAIN'		=> 'Met de volgende stappen zal de database worden bijgewerkt.',
+	'UPDATE_DATABASE_SCHEMA'		=> 'Bezig met het bijwerken van het database-schema',
+	'UPDATE_FILES'					=> 'Bestanden bijwerken',
+	'UPDATE_FILES_NOTICE'			=> 'Wees er ook zeker van dat je de forumbestanden ook bijgewerkt hebt, dit bestand werkt alleen de database bij.',
+	'UPDATE_INSTALLATION'			=> 'phpBB-installatie bijwerken',
+	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Met deze optie, is het mogelijk om je phpBB-installatie te updaten naar de laatste versie.<br />Tijdens het proces zullen alle bestanden gecontroleerd worden op hun aanwezigheid. Je kan ook alle verschillen bekijken van de bestanden voordat je gaat updaten.<br /><br />De bestandsupdate kan je op twee manieren doen.</p><h2>Handmatige update</h2><p>Met deze update download je alleen je persoonlijke set van gewijzigde bestanden om er zeker van te zijn dat je geen modificaties kwijt raakt die je hebt geïnstalleerd. Nadat je dit pakket hebt gedownload, zal je de bestanden handmatig moeten uploaden naar hun correcte plaats in je phpBB-hoofdmap, dus waar je de bestanden config.php, memberlist.php, enz kan terugvinden. Wanneer je dat hebt gedaan, kan je een bestandscontrole doen dat je laat zien of de bestanden correct zijn geüpload naar de juiste locatie.</p><h2>Automatische update met de FTP</h2><p>Deze methode is bijna hetzelfde als de eerste, maar met deze methode hoef je niet de gewijzigde bestanden te downloaden naar je eigen computer. Dit wordt namelijk gedaan voor je. Om deze methode te gebruiken heb je de FTP-aanmeldingsgegevens nodig wanneer er naar wordt gevraagd. Wanneer dat klaar is, zal je worden herleidt naar de bestandscontrolemethode dat controleert of alles correct is bijgewerkt.<br /><br />',
 	'UPDATE_INSTRUCTIONS'			=> '
 
-		<h1>Release announcement</h1>
+		<h1>Versiemededeling</h1>
 
-		<p>Please read the release announcement for the latest version before you continue your update process, it may contain useful information. It also contains full download links as well as the change log.</p>
+		<p>Lees de (Engelstalige) <a href="%1$s" title="%1$s"><strong>mededeling van de laatste versie</strong></a> voordat je het update-proces hervat, het kan belangrijke informatie bevatten. Het bevat ook de volledige downloadlinks en het overzicht van de wijzigingen in vergelijking met de vorige versie ( changelog ).</p>
 
 		<br />
 
-		<h1>How to update your installation with the Automatic Update Package</h1>
+		<h1>Hoe update je je installatie met het Automatische update-pakket?</h1>
 
-		<p>The recommended way of updating your installation listed here is only valid for the automatic update package. You are also able to update your installation using the methods listed within the INSTALL.html document. The steps for updating phpBB3 automatically are:</p>
+		<p>De aangeraden manier van updaten van uw installatie die hieronder staat is alleen geldig voor het Automatische update-pakket. Je mag ook je installatie bijwerken met de methodes die beschreven zijn in het <a href="../docs/INSTALL.html">INSTALL.html</a> document. De stappen om phpBB3 automatisch te updaten zijn als volgt:</p>
 
 		<ul style="margin-left: 20px; font-size: 1.1em;">
-			<li>Go to the <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">phpBB.com downloads page</a> and download the "Automatic Update Package" archive.<br /><br /></li>
-			<li>Unpack the archive.<br /><br /></li>
-			<li>Upload the complete uncompressed install folder to your phpBB root directory (where your config.php file is).<br /><br /></li>
+			<li>Ga naar de <a href="http://www.phpBBservice.nl/downloads/" title="http://www.phpBBservice.nl/downloads/">phpBBservice.nl downloads-pagina</a> en download het "Automatisch update-pakket".<br /><br /></li>
+            <li>Pak het archiefbestand uit.<br /><br /></li>
+			<li>Upload de compleet uitgepakte install-map naar uw phpBB-hoofdmap (waar u het bestand config.php terug kan vinden).<br /><br /></li>
 		</ul>
 
-		<p>Once uploaded your board will be offline for normal users due to the install directory you uploaded now present.<br /><br />
-		<strong><a href="%1$s" title="%1$s">Now start the update process by pointing your browser to the install folder</a>.</strong><br />
+		<p>Wanneer je het geüpload hebt naar je forum, zal het forum uitgeschakeld zijn voor normale bezoekers wanneer de install-map aanwezig is.<br /><br />
+		<strong><a href="%2$s" title="%2$s">Update-proces nu staren doormiddel van uw internet-browser te richten op de install-map</a>.</strong><br />
 		<br />
-		You will then be guided through the update process. You will be notified once the update is complete.
+		Je zal dan worden herleid naar het updateproces. Je zal daarna op de hoogte worden gehouden wanneer het bijwerken klaar is.
 		</p>
 	',
 
-	'UPDATE_METHOD'					=> 'Update methode',
-	'UPDATE_METHOD_EXPLAIN'			=> 'You are now able to choose your preferred update method. Using the FTP upload will present you with a form you need to enter your FTP account details into. With this method the files will be automatically moved to the new location and backups of the old files being created by appending .bak to the filename. If you choose to download the modified files you are able to unpack and upload them to their correct location manually later.',
-	'UPDATE_REQUIRES_FILE'			=> 'The updater requires that the following file is present: %s',
-	'UPDATE_SUCCESS'				=> 'Update was successful',
-	'UPDATE_SUCCESS_EXPLAIN'		=> 'Successfully updated all files. The next step involves checking all files again to make sure the files got updated correctly.',
-	'UPDATE_VERSION_OPTIMIZE'		=> 'Updating version and optimising tables',
-	'UPDATING_DATA'					=> 'Updating data',
-	'UPDATING_TO_LATEST_STABLE'		=> 'Updating database to latest stable release',
-	'UPDATED_VERSION'				=> 'Updated version',
+	'UPDATE_METHOD'					=> 'Update-methode',
+	'UPDATE_METHOD_EXPLAIN'			=> 'Je kan hier de update-methode selecteren. Als je gebruikt maakt van de FTP-upload optie, dan zal er een formulier worden weergegeven waarbij je de FTP-accountgegevens moet invoeren. Met deze methode zullen alle bestanden automatisch worden verplaatst naar de nieuwe locatie en back-ups van de oude bestanden zullen ook worden gemaakt doormiddel van .bak in de bestandsnaam. Als u ervoor kiest om de aangepaste bestanden te downloaden moet je ze eerst uitpakken en later handmatig uploaden naar de juiste locatie.',
+	'UPDATE_REQUIRES_FILE'			=> 'Voor het update-script moet het volgende bestand aanwezig zijn: %s',
+	'UPDATE_SUCCESS'				=> 'Update is succesvol',
+	'UPDATE_SUCCESS_EXPLAIN'		=> 'Alle bestanden zijn succesvol bijgewerkt. De volgende stap heeft betrekking op het controleren van al je bestanden, wees er dus zeker van dat je alle bestanden goed hebt geüpload.',
+	'UPDATE_VERSION_OPTIMIZE'		=> 'Bezig met het bijwerken van de versie en optimaliseren van de tabellen',
+	'UPDATING_DATA'					=> 'Gegevens aan het bijwerken',
+	'UPDATING_TO_LATEST_STABLE'		=> 'Database bijwerken naar de laatst stabiele versie',
+	'UPDATED_VERSION'				=> 'Bijgewerkte versie',
 	'UPLOAD_METHOD'					=> 'Uploadmethode',
 
 	'UPDATE_DB_SUCCESS'				=> 'Database-update was succesvol.',

@@ -12,7 +12,7 @@ Gebruikersnaam: {USERNAME}
 Forum URL: {U_BOARD}
 ----------------------------
 
-Handige informatie over de phpBB software kan gevonden worden in de docs map van je installatie en op de phpBB.com ondersteuningspagina - https://www.phpbb.com/support/
+Handige informatie over de phpBB software kan gevonden worden in de docs map van je installatie en op de phpBB.com ondersteuningspagina - https://www.phpbb.com/support/ of op de Nederlandse website http://www.phpbbservice.nl
 
 Om je forum veilig en bijgewerkt te hebben, is het sterk aanbevolen om de meest actuele versie te installeren. Voor je geruststelling, een mailinglijst is beschikbaar op de pagina wat hierboven is aangegeven.
 

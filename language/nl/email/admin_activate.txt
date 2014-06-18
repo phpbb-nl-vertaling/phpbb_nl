@@ -10,5 +10,4 @@ Gebruik de volgende link om het gebruikersprofiel te bekijken:
 Gebruik deze link om het gebruikersaccount te activeren:
 {U_ACTIVATE}
 
-
 {EMAIL_SIG}

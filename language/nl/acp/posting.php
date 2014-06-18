@@ -1,11 +1,13 @@
 <?php
 /**
 *
-* acp_posting [Dutch]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>, phpBBservice.nl <http://www.phpbbservice.nl>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -86,7 +88,7 @@ $lang = array_merge($lang, array(
 		'LOCAL_URL'		=> 'Een locale URL. De URL moet relatief zijn aan de onderwerpenpagina en kan geen servernaam of protocol bevatten, omdat linken worden aangemaakt met “%s” als begin',
 		'RELATIVE_URL'	=> 'Een relatieve URL. Je kan dit gebruiken om delen van een URL te herleiden, maar wees voorzichtig: een volledige URL is een geldige relatieve URL. Wanneer je relatieve URLs wilt gebruiken voor je forum, gebruik dan de LOCAL_URL token.',
 		'COLOR'			=> 'Een HTML kleur, kan geschreven worden in numerieke vorm <samp>#FF1234</samp> of als een <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS kleur sleutelwoord</a> zoals <samp>fuchsia</samp> of <samp>InactiveBorder</samp>'
-	)
+	),
 ));
 
 // Smilies and topic icons
@@ -108,8 +110,6 @@ $lang = array_merge($lang, array(
 	'DISPLAY_ON_POSTING'		=> 'Weergeven op de berichten',
 	'DISPLAY_POSTING'			=> 'Op berichtenpagina',
 	'DISPLAY_POSTING_NO'		=> 'Niet op berichtenpagina',
-
-
 
 	'EDIT_ICONS'				=> 'Iconen wijzigen',
 	'EDIT_SMILIES'				=> 'Smilies wijzigen',

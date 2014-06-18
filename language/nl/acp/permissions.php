@@ -1,11 +1,13 @@
 <?php
 /**
 *
-* acp_permissions [Dutch]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>, phpBBservice.nl <http://www.phpbbservice.nl>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -52,7 +54,7 @@ $lang = array_merge($lang, array(
 
 		<br />
 
-		<p>Voor meer informatie over het opzetten en beheren van permissies op je phpBB3 forum, lees dan <a href="https://www.phpbb.com/support/documentation/3.0/quickstart/quick_permissions.html">Hoofdstuk 1.5 van onze Snelle Start Gids</a>.</p>
+		<p>Voor meer informatie over het opzetten en beheren van permissies op je phpBB3 forum, lees dan <a href="http://www.phpbbservice.nl/docs/handleiding/3.0/snellestart/snel_permissies.php">Hoofdstuk 1.5 van onze Snelle Start Gids</a>.</p>
 	',
 
 	'ACL_NEVER'				=> 'Nooit',
@@ -181,7 +183,6 @@ $lang = array_merge($lang, array(
 	'ROLE_USER_NOPM'			=> 'Geen Privéberichten',
 	'ROLE_USER_STANDARD'		=> 'Standaard Functies',
 	'ROLE_USER_NEW_MEMBER'		=> 'Pas Geregistreerde Gebruikerfuncties',
-
 
 	'ROLE_DESCRIPTION_ADMIN_FORUM'			=> 'Heeft toegang tot het forumbeheer en de instellingen van de forumpermissies.',
 	'ROLE_DESCRIPTION_ADMIN_FULL'			=> 'Heeft toegang tot alle beheerdersfuncties van dit forum.<br />Niet aanbevolen.',

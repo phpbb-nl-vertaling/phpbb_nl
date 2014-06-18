@@ -1,11 +1,13 @@
 <?php
 /**
 *
-* acp_board [Dutch]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @copyright (c) phpBB Limited <https://www.phpbb.com>, phpBBservice.nl <http://www.phpbbservice.nl>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -406,6 +408,7 @@ $lang = array_merge($lang, array(
 
 	'APACHE_SETUP_BEFORE_USE'	=> 'Je moet apache authenticatie instellen voordat je phpBB schakelt naar deze authenticatie methode. Onthoud dat de gebruikersnaam die je gebruikt voor apache authenticatie gelijk moet zijn als je phpBB gebruikersnaam. Apache authenticatie kan alleen gebruikt worden met mod_php (niet met een CGI versie) en safe_mode uitgeschakeled.',
 
+	'LDAP'							=> 'LDAP',
 	'LDAP_DN'						=> 'LDAP-base <var>dn</var>',
 	'LDAP_DN_EXPLAIN'				=> 'Dit is de Distinguished Naam, lokaliserend de gebruikersinformatie, bijv. <samp>o=Mijn Bedrijf,c=US</samp>.',
 	'LDAP_EMAIL'					=> 'LDAP-e-mailattribuut',
