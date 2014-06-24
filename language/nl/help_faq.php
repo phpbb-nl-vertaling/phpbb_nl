@@ -93,7 +93,7 @@ $help = array(
 	),
 	array(
 		0 => 'Mijn taal zit niet in de lijst!',
-		1 => 'De meest voorkomende reden hiervoor is dat de beheerder jouw taal niet geïnstalleerd heeft, of dat nog niemand het forum in je taal vertaald heeft. Je kan altijd aan de beheerder vragen of hij het talenpakket, dat je nodig hebt, wilt installeren. Indien het nog niet bestaat, mag je gerust de vertaling maken. Meer informatie hieromtrent kan gevonden worden op de website van de phpBB groep (de link staat onderaan iedere pagina).'
+		1 => 'De meest voorkomende reden hiervoor is dat de beheerder jouw taal niet geïnstalleerd heeft, of dat nog niemand het forum in je taal vertaald heeft. Je kan altijd aan de beheerder vragen of hij het talenpakket, dat je nodig hebt, wilt installeren. Indien het nog niet bestaat, mag je gerust de vertaling maken. Meer informatie hieromtrent kan gevonden worden op de website van phpBB Limited (de link staat onderaan iedere pagina).'
 	),
 	array(
 		0 => 'Hoe kan ik een afbeelding bij mijn gebruikersnaam plaatsen?',
@@ -145,7 +145,7 @@ $help = array(
 	),
 	array(
 		0 => 'Waarom ontving ik een waarschuwing?',
-		1 => 'Op ieder forum gelden specifieke regels, als je één van deze regels (volgens de beheerder) overtreedt, kan je een waarschuwing ontvangen. Het sturen van een waarschuwing naar je is een beslissing van de beheerder, de phpBB groep heeft hier dus in geen geval iets mee te maken.'
+		1 => 'Op ieder forum gelden specifieke regels, als je één van deze regels (volgens de beheerder) overtreedt, kan je een waarschuwing ontvangen. Het sturen van een waarschuwing naar je is een beslissing van de beheerder, phpBB Limited heeft hier dus in geen geval iets mee te maken.'
 	),
 	array(
 		0 => 'Hoe kan ik berichten aan een moderator melden?',
@@ -330,7 +330,7 @@ $help = array(
 	),
 	array(
 		0 => 'Wie heeft dit forum geschreven?',
-		1 => 'Deze software (in zijn originele vorm) is geschreven, vrijgegeven en met een copyright beschermd door de <a href="https://www.phpbb.com">phpBB groep</a>. De software is beschikbaar onder de GNU General Public License en mag vrij verspreid worden, raadpleeg de link voor verdere informatie.'
+		1 => 'Deze software (in zijn originele vorm) is geschreven, vrijgegeven en met een copyright beschermd door <a href="https://www.phpbb.com">phpBB Limited</a>. De software is beschikbaar onder de GNU General Public License en mag vrij verspreid worden, raadpleeg de link voor verdere informatie.'
 	),
 	array(
 		0 => 'Waarom is de optie X niet beschikbaar?',
@@ -338,6 +338,6 @@ $help = array(
 	),
 	array(
 		0 => 'Met wie moet ik contact opnemen omtrent misbruik en/of wettelijke kwesties in verband met dit forum?',
-		1 => 'Alle beheerders die op de "het team"-pagina vermeld worden, staan open voor je klachten. Als je geen reactie hebt gekregen, kan je contact opnemen met de eigenaar van het domein (dmv een <a href="http://www.google.com/search?q=whois">whois zoekopdracht</a>) of, als dit forum op een gratis host staat (bijvoorbeeld xsbb.nl, nl.forums.cc, dotbb.be, enz.), het beheer of misbruik-afdeling van de gratis host. Wees je er bewust van dat de phpBB groep <strong>geen inspraak</strong> heeft en dus in geen enkel geval aansprakelijk gehouden kan worden over hoe, waar en door wie dit forum gebruikt wordt. Neem <strong>geen</strong> contact op met de phpBB groep met vragen over wettelijke kwesties (zoals aanspreekbaarheid, ongepaste commentaar, enz.) die <strong>niet direct verband</strong> houden met de phpBB.com-website of de phpBB-software. Als je de phpBB groep toch e-mailt over deze software die <strong>gebruikt wordt door derden</strong>, kan je een korte of helemaal geen reactie verwachten.'
+		1 => 'Alle beheerders die op de "het team"-pagina vermeld worden, staan open voor je klachten. Als je geen reactie hebt gekregen, kan je contact opnemen met de eigenaar van het domein (dmv een <a href="http://www.google.com/search?q=whois">whois zoekopdracht</a>) of, als dit forum op een gratis host staat (bijvoorbeeld xsbb.nl, nl.forums.cc, dotbb.be, enz.), het beheer of misbruik-afdeling van de gratis host. Wees je er bewust van dat phpBB Limited <strong>geen inspraak</strong> heeft en dus in geen enkel geval aansprakelijk gehouden kan worden over hoe, waar en door wie dit forum gebruikt wordt. Neem <strong>geen</strong> contact op met phpBB Limited met vragen over wettelijke kwesties (zoals aanspreekbaarheid, ongepaste commentaar, enz.) die <strong>niet direct verband</strong> houden met de phpBB.com-website of de phpBB-software. Als je phpBB Limited toch e-mailt over deze software die <strong>gebruikt wordt door derden</strong>, kan je een korte of helemaal geen reactie verwachten.'
 	),
 );

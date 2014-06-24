@@ -146,7 +146,7 @@ $lang = array_merge($lang, array(
 	'ACL_M_EDIT'		=> 'Kan berichten wijzigen',
 	'ACL_M_DELETE'		=> 'Kan berichten permanent verwijderen',
 	'ACL_M_SOFTDELETE'	=> 'Kan berichten tijdelijk verwijderen<br /><em>Moderators, die berichten goedkeuren permissie hebben, kunnen tijdelijk verwijderde berichten terughalen.</em>',
-	'ACL_M_APPROVE'		=> 'Kan berichten goedkeuren',
+	'ACL_M_APPROVE'		=> 'Kan berichten goedkeuren en herstellen',
 	'ACL_M_REPORT'		=> 'Kan meldingen sluiten en verwijderen',
 	'ACL_M_CHGPOSTER'	=> 'Kan berichtauteur veranderen',
 

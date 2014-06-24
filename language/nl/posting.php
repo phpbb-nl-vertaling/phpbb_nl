@@ -72,6 +72,16 @@ $lang = array_merge($lang, array(
 	'CANNOT_POST_ANNOUNCE'		=> 'Sorry maar je kan geen aankondigingen plaatsen.',
 	'CANNOT_POST_STICKY'		=> 'Sorry maar je kan geen sticky onderwerpen plaatsen.',
 	'CHANGE_TOPIC_TO'			=> 'Verander onderwerpstype naar',
+	'CHARS_POST_CONTAINS'		=> array(
+		1	=> 'Je bericht bevat %1$d teken.',
+		2	=> 'Je bericht bevat %1$d tekens.',
+	),
+	'CHARS_SIG_CONTAINS'		=> array(
+		1	=> '
+		Je onderschrift bevat %1$d teken.',
+		2	=> '
+		Je onderschrift bevat %1$d tekens.',
+	),	
 	'CLOSE_TAGS'				=> 'Sluit tags',
 	'CURRENT_TOPIC'				=> 'Actuele onderwerp',
 
@@ -215,9 +225,10 @@ $lang = array_merge($lang, array(
 		1	=> 'Je mag alleen tot %d citaat in elkaar voegen.',
 		2	=> 'Je mag alleen tot %d citaten in elkaar voegen.',
 	),
+	'QUOTE_NO_NESTING'			=> 'Je mag geen citaten in elkaar plaatsen.',
 
-	'SAVE'						=> 'Bewaar',
-	'SAVE_DATE'					=> 'Bewaard op', // opgeslagen op?
+	'SAVE'						=> 'Opslaan',
+	'SAVE_DATE'					=> 'Opgeslagen op',
 	'SAVE_DRAFT'				=> 'Bewaar concept',
 	'SAVE_DRAFT_CONFIRM'		=> 'Let op dat opgeslaagde concepten alleen de onderwerp en de tekst bevatten, elk ander element zal worden verwijderd. Wil je je concept nu opslaan?',
 	'SMILIES'					=> 'Smilies',
@@ -230,18 +241,15 @@ $lang = array_merge($lang, array(
 
 	'TOO_FEW_CHARS'				=> 'Je bericht bevat te weinig karakters.',
 	'TOO_FEW_CHARS_LIMIT'		=> array(
-		1	=> 'Je bericht bevat %1$d karakter. Het minimum aantal karakters dat je moet invullen is %2$d.',
-		2	=> 'Je bericht bevat %1$d karakters. Het mimimum aantal karakters dat je moet invullen is %2$d.',
+		1	=> 'Je moet minimaal %1$d teken invoeren.',
+		2	=> 'Je moet minimaal %1$d tekens invoeren.',
 	),
 	'TOO_FEW_POLL_OPTIONS'		=> 'Je moet tenminste twee peilingopties invullen.',
 	'TOO_MANY_ATTACHMENTS'		=> 'Kan geen andere bijlage toevoegen, %d is het maximum.',
 	'TOO_MANY_CHARS'			=> 'Je bericht bevat te veel karakters.',
-	'TOO_MANY_CHARS_POST'		=> array(
-		2	=> 'Je bericht bevat %1$d karakters. Het maximum aantal toegestane karakters is %2$d.', // karakters of tekens?
-	),
-	'TOO_MANY_CHARS_SIG'		=> array(
-		2	=> 'Je onderschrift bevat %1$d karakters. Het maximum aantal toegestane karakters is %2$d.', // karakters of tekens?
-	),
+	'TOO_MANY_CHARS_LIMIT'		=> array(
+		2	=> 'Het maximaal aantal tekens dat is toegestaan is %1$d.',
+ 	),
 	'TOO_MANY_POLL_OPTIONS'		=> 'Je hebt geprobeer te veel peiling opties in te voeren.',
 	'TOO_MANY_SMILIES'			=> 'Je bericht bevat te veel smilies. Het maximum aantal toegestane smilies is %d.',
 	'TOO_MANY_URLS'				=> 'Je bericht bevat te veel URLs. Het maximum aantal toegestane URLs is %d.',
@@ -264,6 +272,6 @@ $lang = array_merge($lang, array(
 	'VIEW_MESSAGE'				=> '%sBekijk je verstuurde bericht%s',
 	'VIEW_PRIVATE_MESSAGE'		=> '%sBekijk je verstuurde privébericht%s',
 
-	'WRONG_FILESIZE'			=> 'Het bestand is te groot, maximum toegestane grootte is %1d %2s.',
+	'WRONG_FILESIZE'			=> 'Het bestand is te groot, de maximaal toegestane grootte is %1$d %2$s.',
 	'WRONG_SIZE'				=> 'De afbeelding moet tenminste %1$s breed, %2$s hoog zijn en maximaal %3$s breed en %4$s hoog zijn. De verstuurde afbeelding is %5$s breed en %6$s hoog.',
 ));
