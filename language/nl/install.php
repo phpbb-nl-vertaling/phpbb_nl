@@ -89,7 +89,7 @@ $lang = array_merge($lang, array(
 	'CONVERT_SETTINGS_VERIFIED'	=> 'De informatie die je hebt ingevoerd is herkend. Om het conversieprocess te starten, klik je op de knop hieronder.',
 	'CONV_ERR_FATAL'			=> 'Fatale conversiefout',
 
-	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'FTP-upload voor bijlagen is ingeschakeld op het oude forum. Schakel de FTP-upload optie uit en wees er zeker van dat je een geldige uploaddirectory opgeeft, kopieer daarna alle bijlagenbestanden naar de nieuwe web toegankelijke directory. Wanneer je dit hebt gedaan, herstart u de convertor.',
+	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'FTP-upload voor bijlagen is ingeschakeld op het oude forum. Schakel de FTP-upload optie uit en wees er zeker van dat je een geldige uploaddirectory opgeeft, kopieer daarna alle bijlagenbestanden naar de nieuwe web toegankelijke directory. Wanneer je dit hebt gedaan, herstart je de convertor.',
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'Er is geen configuratie-informatie beschikbaar voor de conversie.',
 	'CONV_ERROR_FORUM_ACCESS'			=> 'Kan geen forum toegang informatie verkrijgen.',
 	'CONV_ERROR_GET_CATEGORIES'			=> 'Kan geen categorieën verkrijgen.',
@@ -334,7 +334,7 @@ $lang = array_merge($lang, array(
 	'STAGE_ADVANCED_EXPLAIN'	=> 'De instellingen op deze pagina zijn alleen nodig om in te stellen als je weet dat je iets anders wilt dan standaard. Als je het niet zeker weet, ga dan verder naar de volgende pagina, aangezien je deze instellingen later nog kunt aanpassen in het beheerderspaneel.',
 	'STAGE_CONFIG_FILE'			=> 'Configuratiebestand',
 	'STAGE_CREATE_TABLE'		=> 'Database-tabellen aanmaken',
-	'STAGE_CREATE_TABLE_EXPLAIN'	=> 'De database-tabellen die gebruikt worden door phpBB 3.0 zijn aangemaakt en zijn ingevoerd met wat gegevens. Ga verder naar het volgende scherm om de installatie te voltooien van phpBB.',
+	'STAGE_CREATE_TABLE_EXPLAIN'	=> 'De database-tabellen die gebruikt worden door phpBB 3.1 zijn aangemaakt en zijn ingevoerd met wat gegevens. Ga verder naar het volgende scherm om de installatie te voltooien van phpBB.',
 	'STAGE_DATABASE'			=> 'Database-instellingen',
 	'STAGE_FINAL'				=> 'Laatste stap',
 	'STAGE_INTRO'				=> 'Introductie',
