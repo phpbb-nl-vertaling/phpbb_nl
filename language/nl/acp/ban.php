@@ -61,7 +61,7 @@ $lang = array_merge($lang, array(
 
 	'IP_BAN'					=> 'Verban één of meerdere IPs',
 	'IP_BAN_EXCLUDE_EXPLAIN'	=> 'Schakel dit in om de ingevoerde IP uit te sluiten van alle bestaande verbanningen.',
-	'IP_BAN_EXPLAIN'			=> 'Om meer de één IPs of hostnamen te specificeren, voer ieder IP in op een aparte regel. Om een bereik van IP-adressen, scheid de start en einde met een streepje (-), om een joker te specificeren gebruik “*”.',
+	'IP_BAN_EXPLAIN'			=> 'Om meer dan één IP-adres of hostnaam in te geven, voer je ieder IP-adres in op een aparte regel.  Om een een bereik van IP-adressen te maken scheid je de start en het einde met een streepje (-), om een joker in te geven gebruik je “*”.',
 	'IP_HOSTNAME'				=> 'IP-adres of hostnamen',
 	'IP_NO_BANNED'				=> 'Geen verbannen IP-adressen',
 	'IP_UNBAN'					=> 'Opheffen verbanning of insluiten IPs',
