@@ -49,6 +49,8 @@ $lang = array_merge($lang, array(
 	'BEFORE'				=> 'Voor',
 
 	'CC_EMAIL'				=> 'Verstuur een kopie van deze e-mail naar jezelf.',
+	'CONTACT_USER'			=> 'Contact',
+	'CONTACT_ADMIN'			=> 'Neem contact op met de forum beheerder',
 
 	'DEST_LANG'				=> 'Taal',
 	'DEST_LANG_EXPLAIN'		=> 'Selecteer een taal (indien beschikbaar) voor de ontvanger van dit bericht.',
@@ -61,6 +63,8 @@ $lang = array_merge($lang, array(
 	'EMPTY_MESSAGE_EMAIL'	=> 'Je moet een bericht ingevuld hebben om te e-mailen.',
 	'EMPTY_MESSAGE_IM'		=> 'Je moet een bericht ingevuld hebben om te versturen.',
 	'EMPTY_NAME_EMAIL'		=> 'Je moet de echte naam van de ontvanger invullen.',
+        'EMPTY_SENDER_EMAIL'	=> 'Je moet een geldig e-mailadres opgeven.',
+	'EMPTY_SENDER_NAME'		=> 'Je moet een geldigde naam opgeven.',	
 	'EMPTY_SUBJECT_EMAIL'	=> 'Je moet een onderwerp specificeren voor de e-mail.',
 	'EQUAL_TO'				=> 'Gelijk aan',
 
@@ -113,6 +117,8 @@ $lang = array_merge($lang, array(
 
 	'SELECT_MARKED'			=> 'Selecteer gemarkeerden',
 	'SELECT_SORT_METHOD'	=> 'Selecteer sorteer methode',
+        'SENDER_EMAIL_ADDRESS'	=> 'Email adres',
+	'SENDER_NAME'			=> 'Naam',	
 	'SEND_ICQ_MESSAGE'		=> 'Verstuur ICQ-bericht',
 	'SEND_IM'				=> 'Instant messaging',
 	'SEND_JABBER_MESSAGE'	=> 'Verstuur Jabber-bericht',
