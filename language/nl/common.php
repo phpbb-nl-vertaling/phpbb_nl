@@ -170,6 +170,7 @@ $lang = array_merge($lang, array(
 	'CONNECTION_FAILED'		=> 'Verbinding verbroken.',
 	'CONNECTION_SUCCESS'	=> 'Succesvol verbonden!',
 	'CONTACT'				=> 'Contact',
+	'CONTACT_US'			=> 'Contact',
 	'CONTACT_USER'			=> 'Contact %s',
 	'COOKIES_DELETED'		=> 'Alle forumcookies succesvol verwijderd.',
 	'CURRENT_TIME'			=> 'Het is momenteel %s',
