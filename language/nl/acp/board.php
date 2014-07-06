@@ -352,6 +352,19 @@ $lang = array_merge($lang, array(
 	'SESSION_LENGTH_EXPLAIN'	=> 'Sessies zullen verlopen na deze tijd, in secondes.',
 ));
 
+// Contact Settings
+$lang = array_merge($lang, array(
+	'ACP_CONTACT_SETTINGS_EXPLAIN'		=> 'Hier kan je het contact formulier in/uitschakelen en een persoonlijke tekst toevoegen aan het contact formulier.',
+
+	'CONTACT_US_ENABLE'				=> 'Contact formulier inschakelen',
+	'CONTACT_US_ENABLE_EXPLAIN'		=> 'Het contact formulier staat gebruikers toe contact op te nemen met de forum beheerders',
+
+	'CONTACT_US_INFO'				=> 'Contact information',
+	'CONTACT_US_INFO_EXPLAIN'		=> 'The message is displayed on the contact page',
+	'CONTACT_US_INFO_PREVIEW'		=> 'Contact page information - Preview',
+	'CONTACT_US_INFO_UPDATED'		=> 'Contact page information has been updated.',
+));
+
 // Load Settings
 $lang = array_merge($lang, array(
 	'ACP_LOAD_SETTINGS_EXPLAIN'	=> 'Hier kan je bepaalde forumfuncties in of uitschakelen om de hoeveelheid processen die vereist zijn te verlagen. Bij de meeste servers is er geen noodzaak om functies uit te schakelen. Bij bepaalde systemen of gedeelde hosting omgevingen kan het voordelig zijn om bepaalde functies uit te schakelen die je niet echt nodig hebt. Je kan ook bepaalde limieten instellen voor de systeem laad zwaarte en actieve sessies waardoor als deze overschreden worden het forum offline gaat.',
