@@ -137,7 +137,7 @@ $lang = array_merge($lang, array(
 	'ACL_F_SMILIES'		=> 'Kan smilies gebruiken',
 
 	'ACL_F_POLL'		=> 'Kan peilingen aanmaken',
-	'ACL_F_VOTE'		=> 'Kan in peilingen stemmen',
+	'ACL_F_VOTE'		=> 'Kan op peilingen stemmen',
 	'ACL_F_VOTECHG'		=> 'Kan bestaande stem veranderen',
 ));
 
@@ -145,7 +145,7 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACL_M_EDIT'		=> 'Kan berichten wijzigen',
 	'ACL_M_DELETE'		=> 'Kan berichten permanent verwijderen',
-	'ACL_M_SOFTDELETE'	=> 'Kan berichten tijdelijk verwijderen<br /><em>Moderators, die berichten goedkeuren permissie hebben, kunnen tijdelijk verwijderde berichten terughalen.</em>',
+	'ACL_M_SOFTDELETE'	=> 'Kan berichten tijdelijk verwijderen<br /><em>Moderators, die permissies hebben om berichten te kunnen goedkeuren, kunnen tijdelijk verwijderde berichten terughalen.</em>',
 	'ACL_M_APPROVE'		=> 'Kan berichten goedkeuren en herstellen',
 	'ACL_M_REPORT'		=> 'Kan meldingen sluiten en verwijderen',
 	'ACL_M_CHGPOSTER'	=> 'Kan berichtauteur veranderen',
@@ -165,17 +165,17 @@ $lang = array_merge($lang, array(
 	'ACL_A_BOARD'		=> 'Kan foruminstellingen veranderen/controleren op updates',
 	'ACL_A_SERVER'		=> 'Kan server-/communicatie-instellingen veranderen',
 	'ACL_A_JABBER'		=> 'Kan Jabberinstellingen veranderen',
-	'ACL_A_PHPINFO'		=> 'Kan PHP instellingen bekijken',
+	'ACL_A_PHPINFO'		=> 'Kan PHP-instellingen bekijken',
 
 	'ACL_A_FORUM'		=> 'Kan forums beheren',
 	'ACL_A_FORUMADD'	=> 'Kan nieuwe forums toevoegen',
 	'ACL_A_FORUMDEL'	=> 'Kan forums verwijderen',
 	'ACL_A_PRUNE'		=> 'Kan forums opschonen',
 
-	'ACL_A_ICONS'		=> 'Kan onderwerp/berichticonen en smilies veranderen',
-	'ACL_A_WORDS'		=> 'Kan woordcensuur veranderen',
-	'ACL_A_BBCODE'		=> 'Kan BBCode tags definiëren',
-	'ACL_A_ATTACH'		=> 'Kan bijlage gerelateerde instellingen veranderen',
+	'ACL_A_ICONS'		=> 'Kan onderwerp/berichticonen en smilies wijzigen',
+	'ACL_A_WORDS'		=> 'Kan woordcensuur wijzigen',
+	'ACL_A_BBCODE'		=> 'Kan BBCode-tags definiëren',
+	'ACL_A_ATTACH'		=> 'Kan bijlage gerelateerde instellingen wijzigen',
 
 	'ACL_A_USER'		=> 'Kan gebruikers beheren<br /><em>Dit bevat ook het zien van de gebruikers browser agent in de wie-is-er-onlinelijst.</em>',
 	'ACL_A_USERDEL'		=> 'Kan gebruikers verwijderen/opschonen',
@@ -206,6 +206,6 @@ $lang = array_merge($lang, array(
 	'ACL_A_EMAIL'		=> 'Kan massa e-mail versturen',
 	'ACL_A_BOTS'		=> 'Kan bots beheren',
 	'ACL_A_REASONS'		=> 'Kan melding/afkeurredenen beheren',
-	'ACL_A_BACKUP'		=> 'Kan database back-up maken / terugzetten',
+	'ACL_A_BACKUP'		=> 'Kan database back-up maken/terugzetten',
 	'ACL_A_SEARCH'		=> 'Kan zoekback-ends en instellingen beheren',
 ));
