@@ -1,21 +1,21 @@
-Subject: Welcome to "{SITENAME}"
+Subject: Welkom op "{SITENAME}"
 
 {WELCOME_MSG}
 
-Please keep this email for your records. Your account information is as follows:
+Dit bericht bevat belangrijke account informatie, bewaar deze email dus goed. Je account informatie is als volgt:
 
 ----------------------------
-Username: {USERNAME}
+Gebruikersnaam: {USERNAME}
 
-Board URL: {U_BOARD}
+Forum link: {U_BOARD}
 ----------------------------
 
-Please visit the following link in order to activate your account:
+Gebruik onderstaande link om het gebruikersaccount te activeren:
 
 {U_ACTIVATE}
 
-Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
+Je wachtwoord is veilig opgeslagen in onze database en kan niet worden achterhaald. Mocht je toch je wachtwoord vergeten zijn, dan kan je een nieuw wachtwoord aanvragen door het e-mailadres te gebruiken dat overeenkomt met je account.
 
-Thank you for registering.
+Bedankt voor je registratie.
 
 {EMAIL_SIG}
