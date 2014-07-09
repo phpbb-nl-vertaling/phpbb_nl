@@ -1,4 +1,4 @@
-Subject: Nieuw onderwerpberichtmelding - "{TOPIC_TITLE}"
+Subject: Nieuwe reactie in onderwerp - "{TOPIC_TITLE}"
 
 Hallo {USERNAME},
 
@@ -13,7 +13,7 @@ Als je het onderwerp wilt bekijken, klik op de volgende link:
 Als je het forum wilt bekijken, klik op de volgende link:
 {U_FORUM}
 
-Als je niet langer e-mails wilt ontvangen over berichten waarin je geciteerd bent, bewerk dan je instellingen hier:
+Als je niet langer e-mails wilt ontvangen over berichten waarin je geciteerd bent, wijzig dan je instellingen hier:
 
 {U_NOTIFICATION_SETTINGS}
 
