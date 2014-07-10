@@ -111,9 +111,9 @@ $lang = array_merge($lang, array(
 	'ALLOW_REMOTE_UPLOAD_EXPLAIN'	=> 'Uploaden van avatars van andere websites inschakelen.',
 	'ALLOW_UPLOAD'					=> 'Uploaden avatar inschakelen',
 	'AVATAR_GALLERY_PATH'			=> 'Avatar galerij pad',
-	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'Pad in je phpBB hoofdmap voor vooraf geladen afbeeldingen, bij. <samp>images/avatars/gallery</samp>.',
+	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'Pad in je phpBB hoofdmap voor geüploade afbeeldingen, bijvoorbeeld <samp>images/avatars/gallery</samp>.<br />Dubbele punten zoals <samp>../</samp> worden gestript van het pad voor veiligheidsredenen.',
 	'AVATAR_STORAGE_PATH'			=> 'Avatar opslag pad',
-	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'Pad in je phpBB hoofdmap, bijv. <samp>images/avatars/upload</samp>.<br />Avatar uploading <strong>will not be available</strong> if this path is not writable.',
+	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'Pad in je phpBB hoofdmap, bijvoorbeeld <samp>images/avatars/upload</samp>.<br />Avatar uploaden <strong>zal niet beschikbaar zijn</strong> als dit pad niet schrijfbaar is.<br />Dubbele punten zoals <samp>../</samp> zullen worden gestript van het pad voor veiligheidsredenen.',
 	'MAX_AVATAR_SIZE'				=> 'Maximum avatar dimensies',
 	'MAX_AVATAR_SIZE_EXPLAIN'		=> 'Breedte x Hoogte in pixels.',
 	'MAX_FILESIZE'					=> 'Maximum avatar bestandsgrootte',
@@ -350,6 +350,19 @@ $lang = array_merge($lang, array(
 	'ONLINE_LENGTH_EXPLAIN'		=> 'Aantal minuten waarna inactieve gebruikers niet meer in de “Wie is online” lijst zal voorkomen. Hoe hoger deze waarde is, des te groter de verwerking vereist is om de lijst aan te maken.',
 	'SESSION_LENGTH'			=> 'Sessieduur',
 	'SESSION_LENGTH_EXPLAIN'	=> 'Sessies zullen verlopen na deze tijd, in secondes.',
+));
+
+// Contact Settings
+$lang = array_merge($lang, array(
+	'ACP_CONTACT_SETTINGS_EXPLAIN'		=> 'Hier kan je de contactpagina in en uitschakelen en je kan er ook tekst aan toevoegen die op de pagina wordt weergegeven.',
+
+	'CONTACT_US_ENABLE'				=> 'Contactpagina inschakelen',
+	'CONTACT_US_ENABLE_EXPLAIN'		=> 'Deze pagina laat gebruikers e-mails versturen naar forumbeheerders',
+
+	'CONTACT_US_INFO'				=> 'Contactinformatie',
+	'CONTACT_US_INFO_EXPLAIN'		=> 'Het bericht dat wordt weergegeven op de contactpagina',
+	'CONTACT_US_INFO_PREVIEW'		=> 'Contactpagina informatie - Voorbeeld',
+	'CONTACT_US_INFO_UPDATED'		=> 'Contactpagina informatie is gewijzigd.',
 ));
 
 // Load Settings
