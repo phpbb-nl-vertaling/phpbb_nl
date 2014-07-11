@@ -39,9 +39,11 @@ if (empty($lang) || !is_array($lang))
 // Custom profile fields
 $lang = array_merge($lang, array(
 	'ADDED_PROFILE_FIELD'	=> 'Eigen profielveld succesvol toegevoegd.',
+	'ALPHA_DOTS'                    => 'Alfanumerieke en stippen (periodes)',
 	'ALPHA_ONLY'			=> 'Alleen alfanumeriek',
 	'ALPHA_SPACERS'			=> 'Alfanumeriek en spaties',
 	'ALPHA_UNDERSCORE'		=> 'Alfanumeriek en underscores',
+	'ALPHA_PUNCTUATION'             => 'Alfanumeriek met een komma, punten, underscore en streepjes te beginnen met een letter',
 	'ALWAYS_TODAY'			=> 'Altijd de datum van vandaag',
 
 	'BOOL_ENTRIES_EXPLAIN'	=> 'Vul nu je opties in',
@@ -91,6 +93,7 @@ $lang = array_merge($lang, array(
 	'FIELD_DESCRIPTION'			=> 'Field description',
 	'FIELD_DESCRIPTION_EXPLAIN'	=> 'The explanation for this field presented to the user.',
 	'FIELD_DROPDOWN'			=> 'Dropdown box',
+	'FIELD_GOOGLEPLUS'              => 'Google+',
 	'FIELD_IDENT'				=> 'Field identification',
 	'FIELD_IDENT_ALREADY_EXIST'	=> 'The chosen field identification already exist. Please choose another name.',
 	'FIELD_IDENT_EXPLAIN'		=> 'The field identification is a name to identify the profile field within the database and the templates.',
