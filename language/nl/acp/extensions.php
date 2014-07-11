@@ -105,7 +105,7 @@ $lang = array_merge($lang, array(
 	'REQUIREMENTS'			=> 'Benodigdheden',
 	'PHPBB_VERSION'			=> 'phpBB-versie',
 	'PHP_VERSION'			=> 'PHP-versie',
-	'AUTHOR_INFORMATION'	=> 'Auteurinformatie',
+	'AUTHOR_INFORMATION'	        => 'Auteurinformatie',
 	'AUTHOR_NAME'			=> 'Naam',
 	'AUTHOR_EMAIL'			=> 'E-mail',
 	'AUTHOR_HOMEPAGE'		=> 'Homepage',
@@ -113,12 +113,15 @@ $lang = array_merge($lang, array(
 	
 	'NOT_UP_TO_DATE'		=> '%s is niet up-to-date',
 	'UP_TO_DATE'			=> '%s is up-to-date',
-	'ANNOUNCEMENT_TOPIC'	=> 'Versie aankondiging',
+	'ANNOUNCEMENT_TOPIC'	        => 'Versie aankondiging',
 	'DOWNLOAD_LATEST'		=> 'Versie downloaden',
 	'NO_VERSIONCHECK'		=> 'Er is geen versie informatie controle opgegeven.',
 	
 	'VERSIONCHECK_FORCE_UPDATE_ALL'		=> 'Controleer alle versies opnieuw',
-	'FORCE_UNSTABLE'					=> 'Controleer altijd voor onstabiele versies',
+	'FORCE_UNSTABLE'		        => 'Controleer altijd voor onstabiele versies',
 	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'Versie controleinstellingen',
+	
+        'META_FIELD_NOT_SET'            => 'Verplicht meta veld %s is niet ingesteld.',
+        'META_FIELD_INVALID'            => 'Meta veld %s is ongeldig.',		
 	
 ));
