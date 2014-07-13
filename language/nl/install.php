@@ -142,7 +142,6 @@ $lang = array_merge($lang, array(
 	'DEV_NO_TEST_FILE'			=> 'Geen waarde is er opgegeven voor de test_file variable in de convertor. Als je een gebruiker bent van deze convertor hoor je deze foutmelding niet te zien, meld dit bericht aan de auteur van de convertor. Als je de convertor-auteur bent, moet je de naam of een bestand opgeven die bestaat in het bronforum om het pad te bevestigen.',
 	'DIRECTORIES_AND_FILES'		=> 'Directory en bestandssetup',
 	'DISABLE_KEYS'				=> 'Onbruikbare sleutels',
-	'DLL_FIREBIRD'				=> 'Firebird',
 	'DLL_FTP'					=> 'Remote FTP-ondersteuning [ Installatie ]',
 	'DLL_GD'					=> 'GD graphics ondersteuning [ Visuele bevestiging ]',
 	'DLL_MBSTRING'				=> 'Multi-byte tekens ondersteuning',
@@ -170,8 +169,6 @@ $lang = array_merge($lang, array(
 	'FILES_REQUIRED_EXPLAIN'	=> '<strong>Verplicht</strong> - Om alles correct te laten functioneren, heeft phpBB toegang nodig om verschillende bestanden of mappen te beschrijven. Als je ziet staan “Niet gevonden”, zal je het betreffende bestand of map aan moeten maken. Als je ziet staan “Niet schrijfbaar”, wijzig dan de permissies van het bestand of van de map om te zorgen dat phpBB toegang heeft er na toe te schrijven.',
 	'FILLING_TABLE'				=> 'Vullen van tabel <strong>%s</strong>',
 	'FILLING_TABLES'			=> 'Vullen van tabellen',
-
-	'FIREBIRD_DBMS_UPDATE_REQUIRED'		=> 'phpBB ondersteunt niet langer Firebird/Interbase versie lager dan 2.1. Update je Firebird-installatie zodat die tenminste 2.1.0 is voordat u verder gaat met de update.',
 
 	'FINAL_STEP'				=> 'Doorgaan met de laatste stap',
 	'FORUM_ADDRESS'				=> 'Forumadres',
@@ -213,7 +210,6 @@ $lang = array_merge($lang, array(
 			<li>PostgreSQL 8.3+</li>
 			<li>SQLite 2.8.2+</li>
 			<li>SQLite 3.6.15+</li>
-			<li>Firebird 2.1+</li>
 			<li>MS SQL Server 2000 of hoger (direct of met ODBC)</li>
 			<li>MS SQL Server 2005 of hoger (native)</li>
 			<li>Oracle</li>
@@ -237,8 +233,6 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_SQLITE'		=> 'De versie van de SQLite-extensie die je hebt geïnstalleerd is te oud, het moet bijgewerkt worden naar versie 2.8.2.',
 	'INST_ERR_DB_NO_SQLITE3'	=> 'De versie van de SQLite-extensie die je hebt geïnstalleerd is te oud, het moet bijgewerkt worden naar versie 3.6.15.',	
 	'INST_ERR_DB_NO_ORACLE'		=> 'De versie van Oracle die geïnstalleerd is op deze server verplicht je om de <var>NLS_CHARACTERSET</var>-parameter te laten instellen naar <var>UTF8</var>. Je kan de installatie updaten naar 9.2+ of de paramater veranderen.',
-	'INST_ERR_DB_NO_FIREBIRD'	=> 'De versie van Firebird die geïnstalleerd is op deze server is ouder dan 2.1, update het naar een nieuwere versie.',
-	'INST_ERR_DB_NO_FIREBIRD_PS'=> 'De database die je hebt geselecteerd voor Firebird heeft een pagina minder dan 8192, het moet minstens 8192 zijn.',
 	'INST_ERR_DB_NO_POSTGRES'	=> 'De database die je hebt geselecteerd is niet aangemaakt in <var>UNICODE</var> of <var>UTF8</var> codering. Probeer de database te installeren in <var>UNICODE</var> of <var>UTF8</var> codering.',
 	'INST_ERR_DB_NO_NAME'		=> 'Geen database-naam opgegeven.',
 	'INST_ERR_EMAIL_INVALID'	=> 'Het e-mailadres dat je hebt ingevoerd is ongeldig.',
