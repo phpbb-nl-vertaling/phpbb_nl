@@ -49,6 +49,8 @@ $lang = array_merge($lang, array(
 	'BEFORE'				=> 'Voor',
 
 	'CC_EMAIL'				=> 'Verstuur een kopie van deze e-mail naar jezelf.',
+        'CONTACT_USER'                          => 'Contact',
+        'CONTACT_ADMIN'                         => 'Neem contact op met een forumbeheerder',
 
 	'DEST_LANG'				=> 'Taal',
 	'DEST_LANG_EXPLAIN'		=> 'Selecteer een taal (indien beschikbaar) voor de ontvanger van dit bericht.',
@@ -61,6 +63,8 @@ $lang = array_merge($lang, array(
 	'EMPTY_MESSAGE_EMAIL'	=> 'Je moet een bericht ingevuld hebben om te e-mailen.',
 	'EMPTY_MESSAGE_IM'		=> 'Je moet een bericht ingevuld hebben om te versturen.',
 	'EMPTY_NAME_EMAIL'		=> 'Je moet de echte naam van de ontvanger invullen.',
+        'EMPTY_SENDER_EMAIL'    => 'Je moet een geldig e-mailadres opgeven.',
+        'EMPTY_SENDER_NAME'     => 'Je moet een naam opgeven.',
 	'EMPTY_SUBJECT_EMAIL'	=> 'Je moet een onderwerp specificeren voor de e-mail.',
 	'EQUAL_TO'				=> 'Gelijk aan',
 
@@ -98,6 +102,8 @@ $lang = array_merge($lang, array(
 
 	'MORE_THAN'				=> 'Meer dan',
 
+        'NO_CONTACT_FORM'               => 'Het contactformulier is uitgeschakeld.',
+        'NO_CONTACT_PAGE'               => 'De contactpagina is uitgeschakeld.',
 	'NO_EMAIL'				=> 'Je hebt niet de permissies om deze gebruiker te e-mailen.',
 	'NO_VIEW_USERS'			=> 'Je bent niet toegestaan om de ledenlijst of profielen te bekijken.',
 
@@ -113,6 +119,8 @@ $lang = array_merge($lang, array(
 
 	'SELECT_MARKED'			=> 'Selecteer gemarkeerden',
 	'SELECT_SORT_METHOD'	=> 'Selecteer sorteer methode',
+        'SENDER_EMAIL_ADDRESS'  => 'Je emailadres',
+        'SENDER_NAME'           => 'Je naam',	
 	'SEND_ICQ_MESSAGE'		=> 'Verstuur ICQ-bericht',
 	'SEND_IM'				=> 'Instant messaging',
 	'SEND_JABBER_MESSAGE'	=> 'Verstuur Jabber-bericht',
@@ -136,4 +144,9 @@ $lang = array_merge($lang, array(
 	'USERS_PER_PAGE'		=> 'Gebruikers per pagina',
 
 	'VIEWING_PROFILE'		=> 'Bekijkt profiel - %s',
+        'VIEW_FACEBOOK_PROFILE'         => 'Bekijk Facebook Profiel',
+        'VIEW_SKYPE_PROFILE'            => 'Bekijk Skype Profiel',
+        'VIEW_TWITTER_PROFILE'          => 'Bekijk Twitter Profiel',
+        'VIEW_YOUTUBE_CHANNEL'          => 'Bekijk YouTube Kanaal',
+        'VIEW_GOOGLEPLUS_PROFILE'       => 'Bekijk Google+ Profiel'	
 ));
