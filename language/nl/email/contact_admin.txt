@@ -1,0 +1,22 @@
+Hallo {TO_USERNAME},
+
+Dit bericht is naar jou verzonden via de contactpagina op "{SITENAME}".
+
+<!-- IF S_IS_REGISTERED -->
+Het bericht is verzonden door een geregistreerde gebruiker, met onderstaande contact gegevens..
+Gebruikersnaam: {FROM_USERNAME}
+E-mailadres: {FROM_EMAIL_ADDRESS}
+IP-adres: {FROM_IP_ADDRESS}
+Profiel: {U_FROM_PROFILE}
+<!-- ELSE -->
+Het bericht is verzonden door een gast, met onderstaande contact gegevens.
+Naam: {FROM_USERNAME}
+E-mailadres: {FROM_EMAIL_ADDRESS}
+IP-adres: {FROM_IP_ADDRESS}
+<!-- ENDIF -->
+
+
+Onderstaand bericht is naar jou verstuurd
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{MESSAGE}
