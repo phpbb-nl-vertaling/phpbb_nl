@@ -61,36 +61,36 @@ $lang = array_merge($lang, array(
 
 	'DELETE_POSTS'			=> 'Verwijder berichten',
 	'DELETE_USER'			=> 'Verwijder gebruiker',
-	'DELETE_USER_EXPLAIN'	=> 'Please note that deleting a user is final, they cannot be recovered. Unread private messages sent by this user will be deleted and will not be available to their recipients.',
+	'DELETE_USER_EXPLAIN'	=> 'Let op dat het verwijderen van een gebruiker definitief is, dit kan niet meer ongedaan gemaakt worden. Ongelezen privéberichten verstuurd door deze gebruiker zullen worden verwijderd en zal niet beschikbaar zijn voor hun ontvangers.',
 
-	'FORCE_REACTIVATION_SUCCESS'	=> 'Successfully forced reactivation.',
+	'FORCE_REACTIVATION_SUCCESS'	=> 'Heractivatie succesvol geforceerd.',
 	'FOUNDER'						=> 'Oprichter',
-	'FOUNDER_EXPLAIN'				=> 'Founders have all administrative permissions and can never be banned, deleted or altered by non-founder members.',
+	'FOUNDER_EXPLAIN'				=> 'Oprichters hebben alle administratieve permissies en kunnen nooit verbannen, verwijderd of gewijzigd worden door niet-oprichter leden.',
 
-	'GROUP_APPROVE'					=> 'Approve member',
-	'GROUP_DEFAULT'					=> 'Make group default for member',
-	'GROUP_DELETE'					=> 'Remove member from group',
-	'GROUP_DEMOTE'					=> 'Demote group leader',
-	'GROUP_PROMOTE'					=> 'Promote to group leader',
+	'GROUP_APPROVE'					=> 'Lid goedkeuren',
+	'GROUP_DEFAULT'					=> 'Maak groep standaard voor lid',
+	'GROUP_DELETE'					=> 'Verwijder lid van groep',
+	'GROUP_DEMOTE'					=> 'Degradeer groepsleider',
+	'GROUP_PROMOTE'					=> 'Promoveer naar groepsleider',
 
-	'IP_WHOIS_FOR'			=> 'IP whois for %s',
+	'IP_WHOIS_FOR'			=> 'IP whois voor %s',
 
 	'LAST_ACTIVE'			=> 'Laatst actief',
 
-	'MOVE_POSTS_EXPLAIN'	=> 'Please select the forum to which you wish to move all the posts this user has made.',
+	'MOVE_POSTS_EXPLAIN'	=> 'Selecteer het forum waarnaar je alle berichten die deze gebruiker heeft gemaakt naar toe wilt verplaatsen.',
 
-	'NO_SPECIAL_RANK'		=> 'No special rank assigned',
+	'NO_SPECIAL_RANK'		=> 'Geen speciale rang toegewezen',
 	'NO_WARNINGS'			=> 'Geen waarschuwingen.',
-	'NOT_MANAGE_FOUNDER'	=> 'You tried to manage a user with founder status. Only founders are allowed to manage other founders.',
+	'NOT_MANAGE_FOUNDER'	=> 'Je hebt geprobeerd om een gebruiker met oprichterstatus te beheren. Alleen oprichters zijn toegestaan om andere oprichters te beheren.',
 
 	'QUICK_TOOLS'			=> 'Snelle hulpmiddelen',
 
-	'REGISTERED'			=> 'Registered',
-	'REGISTERED_IP'			=> 'Registered from IP',
-	'RETAIN_POSTS'			=> 'Retain posts',
+	'REGISTERED'			=> 'Geregistreerd',
+	'REGISTERED_IP'			=> 'Geregistreerd van IP',
+	'RETAIN_POSTS'			=> 'Behoud berichten',
 
-	'SELECT_FORM'			=> 'Select form',
-	'SELECT_USER'			=> 'Select user',
+	'SELECT_FORM'			=> 'Selecteer formulier',
+	'SELECT_USER'			=> 'Selecteer gebruiker',
 
 	'USER_ADMIN'					=> 'Gebruikersbeheer',
 	'USER_ADMIN_ACTIVATE'			=> 'Activeer account',
