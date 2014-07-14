@@ -140,7 +140,7 @@ $lang = array_merge($lang, array(
 	'RADIO_BUTTONS'				=> 'Radioknoppen',
 	'REMOVED_PROFILE_FIELD'		=> 'Profielveld succesvol verwijderd.',
 	'REQUIRED_FIELD'			=> 'Vereist veld',
-	'REQUIRED_FIELD_EXPLAIN'	=> 'Forceert dat profielveld ingevuld dient te worden of gespecificeerd door een gebruiker of een beheerder. Als de “Weergeven bij registratie”-optie is uitgeschakeld, dan zal het veld alleen vereist zijn wanneer de gebruiker zijn profiel wijzigt.',
+	'REQUIRED_FIELD_EXPLAIN'	=> 'Forceert dat het profielveld ingevuld dient te worden of gespecificeerd door een gebruiker of een beheerder. Als de “Weergeven bij registratie”-optie is uitgeschakeld, dan zal het veld alleen vereist zijn wanneer de gebruiker zijn profiel wijzigt.',
 	'ROWS'						=> 'Rijen',
 
 	'SAVE'							=> 'Opslaan',
