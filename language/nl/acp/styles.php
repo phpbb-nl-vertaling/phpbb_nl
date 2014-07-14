@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACP_STYLES_EXPLAIN'	=> 'Hier kan je de beschikbare stijlen van je forum beheren. Je kan bestaande stijlen wijzigen, verwijderen, deactiveren, heractiveren en nieuwe stijlen installeren. Je kan hier ook zien hoe je stijl eruit ziet door de voorbeeld functie te gebruiken. Hier wordt ook het aantal gebruikers weergegeven die de stijl gebruiken, let op: dat het overschrijven van de gebruikersstijl hier niet zal worden weergegeven.',
+	'ACP_STYLES_EXPLAIN'	=> 'Hier kan je de beschikbare stijlen van je forum beheren. Je kan bestaande stijlen wijzigen, verwijderen, deactiveren, heractiveren en nieuwe stijlen installeren. Je kan hier ook zien hoe je stijl eruit ziet door de voorbeeldfunctie te gebruiken. Hier wordt ook het aantal gebruikers weergegeven die de stijl gebruiken, let op: dat het overschrijven van de gebruikersstijl hier niet zal worden weergegeven.',
 	
 	'CANNOT_BE_INSTALLED'			=> 'Kan niet worden geïnstalleerd',
 	'CONFIRM_UNINSTALL_STYLES'		=> 'Weet je zeker dat je de geselecteerde stijlen wilt verwijderen?',
@@ -49,13 +49,13 @@ $lang = array_merge($lang, array(
 	'DELETE_STYLE_FILES_SUCCESS'	=> 'De bestanden van de stijl "%s" zijn verwijderd.',
 	'DETAILS'					=> 'Details',
 
-	'INHERITING_FROM'			=> 'Inherits from',
+	'INHERITING_FROM'			=> 'Erft van',
 	'INSTALL_STYLE'				=> 'Installeer stijl',
 	'INSTALL_STYLES'			=> 'Installeer stijlen',
-	'INSTALL_STYLES_EXPLAIN'	=> 'Hier kan je nieuwe stijlen installeren.<br />Als je een bepaalde stijl niet in onderstaande lijst staat, controleer dan of de stijl al is geïnstalleerd. Als de stijl nog niet geïnstalleerd is, kijk dan of je hem op de goede manier hebt geüpload',
+	'INSTALL_STYLES_EXPLAIN'	=> 'Hier kan je nieuwe stijlen installeren.<br />Als je een bepaalde stijl niet in onderstaande lijst staat, controleer dan of de stijl al is geïnstalleerd. Als de stijl nog niet geïnstalleerd is, kijk dan of je hem op de goede manier hebt geüpload.',
 	'INVALID_STYLE_ID'			=> 'Ongeldige stijl-ID.',
 
-	'NO_MATCHING_STYLES_FOUND'	=> 'No styles match your query.',
+	'NO_MATCHING_STYLES_FOUND'	=> 'Er komen geen stijlen overeen met je opdracht.',
 	'NO_UNINSTALLED_STYLE'		=> 'Geen ongeïnstalleerde stijlen gevonden.',
 
 	'PURGED_CACHE'				=> 'Cache is geleegd.',
@@ -67,19 +67,19 @@ $lang = array_merge($lang, array(
 	'STYLE_DEACTIVATE'			=> 'Deactiveren',
 	'STYLE_DEFAULT'				=> 'Maak standaard stijl',
 	'STYLE_DEFAULT_CHANGE_INACTIVE'	=> 'Je moet de stijl eerst activeren, voordat je dit je standaard stijl kan maken.',
-	'STYLE_ERR_INVALID_PARENT'	=> 'Invalid parent style.',
+	'STYLE_ERR_INVALID_PARENT'	=> 'Ongeldige hoofdstijl.',
 	'STYLE_ERR_NAME_EXIST'		=> 'Er bestaat al een stijl met dezelfde naam.',
 	'STYLE_ERR_STYLE_NAME'		=> 'Er moet een naam voor de stijl worden ingevuld.',
 	'STYLE_INSTALLED'			=> 'De stijl "%s" is geïnstalleerd.',
-        'STYLE_INSTALLED_RETURN_INSTALLED_STYLES' => 'Ga terug naar de lijst met geïnstalleerde stijlen',
-        'STYLE_INSTALLED_RETURN_UNINSTALLED_STYLES' => 'Installeer meer stijlen',
-	'STYLE_NAME'				=> 'Stijl naam',
+	'STYLE_INSTALLED_RETURN_INSTALLED_STYLES' => 'Ga terug naar de lijst met geïnstalleerde stijlen',
+	'STYLE_INSTALLED_RETURN_UNINSTALLED_STYLES' => 'Installeer meer stijlen',
+	'STYLE_NAME'				=> 'Stijlnaam',
 	'STYLE_NOT_INSTALLED'		=> 'De stijl "%s" is niet geïnstalleerd.',
-	'STYLE_PATH'				=> 'Stijl pad',	
+	'STYLE_PATH'				=> 'Stijlpad',	
 	'STYLE_UNINSTALL'			=> 'Verwijderen',
 	'STYLE_UNINSTALL_DEPENDENT'	=> 'De stijl "%s" kan niet worden verwijderd omdat één of meer stijlen deze stijl nodig hebben om goed te kunnen functioneren.',
 	'STYLE_UNINSTALLED'			=> 'De stijl "%s" is succesvol verwijderd.',
-	'STYLE_USED_BY'				=> 'Gebruikt door (incusief robots)',
+	'STYLE_USED_BY'				=> 'Gebruikt door (inclusief robots)',
 
 	'UNINSTALL_DEFAULT'		=> 'Je kan de standaard stijl niet verwijderen.',
 
