@@ -247,7 +247,7 @@ $lang = array_merge($lang, array(
 // Disallow Usernames
 $lang = array_merge($lang, array(
 	'ACP_DISALLOW_EXPLAIN'	=> 'Hier kan je gebruikersnamen controleren welke niet toegestaan zijn om te gebruiken. Verboden gebruikersnamen zijn toegestaan om een joker (*) te bevatten.',
-	'ADD_DISALLOW_EXPLAIN'	=> 'Je kan een gebruikersnaam verbieden doormiddel van een joker (*) te gebruiken zodat het overeenkomt met elk teken.',
+	'ADD_DISALLOW_EXPLAIN'	=> 'Je kan een gebruikersnaam verbieden door middel van een joker (*) te gebruiken zodat het overeenkomt met elk teken.',
 	'ADD_DISALLOW_TITLE'	=> 'Een verboden gebruikersnaam toevoegen',
 
 	'DELETE_DISALLOW_EXPLAIN'	=> 'Je kan een verboden gebruikersnaam verwijderen door de gebruikersnaam te selecteren van deze lijst en op verstuur te klikken.',
