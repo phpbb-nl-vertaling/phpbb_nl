@@ -128,7 +128,7 @@ $lang = array_merge($lang, array(
 	'ACP_MANAGE_EXTENSIONS'		=> 'Beheer bijlage-extensies',
 	'ACP_MANAGE_FORUMS'			=> 'Beheer forums',
 	'ACP_MANAGE_RANKS'			=> 'Beheer rangen',
-	'ACP_MANAGE_REASONS'		=> 'Beheer meldingen/afkeurredenen',
+	'ACP_MANAGE_REASONS'		=> 'Beheer melding/afkeurredenen',
 	'ACP_MANAGE_USERS'			=> 'Beheer gebruikers',
 	'ACP_MASS_EMAIL'			=> 'Massa e-mail',
 	'ACP_MESSAGES'				=> 'Berichten',
@@ -179,7 +179,7 @@ $lang = array_merge($lang, array(
 
 	'ACP_SUBMIT_CHANGES'		=> 'Verstuur veranderingen',
 
-	'ACP_TEMPLATES'				=> 'Sjablomen',
+	'ACP_TEMPLATES'				=> 'Templates',
 	'ACP_THEMES'				=> 'Thema\'s',
 
 	'ACP_UPDATE'					=> 'Updating',
@@ -256,7 +256,7 @@ $lang = array_merge($lang, array(
 	'LOAD_NOTIFICATIONS_EXPLAIN'	=> 'Geef de notificatielijst weer op iedere pagina (meestal in de kop).',
 	'LOGGED_IN_AS'			=> 'Je bent aangemeld als:',
 	'LOGIN_ADMIN'			=> 'Om het forum te beheren moet je aangemeld zijn als een geverifieerde gebruiker.',
-	'LOGIN_ADMIN_CONFIRM'	=> 'Om het forum te beheren moet je jezelf herverifiëren.',
+	'LOGIN_ADMIN_CONFIRM'	=> 'Om het forum te beheren moet je jezelf verifiëren.',
 	'LOGIN_ADMIN_SUCCESS'	=> 'Je bent succesvol geverifieerd en je wordt nu doorgeleid naar het beheerderspaneel.',
 	'LOOK_UP_FORUM'			=> 'Selecteer een forum',
 	'LOOK_UP_FORUMS_EXPLAIN'=> 'Je kan meer dan één forum selecteren.',
@@ -277,7 +277,7 @@ $lang = array_merge($lang, array(
 	'OFF'					=> 'Uit',
 	'ON'					=> 'Aan',
 
-	'PARSE_BBCODE'						=> 'Verwerk BBCode', //verwerk? voor parse?
+	'PARSE_BBCODE'						=> 'Verwerk BBCode',
 	'PARSE_SMILIES'						=> 'Verwerk smilies',
 	'PARSE_URLS'						=> 'Verwerk links',
 	'PERMISSIONS_TRANSFERRED'			=> 'Permissies overgebracht',
@@ -542,7 +542,7 @@ $lang = array_merge($lang, array(
 	'LOG_CONFIG_VISUAL'			=> '<strong>Anti-spambotinstellingen aangepast</strong>',
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>Onderwerp goedgekeurd</strong><br />» %s',
-	'LOG_BUMP_TOPIC'			=> '<strong>Gebruiker bumped onderwerp</strong><br />» %s', //hebben we nog een ander woord voor bumped?
+	'LOG_BUMP_TOPIC'			=> '<strong>Gebruiker bumped onderwerp</strong><br />» %s',
 	'LOG_DELETE_POST'			=> '<strong>Bericht “%1$s” verwijderd, geschreven door</strong><br />» %2$s',
 	'LOG_DELETE_SHADOW_TOPIC'	=> '<strong>Schaduwonderwerp verwijderd</strong><br />» %s',
 	'LOG_DELETE_TOPIC'			=> '<strong>Onderwerp “%1$s” verwijderd, geschreven door</strong><br />» %2$s',
