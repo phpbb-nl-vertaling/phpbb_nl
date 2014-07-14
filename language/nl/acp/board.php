@@ -414,7 +414,7 @@ $lang = array_merge($lang, array(
 	'AUTH_METHOD'				=> 'Selecteer een authenticatie methode',
 
 	'AUTH_PROVIDER_OAUTH_ERROR_ELEMENT_MISSING'	=> 'Zowel de sleutel als het geheim van ieder ingeschakelde OAuth service provider moet worden opgegeven. Er is alleen één opgegeven voor een OAuth service provider.',
-	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> 'Ieder OAuth provider vereist een uniek geheim en sleutel om te kunnen authenticeren met de externe server.<br />Deze worden geleverd bij de OAuth service wanneer je je website registreert bij hun en moet precies zoals geleverd ingevoerd worden.<br />Elke service dat niet een sleutel en geheim heeft ingevoerd, zal niet beschikbaar zijn voor gebruik door forumgebruikers.',
+        'AUTH_PROVIDER_OAUTH_EXPLAIN' => 'Ieder OAuth provider vereist een uniek geheim en sleutel om te kunnen authenticeren met de externe server. Deze worden geleverd bij de OAuth service wanneer je je website registreert bij hun en moet precies zoals geleverd ingevoerd worden.<br />Elke service dat niet een sleutel en geheim heeft ingevoerd, zal niet beschikbaar zijn voor gebruik door forumgebruikers. Let op: dat de gebruiker zich nog steeds kan registeren en aanmelden via de DB authenticatie plug-in',
 	'AUTH_PROVIDER_OAUTH_KEY'					=> 'Sleutel',
 	'AUTH_PROVIDER_OAUTH_TITLE'					=> 'OAuth',
 	'AUTH_PROVIDER_OAUTH_SECRET'				=> 'Geheim',
@@ -474,7 +474,7 @@ $lang = array_merge($lang, array(
 	'UPLOAD_ICONS_PATH'			=> 'Extensie groepiconen opslagpad',
 	'UPLOAD_ICONS_PATH_EXPLAIN'	=> 'Pad in je phpBB hoofdmap, bijv. <samp>images/upload_icons</samp>.',
 	'USE_SYSTEM_CRON'		=> 'Draai periodieke taken van systeem cron',
-	'USE_SYSTEM_CRON_EXPLAIN'		=> 'Wanneer uitgeschakeld, phpBB zal periodieke taken instellen om automatisch te laten draaien. Wanneer ingeschakeld, phpBB zal dan niet zelf periodieke taken instellen; een systeembeheerder zal dan moeten regelen dat <code>cron.php</code> opgeroepen wordt door de systeemcron-faciliteit op reguliere basis (bijv. iedere 5 minuten).',
+        'USE_SYSTEM_CRON_EXPLAIN' => 'Wanneer uitgeschakeld, zal phpBB periodieke taken instellen om deze automatisch te laten draaien. Wanneer ingeschakeld, zal phpBB geen periodieke taken instellen; een systeembeheerder zal dan moeten regelen dat <code>bin/phpbbcli.php cron:run</code> opgeroepen wordt door de systeemcron-faciliteit op reguliere basis (bijv. iedere 5 minuten).',	
 ));
 
 // Security Settings
