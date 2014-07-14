@@ -84,7 +84,7 @@ $lang = array_merge($lang, array(
 	'EMPTY_FIELD_IDENT'				=> 'Leeg veldindentificatie',
 	'EMPTY_USER_FIELD_NAME'			=> 'Vul een veldnaam/titel in',
 	'ENTRIES'						=> 'Items',
-	'EVERYTHING_OK'					=> 'Alles is OKE',
+	'EVERYTHING_OK'					=> 'Alles is OK',
 
 	'FIELD_BOOL'				=> 'Booleaans (Ja/Nee)',
 	'FIELD_CONTACT_DESC'		=> 'Contactbeschrijving',
@@ -96,7 +96,7 @@ $lang = array_merge($lang, array(
 	'FIELD_GOOGLEPLUS'          => 'Google+',
 	'FIELD_IDENT'				=> 'Veldidentificatie',
 	'FIELD_IDENT_ALREADY_EXIST'	=> 'De gekozen veldidentificatie bestaat al. Kies een andere naam.',
-	'FIELD_IDENT_EXPLAIN'		=> 'De veldidentificatie is een naam om het profielveld te identificeren in de database en de sjablonen.',
+	'FIELD_IDENT_EXPLAIN'		=> 'De veldidentificatie is een naam om het profielveld te identificeren in de database en in de template.',
 	'FIELD_INT'					=> 'Cijfers',
 	'FIELD_IS_CONTACT'			=> 'Veld weergeven als een contactveld',
 	'FIELD_IS_CONTACT_EXPLAIN'	=> 'Contactvelden worden weergegeven in het contactgedeelte van het gebruikersprofiel en worden anders weergegeven in het mini-profiel naast de berichten en privéberichten.',
