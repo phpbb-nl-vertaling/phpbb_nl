@@ -39,11 +39,15 @@ if (empty($lang) || !is_array($lang))
 // Forum Admin
 $lang = array_merge($lang, array(
 	'AUTO_PRUNE_DAYS'			=> 'Automatiche opschoning berichtenleeftijd',
-	'AUTO_PRUNE_DAYS_EXPLAIN'	=> 'Aantal dagen sinds laatste bericht waarna het onderwerp verwijderd wordt.',
+	'AUTO_PRUNE_DAYS_EXPLAIN'	=> 'Aantal dagen sinds laatste bericht waarna het onderwerp wordt verwijderd.',
 	'AUTO_PRUNE_FREQ'			=> 'Automatische opschoningsfrequentie',
 	'AUTO_PRUNE_FREQ_EXPLAIN'	=> 'Tijd in dagen tussen opschoningen.',
 	'AUTO_PRUNE_VIEWED'			=> 'Automatische opschoning berichten bekekenleeftijd',
-	'AUTO_PRUNE_VIEWED_EXPLAIN'	=> 'Aantal dagen sinds het onderwerp voor het laatst was bekeken waarna het onderwerp verwijderd wordt.',
+	'AUTO_PRUNE_VIEWED_EXPLAIN'	=> 'Aantal dagen sinds het onderwerp voor het laatst was bekeken waarna het onderwerp wordt verwijderd.',
+	'AUTO_PRUNE_SHADOW_FREQ'	=> 'Automatische opschoningsfrequentie schaduwonderwerpen',
+	'AUTO_PRUNE_SHADOW_DAYS'	=> 'Automatische opschoning schaduwonderwerp-leeftijd',
+	'AUTO_PRUNE_SHADOW_DAYS_EXPLAIN'	=> 'Aantal dagen waarna het schaduwonderwerp wordt verwijderd.',
+	'AUTO_PRUNE_SHADOW_FREQ_EXPLAIN'	=> 'Tijd in dagen tussen opschoningen.',
 
 	'CONTINUE'						=> 'Doorgaan',
 	'COPY_PERMISSIONS'				=> 'Kopieer permissies van',

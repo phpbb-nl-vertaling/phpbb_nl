@@ -524,8 +524,8 @@ $lang = array_merge($lang, array(
 	'PASS_TYPE_SYMBOL'				=> 'Moet symbolen bevatten',
 	'REF_HOST'						=> 'Alleen host valideren',
 	'REF_PATH'						=> 'Ook pad valideren',
-	'REFERER_VALID'					=> 'Valideer Referer', // geen idee hoe dit te vertalen referer
-	'REFERER_VALID_EXPLAIN'			=> 'Indien ingeschakeld, de referer van POST aanvragen zal worden gecontroleerd worden met de host/script-padinstellingen. Dit kan problemen veroorzaken met forums die gebruik maken van verschillende domeinen en of externe aanmeldingen.',
+	'REFERRER_VALID'				=> 'Valideer referentie',
+	'REFERRER_VALID_EXPLAIN'		=> 'Indien ingeschakeld, de referentie van POST aanvragen zal worden gecontroleerd worden met de host/script-padinstellingen. Dit kan problemen veroorzaken met forums die gebruik maken van verschillende domeinen en of externe aanmeldingen.',
 	'TPL_ALLOW_PHP'					=> 'PHP in sjablonen toestaan',
 	'TPL_ALLOW_PHP_EXPLAIN'			=> 'Als deze optie is ingeschakeld, zullen <code>PHP</code> en <code>INCLUDEPHP</code> statements herkend worden en verwerkt worden in sjablonen.',
 ));
@@ -534,7 +534,7 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_EMAIL_SETTINGS_EXPLAIN'	=> 'Deze informatie wordt gebruikt wanneer het forum e-mails verstuurt naar je gebruikers. Zorg er voor dat het e-mailadres dat je specificeert geldig is, elk bericht dat niet verstuurd kan worden zal waarschijnlijk hier naar toe verstuurd worden. Als je host geen (PHP gebaseerde) e-mailservice aanbied, dan kan je berichten versturen door gebruik te maken van SMTP. Dit vereist het adres van een server (vraag je provider indien nodig). Als de server authenticatie vereist (en alleen als het vereist wordt) voer dan de benodigde gebruikersnaam, wachtwoord en authenticatiemethode in.',
 
-	'ADMIN_EMAIL'					=> 'Antwoorde-mailadres',
+	'ADMIN_EMAIL'					=> 'Antwoord-mailadres',
 	'ADMIN_EMAIL_EXPLAIN'			=> 'Dit zal gebruikt worden als het antwoordadres voor alle e-mails, het technische contacte-mailadres. Het zal altijd gebruikt worden als de <samp>Antwoordpad</samp> en <samp>Afzender</samp> adres in e-mails.',
 	'BOARD_EMAIL_FORM'				=> 'Gebruikers versturen e-mails via forum',
 	'BOARD_EMAIL_FORM_EXPLAIN'		=> 'In plaats van het weergeven van de gebruikerse-mailadres, gebruikers kunnen e-mails versturen via het forum.',

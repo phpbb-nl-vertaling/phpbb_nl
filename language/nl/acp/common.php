@@ -237,7 +237,7 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_AS'				=> 'Download als',
 	'DOWNLOAD_STORE'			=> 'Download of bestand opslaan',
 	'DOWNLOAD_STORE_EXPLAIN'	=> 'Je kan het bestand direct downloaden of het bewaren in je <samp>store/</samp> map.',
-	'DOWNLOADS'          		=> 'Downloads',
+	'DOWNLOADS'					=> 'Downloads',
 
 	'EDIT'					=> 'Wijzig',
 	'ENABLE'				=> 'Inschakelen',
@@ -297,7 +297,7 @@ $lang = array_merge($lang, array(
 
 	'SHOW_ALL_OPERATIONS'	=> 'Toon alle operaties',
 
-	'TOTAL_SIZE'      		=> 'Totale grootte',
+	'TOTAL_SIZE'			=> 'Totale grootte',
 
 	'UCP'					=> 'Gebruikerspaneel',
 	'USERNAMES_EXPLAIN'		=> 'Plaats iedere gebruikersnaam op een aparte regel.',
@@ -689,7 +689,7 @@ $lang = array_merge($lang, array(
 	'LOG_REASON_REMOVED'	=> '<strong>Meldings-/afkeurreden verwijderd</strong><br />» %s',
 	'LOG_REASON_UPDATED'	=> '<strong>Meldings-/afkeurreden geüpdate</strong><br />» %s',
 
-	'LOG_REFERER_INVALID'		=> '<strong>Verwijzingsvalidatie mislukt</strong><br />»Verwijzing was “<em>%1$s</em>”. De aanvraag is afgewezen en de sessie gestopt.',
+	'LOG_REFERER_INVALID'		=> '<strong>Referentievalidatie mislukt</strong><br />»Referentie was “<em>%1$s</em>”. De aanvraag is afgewezen en de sessie gestopt.',
 	'LOG_RESET_DATE'			=> '<strong>Forum opstartdatum gereset</strong>',
 	'LOG_RESET_ONLINE'			=> '<strong>Meeste gebruikers online gereset</strong>',
 	'LOG_RESYNC_FILES_STATS'	=> '<strong>Bestandstatistieken gesynchroniseerd</strong>',

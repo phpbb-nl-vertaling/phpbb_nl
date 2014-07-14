@@ -327,12 +327,12 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TYPE_BOOKMARK'						=> 'Iemand heeft gereageerd op een onderwerp die je hebt gemarkeerd als favoriet',
 	'NOTIFICATION_TYPE_GROUP_REQUEST'					=> 'Iemand heeft lidmaatschap aangevraagd voor een groep die je leid',
 	'NOTIFICATION_TYPE_IN_MODERATION_QUEUE'				=> 'Een bericht of onderwerp heeft goedkeuring nodig',
-	'NOTIFICATION_TYPE_MODERATION_QUEUE'   				=> 'Je onderwerpen/berichten zijn goedgekeurd door een moderator',
+	'NOTIFICATION_TYPE_MODERATION_QUEUE'				=> 'Je onderwerpen/berichten zijn goedgekeurd door een moderator',
 	'NOTIFICATION_TYPE_PM'								=> 'Iemand heeft een privébericht verzonden naar je',
 	'NOTIFICATION_TYPE_POST'							=> 'Iemand heeft gereageerd op een onderwerp waarop je bent geabonneerd',
 	'NOTIFICATION_TYPE_QUOTE'							=> 'Iemand heeft je geciteerd in een bericht',
 	'NOTIFICATION_TYPE_REPORT'							=> 'Iemand heeft een bericht gemeld',
-	'NOTIFICATION_TYPE_TOPIC'				   			=> 'Iemand heeft een onderwerp aangemaakt in een forum waarop je bent geabonneerd',
+	'NOTIFICATION_TYPE_TOPIC'							=> 'Iemand heeft een onderwerp aangemaakt in een forum waarop je bent geabonneerd',
 	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Nieuw geregistreerde gebruiker vereist activatie',
 
 	'NOTIFY_METHOD'					=> 'Notificatie methode',
@@ -358,6 +358,7 @@ $lang = array_merge($lang, array(
 	),
 	'NO_ACTION_MODE'				=> 'Geen berichten actie opgegeven.',
 	'NO_AUTHOR'						=> 'Geen auteur geselecteerd voor dit bericht',
+	'NO_AVATAR'						=> 'Geen avatar geselecteerd',
 	'NO_AVATAR_CATEGORY'			=> 'Geen',
 
 	'NO_AUTH_DELETE_MESSAGE'		=> 'Je mag geen privéberichten verwijderen.',
