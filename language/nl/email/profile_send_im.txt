@@ -1,13 +1,13 @@
 
 Hallo {TO_USERNAME},
 
-Dit emailbericht bevat een bericht die {FROM_USERNAME} naar jouw heeft verstuurd via "{SITENAME}". Mocht dit bericht ongewenste of beledigde inhoud hebben, neem dan contact op met de beheerder van het forum via onderstaand adres: 
+Dit emailbericht bevat een bericht die {FROM_USERNAME} naar je heeft verstuurd via "{SITENAME}". Mocht dit bericht ongewenste of beledigende inhoud hebben, neem dan contact op met de beheerder van het forum via onderstaand adres: 
 
 {BOARD_CONTACT}
 
 Sluit de volledige e-mail (inclusief header) bij. Let op: het antwoordadres van deze e-mail is ingesteld op het forums IM-account.
 
-Onderstaand bericht is naar jou verstuurd:
+Onderstaand bericht is naar je verstuurd:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 {MESSAGE}
