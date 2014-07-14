@@ -38,58 +38,58 @@ if (empty($lang) || !is_array($lang))
 
 // User pruning
 $lang = array_merge($lang, array(
-	'ACP_PRUNE_USERS_EXPLAIN'	=> 'This section allows you to delete or deactivate users on your board. Accounts can be filtered in a variety of ways; by post count, most recent activity, etc. Criteria may be combined to narrow down which accounts are affected. For example, you can prune users with fewer than 10 posts, who were also inactive after 2002-01-01. Use * as a wildcard for text fields. Alternatively, you may skip the criteria selection completely by entering a list of users (each on a separate line) into the text field. Take care with this facility! Once a user is deleted, there is no way to reverse the action.',
+	'ACP_PRUNE_USERS_EXPLAIN'	=> 'Deze sectie staat je toe om gebruikers te deactiveren of te verwijderen op je forum. Accounts kunnen gefilterd worden op verschillende manieren; op berichtenaantal, meest recente activiteit, etc. Criteria kunnen gecombineerd worden om het aantal accounts te verkleinen die hierdoor worden geraakt. Bijvoorbeeld, je kan gebruikers opschonen met minder dan 10 berichten, die ook nog inactief zijn na 2002-01-01. Gebruik * als een joker voor tekstvelden. Je kan echter ook de criteriaselectie compleet overslaan door een lijst van gebruikers in te voeren (elk op een aparte regel) in het tekstveld. Wees voorzichtig met deze mogelijkheden! Wanneer een gebruiker is verwijderd, is er geen manier om dit ongedaan te maken.',
 
 	'CRITERIA'				=> 'Criteria',
 
-	'DEACTIVATE_DELETE'			=> 'Deactivate or delete',
-	'DEACTIVATE_DELETE_EXPLAIN'	=> 'Choose whether to deactivate users or delete them entirely. Please note that deleted users cannot be restored!',
-	'DELETE_USERS'				=> 'Delete',
-	'DELETE_USER_POSTS'			=> 'Delete pruned user posts',
-	'DELETE_USER_POSTS_EXPLAIN' => 'Removes posts made by deleted users, has no effect if users are deactivated.',
+	'DEACTIVATE_DELETE'			=> 'Deactiveren of verwijderen',
+	'DEACTIVATE_DELETE_EXPLAIN'	=> 'Kies of je gebruikers wilt deactiveren of compleet wilt verwijderen. Let op dat verwijderde gebruikers niet teruggehaald kunnen worden!',
+	'DELETE_USERS'				=> 'Verwijder',
+	'DELETE_USER_POSTS'			=> 'Verwijder berichten van opgeschoonde gebruikers',
+	'DELETE_USER_POSTS_EXPLAIN' => 'Verwijdert berichten gemaakt door verwijderde gebruikers, heeft geen effect als gebruikers zijn gedeactiveerd.',
 
-	'JOINED_EXPLAIN'			=> 'Enter a date in <kbd>YYYY-MM-DD</kbd> format. You may use both fields to specify an interval, or leave one blank for an open date range.',
+	'JOINED_EXPLAIN'			=> 'Voer een datum in in het volgende formaat <kbd>JJJJ-MM-DD</kbd>. Je kan beide velden gebruiken om een interval te specificeren, of er één leeg laten voor een open datumbereik.',
 
-	'LAST_ACTIVE_EXPLAIN'		=> 'Enter a date in <kbd>YYYY-MM-DD</kbd> format. Enter <kbd>0000-00-00</kbd> to prune users who never logged in, <em>Before</em> and <em>After</em> conditions will be ignored.',
+	'LAST_ACTIVE_EXPLAIN'		=> 'Voer een datum in, in het volgende formaat <kbd>JJJJ-MM-DD</kbd>. Vul <kbd>0000-00-00</kbd> in om gebruikers die nooit zijn aangemeld op te schonen, <em>Voor</em> en <em>Na</em> condities zullen genegeerd worden.',
 
-	'POSTS_ON_QUEUE'			=> 'Posts Awaiting Approval',
-	'PRUNE_USERS_GROUP_EXPLAIN'	=> 'Limit to users within the selected group.',
-	'PRUNE_USERS_GROUP_NONE'	=> 'All groups',
-	'PRUNE_USERS_LIST'				=> 'Users to be pruned',
-	'PRUNE_USERS_LIST_DELETE'		=> 'With the selected critera for pruning users the following accounts will be removed. You can remove individual users from the deletion list by unchecking the box next to their username.',
-	'PRUNE_USERS_LIST_DEACTIVATE'	=> 'With the selected critera for pruning users the following accounts will be deactivated. You can remove individual users from the deactivation list by unchecking the box next to their username.',
+	'POSTS_ON_QUEUE'			=> 'Berichten wachtend op goedkeuring',
+	'PRUNE_USERS_GROUP_EXPLAIN'	=> 'Limiteer naar gebruikers in de geselecteerde groep.',
+	'PRUNE_USERS_GROUP_NONE'	=> 'Alle groepen',
+	'PRUNE_USERS_LIST'				=> 'Gebruikers om te worden opgeschoond',
+	'PRUNE_USERS_LIST_DELETE'		=> 'Met de geselecteerde criteria voor het opschonen van gebruikers, zullen de volgende accounts verwijderd worden. Je kan individuele gebruikers van de opschoonlijst verwijderen door het vakje naast hun gebruikersnaam uit te zetten.',
+	'PRUNE_USERS_LIST_DEACTIVATE'	=> 'Met de geselecteerde criteria voor het opschonen van gebruikers, zullen de volgende accounts gedeactiveerd worden. Je kan individuele gebruikers van de deactivatielijst verwijderen door het vakje naast hun gebruikersnaam uit te zetten.',
 
-	'SELECT_USERS_EXPLAIN'		=> 'Enter specific usernames here. They will be used in preference to the criteria above. Founders cannot be pruned.',
+	'SELECT_USERS_EXPLAIN'		=> 'Voer hier specifieke gebruikersnamen in. Ze zullen gebruikt worden in plaats van de bovenstaande criteria. Oprichters kunnen niet opgeschoond worden.',
 
-	'USER_DEACTIVATE_SUCCESS'	=> 'The selected users have been deactivated successfully.',
-	'USER_DELETE_SUCCESS'		=> 'The selected users have been deleted successfully.',
-	'USER_PRUNE_FAILURE'		=> 'No users fit the selected criteria.',
+	'USER_DEACTIVATE_SUCCESS'	=> 'De geselecteerde gebruikers zijn succesvol gedeactiveerd.',
+	'USER_DELETE_SUCCESS'		=> 'De geselecteerde gebruikers zijn succesvol verwijderd.',
+	'USER_PRUNE_FAILURE'		=> 'Geen gebruikers vallen onder de geselecteerde criteria.',
 
-	'WRONG_ACTIVE_JOINED_DATE'	=> 'The date entered is wrong, it is expected in <kbd>YYYY-MM-DD</kbd> format.',
+	'WRONG_ACTIVE_JOINED_DATE'	=> 'De ingevoerde datum is verkeerd, het gebruikte formaat moet <kbd>JJJJ-MM-DD</kbd> zijn.',
 ));
 
 // Forum Pruning
 $lang = array_merge($lang, array(
-	'ACP_PRUNE_FORUMS_EXPLAIN'	=> 'This will delete any topic which has not been posted to or viewed within the number of days you select. If you do not enter a number then all topics will be deleted. By default, it will not remove topics in which polls are still running nor will it remove stickies and announcements.',
+	'ACP_PRUNE_FORUMS_EXPLAIN'	=> 'Dit zal elk onderwerp, waarin geen berichten zijn geplaatst of bekeken is in het aantal dagen dat je selecteert, opschonen. Als je geen cijfer invult dan zullen alle onderwerpen verwijderd worden. Standaard zal het geen onderwerpen verwijderen waarin nog open peilingen zijn en zal het geen stickies en mededelingen verwijderen.',
 
-	'FORUM_PRUNE'		=> 'Forum prune',
+	'FORUM_PRUNE'		=> 'Forum opschonen',
 
-	'NO_PRUNE'			=> 'No forums pruned.',
+	'NO_PRUNE'			=> 'Geen forums opgeschoond.',
 
-	'SELECTED_FORUM'	=> 'Selected forum',
-	'SELECTED_FORUMS'	=> 'Selected forums',
+	'SELECTED_FORUM'	=> 'Geselecteerde forum',
+	'SELECTED_FORUMS'	=> 'Geselecteerde forums',
 
-	'POSTS_PRUNED'					=> 'Posts pruned',
-	'PRUNE_ANNOUNCEMENTS'			=> 'Prune announcements',
-	'PRUNE_FINISHED_POLLS'			=> 'Prune closed polls',
-	'PRUNE_FINISHED_POLLS_EXPLAIN'	=> 'Removes topics with polls which have ended.',
-	'PRUNE_FORUM_CONFIRM'			=> 'Are you sure you want to prune the selected forums with the settings specified? Once removed, there is no way to recover the pruned posts and topics.',
-	'PRUNE_NOT_POSTED'				=> 'Days since last posted',
-	'PRUNE_NOT_VIEWED'				=> 'Days since last viewed',
-	'PRUNE_OLD_POLLS'				=> 'Prune old polls',
-	'PRUNE_OLD_POLLS_EXPLAIN'		=> 'Removes topics with polls not voted in for post age days.',
-	'PRUNE_STICKY'					=> 'Prune stickies',
-	'PRUNE_SUCCESS'					=> 'Pruning of forums was successful.',
+	'POSTS_PRUNED'					=> 'Berichten opgeschoond',
+	'PRUNE_ANNOUNCEMENTS'			=> 'Mededelingen opschonen',
+	'PRUNE_FINISHED_POLLS'			=> 'Gesloten peilingen opschonen',
+	'PRUNE_FINISHED_POLLS_EXPLAIN'	=> 'Verwijderd onderwerpen met peilingen die beëindigd zijn.',
+	'PRUNE_FORUM_CONFIRM'			=> 'Weet je zeker dat je de geselecteerde forums wilt opschonen met de gespecificeerde instellingen? Wanneer het opgeschoond is, kunnen de opgeschoonde berichten en onderwerpen niet meer teruggehaald worden.',
+	'PRUNE_NOT_POSTED'				=> 'Dagen sinds laatst bericht',
+	'PRUNE_NOT_VIEWED'				=> 'Dagen sinds laatst bekeken',
+	'PRUNE_OLD_POLLS'				=> 'Oude peilingen opschonen',
+	'PRUNE_OLD_POLLS_EXPLAIN'		=> 'Verwijderd onderwerpen met peilingen waarin niet ingestemd is voor x aantal dagen.',
+	'PRUNE_STICKY'					=> 'Stickies opschonen',
+	'PRUNE_SUCCESS'					=> 'Opschonen van forums was succesvol.',
 
-	'TOPICS_PRUNED'		=> 'Topics pruned',
+	'TOPICS_PRUNED'		=> 'Onderwerpen opgeschoond',
 ));
