@@ -1,17 +1,17 @@
-Subject: Reactivate your account on "{SITENAME}"
+Subject: Heractiveer je account op "{SITENAME}"
 
-A board administrator requested that your account be reactivated. Your account is currently inactive.
-Please follow the steps listed here to reactivate your account.
+Een forumbeheerder heeft gevraagd om je account te heractiveren. Je account is momenteel inactief.
+Volg onderstaande stappen om je account te heractiveren.
 
-Please keep this email for your records. Your account information is as follows:
+Dit bericht bevat belangrijke account informatie, bewaar deze email dus goed. Je account informatie is als volgt:
 
 ----------------------------
-Username: {USERNAME}
+Gebruikersnaam: {USERNAME}
 ----------------------------
 
-Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
+Je wachtwoord is veilig opgeslagen in onze database en kan niet worden achterhaald. Mocht je toch je wachtwoord vergeten zijn, dan kan je een nieuw wachtwoord aanvragen door het e-mailadres te gebruiken dat overeenkomt met je account.
 
-Please visit the following link to reactivate your account:
+Gebruik deze link om het gebruikersaccount te activeren:
 
 {U_ACTIVATE}
 
