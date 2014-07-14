@@ -426,23 +426,23 @@ $lang = array_merge($lang, array(
 	'FILE_DIFF_NOT_ALLOWED'			=> 'Bestand niet toegestaan om gediffed te worden.',
 	'FILE_USED'						=> 'Informatie gebruikt van',			// Single file
 	'FILES_CONFLICT'				=> 'Conflicterende bestanden',
-	'FILES_CONFLICT_EXPLAIN'		=> 'De volgende bestanden zijn aangepast en vertegenwoordigen niet de orginele bestanden van de oude versie. phpBB heeft gevonden dat deze bestanden conflicten veroorzaken als ze worden samengevoegd. Onderzoek deze conflicten en probeer ze handmatig op te lossen, of hervat het bijwerkingsproces en kies dan de voorkeurs samenvoegingsmethode. Wanneer je de conflicten handmatig oplost vergeet dan niet om de bestanden daarna opnieuw te controleren nadat je ze hebt aangepast. Je kan ook nog kiezen welke samenvoegingsmethode je wilt gebruiken voor elk bestand. De eerste methode zal het resultaat hebben dat de regels die een conflict veroorzakten in het bestand zullen worden verwijderd, de andere manier zal als resultaat hebben dat je al je aanpassingen kwijt raakt van het nieuwere bestand.',
-	'FILES_DELETED'					=> 'Deleted files',
-	'FILES_DELETED_EXPLAIN'			=> 'The following files do not exist in the new version. These files have to be deleted from your installation.',
+	'FILES_CONFLICT_EXPLAIN'		=> 'De volgende bestanden zijn aangepast en vertegenwoordigen niet de originele bestanden van de oude versie. phpBB heeft gevonden dat deze bestanden conflicten veroorzaken als ze worden samengevoegd. Onderzoek deze conflicten en probeer ze handmatig op te lossen, of hervat het bijwerkingsproces en kies dan de voorkeurs samenvoegingsmethode. Wanneer je de conflicten handmatig oplost vergeet dan niet om de bestanden daarna opnieuw te controleren nadat je ze hebt aangepast. Je kan ook nog kiezen welke samenvoegingsmethode je wilt gebruiken voor elk bestand. De eerste methode zal het resultaat hebben dat de regels die een conflict veroorzakten in het bestand zullen worden verwijderd, de andere manier zal als resultaat hebben dat je al je aanpassingen kwijt raakt van het nieuwere bestand.',
+	'FILES_DELETED'					=> 'Verwijderde bestanden',
+	'FILES_DELETED_EXPLAIN'			=> 'De volgende bestanden bestaan niet meer in de nieuwe versie. Deze bestanden zullen verwijderd moeten woren van je installatie.',
 	'FILES_MODIFIED'				=> 'Aangepaste bestanden',
-	'FILES_MODIFIED_EXPLAIN'		=> 'De volgende bestanden zijn aangepast en vertegenwoordigen niet de orginelen bestanden van de oude versie. Het bijgewerkte bestand zal worden samengevoegd met je aanpassingen en het nieuwe bestand.',
+	'FILES_MODIFIED_EXPLAIN'		=> 'De volgende bestanden zijn aangepast en vertegenwoordigen niet de originele bestanden van de oude versie. Het bijgewerkte bestand zal worden samengevoegd met je aanpassingen en het nieuwe bestand.',
 	'FILES_NEW'						=> 'Nieuwe bestanden',
 	'FILES_NEW_EXPLAIN'				=> 'De volgende bestanden bestaan momenteel niet in je installatie. Deze bestanden zullen worden toegevoegd naar je installatie.',
 	'FILES_NEW_CONFLICT'			=> 'Nieuwe conflicterende bestanden',
 	'FILES_NEW_CONFLICT_EXPLAIN'	=> 'De volgende bestanden zijn nieuw in de laatste versie, maar er is bepaald dat er al een bestand bestaat met dezelfde naam op dezelfde positie. Dit bestand zal worden overschreven door het nieuwe bestand.',
 	'FILES_NOT_MODIFIED'			=> 'Niet aangepaste bestanden',
-	'FILES_NOT_MODIFIED_EXPLAIN'	=> 'De volgende bestanden zijn niet aangepast, en zijn gelijk aan met de orginele phpBB-bestanden van de versie die je wilt bijwerken.',
+	'FILES_NOT_MODIFIED_EXPLAIN'	=> 'De volgende bestanden zijn niet aangepast, en zijn gelijk aan met de originele phpBB-bestanden van de versie die je wilt bijwerken.',
 	'FILES_UP_TO_DATE'				=> 'Bestanden die al zijn bijgewerkt',
 	'FILES_UP_TO_DATE_EXPLAIN'		=> 'De volgende bestanden zijn al up-to-date en hoeven niet te worden bijgewerkt.',
 	'FTP_SETTINGS'					=> 'FTP-instellingen',
 	'FTP_UPDATE_METHOD'				=> 'FTP-upload',
 
-	'INCOMPATIBLE_UPDATE_FILES'		=> 'De update-bestanden zijn incompleet met de geïnstalleerde versie. De geïnstaleerde versie is %1$s en de update-bestanden zijn voor het bijwerken van phpBB %2$s naar %3$s.',
+	'INCOMPATIBLE_UPDATE_FILES'		=> 'De update-bestanden zijn incompleet met de geïnstalleerde versie. De geïnstalleerde versie is %1$s en de update-bestanden zijn voor het bijwerken van phpBB %2$s naar %3$s.',
 	'INCOMPLETE_UPDATE_FILES'		=> 'De bijgewerkte bestanden zijn niet compleet.',
 	'INLINE_UPDATE_SUCCESSFUL'		=> 'Het bijwerken van de database is succesvol voltooid. Nu kan je verder gaan met de update.',
 
@@ -456,7 +456,7 @@ $lang = array_merge($lang, array(
 	'LINE_UNMODIFIED'		=> 'Niet aangepast',
 	'LOGIN_UPDATE_EXPLAIN'	=> 'Om de installatie te kunnen bijwerken moet je eerst aangemeld zijn.',
 
-	'MAPPING_FILE_STRUCTURE'	=> 'Om het uploaden te vereenvoudingen zijn hier de locaties waar de bestanden te vinden zijn in je phpBB-installatie.',
+	'MAPPING_FILE_STRUCTURE'	=> 'Om het uploaden te vereenvoudigen zijn hier de locaties waar de bestanden te vinden zijn in je phpBB-installatie.',
 
 	'MERGE_MODIFICATIONS_OPTION'	=> 'Modificaties samenvoegen',
 
@@ -464,7 +464,7 @@ $lang = array_merge($lang, array(
 	'MERGE_NO_MERGE_MOD_OPTION'	=> 'Niet samenvoegen - gebruik het huidig geïnstalleerde bestand',
 	'MERGE_MOD_FILE_OPTION'		=> 'Modificaties samenvoegen (Verwijdert de nieuwe phpBB-code binnen het blok dat een conflict vormt)',
 	'MERGE_NEW_FILE_OPTION'		=> 'Modificaties samenvoegen (Verwijdert de aangepaste code binnen het blok dat een conflict vormt)',
-	'MERGE_SELECT_ERROR'		=> 'Conflicterende bestands samenvoegings-mode is niet correct geselecteerd.',
+	'MERGE_SELECT_ERROR'		=> 'Conflicterende bestandssamenvoeging-mode is niet correct geselecteerd.',
 	'MERGING_FILES'				=> 'Verschillen samenvoegen',
 	'MERGING_FILES_EXPLAIN'		=> 'Momenteel bezig met het verzamelen van de uiteindelijke bestandswijzigingen.<br /><br />Wacht totdat phpBB alle acties heeft uitgevoerd op de gewijzigde bestanden.',
 
@@ -473,7 +473,7 @@ $lang = array_merge($lang, array(
 	'NO_AUTH_UPDATE'				=> 'Je hebt niet voldoende rechten om te kunnen updaten',
 	'NO_ERRORS'						=> 'Geen fouten',
 	'NO_UPDATE_FILES'				=> 'De volgende bestanden zijn niet bijgewerkt',
-	'NO_UPDATE_FILES_EXPLAIN'		=> 'De volgende bestanden zijn nieuw of aangepast maar de directory waar ze zich normaal in bevinden kon niet worden gevonden in je installatie. Als deze lijst andere bestanden bevat van andere directory dan language of styles/ dan heb je waarschijnlijk de directory structuur aangepast en dan is de update waarschijnlijk incompleet.',
+	'NO_UPDATE_FILES_EXPLAIN'		=> 'De volgende bestanden zijn nieuw of aangepast maar de directory waar ze zich normaal in bevinden kon niet worden gevonden in je installatie. Als deze lijst andere bestanden bevat van andere directory dan language/ of styles/ dan heb je waarschijnlijk de directory structuur aangepast en dan is de update waarschijnlijk incompleet.',
 	'NO_UPDATE_FILES_OUTDATED'		=> 'Er is geen geldige update-directory gevonden, wees er zeker van dat je de relevante bestanden hebt geüpload.<br /><br />Je installatie blijkt <strong>niet</strong> up-to-date te zijn. Update-pakketten zijn beschikbaar voor je versie van phpBB %1$s, bezoek daarvoor <a href="http://www.phpbbservice.nl/downloads/" rel="external">http://www.phpbbservice.nl/downloads/</a> om het correcte pakket te verkrijgen om te updaten van versie %2$s naar versie %3$s.',
 	'NO_UPDATE_FILES_UP_TO_DATE'	=> 'Je versie is up-to-date. Het is niet nodig om het update-hulpmiddel uit te voeren. Als je een integriteitscontrole wilt uitvoeren op de bestanden, wees er dan zeker van dat je de correcte update-bestanden upload.',
 	'NO_UPDATE_INFO'				=> 'Het update informatiebestand kan niet worden gevonden.',
@@ -513,7 +513,7 @@ $lang = array_merge($lang, array(
 	'STAGE_UPDATE_FILES'		=> 'Bestanden bijwerken',
 	'STAGE_VERSION_CHECK'		=> 'Versiecontrole',
 	'STATUS_CONFLICT'			=> 'Aangepast bestand veroorzaakt conflicten',
-	'STATUS_DELETED'			=> 'Deleted file',
+	'STATUS_DELETED'			=> 'Verwijderd bestand',
 	'STATUS_MODIFIED'			=> 'Aangepast bestand',
 	'STATUS_NEW'				=> 'Nieuw bestand',
 	'STATUS_NEW_CONFLICT'		=> 'Nieuw conflicterend bestand',
@@ -531,7 +531,7 @@ $lang = array_merge($lang, array(
 	'UPDATE_FILES'					=> 'Bestanden bijwerken',
 	'UPDATE_FILES_NOTICE'			=> 'Wees er ook zeker van dat je de forumbestanden ook bijgewerkt hebt, dit bestand werkt alleen de database bij.',
 	'UPDATE_INSTALLATION'			=> 'phpBB-installatie bijwerken',
-	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Met deze optie, is het mogelijk om je phpBB-installatie te updaten naar de laatste versie.<br />Tijdens het proces zullen alle bestanden gecontroleerd worden op hun aanwezigheid. Je kan ook alle verschillen bekijken van de bestanden voordat je gaat updaten.<br /><br />De bestandsupdate kan je op twee manieren doen.</p><h2>Handmatige update</h2><p>Met deze update download je alleen je persoonlijke set van gewijzigde bestanden om er zeker van te zijn dat je geen modificaties kwijt raakt die je hebt geïnstalleerd. Nadat je dit pakket hebt gedownload, zal je de bestanden handmatig moeten uploaden naar hun correcte plaats in je phpBB-hoofdmap, dus waar je de bestanden config.php, memberlist.php, enz kan terugvinden. Wanneer je dat hebt gedaan, kan je een bestandscontrole doen dat je laat zien of de bestanden correct zijn geüpload naar de juiste locatie.</p><h2>Automatische update met de FTP</h2><p>Deze methode is bijna hetzelfde als de eerste, maar met deze methode hoef je niet de gewijzigde bestanden te downloaden naar je eigen computer. Dit wordt namelijk gedaan voor je. Om deze methode te gebruiken heb je de FTP-aanmeldingsgegevens nodig wanneer er naar wordt gevraagd. Wanneer dat klaar is, zal je worden herleidt naar de bestandscontrolemethode dat controleert of alles correct is bijgewerkt.<br /><br />',
+	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Met deze optie, is het mogelijk om je phpBB-installatie te updaten naar de laatste versie.<br />Tijdens het proces zullen alle bestanden gecontroleerd worden op hun aanwezigheid. Je kan ook alle verschillen bekijken van de bestanden voordat je gaat updaten.<br /><br />De bestandsupdate kan je op twee manieren doen.</p><h2>Handmatige update</h2><p>Met deze update download je alleen je persoonlijke set van gewijzigde bestanden om er zeker van te zijn dat je geen extensies kwijt raakt die je hebt geïnstalleerd. Nadat je dit pakket hebt gedownload, zal je de bestanden handmatig moeten uploaden naar hun correcte plaats in je phpBB-hoofdmap, dus waar je de bestanden config.php, memberlist.php, enz kan terugvinden. Wanneer je dat hebt gedaan, kan je een bestandscontrole doen dat je laat zien of de bestanden correct zijn geüpload naar de juiste locatie.</p><h2>Automatische update met de FTP</h2><p>Deze methode is bijna hetzelfde als de eerste, maar met deze methode hoef je niet de gewijzigde bestanden te downloaden naar je eigen computer. Dit wordt namelijk gedaan voor je. Om deze methode te gebruiken heb je de FTP-aanmeldgegevens nodig wanneer er naar wordt gevraagd. Wanneer dat klaar is, zal je worden herleidt naar de bestandscontrolemethode dat controleert of alles correct is bijgewerkt.<br /><br />',
 	'UPDATE_INSTRUCTIONS'			=> '
 
 		<h1>Versiemededeling</h1>
