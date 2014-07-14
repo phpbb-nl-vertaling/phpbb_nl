@@ -101,11 +101,11 @@ $lang = array_merge($lang, array(
 	'MAX_NUM_SEARCH_KEYWORDS'				=> 'Maximum number of allowed keywords',
 	'MAX_NUM_SEARCH_KEYWORDS_EXPLAIN'		=> 'Maximum number of words the user is able to search for. A value of 0 allows an unlimited number of words.',
 	'MIN_SEARCH_CHARS'						=> 'Min characters indexed by search',
-	'MIN_SEARCH_CHARS_EXPLAIN'				=> 'Words with at least this many characters will be indexed for searching.',
-	'MIN_SEARCH_AUTHOR_CHARS'				=> 'Min author name characters',
-	'MIN_SEARCH_AUTHOR_CHARS_EXPLAIN'		=> 'Users have to enter at least this many characters of the name when performing a wildcard author search. If the author’s username is shorter than this number you can still search for the author’s posts by entering the complete username.',
+	'MIN_SEARCH_CHARS_EXPLAIN'				=> 'Woorden met tenminste dit aantal tekens zullen geïndexeerd worden voor zoekopdrachten.',
+	'MIN_SEARCH_AUTHOR_CHARS'				=> 'Minimum tekens auteursnaam',
+	'MIN_SEARCH_AUTHOR_CHARS_EXPLAIN'		=> 'Gebruikers moeten tenminste dit aantal tekens invoeren van de naam bij het uitvoeren van een zoekopdracht naar een auteur met een jokerv(*). Als de auteur’s gebruikersnaam korter is dan dit aantal, dan kan je nog steeds zoeken naar de auteur’s berichten door de complete gebruikersnaam in te vullen.',
 
-	'PROGRESS_BAR'							=> 'Progress bar',
+	'PROGRESS_BAR'							=> 'Progressie bar',
 
 	'SEARCH_GUEST_INTERVAL'					=> 'Wachttijd voor gasten tussen zoekopdrachten',
 	'SEARCH_GUEST_INTERVAL_EXPLAIN'			=> 'Aantal secondes dat gasten moeten wachten tussen zoekopdrachten. Als één gast aan het zoeken is, zullen anderen moeten wachten totdat deze tijd voorbij is gegaan.',
