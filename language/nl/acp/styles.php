@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACP_STYLES_EXPLAIN'	=> 'Hier kan je de beschikbare stijlen van je forum beheren. Je kunt bestaande stijlen wijzigen, verwijderen, deactiveren, heractiveren en nieuwe stijlen installeren. Je kan hier ook zien hoe je stijl eruit ziet door de voorbeeld functie te gebruiken. Hier wordt ook het aantal gebruikers weergegeven die de stijl gebruiken, let op: dat het overschrijven van de gebruikersstijl hier niet zal worden weergegeven.',
+	'ACP_STYLES_EXPLAIN'	=> 'Hier kan je de beschikbare stijlen van je forum beheren. Je kan bestaande stijlen wijzigen, verwijderen, deactiveren, heractiveren en nieuwe stijlen installeren. Je kan hier ook zien hoe je stijl eruit ziet door de voorbeeld functie te gebruiken. Hier wordt ook het aantal gebruikers weergegeven die de stijl gebruiken, let op: dat het overschrijven van de gebruikersstijl hier niet zal worden weergegeven.',
 	
 	'CANNOT_BE_INSTALLED'			=> 'Kan niet worden geïnstalleerd',
 	'CONFIRM_UNINSTALL_STYLES'		=> 'Weet je zeker dat je de geselecteerde stijlen wilt verwijderen?',
@@ -66,7 +66,7 @@ $lang = array_merge($lang, array(
 	'STYLE_ACTIVE'				=> 'Actief',
 	'STYLE_DEACTIVATE'			=> 'Deactiveren',
 	'STYLE_DEFAULT'				=> 'Maak standaard stijl',
-	'STYLE_DEFAULT_CHANGE_INACTIVE'	=> 'Je moet de stijl eerst activeren, voordat je dit je standaard stijl kunt maken.',
+	'STYLE_DEFAULT_CHANGE_INACTIVE'	=> 'Je moet de stijl eerst activeren, voordat je dit je standaard stijl kan maken.',
 	'STYLE_ERR_INVALID_PARENT'	=> 'Invalid parent style.',
 	'STYLE_ERR_NAME_EXIST'		=> 'Er bestaat al een stijl met dezelfde naam.',
 	'STYLE_ERR_STYLE_NAME'		=> 'Er moet een naam voor de stijl worden ingevuld.',
