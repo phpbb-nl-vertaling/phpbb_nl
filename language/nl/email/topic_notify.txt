@@ -1,8 +1,8 @@
-Subject: Nieuw bericht in onderwerpmelding - "{TOPIC_TITLE}"
+Subject: Nieuwe reactie in onderwerp - "{TOPIC_TITLE}"
 
 Hallo {USERNAME},
 
-Je ontvangt deze e-mail omdat je een onderwerp volgt, "{TOPIC_TITLE}" op "{SITENAME}". Dit onderwerp heeft een nieuw bericht<!-- IF AUTHOR_NAME !== '' --> door {AUTHOR_NAME}<!-- ENDIF --> sinds je laatste bezoekt. Er worden geen nieuwe meldingen verzonden totdat je het onderwerp weer hebt bezocht.
+Je ontvangt dit bericht omdat je op een onderwerp bent geabonneerd, "{TOPIC_TITLE}" op "{SITENAME}". Dit onderwerp heeft een nieuwe reactie <!-- IF AUTHOR_NAME !== '' --> van {AUTHOR_NAME}<!-- ENDIF --> sinds je laatste bezoekt. Er worden geen nieuwe meldingen verzonden totdat je het onderwerp weer hebt bezocht.
 
 Als je het nieuwste bericht wilt bekijken, klik op de volgende link:
 {U_NEWEST_POST}
@@ -13,7 +13,7 @@ Als je het onderwerp wilt bekijken, klik op de volgende link:
 Als je het forum wilt bekijken, klik op de volgende link:
 {U_FORUM}
 
-Als je dit onderwerp niet meer wilt volgen, klik dan op "Unsubscribe topic" link bovenaan of onderaan het onderwerp, of door te klikken op de volgende link:
+Als je niet langer meer geabonneerd wilt zijn op dit onderwerp, klik dan op "Uitschrijven onderwerp" link bovenaan of onderaan het onderwerp, of door te klikken op de volgende link:
 {U_STOP_WATCHING_TOPIC}
 
 {EMAIL_SIG}
