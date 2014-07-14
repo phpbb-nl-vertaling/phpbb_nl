@@ -225,8 +225,19 @@ $lang = array_merge($lang, array(
 
 	'BACK'					=> 'Terug',
 
+        'CLI_DESCRIPTION_CRON_LIST' => 'Weergeeft een lijst van cronjobs die klaar en niet klaar zijn.', 
+        'CLI_DESCRIPTION_CRON_RUN' => 'Draait al cronjob taken die klaar zijn.',
+        'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1' => 'Naam van de taak die moet worden uitgevoerd',
+
+        'CLI_DESCRIPTION_OPTION_SHELL' => 'Launch the shell.',
+
 	'COLOUR_SWATCH'			=> 'Web-veilige kleurenpalet',
 	'CONFIG_UPDATED'		=> 'Instellingen succesvol bijgewerkt.',
+        'CRON_LOCK_ERROR' => 'Could not obtain cron lock.',
+        'CRON_NO_SUCH_TASK' => 'Kan cron taak “%s” niet vinden.',
+        'CRON_NO_TASK' => 'Er hoeven geen cron taken worden uitgevoerd.',
+        'CRON_NO_TASKS' => 'Er kunnen geen cron taken gevonden worden.',
+
 
 	'DEACTIVATE'				=> 'Deactiveer',
 	'DIRECTORY_DOES_NOT_EXIST'	=> 'Het opgegeven pad “%s” bestaat niet.',
@@ -287,6 +298,7 @@ $lang = array_merge($lang, array(
 	'REMIND'							=> 'Herinner',
 	'RESYNC'							=> 'Synchroniseer',
 	
+	'RUNNING_TASK'                  => 'Taak %s uitvoeren.',
 	'SELECT_ANONYMOUS'		=> 'Selecteer gastgebruiker',
 	'SELECT_OPTION'			=> 'Selecteer optie',
 
@@ -297,6 +309,8 @@ $lang = array_merge($lang, array(
 
 	'SHOW_ALL_OPERATIONS'	=> 'Toon alle operaties',
 
+	'TASKS_NOT_READY'               => 'Geen taken die klaar zijn:',
+        'TASKS_READY'                   => 'Taken die klaar zijn:',
 	'TOTAL_SIZE'      		=> 'Totale grootte',
 
 	'UCP'					=> 'Gebruikerspaneel',
@@ -543,9 +557,9 @@ $lang = array_merge($lang, array(
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>Onderwerp goedgekeurd</strong><br />» %s',
 	'LOG_BUMP_TOPIC'			=> '<strong>Gebruiker bumped onderwerp</strong><br />» %s', //hebben we nog een ander woord voor bumped?
-	'LOG_DELETE_POST'			=> '<strong>Bericht “%1$s” verwijderd, geschreven door</strong><br />» %2$s',
-	'LOG_DELETE_SHADOW_TOPIC'	=> '<strong>Schaduwonderwerp verwijderd</strong><br />» %s',
-	'LOG_DELETE_TOPIC'			=> '<strong>Onderwerp “%1$s” verwijderd, geschreven door</strong><br />» %2$s',
+	'LOG_DELETE_POST'                       => '<strong>Bericht “%1$s” verwijderd, geschreven door “%2$s”, om de volgende reden</strong><br />» %3$s',
+	'LOG_DELETE_SHADOW_TOPIC'	        => '<strong>Schaduwonderwerp verwijderd</strong><br />» %s',
+	'LOG_DELETE_TOPIC'                      => '<strong>Onderwerp “%1$s” verwijderd, geschreven door “%2$s”, om de volgende reden</strong><br />» %3$s',
 	'LOG_FORK'					=> '<strong>Onderwerp gekopieerd</strong><br />» van %s',
 	'LOG_LOCK'					=> '<strong>Onderwerp gesloten</strong><br />» %s',
 	'LOG_LOCK_POST'				=> '<strong>Bericht gesloten</strong><br />» %s',
@@ -555,15 +569,15 @@ $lang = array_merge($lang, array(
 	'LOG_PM_REPORT_DELETED'		=> '<strong>PB-melding verwijderd</strong><br />» %s',
 	'LOG_POST_APPROVED'			=> '<strong>Bericht goedgekeurd</strong><br />» %s',
 	'LOG_POST_DISAPPROVED'		=> '<strong>Bericht “%1$s” afgekeurd geschreven door “%3$s” met de volgende reden</strong><br />» %2$s',
-	'LOG_POST_EDITED'			=> '<strong>Bericht “%1$s” gewijzigd, geschreven door</strong><br />» %2$s',
+	'LOG_POST_EDITED'                       => '<strong>Bericht “%1$s” gewijzigd, gechreven door “%2$s”, om de volgende reden</strong><br />» %3$s',
 	'LOG_POST_RESTORED'			=> '<strong>Bericht teruggehaald</strong><br />» %s',
 	'LOG_REPORT_CLOSED'			=> '<strong>Melding gesloten</strong><br />» %s',
 	'LOG_REPORT_DELETED'		=> '<strong>Melding verwijderd</strong><br />» %s',
-	'LOG_RESTORE_TOPIC'			=> '<strong>Onderwerp “%1$s” teruggehaald, geschreven door</strong><br />» %2$s',
-	'LOG_SOFTDELETE_POST'		=> '<strong>Bericht “%1$s” tijdelijk verwijderd, geschreven door</strong><br />» %2$s',
-	'LOG_SOFTDELETE_TOPIC'		=> '<strong>Onderwerp “%1$s” tijdelijk verwijderd, geschreven door</strong><br />» %2$s',
+	'LOG_RESTORE_TOPIC'	        => '<strong>Onderwerp “%1$s” teruggehaald, geschreven door</strong><br />» %2$s',
+        'LOG_SOFTDELETE_POST'           => '<strong>Bericht “%1$s” tijdelijk verwijderd, geschreven door “%2$s” om de volgende reden</strong><br />» %3$s',
+        'LOG_SOFTDELETE_TOPIC'          => '<strong>Onderwerp “%1$s” tijdelijk verwijderd, geschreven door “%2$s” om de volgende reden</strong><br />» %3$s',
 	'LOG_SPLIT_DESTINATION'		=> '<strong>Afgesplitste berichten verplaatst</strong><br />» naar %s',
-	'LOG_SPLIT_SOURCE'			=> '<strong>Berichten gesplitst</strong><br />» van %s',
+	'LOG_SPLIT_SOURCE'		=> '<strong>Berichten gesplitst</strong><br />» van %s',
 
 	'LOG_TOPIC_APPROVED'		=> '<strong>Onderwerp goedgekeurd</strong><br />» %s',
 	'LOG_TOPIC_RESTORED'		=> '<strong>Onderwerp teruggehaald</strong><br />» %s',
