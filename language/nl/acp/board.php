@@ -474,7 +474,7 @@ $lang = array_merge($lang, array(
 	'UPLOAD_ICONS_PATH'			=> 'Extensie groepiconen opslagpad',
 	'UPLOAD_ICONS_PATH_EXPLAIN'	=> 'Pad in je phpBB hoofdmap, bijv. <samp>images/upload_icons</samp>.',
 	'USE_SYSTEM_CRON'		=> 'Draai periodieke taken van systeem cron',
-        'USE_SYSTEM_CRON_EXPLAIN' => 'Wanneer uitgeschakeld, phpBB zal periodieke taken instellen om automatisch te laten draaien. Wanneer ingeschakeld, phpBB zal dan niet zelf periodieke taken instellen; een systeembeheerder zal dan moeten regelen dat <code>bin/phpbbcli.php cron:run</code> opgeroepen wordt door de systeemcron-faciliteit op reguliere basis (bijv. iedere 5 minuten).',	
+        'USE_SYSTEM_CRON_EXPLAIN' => 'Wanneer uitgeschakeld, zal phpBB periodieke taken instellen om deze automatisch te laten draaien. Wanneer ingeschakeld, zal phpBB geen periodieke taken instellen; een systeembeheerder zal dan moeten regelen dat <code>bin/phpbbcli.php cron:run</code> opgeroepen wordt door de systeemcron-faciliteit op reguliere basis (bijv. iedere 5 minuten).',	
 ));
 
 // Security Settings
