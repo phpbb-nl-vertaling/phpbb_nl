@@ -1,11 +1,11 @@
-Subject: Inactive account reminder
+Subject: Herinnering inactief account
 
-Hello {USERNAME},
+Hallo {USERNAME},
 
-This notification is a reminder that your account at "{SITENAME}", created on {REGISTER_DATE}, remains inactive. If you would like to activate this account, please visit the following link:
+Dit emailbericht is een herinnering dat je gebruikersaccount op "{SITENAME}", geregistreerd op {REGISTER_DATE}, inactief is. Gebruik deze link om het gebruikersaccount te activeren:
 
 {U_ACTIVATE}
 
-Thank you for registering at "{SITENAME}", we look forward to your participation.
+Bedankt voor je registratie op "{SITENAME}", wij kijken uit naar je deelname.
 
 {EMAIL_SIG}
