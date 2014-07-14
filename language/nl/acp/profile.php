@@ -39,7 +39,7 @@ if (empty($lang) || !is_array($lang))
 // Custom profile fields
 $lang = array_merge($lang, array(
 	'ADDED_PROFILE_FIELD'	=> 'Eigen profielveld succesvol toegevoegd.',
-	'ALPHA_DOTS'                    => 'Alfanumerieke en stippen (periodes)',
+	'ALPHA_DOTS'                    => 'Alfanumerieke en stippen (punt)',
 	'ALPHA_ONLY'			=> 'Alleen alfanumeriek',
 	'ALPHA_SPACERS'			=> 'Alfanumeriek en spaties',
 	'ALPHA_UNDERSCORE'		=> 'Alfanumeriek en underscores',
