@@ -225,6 +225,7 @@ $lang = array_merge($lang, array(
 	),
 	'QUOTE_NO_NESTING'			=> 'Je mag geen citaten in elkaar plaatsen.',
 
+	'REMOTE_UPLOAD_TIMEOUT'         => 'Het gespecificeerde bestand kon niet worden geüpload omdat de aanvraag is verlopen.',
 	'SAVE'						=> 'Opslaan',
 	'SAVE_DATE'					=> 'Opgeslagen op',
 	'SAVE_DRAFT'				=> 'Bewaar concept',
@@ -256,6 +257,8 @@ $lang = array_merge($lang, array(
 
 	'UNAUTHORISED_BBCODE'		=> 'Je kan niet bepaalde BBCodes gebruiken: %s.',
 	'UNGLOBALISE_EXPLAIN'		=> 'Om dit onderwerp terug te schakelen van algemeen naar een normaal onderwerp, moet je het forum selecteren waarin dit onderwerp weergegeven moet worden.',
+        'UNSUPPORTED_CHARACTERS_MESSAGE' => 'Je bericht bevat de volgende tekens die niet worden ondersteund:<br />%s',
+        'UNSUPPORTED_CHARACTERS_SUBJECT' => 'Je onderwerp bevat de volgende tekens die niet worden ondersteund:<br />%s',
 	'UPDATE_COMMENT'			=> 'Update reactie',
 	'URL_INVALID'				=> 'De URL die je hebt gespecificeerd is ongeldig.',
 	'URL_NOT_FOUND'				=> 'Het gespecificeerde bestand kan niet gevonden worden.',
