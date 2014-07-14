@@ -227,7 +227,7 @@ $lang = array_merge($lang, array(
 	),
 	'QUOTE_NO_NESTING'			=> 'Je mag geen citaten in elkaar plaatsen.',
 
-	'REMOTE_UPLOAD_TIMEOUT'         => 'The specified file could not be uploaded because the request timed out.',
+	'REMOTE_UPLOAD_TIMEOUT'         => 'Het gespecificeerde bestand kon niet worden geüpload omdat de aanvraag is verlopen.',
 	'SAVE'						=> 'Opslaan',
 	'SAVE_DATE'					=> 'Opgeslagen op',
 	'SAVE_DRAFT'				=> 'Bewaar concept',
