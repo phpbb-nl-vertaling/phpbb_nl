@@ -57,7 +57,7 @@ $lang = array_merge($lang, array(
 	'CANNOT_REMOVE_FOUNDER'			=> 'Je kan geen oprichteraccounts verwijderen.',
 	'CANNOT_SET_FOUNDER_IGNORED'	=> 'Je kan genegeerde gebruikers niet promoveren naar oprichters.',
 	'CANNOT_SET_FOUNDER_INACTIVE'	=> 'Je moet gebruikers eerst activeren voordat je ze naar oprichter kan promoveren, alleen geactiveerde gebruikers kunnen gepromoveerd worden.',
-	'CONFIRM_EMAIL_EXPLAIN'			=> 'Je hoeft dit alleen maar op te geven als je de e-mailadres van de gebruiker aan het wijzigen bent.',
+	'CONFIRM_EMAIL_EXPLAIN'			=> 'Je hoeft dit alleen maar op te geven als je het e-mailadres van de gebruiker aan het wijzigen bent.',
 
 	'DELETE_POSTS'			=> 'Verwijder berichten',
 	'DELETE_USER'			=> 'Verwijder gebruiker',
