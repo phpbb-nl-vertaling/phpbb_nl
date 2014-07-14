@@ -416,7 +416,7 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_CONFLICTS'				=> 'Conflicten voor dit bestand downloaden',
 	'DOWNLOAD_CONFLICTS_EXPLAIN'		=> 'Zoek voor &lt;&lt;&lt; om te kijken voor conflicten',
 	'DOWNLOAD_UPDATE_METHOD'			=> 'Aangepast bestandsarchief downloaden',
-	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> 'Wanneer je het hebt gedownload moet je het archief uitpakken. Je vindt de aangepaste bestanden die je moet uploaden naar je phpBB-hoofdmap (waar u o.a het bestand config.php, memberlist.php etc kunt terugvinden) in het archief. Upload de bestanden dan naar de juiste locaties. Wanneer je alle bestanden hebt geüpload, controleer je alle bestanden opnieuw met de andere knop hieronder.',
+	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> 'Wanneer je het archief hebt gedownload, moet je het archief uitpakken. Je vindt de aangepaste bestanden die je moet uploaden naar je phpBB-hoofdmap (waar je o.a het bestand config.php, memberlist.php etc kan terugvinden) in het archief. Upload de bestanden dan naar de juiste locaties. Wanneer je alle bestanden hebt geüpload, controleer je alle bestanden opnieuw met de andere knop hieronder.',
 
 	'EDIT_USERNAME'	=> 'Gebruikersnaam wijzigen',
 	'ERROR'			=> 'Fout',
@@ -476,7 +476,7 @@ $lang = array_merge($lang, array(
 	'NO_UPDATE_FILES_EXPLAIN'		=> 'De volgende bestanden zijn nieuw of aangepast maar de directory waar ze zich normaal in bevinden kon niet worden gevonden in je installatie. Als deze lijst andere bestanden bevat van andere directory dan language/ of styles/ dan heb je waarschijnlijk de directory structuur aangepast en dan is de update waarschijnlijk incompleet.',
 	'NO_UPDATE_FILES_OUTDATED'		=> 'Er is geen geldige update-directory gevonden, wees er zeker van dat je de relevante bestanden hebt geüpload.<br /><br />Je installatie blijkt <strong>niet</strong> up-to-date te zijn. Update-pakketten zijn beschikbaar voor je versie van phpBB %1$s, bezoek daarvoor <a href="http://www.phpbbservice.nl/downloads/" rel="external">http://www.phpbbservice.nl/downloads/</a> om het correcte pakket te verkrijgen om te updaten van versie %2$s naar versie %3$s.',
 	'NO_UPDATE_FILES_UP_TO_DATE'	=> 'Je versie is up-to-date. Het is niet nodig om het update-hulpmiddel uit te voeren. Als je een integriteitscontrole wilt uitvoeren op de bestanden, wees er dan zeker van dat je de correcte update-bestanden upload.',
-	'NO_UPDATE_INFO'				=> 'Het update informatiebestand kan niet worden gevonden.',
+	'NO_UPDATE_INFO'				=> 'Het update-informatiebestand kan niet worden gevonden.',
 	'NO_UPDATES_REQUIRED'			=> 'Er zijn geen updates nodig',
 	'NO_VISIBLE_CHANGES'			=> 'Er zijn geen zichtbare wijzigingen',
 	'NOTICE'						=> 'Notitie',
