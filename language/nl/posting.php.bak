@@ -77,8 +77,10 @@ $lang = array_merge($lang, array(
 		2	=> 'Je bericht bevat %1$d tekens.',
 	),
 	'CHARS_SIG_CONTAINS'		=> array(
-		1	=> 'Je onderschrift bevat %1$d teken.',
-		2	=> 'Je onderschrift bevat %1$d tekens.',
+		1	=> '
+		Je onderschrift bevat %1$d teken.',
+		2	=> '
+		Je onderschrift bevat %1$d tekens.',
 	),	
 	'CLOSE_TAGS'				=> 'Sluit tags',
 	'CURRENT_TOPIC'				=> 'Actuele onderwerp',

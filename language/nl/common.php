@@ -850,7 +850,7 @@ $lang = array_merge($lang, array(
 
 	'WRONG_DATA_COLOUR'			=> 'De kleurwaarde die je hebt ingevuld is ongeldig.',
 	'WRONG_DATA_JABBER'			=> 'De naam die je hebt ingevuld is geen geldig Jabber accountnaam.',
-	'WRONG_DATA_LANG'			=> 'De taalt die je hebt gespecificeerd is ongeldig.',
+	'WRONG_DATA_LANG'			=> 'De taal die je hebt gespecificeerd is ongeldig.',
 	'WROTE'						=> 'schreef',
 
 	'YAHOO'				=> 'Yahoo! Messenger',

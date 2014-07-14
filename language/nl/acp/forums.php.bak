@@ -117,7 +117,7 @@ $lang = array_merge($lang, array(
 	'FORUM_TOPICS_PAGE'					=> 'Onderwerpen per pagina',
 	'FORUM_TOPICS_PAGE_EXPLAIN'			=> 'Indien niet nul dan zal deze waarde de standaard onderwerpen per pagina instelling overschrijven.',
 	'FORUM_TYPE'						=> 'Forumtype',
-	'FORUM_UPDATED'						=> 'Foruminformatie succesvol bijgewerkt.',
+	'FORUM_UPDATED'						=> 'Foruminformatie succesvol geüpdate.',
 
 	'FORUM_WITH_SUBFORUMS_NOT_TO_LINK'		=> 'Je wilt een schrijfbare forum met subforums veranderen naar een link. Verplaats eerst alle subforums uit dit forum voordat je door gaat, want na het veranderen naar een link kan je niet langer meer de subforums zien die momenteel verbonden zijn met dit forum.',
 

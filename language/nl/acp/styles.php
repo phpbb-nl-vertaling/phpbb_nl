@@ -82,5 +82,4 @@ $lang = array_merge($lang, array(
 	'STYLE_USED_BY'				=> 'Gebruikt door (inclusief robots)',
 
 	'UNINSTALL_DEFAULT'		=> 'Je kan de standaard stijl niet verwijderen.',
-
 ));

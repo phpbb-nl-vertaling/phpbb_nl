@@ -556,6 +556,7 @@ $lang = array_merge($lang, array(
 		Je zal dan worden herleid naar het updateproces. Je zal daarna op de hoogte worden gehouden wanneer het bijwerken klaar is.
 		</p>
 	',
+
 	'UPDATE_METHOD'					=> 'Update-methode',
 	'UPDATE_METHOD_EXPLAIN'			=> 'Je kan hier de update-methode selecteren. Als je gebruikt maakt van de FTP-upload optie, dan zal er een formulier worden weergegeven waarbij je de FTP-accountgegevens moet invoeren. Met deze methode zullen alle bestanden automatisch worden verplaatst naar de nieuwe locatie en back-ups van de oude bestanden zullen ook worden gemaakt doormiddel van .bak in de bestandsnaam. Als u ervoor kiest om de aangepaste bestanden te downloaden moet je ze eerst uitpakken en later handmatig uploaden naar de juiste locatie.',
 	'UPDATE_REQUIRES_FILE'			=> 'Voor het update-script moet het volgende bestand aanwezig zijn: %s',
