@@ -59,6 +59,6 @@ $lang = array_merge($lang, array(
 	'QUESTION_TEXT_EXPLAIN'		=> 'De vraag die gesteld zal worden aan de gebruiker.',
 
 	'QA_ERROR_MSG'				=> 'Vul alle velden in en geef minimaal één antwoord.',
-	'QA_LAST_QUESTION'			=> 'Je kunt niet alle vragen verwijderen terwijl de plug-in actief is.',
+	'QA_LAST_QUESTION'			=> 'Je kan niet alle vragen verwijderen terwijl de plug-in actief is.',
 
 ));
