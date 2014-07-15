@@ -42,7 +42,7 @@ $lang = array_merge($lang, array(
 	'30_MINS'		=> '30 minuten',
 	'6_HOURS'		=> '6 uur',
 
-	'ACP_BAN_EXPLAIN'	=> 'Hier kan je het verbannen van gebruikers via naam, IP of e-mailadres controleren. Deze methodes voorkomen dat een gebruiker geen enkel deel van het forum meer kan bereiken. Je kan een korte (maximum 3000 karakters) reden geven voor de verbanning als je wilt. Dit zal weergegeven worden in de admin log. De duur van een verbanning kan ook gespecificeerd worden. Als je een verbanning wilt laten eindigen op een specifieke datum in plaats van na een bepaalde tijdsperiode selecteer <span style="text-decoration: underline;">Tot -&gt;</span> voor de verbanningsduur en voer een datum in in het formaat <kbd>JJJJ-MM-DD</kbd>.',
+	'ACP_BAN_EXPLAIN'	=> 'Hier kan je het verbannen van gebruikers via naam, IP of e-mailadres beheren. Deze methodes voorkomen dat een gebruiker geen enkel deel van het forum meer kan bereiken. Je kan een korte (maximum 3000 karakters) reden geven voor de verbanning als je wilt. Dit zal weergegeven worden in de admin log. De duur van een verbanning kan ook gespecificeerd worden. Als je een verbanning wilt laten eindigen op een specifieke datum in plaats van na een bepaalde tijdsperiode selecteer <span style="text-decoration: underline;">Tot -&gt;</span> voor de verbanningsduur en voer een datum in in het formaat <kbd>JJJJ-MM-DD</kbd>.',
 
 	'BAN_EXCLUDE'			=> 'Uitsluiten van verbannen',
 	'BAN_LENGTH'			=> 'Lengte van verbanning',
@@ -61,7 +61,7 @@ $lang = array_merge($lang, array(
 
 	'IP_BAN'					=> 'Verban één of meerdere IPs',
 	'IP_BAN_EXCLUDE_EXPLAIN'	=> 'Schakel dit in om de ingevoerde IP uit te sluiten van alle bestaande verbanningen.',
-	'IP_BAN_EXPLAIN'			=> 'Om meer dan één IP-adres of hostnaam in te geven, voer je ieder IP-adres in op een aparte regel.  Om een een bereik van IP-adressen te maken scheid je de start en het einde met een streepje (-), om een joker in te geven gebruik je “*”.',
+	'IP_BAN_EXPLAIN'			=> 'Om meer dan één IP-adres of hostnaam in te geven, voer je ieder IP-adres in op een aparte regel. Om een bereik van IP-adressen te maken, scheid je de start en het einde met een streepje (-), om een joker in te geven gebruik je “*”.',
 	'IP_HOSTNAME'				=> 'IP-adres of hostnamen',
 	'IP_NO_BANNED'				=> 'Geen verbannen IP-adressen',
 	'IP_UNBAN'					=> 'Opheffen verbanning of insluiten IPs',
@@ -75,7 +75,7 @@ $lang = array_merge($lang, array(
 	'PERMANENT'		=> 'Permanent',
 
 	'UNTIL'						=> 'Tot',
-	'USER_BAN'					=> 'Verban één of meerdere gebruikers doormiddel van de gebruikersnaam',
+	'USER_BAN'					=> 'Verban één of meerdere gebruikers door middel van de gebruikersnaam',
 	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'Schakel dit in om de ingevoerde gebruikersnamen uit te sluiten van alle bestaande verbanningen.',
 	'USER_BAN_EXPLAIN'			=> 'Je kan meerdere gebruikers in één keer verbannen door iedere naam op een aparte regel te zetten. Gebruik de <span style="text-decoration: underline;">Zoek een gebruiker</span> optie om gebruikers te zoeken en één of meerdere automatisch toe te voegen.',
 	'USER_NO_BANNED'			=> 'Geen verbannen gebruikersnamen',
