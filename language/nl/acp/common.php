@@ -76,7 +76,7 @@ $lang = array_merge($lang, array(
 	'ACP_CLIENT_COMMUNICATION'	=> 'Cliënt communicatie',
 	'ACP_COOKIE_SETTINGS'		=> 'Cookieinstellingen',
 	'ACP_CONTACT'				=> 'Contactpagina',
-	'ACP_CONTACT_SETTINGS'		=> 'Contactpagina instellingen',
+	'ACP_CONTACT_SETTINGS'		=> 'Contactpagina-instellingen',
 	'ACP_CRITICAL_LOGS'			=> 'Foutenlog',
 	'ACP_CUSTOM_PROFILE_FIELDS'	=> 'Aangepaste profielvelden',
 
@@ -182,7 +182,7 @@ $lang = array_merge($lang, array(
 	'ACP_TEMPLATES'				=> 'Templates',
 	'ACP_THEMES'				=> 'Thema\'s',
 
-	'ACP_UPDATE'					=> 'Updating',
+	'ACP_UPDATE'					=> 'Bijwerken',
 	'ACP_USERS_FORUM_PERMISSIONS'	=> 'Gebruikers forumpermissies',
 	'ACP_USERS_LOGS'				=> 'Gebruikerslogs',
 	'ACP_USERS_PERMISSIONS'			=> 'Gebruikerspermissies',
@@ -225,19 +225,18 @@ $lang = array_merge($lang, array(
 
 	'BACK'					=> 'Terug',
 
-        'CLI_DESCRIPTION_CRON_LIST' => 'Weergeeft een lijst van cronjobs die klaar en niet klaar zijn.', 
-        'CLI_DESCRIPTION_CRON_RUN' => 'Draait al cronjob taken die klaar zijn.',
-        'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1' => 'Naam van de taak die moet worden uitgevoerd',
+	'CLI_DESCRIPTION_CRON_LIST'				=> 'Weergeeft een lijst van cronjobs die klaar en niet klaar zijn.', 
+	'CLI_DESCRIPTION_CRON_RUN'				=> 'Draait al cronjob taken die klaar zijn.',
+	'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1'	=> 'Naam van de taak die moet worden uitgevoerd',
 
-        'CLI_DESCRIPTION_OPTION_SHELL' => 'Launch the shell.',
+	'CLI_DESCRIPTION_OPTION_SHELL' => 'Shell-toegang openen.',
 
 	'COLOUR_SWATCH'			=> 'Web-veilige kleurenpalet',
 	'CONFIG_UPDATED'		=> 'Instellingen succesvol bijgewerkt.',
-        'CRON_LOCK_ERROR' => 'Could not obtain cron lock.',
-        'CRON_NO_SUCH_TASK' => 'Kan cron taak “%s” niet vinden.',
-        'CRON_NO_TASK' => 'Er hoeven geen cron taken worden uitgevoerd.',
-        'CRON_NO_TASKS' => 'Er kunnen geen cron taken gevonden worden.',
-
+	'CRON_LOCK_ERROR'		=> 'Kan geen cron lock verkrijgen.',
+	'CRON_NO_SUCH_TASK'		=> 'Kan cron taak “%s” niet vinden.',
+	'CRON_NO_TASK'			=> 'Er hoeven geen cron taken te worden uitgevoerd.',
+	'CRON_NO_TASKS'			=> 'Er kunnen geen cron taken worden gevonden.',
 
 	'DEACTIVATE'				=> 'Deactiveer',
 	'DIRECTORY_DOES_NOT_EXIST'	=> 'Het opgegeven pad “%s” bestaat niet.',
@@ -292,26 +291,27 @@ $lang = array_merge($lang, array(
 	'PARSE_SMILIES'						=> 'Verwerk smilies',
 	'PARSE_URLS'						=> 'Verwerk links',
 	'PERMISSIONS_TRANSFERRED'			=> 'Permissies overgebracht',
-	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'Je hebt momenteel de permissies van %1$s. Je kan nu het forum bezoeken met de permissies van deze gebruiker, maar niet het beheerderspaneel omdat beheerderspermissies niet zijn overgebracht. Je kan <a href="%2$s"><strong>je eigen permissies terugzetten</strong></a> elk moment.',
+	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'Je hebt momenteel de permissies van %1$s. Je kan nu het forum bezoeken met de permissies van deze gebruiker, maar niet het beheerderspaneel omdat beheerderspermissies niet zijn overgebracht. Je kan <a href="%2$s"><strong>je eigen permissies terugzetten</strong></a> op elk moment.',
 	'PROCEED_TO_ACP'					=> '%sGa door naar het beheerderspaneel%s',
 
 	'REMIND'							=> 'Herinner',
 	'RESYNC'							=> 'Synchroniseer',
 	
 	'RUNNING_TASK'                  => 'Taak %s uitvoeren.',
+
 	'SELECT_ANONYMOUS'		=> 'Selecteer gastgebruiker',
 	'SELECT_OPTION'			=> 'Selecteer optie',
 
 	'SETTING_TOO_LOW'		=> 'De opgegeven waarde voor de instelling “%1$s” is te laag. De minimum geaccepteerde waarde is %2$d.',
 	'SETTING_TOO_BIG'		=> 'De opgegeven waarde voor de instelling “%1$s” is te hoog. De maximum geaccepteerde waarde is %2$d.',
 	'SETTING_TOO_LONG'		=> 'De opgegeven waarde voor de instelling “%1$s” is te lang. De maximum geaccepteerde lengte is %2$d.',
-	'SETTING_TOO_SHORT'		=> 'De opgegeven waarde voor de instelling “%1$s” is te kort. De mimimum geaccepteerde lengte is %2$d.',
+	'SETTING_TOO_SHORT'		=> 'De opgegeven waarde voor de instelling “%1$s” is te kort. De minimum geaccepteerde lengte is %2$d.',
 
 	'SHOW_ALL_OPERATIONS'	=> 'Toon alle operaties',
 
 	'TOTAL_SIZE'			=> 'Totale grootte',
-	'TASKS_NOT_READY'               => 'Geen taken die klaar zijn:',
-        'TASKS_READY'                   => 'Taken die klaar zijn:',
+	'TASKS_NOT_READY'		=> 'Geen taken die klaar zijn:',
+    'TASKS_READY'			=> 'Taken die klaar zijn:',
 	'TOTAL_SIZE'      		=> 'Totale grootte',
 
 	'UCP'					=> 'Gebruikerspaneel',
@@ -323,9 +323,9 @@ $lang = array_merge($lang, array(
 
 // PHP info
 $lang = array_merge($lang, array(
-	'ACP_PHP_INFO_EXPLAIN'	=> 'Deze pagina geeft de informatie over de versie van PHP die geïnstalleerd is op deze server. Het bevat details van geladen modules, beschikbare variabelen en standaard instellingen. Deze informatie kan bruikbaar zijn bij het oplossen van problemen. Let op dat sommige hostingsbedrijven de informatie die hier getoond wordt limiteren voor beveiligingsredenen. Je wordt geadviseerd om geen details van deze pagina openbaar te maken tenzij er naar gevraagd wordt door een <a href="https://www.phpbb.com/about/team/">officiële phpBB.com teamlid</a>, <a href="http://www.phpbbservice.nl/forum/memberlist.php?mode=leaders">officiële phpBBservice.nl teamleden</a> of <a href="http://www.phpbb.nl/medewerkers">officiële phpbb.nl teamleden</a> op de supportforums.',
+	'ACP_PHP_INFO_EXPLAIN'	=> 'Deze pagina geeft de informatie over de versie van PHP die geïnstalleerd is op deze server. Het bevat details van geladen modules, beschikbare variabelen en standaard instellingen. Deze informatie kan bruikbaar zijn bij het oplossen van problemen. Let op dat sommige hostingsbedrijven de informatie die hier wordt getoond limiteren voor beveiligingsredenen. Je wordt geadviseerd om geen details van deze pagina openbaar te maken tenzij er naar gevraagd wordt door een <a href="https://www.phpbb.com/about/team/">officiële phpBB.com teamlid</a>, <a href="http://www.phpbbservice.nl/forum/memberlist.php?mode=leaders">officiële phpBBservice.nl teamleden</a> of <a href="http://www.phpbb.nl/medewerkers">officiële phpbb.nl teamleden</a> op de supportforums.',
 
-	'NO_PHPINFO_AVAILABLE'	=> 'Informatie over je PHP configuratie kan niet vastgesteld worden. Phpinfo() is uitgeschakeld vanwege beveiliginsredenen.',
+	'NO_PHPINFO_AVAILABLE'	=> 'Informatie over je PHP configuratie kan niet vastgesteld worden. Phpinfo() is uitgeschakeld vanwege beveiligingsredenen.',
 ));
 
 // Logs
@@ -373,7 +373,7 @@ $lang = array_merge($lang, array(
 
 	'GZIP_COMPRESSION'	=> 'GZip-compressie',
 
-	'NO_SEARCH_INDEX'	=> 'De geselecteerde zoek-backend heeft geen zoekindex.<br />Maak de index aan voor “%1$s” in de %2$szoekindex%3$s sectie.',
+	'NO_SEARCH_INDEX'	=> 'De geselecteerde zoekachtergrond heeft geen zoekindex.<br />Maak de index aan voor “%1$s” in de %2$szoekindex%3$s sectie.',
 	'NOT_AVAILABLE'		=> 'Niet beschikbaar',
 	'NUMBER_FILES'		=> 'Aantal bijlagen',
 	'NUMBER_POSTS'		=> 'Aantal berichten',
@@ -397,14 +397,14 @@ $lang = array_merge($lang, array(
 
 	'RESET_DATE'					=> 'Opstartdatum van het forum resetten',
 	'RESET_DATE_CONFIRM'			=> 'Weet je zeker dat je de opstartdatum van het forum wilt resetten?',
-	'RESET_DATE_SUCCESS'				=> 'Opstartdatum van het forum gereset',
+	'RESET_DATE_SUCCESS'			=> 'Opstartdatum van het forum gereset',
 	'RESET_ONLINE'					=> 'De meeste gebruikers tegelijkertijd online resetten',
 	'RESET_ONLINE_CONFIRM'			=> 'Weet je zeker dat je de meeste gebruikers tegelijkertijd online wilt resetten?',
-	'RESET_ONLINE_SUCCESS'				=> 'Meeste gebruikers tegelijkertijd online gereset',
+	'RESET_ONLINE_SUCCESS'			=> 'Meeste gebruikers tegelijkertijd online gereset',
 	'RESYNC_POSTCOUNTS'				=> 'Berichtentellers synchroniseren',
 	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'Alleen bestaande berichten worden meegenomen. Opgeschoonde berichten zullen niet geteld worden.',
 	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'Weet je zeker dat je de berichtentellers wilt synchroniseren?',
-	'RESYNC_POSTCOUNTS_SUCCESS'			=> 'Berichtentellers gesynchroniseerd',
+	'RESYNC_POSTCOUNTS_SUCCESS'		=> 'Berichtentellers gesynchroniseerd',
 	'RESYNC_POST_MARKING'			=> 'Gestipte onderwerpen synchroniseren',
 	'RESYNC_POST_MARKING_CONFIRM'	=> 'Weet je zeker dat je de gestipte onderwerpen wilt synchroniseren?',
 	'RESYNC_POST_MARKING_EXPLAIN'	=> 'Eerst worden alle onderwerpen ongemarkeerd, daarna worden onderwerpen die de afgelopen zes maanden activiteit hebben gehad opnieuw gemarkeerd.',
@@ -446,7 +446,7 @@ $lang = array_merge($lang, array(
 	'INACTIVE_REASON_UNKNOWN'		=> 'Onbekend',
 	'INACTIVE_USERS'				=> 'Inactieve gebruikers',
 	'INACTIVE_USERS_EXPLAIN'		=> 'Dit is een lijst van gebruikers die zich geregistreerd hebben maar waarvan hun accounts inactief zijn. Je kan deze gebruikers activeren, verwijderen of herinneren (door het sturen van een e-mail) als je wilt.',
-	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Dit is een lijst van de laatste 10 geregistreerde gebruikers welke een inactieve account hebben. Accounts zijn inactief of vanwege accountactivatie is ingeschakeld in gebruikersregistratie-instellingen en deze gebruikers accounts zijn nog niet geactiveerd, of vanwege het feit dat deze accounts zijn gedeactiveerd. Een volledige lijst is beschikbaar door op de link hieronder te klikken en daar kan je deze gebruikers activeren, verwijderen of herinneren (door een e-mail te versturen) mocht je dat willen.',
+	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Dit is een lijst van de laatste 10 geregistreerde gebruikers welke een inactieve account hebben. Accounts zijn inactief of zijn vanwege accountactivatie (ingeschakeld in gebruikersregistratie-instellingen) nog niet geactiveerd, of vanwege het feit dat deze accounts zijn gedeactiveerd. Een volledige lijst is beschikbaar door op de link hieronder te klikken en daar kan je deze gebruikers activeren, verwijderen of herinneren (door een e-mail te versturen) mocht je dat willen.',
 
 	'NO_INACTIVE_USERS'	=> 'Geen inactieve gebruikers',
 
@@ -558,9 +558,9 @@ $lang = array_merge($lang, array(
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>Onderwerp goedgekeurd</strong><br />» %s',
 	'LOG_BUMP_TOPIC'			=> '<strong>Gebruiker bumped onderwerp</strong><br />» %s', //hebben we nog een ander woord voor bumped?
-	'LOG_DELETE_POST'                       => '<strong>Bericht “%1$s” verwijderd, geschreven door “%2$s”, om de volgende reden</strong><br />» %3$s',
-	'LOG_DELETE_SHADOW_TOPIC'	        => '<strong>Schaduwonderwerp verwijderd</strong><br />» %s',
-	'LOG_DELETE_TOPIC'                      => '<strong>Onderwerp “%1$s” verwijderd, geschreven door “%2$s”, om de volgende reden</strong><br />» %3$s',
+	'LOG_DELETE_POST'			=> '<strong>Bericht “%1$s” verwijderd, geschreven door “%2$s”, om de volgende reden</strong><br />» %3$s',
+	'LOG_DELETE_SHADOW_TOPIC'	=> '<strong>Schaduwonderwerp verwijderd</strong><br />» %s',
+	'LOG_DELETE_TOPIC'			=> '<strong>Onderwerp “%1$s” verwijderd, geschreven door “%2$s”, om de volgende reden</strong><br />» %3$s',
 	'LOG_FORK'					=> '<strong>Onderwerp gekopieerd</strong><br />» van %s',
 	'LOG_LOCK'					=> '<strong>Onderwerp gesloten</strong><br />» %s',
 	'LOG_LOCK_POST'				=> '<strong>Bericht gesloten</strong><br />» %s',
@@ -570,15 +570,15 @@ $lang = array_merge($lang, array(
 	'LOG_PM_REPORT_DELETED'		=> '<strong>PB-melding verwijderd</strong><br />» %s',
 	'LOG_POST_APPROVED'			=> '<strong>Bericht goedgekeurd</strong><br />» %s',
 	'LOG_POST_DISAPPROVED'		=> '<strong>Bericht “%1$s” afgekeurd geschreven door “%3$s” met de volgende reden</strong><br />» %2$s',
-	'LOG_POST_EDITED'                       => '<strong>Bericht “%1$s” gewijzigd, gechreven door “%2$s”, om de volgende reden</strong><br />» %3$s',
+	'LOG_POST_EDITED'			=> '<strong>Bericht “%1$s” gewijzigd, gechreven door “%2$s”, om de volgende reden</strong><br />» %3$s',
 	'LOG_POST_RESTORED'			=> '<strong>Bericht teruggehaald</strong><br />» %s',
 	'LOG_REPORT_CLOSED'			=> '<strong>Melding gesloten</strong><br />» %s',
 	'LOG_REPORT_DELETED'		=> '<strong>Melding verwijderd</strong><br />» %s',
 	'LOG_RESTORE_TOPIC'	        => '<strong>Onderwerp “%1$s” teruggehaald, geschreven door</strong><br />» %2$s',
-        'LOG_SOFTDELETE_POST'           => '<strong>Bericht “%1$s” tijdelijk verwijderd, geschreven door “%2$s” om de volgende reden</strong><br />» %3$s',
-        'LOG_SOFTDELETE_TOPIC'          => '<strong>Onderwerp “%1$s” tijdelijk verwijderd, geschreven door “%2$s” om de volgende reden</strong><br />» %3$s',
+	'LOG_SOFTDELETE_POST'		=> '<strong>Bericht “%1$s” tijdelijk verwijderd, geschreven door “%2$s” om de volgende reden</strong><br />» %3$s',
+	'LOG_SOFTDELETE_TOPIC'		=> '<strong>Onderwerp “%1$s” tijdelijk verwijderd, geschreven door “%2$s” om de volgende reden</strong><br />» %3$s',
 	'LOG_SPLIT_DESTINATION'		=> '<strong>Afgesplitste berichten verplaatst</strong><br />» naar %s',
-	'LOG_SPLIT_SOURCE'		=> '<strong>Berichten gesplitst</strong><br />» van %s',
+	'LOG_SPLIT_SOURCE'			=> '<strong>Berichten gesplitst</strong><br />» van %s',
 
 	'LOG_TOPIC_APPROVED'		=> '<strong>Onderwerp goedgekeurd</strong><br />» %s',
 	'LOG_TOPIC_RESTORED'		=> '<strong>Onderwerp teruggehaald</strong><br />» %s',
@@ -702,7 +702,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_REASON_ADDED'		=> '<strong>Meldings-/afkeurreden toegevoegd</strong><br />» %s',
 	'LOG_REASON_REMOVED'	=> '<strong>Meldings-/afkeurreden verwijderd</strong><br />» %s',
-	'LOG_REASON_UPDATED'	=> '<strong>Meldings-/afkeurreden geüpdate</strong><br />» %s',
+	'LOG_REASON_UPDATED'	=> '<strong>Meldings-/afkeurreden bijgewerkt</strong><br />» %s',
 
 	'LOG_REFERER_INVALID'		=> '<strong>Referentievalidatie mislukt</strong><br />»Referentie was “<em>%1$s</em>”. De aanvraag is afgewezen en de sessie gestopt.',
 	'LOG_RESET_DATE'			=> '<strong>Forum opstartdatum gereset</strong>',
@@ -793,7 +793,7 @@ $lang = array_merge($lang, array(
 	),	
 	'LOG_WARNINGS_DELETED_ALL'	=> '<strong>Alle gebruiker waarschuwingen verwijderd</strong><br />» %s',
 
-	'LOG_WORD_ADD'			=> '<strong>woordcensuur toegevoegd</strong><br />» %s',
+	'LOG_WORD_ADD'			=> '<strong>Woordcensuur toegevoegd</strong><br />» %s',
 	'LOG_WORD_DELETE'		=> '<strong>Woordcensuur verwijderd</strong><br />» %s',
 	'LOG_WORD_EDIT'			=> '<strong>Woordcensuur gewijzigd</strong><br />» %s',
 	
