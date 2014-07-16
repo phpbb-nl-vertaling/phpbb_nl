@@ -43,7 +43,7 @@ $lang = array_merge($lang, array(
 
 	'COMPOSE'			=> 'Opstellen',
 
-	'EMAIL_SEND_ERROR'		=> 'Er zijn één of meerdere fouten opgetreden tijdens het verzenden. Controleer het %sfoutenlogboek%s voor een uitgebreide beschrijving.',
+	'EMAIL_SEND_ERROR'		=> 'Er zijn Ã©Ã©n of meerdere fouten opgetreden tijdens het verzenden. Controleer het %sfoutenlogboek%s voor een uitgebreide beschrijving.',
 	'EMAIL_SENT'			=> 'Het bericht is verzonden.',
 	'EMAIL_SENT_QUEUE'		=> 'Het bericht staat in de wachtrij om te worden verstuurd.',
 
