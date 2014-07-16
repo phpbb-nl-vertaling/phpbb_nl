@@ -39,10 +39,10 @@ if (empty($lang) || !is_array($lang))
 // BBCodes
 // Note to translators: you can translate everything but what's between { and }
 $lang = array_merge($lang, array(
-	'ACP_BBCODES_EXPLAIN'		=> 'BBCode is een speciale implementatie van HTML wat een grotere controle geeft over wat en hoe iets wordt weergegeven. Op deze pagina kan je eigen BBCodes toevoegen, verwijderen en wijzigen.',
+	'ACP_BBCODES_EXPLAIN'		=> 'BBCode is een speciale implementatie van HTML, wat een grotere controle geeft over wat en hoe iets wordt weergegeven. Op deze pagina kan je eigen BBCodes toevoegen, verwijderen en wijzigen.',
 	'ADD_BBCODE'				=> 'Een nieuwe BBCode toevoegen',
 
-	'BBCODE_DANGER'				=> 'De BBCode, die je probeert toe te voegen, lijkt een {TEXT} token te gebruiken in een HTML attribuut. Dit is een mogelijk XSS beveiligingsprobleem. Probeer de meer beperkende {SIMPLETEXT} of {INTTEXT} types te gebruiken. Ga alleen verder als je de risico\'s begrijpt en je vindt het gebruik van {TEXT} absoluut onvermijdelijk.',
+	'BBCODE_DANGER'				=> 'De BBCode, die je probeert toe te voegen, lijkt een {TEXT} token te gebruiken in een HTML attribuut. Dit is een mogelijk XSS-beveiligingsprobleem. Probeer de meer beperkende {SIMPLETEXT} of {INTTEXT} types te gebruiken. Ga alleen verder als je de risico\'s begrijpt en je vindt het gebruik van {TEXT} absoluut onvermijdelijk.',
 	'BBCODE_DANGER_PROCEED'		=> 'Doorgaan', //'I understand the risk',
 
 	'BBCODE_ADDED'				=> 'BBCode succesvol toegevoegd.',
@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_HELPLINE_TEXT'		=> 'Hulpregeltekst',
 	'BBCODE_HELPLINE_TOO_LONG'	=> 'De hulpregel die je hebt ingevoerd is te lang.',
 
-	'BBCODE_INVALID_TAG_NAME'	=> 'De BBCode tagnaam, die je hebt ingevoerd, bestaat al.',
+	'BBCODE_INVALID_TAG_NAME'	=> 'De BBCode-tagnaam, die je hebt ingevoerd, bestaat al.',
 	'BBCODE_INVALID'			=> 'Je BBCode is aangemaakt in een ongeldig wijze.',
 	'BBCODE_OPEN_ENDED_TAG'		=> 'Je eigen BBCode moet zowel een openings- als een sluitingstag hebben.',
 	'BBCODE_TAG'				=> 'Tag',
@@ -85,7 +85,7 @@ $lang = array_merge($lang, array(
 		'NUMBER'		=> 'Iedere serie van cijfers',
 		'EMAIL'			=> 'Een geldig e-mailadres',
 		'URL'			=> 'Een geldig URL, die een protocol gebruikt (http, ftp, etc… kan niet gebruikt worden voor javascript exploits). Als er niks is opgegeven, zal “http://” worden toegevoegd aan de reeks.',
-		'LOCAL_URL'		=> 'Een locale URL. De URL moet relatief zijn aan de onderwerpenpagina en kan geen servernaam of protocol bevatten, omdat linken worden aangemaakt met “%s” als begin',
+		'LOCAL_URL'		=> 'Een lokale URL. De URL moet relatief zijn aan de onderwerpenpagina en kan geen servernaam of protocol bevatten, omdat linken worden aangemaakt met “%s” als begin',
 		'RELATIVE_URL'	=> 'Een relatieve URL. Je kan dit gebruiken om delen van een URL te herleiden, maar wees voorzichtig: een volledige URL is een geldige relatieve URL. Wanneer je relatieve URLs wilt gebruiken voor je forum, gebruik dan de LOCAL_URL token.',
 		'COLOR'			=> 'Een HTML kleur, kan geschreven worden in numerieke vorm <samp>#FF1234</samp> of als een <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS kleur sleutelwoord</a> zoals <samp>fuchsia</samp> of <samp>InactiveBorder</samp>'
 	),
@@ -105,7 +105,7 @@ $lang = array_merge($lang, array(
 	'CURRENT_ICONS'				=> 'Bestaande iconen',
 	'CURRENT_ICONS_EXPLAIN'		=> 'Kies wat er moet gebeuren met de bestaande geïnstalleerde iconen.',
 	'CURRENT_SMILIES'			=> 'Bestaande smilies',
-	'CURRENT_SMILIES_EXPLAIN'	=> 'kies wat er moet gebeuren met de bestaande geïnstalleerde smilies.',
+	'CURRENT_SMILIES_EXPLAIN'	=> 'Kies wat er moet gebeuren met de bestaande geïnstalleerde smilies.',
 
 	'DISPLAY_ON_POSTING'		=> 'Weergeven op de berichten',
 	'DISPLAY_POSTING'			=> 'Op berichtenpagina',
@@ -204,7 +204,7 @@ $lang = array_merge($lang, array(
 
 // Word censors
 $lang = array_merge($lang, array(
-	'ACP_WORDS_EXPLAIN'		=> 'Via dit controlepaneel kan je woorden toevoegen, verwijderen en wijzigen die automatisch zullen worden gecensureerd op je forums. Mensen zijn nog steeds toegestaan om te registreren met gebruikersnamen die deze woorden bevatten. Jokers (*) worden geaccepteerd in het woordveld, bijv. *test* zal overeenkomen met detestable, test* zal overeenkomen met testing, *test zal overeenkomen met detest.',
+	'ACP_WORDS_EXPLAIN'		=> 'Via dit controlepaneel kan je woorden toevoegen, verwijderen en wijzigen die automatisch zullen worden gecensureerd op je forums. Mensen zijn nog steeds toegestaan om te registreren met gebruikersnamen die deze woorden bevatten. Jokers (*) worden geaccepteerd in het woordveld, bijv. *test* zal overeenkomen met protesten, test* zal overeenkomen met testfase, *test zal overeenkomen met blaastest.',
 	'ADD_WORD'				=> 'Nieuw woord toevoegen',
 
 	'EDIT_WORD'		=> 'Woord wijzigen',
@@ -224,18 +224,18 @@ $lang = array_merge($lang, array(
 
 // Ranks
 $lang = array_merge($lang, array(
-	'ACP_RANKS_EXPLAIN'		=> 'Via dit paneel kan je rangen toevoegen, wijzigen en verwijderen. Je kan ook speciale rangen aanmaken die toegewezen kunnen worden aan een gebruiker via het gebruikerbeheer.',
+	'ACP_RANKS_EXPLAIN'		=> 'Via dit paneel kan je rangen toevoegen, wijzigen en verwijderen. Je kan ook speciale rangen aanmaken die toegewezen kunnen worden aan een gebruiker via het gebruikersbeheer.',
 	'ADD_RANK'				=> 'Nieuwe rang toevoegen',
 
 	'MUST_SELECT_RANK'		=> 'Je moet een rang selecteren.',
 
 	'NO_ASSIGNED_RANK'		=> 'Geen speciale rang toegewezen.',
 	'NO_RANK_TITLE'			=> 'Je hebt geen titel voor de rang opgegeven.',
-	'NO_UPDATE_RANKS'		=> 'De rang is succesvol verwijderd. Echter zijn gebruikersaccounts die deze rang gebruiken nog niet bijgewerkt. Je zal handmatig de rangen van deze accounts moeten resetten.',
+	'NO_UPDATE_RANKS'		=> 'De rang is succesvol verwijderd. Echter zijn er gebruikersaccounts die deze rang gebruiken nog niet bijgewerkt. Je zal handmatig de rangen van deze accounts moeten resetten.',
 
 	'RANK_ADDED'			=> 'De rang is succesvol toegevoegd.',
 	'RANK_IMAGE'			=> 'Rangafbeelding',
-	'RANK_IMAGE_EXPLAIN'	=> 'Gebruik dit om een kleine afbeelding te definiëren die geassocieerd wordt met de rang. Het pad is relatief aan de hoofd phpBB map.',
+	'RANK_IMAGE_EXPLAIN'	=> 'Gebruik dit om een kleine afbeelding te definiëren die geassocieerd wordt met de rang. Het pad is relatief aan de phpBB hoofdmap.',
 	'RANK_IMAGE_IN_USE'		=> '(In gebruik)',
 	'RANK_MINIMUM'			=> 'Minimum berichten',
 	'RANK_REMOVED'			=> 'De rang is succesvol verwijderd.',
@@ -262,7 +262,7 @@ $lang = array_merge($lang, array(
 
 // Reasons
 $lang = array_merge($lang, array(
-	'ACP_REASONS_EXPLAIN'	=> 'Hier kan je de redenen beheren die gebruikt worden in meldingen en afwijsberichten wanneer berichten worden afgewezen. Er is één standaard reden (gemarkeerd met een *), die je niet kan verwijderen, deze reden wordt normaal gebruikt voor eigen berichten als geen andere reden past.',
+	'ACP_REASONS_EXPLAIN'	=> 'Hier kan je de redenen beheren die gebruikt worden in meldingen en afwijsberichten wanneer berichten worden afgewezen. Er is één standaard reden (gemarkeerd met een *), die je niet kan verwijderen, deze reden wordt normaal gebruikt voor eigen berichten als er geen andere reden past.',
 	'ADD_NEW_REASON'		=> 'Nieuwe reden toevoegen',
 	'AVAILABLE_TITLES'		=> 'Beschikbare vertaalde redentitels',
 
@@ -275,17 +275,17 @@ $lang = array_merge($lang, array(
 	'NO_REASON_INFO'			=> 'Je moet een titel en beschrijving specificeren voor deze reden.',
 	'NO_REMOVE_DEFAULT_REASON'	=> 'Je kan niet de standaardreden “Anders” verwijderen.',
 
-	'REASON_ADD'				=> 'Meldings/afwijsreden toevoegen',
-	'REASON_ADDED'				=> 'Meldings/afwijsreden succesvol toegevoegd.',
+	'REASON_ADD'				=> 'Meldings-/afwijsreden toevoegen',
+	'REASON_ADDED'				=> 'Meldings-/afwijsreden succesvol toegevoegd.',
 	'REASON_ALREADY_EXIST'		=> 'Een reden met deze titel bestaat al, vul een andere titel in voor deze reden.',
 	'REASON_DESCRIPTION'		=> 'Redenbeschrijving',
 	'REASON_DESC_TRANSLATED'	=> 'Weergegeven redenbeschrijving',
-	'REASON_EDIT'				=> 'Meldings/afwijsreden wijzigen',
+	'REASON_EDIT'				=> 'Meldings-/afwijsreden wijzigen',
 	'REASON_EDIT_EXPLAIN'		=> 'Hier kan je een reden toevoegen of wijzigen. Als de reden is vertaald, dan zal de vertaalde versie gebruikt worden in plaats van de beschrijving die hier ingevoerd is.',
-	'REASON_REMOVED'			=> 'Meldings/afwijsreden succesvol verwijderd.',
+	'REASON_REMOVED'			=> 'Meldings-/afwijsreden succesvol verwijderd.',
 	'REASON_TITLE'				=> 'Redentitel',
 	'REASON_TITLE_TRANSLATED'	=> 'Redentitel weergegeven',
-	'REASON_UPDATED'			=> 'Meldings/afwijsreden succesvol gewijzigd.',
+	'REASON_UPDATED'			=> 'Meldings-/afwijsreden succesvol gewijzigd.',
 
 	'USED_IN_REPORTS'		=> 'Gebruikt in meldingen',
 ));
