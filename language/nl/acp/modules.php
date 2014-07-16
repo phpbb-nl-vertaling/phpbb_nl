@@ -73,7 +73,7 @@ $lang = array_merge($lang, array(
 	'NO_CATEGORY_TO_MODULE'	=> 'Kan een categorie niet in een module veranderen. Verwijder/verplaats alle kinderen voordat je deze actie uitvoert.',
 	'NO_MODULE'				=> 'Geen module gevonden.',
 	'NO_MODULE_ID'			=> 'Geen module-ID gespecificeerd.',
-	'NO_MODULE_LANGNAME'	=> 'Geen module taalnaam gespecificeerd.',
+	'NO_MODULE_LANGNAME'	=> 'Geen module-taalnaam gespecificeerd.',
 	'NO_PARENT'				=> 'Geen Ouder',
 
 	'PARENT'				=> 'Ouder',

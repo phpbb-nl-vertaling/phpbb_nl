@@ -37,16 +37,16 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACP_FILES'						=> 'Beheerders taalbestanden',
+	'ACP_FILES'						=> 'Taalbestanden beheren',
 	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Hier kan je taalpakketten installeren/verwijderen. Het standaard taalpakket is gemarkeerd met een ster (*).',
 
 	'DELETE_LANGUAGE_CONFIRM'		=> 'Weet je zeker dat je “%s” wilt verwijderen?',
 	
 	'INSTALLED_LANGUAGE_PACKS'		=> 'Geïnstalleerde taalpakketten',
 
-	'LANGUAGE_DETAILS_UPDATED'			=> 'Taaldetails succesvol geüpdate.',
+	'LANGUAGE_DETAILS_UPDATED'			=> 'Taaldetails succesvol bijgewerkt.',
 	'LANGUAGE_PACK_ALREADY_INSTALLED'	=> 'Dit taalpakket is al geïnstalleerd.',
-	'LANGUAGE_PACK_DELETED'				=> 'Het taalpakket “%s” is succesvol verwijderd. Alle gebruikers die deze taal hebben ingesteld zij nomgezet naar de standaard forumtaal.',
+	'LANGUAGE_PACK_DELETED'				=> 'Het taalpakket “%s” is succesvol verwijderd. Alle gebruikers die deze taal hebben ingesteld zijn omgezet naar de standaard forumtaal.',
 	'LANGUAGE_PACK_DETAILS'				=> 'Taalpakket-details',
 	'LANGUAGE_PACK_INSTALLED'			=> 'Het taalpakket “%s” is succesvol geïnstalleerd.',
 	'LANGUAGE_PACK_CPF_UPDATE'			=> 'De eigen profielvelden taalregels zijn gekopieerd van de standaardtaal. Verander ze indien nodig.',
@@ -62,7 +62,7 @@ $lang = array_merge($lang, array(
 	'LANG_LOCAL_NAME'					=> 'Lokale naam',
 
 	'MISSING_LANG_FILES'		=> 'Ontbrekende taalbestanden',
-	'MISSING_LANG_VARIABLES'	=> 'Taalvariabele missend',
+	'MISSING_LANG_VARIABLES'	=> 'Ontbrekende taalvariabele',
 
 	'NO_FILE_SELECTED'				=> 'Je hebt geen taalbestand gespecificeerd.',
 	'NO_LANG_ID'					=> 'Je hebt geen taalpakket gespecificeerd.',
