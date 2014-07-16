@@ -67,7 +67,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_NAME'			=> 'Extensienaam',
 	'EXTENSION_ACTIONS'			=> 'Acties',
 	'EXTENSION_OPTIONS'			=> 'Opties',
-	'EXTENSION_UPDATE_HEADLINE'	=> 'Het updaten van een extensie',
+	'EXTENSION_UPDATE_HEADLINE'	=> 'Het bijwerken van een extensie',
 	'EXTENSION_UPDATE_EXPLAIN'	=> '<ol>
 			<li>De extensie uitschakelen</li>
 			<li>De extensiebestanden verwijderen van het bestandssysteem</li>
@@ -96,13 +96,13 @@ $lang = array_merge($lang, array(
 	'VERSION'				=> 'Versie',
 	'HOMEPAGE'				=> 'Homepage',
 	'PATH'					=> 'Bestandpad',
-	'TIME'					=> 'Uitgavetijd', //misschien datum beter
+	'TIME'					=> 'Publicatiedatum', //misschien datum beter
 	'LICENCE'				=> 'Licentie',
 
 	'REQUIREMENTS'			=> 'Benodigdheden',
 	'PHPBB_VERSION'			=> 'phpBB-versie',
 	'PHP_VERSION'			=> 'PHP-versie',
-	'AUTHOR_INFORMATION'	        => 'Auteurinformatie',
+	'AUTHOR_INFORMATION'	=> 'Auteursinformatie',
 	'AUTHOR_NAME'			=> 'Naam',
 	'AUTHOR_EMAIL'			=> 'E-mail',
 	'AUTHOR_HOMEPAGE'		=> 'Homepage',
@@ -110,15 +110,15 @@ $lang = array_merge($lang, array(
 	
 	'NOT_UP_TO_DATE'		=> '%s is niet up-to-date',
 	'UP_TO_DATE'			=> '%s is up-to-date',
-	'ANNOUNCEMENT_TOPIC'	        => 'Versie aankondiging',
+	'ANNOUNCEMENT_TOPIC'	=> 'Versie aankondiging',
 	'DOWNLOAD_LATEST'		=> 'Versie downloaden',
 	'NO_VERSIONCHECK'		=> 'Er is geen versie informatie controle opgegeven.',
 	
 	'VERSIONCHECK_FORCE_UPDATE_ALL'		=> 'Controleer alle versies opnieuw',
-	'FORCE_UNSTABLE'		        => 'Controleer altijd voor onstabiele versies',
-	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'Versie controleinstellingen',
+	'FORCE_UNSTABLE'					=> 'Controleer altijd voor onstabiele versies',
+	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'Versie controle-instellingen',
 	
-        'META_FIELD_NOT_SET'            => 'Verplicht meta-veld %s is niet ingesteld.',
-        'META_FIELD_INVALID'            => 'meta-veld %s is ongeldig.',		
+	'META_FIELD_NOT_SET'            => 'Verplicht meta-veld %s is niet ingesteld.',
+	'META_FIELD_INVALID'            => 'Meta-veld %s is ongeldig.',		
 	
 ));
