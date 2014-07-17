@@ -378,7 +378,7 @@ $lang = array_merge($lang, array(
 
 	'BACK'				=> 'Terug',
 	'BINARY_FILE'		=> 'Binairbestand',
-	'BOT'				=> 'Spider/Zoekrobot',
+	'BOT'				=> 'Spider/Bot',
 
 	'CHANGE_CLEAN_NAMES'			=> 'De methode die wordt gebruikt om er zeker van te zijn dat een gebruikersnaam niet door meerdere gebruikers wordt gebruikt of zijn gewijzigd. Er zijn sommige gebruikers die dezelfde naam hebben wanneer je ze vergelijkt met de nieuwe methode. Je zal deze gebruikers moeten verwijderen of hernoemen om er zeker van te zijn dat elke naam door één gebruiker wordt gebruikt, voordat je verder kan gaan.',
 	'CHECK_FILES'					=> 'Bestanden controleren',
@@ -389,7 +389,7 @@ $lang = array_merge($lang, array(
 	'COLLECTED_INFORMATION'			=> 'Bestandsinformatie',
 	'COLLECTED_INFORMATION_EXPLAIN'	=> 'De lijst hieronder weergeeft de informatie over de bestanden die bijgewerkt moeten worden. Lees de informatie aan het begin van elk statusblok om te zien wat ze betekenen en wat je moet doen om een succesvolle update uit te voeren.',
 	'COLLECTING_FILE_DIFFS'			=> 'Bezig met verzamelen van bestandsverschillen',
-	'COMPLETE_LOGIN_TO_BOARD'		=> 'Je zal je nu moeten <a href="../ucp.php?mode=login">aanmelden op je forum</a> en controleren of alles correct werkt. Vergeet niet om de install-directory te verwijderen, hernoemen of te verplaatsen!',
+	'COMPLETE_LOGIN_TO_BOARD'		=> 'Je zal je nu moeten <a href="../ucp.php?mode=login">aanmelden op je forum</a> en controleren of alles correct werkt. Vergeet niet om de install-map te verwijderen, hernoemen of te verplaatsen!',
 	'CONTINUE_UPDATE_NOW'			=> 'Nu doorgaan met het updateproces',		// Shown within the database update script at the end if called from the updater
 	'CONTINUE_UPDATE'				=> 'Doorgaan met de update',					// Shown after file upload to indicate the update process is not yet finished
 	'CURRENT_FILE'					=> 'Begin van het conflict - Orgineel bestandscode voor de update',
@@ -398,7 +398,7 @@ $lang = array_merge($lang, array(
 	'DATABASE_TYPE'						=> 'Database-type',
 	'DATABASE_UPDATE_COMPLETE'			=> 'Het bijwerken van de database is voltooid!',
 	'DATABASE_UPDATE_CONTINUE'			=> 'Bijwerken van de database hervatten',
-	'DATABASE_UPDATE_INFO_OLD'			=> 'Het database-updatebestand in de install-directory is niet up-to-date. Wees er zeker van dat je de correcte versie van het bestand hebt geüpload.',
+	'DATABASE_UPDATE_INFO_OLD'			=> 'Het database-updatebestand in de install-map is niet up-to-date. Wees er zeker van dat je de correcte versie van het bestand hebt geüpload.',
 	'DATABASE_UPDATE_NOT_COMPLETED'		=> 'The database update has not yet completed.',
 	'DELETE_USER_REMOVE'				=> 'Gebruiker en berichten verwijderen',
 	'DELETE_USER_RETAIN'				=> 'Gebruiker verwijderen maar behoud berichten',
@@ -426,9 +426,9 @@ $lang = array_merge($lang, array(
 	'FILE_DIFF_NOT_ALLOWED'			=> 'Bestand niet toegestaan om gediffed te worden.',
 	'FILE_USED'						=> 'Informatie gebruikt van',			// Single file
 	'FILES_CONFLICT'				=> 'Conflicterende bestanden',
-	'FILES_CONFLICT_EXPLAIN'		=> 'De volgende bestanden zijn aangepast en vertegenwoordigen niet de originele bestanden van de oude versie. phpBB heeft gevonden dat deze bestanden conflicten veroorzaken als ze worden samengevoegd. Onderzoek deze conflicten en probeer ze handmatig op te lossen, of hervat het bijwerkingsproces en kies dan de voorkeurs samenvoegingsmethode. Wanneer je de conflicten handmatig oplost vergeet dan niet om de bestanden daarna opnieuw te controleren nadat je ze hebt aangepast. Je kan ook nog kiezen welke samenvoegingsmethode je wilt gebruiken voor elk bestand. De eerste methode zal het resultaat hebben dat de regels die een conflict veroorzakten in het bestand zullen worden verwijderd, de andere manier zal als resultaat hebben dat je al je aanpassingen kwijt raakt van het nieuwere bestand.',
+	'FILES_CONFLICT_EXPLAIN'		=> 'De volgende bestanden zijn aangepast en vertegenwoordigen niet de originele bestanden van de oude versie. phpBB heeft gevonden dat deze bestanden conflicten veroorzaken als ze worden samengevoegd. Onderzoek deze conflicten en probeer ze handmatig op te lossen, of hervat het bijwerkingsproces en kies dan de voorkeurs-samenvoegingsmethode. Wanneer je de conflicten handmatig oplost vergeet dan niet om de bestanden daarna opnieuw te controleren nadat je ze hebt aangepast. Je kan ook nog kiezen welke samenvoegingsmethode je wilt gebruiken voor elk bestand. De eerste methode zal het resultaat hebben dat de regels die een conflict veroorzaakten in het bestand zullen worden verwijderd, de andere manier zal als resultaat hebben dat je al je aanpassingen kwijtraakt van het nieuwere bestand.',
 	'FILES_DELETED'					=> 'Verwijderde bestanden',
-	'FILES_DELETED_EXPLAIN'			=> 'De volgende bestanden bestaan niet meer in de nieuwe versie. Deze bestanden zullen verwijderd moeten woren van je installatie.',
+	'FILES_DELETED_EXPLAIN'			=> 'De volgende bestanden bestaan niet meer in de nieuwe versie. Deze bestanden zullen verwijderd moeten worden van je installatie.',
 	'FILES_MODIFIED'				=> 'Aangepaste bestanden',
 	'FILES_MODIFIED_EXPLAIN'		=> 'De volgende bestanden zijn aangepast en vertegenwoordigen niet de originele bestanden van de oude versie. Het bijgewerkte bestand zal worden samengevoegd met je aanpassingen en het nieuwe bestand.',
 	'FILES_NEW'						=> 'Nieuwe bestanden',
@@ -442,7 +442,7 @@ $lang = array_merge($lang, array(
 	'FTP_SETTINGS'					=> 'FTP-instellingen',
 	'FTP_UPDATE_METHOD'				=> 'FTP-upload',
 
-	'INCOMPATIBLE_UPDATE_FILES'		=> 'De update-bestanden zijn incompleet met de geïnstalleerde versie. De geïnstalleerde versie is %1$s en de update-bestanden zijn voor het bijwerken van phpBB %2$s naar %3$s.',
+	'INCOMPATIBLE_UPDATE_FILES'		=> 'De update-bestanden zijn onverenigbaar met de geïnstalleerde versie. De geïnstalleerde versie is %1$s en de update-bestanden zijn voor het bijwerken van phpBB %2$s naar %3$s.',
 	'INCOMPLETE_UPDATE_FILES'		=> 'De bijgewerkte bestanden zijn niet compleet.',
 	'INLINE_UPDATE_SUCCESSFUL'		=> 'Het bijwerken van de database is succesvol voltooid. Nu kan je verder gaan met de update.',
 
@@ -473,13 +473,13 @@ $lang = array_merge($lang, array(
 	'NO_AUTH_UPDATE'				=> 'Je hebt niet voldoende rechten om te kunnen updaten',
 	'NO_ERRORS'						=> 'Geen fouten',
 	'NO_UPDATE_FILES'				=> 'De volgende bestanden zijn niet bijgewerkt',
-	'NO_UPDATE_FILES_EXPLAIN'		=> 'De volgende bestanden zijn nieuw of aangepast maar de directory waar ze zich normaal in bevinden kon niet worden gevonden in je installatie. Als deze lijst andere bestanden bevat van andere directory dan language/ of styles/ dan heb je waarschijnlijk de directory structuur aangepast en dan is de update waarschijnlijk incompleet.',
-	'NO_UPDATE_FILES_OUTDATED'		=> 'Er is geen geldige update-directory gevonden, wees er zeker van dat je de relevante bestanden hebt geüpload.<br /><br />Je installatie blijkt <strong>niet</strong> up-to-date te zijn. Update-pakketten zijn beschikbaar voor je versie van phpBB %1$s, bezoek daarvoor <a href="http://www.phpbbservice.nl/downloads/" rel="external">http://www.phpbbservice.nl/downloads/</a> om het correcte pakket te verkrijgen om te updaten van versie %2$s naar versie %3$s.',
+	'NO_UPDATE_FILES_EXPLAIN'		=> 'De volgende bestanden zijn nieuw of aangepast maar de map waar ze zich normaal in bevinden kon niet worden gevonden in je installatie. Als deze lijst andere bestanden bevat van een andere map dan language/ of styles/ dan heb je waarschijnlijk de mappenstructuur aangepast en dan is de update waarschijnlijk incompleet.',
+	'NO_UPDATE_FILES_OUTDATED'		=> 'Er is geen geldige update-map gevonden, wees er zeker van dat je de relevante bestanden hebt geüpload.<br /><br />Je installatie blijkt <strong>niet</strong> up-to-date te zijn. Update-pakketten zijn beschikbaar voor je versie van phpBB %1$s, bezoek daarvoor <a href="http://www.phpbbservice.nl/downloads/" rel="external">http://www.phpbbservice.nl/downloads/</a> om het correcte pakket te verkrijgen om te updaten van versie %2$s naar versie %3$s.',
 	'NO_UPDATE_FILES_UP_TO_DATE'	=> 'Je versie is up-to-date. Het is niet nodig om het update-hulpmiddel uit te voeren. Als je een integriteitscontrole wilt uitvoeren op de bestanden, wees er dan zeker van dat je de correcte update-bestanden upload.',
 	'NO_UPDATE_INFO'				=> 'Het update-informatiebestand kan niet worden gevonden.',
 	'NO_UPDATES_REQUIRED'			=> 'Er zijn geen updates nodig',
 	'NO_VISIBLE_CHANGES'			=> 'Er zijn geen zichtbare wijzigingen',
-	'NOTICE'						=> 'Notitie',
+	'NOTICE'						=> 'Opmerking',
 	'NUM_CONFLICTS'					=> 'Aantal conflicten',
 	'NUMBER_OF_FILES_COLLECTED'		=> 'Momenteel zijn er %1$d van de %2$d bestanden gecontroleerd op verschillen.<br />Wacht totdat alle bestanden zijn gecontroleerd.',
 
@@ -507,7 +507,7 @@ $lang = array_merge($lang, array(
 	'SHOW_DIFF_NOT_MODIFIED'	=> 'Verschillen weergeven',
 	'SOME_QUERIES_FAILED'		=> 'Sommige queries zijn mislukt, welke dat zijn en de fouten zijn hieronder weergegeven.',
 	'SQL'						=> 'SQL',
-	'SQL_FAILURE_EXPLAIN'		=> 'Dit is mogelijk nergens om je zorgen over te maken, de update zal worden hervat. Mocht dit mislukken en je kan niet het update-proces voltooien dan zal je ondersteuning moeten vragen op onze <a href="http://www.phpBBservice.nl/forum/">supportforums</a>. Lees ook de <a href="../docs/README.html">README</a> voor verdere informatie over het verkijgen van verdere hulp of bezoek de website van <a href="http://www.phpBBservice.nl">phpBBservice.nl</a>.',
+	'SQL_FAILURE_EXPLAIN'		=> 'Dit is mogelijk nergens om je zorgen over te maken, de update zal worden hervat. Mocht dit mislukken en je kan het update-proces niet voltooien dan zal je ondersteuning moeten vragen op onze <a href="http://www.phpBBservice.nl/forum/">supportforums</a>. Lees ook de <a href="../docs/README.html">README</a> voor verdere informatie over het verkrijgen van verdere hulp of bezoek de website van <a href="http://www.phpBBservice.nl">phpBBservice.nl</a>.',
 	'STAGE_FILE_CHECK'			=> 'Bestanden controleren',
 	'STAGE_UPDATE_DB'			=> 'Database bijwerken',
 	'STAGE_UPDATE_FILES'		=> 'Bestanden bijwerken',
@@ -542,12 +542,12 @@ $lang = array_merge($lang, array(
 
 		<h1>Hoe update je je installatie met het Automatische update-pakket?</h1>
 
-		<p>De aangeraden manier van updaten van uw installatie die hieronder staat is alleen geldig voor het Automatische update-pakket. Je mag ook je installatie bijwerken met de methodes die beschreven zijn in het <a href="../docs/INSTALL.html">INSTALL.html</a> document. De stappen om phpBB3 automatisch te updaten zijn als volgt:</p>
+		<p>De aangeraden manier van updaten van je installatie die hieronder staat is alleen geldig voor het Automatische update-pakket. Je mag ook je installatie bijwerken met de methodes die beschreven zijn in het <a href="../docs/INSTALL.html">INSTALL.html</a> document. De stappen om phpBB3 automatisch te updaten zijn als volgt:</p>
 
 		<ul style="margin-left: 20px; font-size: 1.1em;">
 			<li>Ga naar de <a href="http://www.phpBBservice.nl/downloads/" title="http://www.phpBBservice.nl/downloads/">phpBBservice.nl downloads-pagina</a> en download het "Automatisch update-pakket".<br /><br /></li>
             <li>Pak het archiefbestand uit.<br /><br /></li>
-			<li>Upload de compleet uitgepakte install-map naar uw phpBB-hoofdmap (waar u het bestand config.php terug kan vinden).<br /><br /></li>
+			<li>Upload de compleet uitgepakte install-map naar je phpBB-hoofdmap (waar je het bestand config.php terug kan vinden).<br /><br /></li>
 		</ul>
 
 		<p>Wanneer je het geüpload hebt naar je forum, zal het forum uitgeschakeld zijn voor normale bezoekers wanneer de install-map aanwezig is.<br /><br />
@@ -557,7 +557,7 @@ $lang = array_merge($lang, array(
 		</p>
 	',
 	'UPDATE_METHOD'					=> 'Update-methode',
-	'UPDATE_METHOD_EXPLAIN'			=> 'Je kan hier de update-methode selecteren. Als je gebruikt maakt van de FTP-upload optie, dan zal er een formulier worden weergegeven waarbij je de FTP-accountgegevens moet invoeren. Met deze methode zullen alle bestanden automatisch worden verplaatst naar de nieuwe locatie en back-ups van de oude bestanden zullen ook worden gemaakt doormiddel van .bak in de bestandsnaam. Als u ervoor kiest om de aangepaste bestanden te downloaden moet je ze eerst uitpakken en later handmatig uploaden naar de juiste locatie.',
+	'UPDATE_METHOD_EXPLAIN'			=> 'Je kan hier de update-methode selecteren. Als je gebruikt maakt van de FTP-upload optie, dan zal er een formulier worden weergegeven waarbij je de FTP-accountgegevens moet invoeren. Met deze methode zullen alle bestanden automatisch worden verplaatst naar de nieuwe locatie en back-ups van de oude bestanden zullen ook worden gemaakt doormiddel van .bak in de bestandsnaam. Als je ervoor kiest om de aangepaste bestanden te downloaden moet je ze eerst uitpakken en later handmatig uploaden naar de juiste locatie.',
 	'UPDATE_REQUIRES_FILE'			=> 'Voor het update-script moet het volgende bestand aanwezig zijn: %s',
 	'UPDATE_SUCCESS'				=> 'Update is succesvol',
 	'UPDATE_SUCCESS_EXPLAIN'		=> 'Alle bestanden zijn succesvol bijgewerkt. De volgende stap heeft betrekking op het controleren van al je bestanden, wees er dus zeker van dat je alle bestanden goed hebt geüpload.',
@@ -577,7 +577,7 @@ $lang = array_merge($lang, array(
 	'VERSION_NOT_UP_TO_DATE'		=> 'Je phpBB installatie is niet up-to-date. Ga door met het update-proces.',
 	'VERSION_NOT_UP_TO_DATE_ACP'	=> 'Je phpBB installatie is niet up-to-date.<br />Hieronder is een link naar de uitgave-aankondiging, wat meer informatie alsmede instructies over het updaten bevat.',
 	'VERSION_NOT_UP_TO_DATE_TITLE'	=> 'Je phpBB installatie is niet up-to-date.',
-	'VERSION_UP_TO_DATE'			=> 'Je phpBB installatie is up-to-date. Ook al zijn er momenteel geen updates beschikbaar, kan je doorgaan om een bestand geldigheidstest uit te voeren.',
+	'VERSION_UP_TO_DATE'			=> 'Je phpBB installatie is up-to-date. Ook al zijn er momenteel geen updates beschikbaar, kan je doorgaan om een bestandsgeldigheidstest uit te voeren.',
 	'VERSION_UP_TO_DATE_ACP'		=> 'Je phpBB installatie is up-to-date. Er zijn momenteel geen updates beschikbaar.',
 	'VIEWING_FILE_CONTENTS'			=> 'Bekijk bestandsinhoud',
 	'VIEWING_FILE_DIFF'				=> 'Bekijk bestandsverschillen',
