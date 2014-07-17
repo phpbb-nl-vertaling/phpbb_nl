@@ -186,9 +186,9 @@ $lang = array_merge($lang, array(
 	'MCP_PM_REPORTS'				=> 'Gemelde PBs',
 	'MCP_PM_REPORT_DETAILS'			=> 'PB melding details',
 	'MCP_PM_REPORTS_CLOSED'			=> 'Gesloten PB meldingen',
-	'MCP_PM_REPORTS_CLOSED_EXPLAIN'	=> 'Dit is een lijst van alle meldingen over privé berichten die de vorige keer zijn opgelost.',
+	'MCP_PM_REPORTS_CLOSED_EXPLAIN'	=> 'Dit is een lijst van alle meldingen over privéberichten die de vorige keer zijn opgelost.',
 	'MCP_PM_REPORTS_OPEN'			=> 'Open PB meldingen',
-	'MCP_PM_REPORTS_OPEN_EXPLAIN'	=> 'Dit is een lijst van alle gemelde privé berichten die nog behandeld moeten worden.',
+	'MCP_PM_REPORTS_OPEN_EXPLAIN'	=> 'Dit is een lijst van alle gemelde privéberichten die nog behandeld moeten worden.',
 
 	'MCP_REPORTS'					=> 'Gemelde berichten',
 	'MCP_REPORT_DETAILS'			=> 'Melding details',
