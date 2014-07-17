@@ -269,7 +269,7 @@ $lang = array_merge($lang, array(
 	'IS_NOT_TRANSLATED'			=> 'Reden is <strong>niet</strong> vertaald.',
 	'IS_NOT_TRANSLATED_EXPLAIN'	=> 'Reden is <strong>niet</strong> vertaald. Als je een vertaalde versie wilt leveren, specificeer de correcte sleutel uit de taalbestanden meldingsredenen gedeelte.',
 	'IS_TRANSLATED'				=> 'Reden is vertaald.',
-	'IS_TRANSLATED_EXPLAIN'		=> 'Reden is vertaald. Als de titel, die je hier invoert, is gespecificeerd in de taalbestanden meldingsredenen gedeelte, zal de vertaalde versie van de titel en beschrijving gebruikt worden.',
+	'IS_TRANSLATED_EXPLAIN'		=> 'Reden is vertaald. Als de titel, die je hier invoert, is gespecificeerd in de taalbestanden meldingsredenen gedeelte, dan zal de vertaalde versie van de titel en beschrijving gebruikt worden.',
 
 	'NO_REASON'					=> 'Reden kon niet gevonden worden.',
 	'NO_REASON_INFO'			=> 'Je moet een titel en beschrijving specificeren voor deze reden.',

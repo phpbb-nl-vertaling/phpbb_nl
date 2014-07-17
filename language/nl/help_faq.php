@@ -33,11 +33,11 @@ if (!defined('IN_PHPBB'))
 $help = array(
 	array(
 		0 => '--',
-		1 => 'Inlog- en registratievragen'
+		1 => 'Aanmeld- en registratievragen'
 	),
 	array(
-		0 => 'Waarom kan ik niet inloggen?',
-		1 => 'Er zijn verschillende redenen mogelijk waarom je dit probleem hebt. Controleer eerst of je gebruikersnaam en wachtwoord kloppen. Indien ze correct zijn, kan je de beheerder contacteren om zeker te zijn dat je niet verbannen bent. Het is ook mogelijk dat de forumconfiguratie fout is, dan moet dit door de beheerder opgelost worden.'
+		0 => 'Waarom kan ik niet aanmelden?',
+		1 => 'Er zijn verschillende redenen mogelijk waarom je dit probleem hebt. Controleer eerst of je gebruikersnaam en wachtwoord kloppen. Indien ze correct zijn, kan je contact opnemen met de beheerder om er zeker van te zijn dat je niet verbannen bent. Het is ook mogelijk dat de forumconfiguratie fout is, dan moet dit door de beheerder opgelost worden.' // bij verbanningen worden toch meldingen van gedaan tegen de gebruiker?
 	),
 	array(
 		0 => 'Waarom moet ik me registreren?',
@@ -49,7 +49,7 @@ $help = array(
 	),
 	array(
 		0 => 'Hoe kan ik onzichtbaar zijn in de online gebruikers lijst?',
-		1 => 'In het gebruikerspaneel onder "forum instellingen", vind je de optie <em>onzichtbaar als ik online ben</em>. Als je deze optie activeert door <samp>ja</samp> aan te duiden, zal je onzichtbaar zijn voor iedereen, behalve voor beheerders, moderators en jezelf.'
+		1 => 'In het gebruikerspaneel onder "foruminstellingen", vind je de optie <em>Verberg mijn online status</em>. Als je deze optie activeert door <samp>ja</samp> aan te duiden, zal je onzichtbaar zijn voor iedereen, behalve voor beheerders, moderators en jezelf.'
 	),
 	array(
 		0 => 'Ik weet mijn wachtwoord niet meer!',
@@ -61,7 +61,7 @@ $help = array(
 	),
 	array(
 		0 => 'Ik heb me ooit geregistreerd maar kan nu niet meer aanmelden!?',
-		1 => 'De meest voorkomende oorzaken hiervoor zijn: je gaf een verkeerde gebruikersnaam of wachtwoord op (controleer de e-mail met je registratie gegevens) of de beheerder heeft je account verwijderd om één of andere reden. Indien dit laatste het geval is, heb je dan ooit een bericht geplaatst? Het is normaal dat forums om de zoveel tijd gebruikers, die nog geen berichten geplaatst hebben, verwijderen. Dit doen ze om de database qua omvang te verkleinen. Probeer je opnieuw te registreren en meng je in de discussies.'
+		1 => 'De meest voorkomende oorzaken hiervoor zijn: je gaf een verkeerde gebruikersnaam of wachtwoord op (controleer de e-mail met je registratie gegevens) of een beheerder heeft je account verwijderd om één of andere reden. Indien dit laatste het geval is, heb je dan ooit een bericht geplaatst? Het is normaal dat forums om de zoveel tijd gebruikers, die nog geen berichten geplaatst hebben, verwijderen. Dit doen ze om de database qua omvang te verkleinen. Probeer je opnieuw te registreren en meng je in de discussies.'
 	),
 	array(
 		0 => 'Wat is COPPA?',
@@ -77,7 +77,7 @@ $help = array(
 	),
 	array(
 		0 => '--',
-		1 => 'Gebruikers voorkeuren en instellingen'
+		1 => 'Gebruikersvoorkeuren en instellingen'
 	),
 	array(
 		0 => 'Hoe verander ik mijn instellingen?',

@@ -98,7 +98,7 @@ $help = array(
 	),
 	array(
 		0 => 'Een afbeelding toevoegen aan een bericht',
-		1 => 'phpBB BBCode heeft een tag om afbeeldingen aan het bericht toe te voegen. Er zijn twee heel belangrijke dingen waarmee je rekening moet houden als je deze tag gebruikt: veel gebruikers houden niet van veel afbeeldingen in een bericht en de afbeelding moet zich op het internet bevinden (het bestand mag dus bijvoorbeeld niet alleen op jouw computer staan, behalve als je zelf een webserver draait!). Om een afbeelding weer te geven moet je de URL naar de afbeelding tussen <strong>[img]</strong> en <strong>[/img]</strong> tags plaatsen. Bijvoorbeeld:<br /><br /><strong>[img]</strong>http://www.phpbb.com/theme/images/logos/blue/160x52.png<<strong>[/img]</strong><br /><br />Je kan, als je wilt, een afbeelding ook tussen <strong>[url][/url]</strong> tag plaatsen, voorbeeld:<br /><br /><strong>[url=http://www.phpbbservice.nl][img]</strong>http://www.phpbb.com/theme/images/logos/blue/160x52.png<strong>[/img][/url]</strong><br /><br />dit wordt dan:<br /><br /><a href="http://www.phpbbservice.nl/"><img src="http://www.phpbb.com/theme/images/logos/blue/160x52.png<" alt="" /></a>'
+		1 => 'phpBB BBCode heeft een tag om afbeeldingen aan het bericht toe te voegen. Er zijn twee heel belangrijke dingen waarmee je rekening moet houden als je deze tag gebruikt: veel gebruikers houden niet van veel afbeeldingen in een bericht en de afbeelding moet zich op het internet bevinden (het bestand mag dus bijvoorbeeld niet alleen op jouw computer staan, behalve als je zelf een webserver draait!). Om een afbeelding weer te geven moet je de URL naar de afbeelding tussen <strong>[img]</strong> en <strong>[/img]</strong> tags plaatsen. Bijvoorbeeld:<br /><br /><strong>[img]</strong>http://www.phpbb.com/theme/images/logos/blue/160x52.png<<strong>[/img]</strong><br /><br />Je kan, als je wilt, een afbeelding ook tussen <strong>[url][/url]</strong> tag plaatsen, voorbeeld:<br /><br /><strong>[url=http://www.phpbbservice.nl][img]</strong>http://www.phpbb.com/theme/images/logos/blue/160x52.png<strong>[/img][/url]</strong><br /><br />dit wordt dan:<br /><br /><a href="http://www.phpbbservice.nl/"><img src="http://www.phpbb.com/theme/images/logos/blue/160x52.png" alt="" /></a>'
 	),
 	array(
 		0 => 'Een bijlage aan een bericht toevoegen',
@@ -110,6 +110,6 @@ $help = array(
 	),
 	array(
 		0 => 'Kan ik mijn eigen tags toevoegen?',
-		1 => 'Als je beheerder van dit forum bent en over de nodige permissies beschikt, kan je extra BBCodes toevoegen in het beheerderspaneel op de pagina van "aangepaste BBCodes".'
+		1 => 'Als je beheerder van dit forum bent en over de nodige permissies beschikt, kan je extra BBCodes toevoegen in het beheerderspaneel op de pagina van "BBCodes".'
 	),
 );
