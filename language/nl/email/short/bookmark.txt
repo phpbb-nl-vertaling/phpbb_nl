@@ -13,7 +13,7 @@ Als je naar het onderwerp wilt gaan, klik dan op de volgende link:
 Als je naar het forum wilt gaan, klik dan op de volgende link:
 {U_FORUM}
 
-Als je niet langer e-mails meer wilt ontvangen over onderwerpen waar je op geabonneerd bent, kan je via de volgende link je instellingen aanpassen:
+Als je niet langer meer e-mails wilt ontvangen over onderwerpen waar je op geabonneerd bent, kan je via de volgende link je instellingen aanpassen:
 
 {U_NOTIFICATION_SETTINGS}
 
