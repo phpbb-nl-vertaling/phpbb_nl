@@ -230,6 +230,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1'	=> 'Naam van de taak die moet worden uitgevoerd',
 
 	'CLI_DESCRIPTION_OPTION_SHELL' => 'Shell-toegang openen.',
+	'CLI_DESCRIPTION_OPTION_SAFE_MODE'		=> 'In Safe Mode draaien (zonder extensies).',
 
 	'COLOUR_SWATCH'			=> 'Web-veilige kleurenpalet',
 	'CONFIG_UPDATED'		=> 'Instellingen succesvol bijgewerkt.',
