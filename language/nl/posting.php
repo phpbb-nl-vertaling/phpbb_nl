@@ -249,7 +249,7 @@ $lang = array_merge($lang, array(
 	'TOO_MANY_CHARS_LIMIT'		=> array(
 		2	=> 'Het maximaal aantal tekens dat is toegestaan is %1$d.',
  	),
-	'TOO_MANY_POLL_OPTIONS'		=> 'Je hebt geprobeer te veel peiling opties in te voeren.',
+	'TOO_MANY_POLL_OPTIONS'		=> 'Je hebt geprobeerd te veel peilingopties in te voeren.',
 	'TOO_MANY_SMILIES'			=> 'Je bericht bevat te veel smilies. Het maximum aantal toegestane smilies is %d.',
 	'TOO_MANY_URLS'				=> 'Je bericht bevat te veel URLs. Het maximum aantal toegestane URLs is %d.',
 	'TOO_MANY_USER_OPTIONS'		=> 'Je kan niet meer opties specificeren per gebruiker dan de bestaande peiling opties.',

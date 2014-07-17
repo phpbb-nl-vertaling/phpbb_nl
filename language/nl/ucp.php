@@ -89,7 +89,7 @@ $lang = array_merge($lang, array(
 	'ATTACHMENTS_EXPLAIN'			=> 'Dit is een lijst van bijlagen die je geplaatst hebt in berichten op dit forum.',
 	'ATTACHMENTS_DELETED'			=> 'Bijlagen succesvol verwijderd.',
 	'ATTACHMENT_DELETED'			=> 'Bijlage succesvol verwijderd.',
-	'AUTOLOGIN_SESSION_KEYS_DELETED'=> 'De geselecteerde "Onthoud me" aanmeldsleutels zijn succesvol verwijderd.',
+	'AUTOLOGIN_SESSION_KEYS_DELETED'=> 'De geselecteerde "Onthoud me"-aanmeldsleutels zijn succesvol verwijderd.',
 	'AVATAR_CATEGORY'				=> 'Categorie',
 	'AVATAR_DRIVER_GRAVATAR_TITLE'	=> 'Gravatar',
 	'AVATAR_DRIVER_GRAVATAR_EXPLAIN'=> 'Gravatar is een service dat je toestaat om dezelfde avatar te gebruiken over meerdere websites. Bezoek <a href="http://www.gravatar.com/">Gravatar</a> voor meer informatie.',
@@ -149,7 +149,7 @@ $lang = array_merge($lang, array(
 	'CURRENT_PASSWORD_EXPLAIN'	=> 'Je moet je bestaande wachtwoord invoeren als je je e-mailadres of gebruikersnaam wilt wijzigen.',
 	'CURRENT_CHANGE_PASSWORD_EXPLAIN' => 'Om je wachtwoord, je e-mailadres of je gebruikersnaam te wijzigen moet je je bestaande wachtwoord invoeren.',
 	'CUR_PASSWORD_EMPTY'		=> 'Je hebt niet je bestaande wachtwoord ingevoerd.',
-	'CUR_PASSWORD_ERROR'		=> 'Het bestaande wachtwoord dat je hehbt ingevoerd is incorrect.',
+	'CUR_PASSWORD_ERROR'		=> 'Het bestaande wachtwoord dat je hebt ingevoerd is incorrect.',
 	'CUSTOM_DATEFORMAT'			=> 'Eigen…',
 
 	'DEFAULT_ACTION'			=> 'Standaard actie',
@@ -183,7 +183,7 @@ $lang = array_merge($lang, array(
 	'DRAFTS_EXPLAIN'			=> 'Hier kan je je opgeslagen concepten bekijken, wijzigen en verwijderen.',
 	'DRAFT_UPDATED'				=> 'Concept succesvol bijgewerkt.',
 
-	'EDIT_DRAFT_EXPLAIN'		=> 'Hier kan je je concept wijzigen. Concepten bevatten geen bijlage en peilingsinformatie.',
+	'EDIT_DRAFT_EXPLAIN'		=> 'Hier kan je je concept wijzigen. Concepten bevatten geen bijlage- en peilingsinformatie.',
 	'EMAIL_BANNED_EMAIL'		=> 'Het e-mailadres dat je hebt ingevoerd is niet toegestaan om te gebruiken.',
 	'EMAIL_REMIND'				=> 'Dit moet het e-mailadres zijn dat geassocieerd wordt met je account. Als je dit niet veranderd hebt via je gebruikerspaneel dan is dit het e-mailadres waarmee je je geregistreerd hebt op dit forum.',
 	'EMAIL_TAKEN_EMAIL'			=> 'Het ingevoerde e-mailadres is al in gebruik.',
@@ -242,7 +242,7 @@ $lang = array_merge($lang, array(
 	'FRIENDS_EXPLAIN'			=> 'Vrienden maken het mogelijk om je snel toegang te verlenen aan gebruikers waarmee je regelmatig mee communiceert. Als de sjabloon de benodigde ondersteuning bied, kunnen elk bericht dat is gemaakt door een vriend uitgelicht zijn.',
 	'FRIENDS_OFFLINE'			=> 'Offline',
 	'FRIENDS_ONLINE'			=> 'Online',
-	'FRIENDS_UPDATED'			=> 'je vriendenlijst is succesvol bijgewerkt.',
+	'FRIENDS_UPDATED'			=> 'Je vriendenlijst is succesvol bijgewerkt.',
 	'FULL_FOLDER_OPTION_CHANGED'=> 'De actie om uit te voeren wanneer een map vol is, is succesvol veranderd.',
 	'FWD_ORIGINAL_MESSAGE'		=> '-------- Origineel Bericht --------',
 	'FWD_SUBJECT'				=> 'Onderwerp: %s',
@@ -264,7 +264,7 @@ $lang = array_merge($lang, array(
 
 	'IF_FOLDER_FULL'			=> 'Als de map vol is',
 	'IMPORTANT_NEWS'			=> 'Belangrijke mededelingen',
-	'INVALID_USER_BIRTHDAY'			=> 'De ingevoerde verjaardag is geen geldige datum.',
+	'INVALID_USER_BIRTHDAY'		=> 'De ingevoerde verjaardag is geen geldige datum.',
 	'INVALID_CHARS_USERNAME'	=> 'De gebruikersnaam bevat verboden karakters.',
 	'INVALID_CHARS_NEW_PASSWORD'=> 'Het wachtwoord bevat niet de vereiste karakters.',
 	'ITEMS_REQUIRED'			=> 'De items gemarkeerd met * zijn vereiste profielvelden en moeten ingevuld worden.',
@@ -302,7 +302,7 @@ $lang = array_merge($lang, array(
 	'MESSAGES_DELETED'				=> 'Berichten succesvol verwijderd',
 	'MOVE_DELETED_MESSAGES_TO'		=> 'Verplaats berichten van verwijderde map naar',
 	'MOVE_DOWN'						=> 'Verplaats omlaag',
-	'MOVE_MARKED_TO_FOLDER'			=> 'verplaats gemarkeerde naar %s',
+	'MOVE_MARKED_TO_FOLDER'			=> 'Verplaats gemarkeerde naar %s',
 	'MOVE_PM_ERROR'					=> array(
 		2	=> 'Een fout is opgetreden tijdens het verplaatsen van de berichten naar de nieuwe map, alleen %2d van de %1d berichten zijn verplaatst.',
 	),
@@ -430,8 +430,8 @@ $lang = array_merge($lang, array(
 	'PREFERENCES_UPDATED'		=> 'Je voorkeuren zijn bijgewerkt.',
 	'PROFILE_INFO_NOTICE'		=> 'Let op dat deze informatie zichtbaar is voor andere gebruikers. Wees voorzichtig met het bijvoegen van persoonlijke details. Elk veld gemarkeerd met een * moet ingevuld worden.',
 	'PROFILE_UPDATED'			=> 'Je profiel is bijgewerkt.',
-	'PROFILE_AUTOLOGIN_KEYS'	=> 'De "Onthoud mij" aanmeldsleutels meld je automatisch aan wanneer je het forum bezoekt. Wanneer je je afmeld, zal de onthoud mij aanmeldsleutel alleen verwijderd worden van de computer die je gebruikt om af te melden. Hier kan je zien de onthoud mij aanmeldsleutels op andere computers die je gebruikt hebt om deze site te bezoeken.',
-	'PROFILE_NO_AUTOLOGIN_KEYS'	=> 'Er zijn geen opgeslagen "Onthoud mij" aanmeldsleutels.',
+	'PROFILE_AUTOLOGIN_KEYS'	=> 'De "Onthoud mij"-aanmeldsleutels meld je automatisch aan wanneer je het forum bezoekt. Wanneer je je afmeld, zal de onthoud mij aanmeldsleutel alleen verwijderd worden van de computer die je gebruikt om af te melden. Hier kan je zien de onthoud mij aanmeldsleutels op andere computers die je gebruikt hebt om deze site te bezoeken.',
+	'PROFILE_NO_AUTOLOGIN_KEYS'	=> 'Er zijn geen opgeslagen "Onthoud mij"-aanmeldsleutels.',
 
 	'RECIPIENT'							=> 'Ontvanger',
 	'RECIPIENTS'						=> 'Ontvangers',
@@ -446,7 +446,7 @@ $lang = array_merge($lang, array(
 	'RENAME'							=> 'Hernoem',
 	'RENAME_FOLDER'						=> 'Hernoem map',
 	'REPLIED_MESSAGE'					=> 'Gereageerd op bericht',
-	'REPLY_TO_ALL'						=> 'Reageer op verstuurder en alle ontvangers.',
+	'REPLY_TO_ALL'						=> 'Reageer op verzender en alle ontvangers.',
 	'REPORT_PM'							=> 'Meld privébericht',
 	'RESIGN_SELECTED'					=> 'Zeg geselecteerde op',
 	'RETURN_FOLDER'						=> '%1$sTerug naar vorige map%2$s',
@@ -488,7 +488,7 @@ $lang = array_merge($lang, array(
 	'TO_ADD_MASS'				=> 'Ontvangers toevoegen',
 	'TO_ADD_GROUPS'				=> 'Groepen toevoegen',
 
-	'TOO_MANY_RECIPIENTS'		=> 'Je hebt geprobeerd om een privé bericht naar te veel ontvangers te versturen.',
+	'TOO_MANY_RECIPIENTS'		=> 'Je hebt geprobeerd om een privébericht naar te veel ontvangers te versturen.',
 	'TOO_MANY_REGISTERS'		=> 'Je hebt het maximum aantal registratie pogingen voor deze sessie overschreden. Probeer het later nog een keer.',
 
 	'UCP'						=> 'Gebruikerspaneel',
@@ -506,7 +506,7 @@ $lang = array_merge($lang, array(
 	'UCP_COPPA_BEFORE'			=> 'Voor %s',
 	'UCP_COPPA_ON_AFTER'		=> 'Op of na %s',
 	'UCP_EMAIL_ACTIVATE'		=> 'Let op dat je een geldig e-mailadres in moet vullen voordat je account wordt geactiveerd. Je zal een e-mail ontvangen op het adres dat je hebt opgegeven welke een account activatie koppeling bevat.',
-	'UCP_JABBER'				=> 'Jabber adres',
+	'UCP_JABBER'				=> 'Jabber-adres',
 	'UCP_LOGIN_LINK'			=> 'Een externe account associatie opzetten',
 
 	'UCP_MAIN'					=> 'Overzicht',
@@ -540,13 +540,13 @@ $lang = array_merge($lang, array(
 	'UCP_PROFILE_PROFILE_INFO'	=> 'Wijzig profiel',
 	'UCP_PROFILE_REG_DETAILS'	=> 'Wijzig account instellingen',
 	'UCP_PROFILE_SIGNATURE'		=> 'Wijzig onderschrift',
-	'UCP_PROFILE_AUTOLOGIN_KEYS'=> 'Beheer “Onthoud mij” aanmeld sleutels',
+	'UCP_PROFILE_AUTOLOGIN_KEYS'=> 'Beheer “Onthoud mij”-aanmeldsleutels',
 
 	'UCP_USERGROUPS'			=> 'Gebruikersgroepen',
 	'UCP_USERGROUPS_MEMBER'		=> 'Wijzig lidmaatschappen',
 	'UCP_USERGROUPS_MANAGE'		=> 'Beheer groepen',
 
-	'UCP_PASSWORD_RESET_DISABLED'	=> 'Het wachtwoord herstel functionaliteit is uitgeschakeld. Als je hulp nodig heeft om toegang te krijgen tot je account, neem dan contact op met de %sForumbeheerder%s',
+	'UCP_PASSWORD_RESET_DISABLED'	=> 'Het “wachtwoord herstel”-functionaliteit is uitgeschakeld. Als je hulp nodig heeft om toegang te krijgen tot je account, neem dan contact op met de %sForumbeheerder%s',
 	'UCP_REGISTER_DISABLE'			=> 'Het aanmaken van een nieuw account is momenteel niet mogelijk.',
 	'UCP_REMIND'					=> 'Verstuur wachtwoord',
 	'UCP_RESEND'					=> 'Verstuur activatie e-mail',

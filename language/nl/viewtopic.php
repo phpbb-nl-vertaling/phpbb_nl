@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'APPROVE'								=> 'Goedkeuren',
+	'APPROVE'							=> 'Goedkeuren',
 	'ATTACHMENT'						=> 'Bijlage',
 	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'De bijlagefunctie is uitgeschakeld.',
 
@@ -53,7 +53,7 @@ $lang = array_merge($lang, array(
 
 	'DELETE_TOPIC'			=> 'Onderwerp verwijderen',
 	'DELETED_INFORMATION'	=> 'Verwijderd door %1$s op %2$s',
-	'DISAPPROVE'					=> 'Afkeuren',
+	'DISAPPROVE'			=> 'Afkeuren',
 	'DOWNLOAD_NOTICE'		=> 'Je hebt niet voldoende permissies om de bijlagen te bekijken van dit bericht.',
 
 	'EDITED_TIMES_TOTAL'	=> array(
