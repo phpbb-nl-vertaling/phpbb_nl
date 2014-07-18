@@ -444,18 +444,21 @@ $lang = array_merge($lang, array(
 	// A, B, C and others replied...
 	'NOTIFICATION_BOOKMARK'				=> array(
 		1	=> '%1$s heeft gereageerd op het onderwerp “%2$s” waarvan je een bladwijzer hebt gemaakt.',
+		2	=> '%1$s hebben gereageerd op het onderwerp “%2$s” waarvan je een bladwijzer hebt gemaakt.',
 	),		
 	'NOTIFICATION_GROUP_REQUEST'		=> '%1$s vraagt lidmaatschap aan van de groep %2$s.',
 	'NOTIFICATION_GROUP_REQUEST_APPROVED'	=> 'Je aanvraag om lid te worden van de groep %1$s is goedgekeurd.',
 	'NOTIFICATION_PM'					=> '%1$s heeft je het privébericht "%2$s" gestuurd.',
 	'NOTIFICATION_POST'					=> array(
 		1	=> '%1$s heeft gereageerd op het onderwerp “%2$s”.',
+		2	=> '%1$s hebben gereageerd op het onderwerp “%2$s”.',
 	),	
 	'NOTIFICATION_POST_APPROVED'		=> 'Je bericht is goedgekeurd "%2$s".',
 	'NOTIFICATION_POST_DISAPPROVED'		=> 'Je bericht "%1$s" is afgekeurd om de volgende reden: "%2$s".',
 	'NOTIFICATION_POST_IN_QUEUE'		=> 'Een nieuw bericht genaamd "%2$s" is geplaatst door %1$s en heeft goedkeuring nodig.',
 	'NOTIFICATION_QUOTE'				=> array(
 		1	=> '%1$s heeft je geciteerd in het bericht “%2$s”.',
+		2	=> '%1$s hebben je geciteerd in het bericht “%2$s”.',
 	),	
 	'NOTIFICATION_REPORT_PM'			=> '%1$s heeft het privébericht "%2$s" gemeld om de volgende reden: "%3$s".',
 	'NOTIFICATION_REPORT_POST'			=> '%1$s heeft het bericht "%2$s" gemeld om de volgende reden: "%3$s".',
