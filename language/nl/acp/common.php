@@ -225,13 +225,6 @@ $lang = array_merge($lang, array(
 
 	'BACK'					=> 'Terug',
 
-	'CLI_DESCRIPTION_CRON_LIST'				=> 'Weergeeft een lijst van cronjobs die klaar en niet klaar zijn.', 
-	'CLI_DESCRIPTION_CRON_RUN'				=> 'Draait al cronjob taken die klaar zijn.',
-	'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1'	=> 'Naam van de taak die moet worden uitgevoerd',
-
-	'CLI_DESCRIPTION_OPTION_SHELL' => 'Shell-toegang openen.',
-	'CLI_DESCRIPTION_OPTION_SAFE_MODE'		=> 'In Safe Mode draaien (zonder extensies).',
-
 	'COLOUR_SWATCH'			=> 'Web-veilige kleurenpalet',
 	'CONFIG_UPDATED'		=> 'Instellingen succesvol bijgewerkt.',
 	'CRON_LOCK_ERROR'		=> 'Kan geen cron lock verkrijgen.',
