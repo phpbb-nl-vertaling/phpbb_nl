@@ -464,7 +464,7 @@ $lang = array_merge($lang, array(
 	'MERGE_NO_MERGE_MOD_OPTION'	=> 'Niet samenvoegen - gebruik het huidig geïnstalleerde bestand',
 	'MERGE_MOD_FILE_OPTION'		=> 'Modificaties samenvoegen (Verwijdert de nieuwe phpBB-code binnen het blok dat een conflict vormt)',
 	'MERGE_NEW_FILE_OPTION'		=> 'Modificaties samenvoegen (Verwijdert de aangepaste code binnen het blok dat een conflict vormt)',
-	'MERGE_SELECT_ERROR'		=> 'Conflicterende bestandssamenvoeging-mode is niet correct geselecteerd.',
+	'MERGE_SELECT_ERROR'		=> 'Conflicterende bestandssamenvoegings-mode is niet correct geselecteerd.',
 	'MERGING_FILES'				=> 'Verschillen samenvoegen',
 	'MERGING_FILES_EXPLAIN'		=> 'Momenteel bezig met het verzamelen van de uiteindelijke bestandswijzigingen.<br /><br />Wacht totdat phpBB alle acties heeft uitgevoerd op de gewijzigde bestanden.',
 
@@ -601,7 +601,7 @@ $lang = array_merge($lang, array(
 	'REPORT_WAREZ'					=> 'Dit bericht bevat links naar illegale software.',
 	'REPORT_SPAM'					=> 'Het gemelde bericht heeft als enig doel om te adverteren voor een website of ander product.',
 	'REPORT_OFF_TOPIC'				=> 'Het gemelde bericht is off-topic.',
-	'REPORT_OTHER'					=> 'Het gemelde bericht valt niet in een andere categorie, gebruik het informatieveld hieronder.',
+	'REPORT_OTHER'					=> 'Het gemelde bericht valt niet in een andere categorie, gebruik het informatieveld hieronder:',
 
 	'SMILIES_ARROW'					=> 'Pijl',
 	'SMILIES_CONFUSED'				=> 'Verward',
