@@ -60,7 +60,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_O_HELP'				=> 'Geordende lijst: bijv. [list=1][*]Eerste punt[/list] of [list=a][*]Punt A[/list]',
 	'BBCODE_P_HELP'				=> 'Afbeelding invoegen: [img]http://www.url_naar_de_afbeelding.eu/afbeeldingnaam.extenstie[/img]',
 	'BBCODE_Q_HELP'				=> 'Geciteerde tekst: [quote]tekst[/quote]',
-	'BBCODE_S_HELP'				=> 'Letterkleur: [color=red]tekst[/color]  Tip: je kan ook color=#FF0000 gebruiken',
+	'BBCODE_S_HELP'				=> 'Letterkleur: [color=red]tekst[/color] of [color=#FF0000]tekst[/color]',
 	'BBCODE_U_HELP'				=> 'Onderlijnde tekst: [u]tekst[/u]',
 	'BBCODE_W_HELP'				=> 'URL invoegen: [url]http://url[/url] of [url=http://url]URL tekst[/url]',
 	'BBCODE_Y_HELP'				=> 'Lijst: een lijst element toevoegen',
