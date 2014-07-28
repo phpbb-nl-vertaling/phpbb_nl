@@ -551,7 +551,7 @@ $lang = array_merge($lang, array(
 		</ul>
 
 		<p>Wanneer je het geüpload hebt naar je forum, zal het forum uitgeschakeld zijn voor normale bezoekers wanneer de install-map aanwezig is.<br /><br />
-		<strong><a href="%1$s" title="%1$s">Update-proces nu staren doormiddel van uw internet-browser te richten op de install-map</a>.</strong><br />
+		<strong><a href="%1$s" title="%1$s">Update-proces nu starten doormiddel van uw internet-browser te richten op de install-map</a>.</strong><br />
 		<br />
 		Je zal dan worden herleid naar het updateproces. Je zal daarna op de hoogte worden gehouden wanneer het bijwerken klaar is.
 		</p>
