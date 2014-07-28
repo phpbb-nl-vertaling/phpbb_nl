@@ -116,7 +116,7 @@ $lang = array_merge($lang, array(
 	'ACP_JABBER_SETTINGS'		=> 'Jabber-instellingen',
 
 	'ACP_LANGUAGE'				=> 'Taalbeheer',
-	'ACP_LANGUAGE_PACKS'		=> 'Taalpaketten',
+	'ACP_LANGUAGE_PACKS'		=> 'Taalpakketten',
 	'ACP_LOAD_SETTINGS'			=> 'Laadinstellingen',
 	'ACP_LOGGING'				=> 'Logging',
 
