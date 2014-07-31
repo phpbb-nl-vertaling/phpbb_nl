@@ -35,21 +35,21 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'CLI_CONFIG_CANNOT_CACHED'			=> 'Set this option if the configuration option changes too frequently to be efficiently cached.',
-	'CLI_CONFIG_CURRENT'				=> 'Current configuration value, use 0 and 1 to specify boolean values',
-	'CLI_CONFIG_DELETE_SUCCESS'			=> 'Successfully deleted config %s.',
-	'CLI_CONFIG_NEW'					=> 'New configuration value, use 0 and 1 to specify boolean values',
-	'CLI_CONFIG_NOT_EXISTS'				=> 'Config %s does not exist',
-	'CLI_CONFIG_OPTION_NAME'			=> 'The configuration option’s name',
-	'CLI_CONFIG_PRINT_WITHOUT_NEWLINE'	        => 'Set this option if the value should be printed without a new line at the end.',
+	'CLI_CONFIG_CANNOT_CACHED'			=> 'Stel deze optie in als de configuratie opties te vaak veranderen om efficient te worden gecached.',
+	'CLI_CONFIG_CURRENT'				=> 'Bestaande configuratiewaarde, gebruik 0 en 1 om booleanwaardes te specificeren.',
+	'CLI_CONFIG_DELETE_SUCCESS'			=> 'Config %s succesvol verwijderd.',
+	'CLI_CONFIG_NEW'					=> 'Nieuwe configuratiewaarde, gebruik 0 en 1 om booleanwaardes te specificeren.',
+	'CLI_CONFIG_NOT_EXISTS'				=> 'Config %s bestaat niet',
+	'CLI_CONFIG_OPTION_NAME'			=> 'De configuratie-optienaam',
+	'CLI_CONFIG_PRINT_WITHOUT_NEWLINE'	=> 'Stel deze optie in als de waarde geprint dient te worden zonder een nieuwe regel op het einde.',
 	'CLI_CONFIG_INCREMENT_BY'			=> 'Amount to increment by',
-	'CLI_CONFIG_INCREMENT_SUCCESS'		        => 'Successfully incremented config %s',
+	'CLI_CONFIG_INCREMENT_SUCCESS'		=> 'Successfully incremented config %s',
 	'CLI_CONFIG_SET_FAILURE'		 	=> 'Could not set config %s',
 	'CLI_CONFIG_SET_SUCCESS'			=> 'Successfully set config %s',
 
-	'CLI_DESCRIPTION_CRON_LIST'				=> 'Weergeeft een lijst van cronjobs die klaar en niet klaar zijn.',
-	'CLI_DESCRIPTION_CRON_RUN'				=> 'Draait al cronjob-taken die klaar zijn.',
-	'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1'		        => 'Naam van de taak die moet worden uitgevoerd',
+	'CLI_DESCRIPTION_CRON_LIST'					=> 'Weergeeft een lijst van cronjobs die klaar en niet klaar zijn.',
+	'CLI_DESCRIPTION_CRON_RUN'					=> 'Draait al cronjob-taken die klaar zijn.',
+	'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1'		=> 'Naam van de taak die moet worden uitgevoerd',
 	'CLI_DESCRIPTION_DB_MIGRATE'				=> 'Updates the database by applying migrations.',
 	'CLI_DESCRIPTION_DELETE_CONFIG'				=> 'Deletes a configuration option',
 	'CLI_DESCRIPTION_DISABLE_EXTENSION'			=> 'Schakelt de gespecificeerde extensie uit.',
@@ -59,9 +59,9 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Increments a configuration option’s value',
 	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> 'Lijst met alle extensies in de database en bestandssysteem.',
 	'CLI_DESCRIPTION_OPTION_SAFE_MODE'			=> 'In Safe Mode draaien (zonder extensies)..',
-	'CLI_DESCRIPTION_OPTION_SHELL'				=> 'Shell-toegang openen..',
+	'CLI_DESCRIPTION_OPTION_SHELL'				=> 'Shell-toegang openen…',
 	'CLI_DESCRIPTION_PURGE_EXTENSION'			=> 'Leegt de gespecificeerde extensie.',
-	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'	        => 'Herberekent de user_email_hash kolom van de users tabel.',
+	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'	=> 'Herberekent de user_email_hash kolom van de users tabel.',
 	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'			=> 'Sets a configuration option’s value only if the old matches the current value',
 	'CLI_DESCRIPTION_SET_CONFIG'				=> 'Sets a configuration option’s value',
 
@@ -74,6 +74,6 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSION_PURGE_SUCCESS'		=> 'Extensie %s succesvol geleegd',
 	'CLI_EXTENSION_NOT_FOUND'			=> 'Geen extensies gevonden.',
 
-	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Alle email hashes succesvol herberekend.',
+	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Alle “email-hashes” succesvol herberekend.',
 
 ));
