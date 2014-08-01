@@ -536,13 +536,13 @@ $lang = array_merge($lang, array(
 
 		<h1>Versiemededeling</h1>
 
-		<p>Lees de (Engelstalige) <a href="%1$s" title="%1$s"><strong>mededeling van de laatste versie</strong></a> voordat je het update-proces hervat, het kan belangrijke informatie bevatten. Het bevat ook de volledige downloadlinks en het overzicht van de wijzigingen in vergelijking met de vorige versie ( changelog ).</p>
+		<p>Lees de (Engelstalige) aankondiging voordat je begint met het updaten van je forum, het kan belangrijke informatie bevatten. Je vindt daar ook de volledige downloadlinks en een overzicht van de wijzigingen ( changelog ).</p>
 
 		<br />
 
-		<h1>Hoe update je je installatie met het Automatische update-pakket?</h1>
+		<h1>Hoe kan ik mijn forum updaten met het Automatische update-pakket?</h1>
 
-		<p>De aangeraden manier van updaten van je installatie die hieronder staat is alleen geldig voor het Automatische update-pakket. Je mag ook je installatie bijwerken met de methodes die beschreven zijn in het <a href="../docs/INSTALL.html">INSTALL.html</a> document. De stappen om phpBB3 automatisch te updaten zijn als volgt:</p>
+		<p>De aanbevolen manier van updaten die hieronder staat beschreven is alleen geldig voor het Automatische update-pakket. Je mag je forum ook updaten met de methodes die beschreven zijn in het <a href="../docs/INSTALL.html">INSTALL.html</a> document. De stappen om phpBB3 automatisch te updaten zijn als volgt:</p>
 
 		<ul style="margin-left: 20px; font-size: 1.1em;">
 			<li>Ga naar de <a href="http://www.phpBBservice.nl/downloads/" title="http://www.phpBBservice.nl/downloads/">phpBBservice.nl downloads-pagina</a> en download het "Automatisch update-pakket".<br /><br /></li>
@@ -550,10 +550,10 @@ $lang = array_merge($lang, array(
 			<li>Upload de compleet uitgepakte install-map naar je phpBB-hoofdmap (waar je het bestand config.php terug kan vinden).<br /><br /></li>
 		</ul>
 
-		<p>Wanneer je het geüpload hebt naar je forum, zal het forum uitgeschakeld zijn voor normale bezoekers wanneer de install-map aanwezig is.<br /><br />
-		<strong><a href="%1$s" title="%1$s">Update-proces nu starten doormiddel van uw internet-browser te richten op de install-map</a>.</strong><br />
+		<p>Eenmaal geüpload, zal je forum, door het uploaden van de install-map, voor gewone gebruikers uitgeschakeld zijn.<br /><br />
+		<strong><a href="%1$s" title="%1$s">Ga nu naar de install-map en begin met het updaten van je forum</a>.</strong><br />
 		<br />
-		Je zal dan worden herleid naar het updateproces. Je zal daarna op de hoogte worden gehouden wanneer het bijwerken klaar is.
+		Daar zal je geholpen worden met het updaten. Je wordt ook op de hoogte gebracht zodra alles geüpdate is.
 		</p>
 	',
 	'UPDATE_METHOD'					=> 'Update-methode',
