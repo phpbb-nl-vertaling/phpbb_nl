@@ -553,7 +553,7 @@ $lang = array_merge($lang, array(
 		<p>Eenmaal geüpload, zal je forum, door het uploaden van de install-map, voor gewone gebruikers uitgeschakeld zijn.<br /><br />
 		<strong><a href="%1$s" title="%1$s">Ga nu naar de install-map en begin met het updaten van je forum</a>.</strong><br />
 		<br />
-		Daar zal je geholpen worden met het updaten. Je wordt ook op de hoogte gebracht zodra alles geüpdate is.
+		Daar zal je geholpen worden met het updaten. Je wordt ook op de hoogte gebracht zodra alles geüpdatet is.
 		</p>
 	',
 	'UPDATE_METHOD'					=> 'Update-methode',
