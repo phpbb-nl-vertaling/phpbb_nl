@@ -547,7 +547,7 @@ $lang = array_merge($lang, array(
 		<ul style="margin-left: 20px; font-size: 1.1em;">
 			<li>Ga naar de <a href="http://www.phpBBservice.nl/downloads/" title="http://www.phpBBservice.nl/downloads/">phpBBservice.nl downloads-pagina</a> en download het "Automatisch update-pakket".<br /><br /></li>
             <li>Pak het archiefbestand uit.<br /><br /></li>
-			<li>Upload de compleet uitgepakte install-map naar je phpBB-hoofdmap (waar je het bestand config.php terug kan vinden).<br /><br /></li>
+			<li>Upload de compleet uitgepakte install-map naar je phpBB-hoofdmap (waar je het bestand “config.php” terug kan vinden).<br /><br /></li>
 		</ul>
 
 		<p>Eenmaal geüpload, zal je forum, door het uploaden van de install-map, voor gewone gebruikers uitgeschakeld zijn.<br /><br />
