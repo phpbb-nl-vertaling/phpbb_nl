@@ -6,7 +6,7 @@ Je ontvangt deze e-mail omdat je een forum volgt, "{FORUM_NAME}" op "{SITENAME}"
 
 {U_FORUM}
 
-Als je dit forum niet langer wilt volgen, klik dan op "Uitschrijven forum" link onderaan het forum, of door te klikken op de volgende link:
+Als je dit forum niet langer wilt volgen, klik dan op de "Uitschrijven forum" link onderaan het forum, of door te klikken op de volgende link:
 
 {U_STOP_WATCHING_FORUM}
 
