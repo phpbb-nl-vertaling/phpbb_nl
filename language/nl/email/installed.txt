@@ -4,7 +4,7 @@ Gefeliciteerd,
 
 Je hebt phpBB succesvol geïnstalleerd op je server.
 
-Deze e-mail omvat belangrijke informatie over je installatie en moet je bewaren als referentie. Je wachtwoord is veilig opgeslagen in onze database en kan niet worden opgevraagd. In een situatie waarin je het wachtwoord bent vergeten, kan je dit resetten door gebruik te maken van het e-mailadres welke gekoppeld is aan je gebruikersaccount.
+Deze e-mail bevat belangrijke informatie over je installatie en moet je bewaren als referentie. Je wachtwoord is veilig opgeslagen in onze database en kan niet worden opgevraagd. In een situatie waarin je het wachtwoord bent vergeten, kan je dit resetten door gebruik te maken van het e-mailadres welke gekoppeld is aan je gebruikersaccount.
 
 ----------------------------
 Gebruikersnaam: {USERNAME}
