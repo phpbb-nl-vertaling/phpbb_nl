@@ -73,7 +73,10 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSION_PURGE_FAILURE'		=> 'Kan extensie %s niet legen',
 	'CLI_EXTENSION_PURGE_SUCCESS'		=> 'Extensie %s succesvol geleegd',
 	'CLI_EXTENSION_NOT_FOUND'			=> 'Geen extensies gevonden.',
-
+	'CLI_EXTENSIONS_AVAILABLE'			=> 'Beschikbaar',
+	'CLI_EXTENSIONS_DISABLED'			=> 'Uitgeschakeld',
+	'CLI_EXTENSIONS_ENABLED'			=> 'Ingeschakeld',
+	
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Alle “email-hashes” succesvol herberekend.',
 
 ));
