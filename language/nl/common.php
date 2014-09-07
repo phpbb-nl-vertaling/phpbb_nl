@@ -867,6 +867,10 @@ $lang = array_merge($lang, array(
 	'WRONG_DATA_COLOUR'			=> 'De kleurwaarde die je hebt ingevuld is ongeldig.',
 	'WRONG_DATA_JABBER'			=> 'De naam die je hebt ingevuld is geen geldig Jabber accountnaam.',
 	'WRONG_DATA_LANG'			=> 'De taal die je hebt gespecificeerd is ongeldig.',
+	'WRONG_DATA_POST_SD'		=> 'De berichten-sorteerrichting die je hebt gespecificeerd is niet geldig.',
+	'WRONG_DATA_POST_SK'		=> 'De berichten-sorteeroptie die je hebt gespecificeerd is niet geldig.',
+	'WRONG_DATA_TOPIC_SD'		=> 'De onderwerp-sorteerrichting die je hebt gespecificeerd is niet geldig.',
+	'WRONG_DATA_TOPIC_SK'		=> 'De onderwerp-sorteeroptie die je hebt gespecificeerd is niet geldig.',
 	'WROTE'						=> 'schreef',
 
 	'YAHOO'				=> 'Yahoo! Messenger',
