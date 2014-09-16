@@ -520,6 +520,11 @@ $lang = array_merge($lang, array(
 	'NO_USER_SPECIFIED'			=> 'Geen gebruikersnaam opgegeven.',
 
 	// Nullar/Singular/Plural language entry. The key numbers define the number range in which a certain grammatical expression is valid.
+'NUM_ATTACHMENTS'		=> array(
+		1	=> '%d bijlage',
+		2	=> '%d bijlages',
+	),
+
 	'NUM_POSTS_IN_QUEUE'		=> array(
 		0			=> 'Geen berichten in wachtrij',		// 0
 		1			=> '1 bericht in wachtrij',		// 1
