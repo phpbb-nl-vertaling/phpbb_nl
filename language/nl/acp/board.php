@@ -298,6 +298,7 @@ $lang = array_merge($lang, array(
 // Visual Confirmation Settings
 $lang = array_merge($lang, array(
 	'ACP_VC_SETTINGS_EXPLAIN'				=> 'Hier kan je plug-ins selecteren en instellen, welke ontworpen zijn om geautomatiseerde formulier verzendingen te blokkeren. Deze plug-ins werken meestal door de gebruiker uit te dagen met een <em>CAPTCHA</em>, een test welke ontworpen is om te moeilijk te zijn voor een computer, maar die een mens wel kan maken.',
+	'ACP_VC_EXT_GET_MORE'					=> 'Voor extra (en mogelijk betere) anti-spam plug-ins, bezoek dan de <a href="https://www.phpbb.com/go/anti-spam-ext"><strong>phpBB.com Extensie Database</strong></a>. Voor meer informatie over het voorkomen van spam op je forum, bezoek dan <a href="https://www.phpbb.com/go/anti-spam"><strong>phpBB.com Kennisbank</strong></a>.',
 	'AVAILABLE_CAPTCHAS'					=> 'Beschikbare plug-ins',
 	'CAPTCHA_UNAVAILABLE'					=> 'De plug-in kan niet geselecteerd worden omdat de vereisten niet vervuld worden.',
 	'CAPTCHA_GD'							=> 'GD-afbeelding',
