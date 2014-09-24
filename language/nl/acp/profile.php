@@ -119,6 +119,12 @@ $lang = array_merge($lang, array(
 
 	'LANG_SPECIFIC_OPTIONS'		=> 'Taal specifieke opties [<strong>%s</strong>]',
 
+	'LETTER_NUM_DOTS'			=> 'Alle letters, cijfers en punten',
+	'LETTER_NUM_ONLY'			=> 'Alle letters en cijfers',
+	'LETTER_NUM_PUNCTUATION'	=> 'Alle letters, cijfers, komma, punten, underscores en streepjes beginnend met een willekeurige letter',
+	'LETTER_NUM_SPACERS'		=> 'Alle letters en spaties',
+	'LETTER_NUM_UNDERSCORE'		=> 'Alle letters, cijfers en underscores',
+
 	'MAX_FIELD_CHARS'		=> 'Maximum aantal tekens',
 	'MAX_FIELD_NUMBER'		=> 'Hoogst toegestane cijfer',
 	'MIN_FIELD_CHARS'		=> 'Minimum aantal tekens',
