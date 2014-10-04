@@ -59,7 +59,7 @@ $lang = array_merge($lang, array(
 	'SITE_HOME_URL_EXPLAIN'			=> 'Indien opgegeven, zal een link naar deze URL voor je broodkruimels komen en het logo zal naar deze URL linken in plaats van het forum. Een absolute URL is vereist, bijv. <samp>http://www.phpbbservice.nl</samp>.',
 	'SITE_NAME'						=> 'Sitenaam',
 	'SYSTEM_TIMEZONE'				=> 'Gast tijdzone',
-	'SYSTEM_TIMEZONE_EXPLAIN'			=> 'Tijdzone die gebruikt wordt voor het weergeven van tijden aan gebruikers die niet aangemeld zijn (gasten, bots). Aangemelde gebruikers stellen hun tijdzone in tijdens het registratieproces en kunnen dit veranderen in hun gebruikerspaneel.',
+	'SYSTEM_TIMEZONE_EXPLAIN'		=> 'Tijdzone die gebruikt wordt voor het weergeven van tijden aan gebruikers die niet aangemeld zijn (gasten, bots). Aangemelde gebruikers stellen hun tijdzone in tijdens het registratieproces en kunnen dit veranderen in hun gebruikerspaneel.',
 	'WARNINGS_EXPIRE'				=> 'Waarschuwingsduur',
 	'WARNINGS_EXPIRE_EXPLAIN'		=> 'Aantal dagen dat zal verstrijken voordat een waarschuwing automatisch zal verlopen van een gebruikersrecord. Door deze waarde in te stellen op 0, zullen de waarschuwingen permanent zijn.',
 ));
