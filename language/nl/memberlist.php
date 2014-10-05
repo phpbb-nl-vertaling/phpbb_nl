@@ -48,7 +48,7 @@ $lang = array_merge($lang, array(
 
 	'BEFORE'				=> 'Voor',
 
-	'CC_EMAIL'				=> 'Verstuur een kopie van deze e-mail naar jezelf.',
+	'CC_EMAIL'				=> 'Stuur een kopie van deze e-mail naar jezelf.',
 	'CONTACT_ADMIN'         => 'Neem contact op met een forumbeheerder',
 
 	'DEST_LANG'				=> 'Taal',
