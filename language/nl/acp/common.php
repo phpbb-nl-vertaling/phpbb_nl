@@ -180,7 +180,7 @@ $lang = array_merge($lang, array(
 	'ACP_SUBMIT_CHANGES'		=> 'Verstuur veranderingen',
 
 	'ACP_TEMPLATES'				=> 'Templates',
-	'ACP_THEMES'				=> 'Thema\'s',
+	'ACP_THEMES'				=> 'Thema‘s',
 
 	'ACP_UPDATE'					=> 'Bijwerken',
 	'ACP_USERS_FORUM_PERMISSIONS'	=> 'Gebruikers forumpermissies',

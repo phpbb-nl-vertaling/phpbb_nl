@@ -42,7 +42,7 @@ $lang = array_merge($lang, array(
 	'ACP_BBCODES_EXPLAIN'		=> 'BBCode is een speciale implementatie van HTML, wat een grotere controle geeft over wat en hoe iets wordt weergegeven. Op deze pagina kan je eigen BBCodes toevoegen, verwijderen en wijzigen.',
 	'ADD_BBCODE'				=> 'Een nieuwe BBCode toevoegen',
 
-	'BBCODE_DANGER'				=> 'De BBCode, die je probeert toe te voegen, lijkt een {TEXT} token te gebruiken in een HTML attribuut. Dit is een mogelijk XSS-beveiligingsprobleem. Probeer de meer beperkende {SIMPLETEXT} of {INTTEXT} types te gebruiken. Ga alleen verder als je de risico\'s begrijpt en je vindt het gebruik van {TEXT} absoluut onvermijdelijk.',
+	'BBCODE_DANGER'				=> 'De BBCode, die je probeert toe te voegen, lijkt een {TEXT} token te gebruiken in een HTML attribuut. Dit is een mogelijk XSS-beveiligingsprobleem. Probeer de meer beperkende {SIMPLETEXT} of {INTTEXT} types te gebruiken. Ga alleen verder als je de risico‘s begrijpt en je vindt het gebruik van {TEXT} absoluut onvermijdelijk.',
 	'BBCODE_DANGER_PROCEED'		=> 'Doorgaan', //'I understand the risk',
 
 	'BBCODE_ADDED'				=> 'BBCode succesvol toegevoegd.',
@@ -79,8 +79,8 @@ $lang = array_merge($lang, array(
 
 	'tokens'	=>	array(
 		'TEXT'			=> 'Iedere tekst, inclusief buitenlandse karakters, nummers, etc… Je kan dit token beter niet gebruiken in HTML tags. Probeer in plaats daarvan IDENTIFIER, INTTEXT of SIMPLETEXT te gebruiken.',
-		'SIMPLETEXT'	=> 'Karakters uit het latijnse alfabet (A-Z), nummers, spaties, komma\'s, punten, minus, plus, koppelteken en underscore',
-		'INTTEXT'		=> 'Unicode letter karakters, nummers, spaties, komma\'s, punten, minus, plus, koppelteken, underscore en whitespaces.',
+		'SIMPLETEXT'	=> 'Karakters uit het latijnse alfabet (A-Z), nummers, spaties, komma‘s, punten, minus, plus, koppelteken en underscore',
+		'INTTEXT'		=> 'Unicode letter karakters, nummers, spaties, komma‘s, punten, minus, plus, koppelteken, underscore en whitespaces.',
 		'IDENTIFIER'	=> 'Karakters uit het latijnse alfabet (A-Z), nummers, koppelteken en underscore',
 		'NUMBER'		=> 'Iedere serie van cijfers',
 		'EMAIL'			=> 'Een geldig e-mailadres',

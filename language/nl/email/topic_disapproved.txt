@@ -2,9 +2,9 @@ Subject: Onderwerp afgekeurd - "{TOPIC_TITLE}"
 
 Hallo {USERNAME},
 
-Je ontvangt deze e-mail omdat jouw onderwerp "{TOPIC_SUBJECT}" op "{SITENAME}" is afgekeurd door een moderator of beheerder.
+Je ontvangt deze e-mail omdat je onderwerp "{TOPIC_SUBJECT}" op "{SITENAME}" is afgekeurd door een moderator of beheerder.
 
-De volgende reden is gegeven voor de afkeuring van jouw onderwerp:
+De volgende reden is gegeven voor de afkeuring van je onderwerp:
 
 {REASON}
 

@@ -93,7 +93,7 @@ $help = array(
 	),
 	array(
 		0 => 'Mijn taal zit niet in de lijst!',
-		1 => 'De meest voorkomende reden hiervoor is dat de beheerder jouw taal niet geïnstalleerd heeft, of dat nog niemand het forum in je taal vertaald heeft. Je kan altijd aan de beheerder vragen of hij het talenpakket, dat je nodig hebt, wilt installeren. Indien het nog niet bestaat, mag je gerust de vertaling maken. Meer informatie hieromtrent kan gevonden worden op de website van phpBB Limited (de link staat onderaan iedere pagina).'
+		1 => 'De meest voorkomende reden hiervoor is dat de beheerder je taal niet geïnstalleerd heeft, of dat nog niemand het forum in je taal vertaald heeft. Je kan altijd aan de beheerder vragen of hij het talenpakket, dat je nodig hebt, wilt installeren. Indien het nog niet bestaat, mag je gerust de vertaling maken. Meer informatie hieromtrent kan gevonden worden op de website van phpBB Limited (de link staat onderaan iedere pagina).'
 	),
 	array(
 		0 => 'Hoe kan ik een afbeelding bij mijn gebruikersnaam plaatsen?',

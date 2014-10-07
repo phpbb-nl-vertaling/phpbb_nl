@@ -1,4 +1,4 @@
-Subject: Een aanvraag ingediend om deel te nemen aan jouw groep
+Subject: Een aanvraag ingediend om deel te nemen aan je groep
 
 Hallo {USERNAME},
 
