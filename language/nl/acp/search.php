@@ -83,7 +83,7 @@ $lang = array_merge($lang, array(
 	'FULLTEXT_SPHINX_PORT_EXPLAIN'			=> 'Poort waarop de sphinx zoek daemon (searchd) luistert. Laat leeg om de standaard Sphinx API poort 9312 te gebruiken',
 	'FULLTEXT_SPHINX_WRONG_DATABASE'		=> 'De sphinx zoekfunctie voor phpBB ondersteunt alleen MySQL en PostgreSQL.',
 	'FULLTEXT_SPHINX_CONFIG_FILE'			=> 'Sphinx config bestand',
-	'FULLTEXT_SPHINX_CONFIG_FILE_EXPLAIN'	=> 'De gegenereerde inhoud van het sphinx config bestand. Deze data zal geplakt moeten worden in de sphinx.conf welke gebruikt wordt door de sphinx zoek daemon.',
+	'FULLTEXT_SPHINX_CONFIG_FILE_EXPLAIN'	=> 'De gegenereerde inhoud van het sphinx config bestand. Deze data zal geplakt moeten worden in de sphinx.conf welke gebruikt wordt door de sphinx zoek daemon. Vervang de [dbuser] en [dbpassword] met je eigen databasegegevens.',
 	'FULLTEXT_SPHINX_NO_CONFIG_DATA'		=> 'De sphinx data en config mappaden zijn niet gedefinieerd. Definieer ze om het config bestand aan te kunnen maken.',
 
 	'GENERAL_SEARCH_SETTINGS'				=> 'Algemene zoekinstellingen',

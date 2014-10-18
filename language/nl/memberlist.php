@@ -54,6 +54,8 @@ $lang = array_merge($lang, array(
 	'DEST_LANG'				=> 'Taal',
 	'DEST_LANG_EXPLAIN'		=> 'Selecteer een taal (indien beschikbaar) voor de ontvanger van dit bericht.',
 
+	'EDIT_PROFILE'			=> 'Wijzig profiel',
+
 	'EMAIL_BODY_EXPLAIN'	=> 'Dit bericht zal verstuurd worden als platte tekst, vul hier geen HTML of BBCode in. Het reactie adres voor dit bericht zal worden ingesteld op je e-mailadres.',
 	'EMAIL_DISABLED'		=> 'Sorry maar alle e-mail gerelateerde functies zijn uitgeschakeld.',
 	'EMAIL_SENT'			=> 'De e-mail is verstuurd.',
