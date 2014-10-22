@@ -36,40 +36,36 @@ $help = array(
 		1 => 'Aanmeld- en registratievragen'
 	),
 	array(
-		0 => 'Waarom kan ik niet aanmelden?',
-		1 => 'Er zijn verschillende redenen mogelijk waarom je dit probleem hebt. Controleer eerst of je gebruikersnaam en wachtwoord kloppen. Indien ze correct zijn, kan je contact opnemen met de beheerder om er zeker van te zijn dat je niet verbannen bent. Het is ook mogelijk dat de forumconfiguratie fout is, dan moet dit door de beheerder opgelost worden.' // bij verbanningen worden toch meldingen van gedaan tegen de gebruiker?
-	),
-	array(
 		0 => 'Waarom moet ik me registreren?',
 		1 => 'De beheerder heeft bepaalt of je al dan niet geregistreerd moet zijn om berichten te plaatsen. Hoe dan ook, als je geregistreerd bent, kan je meer functies gebruiken. Zo kan je bijvoorbeeld een avatar opgeven, privéberichten sturen, andere gebruikers e-mailen, lid worden van gebruikersgroepen, enz. Het registreren duurt maar even, dus we raden het zeker aan!'
 	),
 	array(
-		0 => 'Waarom word ik automatisch afgemeld?',
-		1 => 'Als je de optie <em>meld mij automatisch aan bij ieder bezoek</em> niet aanvinkt, blijf je maar voor een bepaalde tijd aangemeld. Zo wordt vermeden dat anderen je account misbruiken. Om aangemeld te blijven, moet je bij het aanmelden de optie aanvinken. We raden dit echter af als je gebruik maakt van een openbare computer, bijvoorbeeld op school, in de bibliotheek, in een internetcafé, enz. Als deze optie niet beschikbaar is, heeft de beheerder deze uitgeschakeld.'
+		0 => 'Wat is COPPA?',
+		1 => 'COPPA is de afkorting voor het Engelse "Children’s Online Privacy and Protection Act". Dit is een Amerikaanse wet van 1998, die vereist dat iedere website die mogelijk gegevens van jongeren onder de 13 jaar verzamelt, hiervoor de toestemming heeft van de ouders. Deze toestemming moet schriftelijk of op een andere wijze gegeven worden, zodat de ouders weten dat de website persoonlijke gegevens van hun kind, jonger dan 13, heeft. Indien je niet zeker bent of deze wet al dan niet op jou of de website waarop je wilt registreren van toepassing is, neem dan contact op met een juridisch raadgever voor meer informatie. Houd er rekening mee dat het phpBB team geen wettelijke informatie kan verschaffen en ook niet het aanspreekpunt is voor deze wetgeving, tenzij dit hieronder vermeld wordt.',
 	),
 	array(
-		0 => 'Hoe kan ik onzichtbaar zijn in de online gebruikers lijst?',
-		1 => 'In het gebruikerspaneel onder "foruminstellingen", vind je de optie <em>Verberg mijn online status</em>. Als je deze optie activeert door <samp>ja</samp> aan te duiden, zal je onzichtbaar zijn voor iedereen, behalve voor beheerders, moderators en jezelf.'
-	),
-	array(
-		0 => 'Ik weet mijn wachtwoord niet meer!',
-		1 => 'Geen paniek! Je kan je huidige wachtwoord niet terug krijgen, maar er is wel een mogelijkheid om deze te resetten. Hiervoor moet je naar de aanmeldpagina gaan en klikken op <em>wachtwoord vergeten?</em>. Volg de instructies op het scherm en even later kan je je weer aanmelden.'
+		0 => 'Waarom kan ik niet registreren?',
+		1 => 'Mogelijk heeft de beheerder je IP-adres verbannen, of de gebruikersnaam die je opgeeft verboden. Tevens is het mogelijk dat de beheerder de registratie mogelijkheid heeft uitgeschakeld om zo de registratie van nieuwe gebruikers te voorkomen. Neem contact op met de beheerder voor verdere hulp.',
 	),
 	array(
 		0 => 'Ik ben geregistreerd maar kan niet aanmelden!',
 		1 => 'Controleer eerst of je gebruikersnaam en wachtwoord kloppen. Indien ze correct zijn, kan één of meerdere zaken hiervan de oorzaak zijn. Indien COPPA geactiveerd is en je tijdens het registratieproces opgaf dat je jonger bent dan 13 jaar, moet je de ontvangen instructies opvolgen. Als dit niet het geval is, moet je account dan geactiveerd worden? Sommige forums vereisen dat iedere nieuwe account geactiveerd wordt, ofwel door jezelf of door een beheerder. Wanneer je je geregistreerd hebt, werd ook medegedeeld of dit al dan niet nodig is. Indien je een e-mail ontvangen hebt, moet je de daarin opgegeven instructies volgen. Als je nooit een e-mail ontvangen hebt, was het opgegeven e-mailadres dan wel juist? Één van de redenen van activatie is om het aantal valse accounts te doen dalen. Als je zeker bent dat je e-mailadres correct was, neem dan contact op met de beheerder.'
 	),
 	array(
+		0 => 'Waarom kan ik niet aanmelden?',
+		1 => 'Er zijn verschillende redenen mogelijk waarom je dit probleem hebt. Controleer eerst of je gebruikersnaam en wachtwoord kloppen. Indien ze correct zijn, kan je contact opnemen met de beheerder om er zeker van te zijn dat je niet verbannen bent. Het is ook mogelijk dat de forumconfiguratie fout is, dan moet dit door de beheerder opgelost worden.' // bij verbanningen worden toch meldingen van gedaan tegen de gebruiker?
+	),
+	array(
 		0 => 'Ik heb me ooit geregistreerd maar kan nu niet meer aanmelden!?',
 		1 => 'De meest voorkomende oorzaken hiervoor zijn: je gaf een verkeerde gebruikersnaam of wachtwoord op (controleer de e-mail met je registratie gegevens) of een beheerder heeft je account verwijderd om één of andere reden. Indien dit laatste het geval is, heb je dan ooit een bericht geplaatst? Het is normaal dat forums om de zoveel tijd gebruikers, die nog geen berichten geplaatst hebben, verwijderen. Dit doen ze om de database qua omvang te verkleinen. Probeer je opnieuw te registreren en meng je in de discussies.'
 	),
 	array(
-		0 => 'Wat is COPPA?',
-		1 => 'COPPA is de afkorting voor het Engelse "Child Online Privacy and Protection Act". Dit is een Amerikaanse wet van 1998, die vereist dat iedere website die mogelijk gegevens van jongeren onder de 13 jaar verzamelt, hiervoor de toestemming heeft van de ouders. Deze toestemming moet schriftelijk of op een andere wijze gegeven worden, zodat de ouders weten dat de website persoonlijke gegevens van hun kind, jonger dan 13, heeft. Indien je niet zeker bent of deze wet al dan niet op jou of de website waarop je wilt registreren van toepassing is, neem dan contact op met een juridisch raadgever voor meer informatie. Houd er rekening mee dat het phpBB team geen wettelijke informatie kan verschaffen en ook niet het aanspreekpunt is voor deze wetgeving, tenzij dit hieronder vermeld wordt.',
+		0 => 'Ik weet mijn wachtwoord niet meer!',
+		1 => 'Geen paniek! Je kan je huidige wachtwoord niet terug krijgen, maar er is wel een mogelijkheid om deze te resetten. Hiervoor moet je naar de aanmeldpagina gaan en klikken op <em>wachtwoord vergeten?</em>. Volg de instructies op het scherm en even later kan je je weer aanmelden.'
 	),
 	array(
-		0 => 'Waarom kan ik niet registreren?',
-		1 => 'Mogelijk heeft de beheerder je IP-adres verbannen, of de gebruikersnaam die je opgeeft verboden. Tevens is het mogelijk dat de beheerder de registratie mogelijkheid heeft uitgeschakeld om zo de registratie van nieuwe gebruikers te voorkomen. Neem contact op met de beheerder voor verdere hulp.',
+		0 => 'Waarom word ik automatisch afgemeld?',
+		1 => 'Als je de optie <em>meld mij automatisch aan bij ieder bezoek</em> niet aanvinkt, blijf je maar voor een bepaalde tijd aangemeld. Zo wordt vermeden dat anderen je account misbruiken. Om aangemeld te blijven, moet je bij het aanmelden de optie aanvinken. We raden dit echter af als je gebruik maakt van een openbare computer, bijvoorbeeld op school, in de bibliotheek, in een internetcafé, enz. Als deze optie niet beschikbaar is, heeft de beheerder deze uitgeschakeld.'
 	),
 	array(
 		0 => 'Wat doet "verwijder alle forumcookies"?',
@@ -84,6 +80,10 @@ $help = array(
 		1 => 'Als je geregistreerd bent, worden al je gegevens opgeslagen in de database. Om ze te wijzigen moet je op de <em>gebruikerspaneel</em> link klikken (deze staat meestal bovenaan op de pagina, maar dit kan verschillen), daarna kan je je instellingen wijzigen.'
 	),
 	array(
+		0 => 'Hoe kan ik onzichtbaar zijn in de online gebruikers lijst?',
+		1 => 'In het gebruikerspaneel onder "foruminstellingen", vind je de optie <em>Verberg mijn online status</em>. Als je deze optie activeert, dan zal je onzichtbaar zijn voor iedereen, behalve voor beheerders, moderators en jezelf.'
+	),	
+	array(
 		0 => 'De tijden zijn niet correct!',
 		1 => 'Het is mogelijk dat de tijd die gegeven wordt van een andere tijdzone is dan waarin jij woont. Als dit het geval is, moet je naar het gebruikerspaneel gaan en je tijdzone veranderen in een bepaald gebied (vb: Amsterdam, New York, Sydney, enz.). Wees er bewust van dat het veranderen van de tijdzone, zoals de meeste instellingen, alleen gedaan kunnen worden door geregistreerde gebruikers. Als je nog niet geregistreerd bent is dit een goed moment om dit te doen.'
 	),
@@ -96,24 +96,28 @@ $help = array(
 		1 => 'De meest voorkomende reden hiervoor is dat de beheerder je taal niet geïnstalleerd heeft, of dat nog niemand het forum in je taal vertaald heeft. Je kan altijd aan de beheerder vragen of hij het talenpakket, dat je nodig hebt, wilt installeren. Indien het nog niet bestaat, mag je gerust de vertaling maken. Meer informatie hieromtrent kan gevonden worden op de website van phpBB Limited (de link staat onderaan iedere pagina).'
 	),
 	array(
-		0 => 'Hoe kan ik een afbeelding bij mijn gebruikersnaam plaatsen?',
-		1 => 'Er kunnen 2 afbeeldingen bij een gebruikersnaam staan als je berichten leest. De eerste afbeelding geeft aan welke rang je hebt, meestal zijn dit sterretjes of blokjes die aangeven hoeveel berichten je geplaatst hebt of wat je status is. Hieronder kan nog een tweede afbeelding staan, beter bekend als een avatar. Deze afbeelding is meestal uniek of persoonlijk voor iedere gebruiker. De beheerders hebben de keuze om avatars al dan niet in te schakelen. Tevens beslissen deze ook over de manier waarop iemand een avatar kan kiezen. Als je dus geen gebruik kan maken van avatars, heeft een beheerder dat zo ingesteld en moet je dus met hem/haar contact opnemen met je vragen hierover.'
+		0 => 'Wat zijn de afbeeldingen naast mijn gebruikersnaam?',
+		1 => 'Er kunnen 2 afbeeldingen bij een gebruikersnaam staan als je berichten leest. De eerste afbeelding geeft aan welke rang je hebt, meestal zijn dit sterretjes of blokjes die aangeven hoeveel berichten je geplaatst hebt of wat je status is. Hieronder kan nog een tweede, meestal grotere, afbeelding staan, beter bekend als een avatar. Deze afbeelding is meestal uniek of persoonlijk voor iedere gebruiker.'
 	),
 	array(
-		0 => 'Hoe verander ik mijn rang?',
-		1 => 'Over het algemeen kan je je rang niet wijzigen (deze staat onder je gebruikersnaam bij je berichten en op je profiel, maar dit is afhankelijk van de gebruikte stijl). De meeste forums gebruiken rangen om aan te geven hoeveel berichten je geplaatst hebt, maar bepaalde gebruikers zoals bijvoorbeeld moderators en beheerders hebben ook een aparte rang. Nu moet je natuurlijk het forum niet beginnen te spammen met onzinnig veel berichten, gewoon voor een hogere rang. Dit heeft zelfs mogelijk het tegenovergestelde effect, een beheerder of moderator kunnen je berichten aantal doen dalen.'
+		0 => 'Hoe kan ik een avatar instellen?',
+		1 => 'In je Gebruikerspaneel, onder “Profiel” kan je een avatar toevoegen door gebruik te maken van één van de volgende vier methodes: Gravatar, Galerij, Afstand of Upload. Het is aan de beheerders om avatars in te schakelen en om te kiezen op welke manier je een avatar kan gebruiken. Als je geen avatars kan gebruiken, neem dan contact op met een beheerder voor je vragen hierover.',
 	),
 	array(
-		0 => 'Wanneer ik op de e-mail link van een gebruiker klik, moet ik me aanmelden?',
-		1 => 'Alleen geregistreerde gebruikers kunnen gebruik maken van het ingebouwde e-mail formulier (indien de beheerder dit heeft ingeschakeld). Dit om misbruik van het e-mail systeem door anonieme gebruikers te voorkomen.'
+		0 => 'Wat is mijn rang en hoe verander ik mijn rang?',
+		1 => 'Rangen, welke verschijnen onder je gebruikersnaam, geven een indicatie over het aantal berchten dat je hebt gemaakt of om bepaalde gebruikers te identificeren, bijv. moderators en beheerders. Over het algemeen kan je je rang niet wijzigen, aangezien ze ingesteld worden door een beheerder. Nu moet je natuurlijk het forum niet beginnen te spammen met onzinnig veel berichten, gewoon voor een hogere rang. Dit heeft zelfs mogelijk het tegenovergestelde effect, een beheerder of moderator kunnen je berichten aantal doen dalen.'
+	),
+	array(
+		0 => 'Wanneer ik op de e-maillink van een gebruiker klik, moet ik me aanmelden?',
+		1 => 'Alleen geregistreerde gebruikers kunnen gebruik maken van het ingebouwde e-mailformulier (indien de beheerder dit heeft ingeschakeld). Dit om misbruik van het e-mailsysteem door anonieme gebruikers te voorkomen.'
 	),
 	array(
 		0 => '--',
 		1 => 'Vragen in verband met het plaatsen van berichten'
 	),
 	array(
-		0 => 'Hoe plaats ik een onderwerp in een forum?',
-		1 => 'Om een nieuw onderwerp in één van de forums te plaatsen, klik je op de bijhorende knop op ofwel de pagina met onderwerpen of in een bepaald onderwerp. Mogelijk moet je je registreren voor je een nieuw onderwerp kan aanmaken, de permissies die je al dan niet hebt in het forum staan onderaan de pagina met onderwerpen of in een onderwerp (de lijst met <em>je mag geen nieuwe onderwerpen in dit forum plaatsen, je mag niet antwoorden op een onderwerp in dit forum, enz.</em>).'
+		0 => 'Hoe plaats ik een onderwerp in een forum of maak een reactie?',
+		1 => 'Om een nieuw onderwerp in één van de forums te plaatsen of om een reactie op een onderwerp te maken, klik je op de bijhorende knop op ofwel de pagina met onderwerpen of in een bepaald onderwerp. Mogelijk moet je je registreren voor je een nieuw onderwerp kan aanmaken, de permissies die je al dan niet hebt in het forum staan onderaan de pagina met onderwerpen of in een onderwerp (de lijst met <em>je mag geen nieuwe onderwerpen in dit forum plaatsen, je mag niet antwoorden op een onderwerp in dit forum, enz.</em>).'
 	),
 	array(
 		0 => 'Hoe wijzig of verwijder ik een bericht?',
@@ -125,15 +129,15 @@ $help = array(
 	),
 	array(
 		0 => 'Hoe maak ik een peiling?',
-		1 => 'Een peiling aanmaken is heel gemakkelijk, als je een nieuw onderwerp aanmaakt (of het eerste bericht in een onderwerp bewerkt en als je daar permissie voor hebt) zou je een "voeg poll toe" tabblad moeten zien onderaan het posting-gedeelte (als je dit tabblad niet kan zien, heb je niet de juiste permissies om peilingen aan te maken). Je moet een titel voor de peiling invullen bij "peilingsvraag" en dan minstens 2 mogelijkheden invullen in het "peilingopties"-tekstgedeelte (limiet is ingesteld door de beheerder), met elke optie gescheiden door middel van een nieuwe regel. Je kan ook instellen hoeveel opties een gebruiker mag kiezen onder "opties per gebruiker" en een tijdslimiet in dagen voor de peiling (0 is een peiling van oneindige duur).'
+		1 => 'Een peiling aanmaken is heel gemakkelijk, als je een nieuw onderwerp aanmaakt (of het eerste bericht in een onderwerp bewerkt en als je daar permissie voor hebt) zou je een "voeg peiling toe" tabblad moeten zien onderaan het berichten-gedeelte (als je dit tabblad niet kan zien, heb je niet de juiste permissies om peilingen aan te maken). Je moet een titel voor de peiling invullen bij "peilingsvraag" en dan minstens 2 mogelijkheden invullen in het "peilingopties"-tekstgedeelte (limiet is ingesteld door de beheerder), met elke optie gescheiden door middel van een nieuwe regel. Je kan ook instellen hoeveel opties een gebruiker mag kiezen onder "opties per gebruiker" en een tijdslimiet in dagen voor de peiling (0 is een peiling van oneindige duur).'
 	),
 	array(
 		0 => 'Waarom kan ik niet meer peilingsopties toevoegen?',
-		1 => 'De limiet voor de peilingsopties is ingesteld door de forum beheerder. Indien je meer opties denkt nodig te hebben dan het toegestane aantal, dien je contact op te nemen met de forum beheerder.'
+		1 => 'De limiet voor de peilingsopties is ingesteld door de beheerder. Indien je meer opties denkt nodig te hebben dan het toegestane aantal, neem dan contact op met de beheerder.'
 	),
 	array(
 		0 => 'Hoe wijzig of verwijder ik een peiling?',
-		1 => 'Net zoals bij de berichten kan een peiling alleen gewijzigd worden door degene die hem gemaakt heeft, een moderator of beheerder. Om de peiling te wijzigen moet je het allereerste bericht van het onderwerp wijzigen (hieraan is de peiling gekoppeld). Als er nog geen stemmen zijn uitgebracht kunnen gebruikers de peiling verwijderen of iedere peilingsoptie wijzigen. Maar, als er reeds gestemd is kunnen alleen moderators of beheerders hem wijzigen of verwijderen. Dit om te voorkomen dat gebruikers een peiling maken en deze daarna vervalsen door de opties te wijzigen.'
+		1 => 'Net zoals bij de berichten kan een peiling alleen gewijzigd worden door degene die hem gemaakt heeft, en door een moderator of beheerder. Om de peiling te wijzigen moet je het allereerste bericht van het onderwerp wijzigen (hieraan is de peiling gekoppeld). Als er nog geen stemmen zijn uitgebracht, kunnen gebruikers de peiling verwijderen of iedere peilingsoptie wijzigen. Maar, als er reeds gestemd is, dan kunnen alleen moderators of beheerders hem wijzigen of verwijderen. Dit om te voorkomen dat gebruikers een peiling maken en deze daarna vervalsen door de opties te wijzigen.'
 	),
 	array(
 		0 => 'Waarom kan ik een bepaald forum niet openen?',
@@ -152,7 +156,7 @@ $help = array(
 		1 => 'Als de beheerder het toelaat, kan je op de hiervoor dienende knop klikken bij het bericht. Als je hierop geklikt hebt, moet je een paar verplichte stappen volgen om de melding te versturen.'
 	),
 	array(
-		0 => 'Waarvoor dient de "opslaan" knop bij het plaatsen van een bericht?',
+		0 => 'Waarvoor dient de "Opslaan"-knop bij het plaatsen van een bericht?',
 		1 => 'Hiermee kan je berichten opslaan om ze dan later af te werken en te plaatsen. Een opgeslagen bericht kan je, via de bijhorende optie, in het gebruikerspaneel weer laden.'
 	),
 	array(
@@ -176,7 +180,7 @@ $help = array(
 		1 => 'Nee, het is niet mogelijk om je bericht op te maken met HTML code. De meeste opmaak die je via HTML kan toepassen is ook via BBCode mogelijk.'
 	),
 	array(
-		0 => 'Wat zijn smilies?',
+		0 => 'Wat zijn Smilies?',
 		1 => 'Smilies zijn kleine afbeeldingen die gebruikt kunnen worden om een gevoelstoestand uit te drukken, bijvoorbeeld :) betekent blij, :( betekent ongelukkig. Alle beschikbare smilies worden weergegeven als je een bericht plaatst. Maak geen overdadig gebruik van smilies, ze maken een bericht snel onleesbaar, wat er toe kan leiden dat een moderator je bericht aanpast of heel je bericht verwijdert. De beheerder kan ook een maximaal aantal smilies, dat in een bericht gebruikt mag worden, bepaald hebben.'
 	),
 	array(
@@ -213,11 +217,11 @@ $help = array(
 		1 => 'Type gebruikers en gebruikersgroepen'
 	),
 	array(
-		0 => 'Wat zijn beheerders?',
+		0 => 'Wat zijn Beheerders?',
 		1 => 'Beheerders zijn gebruikers die alle permissies hebben over het gehele forum. Zij beheren alles in verband met het forum, zoals: permissies, het verbannen van gebruikers, gebruikersgroepen of moderators creëren, enz. Hun permissies zijn natuurlijk afhankelijk van welke de eigenaar hun heeft toegewezen. Ook afhankelijk van de beslissing van de eigenaar, hebben ze mogelijk alle moderator permissies in de forums.'
 	),
 	array(
-		0 => 'Wat zijn moderators?',
+		0 => 'Wat zijn Moderators?',
 		1 => 'Moderators zijn gebruikers of gebruikersgroepen die in staan voor de dagelijkse werking van het forum. Ze kunnen, in de forums die ze modereren, berichten wijzigen en verwijderen; onderwerpen sluiten, openen, verplaatsen, splitsen en verwijderen. In het algemeen moeten ze er gewoon op toe zien dat mensen niet van het onderwerp afwijken (<em>off-topic</em> gaan) of ongepaste inhoud plaatsen.'
 	),
 	array(
@@ -237,11 +241,11 @@ $help = array(
 		1 => 'De beheerder kan een kleur aan een gebruikersgroep toegewezen hebben, dit is om de leden gemakkelijk te herkennen.'
 	),
 	array(
-		0 => 'Wat is de "standaard gebruikersgroep"?',
+		0 => 'Wat is de "Standaard gebruikersgroep"?',
 		1 => 'Als je lid bent van meerdere gebruikersgroepen, word je standaard gebruikersgroep gebruikt om je groepskleur en groepsrang te bepalen. De beheerder kan je de permissies geven om je standaard gebruikersgroep te wijzigen via het gebruikerspaneel.'
 	),
 	array(
-		0 => 'Waarvoor dient de "het team" link?',
+		0 => 'Waarvoor dient de "Het Team"-link?',
 		1 => 'Als je op deze link klikt, kom je op een pagina die een overzicht geeft van de mensen die het forum beheren. Deze lijst bevat alle beheerders en de moderators, met bijhorende details omtrent welke forums ze modereren.'
 	),
 	array(
@@ -302,7 +306,7 @@ $help = array(
 	),
 	array(
 		0 => 'Wat is het verschil tussen een bladwijzer en abonnement?',
-		1 => 'Bladwijzers in phpBB3 zijn zoals bladwijzers (of favorieten) in je browser. Je wordt niet op de hoogte gebracht van updates, maar je kan altijd snel terugkeren. Het verschil met abonnementen ligt hem in het feit dat je hierbij automatisch op de hoogte gebracht word van updates, dit gebeurd via de door jou gekozen wijze.'
+		1 => 'Bladwijzers in phpBB 3.0 zijn zoals bladwijzers (of favorieten) in je browser. Je wordt niet op de hoogte gebracht van updates, maar je kan altijd snel terugkeren. Het verschil met abonnementen ligt hem in het feit dat je hierbij automatisch op de hoogte gebracht word van updates, dit gebeurd via de door jou gekozen wijze.'
 	),
 	array(
 		0 => 'Hoe abonneer ik me op specifieke forums of onderwerpen?',
@@ -330,7 +334,7 @@ $help = array(
 	),
 	array(
 		0 => 'Wie heeft dit forum geschreven?',
-		1 => 'Deze software (in zijn originele vorm) is geschreven, vrijgegeven en met een copyright beschermd door <a href="https://www.phpbb.com">phpBB Limited</a>. De software is beschikbaar onder de GNU General Public License en mag vrij verspreid worden, raadpleeg de link voor verdere informatie.'
+		1 => 'Deze software (in zijn originele vorm) is geschreven, vrijgegeven en met een copyright beschermd door <a href="https://www.phpbb.com">phpBB Limited</a>. De software is beschikbaar onder de GNU General Public License en mag vrij verspreid worden, raadpleeg <a href="https://www.phpbb.com/about/">Over phpBB</a> voor meer informatie.'
 	),
 	array(
 		0 => 'Waarom is de optie X niet beschikbaar?',
@@ -339,5 +343,9 @@ $help = array(
 	array(
 		0 => 'Met wie moet ik contact opnemen omtrent misbruik en/of wettelijke kwesties in verband met dit forum?',
 		1 => 'Alle beheerders die op de "het team"-pagina vermeld worden, staan open voor je klachten. Als je geen reactie hebt gekregen, kan je contact opnemen met de eigenaar van het domein (dmv een <a href="http://www.google.com/search?q=whois">whois zoekopdracht</a>) of, als dit forum op een gratis host staat (bijvoorbeeld xsbb.nl, nl.forums.cc, dotbb.be, enz.), het beheer of misbruik-afdeling van de gratis host. Wees je er bewust van dat phpBB Limited <strong>geen inspraak</strong> heeft en dus in geen enkel geval aansprakelijk gehouden kan worden over hoe, waar en door wie dit forum gebruikt wordt. Neem <strong>geen</strong> contact op met phpBB Limited met vragen over wettelijke kwesties (zoals aanspreekbaarheid, ongepaste commentaar, enz.) die <strong>niet direct verband</strong> houden met de phpBB.com-website of de phpBB-software. Als je phpBB Limited toch e-mailt over deze software die <strong>gebruikt wordt door derden</strong>, kan je een korte of helemaal geen reactie verwachten.'
+	),
+	array(
+		0 => 'Hoe neem ik contact op met een beheerder?',
+		1 => 'Alle gebruikers van het forum kunnen gebruik maken van het “Contact”-formulier, als de optie is ingeschakeld door de beheerders.<br />Leden van het forum kunnen ook gebruik maken van de “Het Team”-link.',
 	),
 );
