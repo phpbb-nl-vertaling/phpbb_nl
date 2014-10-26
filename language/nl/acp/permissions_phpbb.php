@@ -66,7 +66,7 @@ $lang = array_merge($lang, array(
 
 // User Permissions
 $lang = array_merge($lang, array(
-	'ACL_U_VIEWPROFILE'	=> 'Kan profielen, ledenlijst en wie-is-er-online zien',
+	'ACL_U_VIEWPROFILE'	=> 'Kan profielen, ledenlijst en wie is er online zien',
 	'ACL_U_CHGNAME'		=> 'Kan gebruikersnaam veranderen',
 	'ACL_U_CHGPASSWD'	=> 'Kan wachtwoord veranderen',
 	'ACL_U_CHGEMAIL'	=> 'Kan e-mailadres veranderen',
@@ -177,7 +177,7 @@ $lang = array_merge($lang, array(
 	'ACL_A_BBCODE'		=> 'Kan BBCode-tags definiëren',
 	'ACL_A_ATTACH'		=> 'Kan bijlage gerelateerde instellingen wijzigen',
 
-	'ACL_A_USER'		=> 'Kan gebruikers beheren<br /><em>Dit bevat ook het zien van de gebruikers browser agent in de wie-is-er-onlinelijst.</em>',
+	'ACL_A_USER'		=> 'Kan gebruikers beheren<br /><em>Dit bevat ook het zien van de gebruikers browser agent in de wie is er onlinelijst.</em>',
 	'ACL_A_USERDEL'		=> 'Kan gebruikers verwijderen/opschonen',
 	'ACL_A_GROUP'		=> 'Kan groepen beheren',
 	'ACL_A_GROUPADD'	=> 'Kan nieuwe groepen toevoegen',

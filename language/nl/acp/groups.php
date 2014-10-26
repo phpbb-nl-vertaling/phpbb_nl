@@ -122,7 +122,7 @@ $lang = array_merge($lang, array(
 	'MAKE_DEFAULT_FOR_ALL'	=> 'Maak groep standaard voor ieder groepslid',
 	'MEMBERS'				=> 'Leden',
 
-	'NO_GROUP'					=> 'Geen groep gespecificeerd.',
+	'NO_GROUP'					=> 'Geen groep opgegeven.',
 	'NO_GROUPS_ADDED'			=> 'Nog geen groepen toegevoegd.',
 	'NO_GROUPS_CREATED'			=> 'Nog geen groepen aangemaakt.',
 	'NO_PERMISSIONS'			=> 'Permissies niet kopiëren',
