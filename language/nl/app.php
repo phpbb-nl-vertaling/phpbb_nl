@@ -42,7 +42,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'CONTROLLER_ARGUMENT_VALUE_MISSING'	=> 'Missende waarde voor argument #%1$s: <strong>%3$s</strong> in class <strong>%2$s</strong>',
-	'CONTROLLER_NOT_SPECIFIED'			=> 'Er is geen controller gespecificeerd.',
-	'CONTROLLER_METHOD_NOT_SPECIFIED'	=> 'Er is geen methode gespecificeerd voor de controller.',
+	'CONTROLLER_NOT_SPECIFIED'			=> 'Er is geen controller opgegeven.',
+	'CONTROLLER_METHOD_NOT_SPECIFIED'	=> 'Er is geen methode opgegeven voor de controller.',
 	'CONTROLLER_SERVICE_UNDEFINED'		=> 'De service voor controller "<strong>%s</strong>" is niet gedefinieerd in ./config/services.yml.',
 ));
