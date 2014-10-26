@@ -139,7 +139,7 @@ $lang = array_merge($lang, array(
 	'MOVE_SUBFORUMS_TO'				=> 'Verplaats subforums naar',
 
 	'NO_DESTINATION_FORUM'			=> 'Je hebt geen forum opgegeven om de inhoud naar toe te verplaatsen.',
-	'NO_FORUM_ACTION'				=> 'Geen actie gedefinieerd voor wat er gebeurd met de foruminhoud.',
+	'NO_FORUM_ACTION'				=> 'Geen actie opgegeven voor wat er gebeurd met de foruminhoud.',
 	'NO_PARENT'						=> 'Geen hoofd',
 	'NO_PERMISSIONS'				=> 'Permissies niet kopiëren',
 	'NO_PERMISSION_FORUM_ADD'		=> 'Je hebt niet de benodigde permissies om forums toe te voegen.',
