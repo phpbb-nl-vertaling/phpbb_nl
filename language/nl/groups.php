@@ -75,7 +75,7 @@ $lang = array_merge($lang, array(
 	'GROUP_RESIGNED_PENDING'			=> 'Je aangevraagde lidmaatschap is succesvol verwijderd van de geselecteerde groep.',
 	'GROUP_TYPE'						=> 'Groepstype',
 	'GROUP_UNDISCLOSED'					=> 'Verborgen groep',
-	'FORUM_UNDISCLOSED'					=> 'Moderating verborgen forum(s)',
+	'FORUM_UNDISCLOSED'					=> 'Modereer verborgen forum(s)',
 
 	'LOGIN_EXPLAIN_GROUP'	=> 'Je moet aangemeld zijn om de groepsdetails te kunnen bekijken.',
 

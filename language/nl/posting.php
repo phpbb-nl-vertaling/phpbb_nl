@@ -44,7 +44,7 @@ $lang = array_merge($lang, array(
 	'ADD_POLL_EXPLAIN'			=> 'Als je geen peiling wilt toevoegen aan je onderwerp, laat dan de velden leeg.',
 	'ALREADY_DELETED'			=> 'Sorry maar dit bericht is al verwijderd.',
 	'ATTACH_DISK_FULL'			=> 'Er is niet genoeg vrije schijfruimte om deze bijlage te plaatsen.',
-	'ATTACH_QUOTA_REACHED'		=> 'Sorry, het forum bijlage quotum is bereikt.',
+	'ATTACH_QUOTA_REACHED'		=> 'Sorry, het forum bijlage limiet is bereikt.',
 	'ATTACH_SIG'				=> 'Onderschrift toevoegen (onderschriften kunnen gewijzigd worden via het gebruikerspaneel)',
 
 	'BBCODE_A_HELP'				=> 'Inline geüploade bijlagen: [attachment=]filename.ext[/attachment]',
@@ -145,12 +145,12 @@ $lang = array_merge($lang, array(
 
 	'MAX_FONT_SIZE_EXCEEDED'	=> 'Je mag alleen lettertype gebruiken tot grootte %d.',
 	'MAX_FLASH_HEIGHT_EXCEEDED'	=> array(
-		1	=> 'Je flash bestanden mogen alleen tot %d pixel hoog zijn.',
-		2	=> 'Je flash bestanden mogen alleen tot %d pixels hoog zijn.',
+		1	=> 'Je flash-bestanden mogen alleen tot %d pixel hoog zijn.',
+		2	=> 'Je flash-bestanden mogen alleen tot %d pixels hoog zijn.',
 	),
 	'MAX_FLASH_WIDTH_EXCEEDED'	=> array(
-		1	=> 'Je flash bestanden mogen alleen tot %d pixel breed zijn.',
-		2	=> 'Je flash bestanden mogen alleen tot %d pixels breed zijn.',
+		1	=> 'Je flash-bestanden mogen alleen tot %d pixel breed zijn.',
+		2	=> 'Je flash-bestanden mogen alleen tot %d pixels breed zijn.',
 	),
 	'MAX_IMG_HEIGHT_EXCEEDED'	=> array(
 		1	=> 'Je afbeeldingen mogen alleen tot %1$d pixel hoog zijn.',
@@ -169,7 +169,7 @@ $lang = array_merge($lang, array(
 	'MESSAGE_DELETED'			=> 'Dit bericht is succesvol verwijderd.',
 	'MORE_SMILIES'				=> 'Bekijk meer smilies',
 
-	'NOTIFY_REPLY'				=> 'Notificeer me wanneer een reactie is geplaatst',
+	'NOTIFY_REPLY'				=> 'Informeer me wanneer een reactie is geplaatst',
 	'NOT_UPLOADED'				=> 'Bestand kan niet worden geüpload.',
 	'NO_DELETE_POLL_OPTIONS'	=> 'Je kan geen bestaande peilingopties verwijderen.',
 	'NO_PM_ICON'				=> 'Geen PB icoon',
