@@ -217,7 +217,7 @@ $lang = array_merge($lang, array(
 	'ACTIVATE'				=> 'Activeer',
 	'ADD'					=> 'Toevoegen',
 	'ADMIN'					=> 'Administratie',
-	'ADMIN_INDEX'			=> 'Beheerdersindex',
+	'ADMIN_INDEX'			=> 'Beheerdersoverzicht',
 	'ADMIN_PANEL'			=> 'Beheerderspaneel',
 
 	'ADM_LOGOUT'			=> 'Beheerderspaneel&nbsp;Afmelden',
@@ -281,9 +281,9 @@ $lang = array_merge($lang, array(
 	'OFF'					=> 'Uit',
 	'ON'					=> 'Aan',
 
-	'PARSE_BBCODE'						=> 'Verwerk BBCode',
-	'PARSE_SMILIES'						=> 'Verwerk smilies',
-	'PARSE_URLS'						=> 'Verwerk links',
+	'PARSE_BBCODE'						=> 'BBCode gebruiken',
+	'PARSE_SMILIES'						=> 'Smilies gebruiken',
+	'PARSE_URLS'						=> 'Links gebruiken',
 	'PERMISSIONS_TRANSFERRED'			=> 'Permissies overgebracht',
 	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'Je hebt momenteel de permissies van %1$s. Je kan nu het forum bezoeken met de permissies van deze gebruiker, maar niet het beheerderspaneel omdat beheerderspermissies niet zijn overgebracht. Je kan <a href="%2$s"><strong>je eigen permissies terugzetten</strong></a> op elk moment.',
 	'PROCEED_TO_ACP'					=> '%sGa door naar het beheerderspaneel%s',
@@ -319,7 +319,7 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_PHP_INFO_EXPLAIN'	=> 'Deze pagina geeft de informatie over de versie van PHP die geïnstalleerd is op deze server. Het bevat details van geladen modules, beschikbare variabelen en standaard instellingen. Deze informatie kan bruikbaar zijn bij het oplossen van problemen. Let op dat sommige hostingsbedrijven de informatie die hier wordt getoond limiteren voor beveiligingsredenen. Je wordt geadviseerd om geen details van deze pagina openbaar te maken tenzij er naar gevraagd wordt door een <a href="https://www.phpbb.com/about/team/">officiële phpBB.com teamlid</a>, <a href="http://www.phpbbservice.nl/forum/memberlist.php?mode=leaders">officiële phpBBservice.nl teamleden</a> of <a href="http://www.phpbb.nl/medewerkers">officiële phpbb.nl teamleden</a> op de supportforums.',
 
-	'NO_PHPINFO_AVAILABLE'	=> 'Informatie over je PHP configuratie kan niet vastgesteld worden. Phpinfo() is uitgeschakeld vanwege beveiligingsredenen.',
+	'NO_PHPINFO_AVAILABLE'	=> 'Informatie over je PHP-configuratie kan niet vastgesteld worden. Phpinfo() is uitgeschakeld vanwege beveiligingsredenen.',
 ));
 
 // Logs
@@ -643,7 +643,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_LANGUAGE_PACK_DELETED'		=> '<strong>Taalpakket verwijderd</strong><br />» %s',
 	'LOG_LANGUAGE_PACK_INSTALLED'	=> '<strong>Taalpakket geïnstalleerd</strong><br />» %s',
-	'LOG_LANGUAGE_PACK_UPDATED'		=> '<strong>Taalpakket-details geüpdate</strong><br />» %s',
+	'LOG_LANGUAGE_PACK_UPDATED'		=> '<strong>Taalpakket-details bijgewerkt</strong><br />» %s',
 	'LOG_LANGUAGE_FILE_REPLACED'	=> '<strong>Taalbestanden vervangen</strong><br />» %s',
 	'LOG_LANGUAGE_FILE_SUBMITTED'	=> '<strong>Taalbestand verstuurd en geplaatst in store-map</strong><br />» %s',
 
