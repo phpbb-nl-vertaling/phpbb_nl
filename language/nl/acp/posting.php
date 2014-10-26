@@ -199,7 +199,7 @@ $lang = array_merge($lang, array(
 		2	=> 'Limiet van %d smilies bereikt.',
 	),
 
-	'WRONG_PAK_TYPE'	=> 'Het gespecificeerde pakket bevat niet de benodigde data.',
+	'WRONG_PAK_TYPE'	=> 'Het opgegeven pakket bevat niet de benodigde data.',
 ));
 
 // Word censors
@@ -235,7 +235,7 @@ $lang = array_merge($lang, array(
 
 	'RANK_ADDED'			=> 'De rang is succesvol toegevoegd.',
 	'RANK_IMAGE'			=> 'Rangafbeelding',
-	'RANK_IMAGE_EXPLAIN'	=> 'Gebruik dit om een kleine afbeelding te definiëren die geassocieerd wordt met de rang. Het pad is relatief aan de phpBB hoofdmap.',
+	'RANK_IMAGE_EXPLAIN'	=> 'Gebruik dit om een kleine afbeelding op te geven die geassocieerd wordt met de rang. Het pad is relatief aan de phpBB hoofdmap.',
 	'RANK_IMAGE_IN_USE'		=> '(In gebruik)',
 	'RANK_MINIMUM'			=> 'Minimum berichten',
 	'RANK_REMOVED'			=> 'De rang is succesvol verwijderd.',
