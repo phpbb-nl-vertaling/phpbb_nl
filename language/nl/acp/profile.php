@@ -130,7 +130,7 @@ $lang = array_merge($lang, array(
 	'MIN_FIELD_CHARS'		=> 'Minimum aantal tekens',
 	'MIN_FIELD_NUMBER'		=> 'Laagst toegestane cijfer',
 
-	'NO_FIELD_ENTRIES'			=> 'Geen items gedefinieerd',
+	'NO_FIELD_ENTRIES'			=> 'Geen items opgegeven',
 	'NO_FIELD_ID'				=> 'Geen veld-ID gespecificeerd.',
 	'NO_FIELD_TYPE'				=> 'Geen veldtype gespecificeerd.',
 	'NO_VALUE_OPTION'			=> 'Optie gelijk aan geen ingevoerde waarde',

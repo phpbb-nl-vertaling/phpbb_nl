@@ -108,7 +108,7 @@ $lang = array_merge($lang, array(
 	'ALL_YES'					=> 'Alles <strong>JA</strong>',
 	'APPLY_ALL_PERMISSIONS'		=> 'Alle permissies toepassen',
 	'APPLY_PERMISSIONS'			=> 'Permissies toepassen',
-	'APPLY_PERMISSIONS_EXPLAIN'	=> 'De permissies en de rol die gedefinieerd zijn voor dit item zullen alleen toegepast worden op dit item en alle geselecteerde items.',
+	'APPLY_PERMISSIONS_EXPLAIN'	=> 'De permissies en de rol die opgegeven zijn voor dit item zullen alleen toegepast worden op dit item en alle geselecteerde items.',
 	'AUTH_UPDATED'				=> 'Permissies zijn bijgewerkt.',
 
 	'COPY_PERMISSIONS_CONFIRM'				=> 'Weet je zeker dat je deze operatie wilt uitvoeren? Let op dat dit alle bestaande permissies van de geselecteerde doelen zal overschrijven.',
@@ -137,7 +137,7 @@ $lang = array_merge($lang, array(
 	'MANAGE_GROUPS'		=> 'Beheer groepen',
 	'MANAGE_USERS'		=> 'Beheer gebruikers',
 
-	'NO_AUTH_SETTING_FOUND'		=> 'Permissie-instellingen niet gedefinieerd.',
+	'NO_AUTH_SETTING_FOUND'		=> 'Permissie-instellingen niet opgegeven.',
 	'NO_ROLE_ASSIGNED'			=> 'Geen rol toegewezen…',
 	'NO_ROLE_ASSIGNED_EXPLAIN'	=> 'Door het kiezen van deze rol veranderd er niks aan de permissies rechts. Als je alle permissies wilt verwijderen moet je gebruik maken van de “Alles <strong>NEE</strong>” link.',
 	'NO_ROLE_AVAILABLE'			=> 'Geen rol beschikbaar',
@@ -145,7 +145,7 @@ $lang = array_merge($lang, array(
 	'NO_ROLE_SELECTED'			=> 'Rol kan niet gevonden worden.',
 	'NO_USER_GROUP_SELECTED'	=> 'Je hebt geen enkele gebruiker of groep geselecteerd.',
 
-	'ONLY_FORUM_DEFINED'	=> 'Je hebt alleen forums gedefinieerd in je selectie. Selecteer ook tenminste één gebruiker of groep.',
+	'ONLY_FORUM_DEFINED'	=> 'Je hebt alleen forums opgegeven in je selectie. Selecteer ook tenminste één gebruiker of groep.',
 
 	'PERMISSION_APPLIED_TO_ALL'		=> 'Permissies en rollen zullen ook toegepast worden aan alle geselecteerde objecten',
 	'PLUS_SUBFORUMS'				=> '+ Subforums',

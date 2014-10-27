@@ -47,7 +47,7 @@ $lang = array_merge($lang, array(
 	'CREATE_GROUP'					=> 'Nieuwe groep aanmaken',
 
 	'GROUPS_NO_MEMBERS'				=> 'Deze groep heeft geen leden',
-	'GROUPS_NO_MODS'				=> 'Geen groepsleiders gedefinieerd',
+	'GROUPS_NO_MODS'				=> 'Geen groepsleiders opgegeven',
 
 	'GROUP_APPROVE'					=> 'Lid goedkeuren',
 	'GROUP_APPROVED'				=> 'Goedgekeurde Leden',
