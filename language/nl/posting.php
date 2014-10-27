@@ -178,7 +178,7 @@ $lang = array_merge($lang, array(
 	'NO_POST_MODE'				=> 'Geen plaatsingsmode gespecificeerd.',
 
 	'PARTIAL_UPLOAD'			=> 'Het geüploade bestand is slechts gedeeltelijk geüpload.',
-	'PHP_SIZE_NA'				=> 'De bijlage bestandsgrootte is te groot.<br />Kan de maximum grootte gedefinieerd in PHP in php.ini niet bepalen.',
+	'PHP_SIZE_NA'				=> 'De bijlage bestandsgrootte is te groot.<br />Kan de maximum grootte opgegeven in PHP in php.ini niet bepalen.',
 	'PHP_SIZE_OVERRUN'			=> 'De bijlage bestandsgrootte is te groot, de maximum uploadgrootte is %1$d %2$s.<br />Dit is ingesteld in php.ini en kan niet overschreven worden.',
 	'PLACE_INLINE'				=> 'Plaatst inline',
 	'POLL_DELETE'				=> 'Verwijder peiling',
