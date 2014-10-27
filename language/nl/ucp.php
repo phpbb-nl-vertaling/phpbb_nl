@@ -462,13 +462,13 @@ $lang = array_merge($lang, array(
 	'RULE_ALREADY_DEFINED'				=> 'Deze regel is de vorige keer al opgegeven.',
 	'RULE_DELETED'						=> 'Regel succesvol verwijderd.',
 	'RULE_LIMIT_REACHED'				=> 'Je kan niet meer PB regels toevoegen. Je hebt het maximum aantal regels bereikt.',
-	'RULE_NOT_DEFINED'					=> 'Regel niet correct gespecificeerd.',
+	'RULE_NOT_DEFINED'					=> 'Regel niet correct ingevoerd.',
 	'RULE_REMOVED_MESSAGES'				=> array(
 		1	=> '%d privébericht is verwijderd vanwege privéberichten filters.',
 		2	=> '%d privéberichten zijn verwijderd vanwege privéberichten filters.',
 	),
 
-	'SAME_PASSWORD_ERROR'		=> 'Het nieuwe wachtwoord dat je ingevoerd hebt, is hetzelfde als je wachtwoord momenteel.',
+	'SAME_PASSWORD_ERROR'		=> 'Het nieuwe wachtwoord dat je hebt ingevoerd, is hetzelfde als je wachtwoord momenteel.',
 	'SEARCH_YOUR_POSTS'			=> 'Je berichten weergeven',
 	'SEND_PASSWORD'				=> 'Wachtwoord versturen',
 	'SENT_AT'					=> 'Verstuurd op',			// Used before dates in private messages
@@ -506,7 +506,7 @@ $lang = array_merge($lang, array(
 	'UCP_AUTH_LINK_ASK'			=> 'Je hebt momenteel geen account geassocieerd met deze externe service. Klik op de knop hieronder om je forumaccount te koppelen met een account van deze externe service.',
 	'UCP_AUTH_LINK_ID'			=> 'Unieke identificatie',
 	'UCP_AUTH_LINK_LINK'		=> 'Koppel',
-	'UCP_AUTH_LINK_MANAGE'		=> 'Beheer externe account associaties', // wat is dit?
+	'UCP_AUTH_LINK_MANAGE'		=> 'Beheer externe account associaties', // wat is dit? geen idee
 	'UCP_AUTH_LINK_NOT_SUPPORTED'	=> 'Het koppelen van forumaccounts met externe services wordt niet ondersteund door de ingestelde forum-authenticatie methode.',
 	'UCP_AUTH_LINK_TITLE'		=> 'Beheer je externe account associaties',
 	'UCP_AUTH_LINK_UNLINK'		=> 'Ontkoppel',
@@ -553,7 +553,7 @@ $lang = array_merge($lang, array(
 	'UCP_USERGROUPS_MEMBER'		=> 'Wijzig lidmaatschappen',
 	'UCP_USERGROUPS_MANAGE'		=> 'Beheer groepen',
 
-	'UCP_PASSWORD_RESET_DISABLED'	=> 'Het “wachtwoord herstel”-functionaliteit is uitgeschakeld. Als je hulp nodig heeft om toegang te krijgen tot je account, neem dan contact op met de %sForumbeheerder%s',
+	'UCP_PASSWORD_RESET_DISABLED'	=> 'Het “wachtwoord herstel”-functionaliteit is uitgeschakeld. Als je hulp nodig hebt om toegang te krijgen tot je account, neem dan contact op met de %sForumbeheerder%s',
 	'UCP_REGISTER_DISABLE'			=> 'Het aanmaken van een nieuw account is momenteel niet mogelijk.',
 	'UCP_REMIND'					=> 'Verstuur wachtwoord',
 	'UCP_RESEND'					=> 'Verstuur activatie e-mail',
@@ -575,7 +575,7 @@ $lang = array_merge($lang, array(
 	'USERNAME_CHARS_ANY_EXPLAIN'	=> 'Lengte moet tussen de %1$s en %2$s karakters lang zijn.',
 	'USERNAME_TAKEN_USERNAME'		=> 'De gebruikersnaam die je hebt ingevoerd is al in gebruik, kies een andere naam.',
 	'USERNAME_DISALLOWED_USERNAME'	=> 'De gebruikersnaam die je hebt ingevoerd is niet toegestaan of bevat een ongeldig woord. Kies een andere naam.',
-	'USER_NOT_FOUND_OR_INACTIVE'	=> 'De gebruikersnaam die je hebt gespecificeerd kan niet gevonden worden of is geen actieve gebruiker.',
+	'USER_NOT_FOUND_OR_INACTIVE'	=> 'De gebruikersnaam die je hebt ingevoerd kan niet gevonden worden of is geen actieve gebruiker.',
 
 	'VIEW_AVATARS'				=> 'Weergave avatars',
 	'VIEW_EDIT'					=> 'Bekijk/Wijzig',
