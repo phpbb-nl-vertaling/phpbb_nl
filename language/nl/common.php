@@ -443,7 +443,7 @@ $lang = array_merge($lang, array(
 	// A, B, C and others replied...
 	'NOTIFICATION_BOOKMARK'				=> array(
 		1	=> '<strong>Reactie</strong> van %1$s op het gebladwijzerde onderwerp:',
-		2	=> '<strong>Reacties</storng> van %1$s op het gebladwijzerde onderwerp:',
+		2	=> '<strong>Reacties</strong> van %1$s op het gebladwijzerde onderwerp:',
 	),		
 	'NOTIFICATION_FORUM'				=> '<em>Forum:</em> %1$s',
 	'NOTIFICATION_GROUP_REQUEST'		=> '<strong>Groepsaanvraag</strong> van %1$s om lid te worden van groep %2$s.',

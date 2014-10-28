@@ -228,8 +228,8 @@ $lang = array_merge($lang, array(
 	'FOES_UPDATED'				=> 'Je vijandenlijst is succesvol bijgewerkt.',
 	'FOLDER_ADDED'				=> 'Map succesvol toegevoegd.',
 	'FOLDER_MESSAGE_STATUS'		=> array(
-		1	=> '%2$d van %1$d bericht opgeslagen',
-		2	=> '%2$d van %1$d berichten opgeslagen',
+		1	=> '%2$d van %1$s bericht opgeslagen',
+		2	=> '%2$d van %1$s berichten opgeslagen',
 	),
 	'FOLDER_NAME_EMPTY'			=> 'Je moet een naam invoeren voor deze map.',
 	'FOLDER_NAME_EXIST'			=> 'Map <strong>%s</strong> bestaat al.',
@@ -309,7 +309,7 @@ $lang = array_merge($lang, array(
 	'MOVE_DOWN'						=> 'Verplaats omlaag',
 	'MOVE_MARKED_TO_FOLDER'			=> 'Verplaats gemarkeerde naar %s',
 	'MOVE_PM_ERROR'					=> array(
-		2	=> 'Een fout is opgetreden tijdens het verplaatsen van de berichten naar de nieuwe map, alleen %2d van de %1d berichten zijn verplaatst.',
+		2	=> 'Een fout is opgetreden tijdens het verplaatsen van de berichten naar de nieuwe map, alleen %2d van de %1s berichten zijn verplaatst.',
 	),
 	'MOVE_TO_FOLDER'				=> 'Verplaats naar map',
 	'MOVE_UP'						=> 'Verplaats omhoog',

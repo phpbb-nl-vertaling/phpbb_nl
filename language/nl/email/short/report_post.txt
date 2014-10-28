@@ -2,7 +2,7 @@ Subject: Melding ongewenst bericht - "{TOPIC_TITLE}"
 
 Hallo {USERNAME},
 
-Je ontvangt deze e-mail omdat een bericht getiteld "{SUBJECT}" op "{SITENAME}" is gemeld als ongewenst.
+Je ontvangt deze e-mail omdat een bericht getiteld "{POST_SUBJECT}" op "{SITENAME}" is gemeld als ongewenst.
 
 Als je de melding wilt bekijken, klik dan op de volgende link:
 {U_VIEW_REPORT}

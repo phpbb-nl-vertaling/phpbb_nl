@@ -1,4 +1,4 @@
-Subject: Nieuwe reactie op onderwerp: {"TOPIC_TITLE}"
+Subject: Nieuwe reactie op onderwerp: "{TOPIC_TITLE}"
 
 Hallo {USERNAME},
 
@@ -19,3 +19,4 @@ Als je geen e-mails wilt ontvangen over geciteerde berichten, kan je dit aanpass
 {U_NOTIFICATION_SETTINGS}
 
 {EMAIL_SIG}
+
