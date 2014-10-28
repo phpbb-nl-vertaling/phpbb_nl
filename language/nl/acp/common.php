@@ -123,7 +123,7 @@ $lang = array_merge($lang, array(
 	'ACP_MAIN'					=> 'Beheerdersoverzicht',
 
 	'ACP_MANAGE_ATTACHMENTS'			=> 'Beheer bijlagen',
-	'ACP_MANAGE_ATTACHMENTS_EXPLAIN'	=> 'Hier kan je bestanden toegevoegd aan berichten en privéberichten bekijken en verwijderen.',
+	'ACP_MANAGE_ATTACHMENTS_EXPLAIN'	=> 'Hier kan je bestanden toegevoegd aan, bekijken van en verwijderen uit berichten en privéberichten.',
 
 	'ACP_MANAGE_EXTENSIONS'		=> 'Beheer bijlage-extensies',
 	'ACP_MANAGE_FORUMS'			=> 'Beheer forums',
