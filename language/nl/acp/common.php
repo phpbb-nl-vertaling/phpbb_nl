@@ -201,7 +201,7 @@ $lang = array_merge($lang, array(
 	'ACP_USER_SIG'					=> 'Onderschrift',
 	'ACP_USER_WARNINGS'				=> 'Waarschuwingen',
 
-	'ACP_VC_SETTINGS'					=> 'Spambot tegenmaatregelen',
+	'ACP_VC_SETTINGS'					=> 'Spambotpreventie',
 	'ACP_VC_CAPTCHA_DISPLAY'			=> 'CAPTCHA voorbeeld',
 	'ACP_VERSION_CHECK'					=> 'Controleer op updates',
 	'ACP_VIEW_ADMIN_PERMISSIONS'		=> 'Bekijk beheerderspermissies',
