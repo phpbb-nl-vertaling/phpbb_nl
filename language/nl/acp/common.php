@@ -61,7 +61,7 @@ $lang = array_merge($lang, array(
 
 	'ACP_CAPTCHA'				=> 'CAPTCHA',
 
-	'ACP_CAT_CUSTOMISE'			=> '.MODs',
+	'ACP_CAT_CUSTOMISE'			=> 'Aanpassingen',
 	'ACP_CAT_DATABASE'			=> 'Database',
 	'ACP_CAT_DOT_MODS'			=> 'Extensies',
 	'ACP_CAT_FORUMS'			=> 'Forums',
@@ -290,7 +290,6 @@ $lang = array_merge($lang, array(
 
 	'REMIND'							=> 'Herinner',
 	'RESYNC'							=> 'Synchroniseer',
-	
 	'RUNNING_TASK'                  => 'Taak %s uitvoeren.',
 
 	'SELECT_ANONYMOUS'		=> 'Selecteer gastgebruiker',
@@ -303,7 +302,6 @@ $lang = array_merge($lang, array(
 
 	'SHOW_ALL_OPERATIONS'	=> 'Toon alle operaties',
 
-	'TOTAL_SIZE'			=> 'Totale grootte',
 	'TASKS_NOT_READY'		=> 'Geen taken die klaar zijn:',
     'TASKS_READY'			=> 'Taken die klaar zijn:',
 	'TOTAL_SIZE'      		=> 'Totale grootte',
