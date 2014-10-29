@@ -334,7 +334,7 @@ $help = array(
 	),
 	array(
 		0 => 'Wie heeft dit forum geschreven?',
-		1 => 'Deze software (in zijn originele vorm) is geschreven, vrijgegeven en met een copyright beschermd door <a href="https://www.phpbb.com">phpBB Limited</a>. De software is beschikbaar onder de GNU General Public License en mag vrij verspreid worden, raadpleeg <a href="https://www.phpbb.com/about/">Over phpBB</a> voor meer informatie.'
+		1 => 'Deze software (in zijn originele vorm) is geschreven, vrijgegeven en met een copyright beschermd door <a href="https://www.phpbb.com/">phpBB Limited</a>. De software is beschikbaar onder de GNU General Public License en mag vrij verspreid worden, raadpleeg <a href="https://www.phpbb.com/about/">over phpBB</a> voor meer informatie.'
 	),
 	array(
 		0 => 'Waarom is de optie X niet beschikbaar?',
@@ -342,7 +342,7 @@ $help = array(
 	),
 	array(
 		0 => 'Met wie moet ik contact opnemen omtrent misbruik en/of wettelijke kwesties in verband met dit forum?',
-		1 => 'Alle beheerders die op de "het team"-pagina vermeld worden, staan open voor je klachten. Als je geen reactie hebt gekregen, kan je contact opnemen met de eigenaar van het domein (dmv een <a href="http://www.google.com/search?q=whois">whois zoekopdracht</a>) of, als dit forum op een gratis host staat (bijvoorbeeld xsbb.nl, nl.forums.cc, dotbb.be, enz.), het beheer of misbruik-afdeling van de gratis host. Wees je er bewust van dat phpBB Limited <strong>geen inspraak</strong> heeft en dus in geen enkel geval aansprakelijk gehouden kan worden over hoe, waar en door wie dit forum gebruikt wordt. Neem <strong>geen</strong> contact op met phpBB Limited met vragen over wettelijke kwesties (zoals aanspreekbaarheid, ongepaste commentaar, enz.) die <strong>niet direct verband</strong> houden met de phpBB.com-website of de phpBB-software. Als je phpBB Limited toch e-mailt over deze software die <strong>gebruikt wordt door derden</strong>, kan je een korte of helemaal geen reactie verwachten.'
+		1 => 'Alle beheerders die op de "het team"-pagina vermeld worden, staan open voor je klachten. Als je geen reactie hebt gekregen, kan je contact opnemen met de eigenaar van het domein (dmv een <a href="http://www.google.com/search?q=whois">whois lookup</a>) of, als dit forum op een gratis host staat (bijvoorbeeld xsbb.nl, nl.forums.cc, dotbb.be, enz.), het beheer of misbruik-afdeling van de gratis host. Wees je er bewust van dat phpBB Limited <strong>geen inspraak</strong> heeft en dus in geen enkel geval aansprakelijk gehouden kan worden over hoe, waar en door wie dit forum gebruikt wordt. Neem <strong>geen</strong> contact op met phpBB Limited met vragen over wettelijke kwesties (zoals aanspreekbaarheid, ongepaste commentaar, enz.) die <strong>niet direct verband</strong> houden met de phpBB.com-website of de phpBB-software. Als je phpBB Limited toch e-mailt over deze software die <strong>gebruikt wordt door derden</strong>, kan je een korte of helemaal geen reactie verwachten.'
 	),
 	array(
 		0 => 'Hoe neem ik contact op met een beheerder?',
