@@ -309,7 +309,8 @@ $lang = array_merge($lang, array(
 	'MOVE_DOWN'						=> 'Verplaats omlaag',
 	'MOVE_MARKED_TO_FOLDER'			=> 'Verplaats gemarkeerde naar %s',
 	'MOVE_PM_ERROR'					=> array(
-		2	=> 'Een fout is opgetreden tijdens het verplaatsen van de berichten naar de nieuwe map, alleen %2d van de %1s berichten zijn verplaatst.',
+		1	=> 'Een fout is opgetreden tijdens het verplaatsen van de berichten naar de nieuwe map, alleen %2$d van de %1$s berichten zijn verplaatst.',
+		2	=> 'Een fout is opgetreden tijdens het verplaatsen van de berichten naar de nieuwe map, alleen %2$d van de %1$s berichten zijn verplaatst.',
 	),
 	'MOVE_TO_FOLDER'				=> 'Verplaats naar map',
 	'MOVE_UP'						=> 'Verplaats omhoog',
