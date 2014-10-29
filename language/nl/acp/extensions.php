@@ -97,7 +97,7 @@ $lang = array_merge($lang, array(
 	'VERSION'				=> 'Versie',
 	'HOMEPAGE'				=> 'Homepage',
 	'PATH'					=> 'Bestandpad',
-	'TIME'					=> 'Publicatiedatum', //misschien datum beter
+	'TIME'					=> 'Publicatiedatum',
 	'LICENCE'				=> 'Licentie',
 
 	'REQUIREMENTS'			=> 'Benodigdheden',
