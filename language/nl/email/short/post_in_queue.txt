@@ -8,6 +8,6 @@ Als je het bericht wilt lezen, klik dan op de volgende link:
 {U_VIEW_POST}
 
 Als je het onderwerp wilt lezen, klik dan op de volgende link:
-{U_VIEW_TOPIC}
+{U_TOPIC}
 
 {EMAIL_SIG}
