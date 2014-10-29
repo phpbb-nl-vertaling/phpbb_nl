@@ -334,7 +334,7 @@ $lang = array_merge($lang, array(
 	'CONFIGURE'								=> 'Instellen',
 	'CAPTCHA_NO_OPTIONS'					=> 'Deze plug-in heeft geen instellingsopties.',
 
-	'VISUAL_CONFIRM_POST'					=> 'Spambotpreventie voor gast-plaatsingen inschakelen',
+	'VISUAL_CONFIRM_POST'					=> 'Spambotpreventie voor berichten van gasten inschakelen',
 	'VISUAL_CONFIRM_POST_EXPLAIN'			=> 'Vereist gastgebruikers om de anti-spambot taak uit te voeren om geautomatiseerde berichten te voorkomen.',
 	'VISUAL_CONFIRM_REG'					=> 'Spambotpreventie voor registraties inschakelen',
 	'VISUAL_CONFIRM_REG_EXPLAIN'			=> 'Vereist nieuwe gebruikers om de anti-spambot taak uit te voeren om geautomatiseerde registraties te voorkomen.',
