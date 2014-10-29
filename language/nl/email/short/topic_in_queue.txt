@@ -11,4 +11,3 @@ Als je het forum wilt bekijken, klik dan op de volgende link:
 {U_FORUM}
 
 {EMAIL_SIG}
-
