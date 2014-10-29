@@ -98,7 +98,7 @@ $lang = array_merge($lang, array(
 	'HOMEPAGE'				=> 'Homepage',
 	'PATH'					=> 'Bestandpad',
 	'TIME'					=> 'Publicatiedatum',
-	'LICENCE'				=> 'Licentie',
+	'LICENSE'				=> 'Licentie',
 
 	'REQUIREMENTS'			=> 'Benodigdheden',
 	'PHPBB_VERSION'			=> 'phpBB-versie',
