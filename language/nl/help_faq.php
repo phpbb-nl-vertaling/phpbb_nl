@@ -309,8 +309,12 @@ $help = array(
 		1 => 'Bladwijzers in phpBB 3.0 zijn zoals bladwijzers (of favorieten) in je browser. Je wordt niet op de hoogte gebracht van updates, maar je kan altijd snel terugkeren. Het verschil met abonnementen ligt hem in het feit dat je hierbij automatisch op de hoogte gebracht word van updates, dit gebeurd via de door jou gekozen wijze.'
 	),
 	array(
-		0 => 'Hoe abonneer ik me op specifieke forums of onderwerpen?',
-		1 => 'Je abonneren op en forum gaat door op de "abonneer je op dit forum" link te klikken zodra je het forum geopend hebt. Een forum- en onderwerpabonnement werken op dezelfde wijze. Om je op een onderwerp te abonneren, kan ofwel een antwoord plaatsen en de abonnementsoptie aanvinken, of je kan op de hiervoor dienende link in het onderwerp klikken.'
+		0 => 'Hoe kan ik een bladwijzer of abonnement instellen op specifieke onderwerpen?',
+		1 => 'Je kan op de pagina van het onderwerp in het menu “Onderwerp gereedschap” een bladwijzer of abonnement instellen. Dit menu is zowel boven- als onderaan de pagina te vinden. <br />Het is ook mogelijk te abonneren op het onderwerp door bij het reageren de optie “Informeer me wanneer een reactie is geplaatst” aan te vinken.'
+	),
+	array(
+		0 => 'Hoe kan ik een bladwijzer of abonnement instellen op specifieke forums?',
+		1 => 'Je abonneren op een forum gaat door onderaan de pagina op de link “Abonneer forum” te klikken nadat je een forum geopend hebt.'
 	),
 	array(
 		0 => 'Hoe zeg ik mijn abonnement op?',
