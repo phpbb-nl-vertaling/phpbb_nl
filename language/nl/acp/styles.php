@@ -74,6 +74,7 @@ $lang = array_merge($lang, array(
 	'STYLE_INSTALLED_RETURN_INSTALLED_STYLES' => 'Ga terug naar de lijst met geïnstalleerde stijlen',
 	'STYLE_INSTALLED_RETURN_UNINSTALLED_STYLES' => 'Installeer meer stijlen',
 	'STYLE_NAME'				=> 'Stijlnaam',
+	'STYLE_NAME_RESERVED'		=> 'De stijl "%s" kan niet geïnstaleerd worden, omdat de naam is gereserveerd.',
 	'STYLE_NOT_INSTALLED'		=> 'De stijl "%s" is niet geïnstalleerd.',
 	'STYLE_PATH'				=> 'Stijlpad',	
 	'STYLE_UNINSTALL'			=> 'Verwijderen',
