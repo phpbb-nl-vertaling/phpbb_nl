@@ -558,6 +558,7 @@ $lang = array_merge($lang, array(
 	'LOG_LOCK_POST'				=> '<strong>Bericht gesloten</strong><br />» %s',
 	'LOG_MERGE'					=> '<strong>Berichten samengevoegd</strong> in onderwerp<br />» %s',
 	'LOG_MOVE'					=> '<strong>Onderwerp verplaatst</strong><br />» van %1$s naar %2$s',
+	'LOG_MOVED_TOPIC'			=> '<strong>Onderwerp verplaatst</strong><br />» %s',
 	'LOG_PM_REPORT_CLOSED'		=> '<strong>PB-melding gesloten</strong><br />» %s',
 	'LOG_PM_REPORT_DELETED'		=> '<strong>PB-melding verwijderd</strong><br />» %s',
 	'LOG_POST_APPROVED'			=> '<strong>Bericht goedgekeurd</strong><br />» %s',
