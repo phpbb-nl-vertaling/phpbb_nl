@@ -71,6 +71,7 @@ $lang = array_merge($lang, array(
 	'NO_RECENT_SEARCHES'	=> 'Geen zoekopdrachten zijn recent uitgevoerd.',
 	'NO_SEARCH'				=> 'Sorry maar je mag het zoeksysteem niet gebruiken.',
 	'NO_SEARCH_RESULTS'		=> 'Er zijn geen resultaten gevonden die overeenkomen met je zoekopdracht..',
+	'NO_SEARCH_LOAD'		=> 'Sorry, maar je kan het zoeksysteem momenteel niet gebruiken. De server wordt teveel belast. Probeer het later nog eens.',
 	'NO_SEARCH_TIME'		=> array(
 		1	=> 'Sorry, maar je kan het zoeksysteem momenteel niet gebruiken. Probeer het nogmaals over %d seconden.',
 		2	=> 'Sorry, maar je kan het zoeksysteem momenteel niet gebruiken. Probeer het nogmaals over %d secondes.',
