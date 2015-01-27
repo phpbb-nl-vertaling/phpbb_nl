@@ -84,7 +84,7 @@ $lang = array_merge($lang, array(
 	'FULLTEXT_SPHINX_WRONG_DATABASE'		=> 'De sphinx zoekfunctie voor phpBB ondersteunt alleen MySQL en PostgreSQL.',
 	'FULLTEXT_SPHINX_CONFIG_FILE'			=> 'Sphinx config bestand',
 	'FULLTEXT_SPHINX_CONFIG_FILE_EXPLAIN'	=> 'De gegenereerde inhoud van het sphinx config bestand. Deze data zal geplakt moeten worden in de sphinx.conf welke gebruikt wordt door de sphinx zoek daemon. Vervang de [dbuser] en [dbpassword] met je eigen databasegegevens.',
-	'FULLTEXT_SPHINX_NO_CONFIG_DATA'		=> 'De sphinx data en config mappaden zijn niet opgegeven. Geef ze op om het config bestand aan te kunnen maken.',
+	'FULLTEXT_SPHINX_NO_CONFIG_DATA'		=> 'De sphinx data map-pad is niet opgegeven. Geef ze op om het config bestand aan te kunnen maken.',
 
 	'GENERAL_SEARCH_SETTINGS'				=> 'Algemene zoekinstellingen',
 	'GO_TO_SEARCH_INDEX'					=> 'Ga naar zoekindexpagina',
