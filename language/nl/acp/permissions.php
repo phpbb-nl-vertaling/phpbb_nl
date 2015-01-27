@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 
 		<br />
 
-		<p>Voor meer informatie over het opzetten en beheren van permissies op je phpBB3 forum, lees dan het hoofdstuk <a href="https://www.phpbb.com/support/docs/en/3.1/ug/quickstart/permissions/">Permissies instellen uit onze Snelle Start Gids</a>.</p>
+		<p>Voor meer informatie over het opzetten en beheren van permissies op je phpBB3 forum, lees dan <a href="http://www.phpbbservice.nl/docs/handleiding/3.0/snellestart/snel_permissies.php">Hoofdstuk 1.5 van onze Snelle Start Gids</a>.</p>
 	',
 
 	'ACL_NEVER'				=> 'Nooit',
