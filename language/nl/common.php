@@ -518,9 +518,9 @@ $lang = array_merge($lang, array(
 	'NO_USER'					=> 'De opgevraagde gebruiker bestaat niet.',
 	'NO_USERS'					=> 'De opgevraagde gebruikers bestaan niet.',
 	'NO_USER_SPECIFIED'			=> 'Geen gebruikersnaam opgegeven.',
-
+	
 	// Nullar/Singular/Plural language entry. The key numbers define the number range in which a certain grammatical expression is valid.
-'NUM_ATTACHMENTS'		=> array(
+	'NUM_ATTACHMENTS'		=> array(
 		1	=> '%d bijlage',
 		2	=> '%d bijlages',
 	),
@@ -632,10 +632,10 @@ $lang = array_merge($lang, array(
 	'REPORT_BY'					=> 'Gemeld door',
 	'REPORT_POST'				=> 'Meld dit bericht',
 	'REPORTING_POST'			=> 'Meld bericht',
-	'RESEND_ACTIVATION'			=> 'Herstuur activatie e-mail',
+	'RESEND_ACTIVATION'			=> 'Stuur activatie e-mail opnieuw',
 	'RESET'						=> 'Herstel',
 	'RESTORE_PERMISSIONS'		=> 'Herstel permissies',
-	'RETURN_INDEX'				=> '%sTerug naar de indexpagina%s',
+	'RETURN_INDEX'				=> '%sTerug naar het forumoverzicht%s',
 	'RETURN_FORUM'				=> '%sTerug naar laatst bezochte forum%s',
 	'RETURN_PAGE'				=> '%sTerug naar vorige pagina%s',
 	'RETURN_TOPIC'				=> '%sTerug naar laatst bezochte onderwerp%s',
