@@ -47,6 +47,6 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_PRIVATE'				=> 'Privé reCaptcha sleutel',
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Je privé reCaptcha sleutel. Sleutels kunnen verkregen worden op <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 
-	'RECAPTCHA_EXPLAIN'				=> 'In een poging om geautomatiseerde registraties te voorkomen, vragen wij je beide woorden die worden weergegeven in te vullen in het tekstveld hieronder.',
+	'RECAPTCHA_EXPLAIN'				=> 'In een poging om geautomatiseerde registraties te voorkomen, vragen wij je de weergegeven tekst in te vullen in het veld hieronder.',
 	'RECAPTCHA_SOCKET_ERROR'		=> 'Er was een probleem met het verbinden met de reCaptcha service: kan geen socket openen. Probeer het later nog een keer.',
 ));
