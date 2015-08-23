@@ -414,7 +414,7 @@ $lang = array_merge($lang, array(
 	'WARNING_POST_DEFAULT'	=> 'Dit is een waarschuwing vanwege het volgende bericht dat is geplaatst door je: %s .',
 	'NO_WARNINGS'	=> 'Er zijn geen waarschuwingen.',
 
-	'YOU_SELECTED_TOPIC'	=> 'Je hebt geselecteerd onderwerp nummer %d: %s.',
+	'YOU_SELECTED_TOPIC'	=> 'Je hebt onderwerpnummer %d: %s geselecteerd.',
 
 	'report_reasons'		=> array(
 		'TITLE'	=> array(
