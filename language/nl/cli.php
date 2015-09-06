@@ -80,3 +80,8 @@ $lang = array_merge($lang, array(
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Alle “email-hashes” succesvol herberekend.',
 
 ));
+
+// Additional help for commands.
+$lang = array_merge($lang, array(
+	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Hier kan je optioneel een cron-task naam opgeven zodat de speciefieke cron-task gedraait kan worden.',
+));
