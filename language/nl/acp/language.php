@@ -74,6 +74,6 @@ $lang = array_merge($lang, array(
 
 	'UNINSTALLED_LANGUAGE_PACKS'	=> 'Niet geïnstalleerde taalpakketten',
 	
-	'BROWSE_LANGUAGE_PACKS_DATABASE'	=> 'Blader door de taalpakettendatabase',
+	'BROWSE_LANGUAGE_PACKS_DATABASE'	=> 'Blader door de taalpakkettendatabase',
 	
 ));
