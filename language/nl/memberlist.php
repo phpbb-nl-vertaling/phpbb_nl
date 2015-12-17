@@ -101,6 +101,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'Je moet geregistreerd en aangemeld zijn om gebruikers te kunnen zoeken.',
 	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'Je moet geregistreerd en aangemeld zijn om profielen te kunnen bekijken.',
 
+	'MANAGE_GROUP'			=> 'Beheer groep',
 	'MORE_THAN'				=> 'Meer dan',
 
     'NO_CONTACT_FORM'               => 'Het contactformulier is uitgeschakeld.',
