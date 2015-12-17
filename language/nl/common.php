@@ -329,6 +329,7 @@ $lang = array_merge($lang, array(
 	'IMAGE_FILETYPE_INVALID'	=> 'Afbeelding bestandstype %d voor mime-type %s wordt niet ondersteund.',
 	'IMAGE_FILETYPE_MISMATCH'	=> 'Afbeelding bestandstype verkeerde combinatie: verwachte extensie %1$s maar extensie %2$s is gegeven.',
 	'IN'						=> 'in',
+	'INACTIVE'					=> 'Inactief',
 	'INDEX'						=> 'Indexpagina',
 	'INFORMATION'				=> 'Informatie',
 	'INSECURE_REDIRECT'			=> 'Geprobeerd door te sturen naar een potentieel onveilige url.',
@@ -469,7 +470,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_DISAPPROVED'	=> '<strong>Onderwerp afgekeurd</strong>:',
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> '<strong>Onderwerp goedkeuring</strong> aangevraagd door %1$s:',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'Het notificatietype "%s" is mist in het bestandssysteem.',
-	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Activatie benodigd</strong> voor nieuw geregistreerde gebruiker: “%1$s”',
+	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Activatie benodigd</strong> voor gedeactiveerde of nieuw geregistreerde gebruiker: “%1$s”',
 	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_MANY_OTHERS'			=> 'anderen',
 	'NOTIFICATION_X_OTHERS'				=> array(
