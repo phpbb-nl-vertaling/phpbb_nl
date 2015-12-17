@@ -339,7 +339,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TYPE_QUOTE'							=> 'Iemand heeft je geciteerd in een bericht',
 	'NOTIFICATION_TYPE_REPORT'							=> 'Iemand heeft een bericht gemeld',
 	'NOTIFICATION_TYPE_TOPIC'							=> 'Iemand heeft een onderwerp aangemaakt in een forum waarop je bent geabonneerd',
-	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Nieuw geregistreerde gebruiker vereist activatie',
+	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Gebruiker vereist activatie',
 
 	'NOTIFY_METHOD'					=> 'Notificatie methode',
 	'NOTIFY_METHOD_BOTH'			=> 'Beide',
