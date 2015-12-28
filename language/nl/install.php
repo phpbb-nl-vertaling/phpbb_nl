@@ -545,7 +545,7 @@ $lang = array_merge($lang, array(
 		<p>De aanbevolen manier van updaten die hieronder staat beschreven is alleen geldig voor het Automatische update-pakket. Je mag je forum ook updaten met de methodes die beschreven zijn in het <a href="../docs/INSTALL.html">INSTALL.html</a> document. De stappen om phpBB3 automatisch te updaten zijn als volgt:</p>
 
 		<ul style="margin-left: 20px; font-size: 1.1em;">
-			<li>Ga naar de downloadspagina van <a href="http://www.phpbb.nl/downloads/" title="http://www.phpbb.nl/downloads/">phpBB.nl</a> of <a href="https://www.phpbbservice.nl/downloads/" title="https://www.phpBBservice.nl/downloads/">phpBBservice.nl</a> en download het "Automatisch update-pakket".<br /><br /></li>
+			<li>Ga naar de downloadspagina van <a href="https://www.phpbbservice.nl/downloads/" title="https://www.phpbbservice.nl/downloads/">phpBBservice.nl</a> of <a href="http://www.phpbb.nl/downloads/" title="http://www.phpbb.nl/downloads/">phpBB.nl</a> en download het "Automatisch update-pakket".<br /><br /></li>
             <li>Pak het archiefbestand uit.<br /><br /></li>
 			<li>Upload de uitgepakte "install" en "vendor" mappen naar je phpBB-hoofdmap (waar je config.php staat).<br /><br /></li>
 		</ul>

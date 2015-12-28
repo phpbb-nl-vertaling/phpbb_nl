@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 
 // Board Settings
 $lang = array_merge($lang, array(
-	'ACP_BOARD_SETTINGS_EXPLAIN'	=> 'Hier kan je de basis-instellingen van je forum bepalen, geef het een passende naam en beschrijving en pas samen met andere instellingen de standaard waardes in voor bijvoorbeeld tijdzone en taal.',
+	'ACP_BOARD_SETTINGS_EXPLAIN'	=> 'Hier kan je de basis instellingen van je forum bepalen, geef het een passende naam en beschrijving en pas samen met andere instellingen de standaard waardes in voor bijvoorbeeld tijdzone en taal.',
 	'BOARD_INDEX_TEXT'				=> 'Forumindex-tekst',
 	'BOARD_INDEX_TEXT_EXPLAIN'		=> 'Deze tekst wordt weergegeven als forumindex in de broodkruimels. Indien niet gespecificeerd, dan zal dit standaard “Forumindex” zijn.',
 	'BOARD_STYLE'					=> 'Forumstijl',

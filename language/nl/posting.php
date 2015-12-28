@@ -58,7 +58,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_L_HELP'				=> 'Lijst: [list][*]tekst[/list]', 
 	'BBCODE_LISTITEM_HELP'		=> 'Lijst item: [*]tekst',
 	'BBCODE_O_HELP'				=> 'Geordende lijst: bijv. [list=1][*]Eerste punt[/list] of [list=a][*]Punt A[/list]',
-	'BBCODE_P_HELP'				=> 'Afbeelding invoegen: [img]http://www.url_naar_de_afbeelding.eu/afbeeldingnaam.extenstie[/img]',
+	'BBCODE_P_HELP'				=> 'Afbeelding invoegen: [img]http://www.url_naar_de_afbeelding.eu/[/img]',
 	'BBCODE_Q_HELP'				=> 'Geciteerde tekst: [quote]tekst[/quote]',
 	'BBCODE_S_HELP'				=> 'Letterkleur: [color=red]tekst[/color] of [color=#FF0000]tekst[/color]',
 	'BBCODE_U_HELP'				=> 'Onderlijnde tekst: [u]tekst[/u]',
@@ -107,7 +107,7 @@ $lang = array_merge($lang, array(
 	'DISALLOWED_CONTENT'		=> 'De upload is geweigerd omdat de geüploade bestand geïdentificeerd is al een mogelijke aanvalsvector.',
 	'DISALLOWED_EXTENSION'		=> 'De extensie %s is niet toegestaan.',
 	'DRAFT_LOADED'				=> 'Concept in berichtengebied geladen, je kan nu je bericht afmaken.<br />Je concept zal verwijderd worden na het versturen van dit bericht.',
-	'DRAFT_LOADED_PM'			=> 'Concept in berichtengebied geladen, je kan nu je privé bericht afmaken.<br />Je concept zal verwijderd worden na het versturen van dit privé bericht.',
+	'DRAFT_LOADED_PM'			=> 'Concept in berichtengebied geladen, je kan nu je privébericht afmaken.<br />Je concept zal verwijderd worden na het versturen van dit privébericht.',
 	'DRAFT_SAVED'				=> 'Concept succesvol opgeslagen.',
 	'DRAFT_TITLE'				=> 'Concept titel',
 
@@ -136,7 +136,7 @@ $lang = array_merge($lang, array(
 
 	'LOAD'						=> 'Laad',
 	'LOAD_DRAFT'				=> 'Laad concept',
-	'LOAD_DRAFT_EXPLAIN'		=> 'Hier kan je het concept selecteren waarmee je verder wilt schrijven. Je bestaande bericht zal worden geannuleerd, alle bestaande berichten inhoud zal worden verwijderd. Bekijk, wijzig en verwijder concepten in je gebruikers controle paneel.',
+	'LOAD_DRAFT_EXPLAIN'		=> 'Hier kan je het concept selecteren waarmee je verder wilt schrijven. Je bestaande bericht zal worden geannuleerd, alle bestaande berichten inhoud zal worden verwijderd. Bekijk, wijzig en verwijder concepten in je gebruikerscontrolepaneel.',
 	'LOGIN_EXPLAIN_BUMP'		=> 'Je moet aangemeld zijn om onderwerpen in dit forum omhoog te kunnen halen.',
 	'LOGIN_EXPLAIN_DELETE'		=> 'Je moet aangemeld zijn om berichten in dit forum te kunnen verwijderen.',
 	'LOGIN_EXPLAIN_POST'		=> 'Je moet aangemeld zijn om berichten in dit forum te kunnen plaatsen.',

@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACP_SEARCH_INDEX_EXPLAIN'				=> 'Hier kan je de indexen van de zoekachtergrond beheren. Aangezien je normaal maar één achtergrond gebruikt, kan je alle indexen die je niet gebruikt verwijderen. Na het wijzigen van enkele zoekinstellingen (bijv. het minimum/maximum aantal tekens) kan het waard zijn om de index opnieuw aan te maken zodat deze veranderingen effect hebben.',
-	'ACP_SEARCH_SETTINGS_EXPLAIN'			=> 'Hier kan je definiëren welke zoekachtergrond gebruikt zal worden voor het indexeren van berichten en het uitvoeren van zoekopdrachten. Je kan verschillende opties instellen die van invloed zijn hoeveel verwerkingskracht deze acties mogen benutten. Sommige instellingen zijn hetzelfde voor alle zoekachtergronden.',
+	'ACP_SEARCH_SETTINGS_EXPLAIN'			=> 'Hier kan je opgeven welke zoekachtergrond gebruikt zal worden voor het indexeren van berichten en het uitvoeren van zoekopdrachten. Je kan verschillende opties instellen die van invloed zijn hoeveel verwerkingskracht deze acties mogen benutten. Sommige instellingen zijn hetzelfde voor alle zoekachtergronden.',
 
 	'COMMON_WORD_THRESHOLD'					=> 'Drempel voor vaak voorkomende woorden',
 	'COMMON_WORD_THRESHOLD_EXPLAIN'			=> 'Woorden die een groter percentage bevatten van alle berichten zullen worden gezien als vaak voorkomend. Vaak voorkomende woorden worden genegeerd in zoekopdrachten. Stel dit in op 0 om dit uit te schakelen. Dit heeft alleen effect als er meer dan 100 berichten zijn. Als je wilt dat woorden die momenteel gezien worden als vaak voorkomend alsnog worden opgenomen, zal je de index moeten herbouwen.',
@@ -105,7 +105,7 @@ $lang = array_merge($lang, array(
 	'MIN_SEARCH_AUTHOR_CHARS'				=> 'Minimum aantal tekens auteursnaam',
 	'MIN_SEARCH_AUTHOR_CHARS_EXPLAIN'		=> 'Gebruikers moeten tenminste dit aantal tekens invoeren van de naam bij het uitvoeren van een zoekopdracht naar een auteur met een jokerv(*). Als de auteur’s gebruikersnaam korter is dan dit aantal, dan kan je nog steeds zoeken naar de auteur’s berichten door de complete gebruikersnaam in te vullen.',
 
-	'PROGRESS_BAR'							=> 'Progressie bar',
+	'PROGRESS_BAR'							=> 'Vooruitgang',
 
 	'SEARCH_GUEST_INTERVAL'					=> 'Wachttijd voor gasten tussen zoekopdrachten',
 	'SEARCH_GUEST_INTERVAL_EXPLAIN'			=> 'Aantal secondes dat gasten moeten wachten tussen zoekopdrachten. Als één gast aan het zoeken is, zullen anderen moeten wachten totdat deze tijd voorbij is gegaan.',

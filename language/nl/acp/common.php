@@ -424,7 +424,7 @@ $lang = array_merge($lang, array(
 	'VIEW_INACTIVE_USERS'		=> 'Bekijk inactieve gebruikers',
 
 	'WELCOME_PHPBB'			=> 'Welkom bij phpBB',
-	'WRITABLE_CONFIG'		=> 'Je config-bestand (config.php) is momenteel wereld-schrijfbaar. We bevelen sterk aan om de permissies te veranderen naar 640 of minstens naar 644 (bijvoorbeeld: <a href="http://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> (helaas geen nederlandse pagina beschikbaar) 640 config.php).',
+	'WRITABLE_CONFIG'		=> 'Je config-bestand (config.php) is momenteel wereld schrijfbaar. We bevelen sterk aan om de permissies te veranderen naar 640 of minstens naar 644 (bijvoorbeeld: <a href="http://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> (helaas geen nederlandse pagina beschikbaar) 640 config.php).',
 ));
 
 // Inactive Users

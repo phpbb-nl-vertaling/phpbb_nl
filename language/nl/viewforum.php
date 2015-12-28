@@ -53,13 +53,13 @@ $lang = array_merge($lang, array(
 	'NEW_POSTS_LOCKED'		=> 'Nieuwe berichten [ Gesloten ]',	// Not used anymore
 	'NO_NEW_POSTS_HOT'		=> 'Geen nieuwe berichten [ Populair ]',	// Not used anymore
 	'NO_NEW_POSTS_LOCKED'	=> 'Geen nieuwe berichten [ Gesloten ]',	// Not used anymore
-	'NO_READ_ACCESS'		=> 'Je hebt niet de benodigde permissies om onderwerpen in dit forum te lezen.',
+	'NO_READ_ACCESS'		=> 'Je hebt niet de juiste permissies om onderwerpen in dit forum te lezen.',
 	'NO_UNREAD_POSTS_HOT'		=> 'Geen ongelezen berichten [ Populair ]',
 	'NO_UNREAD_POSTS_LOCKED'	=> 'Geen ongelezen berichten [ Gesloten ]',
 
 	'POST_FORUM_LOCKED'		=> 'Forum is gesloten',
 
-	'TOPICS_MARKED'			=> 'De onderwerpen voor dit forum zijn nu gemarkeerd als gelezen.',
+	'TOPICS_MARKED'			=> 'De onderwerpen in dit forum zijn nu gemarkeerd als gelezen.',
 
 	'UNREAD_POSTS_HOT'		=> 'Ongelezen berichten [ Populair ]',
 	'UNREAD_POSTS_LOCKED'	=> 'Ongelezen berichten [ Gesloten ]',

@@ -37,17 +37,17 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'CONFIG_NOT_EXIST'					=> 'De configinstelling "%s" bestaat onverwachts niet.',
+	'CONFIG_NOT_EXIST'					=> 'De configinstelling “%s” bestaat onverwachts niet.',
 
-	'GROUP_NOT_EXIST'					=> 'De groep "%s" bestaat onverwachts niet.',
+	'GROUP_NOT_EXIST'					=> 'De groep “%s” bestaat onverwachts niet.',
 
 	'MIGRATION_APPLY_DEPENDENCIES'      => 'Pas afhankelijkheden toe van %s.',
-	'MIGRATION_DATA_DONE'				=> 'Geïnstalleerde data: %1$s; Tijd: %2$.2f secondes',
-	'MIGRATION_DATA_IN_PROGRESS'		=> 'Installeer data: %1$s; Tijd: %2$.2f secondes',
+	'MIGRATION_DATA_DONE'				=> 'Geïnstalleerde data: %1$s; Tijd: %2$.2f seconden',
+	'MIGRATION_DATA_IN_PROGRESS'		=> 'Installeer data: %1$s; Tijd: %2$.2f seconden',
   	'MIGRATION_DATA_RUNNING'         	=> 'Installeren van data: %s.',
 	'MIGRATION_EFFECTIVELY_INSTALLED'	=> 'Migratie al effectief geïnstalleerd (overgeslagen): %s',
 	'MIGRATION_EXCEPTION_ERROR'			=> 'Iets ging verkeerd tijdens de aanvraag en er is een fout opgetreden. De veranderingen voordat de fout voorkwam zijn teruggedraaid naar ons beste kunnen, maar je moet het forum controleren op fouten.',
-	'MIGRATION_NOT_FULFILLABLE'			=> 'De migratie "%1$s" is niet uitvoerbaar, mist migratie "%2$s".',
+	'MIGRATION_NOT_FULFILLABLE'			=> 'De migratie “%1$s” is niet uitvoerbaar, mist migratie “%2$s”.',
   	'MIGRATION_NOT_VALID'				=> '%s is niet een geldige migratie.',
 	'MIGRATION_SCHEMA_DONE'				=> 'Geïnstalleerde schema: %1$s; Tijd: %2$.2f secondes',
 	'MIGRATION_SCHEMA_RUNNING'         	=> 'Installeren van schema: %s.',
@@ -63,7 +63,7 @@ $lang = array_merge($lang, array(
 	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Een benodigde module info bestand mist: %2$s',
 	'MODULE_NOT_EXIST'					=> 'Een benodigde module bestaat niet: %s',
 
-	'PERMISSION_NOT_EXIST'				=> 'De permissieinstelling "%s" bestaat onverwachts niet.',
+	'PERMISSION_NOT_EXIST'				=> 'De permissieinstelling “%s” bestaat onverwachts niet.',
 
-	'ROLE_NOT_EXIST'					=> 'De permissierol "%s" bestaat onverwachts niet.',
+	'ROLE_NOT_EXIST'					=> 'De permissierol “%s” bestaat onverwachts niet.',
 ));

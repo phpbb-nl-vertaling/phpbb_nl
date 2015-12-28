@@ -58,9 +58,9 @@ $lang = array_merge($lang, array(
 
 	'JUMP_TO_POST'			=> 'Spring naar bericht',
 
-	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'Het forum vereist dat je geregistreerd en aangemeld bent om je eigen berichten te bekijken.',
-	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'Het forum vereist dat je geregistreerd en aangemeld bent om je ongelezen berichten te bekijken.',
-	'LOGIN_EXPLAIN_NEWPOSTS'	=> 'Het forum vereist dat je geregistreerd en aangemeld bent om nieuwe berichten sinds je laatste bezoek te bekijken.',
+	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'Je moet geregistreerd en aangemeld zijn om je eigen berichten te bekijken.',
+	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'Je moet geregistreerd en aangemeld zijn om je ongelezen berichten te bekijken.',
+	'LOGIN_EXPLAIN_NEWPOSTS'	=> 'Je moet geregistreerd en aangemeld zijn om nieuwe berichten sinds je laatste bezoek te bekijken.',
 
 	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> array(
 		1	=> 'Je hebt te veel woorden opgegeven voor de zoekopdracht. Vul niet meer dan %1$d woord in.',
@@ -91,7 +91,7 @@ $lang = array_merge($lang, array(
 
 	'SEARCHED_FOR'				=> 'Zoekterm gebruikt',
 	'SEARCHED_TOPIC'			=> 'Doorzochte onderwerp',
-	'SEARCHED_QUERY'			=> 'Doorzochte query',
+	'SEARCHED_QUERY'			=> 'Doorzochte zoekopdracht',
 	'SEARCH_ALL_TERMS'			=> 'Zoek naar alle termen of gebruik de zoekopdracht zoals het is ingevuld',
 	'SEARCH_ANY_TERMS'			=> 'Zoek naar iedere term',
 	'SEARCH_AUTHOR'				=> 'Zoek naar auteur',

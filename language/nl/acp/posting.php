@@ -127,7 +127,7 @@ $lang = array_merge($lang, array(
 		1	=> 'Het icoon is succesvol toegevoegd.',
 		2	=> 'De iconen zijn succesvol toegevoegd.',
 	),
-	'ICONS_CONFIG'			=> 'Icon configuratie',
+	'ICONS_CONFIG'			=> 'Icoon configuratie',
 	'ICONS_DELETED'			=> 'Het icoon is succesvol verwijderd.',
 	'ICONS_EDIT'			=> 'Icoon wijzigen',
 	'ICONS_EDITED'			=> array(
