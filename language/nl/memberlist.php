@@ -38,8 +38,8 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ABOUT_USER'			=> 'Profiel',
-	'ACTIVE_IN_FORUM'		=> 'Meest actieve forum',
-	'ACTIVE_IN_TOPIC'		=> 'Meest actieve onderwerp',
+	'ACTIVE_IN_FORUM'		=> 'Meest actief in forum',
+	'ACTIVE_IN_TOPIC'		=> 'Meest actief in onderwerp',
 	'ADD_FOE'				=> 'Vijand toevoegen',
 	'ADD_FRIEND'			=> 'Vriend toevoegen',
 	'AFTER'					=> 'Na',
@@ -52,14 +52,14 @@ $lang = array_merge($lang, array(
 	'CONTACT_ADMIN'         => 'Neem contact op met een forumbeheerder',
 
 	'DEST_LANG'				=> 'Taal',
-	'DEST_LANG_EXPLAIN'		=> 'Selecteer een taal (indien beschikbaar) voor de ontvanger van dit bericht.',
+	'DEST_LANG_EXPLAIN'		=> 'Selecteer een taal voor de ontvanger van dit bericht indien beschikbaar.',
 
 	'EDIT_PROFILE'			=> 'Wijzig profiel',
 
-	'EMAIL_BODY_EXPLAIN'	=> 'Dit bericht zal verstuurd worden als platte tekst, vul hier geen HTML of BBCode in. Het reactie adres voor dit bericht zal worden ingesteld op je e-mailadres.',
-	'EMAIL_DISABLED'		=> 'Sorry maar alle e-mail gerelateerde functies zijn uitgeschakeld.',
+	'EMAIL_BODY_EXPLAIN'	=> 'Dit bericht wordt verzonden zonder opmaak, het heeft dus geen zin om HTML of BBcodes toe te voegen. Als afzender van dit bericht wordt je e-mailadres gebruikt.',
+	'EMAIL_DISABLED'		=> 'Sorry maar alle aan e-mail gekoppelde functies zijn uitgeschakeld.',
 	'EMAIL_SENT'			=> 'De e-mail is verstuurd.',
-	'EMAIL_TOPIC_EXPLAIN'	=> 'Dit bericht zal verstuurd worden als platte tekst, vul hier geen HTML of BBCode in. Let op dat het onderwerpsinformatie al bijgevoegd word in het bericht. Het reactieadres voor dit bericht zal worden ingesteld op je e-mailadres.',
+	'EMAIL_TOPIC_EXPLAIN'	=> 'Dit bericht wordt verzonden zonder opmaak, het heeft dus geen zin om HTML of BBcodes toe te voegen. Houd er rekening mee dat het onderwerp al aan het bericht is toegevoegd. Als afzender van dit bericht wordt je e-mailadres gebruikt.',
 	'EMPTY_ADDRESS_EMAIL'	=> 'Je moet een geldig e-mailadres opgeven voor de ontvanger.',
 	'EMPTY_MESSAGE_EMAIL'	=> 'Je moet een bericht ingevuld hebben om te e-mailen.',
 	'EMPTY_MESSAGE_IM'		=> 'Je moet een bericht ingevuld hebben om te versturen.',
@@ -69,8 +69,8 @@ $lang = array_merge($lang, array(
 	'EMPTY_SUBJECT_EMAIL'	=> 'Je moet een onderwerp specificeren voor de e-mail.',
 	'EQUAL_TO'				=> 'Gelijk aan',
 
-	'FIND_USERNAME_EXPLAIN'	=> 'Gebruik dit formulier om naar specifieke leden te zoeken. Je hoeft niet alle velden in te vullen. Om gedeeltelijke data te zoeken gebruik dan * als een joker. Wanneer je datums invult gebruik dan het formaat <kbd>JJJJ-MM-DD</kbd>, bijv. <samp>2004-02-29</samp>. Gebruik de markeer vinkboxen om één of meerdere gebruikersnamen te selecteren (verschillende gebruikersnamen kunnen geaccepteerd worden afhankelijk van het formulier) en klik op de Selecteer gemarkeerden knop om terug te gaan naar het vorige formulier.',
-	'FLOOD_EMAIL_LIMIT'		=> 'Je kan niet nog een e-mail versturen momenteel. Probeer het later nog eens.',
+	'FIND_USERNAME_EXPLAIN'	=> 'Gebruik dit formulier om naar specifieke leden te zoeken. Je hoeft niet alle velden in te vullen. Gebruik de * als joker om gedeeltelijk te zoeken. Gebruik het formaat <kbd>JJJJ-MM-DD</kbd> voor datums, bijv. <samp>2004-02-29</samp>. Markeer de vinkboxen om één of meer gebruikersnamen te selecteren (afhankelijk van het formulier kunnen verschillende gebruikersnamen geaccepteerd worden) en klik op de "Selecteer gemarkeerden"-knop om terug te gaan naar het vorige formulier.',
+	'FLOOD_EMAIL_LIMIT'		=> 'Je kunt momenteel niet nog een e-mail versturen. Probeer het later nog eens.',
 
 	'GROUP_LEADER'			=> 'Groepsleider',
 
@@ -78,17 +78,17 @@ $lang = array_merge($lang, array(
 
 	'IM_ADD_CONTACT'		=> 'Contact toevoegen',
 	'IM_DOWNLOAD_APP'		=> 'Download applicatie',
-	'IM_JABBER'				=> 'Let op dat gebruikers kunnen hebben ingesteld dat ze geen ongevraagde instant messages willen ontvangen.',
+	'IM_JABBER'				=> 'Let op dat gebruikers kunnen hebben ingesteld dat ze geen ongevraagde chatberichten willen ontvangen.',
 	'IM_JABBER_SUBJECT'		=> 'Dit is een geautomatiseerd bericht. Reageer hier niet op! Bericht van gebruiker %1$s op %2$s.',
 	'IM_MESSAGE'			=> 'Je bericht',
 	'IM_NAME'				=> 'Je naam',
 	'IM_NO_DATA'			=> 'Er is geen geschikte contactinformatie voor deze gebruiker.',
-	'IM_NO_JABBER'			=> 'Sorry, direct messaging van Jabber gebruikers wordt niet ondersteunt op dit forum. Je zal een Jabber-cliënt geïnstalleerd moeten hebben op je systeem om contact te kunnen opnemen met de ontvanger hierboven.',
+	'IM_NO_JABBER'			=> 'Sorry, direct contacteren van Jabber-gebruikers wordt niet ondersteund op dit forum. Je zult een Jabber-cliënt op je systeem moeten gebruiken om contact met de ontvanger hierboven te kunnen opnemen.',
 	'IM_RECIPIENT'			=> 'Ontvanger',
 	'IM_SEND'				=> 'Verstuur bericht',
 	'IM_SEND_MESSAGE'		=> 'Verstuur bericht',
 	'IM_SENT_JABBER'		=> 'Je bericht naar %1$s is succesvol verstuurd.',
-	'IM_USER'				=> 'Verstuur een instant message',
+	'IM_USER'				=> 'Verstuur een bericht',
 
 	'LAST_ACTIVE'				=> 'Laatst actief',
 	'LESS_THAN'					=> 'Minder dan',
@@ -104,8 +104,8 @@ $lang = array_merge($lang, array(
 	'MANAGE_GROUP'			=> 'Beheer groep',
 	'MORE_THAN'				=> 'Meer dan',
 
-    'NO_CONTACT_FORM'               => 'Het contactformulier is uitgeschakeld.',
-    'NO_CONTACT_PAGE'               => 'De contactpagina is uitgeschakeld.',
+    'NO_CONTACT_FORM'		=> 'Het contactformulier is uitgeschakeld.',
+    'NO_CONTACT_PAGE'		=> 'De contactpagina is uitgeschakeld.',
 	'NO_EMAIL'				=> 'Je hebt niet de permissies om deze gebruiker te e-mailen.',
 	'NO_VIEW_USERS'			=> 'Je bent niet toegestaan om de ledenlijst of profielen te bekijken.',
 
@@ -137,7 +137,7 @@ $lang = array_merge($lang, array(
 	'USER_BAN'				=> 'Verbannen',
 	'USER_FORUM'			=> 'Gebruikersstatistieken',
 	'USER_LAST_REMINDED'	=> array(
-		0		=> 'Geen herinnering verstuurd momenteel',
+		0		=> 'Nog geen herinnering verstuurd',
 		1		=> '%1$d herinnering verstuurd<br />» %2$s',
 		2		=> '%1$d herinneringen verstuurd<br />» %2$s',
 	),
@@ -146,9 +146,9 @@ $lang = array_merge($lang, array(
 	'USERS_PER_PAGE'		=> 'Gebruikers per pagina',
 
 	'VIEWING_PROFILE'		=> 'Bekijkt profiel - %s',
-    'VIEW_FACEBOOK_PROFILE'         => 'Bekijk Facebook Profiel',
-	'VIEW_SKYPE_PROFILE'            => 'Bekijk Skype Profiel',
-	'VIEW_TWITTER_PROFILE'          => 'Bekijk Twitter Profiel',
-	'VIEW_YOUTUBE_CHANNEL'			=> 'Bekijk YouTube Kanaal',
-	'VIEW_GOOGLEPLUS_PROFILE'       => 'Bekijk Google+ Profiel'	
+    'VIEW_FACEBOOK_PROFILE'         => 'Bekijk Facebook-profiel',
+	'VIEW_SKYPE_PROFILE'            => 'Bekijk Skype-profiel',
+	'VIEW_TWITTER_PROFILE'          => 'Bekijk Twitter-profiel',
+	'VIEW_YOUTUBE_CHANNEL'			=> 'Bekijk YouTube-kanaal',
+	'VIEW_GOOGLEPLUS_PROFILE'       => 'Bekijk Google+-profiel'	
 ));

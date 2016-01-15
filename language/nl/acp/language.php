@@ -73,7 +73,7 @@ $lang = array_merge($lang, array(
 	'THOSE_MISSING_LANG_VARIABLES'		=> 'De volgende taalvariabelen ontbreken in het “%s” taalpakket',
 
 	'UNINSTALLED_LANGUAGE_PACKS'	=> 'Niet geïnstalleerde taalpakketten',
-	
+
 	'BROWSE_LANGUAGE_PACKS_DATABASE'	=> 'Blader door de taalpakkettendatabase',
-	
+
 ));

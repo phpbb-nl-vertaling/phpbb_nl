@@ -80,7 +80,7 @@ $lang = array_merge($lang, array(
 	'CONTINUE_OLD_CONVERSION'	=> 'Doorgaan met vorige conversie',
 	'CONVERT'					=> 'Converteer',
 	'CONVERT_COMPLETE'			=> 'Conversie compleet',
-	'CONVERT_COMPLETE_EXPLAIN'	=> 'Je hebt succesvol je forum geconverteerd naar phpBB 3.1. Je kan je nu <a href="../">aanmelden op je forum</a>. Voordat je de install-map verwijderd en je forum ingeschakeld, controleer of alle instellingen correct zijn overgezet. Online hulp is beschikbaar via de online <a href="http://www.phpbbservice.nl/docs/handleiding/3.0/">documentatie</a> en de <a href="http://www.phpbbservice.nl/forum/viewforum.php?f=2">supportforums</a>.',
+	'CONVERT_COMPLETE_EXPLAIN'	=> 'Je hebt succesvol je forum geconverteerd naar phpBB 3.1. Je kan je nu <a href="../">aanmelden op je forum</a>. Voordat je de install-map verwijderd en je forum ingeschakeld, controleer of alle instellingen correct zijn overgezet. Online hulp is beschikbaar via de online <a href="https://www.phpbbservice.nl/docs/handleiding/3.0/">documentatie</a> en de <a href="http://www.phpbbservice.nl/forum/viewforum.php?f=2">supportforums</a>.',
 	'CONVERT_INTRO'				=> 'Welkom bij de phpBB Unified Convertor Framework',
 	'CONVERT_INTRO_BODY'		=> 'Vanuit hier kan je de data van andere geïnstalleerde forumsoftware overzetten. Hieronder zie je alle convertors die momenteel beschikbaar zijn. Als er geen convertor is weergegeven voor de forumsoftware die je wenst te gaan converteren, controleer dan op onze website of de modules beschikbaar zijn om te kunnen downloaden.',
 	'CONVERT_NEW_CONVERSION'	=> 'Nieuwe conversie',
@@ -399,7 +399,7 @@ $lang = array_merge($lang, array(
 	'DATABASE_UPDATE_COMPLETE'			=> 'Het bijwerken van de database is voltooid!',
 	'DATABASE_UPDATE_CONTINUE'			=> 'Bijwerken van de database hervatten',
 	'DATABASE_UPDATE_INFO_OLD'			=> 'Het database-updatebestand in de install-map is niet up-to-date. Wees er zeker van dat je de correcte versie van het bestand hebt geüpload.',
-	'DATABASE_UPDATE_NOT_COMPLETED'		=> 'De database update is nog niet voltooid.',
+	'DATABASE_UPDATE_NOT_COMPLETED'		=> 'De database-update is nog niet voltooid.',
 	'DELETE_USER_REMOVE'				=> 'Gebruiker en berichten verwijderen',
 	'DELETE_USER_RETAIN'				=> 'Gebruiker verwijderen maar behoud berichten',
 	'DESTINATION'						=> 'Doelbestand',
@@ -545,7 +545,7 @@ $lang = array_merge($lang, array(
 		<p>De aanbevolen manier van updaten die hieronder staat beschreven is alleen geldig voor het Automatische update-pakket. Je mag je forum ook updaten met de methodes die beschreven zijn in het <a href="../docs/INSTALL.html">INSTALL.html</a> document. De stappen om phpBB3 automatisch te updaten zijn als volgt:</p>
 
 		<ul style="margin-left: 20px; font-size: 1.1em;">
-			<li>Ga naar de downloadspagina van <a href="https://www.phpbbservice.nl/downloads/" title="https://www.phpbbservice.nl/downloads/">phpBBservice.nl</a> of <a href="http://www.phpbb.nl/downloads/" title="http://www.phpbb.nl/downloads/">phpBB.nl</a> en download het "Automatisch update-pakket".<br /><br /></li>
+			<li>Ga naar de downloadspagina van <a href="https://www.phpbb.nl/downloads/" title="http://www.phpbb.nl/downloads/">phpBB.nl</a> of <a href="https://www.phpBBservice.nl/downloads/" title="http://www.phpBBservice.nl/downloads/">phpBBservice.nl</a> en download het "Automatisch update-pakket".<br /><br /></li>
             <li>Pak het archiefbestand uit.<br /><br /></li>
 			<li>Upload de uitgepakte "install" en "vendor" mappen naar je phpBB-hoofdmap (waar je config.php staat).<br /><br /></li>
 		</ul>
@@ -597,7 +597,7 @@ $lang = array_merge($lang, array(
 	'FORUMS_TEST_FORUM_DESC'		=> 'Beschrijving van je eerste forum.',
 	'FORUMS_TEST_FORUM_TITLE'		=> 'Je eerste forum',
 
-	'RANKS_SITE_ADMIN_TITLE'		=> 'Site Beheer',
+	'RANKS_SITE_ADMIN_TITLE'		=> 'Beheerder',
 	'REPORT_WAREZ'					=> 'Dit bericht bevat links naar illegale software.',
 	'REPORT_SPAM'					=> 'Het gemelde bericht heeft als enig doel om te adverteren voor een website of ander product.',
 	'REPORT_OFF_TOPIC'				=> 'Het gemelde bericht is off-topic.',
@@ -618,14 +618,14 @@ $lang = array_merge($lang, array(
 	'SMILIES_NEUTRAL'				=> 'Neutraal',
 	'SMILIES_QUESTION'				=> 'Vraag',
 	'SMILIES_RAZZ'					=> 'Razz',
-	'SMILIES_ROLLING_EYES'			=> 'Rollende Ogen',
-	'SMILIES_SAD'					=> 'Bedroeft',
+	'SMILIES_ROLLING_EYES'			=> 'Rollende ogen',
+	'SMILIES_SAD'					=> 'Bedroefd',
 	'SMILIES_SHOCKED'				=> 'Geschokt',
 	'SMILIES_SMILE'					=> 'Lach',
 	'SMILIES_SURPRISED'				=> 'Verrast',
 	'SMILIES_TWISTED_EVIL'			=> 'Kwaadaardig',
-	'SMILIES_UBER_GEEK'				=> 'Uber Geek',
-	'SMILIES_VERY_HAPPY'			=> 'Erg Blij',
+	'SMILIES_UBER_GEEK'				=> 'Uber geek',
+	'SMILIES_VERY_HAPPY'			=> 'Erg blij',
 	'SMILIES_WINK'					=> 'Knipoog',
 
 	'TOPICS_TOPIC_TITLE'			=> 'Welkom bij phpBB3',
