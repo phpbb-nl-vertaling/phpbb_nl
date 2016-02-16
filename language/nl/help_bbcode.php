@@ -73,7 +73,7 @@ $help = array(
 	),
 	array(
 		0 => 'Een niet-geordende lijst maken',
-		1 => 'In BBCode kan je twee soorten lijsten gebruiken, geordende en niet-geordende. Ze zijn hetzelfde als in HTML, een niet-geordende lijst geeft elk item uit de lijst onder elkaar weer, met voor elk item een ’*’. Om een niet-geordende lijst te maken moet je <strong>[list][/list]</strong> gebruiken en voor ieder item een <strong>[*]</strong> plaatsen. Om bijvoorbeeld je favoriete kleuren in een lijst weer te geven, kan je het volgende doen:<br /><br /><strong>[list]</strong><br /><strong>[*]</strong>Rood<br /><strong>[*]</strong>Blauw<br /><strong>[*]</strong>Geel<br /><strong>[/list]</strong><br /><br />Wat natuurlijk dit geeft:<ul><li>Rood</li><li>Blauw</li><li>Geel</li></ul>'
+		1 => 'In BBCode kan je twee soorten lijsten gebruiken, geordende en niet-geordende. Ze zijn hetzelfde als in HTML, een niet-geordende lijst geeft elk item uit de lijst onder elkaar weer, met voor elk item een ’*’. Om een niet-geordende lijst te maken moet je <strong>[list][/list]</strong> gebruiken en voor ieder item een <strong>[*]</strong> plaatsen. Om bijvoorbeeld je favoriete kleuren in een lijst weer te geven, kan je het volgende doen:<br /><br /><strong>[list]</strong><br /><strong>[*]</strong>Rood<br /><strong>[*]</strong>Blauw<br /><strong>[*]</strong>Geel<br /><strong>[/list]</strong><br /><br />Wat natuurlijk dit geeft:<ul><li>Rood</li><li>Blauw</li><li>Geel</li></ul><br />Als alternatief kan je de stijl van het opsommingsteken veranderen, doormiddel van <strong>[list=disc][/list]</strong>, <strong>[list=circle][/list]</strong>, of <strong>[list=square][/list]</strong>.'
 	),
 	array(
 		0 => 'Een geordende lijst maken',
