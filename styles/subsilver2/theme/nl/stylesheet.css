@@ -1,4 +1,4 @@
-/* EN Language Pack */
+/* NL Language Pack */
 .imageset.phpbb_aol-icon, .imageset.icon_contact_aim {
 	background-image: url("./icon_contact_aim.gif");
 	padding-left: 72px;
@@ -26,7 +26,7 @@
 }
 .imageset.icon_contact_pm {
 	background-image: url("./icon_contact_pm.gif");
-	padding-left: 72px;
+	padding-left: 70px;
 	padding-top: 20px;
 }
 .imageset.phpbb_yahoo-icon, .imageset.icon_contact_yahoo {
