@@ -107,7 +107,7 @@ $lang = array_merge($lang, array(
     'NO_CONTACT_FORM'               => 'Het contactformulier is uitgeschakeld.',
     'NO_CONTACT_PAGE'               => 'De contactpagina is uitgeschakeld.',
 	'NO_EMAIL'				=> 'Je hebt niet de permissies om deze gebruiker te e-mailen.',
-	'NO_VIEW_USERS'			=> 'Je bent niet toegestaan om de ledenlijst of profielen te bekijken.',
+	'NO_VIEW_USERS'			=> 'Je hebt niet de juiste permissies om de ledenlijst of profielen te bekijken.',
 
 	'ORDER'					=> 'Volgorde',
 	'OTHER'					=> 'Ander',
