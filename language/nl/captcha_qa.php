@@ -40,6 +40,7 @@ $lang = array_merge($lang, array(
 	'CAPTCHA_QA'				=> 'V&amp;A',
 	'CONFIRM_QUESTION_EXPLAIN'	=> 'Deze vraag is bedoeld om spam te voorkomen.',
 	'CONFIRM_QUESTION_WRONG'	=> 'Je hebt een onjuist antwoord gegeven op de vraag.',
+	'CONFIRM_QUESTION_MISSING'	=> 'Vragen voor de captcha kunnen niet opgehaald worden. Neem contact op met de forumbeheerder.',
 
 	'QUESTION_ANSWERS'			=> 'Antwoorden',
 	'ANSWERS_EXPLAIN'			=> 'Vul hier de antwoorden op de vraag in, één antwoord per regel.',
