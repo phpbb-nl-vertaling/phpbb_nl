@@ -57,7 +57,7 @@ $lang = array_merge($lang, array(
 	'ACP_BOARD_FEATURES'		=> 'Forumfuncties',
 	'ACP_BOARD_MANAGEMENT'		=> 'Forumbeheer',
 	'ACP_BOARD_SETTINGS'		=> 'Foruminstellingen',
-	'ACP_BOTS'					=> 'Spiders/Robots',
+	'ACP_BOTS'					=> 'Spiders/robots',
 
 	'ACP_CAPTCHA'				=> 'CAPTCHA',
 
@@ -73,7 +73,7 @@ $lang = array_merge($lang, array(
 	'ACP_CAT_SYSTEM'			=> 'Systeem',
 	'ACP_CAT_USERGROUP'			=> 'Gebruikers en groepen',
 	'ACP_CAT_USERS'				=> 'Gebruikers',
-	'ACP_CLIENT_COMMUNICATION'	=> 'Cliënt communicatie',
+	'ACP_CLIENT_COMMUNICATION'	=> 'Cliëntcommunicatie',
 	'ACP_COOKIE_SETTINGS'		=> 'Cookieinstellingen',
 	'ACP_CONTACT'				=> 'Contactpagina',
 	'ACP_CONTACT_SETTINGS'		=> 'Contactpagina-instellingen',
@@ -85,11 +85,11 @@ $lang = array_merge($lang, array(
 	'ACP_DISALLOW_USERNAMES'	=> 'Niet toegestane gebruikersnamen',
 
 	'ACP_EMAIL_SETTINGS'		=> 'E-mailinstellingen',
-	'ACP_EXTENSION_GROUPS'		=> 'Beheer bijlage extensiegroepen',
+	'ACP_EXTENSION_GROUPS'		=> 'Beheer extensiegroepen bijlages',
 	'ACP_EXTENSION_MANAGEMENT'	=> 'Extensiebeheer',
 	'ACP_EXTENSIONS'			=> 'Beheer extensies',
 
-	'ACP_FORUM_BASED_PERMISSIONS'	=> 'Forum gebaseerde permissies',
+	'ACP_FORUM_BASED_PERMISSIONS'	=> 'Forumgebaseerde permissies',
 	'ACP_FORUM_LOGS'				=> 'Forumlogs',
 	'ACP_FORUM_MANAGEMENT'			=> 'Forumbeheer',
 	'ACP_FORUM_MODERATORS'			=> 'Forummoderators',
@@ -102,7 +102,7 @@ $lang = array_merge($lang, array(
 	'ACP_GLOBAL_MODERATORS'			=> 'Globale moderators',
 	'ACP_GLOBAL_PERMISSIONS'		=> 'Globale permissies',
 	'ACP_GROUPS'					=> 'Groepen',
-	'ACP_GROUPS_FORUM_PERMISSIONS'	=> 'Groep forumpermissies',
+	'ACP_GROUPS_FORUM_PERMISSIONS'	=> 'Forumpermissies groepen',
 	'ACP_GROUPS_MANAGE'				=> 'Beheer groepen',
 	'ACP_GROUPS_MANAGEMENT'			=> 'Groepsbeheer',
 	'ACP_GROUPS_PERMISSIONS'		=> 'Groepspermissies',
@@ -111,7 +111,7 @@ $lang = array_merge($lang, array(
 	'ACP_ICONS'					=> 'Onderwerpiconen',
 	'ACP_ICONS_SMILIES'			=> 'Onderwerpiconen/smilies',
 	'ACP_INACTIVE_USERS'		=> 'Inactieve gebruikers',
-	'ACP_INDEX'					=> 'ACP index',
+	'ACP_INDEX'					=> 'ACP-index',
 
 	'ACP_JABBER_SETTINGS'		=> 'Jabber-instellingen',
 
@@ -128,11 +128,11 @@ $lang = array_merge($lang, array(
 	'ACP_MANAGE_EXTENSIONS'		=> 'Beheer bijlage-extensies',
 	'ACP_MANAGE_FORUMS'			=> 'Beheer forums',
 	'ACP_MANAGE_RANKS'			=> 'Beheer rangen',
-	'ACP_MANAGE_REASONS'		=> 'Beheer melding/afkeurredenen',
+	'ACP_MANAGE_REASONS'		=> 'Beheer melding-/afkeurredenen',
 	'ACP_MANAGE_USERS'			=> 'Beheer gebruikers',
-	'ACP_MASS_EMAIL'			=> 'Massa e-mail',
+	'ACP_MASS_EMAIL'			=> 'Massa-e-mail',
 	'ACP_MESSAGES'				=> 'Berichten',
-	'ACP_MESSAGE_SETTINGS'		=> 'Privéberichten instellingen',
+	'ACP_MESSAGE_SETTINGS'		=> 'Privéberichtinstellingen',
 	'ACP_MODULE_MANAGEMENT'		=> 'Modulebeheer',
 	'ACP_MOD_LOGS'				=> 'Moderatorlog',
 	'ACP_MOD_ROLES'				=> 'Moderatorrollen',
@@ -154,7 +154,7 @@ $lang = array_merge($lang, array(
 	'ACP_QUICK_ACCESS'			=> 'Snelle toegang',
 
 	'ACP_RANKS'					=> 'Rangen',
-	'ACP_REASONS'				=> 'Melding/afkeurredenen',
+	'ACP_REASONS'				=> 'Melding-/afkeurredenen',
 	'ACP_REGISTER_SETTINGS'		=> 'Gebruikersregistratie-instellingen',
 
 	'ACP_RESTORE'				=> 'Herstellen',
@@ -166,7 +166,7 @@ $lang = array_merge($lang, array(
 	'ACP_SEARCH_INDEX'			=> 'Zoekindex',
 	'ACP_SEARCH_SETTINGS'		=> 'Zoekinstellingen',
 
-	'ACP_SECURITY_SETTINGS'		=> 'Beveiliginsinstellingen',
+	'ACP_SECURITY_SETTINGS'		=> 'Beveiligingsinstellingen',
 	'ACP_SEND_STATISTICS'		=> 'Verstuur statistische informatie',
 	'ACP_SERVER_CONFIGURATION'	=> 'Serverinstellingen',
 	'ACP_SERVER_SETTINGS'		=> 'Serverinstellingen',
@@ -174,8 +174,8 @@ $lang = array_merge($lang, array(
 	'ACP_SMILIES'				=> 'Smilies',
 	'ACP_STYLE_MANAGEMENT'		=> 'Stijlbeheer',
 	'ACP_STYLES'				=> 'Stijlen',
-	'ACP_STYLES_CACHE'			=> 'Leeg Cache',
-	'ACP_STYLES_INSTALL'		=> 'Installeer Stijlen',
+	'ACP_STYLES_CACHE'			=> 'Leeg cache',
+	'ACP_STYLES_INSTALL'		=> 'Installeer stijlen',
 
 	'ACP_SUBMIT_CHANGES'		=> 'Verstuur veranderingen',
 
@@ -183,7 +183,7 @@ $lang = array_merge($lang, array(
 	'ACP_THEMES'				=> 'Thema‘s',
 
 	'ACP_UPDATE'					=> 'Bijwerken',
-	'ACP_USERS_FORUM_PERMISSIONS'	=> 'Gebruikers forumpermissies',
+	'ACP_USERS_FORUM_PERMISSIONS'	=> 'Forumpermissies gebruikers',
 	'ACP_USERS_LOGS'				=> 'Gebruikerslogs',
 	'ACP_USERS_PERMISSIONS'			=> 'Gebruikerspermissies',
 	'ACP_USER_ATTACH'				=> 'Bijlagen',
@@ -202,7 +202,7 @@ $lang = array_merge($lang, array(
 	'ACP_USER_WARNINGS'				=> 'Waarschuwingen',
 
 	'ACP_VC_SETTINGS'					=> 'Spambotpreventie',
-	'ACP_VC_CAPTCHA_DISPLAY'			=> 'CAPTCHA voorbeeld',
+	'ACP_VC_CAPTCHA_DISPLAY'			=> 'CAPTCHA-voorbeeld',
 	'ACP_VERSION_CHECK'					=> 'Controleer op updates',
 	'ACP_VIEW_ADMIN_PERMISSIONS'		=> 'Bekijk beheerderspermissies',
 	'ACP_VIEW_FORUM_MOD_PERMISSIONS'	=> 'Bekijk forum moderatiepermissies',
@@ -220,17 +220,17 @@ $lang = array_merge($lang, array(
 	'ADMIN_INDEX'			=> 'Beheerdersoverzicht',
 	'ADMIN_PANEL'			=> 'Beheerderspaneel',
 
-	'ADM_LOGOUT'			=> 'Beheerderspaneel&nbsp;Afmelden',
+	'ADM_LOGOUT'			=> 'Beheerderspaneel&nbsp;afmelden',
 	'ADM_LOGGED_OUT'		=> 'Succesvol afgemeld van het beheerderspaneel',
 
 	'BACK'					=> 'Terug',
 
-	'COLOUR_SWATCH'			=> 'Web-veilige kleurenpalet',
+	'COLOUR_SWATCH'			=> 'Webveilig kleurenpalet',
 	'CONFIG_UPDATED'		=> 'Instellingen succesvol bijgewerkt.',
-	'CRON_LOCK_ERROR'		=> 'Kan geen cron lock verkrijgen.',
-	'CRON_NO_SUCH_TASK'		=> 'Kan cron taak “%s” niet vinden.',
-	'CRON_NO_TASK'			=> 'Er hoeven geen cron taken te worden uitgevoerd.',
-	'CRON_NO_TASKS'			=> 'Er kunnen geen cron taken worden gevonden.',
+	'CRON_LOCK_ERROR'		=> 'Kan geen cronlock verkrijgen.',
+	'CRON_NO_SUCH_TASK'		=> 'Kan crontaak “%s” niet vinden.',
+	'CRON_NO_TASK'			=> 'Er hoeven geen crontaken te worden uitgevoerd.',
+	'CRON_NO_TASKS'			=> 'Er kunnen geen crontaken worden gevonden.',
 
 	'DEACTIVATE'				=> 'Deactiveer',
 	'DIRECTORY_DOES_NOT_EXIST'	=> 'Het opgegeven pad “%s” bestaat niet.',
@@ -315,7 +315,7 @@ $lang = array_merge($lang, array(
 
 // PHP info
 $lang = array_merge($lang, array(
-	'ACP_PHP_INFO_EXPLAIN'	=> 'Deze pagina geeft de informatie over de versie van PHP die geïnstalleerd is op deze server. Het bevat details van geladen modules, beschikbare variabelen en standaard instellingen. Deze informatie kan bruikbaar zijn bij het oplossen van problemen. Let op dat sommige hostingsbedrijven de informatie die hier wordt getoond limiteren voor beveiligingsredenen. Je wordt geadviseerd om geen details van deze pagina openbaar te maken tenzij er naar gevraagd wordt door een <a href="https://www.phpbb.com/about/team/">officiële phpBB.com teamlid</a>, <a href="https://www.phpbbservice.nl/forum/memberlist.php?mode=leaders">officiële phpBBservice.nl teamleden</a> of <a href="http://www.phpbb.nl/medewerkers">officiële phpbb.nl teamleden</a> op de supportforums.',
+	'ACP_PHP_INFO_EXPLAIN'	=> 'Deze pagina geeft de informatie over de versie van PHP die geïnstalleerd is op deze server. Het bevat details van geladen modules, beschikbare variabelen en standaard instellingen. Deze informatie kan bruikbaar zijn bij het oplossen van problemen. Let op dat sommige hostingsbedrijven de informatie die hier wordt getoond limiteren voor beveiligingsredenen. Het is aan te raden geen details van deze pagina openbaar te maken tenzij er naar gevraagd wordt door een <a href="https://www.phpbb.com/about/team/">officieel phpBB.com-teamlid</a>, <a href="https://www.phpbbservice.nl/forum/memberlist.php?mode=leaders">officiële phpBBservice.nl-teamleden</a> of <a href="https://www.phpbb.nl/medewerkers">officiële phpbb.nl-teamleden</a> op de supportforums.',
 
 	'NO_PHPINFO_AVAILABLE'	=> 'Informatie over je PHP-configuratie kan niet vastgesteld worden. Phpinfo() is uitgeschakeld vanwege beveiligingsredenen.',
 ));
@@ -342,7 +342,7 @@ $lang = array_merge($lang, array(
 	'ADMIN_INTRO'				=> 'Dank je wel voor het kiezen van phpBB als je forumoplossing. Dit scherm geeft je een snel overzicht van alle verschillende statistieken van je forum. De links aan de linkerkant van dit scherm staan je toe om ieder aspect van je forum te controleren. Iedere pagina zal instructies hebben over hoe je die pagina kan gebruiken.',
 	'ADMIN_LOG'					=> 'Gelogde beheerdersacties',
 	'ADMIN_LOG_INDEX_EXPLAIN'	=> 'Dit geeft een overzicht van de laatste vijf acties die uitgevoerd zijn door de beheerders. Een volledig overzicht van de log kan bekijken worden via het juiste menu-item of via de link hieronder.',
-	'AVATAR_DIR_SIZE'			=> 'Avatar mapgrootte',
+	'AVATAR_DIR_SIZE'			=> 'Avatarmapgrootte',
 
 	'BOARD_STARTED'		=> 'Forum gestart op',
 	'BOARD_VERSION'		=> 'Forumversie',
@@ -351,14 +351,14 @@ $lang = array_merge($lang, array(
 	'DATABASE_SIZE'			=> 'Databasegrootte',
 
 	// Enviroment configuration checks, mbstring related
-	'ERROR_MBSTRING_FUNC_OVERLOAD'					=> 'Functie overloading is niet goed ingesteld',
-	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'			=> '<var>mbstring.func_overload</var> moet ingesteld zijn op 0 of 4. Je kan de waarde die het momenteel is controleren op de <samp>PHP informatie</samp>-pagina.',
-	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'Transparante karakter encoding is niet goed ingesteld',
-	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> '<var>mbstring.encoding_translation</var> moet ingesteld zijn op 0. Je kan de waarde die het momenteel is controleren op de <samp>PHP informatie</samp>-pagina.',
-	'ERROR_MBSTRING_HTTP_INPUT'						=> 'HTTP input karakter conversie is niet goed ingesteld',
-	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> '<var>mbstring.http_input</var> moet ingesteld zijn op <samp>pass</samp>. Je kan de waarde die het momenteel is controleren op de <samp>PHP informatie</samp>-pagina.',
-	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'HTTP output karakter conversie is niet goed ingesteld',
-	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> moet ingesteld zijn op <samp>pass</samp>. Je kan de waarde die het momenteel is controleren op de <samp>PHP informatie</samp>-pagina.',
+	'ERROR_MBSTRING_FUNC_OVERLOAD'					=> 'Functie-overloading is niet goed ingesteld',
+	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'			=> '<var>mbstring.func_overload</var> moet ingesteld zijn op 0 of 4. Je kan de waarde die het momenteel is controleren op de <samp>PHP-informatiepagina</samp>.',
+	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'Codering transparante tekens is niet goed ingesteld',
+	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> '<var>mbstring.encoding_translation</var> moet ingesteld zijn op 0. Je kan de waarde die het momenteel is controleren op de <samp>PHP-informatiepagina</samp>.',
+	'ERROR_MBSTRING_HTTP_INPUT'						=> 'Conversie HTTP-invoertekens is niet goed ingesteld',
+	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> '<var>mbstring.http_input</var> moet ingesteld zijn op <samp>pass</samp>. Je kan de waarde die het momenteel is controleren op de <samp>PHP-informatiepagina</samp>.',
+	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'Conversie HTTP-uitvoertekens is niet goed ingesteld',
+	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> moet ingesteld zijn op <samp>pass</samp>. Je kan de waarde die het momenteel is controleren op de <samp>PHP-informatiepagina</samp>.',
 
 	'FILES_PER_DAY'		=> 'Bijlagen per dag',
 	'FORUM_STATS'		=> 'Forumstatistieken',
@@ -379,7 +379,7 @@ $lang = array_merge($lang, array(
 
 	'PURGE_CACHE'			=> 'Cache legen',
 	'PURGE_CACHE_CONFIRM'	=> 'Weet je zeker dat je de cache wilt legen?',
-	'PURGE_CACHE_EXPLAIN'	=> 'Leeg alle cache gerelateerde items, dit omvat alle gecachede templatebestanden of queries.',
+	'PURGE_CACHE_EXPLAIN'	=> 'Leeg alle cache gerelateerde items, dit omvat alle gecachede templatebestanden of query\'s.',
 	'PURGE_CACHE_SUCCESS'	=> 'Cache succesvol geleegd.',
 
 	'PURGE_SESSIONS'			=> 'Alle sessies opschonen',
@@ -418,13 +418,13 @@ $lang = array_merge($lang, array(
 	'USERS_PER_DAY'		=> 'Gebruikers per dag',
 
 	'VALUE'						=> 'Waarde',
-	'VERSIONCHECK_FAIL'			=> 'Het verkrijgen van de laatste versie-informatie is mislukt.',
+	'VERSIONCHECK_FAIL'			=> 'Het ophalen van de laatste versie is mislukt.',
 	'VERSIONCHECK_FORCE_UPDATE'	=> 'Hercontroleer versie',
 	'VIEW_ADMIN_LOG'			=> 'Bekijk beheerderslog',
 	'VIEW_INACTIVE_USERS'		=> 'Bekijk inactieve gebruikers',
 
 	'WELCOME_PHPBB'			=> 'Welkom bij phpBB',
-	'WRITABLE_CONFIG'		=> 'Je config-bestand (config.php) is momenteel wereld schrijfbaar. We bevelen sterk aan om de permissies te veranderen naar 640 of minstens naar 644 (bijvoorbeeld: <a href="http://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> (helaas geen nederlandse pagina beschikbaar) 640 config.php).',
+	'WRITABLE_CONFIG'		=> 'Je config-bestand (config.php) is momenteel wereld-schrijfbaar. We bevelen sterk aan om de permissies te veranderen naar 640 of minstens naar 644 (bijvoorbeeld: <a href="http://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> (helaas geen Nederlandse pagina beschikbaar) 640 config.php).',
 ));
 
 // Inactive Users
@@ -434,7 +434,7 @@ $lang = array_merge($lang, array(
 	'INACTIVE_REASON_MANUAL'		=> 'Account gedeactiveerd door beheerder',
 	'INACTIVE_REASON_PROFILE'		=> 'Profieldetails veranderd',
 	'INACTIVE_REASON_REGISTER'		=> 'Nieuw geregistreerd account',
-	'INACTIVE_REASON_REMIND'		=> 'Geforceerde gebruikersaccount heractivatie',
+	'INACTIVE_REASON_REMIND'		=> 'Geforceerde heractivatie gebruikersaccount',
 	'INACTIVE_REASON_UNKNOWN'		=> 'Onbekend',
 	'INACTIVE_USERS'				=> 'Inactieve gebruikers',
 	'INACTIVE_USERS_EXPLAIN'		=> 'Dit is een lijst van gebruikers die zich geregistreerd hebben maar waarvan hun accounts inactief zijn. Je kan deze gebruikers activeren, verwijderen of herinneren (door het sturen van een e-mail) als je wilt.',
@@ -454,7 +454,7 @@ $lang = array_merge($lang, array(
 
 // Send statistics page
 $lang = array_merge($lang, array(
-	'EXPLAIN_SEND_STATISTICS'	=> 'Verstuur informatie over je server en foruminstellingen naar phpBB voor statistische analyse. Alle informatie dat je of je website kan identificeren is verwijderd - de data is compleet <strong>anoniem</strong>. We baseren beslissingen over de toekomstige phpBB versies op deze informatie. De statistieken zullen openbaar worden gemaakt. We delen ook deze data met het PHP-project, de programmeertaal waarin phpBB is geschreven.',
+	'EXPLAIN_SEND_STATISTICS'	=> 'Verstuur informatie over je server en foruminstellingen naar phpBB voor statistische analyse. Alle informatie dat je of je website kan identificeren is verwijderd - de data is compleet <strong>anoniem</strong>. We baseren beslissingen over de toekomstige phpBB-versies op deze informatie. De statistieken zullen openbaar worden gemaakt. We delen ook deze data met het PHP-project, de programmeertaal waarin phpBB is geschreven.',
 	'EXPLAIN_SHOW_STATISTICS'	=> 'Door gebruik te maken van de knop hieronder kan je bekijken welke variabelen verstuurd zullen worden.',
 	'DONT_SEND_STATISTICS'		=> 'Ga terug naar de beheerderspaneel als je geen statistische informatie naar phpBB wilt versturen.',
 	'GO_ACP_MAIN'				=> 'Ga naar de beheerderspaneel startpagina',
@@ -466,20 +466,20 @@ $lang = array_merge($lang, array(
 
 // Log Entries
 $lang = array_merge($lang, array(
-	'LOG_ACL_ADD_USER_GLOBAL_U_'		=> '<strong>Gebruikers gebruikersrechtenpermissies toegevoegd of gewijzigd</strong><br />» %s',
-	'LOG_ACL_ADD_GROUP_GLOBAL_U_'		=> '<strong>Groeps gebruikerspermissies toegevoegd of gewijzigd</strong><br />» %s',
-	'LOG_ACL_ADD_USER_GLOBAL_M_'		=> '<strong>Gebruikers globale moderatorpermissies toegevoegd of gewijzigd</strong><br />» %s',
-	'LOG_ACL_ADD_GROUP_GLOBAL_M_'		=> '<strong>Groeps globale moderatorpermissies toegevoegd of gewijzigd</strong><br />» %s',
-	'LOG_ACL_ADD_USER_GLOBAL_A_'		=> '<strong>Gebruikers beheerderspermissies toegevoegd of gewijzigd</strong><br />» %s',
-	'LOG_ACL_ADD_GROUP_GLOBAL_A_'		=> '<strong>Groeps beheerderspermissies toegevoegd of gewijzigd</strong><br />» %s',
+	'LOG_ACL_ADD_USER_GLOBAL_U_'		=> '<strong>Gebruikersrechtenpermissies van gebruikers toegevoegd of gewijzigd</strong><br />» %s',
+	'LOG_ACL_ADD_GROUP_GLOBAL_U_'		=> '<strong>Gebruikerspermissies van groepen toegevoegd of gewijzigd</strong><br />» %s',
+	'LOG_ACL_ADD_USER_GLOBAL_M_'		=> '<strong>Globalemoderatorpermissies van gebruikers toegevoegd of gewijzigd</strong><br />» %s',
+	'LOG_ACL_ADD_GROUP_GLOBAL_M_'		=> '<strong>Globalemoderatorpermissies van groepen toegevoegd of gewijzigd</strong><br />» %s',
+	'LOG_ACL_ADD_USER_GLOBAL_A_'		=> '<strong>Beheerderspermissies van gebruikers toegevoegd of gewijzigd</strong><br />» %s',
+	'LOG_ACL_ADD_GROUP_GLOBAL_A_'		=> '<strong>Beheerderspermissies van groepen toegevoegd of gewijzigd</strong><br />» %s',
 
 	'LOG_ACL_ADD_ADMIN_GLOBAL_A_'		=> '<strong>Beheerders toegevoegd of gewijzigd</strong><br />» %s',
 	'LOG_ACL_ADD_MOD_GLOBAL_M_'			=> '<strong>Globale moderators toegevoegd of gewijzigd</strong><br />» %s',
 
-	'LOG_ACL_ADD_USER_LOCAL_F_'			=> '<strong>Gebruikers forumtoegang toegevoegd of gewijzigd</strong> van %1$s<br />» %2$s',
-	'LOG_ACL_ADD_USER_LOCAL_M_'			=> '<strong>Gebruikers forum-moderatortoegang toegevoegd of gewijzigd</strong> van %1$s<br />» %2$s',
-	'LOG_ACL_ADD_GROUP_LOCAL_F_'		=> '<strong>Groeps forumtoegang toegevoegd of gewijzigd</strong> van %1$s<br />» %2$s',
-	'LOG_ACL_ADD_GROUP_LOCAL_M_'		=> '<strong>Groeps forum-moderatortoegang toegevoegd of gewijzigd</strong> van %1$s<br />» %2$s',
+	'LOG_ACL_ADD_USER_LOCAL_F_'			=> '<strong>Forumtoegang van gebruikers toegevoegd of gewijzigd</strong> van %1$s<br />» %2$s',
+	'LOG_ACL_ADD_USER_LOCAL_M_'			=> '<strong>Forummoderatortoegang van gebruikers toegevoegd of gewijzigd</strong> van %1$s<br />» %2$s',
+	'LOG_ACL_ADD_GROUP_LOCAL_F_'		=> '<strong>Forumtoegang van groepen toegevoegd of gewijzigd</strong> van %1$s<br />» %2$s',
+	'LOG_ACL_ADD_GROUP_LOCAL_M_'		=> '<strong>Forummoderatortoegang van groepen toegevoegd of gewijzigd</strong> van %1$s<br />» %2$s',
 
 	'LOG_ACL_ADD_MOD_LOCAL_M_'			=> '<strong>Moderators toegevoegd of gewijzigd</strong> van %1$s<br />» %2$s',
 	'LOG_ACL_ADD_FORUM_LOCAL_F_'		=> '<strong>Forumpermissies toegevoegd of gewijzigd</strong> van %1$s<br />» %2$s',
@@ -487,12 +487,12 @@ $lang = array_merge($lang, array(
 	'LOG_ACL_DEL_ADMIN_GLOBAL_A_'		=> '<strong>Beheerders verwijderd</strong><br />» %s',
 	'LOG_ACL_DEL_MOD_GLOBAL_M_'			=> '<strong>Globale moderators verwijderd</strong><br />» %s',
 	'LOG_ACL_DEL_MOD_LOCAL_M_'			=> '<strong>Moderators verwijderd</strong> van %1$s<br />» %2$s',
-	'LOG_ACL_DEL_FORUM_LOCAL_F_'		=> '<strong>Gebruiker/Groep forumpermissies verwijderd</strong> van %1$s<br />» %2$s',
+	'LOG_ACL_DEL_FORUM_LOCAL_F_'		=> '<strong>Forumpermissies van gebruikers of groepen verwijderd</strong> van %1$s<br />» %2$s',
 
 	'LOG_ACL_TRANSFER_PERMISSIONS'		=> '<strong>Permissies overgebracht van</strong><br />» %s',
 	'LOG_ACL_RESTORE_PERMISSIONS'		=> '<strong>Eigen permissies teruggezet na gebruik permissies van</strong><br />» %s',
 
-	'LOG_ADMIN_AUTH_FAIL'		=> '<strong>Mislukte beheerders aanmeldpoging</strong>',
+	'LOG_ADMIN_AUTH_FAIL'		=> '<strong>Mislukte beheerdersaanmeldpoging</strong>',
 	'LOG_ADMIN_AUTH_SUCCESS'	=> '<strong>Succesvolle beheerdersaanmelding</strong>',
 
 	'LOG_ATTACHMENTS_DELETED'	=> '<strong>Gebruikersbijlagen verwijderd</strong><br />» %s',
@@ -526,11 +526,11 @@ $lang = array_merge($lang, array(
 
 	'LOG_CLEAR_ADMIN'		=> '<strong>Beheerderslog opgeschoond</strong>',
 	'LOG_CLEAR_CRITICAL'	=> '<strong>Foutenlog opgeschoond</strong>',
-	'LOG_CLEAR_MOD'			=> '<strong>Moderatorlog opgschoong</strong>',
+	'LOG_CLEAR_MOD'			=> '<strong>Moderatorlog opgeschoond</strong>',
 	'LOG_CLEAR_USER'		=> '<strong>Gebruikerslog opgeschoond</strong><br />» %s',
 	'LOG_CLEAR_USERS'		=> '<strong>Gebruikersloggen opgeschoond</strong>',
 
-	'LOG_CONFIG_ATTACH'			=> '<strong>Bijlageinstellingen aangepast</strong>',
+	'LOG_CONFIG_ATTACH'			=> '<strong>Bijlage-instellingen aangepast</strong>',
 	'LOG_CONFIG_AUTH'			=> '<strong>Authenticatie-instellingen aangepast</strong>',
 	'LOG_CONFIG_AVATAR'			=> '<strong>Avatarinstellingen aangepast</strong>',
 	'LOG_CONFIG_COOKIE'			=> '<strong>Cookie-instellingen aangepast</strong>',
@@ -540,16 +540,16 @@ $lang = array_merge($lang, array(
 	'LOG_CONFIG_MESSAGE'		=> '<strong>Privéberichtinstellingen aangepast</strong>',
 	'LOG_CONFIG_POST'			=> '<strong>Berichtinstellingen aangepast</strong>',
 	'LOG_CONFIG_REGISTRATION'	=> '<strong>Gebruikersregistratie-instellingen aangepast</strong>',
-	'LOG_CONFIG_FEED'			=> '<strong>Syndicatie feeds-instellingen aangepast</strong>',
+	'LOG_CONFIG_FEED'			=> '<strong>Syndicatiefeedsinstellingen aangepast</strong>',
 	'LOG_CONFIG_SEARCH'			=> '<strong>Zoekinstellingen aangepast</strong>',
 	'LOG_CONFIG_SECURITY'		=> '<strong>Beveiligingsinstellingen aangepast</strong>',
 	'LOG_CONFIG_SERVER'			=> '<strong>Serverinstellingen aangepast</strong>',
 	'LOG_CONFIG_SETTINGS'		=> '<strong>Foruminstellingen aangepast</strong>',
 	'LOG_CONFIG_SIGNATURE'		=> '<strong>Onderschriftinstellingen aangepast</strong>',
-	'LOG_CONFIG_VISUAL'			=> '<strong>Anti-spambotinstellingen aangepast</strong>',
+	'LOG_CONFIG_VISUAL'			=> '<strong>Antispambotinstellingen aangepast</strong>',
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>Onderwerp goedgekeurd</strong><br />» %s',
-	'LOG_BUMP_TOPIC'			=> '<strong>Gebruiker bumped onderwerp</strong><br />» %s', //hebben we nog een ander woord voor bumped?
+	'LOG_BUMP_TOPIC'			=> '<strong>Gebruiker bracht onderwerp omhoog</strong><br />» %s',
 	'LOG_DELETE_POST'			=> '<strong>Bericht “%1$s” verwijderd, geschreven door “%2$s”, om de volgende reden</strong><br />» %3$s',
 	'LOG_DELETE_SHADOW_TOPIC'	=> '<strong>Schaduwonderwerp verwijderd</strong><br />» %s',
 	'LOG_DELETE_TOPIC'			=> '<strong>Onderwerp “%1$s” verwijderd, geschreven door “%2$s”, om de volgende reden</strong><br />» %3$s',
@@ -584,9 +584,9 @@ $lang = array_merge($lang, array(
 	'LOG_DISALLOW_ADD'		=> '<strong>Niet toegestane gebruikersnaam toegevoegd</strong><br />» %s',
 	'LOG_DISALLOW_DELETE'	=> '<strong>Niet toegestane gebruikersnaam verwijderd</strong>',
 
-	'LOG_DB_BACKUP'			=> '<strong>Database backup</strong>',
-	'LOG_DB_DELETE'			=> '<strong>Database backup verwijderd</strong>',
-	'LOG_DB_RESTORE'		=> '<strong>Database backup teruggezet</strong>',
+	'LOG_DB_BACKUP'			=> '<strong>Databasebackup</strong>',
+	'LOG_DB_DELETE'			=> '<strong>Databasebackup verwijderd</strong>',
+	'LOG_DB_RESTORE'		=> '<strong>Databasebackup teruggezet</strong>',
 
 	'LOG_DOWNLOAD_EXCLUDE_IP'	=> '<strong>IP/hostnaam uitgesloten van downloadlijst</strong><br />» %s',
 	'LOG_DOWNLOAD_IP'			=> '<strong>IP/hostnaam toegevoegd aan downloadlijst</strong><br />» %s',
@@ -620,7 +620,7 @@ $lang = array_merge($lang, array(
 	'LOG_GROUP_DEMOTED'		=> '<strong>Leiders gedegradeerd in gebruikersgroep</strong> %1$s<br />» %2$s',
 	'LOG_GROUP_PROMOTED'	=> '<strong>Leden gepromoveerd in gebruikersgroep</strong> %1$s<br />» %2$s',
 	'LOG_GROUP_REMOVE'		=> '<strong>Leden verwijderd van gebruikersgroep</strong> %1$s<br />» %2$s',
-	'LOG_GROUP_UPDATED'		=> '<strong>Gebruikersgroep-details bijgewerkt</strong><br />» %s',
+	'LOG_GROUP_UPDATED'		=> '<strong>Gebruikersgroepdetails bijgewerkt</strong><br />» %s',
 	'LOG_MODS_ADDED'		=> '<strong>Nieuwe leiders toegevoegd aan gebruikersgroep</strong> %1$s<br />» %2$s',
 	'LOG_USERS_ADDED'		=> '<strong>Nieuwe leden toegevoegd aan gebruikersgroep</strong> %1$s<br />» %2$s',
 	'LOG_USERS_APPROVED'	=> '<strong>Gebruikers goedgekeurd in gebruikersgroep</strong> %1$s<br />» %2$s',
@@ -634,7 +634,7 @@ $lang = array_merge($lang, array(
 	'LOG_INSTALL_CONVERTED'	=> '<strong>%1$s omgezet naar phpBB %2$s</strong>',
 	'LOG_INSTALL_INSTALLED'	=> '<strong>phpBB %s geïnstalleerd</strong>',
 
-	'LOG_IP_BROWSER_FORWARDED_CHECK'	=> '<strong>Sessie IP/browser/X_FORWARDED_FOR controle mislukt</strong><br />»Gebruikers-IP “<em>%1$s</em>” gecontroleerd met sessie-IP “<em>%2$s</em>”, gebruiker browser string “<em>%3$s</em>” gecontroleerd met sessie browser string “<em>%4$s</em>” en gebruiker X_FORWARDED_FOR string “<em>%5$s</em>” gecontroleerd met sessie X_FORWARDED_FOR string “<em>%6$s</em>”.',
+	'LOG_IP_BROWSER_FORWARDED_CHECK'	=> '<strong>Sessie-IP/browser/X_FORWARDED_FOR-controle mislukt</strong><br />»Gebruikers-IP “<em>%1$s</em>” gecontroleerd met sessie-IP “<em>%2$s</em>”, gebruikerbrowserstring “<em>%3$s</em>” gecontroleerd met sessiebrowserstring “<em>%4$s</em>” en gebruiker-X_FORWARDED_FOR-string “<em>%5$s</em>” gecontroleerd met sessie-X_FORWARDED_FOR-string “<em>%6$s</em>”.',
 
 	'LOG_JAB_CHANGED'			=> '<strong>Jabber-account veranderd</strong>',
 	'LOG_JAB_PASSCHG'			=> '<strong>Jabber-wachtwoord veranderd</strong>',
@@ -699,12 +699,12 @@ $lang = array_merge($lang, array(
 	'LOG_REASON_UPDATED'	=> '<strong>Meldings-/afkeurreden bijgewerkt</strong><br />» %s',
 
 	'LOG_REFERER_INVALID'		=> '<strong>Referentievalidatie mislukt</strong><br />»Referentie was “<em>%1$s</em>”. De aanvraag is afgewezen en de sessie gestopt.',
-	'LOG_RESET_DATE'			=> '<strong>Forum opstartdatum gereset</strong>',
+	'LOG_RESET_DATE'			=> '<strong>Forumopstartdatum gereset</strong>',
 	'LOG_RESET_ONLINE'			=> '<strong>Meeste gebruikers online gereset</strong>',
 	'LOG_RESYNC_FILES_STATS'	=> '<strong>Bestandstatistieken gesynchroniseerd</strong>',
-	'LOG_RESYNC_POSTCOUNTS'		=> '<strong>Gebruiker berichtentellers gesynchroniseerd</strong>',
+	'LOG_RESYNC_POSTCOUNTS'		=> '<strong>Berichtenaantallen van gebruikers gesynchroniseerd</strong>',
 	'LOG_RESYNC_POST_MARKING'	=> '<strong>Gestipte onderwerpen gesynchroniseerd</strong>',
-	'LOG_RESYNC_STATS'			=> '<strong>Bericht, onderwerp en gebruikersstatistieken gesynchroniseerd</strong>',
+	'LOG_RESYNC_STATS'			=> '<strong>Bericht-, onderwerp- en gebruikersstatistieken gesynchroniseerd</strong>',
 
 	'LOG_SEARCH_INDEX_CREATED'	=> '<strong>Zoekindex aangemaakt voor</strong><br />» %s',
 	'LOG_SEARCH_INDEX_REMOVED'	=> '<strong>Zoekindex verwijderd voor</strong><br />» %s',
@@ -731,7 +731,7 @@ $lang = array_merge($lang, array(
 	// @deprecated 3.1
 	'LOG_THEME_ADD_FS'			=> '<strong>Nieuwe thema toegevoegd aan bestandssysteem</strong><br />» %s',
 	'LOG_THEME_DELETE'			=> '<strong>Thema verwijderd</strong><br />» %s',
-	'LOG_THEME_EDIT_DETAILS'	=> '<strong>Thema-details gewijzigd</strong><br />» %s',
+	'LOG_THEME_EDIT_DETAILS'	=> '<strong>Themadetails gewijzigd</strong><br />» %s',
 	'LOG_THEME_EDIT'			=> '<strong>Thema gewijzigd <em>%1$s</em></strong>',
 	'LOG_THEME_EDIT_FILE'		=> '<strong>Thema gewijzigd <em>%1$s</em></strong><br />» Aangepaste bestand <em>%2$s</em>',
 	'LOG_THEME_EXPORT'			=> '<strong>Thema geëxporteerd</strong><br />» %s',
@@ -748,7 +748,7 @@ $lang = array_merge($lang, array(
 	'LOG_USER_DELETED'		=> '<strong>Gebruiker verwijderd</strong><br />» %s',
 	'LOG_USER_DEL_ATTACH'	=> '<strong>Alle bijlagen verwijderd, gemaakt door de gebruiker</strong><br />» %s',
 	'LOG_USER_DEL_AVATAR'	=> '<strong>Gebruikersavatar verwijderd</strong><br />» %s',
-	'LOG_USER_DEL_OUTBOX'	=> '<strong>Gebruikers-postvak Uit geleegd</strong><br />» %s',
+	'LOG_USER_DEL_OUTBOX'	=> '<strong>Postvak uit van gebruiker geleegd</strong><br />» %s',
 	'LOG_USER_DEL_POSTS'	=> '<strong>Alle berichten verwijderd, gemaakt door de gebruiker</strong><br />» %s',
 	'LOG_USER_DEL_SIG'		=> '<strong>Gebruikersonderschrift verwijderd</strong><br />» %s',
 	'LOG_USER_INACTIVE'		=> '<strong>Gebruiker gedeactiveerd</strong><br />» %s',
@@ -764,28 +764,28 @@ $lang = array_merge($lang, array(
 	'LOG_USER_ACTIVE_USER'		=> '<strong>Gebruikersaccount geactiveerd</strong>',
 	'LOG_USER_DEL_AVATAR_USER'	=> '<strong>Gebruikersavatar verwijderd</strong>',
 	'LOG_USER_DEL_SIG_USER'		=> '<strong>Gebruikersonderschrift verwijderd</strong>',
-	'LOG_USER_FEEDBACK'			=> '<strong>Gebruikers-feedback toegevoegd</strong><br />» %s',
+	'LOG_USER_FEEDBACK'			=> '<strong>Gebruikersfeedback toegevoegd</strong><br />» %s',
 	'LOG_USER_GENERAL'			=> '<strong>Vermelding toegevoegd:</strong><br />» %s',
 	'LOG_USER_INACTIVE_USER'	=> '<strong>Gebruikersaccount gedeactiveerd</strong>',
 	'LOG_USER_LOCK'				=> '<strong>Gebruiker heeft eigen onderwerp gesloten</strong><br />» %s',
 	'LOG_USER_MOVE_POSTS_USER'	=> '<strong>Alle berichten verplaatst naar forum</strong>» %s',
 	'LOG_USER_REACTIVATE_USER'	=> '<strong>Gebruikersaccount heractivatie geforceerd</strong>',
 	'LOG_USER_UNLOCK'			=> '<strong>Gebruiker heeft eigen onderwerp geopend</strong><br />» %s',
-	'LOG_USER_WARNING'			=> '<strong>Gebruiker waarschuwing toegevoegd</strong><br />» %s',
+	'LOG_USER_WARNING'			=> '<strong>Gebruikerswaarschuwing toegevoegd</strong><br />» %s',
 	'LOG_USER_WARNING_BODY'		=> '<strong>De volgende waarschuwing is uitgegeven aan deze gebruiker</strong><br />» %s',
 
-	'LOG_USER_GROUP_CHANGE'			=> '<strong>Gebruiker standaardgroep veranderd</strong><br />» %s',
+	'LOG_USER_GROUP_CHANGE'			=> '<strong>Standaardgroep van gebruiker veranderd</strong><br />» %s',
 	'LOG_USER_GROUP_DEMOTE'			=> '<strong>Gebruiker gedegradeerd als leider van gebruikersgroep</strong><br />» %s',
 	'LOG_USER_GROUP_JOIN'			=> '<strong>Gebruiker lid geworden van groep</strong><br />» %s',
 	'LOG_USER_GROUP_JOIN_PENDING'	=> '<strong>Gebruiker wilt lid worden van groep en moet goedgekeurd worden</strong><br />» %s',
 	'LOG_USER_GROUP_RESIGN'			=> '<strong>Gebruiker heeft lidmaatschap opgezegd van groep</strong><br />» %s',
 
-	'LOG_WARNING_DELETED'		=> '<strong>Gebruiker waarschuwing verwijderd</strong><br />» %s',
+	'LOG_WARNING_DELETED'		=> '<strong>Gebruikerswaarschuwing verwijderd</strong><br />» %s',
 	'LOG_WARNINGS_DELETED'		=> array(
 		1 => '<strong>Gebruikerswaarschuwing verwijderd</strong><br />» %1$s',
 		2 => '<strong>%2$d gebruikerswaarschuwingen verwijderd</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
 	),	
-	'LOG_WARNINGS_DELETED_ALL'	=> '<strong>Alle gebruiker waarschuwingen verwijderd</strong><br />» %s',
+	'LOG_WARNINGS_DELETED_ALL'	=> '<strong>Alle gebruikerswaarschuwingen verwijderd</strong><br />» %s',
 
 	'LOG_WORD_ADD'			=> '<strong>Woordcensuur toegevoegd</strong><br />» %s',
 	'LOG_WORD_DELETE'		=> '<strong>Woordcensuur verwijderd</strong><br />» %s',
@@ -793,5 +793,5 @@ $lang = array_merge($lang, array(
 	
 	'LOG_EXT_ENABLE'	=> '<strong>Extensie ingeschakeld</strong><br />» %s',
 	'LOG_EXT_DISABLE'	=> '<strong>Extensie uitgeschakeld</strong><br />» %s',
-	'LOG_EXT_PURGE'		=> '<strong>Extensie gegevens verwijderd</strong><br />» %s',	
+	'LOG_EXT_PURGE'		=> '<strong>Extensiegegevens verwijderd</strong><br />» %s',	
 ));

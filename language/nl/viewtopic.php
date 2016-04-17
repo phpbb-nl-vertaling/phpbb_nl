@@ -41,11 +41,11 @@ $lang = array_merge($lang, array(
 	'ATTACHMENT'						=> 'Bijlage',
 	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'De bijlagefunctie is uitgeschakeld.',
 
-	'BOOKMARK_ADDED'		=> 'Onderwerp succesvol als bladwijzer gemaakt.',
-	'BOOKMARK_ERR'			=> 'Onderwerp als bladwijzer maken mislukt. Probeer nogmaals.',
-	'BOOKMARK_REMOVED'		=> 'De bladwijzer van dit onderwerp is succesvol verwijderd.',
-	'BOOKMARK_TOPIC'		=> 'Onderwerp bladwijzeren',
-	'BOOKMARK_TOPIC_REMOVE'	=> 'Verwijder bladwijzer',
+	'BOOKMARK_ADDED'		=> 'Onderwerp succesvol als favoriet toegevoegd.',
+	'BOOKMARK_ERR'			=> 'Het is niet gelukt het onderwerp aan je favorieten toe te voegen. Probeer nogmaals.',
+	'BOOKMARK_REMOVED'		=> 'Dit onderwerp hoort niet langer bij je favorieten.',
+	'BOOKMARK_TOPIC'		=> 'Onderwerp aan favorieten toevoegen',
+	'BOOKMARK_TOPIC_REMOVE'	=> 'Verwijder uit favorieten',
 	'BUMPED_BY'				=> 'Laatst omhoog gehaald door %1$s op %2$s.',
 	'BUMP_TOPIC'			=> 'Onderwerp omhoog halen',
 
@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 	'DELETE_TOPIC'			=> 'Onderwerp verwijderen',
 	'DELETED_INFORMATION'	=> 'Verwijderd door %1$s op %2$s',
 	'DISAPPROVE'			=> 'Afkeuren',
-	'DOWNLOAD_NOTICE'		=> 'Je hebt niet voldoende permissies om de bijlagen te bekijken van dit bericht.',
+	'DOWNLOAD_NOTICE'		=> 'Je hebt niet voldoende permissies om de bijlagen van dit bericht te bekijken.',
 
 	'EDITED_TIMES_TOTAL'	=> array(
 		1	=> 'Laatst gewijzigd door %2$s op %3$s, %1$d keer totaal gewijzigd.',
@@ -65,7 +65,7 @@ $lang = array_merge($lang, array(
 
 	'FILE_NOT_FOUND_404'	=> 'Het bestand <strong>%s</strong> kon niet worden gevonden.',
 	'FORK_TOPIC'			=> 'Onderwerp kopiëren',
-	'FULL_EDITOR'			=> 'Volledige bewerker &amp; Voorbeeld',
+	'FULL_EDITOR'			=> 'Volledige bewerker &amp; voorbeeld',
 
 	'LINKAGE_FORBIDDEN'		=> 'Je hebt niet voldoende rechten om van of naar deze site te linken, downloaden of te kunnen bekijken.',
 	'LOGIN_NOTIFY_TOPIC'	=> 'Je bent op de hoogte gebracht van dit onderwerp, meld je aan om het te bekijken.',
@@ -106,12 +106,12 @@ $lang = array_merge($lang, array(
 
 	'SUBMIT_VOTE'			=> 'Verstuur stem',
 
-	'TOPIC_TOOLS'			=> 'Onderwerp gereedschap',
+	'TOPIC_TOOLS'			=> 'Onderwerpgereedschap',
 	'TOTAL_VOTES'			=> 'Totaal aantal stemmen',
 
 	'UNLOCK_TOPIC'			=> 'Onderwerp openen',
 
-	'VIEW_INFO'				=> 'Bericht details',
+	'VIEW_INFO'				=> 'Berichtdetails',
 	'VIEW_NEXT_TOPIC'		=> 'Volgend onderwerp',
 	'VIEW_PREVIOUS_TOPIC'	=> 'Vorig onderwerp',
 	'VIEW_RESULTS'			=> 'Bekijk resultaten',
