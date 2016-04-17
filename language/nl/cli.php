@@ -48,15 +48,15 @@ $lang = array_merge($lang, array(
 	'CLI_CONFIG_SET_SUCCESS'			=> 'Config %s succesvol ingesteld',
 
 	'CLI_DESCRIPTION_CRON_LIST'					=> 'Weergeeft een lijst van cronjobs die klaar en niet klaar zijn.',
-	'CLI_DESCRIPTION_CRON_RUN'					=> 'Draait al cronjob-taken die klaar zijn.',
+	'CLI_DESCRIPTION_CRON_RUN'					=> 'Draait al cronjobs die klaar zijn.',
 	'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1'		=> 'Naam van de taak die moet worden uitgevoerd',
 	'CLI_DESCRIPTION_DB_MIGRATE'				=> 'Actualiseert de database door het toepassen van migraties.',
-	'CLI_DESCRIPTION_DELETE_CONFIG'				=> 'Verwijderd een configuratie-optie',
+	'CLI_DESCRIPTION_DELETE_CONFIG'				=> 'Verwijdert een configuratie-optie',
 	'CLI_DESCRIPTION_DISABLE_EXTENSION'			=> 'Schakelt de gespecificeerde extensie uit.',
 	'CLI_DESCRIPTION_ENABLE_EXTENSION'			=> 'Schakelt de gespecificeerde extensie in.',
 	'CLI_DESCRIPTION_FIND_MIGRATIONS'			=> 'Vind migraties waar niet op wordt gesteund.',
 	'CLI_DESCRIPTION_GET_CONFIG'				=> 'Verkrijgt een configuratie-optie waarde',
-	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Verhoogd een numerieke configuratie-optie waarde',
+	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Verhoogd een configuratie-optie waarde',
 	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> 'Lijst met alle extensies in de database en bestandssysteem.',
 	'CLI_DESCRIPTION_OPTION_SAFE_MODE'			=> 'In Safe Mode draaien (zonder extensies)..',
 	'CLI_DESCRIPTION_OPTION_SHELL'				=> 'Shell-toegang openen…',
@@ -83,5 +83,5 @@ $lang = array_merge($lang, array(
 
 // Additional help for commands.
 $lang = array_merge($lang, array(
-	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Hier kan je optioneel een cron-task naam opgeven zodat de speciefieke cron-task gedraait kan worden.',
+	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Hier kun je eventueel een cronjobnaam opgeven, zodat de speciefieke cronjob gedraait kan worden.',
 ));

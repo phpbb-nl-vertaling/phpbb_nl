@@ -71,10 +71,10 @@ $lang = array_merge($lang, array(
 	'EXTENSION_INSTALL_HEADLINE'=> 'Installeren van een extensie',
 	'EXTENSION_INSTALL_EXPLAIN'	=> '
 		<ol>
-			<li>Download een extensie van de phpBB extensiesdatabase</li>
-			<li>Pak de extensie uit en upload het naar de <samp>ext/</samp> map van je phpBB-forum</li>
+			<li>Download een extensie uit de phpBB-extensiesdatabase</li>
+			<li>Pak de extensie uit en upload het naar de <samp>ext/</samp>-map van je phpBB-forum</li>
 			<li>Schakel de extensie hier in, in het extensiebeheer</li>
-		</ol>',	
+		</ol>',		
 	'EXTENSION_UPDATE_HEADLINE'	=> 'Het bijwerken van een extensie',
 	'EXTENSION_UPDATE_EXPLAIN'	=> '<ol>
 			<li>De extensie uitschakelen</li>
@@ -124,9 +124,9 @@ $lang = array_merge($lang, array(
 	
 	'VERSIONCHECK_FORCE_UPDATE_ALL'		=> 'Controleer alle versies opnieuw',
 	'FORCE_UNSTABLE'					=> 'Controleer altijd voor onstabiele versies',
-	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'Versie controle-instellingen',
-	
-	'BROWSE_EXTENSIONS_DATABASE'		=> 'Blader door de extensiesdatabase',
+	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'Versiecontrole-instellingen',
+
+	'BROWSE_EXTENSIONS_DATABASE'		=> 'Blader door de extensiesdatabase',	
 	
 	'META_FIELD_NOT_SET'            => 'Verplicht meta-veld %s is niet ingesteld.',
 	'META_FIELD_INVALID'            => 'Meta-veld %s is ongeldig.',		

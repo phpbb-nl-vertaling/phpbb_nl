@@ -37,29 +37,29 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ALREADY_DEFAULT_GROUP'		=> 'De geselecteerde groep is al je standaard groep.',
+	'ALREADY_DEFAULT_GROUP'		=> 'De geselecteerde groep is al je standaardgroep.',
 	'ALREADY_IN_GROUP'			=> 'Je bent al lid van de geselecteerde groep.',
-	'ALREADY_IN_GROUP_PENDING'	=> 'Je hebt al aangevraagd om lid te worden van de geselecteerde groep.',
+	'ALREADY_IN_GROUP_PENDING'	=> 'Je hebt al gevraagd of je lid mag worden van de geselecteerde groep.',
 
-	'CANNOT_JOIN_GROUP'			=> 'Je kan geen lid worden van deze groep. Je kan alleen lid worden van open groepen.',
-	'CANNOT_RESIGN_GROUP'		=> 'Je kan je lidmaatschap van deze groep niet opzeggen. Je kan alleen je lidmaatschap opzeggen van open groepen.',
-	'CHANGED_DEFAULT_GROUP'		=> 'Succesvol standaard groep veranderd.',
+	'CANNOT_JOIN_GROUP'			=> 'Je kunt je niet aanmelden voor deze groep. Je kunt je alleen aanmelden voor open groepen.',
+	'CANNOT_RESIGN_GROUP'		=> 'Je kunt je lidmaatschap van deze groep niet opzeggen. Je kunt alleen je lidmaatschap opzeggen van open groepen.',
+	'CHANGED_DEFAULT_GROUP'		=> 'De standaardgroep is veranderd.',
 
 	'GROUP_AVATAR'						=> 'Groepsavatar',
-	'GROUP_CHANGE_DEFAULT'				=> 'Weet je zeker dat je je standaard lidmaatschap van de groep wilt veranderen naar“%s”?',
+	'GROUP_CHANGE_DEFAULT'				=> 'Weet je zeker dat je je standaardgroep wilt veranderen naar“%s”?',
 	'GROUP_CLOSED'						=> 'Gesloten',
 	'GROUP_DESC'						=> 'Groepsbeschrijving',
 	'GROUP_HIDDEN'						=> 'Verborgen',
-	'GROUP_INFORMATION'					=> 'Gebruikersgroep informatie',
+	'GROUP_INFORMATION'					=> 'Gebruikersgroepinformatie',
 	'GROUP_IS_CLOSED'					=> 'Dit is een gesloten groep, nieuwe leden kunnen alleen lid worden op uitnodiging van een groepsleider.',
-	'GROUP_IS_FREE'						=> 'Dit is een vrije open groep, alle nieuwe leden zijn welkom.',
+	'GROUP_IS_FREE'						=> 'Dit is een vrije, open groep, alle nieuwe leden zijn welkom.',
 	'GROUP_IS_HIDDEN'					=> 'Dit is een verborgen groep, alleen leden van deze groep kunnen hun lidmaatschap zien.',
 	'GROUP_IS_OPEN'						=> 'Dit is een open groep, leden kunnen hun lidmaatschap aanvragen.',
-	'GROUP_IS_SPECIAL'					=> 'Dit is een speciale groep, speciale groepen worden beheerd door de forumbeheerders.',
+	'GROUP_IS_SPECIAL'					=> 'Dit is een speciale groep. Speciale groepen worden beheerd door de forumbeheerders.',
 	'GROUP_JOIN'						=> 'Lid worden van groep',
 	'GROUP_JOIN_CONFIRM'				=> 'Weet je zeker dat je lid wilt worden van de geselecteerde groep?',
 	'GROUP_JOIN_PENDING'				=> 'Aanvraag om lid te worden van groep',
-	'GROUP_JOIN_PENDING_CONFIRM'		=> 'Weet je zeker dat je je lidmaatschap wilt aanvragen voor de geselecteerde groep?',
+	'GROUP_JOIN_PENDING_CONFIRM'		=> 'Weet je zeker dat je een lidmaatschap wilt aanvragen voor de geselecteerde groep?',
 	'GROUP_JOINED'						=> 'Succesvol lid geworden van geselecteerde groep.',
 	'GROUP_JOINED_PENDING'				=> 'Succesvol lidmaatschap aangevraagd. Wacht tot een groepsleider je aanvraag goedkeurt.',
 	'GROUP_LIST'						=> 'Beheer gebruikers',
@@ -67,7 +67,7 @@ $lang = array_merge($lang, array(
 	'GROUP_NAME'						=> 'Groepsnaam',
 	'GROUP_OPEN'						=> 'Open',
 	'GROUP_RANK'						=> 'Groepsrang',
-	'GROUP_RESIGN_MEMBERSHIP'			=> 'Groep lidmaatschap opzeggen',
+	'GROUP_RESIGN_MEMBERSHIP'			=> 'Groepslidmaatschap opzeggen',
 	'GROUP_RESIGN_MEMBERSHIP_CONFIRM'	=> 'Weet je zeker dat je je lidmaatschap voor de geselecteerde groep wilt opzeggen?',
 	'GROUP_RESIGN_PENDING'				=> 'Een aangevraagde lidmaatschap opzeggen',
 	'GROUP_RESIGN_PENDING_CONFIRM'		=> 'Weet je zeker dat je je aangevraagde lidmaatschap voor de geselecteerde groep wilt opzeggen?',
@@ -81,15 +81,15 @@ $lang = array_merge($lang, array(
 
 	'NO_LEADERS'					=> 'Je bent geen leider van geen enkele groep.',
 	'NOT_LEADER_OF_GROUP'			=> 'De gevraagde operatie kan niet uitgevoerd worden omdat je geen leider bent van de geselecteerde groep.',
-	'NOT_MEMBER_OF_GROUP'			=> 'De gevraagde operatie kan niet uitgevoerd worden omdat je geen lid bent van de geselecteerde groep of je lidmaatschap moet nog goedgekeurd worden.',
-	'NOT_RESIGN_FROM_DEFAULT_GROUP'	=> 'Je mag niet je lidmaatschap van je standaard groep opzeggen.',
+	'NOT_MEMBER_OF_GROUP'			=> 'De gevraagde operatie kan niet uitgevoerd worden omdat je geen lid bent van de geselecteerde groep of je lidmaatschap nog moet worden goedgekeurd.',
+	'NOT_RESIGN_FROM_DEFAULT_GROUP'	=> 'Je kunt je lidmaatschap van je standaardgroep niet opzeggen.',
 	
 	'PRIMARY_GROUP'		=> 'Hoofdgroep',
 
 	'REMOVE_SELECTED'		=> 'Verwijder geselecteerde',
 
 	'USER_GROUP_CHANGE'			=> 'Van “%1$s” groep naar “%2$s”',
-	'USER_GROUP_DEMOTE'			=> 'Degradeer leiderschap',
+	'USER_GROUP_DEMOTE'			=> 'Leiderschap neerleggen',
 	'USER_GROUP_DEMOTE_CONFIRM'	=> 'Weet je zeker dat je wilt degraderen als groepsleider van de geselecteerde groep?',
-	'USER_GROUP_DEMOTED'		=> 'Je hebt succesvol je leiderschap gedegradeerd.',
+	'USER_GROUP_DEMOTED'		=> 'Je hebt succesvol je leiderschap neergelegd.',
 ));
