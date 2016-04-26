@@ -1,4 +1,4 @@
-phpBB Translation Validator: [![Build Status](https://travis-ci.org/phpbb-nl-vertaling/phpbb_nl.svg?branch=master)](https://travis-ci.org/phpbb-nl-vertaling/phpbb_nl)
+phpBB Translation Validator: [![Build Status](https://travis-ci.org/phpbb-nl-vertaling/phpbb_nl.svg?branch=3.1.x)](https://travis-ci.org/phpbb-nl-vertaling/phpbb_nl)
 
 phpbb_3.1_dev_nl
 ================
