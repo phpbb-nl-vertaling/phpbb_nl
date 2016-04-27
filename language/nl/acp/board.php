@@ -99,6 +99,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_TOPIC_NOTIFY'		=> 'Abonneren op onderwerpen inschakelen',
 	'BOARD_PM'					=> 'Privéberichten',
 	'BOARD_PM_EXPLAIN'			=> 'Privéberichten voor alle gebruikers inschakelen.',
+	'ALLOW_BOARD_NOTIFICATIONS' => 'Forum notificaties toestaan',
 ));
 
 // Avatar Settings
@@ -558,6 +559,8 @@ $lang = array_merge($lang, array(
 	'EMAIL_SIG_EXPLAIN'				=> 'Deze tekst zal bijgevoegd worden aan alle e-mails die het forum verstuurt.',
 	'ENABLE_EMAIL'					=> 'Forumwijde e-mails inschakelen',
 	'ENABLE_EMAIL_EXPLAIN'			=> 'Als dit is uitgeschakeld, zullen geen e-mails door het forum verstuurd worden. <em>Let op dat gebruiker- of beheerdersactivatie vereisen dat deze optie is ingeschakeld. Als momenteel gebruik wordt gemaakt van “gebruiker” of “beheerder” activatie in de activatieinstellingen, dan zal het uitschakelen van deze functie ook de registratie uitschakelen.</em>',
+	'SEND_TEST_EMAIL'				=> 'Test e-mail versturen',
+	'SEND_TEST_EMAIL_EXPLAIN'		=> 'Deze optie verstuurd een test e-mail naar het e-mailadres dat is opgegeven bij je accountinstellingen.',
 	'SMTP_AUTH_METHOD'				=> 'Authenticatiemethode voor SMTP',
 	'SMTP_AUTH_METHOD_EXPLAIN'		=> 'Alleen gebruiken als een gebruikersnaam/wachtwoord ingesteld is, vraag je provider als je niet zeker bent welke methode je moet gebruiken.',
 	'SMTP_CRAM_MD5'					=> 'CRAM-MD5',
@@ -573,6 +576,7 @@ $lang = array_merge($lang, array(
 	'SMTP_SETTINGS'					=> 'SMTP-instellingen',
 	'SMTP_USERNAME'					=> 'SMTP-gebruikersnaam',
 	'SMTP_USERNAME_EXPLAIN'			=> 'Voer alleen een gebruikersnaam in als je SMTP-server dit vereist.',
+	'TEST_EMAIL_SENT'				=> 'De test e-mail is verzonden.<br />Controleer je e-mailconfiguratie, als je de test e-mail niet hebt ontvangen.<br /><br />Als je hulp nodig hebt, kan je terecht op <a href="http://www.phpbb.nl/forums/index.php">phpbb.nl</a> of <a href="https://www.phpbbservice.nl/forum/">phpbbservice.nl</a>.',
 	'USE_SMTP'						=> 'Gebruik SMTP-server voor e-mail',
 	'USE_SMTP_EXPLAIN'				=> 'Selecteer “Ja” als je e-mail wilt versturen via een genoemde server in plaats van de lokale e-mailfunctie.',
 ));
