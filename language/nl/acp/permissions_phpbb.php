@@ -120,6 +120,7 @@ $lang = array_merge($lang, array(
 	'ACL_F_POST'		=> 'Kan nieuwe onderwerpen starten',
 	'ACL_F_STICKY'		=> 'Kan stickies plaatsen',
 	'ACL_F_ANNOUNCE'	=> 'Kan mededelingen plaatsen',
+	'ACL_F_ANNOUNCE_GLOBAL'	=> 'Kan algemene mededelingen plaatsen',
 	'ACL_F_REPLY'		=> 'Kan op onderwerpen reageren',
 	'ACL_F_EDIT'		=> 'Kan eigen berichten wijzigen',
 	'ACL_F_DELETE'		=> 'Kan eigen berichten permanent verwijderen',
