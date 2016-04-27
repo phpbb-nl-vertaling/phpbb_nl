@@ -70,9 +70,6 @@ $lang = array_merge($lang, array(
 
 	'CAT_FLASH_FILES'			=> 'Flash-bestanden',
 	'CAT_IMAGES'				=> 'Afbeeldingen',
-	'CAT_QUICKTIME_FILES'		=> 'Quicktime media bestanden',
-	'CAT_RM_FILES'				=> 'RealMedia media bestanden',
-	'CAT_WM_FILES'				=> 'Windows Media media bestanden',
 	'CHECK_CONTENT'				=> 'Controleer bijlage bestanden',
 	'CHECK_CONTENT_EXPLAIN'		=> 'Sommige browsers kunnen een incorrecte mimetype voor geüploade bestanden aannemen. Deze optie verzekerd je er van dat zulke bestanden die dit veroorzaken worden afgewezen.',
 	'CREATE_GROUP'				=> 'Nieuwe groep aanmaken',
@@ -105,9 +102,6 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_FLASH_FILES'			=> 'Flash-bestanden',
 	'EXT_GROUP_IMAGES'				=> 'Afbeeldingen',
 	'EXT_GROUP_PLAIN_TEXT'			=> 'Platte tekst',
-	'EXT_GROUP_QUICKTIME_MEDIA'		=> 'Quicktime media',
-	'EXT_GROUP_REAL_MEDIA'			=> 'Real media',
-	'EXT_GROUP_WINDOWS_MEDIA'		=> 'Windows media',
 	
 	'FILES_GONE'			=> 'Enkele van de bijlagen, die je hebt geselecteerd voor verwijdering, bestaan niet. Ze kunnen al verwijderd zijn. Bijlagen die wel bestonden zijn verwijderd.',
 	'FILES_STATS_WRONG'		=> 'Je bestandsstatistieken zijn waarschijnlijk niet meer accuraat en zullen gesynchroniseerd moeten worden. Echte waarden: aantal bijlagen = %1$d, totale grootte van de bijlagen = %2$s.<br />Klik %3$shier%4$s om de statistieken te synchroniseren.',
