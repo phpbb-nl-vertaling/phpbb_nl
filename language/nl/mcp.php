@@ -135,6 +135,7 @@ $lang = array_merge($lang, array(
 	'LOCK_TOPICS_CONFIRM'		=> 'Weet je zeker dat je alle geselecteerde onderwerpen wilt sluiten?',
 	'LOGS_CURRENT_TOPIC'		=> 'Momenteel logs aan het bekijken van:',
 	'LOGIN_EXPLAIN_MCP'			=> 'Om dit forum te modereren moet je aangemeld zijn.',
+	'LOGVIEW_VIEWPOST'			=> 'Bekijk bericht',
 	'LOGVIEW_VIEWTOPIC'			=> 'Bekijk onderwerp',
 	'LOGVIEW_VIEWLOGS'			=> 'Bekijk onderwerp log',
 	'LOGVIEW_VIEWFORUM'			=> 'Bekijk forum',
