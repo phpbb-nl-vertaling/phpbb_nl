@@ -90,31 +90,31 @@ $lang = array_merge($lang, array(
 // Requirements translation
 $lang = array_merge($lang, array(
 	// Filesystem requirements
-	'FILE_NOT_EXISTS'			=> 'File not exists',
-	'FILE_NOT_EXISTS_EXPLAIN'	=> 'To be able to install phpBB %1$s file need to exist.',
-	'FILE_NOT_WRITABLE'			=> 'File not writable',
-	'FILE_NOT_WRITABLE_EXPLAIN'	=> 'To be able to install phpBB %1$s file need to be writable.',
+	'FILE_NOT_EXISTS'			=> 'Het bestand bestaat niet',
+	'FILE_NOT_EXISTS_EXPLAIN'	=> 'Om phpBB te kunnen installeren moet het bestand %1$s op de server aanwezig zijn.',
+	'FILE_NOT_WRITABLE'			=> 'Het bestand is niet schrijfbaar',
+	'FILE_NOT_WRITABLE_EXPLAIN'	=> 'Om phpBB te kunnen installeren moet het bestand %1$s schrijfbaar zijn.',
 
-	'DIRECTORY_NOT_EXISTS'				=> 'Directory not exists',
-	'DIRECTORY_NOT_EXISTS_EXPLAIN'		=> 'To be able to install phpBB %1$s directory need to exist.',
-	'DIRECTORY_NOT_WRITABLE'			=> 'Directory not writable',
-	'DIRECTORY_NOT_WRITABLE_EXPLAIN'	=> 'To be able to install phpBB %1$s directory need to be writable.',
+	'DIRECTORY_NOT_EXISTS'				=> 'De map bestaat niet',
+	'DIRECTORY_NOT_EXISTS_EXPLAIN'		=> 'Om phpBB te kunnen installeren moet de map %1$s op de server aanwezig zijn.',
+	'DIRECTORY_NOT_WRITABLE'			=> 'De map is niet schrijfbaar',
+	'DIRECTORY_NOT_WRITABLE_EXPLAIN'	=> 'Om phpBB te kunnen installeren moet de map %1$s schrijfbaar zijn.',
 
 	// Server requirements
 	'PHP_VERSION_REQD'					=> 'PHP-versie',
-	'PHP_VERSION_REQD_EXPLAIN'			=> 'phpBB requires PHP version 5.4.0 or higher.',
-	'PHP_GETIMAGESIZE_SUPPORT'			=> 'PHP getimagesize() function is required',
-	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> 'In order for phpBB to function correctly, the getimagesize function needs to be available.',
-	'PCRE_UTF_SUPPORT'					=> 'PCRE UTF-8 support',
-	'PCRE_UTF_SUPPORT_EXPLAIN'			=> 'phpBB will not run if your PHP installation is not compiled with UTF-8 support in the PCRE extension.',
-	'PHP_JSON_SUPPORT'					=> 'PHP JSON support',
-	'PHP_JSON_SUPPORT_EXPLAIN'			=> 'In order for phpBB to function correctly, the PHP JSON extension needs to be available.',
-	'PHP_SUPPORTED_DB'					=> 'Supported databases',
-	'PHP_SUPPORTED_DB_EXPLAIN'			=> 'You must have support for at least one compatible database within PHP. If no database modules are shown as available you should contact your hosting provider or review the relevant PHP installation documentation for advice.',
+	'PHP_VERSION_REQD_EXPLAIN'			=> 'phpBB vereist PHP versie 5.4.0 of hoger.',
+	'PHP_GETIMAGESIZE_SUPPORT'			=> 'PHP-functie getimagesize() is beschikbaar',
+	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> '<strong>Vereist</strong> - Om phpBB correct te laten functioneren, zal de getimagesize-functie beschikbaar moeten zijn.',
+	'PCRE_UTF_SUPPORT'				=> 'PCRE UTF-8 onderteuning',
+	'PCRE_UTF_SUPPORT_EXPLAIN'		=> 'phpBB zal <strong>niet</strong> werken als je PHP-installatie niet is gecompileerd met UTF-8 ondersteuning in de PCRE-extensie.',
+	'PHP_JSON_SUPPORT'				=> 'PHP-JSON ondersteuning',
+	'PHP_JSON_SUPPORT_EXPLAIN'		=> '<strong>Verplicht</strong> - Om phpBB correct te laten functioneren, zal de PHP-JSON extensie beschikbaar moeten zijn.',
+	'PHP_SUPPORTED_DB'				=> 'Ondersteunende databases',
+	'PHP_SUPPORTED_DB_EXPLAIN'		=> '<strong>Verplicht</strong> - Er moet tenminste één type database-module worden ondersteund binnen PHP. Als er geen database-module beschikbaar is moet je contact opnemen met je webhost of de documentatie van de betreffende PHP-installatie bekijken voor advies.',
 
-	'RETEST_REQUIREMENTS'	=> 'Retest requirements',
+	'RETEST_REQUIREMENTS'	=> 'Vereisten opnieuw controleren',
 
-	'STAGE_REQUIREMENTS'	=> 'Check requirements'
+	'STAGE_REQUIREMENTS'	=> 'Controleer vereisten'
 ));
 
 // General error messages
@@ -152,15 +152,15 @@ $lang = array_merge($lang, array(
 	// Board data
 	//
 	// Form labels
-	'BOARD_CONFIG'		=> 'Bulletin board configuration',
-	'DEFAULT_LANGUAGE'	=> 'Default language',
-	'BOARD_NAME'		=> 'Title of the board',
-	'BOARD_DESCRIPTION'	=> 'Short description of the board',
+	'BOARD_CONFIG'		=> 'Forum configuratie',
+	'DEFAULT_LANGUAGE'	=> 'Standaard taal',
+	'BOARD_NAME'		=> 'Sitenaam',
+	'BOARD_DESCRIPTION'	=> 'Korte site beschrijving',
 
 	//
 	// Database data
 	//
-	'STAGE_DATABASE'	=> 'Database settings',
+	'STAGE_DATABASE'	=> 'Database instellingen',
 
 	// Form labels
 	'DB_CONFIG'				=> 'Database-configuratie',
