@@ -231,6 +231,7 @@ $lang = array_merge($lang, array(
 	'CRON_NO_SUCH_TASK'		=> 'Kan crontaak “%s” niet vinden.',
 	'CRON_NO_TASK'			=> 'Er hoeven geen crontaken te worden uitgevoerd.',
 	'CRON_NO_TASKS'			=> 'Er kunnen geen crontaken worden gevonden.',
+	'CURRENT_VERSION'		=> 'Huidige versie',
 
 	'DEACTIVATE'				=> 'Deactiveer',
 	'DIRECTORY_DOES_NOT_EXIST'	=> 'Het opgegeven pad “%s” bestaat niet.',
@@ -256,6 +257,7 @@ $lang = array_merge($lang, array(
 	'IP'					=> 'Gebruikers-IP',
 	'IP_HOSTNAME'			=> 'IP-adres of hostnamen',
 
+	'LATEST_VERSION'		=> 'Laatste versie',
 	'LOAD_NOTIFICATIONS'			=> 'Notificaties weergeven',
 	'LOAD_NOTIFICATIONS_EXPLAIN'	=> 'Geef de notificatielijst weer op iedere pagina (meestal in de kop).',
 	'LOGGED_IN_AS'			=> 'Je bent aangemeld als:',
@@ -288,7 +290,9 @@ $lang = array_merge($lang, array(
 	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'Je hebt momenteel de permissies van %1$s. Je kan nu het forum bezoeken met de permissies van deze gebruiker, maar niet het beheerderspaneel omdat beheerderspermissies niet zijn overgebracht. Je kan <a href="%2$s"><strong>je eigen permissies terugzetten</strong></a> op elk moment.',
 	'PROCEED_TO_ACP'					=> '%sGa door naar het beheerderspaneel%s',
 
+	'RELEASE_ANNOUNCEMENT'		=> 'Aankondiging',
 	'REMIND'							=> 'Herinner',
+	'REPARSE_LOCK_ERROR'				=> 'Reparsing is already in progress by another process.',
 	'RESYNC'							=> 'Synchroniseer',
 	'RUNNING_TASK'                  => 'Taak %s uitvoeren.',
 
@@ -420,6 +424,11 @@ $lang = array_merge($lang, array(
 	'VALUE'						=> 'Waarde',
 	'VERSIONCHECK_FAIL'			=> 'Het ophalen van de laatste versie is mislukt.',
 	'VERSIONCHECK_FORCE_UPDATE'	=> 'Hercontroleer versie',
+	'VERSION_CHECK'				=> 'Versiecontrolek',
+	'VERSION_CHECK_EXPLAIN'		=> 'Controleert je phpBB installatie of deze nog up-to-date is.',
+	'VERSION_NOT_UP_TO_DATE_ACP'	=> 'Je phpBB installatie is niet up-to-date.<br />Hieronder is een link naar de uitgave-aankondiging, wat meer informatie alsmede instructies over het updaten bevat.',
+	'VERSION_NOT_UP_TO_DATE_TITLE'	=> 'Je phpBB installatie is niet up-to-date.',
+	'VERSION_UP_TO_DATE_ACP'	=> 'Je phpBB installatie is up-to-date. Er zijn momenteel geen updates beschikbaar.',	
 	'VIEW_ADMIN_LOG'			=> 'Bekijk beheerderslog',
 	'VIEW_INACTIVE_USERS'		=> 'Bekijk inactieve gebruikers',
 
