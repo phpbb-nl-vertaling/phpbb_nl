@@ -92,13 +92,17 @@ $lang = array_merge($lang, array(
 	// Filesystem requirements
 	'FILE_NOT_EXISTS'			=> 'Het bestand bestaat niet',
 	'FILE_NOT_EXISTS_EXPLAIN'	=> 'Om phpBB te kunnen installeren moet het bestand %1$s op de server aanwezig zijn.',
+	'FILE_NOT_EXISTS_EXPLAIN_OPTIONAL'		=> 'Het is aangeraden dat het bestand %1$s aanwezig is op de server voor een betere gebruikerservaring.',
 	'FILE_NOT_WRITABLE'			=> 'Het bestand is niet schrijfbaar',
 	'FILE_NOT_WRITABLE_EXPLAIN'	=> 'Om phpBB te kunnen installeren moet het bestand %1$s schrijfbaar zijn.',
+	'FILE_NOT_WRITABLE_EXPLAIN_OPTIONAL'	=> 'Het is aangeraden om het bestand %1$s schrijfbaar te maken voor een betere gebruikerservaring.',	
 
 	'DIRECTORY_NOT_EXISTS'				=> 'De map bestaat niet',
 	'DIRECTORY_NOT_EXISTS_EXPLAIN'		=> 'Om phpBB te kunnen installeren moet de map %1$s op de server aanwezig zijn.',
+	'DIRECTORY_NOT_EXISTS_EXPLAIN_OPTIONAL'		=> 'Het is aangeraden dat de map %1$s aanwezig is op de server voor een betere gebruikerservaring.',
 	'DIRECTORY_NOT_WRITABLE'			=> 'De map is niet schrijfbaar',
 	'DIRECTORY_NOT_WRITABLE_EXPLAIN'	=> 'Om phpBB te kunnen installeren moet de map %1$s schrijfbaar zijn.',
+		'DIRECTORY_NOT_WRITABLE_EXPLAIN_OPTIONAL'	=> 'Het is aangeraden om de map %1$s schrijfbaar te maken voor een betere gebruikerservaring.',
 
 	// Server requirements
 	'PHP_VERSION_REQD'					=> 'PHP-versie',
@@ -120,7 +124,9 @@ $lang = array_merge($lang, array(
 // General error messages
 $lang = array_merge($lang, array(
 	'INST_ERR_MISSING_DATA'		=> 'Alle velden in dit blok moeten ingevuld zijn.',
-	'PHPBB_ALREADY_INSTALLED'	=> 'phpBB is al geïnstalleerd.'
+	
+	'TIMEOUT_DETECTED_TITLE'	=> 'The installer detected a timeout',
+	'TIMEOUT_DETECTED_MESSAGE'	=> 'The installer has detected a timeout, you may try to refresh the page, which may lead to data corruption. We suggest that you either increase your timeout settings or try to use the CLI.',
 ));
 
 // Data obtaining translations
@@ -200,6 +206,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_SQLITE3'		=> 'De versie van de SQLite-extensie die je hebt geïnstalleerd is te oud, het moet bijgewerkt worden naar versie 3.6.15.',
 	'INST_ERR_DB_NO_ORACLE'			=> 'De versie van Oracle die geïnstalleerd is op deze server verplicht je om de <var>NLS_CHARACTERSET</var>-parameter te laten instellen naar <var>UTF8</var>. Je kan de installatie updaten naar 9.2+ of de parameter veranderen.',
 	'INST_ERR_DB_NO_POSTGRES'		=> 'De database die je hebt geselecteerd is niet aangemaakt in <var>UNICODE</var> of <var>UTF8</var>-codering. Probeer de database te installeren in <var>UNICODE</var> of <var>UTF8</var>-codering.',
+    'INST_SCHEMA_FILE_NOT_WRITABLE'	=> 'The schema file is not writable',
 
 	//
 	// Email data
@@ -311,13 +318,15 @@ $lang = array_merge($lang, array(
 
 // CLI messages
 $lang = array_merge($lang, array(
-	'CLI_INSTALL_BOARD'				=> 'Install phpBB',
-	'CLI_INSTALL_SHOW_CONFIG'		=> 'Show the configuration which will be used',
+	'CLI_INSTALL_BOARD'				=> 'phpBB installeren',
+	'CLI_UPDATE_BOARD'				=> 'phpBB updaten',
+	'CLI_INSTALL_SHOW_CONFIG'		=> 'De configuratie die gebruikt zal worden weergeven',
 	'CLI_INSTALL_VALIDATE_CONFIG'	=> 'Validate a configuration file',
 	'CLI_CONFIG_FILE'				=> 'Config file to use',
 	'MISSING_FILE'					=> 'Unable to access file %1$s',
 	'MISSING_DATA'					=> 'Config file is missing data or might contain invalid settings.',
 	'INVALID_YAML_FILE'				=> 'Could not parse YAML file %1$s',
+	'CONFIGURATION_VALID'			=> 'The configuration file is valid',
 ));
 
 // Common updater messages
