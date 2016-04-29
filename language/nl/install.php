@@ -84,7 +84,7 @@ $lang = array_merge($lang, array(
 	'ACP_LINK'	=> 'Ga naar het <a href="%1$s">beheerderspaneel</a>',
 
 	'INSTALL_PHPBB_INSTALLED'		=> 'phpBB is al geïnstalleerd.',
-	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB is nog niet al geïnstalleerd.'		
+	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB is nog niet geïnstalleerd.'		
 ));
 
 // Requirements translation
@@ -125,18 +125,18 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'INST_ERR_MISSING_DATA'		=> 'Alle velden in dit blok moeten ingevuld zijn.',
 	
-	'TIMEOUT_DETECTED_TITLE'	=> 'The installer detected a timeout',
-	'TIMEOUT_DETECTED_MESSAGE'	=> 'The installer has detected a timeout, you may try to refresh the page, which may lead to data corruption. We suggest that you either increase your timeout settings or try to use the CLI.',
+	'TIMEOUT_DETECTED_TITLE'	=> 'Het installatieprogramma heeft een time-out geconstateerd',
+	'TIMEOUT_DETECTED_MESSAGE'	=> 'Het installatieprogramma heeft een time-out geconstateerd. Je kunt proberen de pagina te vernieuwen, maar dat kan leiden tot corrupte data. We adviseren om je time-out instellingen aan te passen of het via de CLI te proberen.',
 ));
 
 // Data obtaining translations
 $lang = array_merge($lang, array(
-	'STAGE_OBTAIN_DATA'	=> 'Set installation data',
+	'STAGE_OBTAIN_DATA'	=> 'Installatiegegevens instellen',
 
 	//
 	// Admin data
 	//
-	'STAGE_ADMINISTRATOR'	=> 'Gegevensbeheerder',
+	'STAGE_ADMINISTRATOR'	=> 'Gegevens beheerder',
 
 	// Form labels
 	'ADMIN_CONFIG'				=> 'Beheerdersconfiguratie',
@@ -186,7 +186,7 @@ $lang = array_merge($lang, array(
 	'DB_OPTION_MSSQL_ODBC'	=> 'MSSQL Server 2000+ via ODBC',
 	'DB_OPTION_MSSQLNATIVE'	=> 'MSSQL Server 2005+ [ Native ]',
 	'DB_OPTION_MYSQL'		=> 'MySQL',
-	'DB_OPTION_MYSQLI'		=> 'MySQL with MySQLi Extension',
+	'DB_OPTION_MYSQLI'		=> 'MySQL met MySQLi Extensie',
 	'DB_OPTION_ORACLE'		=> 'Oracle',
 	'DB_OPTION_POSTGRES'	=> 'PostgreSQL',
 	'DB_OPTION_SQLITE'		=> 'SQLite 2',
@@ -206,7 +206,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_SQLITE3'		=> 'De versie van de SQLite-extensie die je hebt geïnstalleerd is te oud, het moet bijgewerkt worden naar versie 3.6.15.',
 	'INST_ERR_DB_NO_ORACLE'			=> 'De versie van Oracle die geïnstalleerd is op deze server verplicht je om de <var>NLS_CHARACTERSET</var>-parameter te laten instellen naar <var>UTF8</var>. Je kan de installatie updaten naar 9.2+ of de parameter veranderen.',
 	'INST_ERR_DB_NO_POSTGRES'		=> 'De database die je hebt geselecteerd is niet aangemaakt in <var>UNICODE</var> of <var>UTF8</var>-codering. Probeer de database te installeren in <var>UNICODE</var> of <var>UTF8</var>-codering.',
-    'INST_SCHEMA_FILE_NOT_WRITABLE'	=> 'The schema file is not writable',
+    'INST_SCHEMA_FILE_NOT_WRITABLE'	=> 'Geen schrijfrechten op deze database',
 
 	//
 	// Email data
@@ -295,22 +295,22 @@ $lang = array_merge($lang, array(
 
 	// Install finish tasks
 	'TASK_NOTIFY_USER'			=> 'Notificatie e-mail versturen',
-	'TASK_POPULATE_MIGRATIONS'	=> 'Populating migrations',
+	'TASK_POPULATE_MIGRATIONS'	=> 'Migraties vullen',
 
 	// Installer general progress messages
-	'INSTALLER_FINISHED'	=> 'The installer has finished successfully',
+	'INSTALLER_FINISHED'	=> 'De installatie is succesvul voltooid',
 ));
 
 // Installer's general messages
 $lang = array_merge($lang, array(
 	'MODULE_NOT_FOUND'				=> 'Module niet gevonden',
-	'MODULE_NOT_FOUND_DESCRIPTION'	=> 'A module could not be found because the service, %s, is undefined.',
+	'MODULE_NOT_FOUND_DESCRIPTION'	=> 'Een module kon niet gevonden worden omdat de service, %s, niet is gedefiniëerd.',
 
 	'TASK_NOT_FOUND'				=> 'Taak niet gevonden',
-	'TASK_NOT_FOUND_DESCRIPTION'	=> 'A task could not be found because the service, %s, is undefined.',
+	'TASK_NOT_FOUND_DESCRIPTION'	=> 'Een taak kon niet gevonden worden omdat de service, %s, niet is gedefiniëerd.',
 
-	'SKIP_MODULE'	=> 'Skip “%s” module',
-	'SKIP_TASK'		=> 'Skip “%s” task',
+	'SKIP_MODULE'	=> 'Sla module “%s” over',
+	'SKIP_TASK'		=> 'Sla taak “%s” over',
 
 	'TASK_SERVICE_INSTALLER_MISSING'	=> 'All installer task services should start with “installer”',
 	'TASK_CLASS_NOT_FOUND'				=> 'Installer task service definition is invalid. Service name “%1$s” given, the expected class namespace is “%2$s” for that. For more information please see the documentation of task_interface.',
