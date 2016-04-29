@@ -81,7 +81,7 @@ $lang = array_merge($lang, array(
 
 		<p>Alleen deze databases die worden ondersteunt door uw server zullen worden weergegeven.',
 
-	'ACP_LINK'	=> 'Take me to <a href="%1$s">the ACP</a>',
+	'ACP_LINK'	=> 'Ga naar het <a href="%1$s">beheerderspaneel</a>',
 
 	'INSTALL_PHPBB_INSTALLED'		=> 'phpBB is al geïnstalleerd.',
 	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB is nog niet al geïnstalleerd.'		
@@ -306,7 +306,7 @@ $lang = array_merge($lang, array(
 	'MODULE_NOT_FOUND'				=> 'Module niet gevonden',
 	'MODULE_NOT_FOUND_DESCRIPTION'	=> 'A module could not be found because the service, %s, is undefined.',
 
-	'TASK_NOT_FOUND'				=> 'Task not found',
+	'TASK_NOT_FOUND'				=> 'Taak niet gevonden',
 	'TASK_NOT_FOUND_DESCRIPTION'	=> 'A task could not be found because the service, %s, is undefined.',
 
 	'SKIP_MODULE'	=> 'Skip “%s” module',
@@ -323,12 +323,12 @@ $lang = array_merge($lang, array(
 	'CLI_INSTALL_BOARD'				=> 'phpBB installeren',
 	'CLI_UPDATE_BOARD'				=> 'phpBB updaten',
 	'CLI_INSTALL_SHOW_CONFIG'		=> 'De configuratie die gebruikt zal worden weergeven',
-	'CLI_INSTALL_VALIDATE_CONFIG'	=> 'Validate a configuration file',
-	'CLI_CONFIG_FILE'				=> 'Config file to use',
-	'MISSING_FILE'					=> 'Unable to access file %1$s',
-	'MISSING_DATA'					=> 'Config file is missing data or might contain invalid settings.',
+	'CLI_INSTALL_VALIDATE_CONFIG'	=> 'Valideer een configuratiebestand',
+	'CLI_CONFIG_FILE'				=> 'Configuratiebestand dat gebruikt moet worden',
+	'MISSING_FILE'					=> 'Niet in staat om toegang te krijgen tot het bestand %1$s',
+	'MISSING_DATA'					=> 'Het configuratiebestand is niet aanwezig of bevat ongeldige instellingen.',
 	'INVALID_YAML_FILE'				=> 'Could not parse YAML file %1$s',
-	'CONFIGURATION_VALID'			=> 'The configuration file is valid',
+	'CONFIGURATION_VALID'			=> 'Het configuratiebestand is geldig',
 ));
 
 // Common updater messages
@@ -364,41 +364,41 @@ $lang = array_merge($lang, array(
 // Updater forms
 $lang = array_merge($lang, array(
 	// Updater types
-	'UPDATE_TYPE'			=> 'Type of update to run',
+	'UPDATE_TYPE'			=> 'Updatetype dat gedraait moet worden',
 
-	'UPDATE_TYPE_ALL'		=> 'Update filesystem and database',
-	'UPDATE_TYPE_DB_ONLY'	=> 'Update database only',
+	'UPDATE_TYPE_ALL'		=> 'Het bestandssysteem en de database updaten',
+	'UPDATE_TYPE_DB_ONLY'	=> 'Alleen de database updaten',
 
 	// File updater methods
-	'UPDATE_FILE_METHOD_TITLE'		=> 'File updater methods',
+	'UPDATE_FILE_METHOD_TITLE'		=> 'Bestanden update methodes',
 
-	'UPDATE_FILE_METHOD'			=> 'File updater method',
-	'UPDATE_FILE_METHOD_DOWNLOAD'	=> 'Download modified files in an archive',
-	'UPDATE_FILE_METHOD_FTP'		=> 'Update files via FTP (Automatic)',
-	'UPDATE_FILE_METHOD_FILESYSTEM'	=> 'Update files via direct file access (Automatic)',
+	'UPDATE_FILE_METHOD'			=> 'Bestanden update methode',
+	'UPDATE_FILE_METHOD_DOWNLOAD'	=> 'Aangepast bestandsarchief downloaden',
+	'UPDATE_FILE_METHOD_FTP'		=> 'Updaten via FTP (Automatische)',
+	'UPDATE_FILE_METHOD_FILESYSTEM'	=> 'Update via directe bestandstoegang (Automatische)',
 
 	// File updater archives
-	'SELECT_DOWNLOAD_FORMAT'	=> 'Select download archive format',
+	'SELECT_DOWNLOAD_FORMAT'	=> 'Bestandsformaat voor het archief kiezen',
 
 	// FTP settings
-	'FTP_SETTINGS'			=> 'FTP settings',
+	'FTP_SETTINGS'			=> 'FTP-instellingen',
 ));
 
 // Requirements messages
 $lang = array_merge($lang, array(
-	'UPDATE_FILES_NOT_FOUND'	=> 'No valid update directory was found, please make sure you uploaded the relevant files.',
+	'UPDATE_FILES_NOT_FOUND'	=> 'Er is geen geldige update map gevonden, controleer of de de juiste bestanden naar de juiste locatie hebt geüpload.',
 
-	'NO_UPDATE_FILES_UP_TO_DATE'	=> 'Your version is up to date. There is no need to run the update tool. If you want to make an integrity check on your files make sure you uploaded the correct update files.',
-	'OLD_UPDATE_FILES'				=> 'Update files are out of date. The update files found are for updating from phpBB %1$s to phpBB %2$s but the latest version of phpBB is %3$s.',
-	'INCOMPATIBLE_UPDATE_FILES'		=> 'The update files found are incompatible with your installed version. Your installed version is %1$s and the update file is for updating phpBB %2$s to %3$s.',
+	'NO_UPDATE_FILES_UP_TO_DATE'	=> 'Je versie is up-to-date. Het is niet nodig om het update-hulpmiddel uit te voeren. Als je een integriteitscontrole wilt uitvoeren op de bestanden, wees er dan zeker van dat je de correcte update-bestanden upload.',
+	'OLD_UPDATE_FILES'				=> 'De update-bestanden zijn niet up-to-date. De update-bestanden die gevonden zijn, zijn voor een update van phpBB %1$s naar phpBB %2$s, maar de laatste versie van phpBB is %3$s.',
+	'INCOMPATIBLE_UPDATE_FILES'		=> 'De update-bestanden zijn onverenigbaar met de geïnstalleerde versie. De geïnstalleerde versie is %1$s en de update-bestanden zijn voor het bijwerken van phpBB %2$s naar %3$s.',
 ));
 
 // Update files
 $lang = array_merge($lang, array(
-	'STAGE_UPDATE_FILES'		=> 'Update files',
+	'STAGE_UPDATE_FILES'		=> 'Bestanden updaten',
 
 	// Check files
-	'UPDATE_CHECK_FILES'	=> 'Check files to update',
+	'UPDATE_CHECK_FILES'	=> 'Controleer bestanden om te updaten',
 
 	// Update file differ
 	'FILE_DIFFER_ERROR_FILE_CANNOT_BE_READ'	=> 'The file differ failed to open %s.',
@@ -435,13 +435,13 @@ $lang = array_merge($lang, array(
 	'TOGGLE_DISPLAY'				=> 'Bestandslijst bekijken/verbergen',
 
 	// File updater
-	'UPDATE_UPDATING_FILES'	=> 'Updating files',
+	'UPDATE_UPDATING_FILES'	=> 'Bestanden updaten',
 
 	'UPDATE_FILE_UPDATER_HAS_FAILED'	=> 'File updater “%1$s“ has failed. The installer will try to fallback to “%2$s“.',
 	'UPDATE_FILE_UPDATERS_HAVE_FAILED'	=> 'The file updater failed. No further fallback methods are available.',
 
-	'UPDATE_CONTINUE_UPDATE_PROCESS'	=> 'Continue update process',
-	'UPDATE_RECHECK_UPDATE_FILES'		=> 'Check files again',
+	'UPDATE_CONTINUE_UPDATE_PROCESS'	=> 'Update proces vervolgen',
+	'UPDATE_RECHECK_UPDATE_FILES'		=> 'Bestanden opnieuw controleren',
 ));
 
 // Update database
@@ -517,7 +517,7 @@ $lang = array_merge($lang, array(
 	'SYNC_POST_COUNT_ID'		=> 'Bezig met het synchroniseren van post_counts van <var>entry</var> %1$s tot en met %2$s.',
 	'SYNC_TOPICS'				=> 'Synchronisatie van onderwerpen gestart',
 	'SYNC_TOPIC_ID'				=> 'Bezig met het synchroniseren van onderwerpen van <var>topic_id</var> %1$s tot %2$s.',
-	'PROCESS_LAST'					=> 'Bezig met de laatste stappen',
+	'PROCESS_LAST'				=> 'Bezig met de laatste stappen',
 	'UPDATE_TOPICS_POSTED'		=> 'Genereren van geplaatste onderwerpsinformatie',
 	'UPDATE_TOPICS_POSTED_ERR'	=> 'Er is een fout ontstaan terwijl er geplaatse onderwerpsinformatie werd gegenereerd. Je kan deze stap opnieuw uitvoeren in het beheerderspaneel nadat het conversieproces is voltooid.',
 	'CONTINUE_LAST'				=> 'Doorgaan met de laatste stappen',
@@ -559,3 +559,4 @@ $lang = array_merge($lang, array(
 
 	'PRE_CONVERT_COMPLETE'			=> 'Alle voorbereidende conversie stappen zijn succesvol voltooid. Je mag nu beginnen met het werkelijke conversieproces. Hou in de gaten dat je waarschijnlijk diverse dingen handmatig moet aanpassen. Na de conversie, zal je vooral de toegewezen permissies moeten controleren, de zoekindex moeten herbouwen aangezien die niet mee wordt geconverteerd en wees er ook zeker van dat de bestanden correct zijn gekopieerd, bijvoorbeeld de avatars en smilies.',
 ));	
+
