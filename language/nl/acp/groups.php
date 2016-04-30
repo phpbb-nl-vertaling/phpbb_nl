@@ -129,6 +129,8 @@ $lang = array_merge($lang, array(
 	'NO_USERS'					=> 'Je hebt geen gebruikers ingevuld.',
 	'NO_USERS_ADDED'			=> 'Geen gebruikers toegevoegd aan de groep.',
 	'NO_VALID_USERS'			=> 'Je hebt geen gebruikers ingevuld die geschikt zijn voor die actie.',
+	
+	'PENDING_MEMBERS'			=> 'Wachtend',
 
 	'SELECT_GROUP'				=> 'Selecteer een groep',
 	'SPECIAL_GROUPS'			=> 'Voorgedefinieerde groepen',
