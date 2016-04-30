@@ -315,7 +315,7 @@ $lang = array_merge($lang, array(
 	'TASK_SERVICE_INSTALLER_MISSING'	=> 'All installer task services should start with “installer”',
 	'TASK_CLASS_NOT_FOUND'				=> 'Installer task service definition is invalid. Service name “%1$s” given, the expected class namespace is “%2$s” for that. For more information please see the documentation of task_interface.',
 
-	'INSTALLER_CONFIG_NOT_WRITABLE'	=> 'The installer config file is not writable.',
+	'INSTALLER_CONFIG_NOT_WRITABLE'	=> 'Het installatieprogramma configuratiebestand is niet schrijfbaar.',
 ));
 
 // CLI messages
@@ -327,7 +327,7 @@ $lang = array_merge($lang, array(
 	'CLI_CONFIG_FILE'				=> 'Configuratiebestand dat gebruikt moet worden',
 	'MISSING_FILE'					=> 'Niet in staat om toegang te krijgen tot het bestand %1$s',
 	'MISSING_DATA'					=> 'Het configuratiebestand is niet aanwezig of bevat ongeldige instellingen.',
-	'INVALID_YAML_FILE'				=> 'Could not parse YAML file %1$s',
+	'INVALID_YAML_FILE'				=> 'Kan het YAML bestand niet parsen %1$s',
 	'CONFIGURATION_VALID'			=> 'Het configuratiebestand is geldig',
 ));
 
@@ -401,10 +401,10 @@ $lang = array_merge($lang, array(
 	'UPDATE_CHECK_FILES'	=> 'Controleer bestanden om te updaten',
 
 	// Update file differ
-	'FILE_DIFFER_ERROR_FILE_CANNOT_BE_READ'	=> 'The file differ failed to open %s.',
+	'FILE_DIFFER_ERROR_FILE_CANNOT_BE_READ'	=> 'Het bestanden vergelijken kon niet geopend worden %s.',
 
-	'UPDATE_FILE_DIFF'		=> 'Diffing changed files',
-	'ALL_FILES_DIFFED'		=> 'All modified files has been diffed.',
+	'UPDATE_FILE_DIFF'		=> 'Aangepaste bestanden vergelijken',
+	'ALL_FILES_DIFFED'		=> 'Alle aangepaste bestanden zijn vergeleken.',
 
 	// File status
 	'UPDATE_CONTINUE_FILE_UPDATE'	=> 'Bestanden updaten',
