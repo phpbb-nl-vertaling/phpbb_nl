@@ -224,6 +224,9 @@ $lang = array_merge($lang, array(
 	'ADM_LOGGED_OUT'		=> 'Succesvol afgemeld van het beheerderspaneel',
 
 	'BACK'					=> 'Terug',
+	
+	'CONTAINER_EXCEPTION' => 'phpBB is een foutmelding tegengekomen tijdens het bouwen van de container, veroorzaakt door een geïnstalleerde extensie. Om deze reden zijn alle extensies tijdelijk uitgeschakeld. Probeer de cache van je forum te legen. Alle extensies worden automatische ingeschakeld als de foutmelding is opgelost. Als deze foutmelding zich blijft voordoen, bezoek dan ons support forum via <a href="http://www.phpbb.nl/forums/index.php">phpbb.nl</a> of via <a href="https://www.phpbbservice.nl/forum/">phpbbservice.nl</a>.',
+	'EXCEPTION' => 'Uitzondering',
 
 	'COLOUR_SWATCH'			=> 'Webveilig kleurenpalet',
 	'CONFIG_UPDATED'		=> 'Instellingen succesvol bijgewerkt.',
