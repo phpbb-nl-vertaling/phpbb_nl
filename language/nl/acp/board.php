@@ -535,6 +535,8 @@ $lang = array_merge($lang, array(
 	'REFERRER_VALID_EXPLAIN'		=> 'Indien ingeschakeld, de referentie van POST aanvragen zal worden gecontroleerd worden met de host/script-padinstellingen. Dit kan problemen veroorzaken met forums die gebruik maken van verschillende domeinen en of externe aanmeldingen.',
 	'TPL_ALLOW_PHP'					=> 'PHP in sjablonen toestaan',
 	'TPL_ALLOW_PHP_EXPLAIN'			=> 'Als deze optie is ingeschakeld, zullen <code>PHP</code> en <code>INCLUDEPHP</code> statements herkend worden en verwerkt worden in sjablonen.',
+	'UPLOAD_CERT_VALID'				=> 'Upload certificaat valideren',
+	'UPLOAD_CERT_VALID_EXPLAIN'		=> 'Indien ingeschakeld, zal het certificaat van de handmatige upload worden gevalideerd. Dit vereist dat de CA bundle wordt bepaald door de <samp>openssl.cafile</samp> of <samp>curl.cainfo</samp> instelling in jouw php.ini.',
 ));
 
 // Email Settings
