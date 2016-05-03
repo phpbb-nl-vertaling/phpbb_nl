@@ -295,7 +295,7 @@ $lang = array_merge($lang, array(
 
 	'RELEASE_ANNOUNCEMENT'		=> 'Aankondiging',
 	'REMIND'							=> 'Herinner',
-	'REPARSE_LOCK_ERROR'				=> 'Reparsing is already in progress by another process.',
+	'REPARSE_LOCK_ERROR'				=> 'Opnieuw parsen geschiedt reeds via een ander proces.',
 	'RESYNC'							=> 'Synchroniseer',
 	'RUNNING_TASK'                  => 'Taak %s uitvoeren.',
 
@@ -427,7 +427,7 @@ $lang = array_merge($lang, array(
 	'VALUE'						=> 'Waarde',
 	'VERSIONCHECK_FAIL'			=> 'Het ophalen van de laatste versie is mislukt.',
 	'VERSIONCHECK_FORCE_UPDATE'	=> 'Hercontroleer versie',
-	'VERSION_CHECK'				=> 'Versiecontrolek',
+	'VERSION_CHECK'				=> 'Versiecontrole',
 	'VERSION_CHECK_EXPLAIN'		=> 'Controleert je phpBB installatie of deze nog up-to-date is.',
 	'VERSION_NOT_UP_TO_DATE_ACP'	=> 'Je phpBB installatie is niet up-to-date.<br />Hieronder is een link naar de uitgave-aankondiging, wat meer informatie alsmede instructies over het updaten bevat.',
 	'VERSION_NOT_UP_TO_DATE_TITLE'	=> 'Je phpBB installatie is niet up-to-date.',
