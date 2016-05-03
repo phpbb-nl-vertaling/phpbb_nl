@@ -53,11 +53,11 @@ $lang = array_merge($lang, array(
 	'MIGRATION_SCHEMA_DONE'				=> 'Geïnstalleerde schema: %1$s; Tijd: %2$.2f secondes',
 	'MIGRATION_SCHEMA_RUNNING'         	=> 'Installeren van schema: %s.',
 	
-	'MIGRATION_REVERT_DATA_DONE'		=> 'Reverted Data: %1$s; Tijd: %2$.2f seconden',
-	'MIGRATION_REVERT_DATA_IN_PROGRESS'	=> 'Reverting Data: %1$s; Tijd: %2$.2f seconden',
-	'MIGRATION_REVERT_DATA_RUNNING'		=> 'Reverting Data: %s.',
-	'MIGRATION_REVERT_SCHEMA_DONE'		=> 'Reverted Schema: %1$s; Tijd: %2$.2f seconden',
-	'MIGRATION_REVERT_SCHEMA_RUNNING'	=> 'Reverting Schema: %s.',	
+	'MIGRATION_REVERT_DATA_DONE'		=> 'Gegevens van voor migratie teruggehaald: %1$s; Tijd: %2$.2f seconden',
+	'MIGRATION_REVERT_DATA_IN_PROGRESS'	=> 'Terughalen ongemigreerde data: %1$s; Tijd: %2$.2f seconden',
+	'MIGRATION_REVERT_DATA_RUNNING'		=> 'Terughalen ongemigreerde data: %s.',
+	'MIGRATION_REVERT_SCHEMA_DONE'		=> 'Schema teruggedraaid: %1$s; Tijd: %2$.2f seconden',
+	'MIGRATION_REVERT_SCHEMA_RUNNING'	=> 'Terugdraaien schema: %s.',	
 	
 	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'Een migratie is ongeldig. Een if statement helper mist een conditie.',
 	'MIGRATION_INVALID_DATA_MISSING_STEP'			=> 'Een migratie is ongeldig. Een if statement helper mist een geldige aanroep naar een migratie stap.',
