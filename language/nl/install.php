@@ -312,8 +312,8 @@ $lang = array_merge($lang, array(
 	'SKIP_MODULE'	=> 'Sla module “%s” over',
 	'SKIP_TASK'		=> 'Sla taak “%s” over',
 
-	'TASK_SERVICE_INSTALLER_MISSING'	=> 'All installer task services should start with “installer”',
-	'TASK_CLASS_NOT_FOUND'				=> 'Installer task service definition is invalid. Service name “%1$s” given, the expected class namespace is “%2$s” for that. For more information please see the documentation of task_interface.',
+	'TASK_SERVICE_INSTALLER_MISSING'	=> 'Alle installatie taak services horen te beginnen met “installer”',
+	'TASK_CLASS_NOT_FOUND'				=> 'Installatie taak service definitie is onjuist. Servicenaam is “%1$s”, de verwacht namespace hiervoor is “%2$s”. Raadpleeg voor meer informatie de documentatie over task_interface.',
 
 	'INSTALLER_CONFIG_NOT_WRITABLE'	=> 'Het installatieprogramma configuratiebestand is niet schrijfbaar.',
 ));
