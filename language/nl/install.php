@@ -437,8 +437,8 @@ $lang = array_merge($lang, array(
 	// File updater
 	'UPDATE_UPDATING_FILES'	=> 'Bestanden updaten',
 
-	'UPDATE_FILE_UPDATER_HAS_FAILED'	=> 'File updater “%1$s“ has failed. The installer will try to fallback to “%2$s“.',
-	'UPDATE_FILE_UPDATERS_HAVE_FAILED'	=> 'The file updater failed. No further fallback methods are available.',
+	'UPDATE_FILE_UPDATER_HAS_FAILED'	=> 'Updaten van bestanden via “%1$s“ is mislukt. Het installatieprogramma zal het proberen via de “%2$s“ methode.',
+	'UPDATE_FILE_UPDATERS_HAVE_FAILED'	=> 'Alle methoden om de bestanden bij te werken zijn mislukt. Er zijn geen alternatieven meer.',
 
 	'UPDATE_CONTINUE_UPDATE_PROCESS'	=> 'Update proces vervolgen',
 	'UPDATE_RECHECK_UPDATE_FILES'		=> 'Bestanden opnieuw controleren',
@@ -509,7 +509,7 @@ $lang = array_merge($lang, array(
 	'DB_ERR_LAST'				=> 'Fout tijdens het verwerken van de <var>query_last</var>.',
 	'DB_ERR_QUERY_FIRST'		=> 'Fout tijdens het verwerken van de <var>query_first</var>.',
 	'DB_ERR_QUERY_FIRST_TABLE'	=> 'Fout tijdens het verwerken van de <var>query_first</var>, %s (“%s”).',
-	'DB_ERR_SELECT'				=> 'Error while running <code>SELECT</code> query.',
+	'DB_ERR_SELECT'				=> 'Fout opgetreden tijdens het uitvoeren van een <code>SELECT</code> query.',
 	'STEP_PERCENT_COMPLETED'	=> 'Stap <strong>%d</strong> van <strong>%d</strong>',
 	'FINAL_STEP'				=> 'Doorgaan met de laatste stap',
 	'SYNC_FORUMS'				=> 'Synchronisatie van forums gestart',
