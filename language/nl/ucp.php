@@ -534,7 +534,7 @@ $lang = array_merge($lang, array(
 
 	'UCP_PREFS'					=> 'Forumvoorkeuren',
 	'UCP_PREFS_PERSONAL'		=> 'Wijzig algemene instellingen',
-	'UCP_PREFS_POST'			=> 'Wijzig plaatsingsstandaarden',
+	'UCP_PREFS_POST'			=> 'Wijzig berichtstandaarden',
 	'UCP_PREFS_VIEW'			=> 'Wijzig weergave-opties',
 
 	'UCP_PM'					=> 'Privéberichten',
