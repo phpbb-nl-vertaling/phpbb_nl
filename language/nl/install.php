@@ -102,7 +102,7 @@ $lang = array_merge($lang, array(
 	'DIRECTORY_NOT_EXISTS_EXPLAIN_OPTIONAL'		=> 'Het is aangeraden dat de map %1$s aanwezig is op de server voor een betere gebruikerservaring.',
 	'DIRECTORY_NOT_WRITABLE'			=> 'De map is niet schrijfbaar',
 	'DIRECTORY_NOT_WRITABLE_EXPLAIN'	=> 'Om phpBB te kunnen installeren moet de map %1$s schrijfbaar zijn.',
-		'DIRECTORY_NOT_WRITABLE_EXPLAIN_OPTIONAL'	=> 'Het is aangeraden om de map %1$s schrijfbaar te maken voor een betere gebruikerservaring.',
+	'DIRECTORY_NOT_WRITABLE_EXPLAIN_OPTIONAL'	=> 'Het is aangeraden om de map %1$s schrijfbaar te maken voor een betere gebruikerservaring.',
 
 	// Server requirements
 	'PHP_VERSION_REQD'					=> 'PHP-versie',
