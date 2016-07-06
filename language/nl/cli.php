@@ -82,6 +82,21 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_THUMBNAIL_GENERATE'	=> 'Genereer alle missende thumbnails.',
 	'CLI_DESCRIPTION_THUMBNAIL_RECREATE'	=> 'Genereer alle thumbnails opnieuw.',
 
+	'CLI_DESCRIPTION_USER_ACTIVATE'				=> 'Activeer (of deactiveer) een account.',
+	'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'	=> 'Gebruikersnaam van het te activeren account.',
+	'CLI_DESCRIPTION_USER_ACTIVATE_DEACTIVATE'	=> 'Deactiveer de gebruiker’s account',
+	'CLI_DESCRIPTION_USER_ACTIVATE_ACTIVE'		=> 'Dit gebruikersaccount is al actief.',
+	'CLI_DESCRIPTION_USER_ACTIVATE_INACTIVE'	=> 'Dit gebruikersaccount is al inactief..',
+	'CLI_DESCRIPTION_USER_ADD'					=> 'Voeg een nieuwe gebruiker toe.',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_USERNAME'	=> 'Gebruikersnaam van de nieuwe gebruiker',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_PASSWORD'	=> 'Wachtwoord van de nieuwe gebruiker',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_EMAIL'		=> 'E-mailadres van de nieuwe gebruiker',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_NOTIFY'	=> 'Verstuur accountactivatiemail naar gebruiker (standaard uitgeschakeld)',
+	'CLI_DESCRIPTION_USER_DELETE'				=> 'Verwijder een gebruiker’s account',
+	'CLI_DESCRIPTION_USER_DELETE_USERNAME'		=> 'Gebruikernaam van het te verwijderen account',
+	'CLI_DESCRIPTION_USER_DELETE_OPTION_POSTS'	=> 'Verwijder alle berichten van deze gebruiker. Wanneer niet geselecteerd zullen alle berichten bewaard blijven.',
+	'CLI_DESCRIPTION_USER_RECLEAN'				=> 'Opschonen gebruikersnamen.',
+
 	'CLI_EXTENSION_DISABLE_FAILURE'		=> 'Kan de extensie %s niet uitschakelen',
 	'CLI_EXTENSION_DISABLE_SUCCESS'		=> 'Extensie %s succesvol uitgeschakeld',
 	'CLI_EXTENSION_ENABLE_FAILURE'		=> 'Kan de extensie %s niet inschakelen',
@@ -117,10 +132,25 @@ $lang = array_merge($lang, array(
 	'CLI_THUMBNAIL_DELETING_DONE'	=> 'Alle thumbnails zijn verwijderd.',
 
 	'CLI_THUMBNAIL_NOTHING_TO_GENERATE'	=> 'Geen thumbnails om te genereren.',
-	'CLI_THUMBNAIL_NOTHING_TO_DELETE'	=> 'Geen thumbnails om te verwijderen.',	
+	'CLI_THUMBNAIL_NOTHING_TO_DELETE'	=> 'Geen thumbnails om te verwijderen.',
+
+	'CLI_USER_ADD_SUCCESS'		=> 'Gebruiker %s is succesvol toegevoegd.',
+	'CLI_USER_DELETE_CONFIRM'	=> 'Weet je zeker dat je gebruiker ‘%s’ wilt verwijderen? [y/N]',
+	'CLI_USER_RECLEAN_START'	=> 'Opschonen gebruikersnamen',
+	'CLI_USER_RECLEAN_DONE'		=> [
+		0	=> 'Opschonen klaar. Geen gebruikersnamen hoefden opgeschoond te worden.',
+		1	=> 'Opschonen klaar. %d gebruikersnaam was opgeschoond.',
+		2	=> 'Opschonen klaar. %d gebruikersnamen waren opgeschoond.',
+	],
 ));
 
 // Additional help for commands.
 $lang = array_merge($lang, array(
 	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Hier kun je eventueel een cronjobnaam opgeven, zodat de speciefieke cronjob gedraait kan worden.',
+	'CLI_HELP_USER_ACTIVATE'	=> 'Activeer een gebruikersaccount, of deactiveer een account met de <info>--deactivate</info> optie.
+	Om daar ook nog een activatiemail bij te sturen, gebruik de <info>--send-email</info> optie.',
+	'CLI_HELP_USER_ADD'			=> 'Het <info>%command.name%</info> commando voegt de nieuwe gebruiker toe:
+	Als dit commando wordt gebruikt zonder het toevoegen van opties zal je hier alsnog naar gevraagd worden.
+	Om nog een activatiemail naar de nieuwe gebruiker te sturen, gebruik de <info>--send-email</info> optie.',
+	'CLI_HELP_USER_RECLEAN'		=> 'Het opschonen van gebruikersnamen checkt de database voor alle gebruikersnamen en zorgt ervoor dat schonen varianten worden gebruikt. Schone gebruiksnamen bevatten geen hoofdletters, zijn NFC genormaliseerd en getransformeerd naar ASCII-formaat.',
 ));
