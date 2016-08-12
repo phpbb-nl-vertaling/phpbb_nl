@@ -568,7 +568,7 @@ $lang = array_merge($lang, array(
 	'LOG_CONFIG_SERVER'			=> '<strong>Serverinstellingen aangepast</strong>',
 	'LOG_CONFIG_SETTINGS'		=> '<strong>Foruminstellingen aangepast</strong>',
 	'LOG_CONFIG_SIGNATURE'		=> '<strong>Onderschriftinstellingen aangepast</strong>',
-	'LOG_CONFIG_VISUAL'			=> '<strong>Antispambotinstellingen aangepast</strong>',
+	'LOG_CONFIG_VISUAL'			=> '<strong>Instellingen spambotpreventie aangepast</strong>',
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>Onderwerp goedgekeurd</strong><br />» %s',
 	'LOG_BUMP_TOPIC'			=> '<strong>Gebruiker bracht onderwerp omhoog</strong><br />» %s',
