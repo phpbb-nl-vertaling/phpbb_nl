@@ -417,7 +417,7 @@ $lang = array_merge($lang, array(
 	'MOVE'					=> 'Verplaats',
 
 	'NA'						=> 'N/B',
-	'NEWEST_USER'				=> 'Onze nieuwste lid is <strong>%s</strong>',
+	'NEWEST_USER'				=> 'Ons nieuwste lid is <strong>%s</strong>',
 	'NEW_MESSAGE'				=> 'Nieuw bericht',
 	'NEW_MESSAGES'				=> 'Nieuwe berichten',
 	'NEW_POST'					=> 'Nieuw bericht',	// Not used anymore
