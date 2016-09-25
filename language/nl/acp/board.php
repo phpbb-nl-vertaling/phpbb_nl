@@ -570,6 +570,7 @@ $lang = array_merge($lang, array(
 	'SMTP_PORT'						=> 'SMTP-serverpoort',
 	'SMTP_PORT_EXPLAIN'				=> 'Verander dit alleen als je weet dat je SMTP-server op een andere poort draait.',
 	'SMTP_SERVER'					=> 'SMTP-serveradres',
+	'SMTP_SERVER_EXPLAIN'			=> 'Let erop dat je hier ook het protocol dat de server gebruikt invoert. Als je gebruik maakt van SSL dan moet dit "ssl://jouw.mailserver.nl" worden.',
 	'SMTP_SETTINGS'					=> 'SMTP-instellingen',
 	'SMTP_USERNAME'					=> 'SMTP-gebruikersnaam',
 	'SMTP_USERNAME_EXPLAIN'			=> 'Voer alleen een gebruikersnaam in als je SMTP-server dit vereist.',
