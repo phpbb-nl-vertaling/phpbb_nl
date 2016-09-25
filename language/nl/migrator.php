@@ -49,7 +49,8 @@ $lang = array_merge($lang, array(
 	'MIGRATION_EXCEPTION_ERROR'			=> 'Iets ging verkeerd tijdens de aanvraag en er is een fout opgetreden. De veranderingen voordat de fout voorkwam zijn teruggedraaid naar ons beste kunnen, maar je moet het forum controleren op fouten.',
 	'MIGRATION_NOT_FULFILLABLE'			=> 'De migratie “%1$s” is niet uitvoerbaar, mist migratie “%2$s”.',
   	'MIGRATION_NOT_VALID'				=> '%s is niet een geldige migratie.',
-	'MIGRATION_SCHEMA_DONE'				=> 'Geïnstalleerde schema: %1$s; Tijd: %2$.2f secondes',
+	'MIGRATION_SCHEMA_DONE'				=> 'Geïnstalleerde schema: %1$s; Tijd: %2$.2f seconden',
+	'MIGRATION_SCHEMA_IN_PROGRESS'		=> 'Installeren van schema: %1$s; Tijd: %2$.2f seconden',
 	'MIGRATION_SCHEMA_RUNNING'         	=> 'Installeren van schema: %s.',
 	
 	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'Een migratie is ongeldig. Een if statement helper mist een conditie.',
@@ -60,9 +61,12 @@ $lang = array_merge($lang, array(
 	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> 'Een migratie is ongeldig. Onbekende functie van migratie tool.',	
 
 	'MODULE_ERROR'						=> 'Een fout is opgetreden tijdens het aanmaken van een module: %s',
+	'MODULE_EXISTS'						=> 'Een module bestaat al: %s',
+	'MODULE_EXIST_MULTIPLE'				=> 'Enkele modules met een bepaalde parentmodule bestaan al: %s. Probeer de voor/na sleutels te gebruiken om de moduleplaatsingen duidelijker te maken.',
 	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Een benodigde module info bestand mist: %2$s',
 	'MODULE_NOT_EXIST'					=> 'Een benodigde module bestaat niet: %s',
 
+	'PARENT_MODULE_FIND_ERROR'			=> 'Er kon niet bepaald worden wat de parentmodule was bij: %s',
 	'PERMISSION_NOT_EXIST'				=> 'De permissieinstelling “%s” bestaat onverwachts niet.',
 
 	'ROLE_NOT_EXIST'					=> 'De permissierol “%s” bestaat onverwachts niet.',

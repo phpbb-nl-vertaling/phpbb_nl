@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'De zoekachtergrond is momenteel zijn index aan het opschonen. Dit kan enkele minuten duren.',
 
 	'FULLTEXT_MYSQL_INCOMPATIBLE_DATABASE'	=> 'De “MySQL fulltext”-achtergrond kan alleen gebruikt worden met MySQL4 en hoger.',
-	'FULLTEXT_MYSQL_NOT_SUPPORTED'			=> 'MySQL fulltext indexen kunnen alleen gebruikt worden met MyISAM of InnoDB tabellen. MySQL 5.6.4 of hoger is vereist voor fulltext indexen op InnoDB tabellen.',
+	'FULLTEXT_MYSQL_NOT_SUPPORTED'			=> 'MySQL fulltext indexen kunnen alleen gebruikt worden met MyISAM of InnoDB tabellen. MySQL 5.6.8 of hoger is vereist voor fulltext indexen op InnoDB tabellen.',
 	'FULLTEXT_MYSQL_TOTAL_POSTS'			=> 'Totaal aantal geïndexeerde berichten',
 	'FULLTEXT_MYSQL_MIN_SEARCH_CHARS_EXPLAIN'	=> 'Woorden met tenminste dit aantal tekens zullen worden geïndexeerd in de zoekindex. Jij of je host kan alleen deze instelling wijzigen door de MySQL-configuratie te wijzigen.',
 	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'	=> 'Woorden met niet meer dan dit aantal tekens zullen worden geïndexeerd in de zoekindex. Jij of je host kan alleen deze instelling wijzigen door de MySQL-configuratie te wijzigen.',
