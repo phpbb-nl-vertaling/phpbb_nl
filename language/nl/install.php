@@ -44,7 +44,7 @@ $lang = array_merge($lang, array(
 	'ADMIN_TEST'				=> 'Controleer beheerdersinstellingen',
 	'ADMIN_USERNAME'			=> 'Beheerdersgebruikersnaam',
 	'ADMIN_USERNAME_EXPLAIN'	=> 'Voer een gebruikersnaam in die tussen de 3 en 20 tekens lang is.',
-	'APP_MAGICK'				=> 'Imagemagick ondersteuning [ bijlagen ]',
+	'APP_MAGICK'				=> 'ImageMagick ondersteuning [ bijlagen ]',
 	'AUTHOR_NOTES'				=> 'Auteur notities<br />» %s',
 	'AVAILABLE'					=> 'Beschikbaar',
 	'AVAILABLE_CONVERTORS'		=> 'Beschikbare convertors',
@@ -282,7 +282,7 @@ $lang = array_merge($lang, array(
 	'NOT_UNDERSTAND'			=> 'Kan het volgende niet begrijpen %s #%d, tabel %s (“%s”)',
 	'NO_CONVERTORS'				=> 'Geen convertors zijn er beschikbaar om te gebruiken.',
 	'NO_CONVERT_SPECIFIED'		=> 'Geen convertor opgegeven.',
-	'NO_LOCATION'				=> 'Locatie kan niet worden bepaald. Als je weet dat Imagemagick is geïnstalleerd, geef dan later de locatie op in je beheerderspaneel',
+	'NO_LOCATION'				=> 'Locatie kan niet worden bepaald. Als je weet dat ImageMagick is geïnstalleerd, geef dan later de locatie op in je beheerderspaneel',
 	'NO_TABLES_FOUND'			=> 'Er zijn geen tabellen gevonden.',
 
 	'OVERVIEW_BODY'				=> 'Welkom bij phpBB3!<br /><br />phpBB® is wereldwijd de meest gebruikte open source forumsoftware. phpBB3 is de laatste versie van een pakket dat is gestart met de ontwikkeling in 2000. Zoals zijn voorgangers is phpBB3 functie-rijk, het is gebruiksvriendelijk, en wordt volledig ondersteunt door het phpBB-team. phpBB3 verbeterd alles wat phpBB2 zo populair maakte, en voegt de meest gevraagde functies toe die nog niet aanwezig waren in vorige versies. Wij hopen dat het je verwachtingen overtreft.<br /><br />Het installatiesysteem doorloopt samen met je de stappen om phpBB3 te installeren, bij te werken van oudere versies naar de meest recente phpBB3-versie, en ook nog het converteren naar phpBB3 vanaf een andere forumsoftware (inclusief phpBB2). Voor meer informatie adviseren we je dat je de <a href="../docs/INSTALL.html">installatie handleiding</a> leest. Als je de phpBB3-licentie wilt lezen, of als je wilt weten hoe je ondersteuning kan krijgen, dan kies je de juiste optie in het zij-menu aan de linkerkant van deze pagina. Om verder te gaan selecteer je het juiste tabblad bovenaan de pagina.',
@@ -301,10 +301,10 @@ $lang = array_merge($lang, array(
 	'PHP_REGISTER_GLOBALS_EXPLAIN'	=> 'phpBB zal ook werken wanneer deze instellingen zijn ingeschakeld, maar indien mogelijk is het aanbevolen dat register_globals is uitgeschakeld op je PHP-installatie vanwege beveiligingsredenen.',
 	'PHP_SAFE_MODE'					=> 'Safe mode',
 	'PHP_SETTINGS'					=> 'PHP-versie en instellingen',
-	'PHP_SETTINGS_EXPLAIN'			=> '<strong>Verplicht</strong> - Je moet tenminste op PHP-versie 5.3.3 werken om phpBB te installeren. Als de <var>safe mode</var> wordt weergegeven onder je PHP-installatie, dan is deze mode ingeschakeld. Dit zorgt voor beperkingen met betrekking tot beheer (op afstand) en soort gelijke functies.',
+	'PHP_SETTINGS_EXPLAIN'			=> '<strong>Verplicht</strong> - Je moet tenminste op PHP-versie 5.3.3 (versie 7.0 wordt niet ondersteund) werken om phpBB te installeren. Als de <var>safe mode</var> wordt weergegeven onder je PHP-installatie, dan is deze mode ingeschakeld. Dit zorgt voor beperkingen met betrekking tot beheer (op afstand) en soort gelijke functies.',
 	'PHP_URL_FOPEN_SUPPORT'			=> 'PHP-instelling <var>allow_url_fopen</var> is ingeschakeld',
 	'PHP_URL_FOPEN_SUPPORT_EXPLAIN'	=> '<strong>Optioneel</strong> - Deze instelling is optioneel, maar bepaalde phpBB-functies zoals het gebruiken van een avatar van een andere site zal niet correct werken zonder deze functie.',
-	'PHP_VERSION_REQD'				=> 'PHP-versie >= 5.3.3',
+	'PHP_VERSION_REQD'				=> 'PHP-versie >= 5.3.3, < 7.0.0-dev',
 	'POST_ID'						=> 'Bericht-ID',
 	'PREFIX_FOUND'					=> 'Een scan van al je tabellen heeft gezien dat je als tabel prefix <strong>%s</strong> gebruikt.',
 	'PREPROCESS_STEP'				=> 'Bezig met het uitvoeren van de voorprocedure van functies/queries',
@@ -400,6 +400,7 @@ $lang = array_merge($lang, array(
 	'DATABASE_UPDATE_CONTINUE'			=> 'Bijwerken van de database hervatten',
 	'DATABASE_UPDATE_INFO_OLD'			=> 'Het database-updatebestand in de install-map is niet up-to-date. Wees er zeker van dat je de correcte versie van het bestand hebt geüpload.',
 	'DATABASE_UPDATE_NOT_COMPLETED'		=> 'De database-update is nog niet voltooid.',
+	'DATABASE_VERSION'					=> 'Databaseversie',
 	'DELETE_USER_REMOVE'				=> 'Gebruiker en berichten verwijderen',
 	'DELETE_USER_RETAIN'				=> 'Gebruiker verwijderen maar behoud berichten',
 	'DESTINATION'						=> 'Doelbestand',
@@ -439,6 +440,7 @@ $lang = array_merge($lang, array(
 	'FILES_NOT_MODIFIED_EXPLAIN'	=> 'De volgende bestanden zijn niet aangepast, en zijn gelijk aan de originele phpBB-bestanden van de versie die je wilt bijwerken.',
 	'FILES_UP_TO_DATE'				=> 'Bestanden die al zijn bijgewerkt',
 	'FILES_UP_TO_DATE_EXPLAIN'		=> 'De volgende bestanden zijn al up-to-date en hoeven niet te worden bijgewerkt.',
+	'FILES_VERSION'					=> 'Versie Bestanden',
 	'FTP_SETTINGS'					=> 'FTP-instellingen',
 	'FTP_UPDATE_METHOD'				=> 'FTP-upload',
 
@@ -486,6 +488,7 @@ $lang = array_merge($lang, array(
 	'OLD_UPDATE_FILES'		=> 'De update-bestanden zijn niet up-to-date. De update-bestanden die gevonden zijn, zijn voor een update van phpBB %1$s naar phpBB %2$s, maar de laatste versie van phpBB is %3$s.',
 
 	'PACKAGE_UPDATES_TO'				=> 'Huidig pakket werkt versie bij naar',
+	'PACKAGE_VERSION'					=> 'Versie huidige geinstalleerde pakket',
 	'PERFORM_DATABASE_UPDATE'			=> 'Start een database-update',
 	'PERFORM_DATABASE_UPDATE_EXPLAIN'	=> 'Hieronder vindt je een knop naar het update-database-script. De database-update kan eventjes duren, stop het script niet als het eventueel lijkt dat het vastloopt. Nadat de database-update succesvol is uitgevoerd, volg je de instructies om door te gaan met het update-proces.',
 	'PREVIOUS_VERSION'					=> 'Vorige versie',
@@ -530,6 +533,12 @@ $lang = array_merge($lang, array(
 	'UPDATE_DATABASE_SCHEMA'		=> 'Bezig met het bijwerken van het database-schema',
 	'UPDATE_FILES'					=> 'Bestanden bijwerken',
 	'UPDATE_FILES_NOTICE'			=> 'Wees er ook zeker van dat je de forumbestanden ook bijgewerkt hebt, dit bestand werkt alleen de database bij.',
+	'UPDATE_INCOMPLETE'				=> 'Jouw phpBB installatie is incorrect geüpdatet.',
+	'UPDATE_INCOMPLETE_MORE'		=> 'Lees de informatie hieronder om deze fout op te lossen.',
+	'UPDATE_INCOMPLETE_EXPLAIN'		=> '<h1>Update incompleet</h1>
+	
+	<p>De laatste update van jouw phpBB installatie is niet (compleet) afgemaakt. Navigeer naar het <a href="%1$s" title="%1$s">database_update script</a> en laat het de update uitvoeren. Als dit bestand niet aanwezig is, download dan <a href="https://www.phpbb.com/downloads/" title="phpBB downloads">de versie van jouw pakket</a>, upload de "install" map naar de root van je forum (waar het config.php bestand is) en <a href="%1$s" title="%1$s">voer het database update script uit</a>.</p>',
+	
 	'UPDATE_INSTALLATION'			=> 'phpBB-installatie bijwerken',
 	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Met deze optie, is het mogelijk om je phpBB-installatie te updaten naar de laatste versie.<br />Tijdens het proces zullen alle bestanden gecontroleerd worden op hun aanwezigheid. Je kan ook alle verschillen bekijken van de bestanden voordat je gaat updaten.<br /><br />De bestandsupdate kan je op twee manieren doen.</p><h2>Handmatige update</h2><p>Met deze update download je alleen je persoonlijke set van gewijzigde bestanden om er zeker van te zijn dat je geen extensies kwijt raakt die je hebt geïnstalleerd. Nadat je dit pakket hebt gedownload, zal je de bestanden handmatig moeten uploaden naar hun correcte plaats in je phpBB-hoofdmap, dus waar je de bestanden config.php, memberlist.php, enz kan terugvinden. Wanneer je dat hebt gedaan, kan je een bestandscontrole doen dat je laat zien of de bestanden correct zijn geüpload naar de juiste locatie.</p><h2>Automatische update met de FTP</h2><p>Deze methode is bijna hetzelfde als de eerste, maar met deze methode hoef je niet de gewijzigde bestanden te downloaden naar je eigen computer. Dit wordt namelijk gedaan voor je. Om deze methode te gebruiken heb je de FTP-aanmeldgegevens nodig wanneer er naar wordt gevraagd. Wanneer dat klaar is, zal je worden herleidt naar de bestandscontrolemethode dat controleert of alles correct is bijgewerkt.<br /><br />',
 	'UPDATE_INSTRUCTIONS'			=> '
