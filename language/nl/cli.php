@@ -66,6 +66,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_OPTION_SHELL'				=> 'Shell-toegang openen…',
 	
 	'CLI_DESCRIPTION_PURGE_EXTENSION'			=> 'Leegt de gespecificeerde extensie.',
+	
 	'CLI_DESCRIPTION_REPARSER_LIST'				=> 'Geef de tekst-typen weer welke opnieuw geparsed kunnen worden.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE'			=> 'Parse opgeslagen tekst opnieuw met de huidige opmaakservices.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'	=> 'Teksttype om opnieuw te parsen. Laat leeg om alles opnieuw te parsen.',
@@ -74,13 +75,22 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'	=> 'Hoogste record ID om te verwerken',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'Geschatte aantak records om per keer te verwerken',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RESUME'		=> 'Start opnieuw parsen op het punt dat de vorige operatie stopte.',
+	
 	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'	=> 'Herberekend de “user_email_hash”-kolom van de “users”-tabel.',
+	
 	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'			=> 'Stelt een configuratie-optie waarde alleen in, als de oude waarde overeenkomt met de nieuwe waarde.',
 	'CLI_DESCRIPTION_SET_CONFIG'				=> 'Stelt een configuratie-optie waarde in',
 
 	'CLI_DESCRIPTION_THUMBNAIL_DELETE'		=> 'Verwijder alle thumbnails.',
 	'CLI_DESCRIPTION_THUMBNAIL_GENERATE'	=> 'Genereer alle missende thumbnails.',
 	'CLI_DESCRIPTION_THUMBNAIL_RECREATE'	=> 'Genereer alle thumbnails opnieuw.',
+	
+	'CLI_DESCRIPTION_UPDATE_CHECK'				=> 'Controleer of de installie bijgewerkt is naar de laatste versie.',
+	'CLI_DESCRIPTION_UPDATE_CHECK_ARGUMENT_1'		=> 'Naam van de te controleren extensie (of alle extensies)',
+	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'		=> 'Draai de controle vanuit de cache',
+	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY'	=> 'Voer controle uit of alleen stabiele of ook instabiele versies.',
+
+	'CLI_ERROR_INVALID_STABILITY' => '"%s" is geen valide stabiliteit.',	
 
 	'CLI_DESCRIPTION_USER_ACTIVATE'				=> 'Activeer (of deactiveer) een account.',
 	'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'	=> 'Gebruikersnaam van het te activeren account.',
@@ -104,6 +114,8 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSION_NAME'				=> 'Naam van de extensie',
 	'CLI_EXTENSION_PURGE_FAILURE'		=> 'Kan extensie %s niet legen',
 	'CLI_EXTENSION_PURGE_SUCCESS'		=> 'Extensie %s succesvol geleegd',
+	'CLI_EXTENSION_UPDATE_FAILURE'		=> 'Kon de extensie %s niet bijwerken',
+	'CLI_EXTENSION_UPDATE_SUCCESS'		=> 'Extensie %s succesvol bijgewerkt',
 	'CLI_EXTENSION_NOT_FOUND'			=> 'Geen extensies gevonden.',
 	'CLI_EXTENSIONS_AVAILABLE'			=> 'Beschikbaar',
 	'CLI_EXTENSIONS_DISABLED'			=> 'Uitgeschakeld',
