@@ -72,7 +72,6 @@ $lang = array_merge($lang, array(
 		<ul>
 			<li>MySQL 3.23 of hoger (MySQLi ondersteuning)</li>
 			<li>PostgreSQL 8.3+</li>
-			<li>SQLite 2.8.2+</li>
 			<li>SQLite 3.6.15+</li>
 			<li>MS SQL Server 2000 of hoger (direct of met ODBC)</li>
 			<li>MS SQL Server 2005 of hoger (native)</li>
@@ -113,6 +112,8 @@ $lang = array_merge($lang, array(
 	'PCRE_UTF_SUPPORT_EXPLAIN'		=> 'phpBB zal <strong>niet</strong> werken als je PHP-installatie niet is gecompileerd met UTF-8 ondersteuning in de PCRE-extensie.',
 	'PHP_JSON_SUPPORT'				=> 'PHP-JSON ondersteuning',
 	'PHP_JSON_SUPPORT_EXPLAIN'		=> '<strong>Verplicht</strong> - Om phpBB correct te laten functioneren, zal de PHP-JSON extensie beschikbaar moeten zijn.',
+	'PHP_XML_SUPPORT'					=> 'PHP XML/DOM ondersteuning',
+	'PHP_XML_SUPPORT_EXPLAIN'			=> 'Om phpBB correct te laten functioneren, zal de PHP XML/DOM extensie beschikbaar moeten zijn.',
 	'PHP_SUPPORTED_DB'				=> 'Ondersteunende databases',
 	'PHP_SUPPORTED_DB_EXPLAIN'		=> '<strong>Verplicht</strong> - Er moet tenminste één type database-module worden ondersteund binnen PHP. Als er geen database-module beschikbaar is moet je contact opnemen met je webhost of de documentatie van de betreffende PHP-installatie bekijken voor advies.',
 
@@ -178,18 +179,17 @@ $lang = array_merge($lang, array(
 	'DB_PASSWORD'			=> 'Database-wachtwoord',
 	'DB_NAME'				=> 'Database-naam',
 	'DB_USERNAME'			=> 'Database-gebruikersnaam',
+	'DATABASE_VERSION'		=> 'Database versie',
 	'TABLE_PREFIX'			=> 'Prefix voor tabellen in de database',
 	'TABLE_PREFIX_EXPLAIN'	=> 'De prefix moet starten met een letter en mag alleen letters, getallen en onderstrepingen bevatten.',
 
 	// Database options
-	'DB_OPTION_MSSQL'		=> 'MSSQL Server 2000+',
 	'DB_OPTION_MSSQL_ODBC'	=> 'MSSQL Server 2000+ via ODBC',
 	'DB_OPTION_MSSQLNATIVE'	=> 'MSSQL Server 2005+ [ Native ]',
 	'DB_OPTION_MYSQL'		=> 'MySQL',
 	'DB_OPTION_MYSQLI'		=> 'MySQL met MySQLi Extensie',
 	'DB_OPTION_ORACLE'		=> 'Oracle',
 	'DB_OPTION_POSTGRES'	=> 'PostgreSQL',
-	'DB_OPTION_SQLITE'		=> 'SQLite 2',
 	'DB_OPTION_SQLITE3'		=> 'SQLite 3',
 
 	// Errors
@@ -202,7 +202,6 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_ERROR'			=> 'Geen foutmelding gegeven.',
 	'INST_ERR_PREFIX'				=> 'Tabellen met de opgegeven prefix bestaan al, kies een andere prefix als alternatief.',
 	'INST_ERR_DB_NO_MYSQLI'			=> 'De versie van MySQL die geïnstalleerd is op deze server werkt niet met de “MySQL met MySQLi-extensie”-optie die je hebt geselecteerd. Probeer in plaats daarvan de optie “MySQL”.',
-	'INST_ERR_DB_NO_SQLITE'			=> 'De versie van de SQLite-extensie die je hebt geïnstalleerd is te oud, het moet bijgewerkt worden naar versie 2.8.2.',
 	'INST_ERR_DB_NO_SQLITE3'		=> 'De versie van de SQLite-extensie die je hebt geïnstalleerd is te oud, het moet bijgewerkt worden naar versie 3.6.15.',
 	'INST_ERR_DB_NO_ORACLE'			=> 'De versie van Oracle die geïnstalleerd is op deze server verplicht je om de <var>NLS_CHARACTERSET</var>-parameter te laten instellen naar <var>UTF8</var>. Je kan de installatie updaten naar 9.2+ of de parameter veranderen.',
 	'INST_ERR_DB_NO_POSTGRES'		=> 'De database die je hebt geselecteerd is niet aangemaakt in <var>UNICODE</var> of <var>UTF8</var>-codering. Probeer de database te installeren in <var>UNICODE</var> of <var>UTF8</var>-codering.',
@@ -212,6 +211,14 @@ $lang = array_merge($lang, array(
 	// Email data
 	//
 	'EMAIL_CONFIG'	=> 'E-mail-configuratie',
+	
+	// Package info
+	'PACKAGE_VERSION'					=> 'Pakketversie geïnstalleerd',
+	'UPDATE_INCOMPLETE'				=> 'Je phpBB installatie is niet correct bijgewerkt.',
+	'UPDATE_INCOMPLETE_MORE'		=> 'Lees de onderstaande informatie om het probleem op te lossen.',
+	'UPDATE_INCOMPLETE_EXPLAIN'		=> '<h1>Incomplete update</h1>
+
+		<p>We hebben geconstateerd dat de laatste update van je phpBB installatie niet is afgerond. Volg de <a href="%1$s" title="%1$s">database updater</a>, zorg ervoor dat <em>Aleen database bijwerken</em> is geselecteerd en klik op <strong>Verstuur</strong>. Vergeet niet om de "install"-map te verwijderen nadat de database succesvol is bijgewerkt.</p>',
 
 	//
 	// Server data
@@ -294,6 +301,7 @@ $lang = array_merge($lang, array(
 	'TASK_ADD_MODULES'		=> 'Modules installeren',
 
 	// Install finish tasks
+	'TASK_INSTALL_EXTENSIONS'	=> 'Gebundelde extensies installeren',
 	'TASK_NOTIFY_USER'			=> 'Notificatie e-mail versturen',
 	'TASK_POPULATE_MIGRATIONS'	=> 'Migraties vullen',
 
@@ -432,6 +440,7 @@ $lang = array_merge($lang, array(
 	'FILES_NOT_MODIFIED_EXPLAIN'	=> 'De volgende bestanden zijn niet aangepast, en zijn gelijk aan de originele phpBB-bestanden van de versie die je wilt bijwerken.',
 	'FILES_UP_TO_DATE'				=> 'Bestanden die al zijn bijgewerkt',
 	'FILES_UP_TO_DATE_EXPLAIN'		=> 'De volgende bestanden zijn al up-to-date en hoeven niet te worden bijgewerkt.',
+	'FILES_VERSION'					=> 'Versie bestanden',
 	'TOGGLE_DISPLAY'				=> 'Bestandslijst bekijken/verbergen',
 
 	// File updater
@@ -449,6 +458,8 @@ $lang = array_merge($lang, array(
 	'STAGE_UPDATE_DATABASE'		=> 'Database updaten',
 
 	'INLINE_UPDATE_SUCCESSFUL'		=> 'Het bijwerken van de database is succesvol voltooid.',
+	
+	'TASK_UPDATE_EXTENSIONS'	=> 'Extensies bijwerken',
 ));
 
 // Converter
