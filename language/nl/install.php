@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 
 	// Support page
 	'SUPPORT_TITLE'		=> 'Support',
-	'SUPPORT_BODY'		=> 'Volledige ondersteuning word gegegeven voor de huidige stabiele versie van phpBB3, helemaal gratis. Dit is inclusief:</p><ul><li>Installatie</li><li>Configuratie</li><li>Technische vragen</li><li>Problemen die zijn gerelateerd aan potentiële fouten in de software</li><li>Updaten van een Release Candidate (RC) versie naar de laatste stabiele versie</li><li>Converteren van phpBB 2.0.x naar phpBB3</li><li>Converteren van een ander discussie forumsoftware naar phpBB3</li></ul><p>Wij moedigen gebruikers aan die nog steeds beta-versies hebben van phpBB3, dat ze hun installatie vervangen met een nieuwe kopie van de laatste versie.</p></p><h2>Verkijgen van support</h2><p><ul><li><a href="http://www.phpbbservice.nl/forum">phpBBservice.nl Supportforums</a> of <a href="http://www.phpbb.nl/forum">phpBB.nl Supportforums</a></li></ul><br /><br />',
+	'SUPPORT_BODY'		=> '<p>Volledige ondersteuning word gegegeven voor de huidige stabiele versie van phpBB3, helemaal gratis. Dit is inclusief:</p><ul><li>Installatie</li><li>Configuratie</li><li>Technische vragen</li><li>Problemen die zijn gerelateerd aan potentiële fouten in de software</li><li>Updaten van een Release Candidate (RC) versie naar de laatste stabiele versie</li><li>Converteren van phpBB 2.0.x naar phpBB3</li><li>Converteren van een ander discussie forumsoftware naar phpBB3</li></ul><p>Wij moedigen gebruikers aan die nog steeds beta-versies hebben van phpBB3, dat ze hun installatie vervangen met een nieuwe kopie van de laatste versie.</p></p><h2>Verkijgen van support</h2><p><ul><li><a href="http://www.phpbbservice.nl/forum">phpBBservice.nl Supportforums</a> of <a href="http://www.phpbb.nl/forum">phpBB.nl Supportforums</a></li></ul><br /><br />',
 
 	// License
 	'LICENSE_TITLE'		=> 'General Public License',
@@ -356,7 +356,8 @@ $lang = array_merge($lang, array(
 		<p>De aanbevolen manier van updaten die hieronder staat beschreven is alleen geldig voor het Automatische update-pakket. Je mag je forum ook updaten met de methodes die beschreven zijn in het <a href="../docs/INSTALL.html">INSTALL.html</a> document. De stappen om phpBB3 automatisch te updaten zijn als volgt:</p>
 		
 		<ul style="margin-left: 20px; font-size: 1.1em;">
-			<li>Ga naar de downloadspagina van <a href="https://www.phpbb.nl/downloads/" title="http://www.phpbb.nl/downloads/">phpBB.nl</a> of <a href="https://www.phpBBservice.nl/downloads/" title="http://www.phpBBservice.nl/downloads/">phpBBservice.nl</a> en download het "Automatisch update-pakket".<br /><br /></li>
+			<li>Ga naar de downloadspagina van <a href="https://www.phpbb.nl/downloads/" title="http://www.phpbb.nl/downloads/">phpBB.nl</a> of <a href="https://www.phpBBservice.nl/downloads/" title="http://www.
+			vice.nl/downloads/">phpBBservice.nl</a> en download het "Automatisch update-pakket".<br /><br /></li>
             <li>Pak het archiefbestand uit.<br /><br /></li>
 			<li>Upload de uitgepakte "install" en "vendor" mappen naar je phpBB-hoofdmap (waar je config.php staat).<br /><br /></li>
 		</ul>
