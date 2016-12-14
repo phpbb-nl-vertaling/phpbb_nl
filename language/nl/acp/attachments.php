@@ -111,7 +111,7 @@ $lang = array_merge($lang, array(
 
 	'IMAGE_LINK_SIZE'			=> 'Afbeelding koppeling dimensie',
 	'IMAGE_LINK_SIZE_EXPLAIN'	=> 'Geef afbeeldingsbijlage weer als een inline tekst koppeling als de afbeelding groter is dan dit. Om dit gedrag uit te schakelen, stel dan de waarde in op 0px bij 0px.',
-	'IMAGICK_PATH'				=> 'Imagemagick pad',
+	'IMAGICK_PATH'				=> 'ImageMagick pad',
 	'IMAGICK_PATH_EXPLAIN'		=> 'Volledig pad naar de imagemagick convertor applicatie, bijv. <samp>/usr/bin/</samp>.',
 
 	'MAX_ATTACHMENTS'				=> 'Maximum aantal bijlagen per bericht',
