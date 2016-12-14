@@ -107,6 +107,8 @@ $lang = array_merge($lang, array(
 	'ACP_GROUPS_MANAGEMENT'			=> 'Groepsbeheer',
 	'ACP_GROUPS_PERMISSIONS'		=> 'Groepspermissies',
 	'ACP_GROUPS_POSITION'			=> 'Beheer groepposities',
+	
+	'ACP_HELP_PHPBB'			=> 'Ondersteun phpBB',
 
 	'ACP_ICONS'					=> 'Onderwerpiconen',
 	'ACP_ICONS_SMILIES'			=> 'Onderwerpiconen/smilies',
@@ -167,7 +169,6 @@ $lang = array_merge($lang, array(
 	'ACP_SEARCH_SETTINGS'		=> 'Zoekinstellingen',
 
 	'ACP_SECURITY_SETTINGS'		=> 'Beveiligingsinstellingen',
-	'ACP_SEND_STATISTICS'		=> 'Verstuur statistische informatie',
 	'ACP_SERVER_CONFIGURATION'	=> 'Serverinstellingen',
 	'ACP_SERVER_SETTINGS'		=> 'Serverinstellingen',
 	'ACP_SIGNATURE_SETTINGS'	=> 'Onderschriftinstellingen',
@@ -326,6 +327,9 @@ $lang = array_merge($lang, array(
 	'UCP'					=> 'Gebruikerspaneel',
 	'USERNAMES_EXPLAIN'		=> 'Plaats iedere gebruikersnaam op een aparte regel.',
 	'USER_CONTROL_PANEL'	=> 'Gebruikerspaneel',
+	'UPDATE_NEEDED'			=> 'Je installatie is niet up to date.',
+	'UPDATE_NOT_NEEDED'		=> 'Je installatie is up to date.',
+	'UPDATES_AVAILABLE'		=> 'Updates beschikbaar:',
 
 	'WARNING'				=> 'Waarschuwing',
 ));
@@ -474,16 +478,18 @@ $lang = array_merge($lang, array(
 	'USER_IS_INACTIVE'		=> 'Gebruiker is inactief',
 ));
 
-// Send statistics page
+// Help support phpBB page
 $lang = array_merge($lang, array(
 	'EXPLAIN_SEND_STATISTICS'	=> 'Verstuur informatie over je server en foruminstellingen naar phpBB voor statistische analyse. Alle informatie dat je of je website kan identificeren is verwijderd - de data is compleet <strong>anoniem</strong>. We baseren beslissingen over de toekomstige phpBB-versies op deze informatie. De statistieken zullen openbaar worden gemaakt. We delen ook deze data met het PHP-project, de programmeertaal waarin phpBB is geschreven.',
 	'EXPLAIN_SHOW_STATISTICS'	=> 'Door gebruik te maken van de knop hieronder kan je bekijken welke variabelen verstuurd zullen worden.',
 	'DONT_SEND_STATISTICS'		=> 'Ga terug naar de beheerderspaneel als je geen statistische informatie naar phpBB wilt versturen.',
 	'GO_ACP_MAIN'				=> 'Ga naar de beheerderspaneel startpagina',
 	'HIDE_STATISTICS'			=> 'Details verbergen',
-	'SEND_STATISTICS'			=> 'Statistische informatie versturen',
+	'SEND_STATISTICS'			=> 'Statistieken versturen',
+	'SEND_STATISTICS_LONG'			=> 'Statistische informatie versturen',
 	'SHOW_STATISTICS'			=> 'Details tonen',
 	'THANKS_SEND_STATISTICS'	=> 'Dank je wel voor het versturen van je informatie.',
+	'FAIL_SEND_STATISTICS'		=> 'phpBB kon de statistieken niet versturen',
 ));
 
 // Log Entries
@@ -815,5 +821,6 @@ $lang = array_merge($lang, array(
 	
 	'LOG_EXT_ENABLE'	=> '<strong>Extensie ingeschakeld</strong><br />» %s',
 	'LOG_EXT_DISABLE'	=> '<strong>Extensie uitgeschakeld</strong><br />» %s',
-	'LOG_EXT_PURGE'		=> '<strong>Extensiegegevens verwijderd</strong><br />» %s',	
+	'LOG_EXT_PURGE'		=> '<strong>Extensiegegevens verwijderd</strong><br />» %s',
+	'LOG_EXT_UPDATE'	=> '<strong>Extensie bijgewerkt</strong><br />» %s'
 ));
