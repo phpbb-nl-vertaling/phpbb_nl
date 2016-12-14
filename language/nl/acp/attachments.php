@@ -147,7 +147,7 @@ $lang = array_merge($lang, array(
 	'REMOVE_DISALLOWED_IPS'			=> 'Verwijder of sluit uit <em>verboden</em> IPs/hostnamen',
 	'RESYNC_FILES_STATS_CONFIRM'	=> 'Weet je zeker dat je de bestandsstatistieken wilt synchroniseren?',	
 
-	'SEARCH_IMAGICK'				=> 'Zoek naar Imagemagick',
+	'SEARCH_IMAGICK'				=> 'Zoek naar ImageMagick',
 	'SECURE_ALLOW_DENY'				=> 'Toegestaan/Verboden lijst',
 	'SECURE_ALLOW_DENY_EXPLAIN'		=> 'Verandert het standaard gedrag, wanneer beveiligde downloads zijn ingeschakeld, van de toegestaan/verboden lijst naar die van een <strong>witte lijst</strong> (Toegestaan) of een <strong>zwarte lijst</strong> (Verboden).',
 	'SECURE_DOWNLOADS'				=> 'Beveiligde downloads inschakelen',
