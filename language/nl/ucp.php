@@ -100,6 +100,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_DRIVER_UPLOAD_TITLE'	=> 'Upload avatar',
 	'AVATAR_DRIVER_UPLOAD_EXPLAIN'	=> 'Upload je eigen avatar.',
 	'AVATAR_EXPLAIN'				=> 'Maximum afmetingen; breedte: %1$s, hoogte: %2$s, bestandsgrootte: %3$.2f KiB.',
+	'AVATAR_EXPLAIN_NO_FILESIZE'	=> 'Maximum afmetingen; breedte: %1$s, hoogte: %2$s.',
 	'AVATAR_FEATURES_DISABLED'		=> 'De avatarfunctionaliteit is momenteel uitgeschakeld.',
 	'AVATAR_GALLERY'				=> 'Lokale galerij',
 	'AVATAR_GENERAL_UPLOAD_ERROR'	=> 'Kan avatar niet uploaden naar %s.',
