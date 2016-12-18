@@ -68,6 +68,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_PURGE_EXTENSION'			=> 'Leegt de gespecificeerde extensie.',
 	
 	'CLI_DESCRIPTION_REPARSER_LIST'				=> 'Geef de tekst-typen weer welke opnieuw geparsed kunnen worden.',
+	'CLI_DESCRIPTION_REPARSER_AVAILABLE'				=> 'Beschikbare herparsers:',
 	'CLI_DESCRIPTION_REPARSER_REPARSE'			=> 'Parse opgeslagen tekst opnieuw met de huidige opmaakservices.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'	=> 'Teksttype om opnieuw te parsen. Laat leeg om alles opnieuw te parsen.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'Sla geen wijzigingen op; geef alleen weer wat er zou gebeuren.',
