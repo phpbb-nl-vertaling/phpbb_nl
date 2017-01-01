@@ -108,7 +108,7 @@ $lang = array_merge($lang, array(
 	'ACP_GROUPS_PERMISSIONS'		=> 'Groepspermissies',
 	'ACP_GROUPS_POSITION'			=> 'Beheer groepposities',
 	
-	'ACP_HELP_PHPBB'			=> 'Ondersteun phpBB',
+	'ACP_HELP_PHPBB'			=> 'Steun phpBB',
 
 	'ACP_ICONS'					=> 'Onderwerpiconen',
 	'ACP_ICONS_SMILIES'			=> 'Onderwerpiconen/smilies',
@@ -327,8 +327,8 @@ $lang = array_merge($lang, array(
 	'UCP'					=> 'Gebruikerspaneel',
 	'USERNAMES_EXPLAIN'		=> 'Plaats iedere gebruikersnaam op een aparte regel.',
 	'USER_CONTROL_PANEL'	=> 'Gebruikerspaneel',
-	'UPDATE_NEEDED'			=> 'Je installatie is niet up to date.',
-	'UPDATE_NOT_NEEDED'		=> 'Je installatie is up to date.',
+	'UPDATE_NEEDED'			=> 'Je installatie is niet up-to-date.',
+	'UPDATE_NOT_NEEDED'		=> 'Je installatie is up-to-date.',
 	'UPDATES_AVAILABLE'		=> 'Updates beschikbaar:',
 
 	'WARNING'				=> 'Waarschuwing',
@@ -442,10 +442,10 @@ $lang = array_merge($lang, array(
 	'VERSIONCHECK_FAIL'			=> 'Het ophalen van de laatste versie is mislukt.',
 	'VERSIONCHECK_FORCE_UPDATE'	=> 'Hercontroleer versie',
 	'VERSION_CHECK'				=> 'Versiecontrole',
-	'VERSION_CHECK_EXPLAIN'		=> 'Controleert je phpBB installatie of deze nog up-to-date is.',
-	'VERSION_NOT_UP_TO_DATE_ACP'	=> 'Je phpBB installatie is niet up-to-date.<br />Hieronder is een link naar de uitgave-aankondiging, wat meer informatie alsmede instructies over het updaten bevat.',
-	'VERSION_NOT_UP_TO_DATE_TITLE'	=> 'Je phpBB installatie is niet up-to-date.',
-	'VERSION_UP_TO_DATE_ACP'	=> 'Je phpBB installatie is up-to-date. Er zijn momenteel geen updates beschikbaar.',	
+	'VERSION_CHECK_EXPLAIN'		=> 'Controleert je phpBB-installatie of deze nog up-to-date is.',
+	'VERSION_NOT_UP_TO_DATE_ACP'	=> 'Je phpBB-installatie is niet up-to-date.<br />Hieronder is een link naar de uitgave-aankondiging, wat meer informatie alsmede instructies over het updaten bevat.',
+	'VERSION_NOT_UP_TO_DATE_TITLE'	=> 'Je phpBB-installatie is niet up-to-date.',
+	'VERSION_UP_TO_DATE_ACP'	=> 'Je phpBB-installatie is up-to-date. Er zijn momenteel geen updates beschikbaar.',	
 	'VIEW_ADMIN_LOG'			=> 'Bekijk beheerderslog',
 	'VIEW_INACTIVE_USERS'		=> 'Bekijk inactieve gebruikers',
 
@@ -621,8 +621,8 @@ $lang = array_merge($lang, array(
 	'LOG_DOWNLOAD_REMOVE_IP'	=> '<strong>IP/hostnaam verwijderd van downloadlijst</strong><br />» %s',
 
 	'LOG_ERROR_JABBER'		=> '<strong>Jabber-fout</strong><br />» %s',
-	'LOG_ERROR_EMAIL'		=> '<strong>E-mail fout</strong><br />» %s',
-	'LOG_ERROR_CAPTCHA'		=> '<strong>CAPTCHA fout</strong><br />» %s',
+	'LOG_ERROR_EMAIL'		=> '<strong>E-mail-fout</strong><br />» %s',
+	'LOG_ERROR_CAPTCHA'		=> '<strong>CAPTCHA-fout</strong><br />» %s',
 
 	'LOG_FORUM_ADD'							=> '<strong>Nieuw forum aangemaakt</strong><br />» %s',
 	'LOG_FORUM_COPIED_PERMISSIONS'			=> '<strong>Forumpermissies gekopieerd</strong> van %1$s<br />» %2$s',

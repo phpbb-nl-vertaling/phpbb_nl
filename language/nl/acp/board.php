@@ -99,7 +99,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_TOPIC_NOTIFY'		=> 'Abonneren op onderwerpen inschakelen',
 	'BOARD_PM'					=> 'Privéberichten',
 	'BOARD_PM_EXPLAIN'			=> 'Privéberichten voor alle gebruikers inschakelen.',
-	'ALLOW_BOARD_NOTIFICATIONS' => 'Forum notificaties toestaan',
+	'ALLOW_BOARD_NOTIFICATIONS' => 'Forumnotificaties toestaan',
 ));
 
 // Avatar Settings
@@ -509,7 +509,7 @@ $lang = array_merge($lang, array(
 	'FORM_TIME_MAX_EXPLAIN'			=> 'De tijd die een gebruiker heeft om een formulier te versturen. Gebruik -1 om dit uit te schakelen. Let op dat een formulier mogelijk ongeldig wordt als de sessies verloopt, ongeacht deze instelling.',
 	'FORM_SID_GUESTS'				=> 'Verbind formulieren aan gastsessies',
 	'FORM_SID_GUESTS_EXPLAIN'		=> 'Indien ingeschakeld, de formulierteken uitgegeven aan de gasten zal dan sessie exclusief worden. Dit kan problemen geven met sommige ISPs.',
-	'FORWARDED_FOR_VALID'			=> 'Valideer <var>X_FORWARDED_FOR</var> header',
+	'FORWARDED_FOR_VALID'			=> 'Valideer <var>X_FORWARDED_FOR</var>-header',
 	'FORWARDED_FOR_VALID_EXPLAIN'	=> 'Sessies zullen alleen doorgaan als de verzonden <var>X_FORWARDED_FOR</var>-header gelijk is aan degene die verstuurd is met het vorige verzoek. Verbanningen zullen ook gecontroleerd worden op IPs in <var>X_FORWARDED_FOR</var>.',
 	'IP_VALID'						=> 'Sessie IP-validatie',
 	'IP_VALID_EXPLAIN'				=> 'Bepaalt hoeveel van de gebruikers-IP gebruikt wordt om een sessie te valideren; <samp>Alle</samp> vergelijkt het complete adres, <samp>A.B.C</samp> de eerste x.x.x, <samp>A.B</samp> de eerste x.x, <samp>Geen</samp> schakelt het controleren uit. Bij IPv6-adressen <samp>A.B.C</samp> vergelijkt de eerste 4 blokken en <samp>A.B</samp> de eerste 3 blokken.',
@@ -517,7 +517,7 @@ $lang = array_merge($lang, array(
 	'IP_LOGIN_LIMIT_MAX_EXPLAIN'	=> 'De drempel van toegestane aanmeldpogingen van één IP-adres voordat een anti-spambottaak wordt geactiveerd. Voer 0 in om te voorkomen dat de anti-spambottaak wordt geactiveerd door het IP-adres.',
 	'IP_LOGIN_LIMIT_TIME'			=> 'IP-adres aanmeldpoging vervaltijd',
 	'IP_LOGIN_LIMIT_TIME_EXPLAIN'	=> 'Aanmeldpogingen vervallen na deze periode.',
-	'IP_LOGIN_LIMIT_USE_FORWARDED'	=> 'Limiteer aanmeldpogingen via <var>X_FORWARDED_FOR</var> header',
+	'IP_LOGIN_LIMIT_USE_FORWARDED'	=> 'Limiteer aanmeldpogingen via <var>X_FORWARDED_FOR</var>-header',
 	'IP_LOGIN_LIMIT_USE_FORWARDED_EXPLAIN'	=> 'In plaats van het limiteren van aanmeldpogingen via IP-adressen, worden ze nu gelimiteerd via <var>X_FORWARDED_FOR</var>-waardes. <br /><em><strong>Waarschuwing:</strong> Schakel dit alleen in als je een proxy-server draait dat <var>X_FORWARDED_FOR</var> instelt naar betrouwbare waardes.</em>',
 	'MAX_LOGIN_ATTEMPTS'			=> 'Maximum aantal aanmeldpogingen per gebruikersnaam',
 	'MAX_LOGIN_ATTEMPTS_EXPLAIN'	=> 'Het aantal aanmeldpogingen toegestaan voor één account voordat de anti-spambottaak geactiveerd wordt. Voer 0 in om te voorkomen dat de anti-spambottaak wordt geactiveerd door verschillende gebruikersnamen.',
@@ -535,8 +535,8 @@ $lang = array_merge($lang, array(
 	'REFERRER_VALID_EXPLAIN'		=> 'Indien ingeschakeld, de referentie van POST aanvragen zal worden gecontroleerd worden met de host/script-padinstellingen. Dit kan problemen veroorzaken met forums die gebruik maken van verschillende domeinen en of externe aanmeldingen.',
 	'TPL_ALLOW_PHP'					=> 'PHP in sjablonen toestaan',
 	'TPL_ALLOW_PHP_EXPLAIN'			=> 'Als deze optie is ingeschakeld, zullen <code>PHP</code> en <code>INCLUDEPHP</code> statements herkend worden en verwerkt worden in sjablonen.',
-	'UPLOAD_CERT_VALID'				=> 'Upload certificaat valideren',
-	'UPLOAD_CERT_VALID_EXPLAIN'		=> 'Indien ingeschakeld, zal het certificaat van de handmatige upload worden gevalideerd. Dit vereist dat de CA bundle wordt bepaald door de <samp>openssl.cafile</samp> of <samp>curl.cainfo</samp> instelling in jouw php.ini.',
+	'UPLOAD_CERT_VALID'				=> 'Uploadcertificaat valideren',
+	'UPLOAD_CERT_VALID_EXPLAIN'		=> 'Indien ingeschakeld, zal het certificaat van de handmatige upload worden gevalideerd. Dit vereist dat de CA bundle wordt bepaald door de <samp>openssl.cafile</samp>- of <samp>curl.cainfo</samp>-instelling in jouw php.ini.',
 ));
 
 // Email Settings
@@ -562,7 +562,7 @@ $lang = array_merge($lang, array(
 	'ENABLE_EMAIL'					=> 'Forumwijde e-mails inschakelen',
 	'ENABLE_EMAIL_EXPLAIN'			=> 'Als dit is uitgeschakeld, zullen geen e-mails door het forum verstuurd worden. <em>Let op dat gebruiker- of beheerdersactivatie vereisen dat deze optie is ingeschakeld. Als momenteel gebruik wordt gemaakt van “gebruiker” of “beheerder” activatie in de activatieinstellingen, dan zal het uitschakelen van deze functie ook de registratie uitschakelen.</em>',
 	'SEND_TEST_EMAIL'				=> 'Test e-mail versturen',
-	'SEND_TEST_EMAIL_EXPLAIN'		=> 'Deze optie verstuurd een test e-mail naar het e-mailadres dat is opgegeven bij je accountinstellingen.',
+	'SEND_TEST_EMAIL_EXPLAIN'		=> 'Deze optie verstuurt een test-e-mail naar het e-mailadres dat is opgegeven bij je accountinstellingen.',
 	'SMTP_AUTH_METHOD'				=> 'Authenticatiemethode voor SMTP',
 	'SMTP_AUTH_METHOD_EXPLAIN'		=> 'Alleen gebruiken als een gebruikersnaam/wachtwoord ingesteld is, vraag je provider als je niet zeker bent welke methode je moet gebruiken.',
 	'SMTP_CRAM_MD5'					=> 'CRAM-MD5',
@@ -579,7 +579,7 @@ $lang = array_merge($lang, array(
 	'SMTP_SETTINGS'					=> 'SMTP-instellingen',
 	'SMTP_USERNAME'					=> 'SMTP-gebruikersnaam',
 	'SMTP_USERNAME_EXPLAIN'			=> 'Voer alleen een gebruikersnaam in als je SMTP-server dit vereist.',
-	'TEST_EMAIL_SENT'				=> 'De test e-mail is verzonden.<br />Controleer je e-mailconfiguratie, als je de test e-mail niet hebt ontvangen.<br /><br />Als je hulp nodig hebt, kan je terecht op <a href="http://www.phpbb.nl/forums/index.php">phpbb.nl</a> of <a href="https://www.phpbbservice.nl/forum/">phpbbservice.nl</a>.',
+	'TEST_EMAIL_SENT'				=> 'De test-e-mail is verzonden.<br />Controleer je e-mailconfiguratie als je de test e-mail niet hebt ontvangen.<br /><br />Als je hulp nodig hebt, kan je terecht op <a href="http://www.phpbb.nl/forums/index.php">phpbb.nl</a> of <a href="https://www.phpbbservice.nl/forum/">phpbbservice.nl</a>.',
 	'USE_SMTP'						=> 'Gebruik SMTP-server voor e-mail',
 	'USE_SMTP_EXPLAIN'				=> 'Selecteer “Ja” als je e-mail wilt versturen via een genoemde server in plaats van de lokale e-mailfunctie.',
 ));

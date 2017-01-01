@@ -43,7 +43,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_NOT_AVAILABLE'	=> 'De geselecteerde extensie is niet beschikbaar voor dit forum, controleer of je phpBB en PHP-versies toegestaan zijn (zie de detailspagina).',
 	'EXTENSION_DIR_INVALID'		=> 'De geselecteerde extensie heeft een ongeldige mapstructuur en kan niet ingeschakeld worden.',
 	'EXTENSION_NOT_ENABLEABLE'	=> 'De geselecteerde extensie kan niet worden ingeschakeld, controleer de extensie’s vereisten.',
-	'EXTENSION_NOT_INSTALLED'	=> 'De extensie %s is not bescikbar. Controleer of je de extensie juist hebt geïnstalleerd.',
+	'EXTENSION_NOT_INSTALLED'	=> 'De extensie %s is niet beschikbaar. Controleer of je de extensie juist hebt geïnstalleerd.',
 	
 	'DETAILS'				=> 'Details',
 

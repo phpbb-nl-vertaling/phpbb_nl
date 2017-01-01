@@ -70,7 +70,7 @@ $lang = array_merge($lang, array(
 
 	'MODULE_ERROR'						=> 'Een fout is opgetreden tijdens het aanmaken van een module: %s',
 	'MODULE_EXISTS'						=> 'De module bestaat al: %s',
-	'MODULE_EXIST_MULTIPLE'				=> 'Meerdere modules met de opgegeven bovenloggende module naam bestaan al: %s. Probeer met before/after elementen de module plaatsing te verbeteren.',
+	'MODULE_EXIST_MULTIPLE'				=> 'Meerdere modules met de opgegeven bovenliggende modulenaam bestaan al: %s. Probeer met before/after-elementen de moduleplaatsing te verbeteren.',
 	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Een benodigde module info bestand mist: %2$s',
 	'MODULE_NOT_EXIST'					=> 'Een benodigde module bestaat niet: %s',
 
