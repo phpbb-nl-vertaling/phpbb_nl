@@ -7,7 +7,7 @@ Dit bericht bevat belangrijke accountinformatie, bewaar deze e-mail dus goed. Je
 ----------------------------
 Gebruikersnaam: {USERNAME}
 
-Forum link: {U_BOARD}
+Forumlink: {U_BOARD}
 ----------------------------
 
 Op dit moment is je account nog inactief, je account moet worden goedgekeurd door een beheerder voordat je jezelf kan aanmelden. Je ontvangt een e-mail zodra een beheerder je account heeft goedgekeurd.
