@@ -41,36 +41,36 @@ $lang = array_merge($lang, array(
     'INSTALL_PANEL'	=> 'Installatiepaneel',
 	'SELECT_LANG'	=> 'Taal selecteren',
 
-	'STAGE_INSTALL'	=> 'phpBB Installeren',
+	'STAGE_INSTALL'	=> 'phpBB installeren',
 
 	// Introduction page
 	'INTRODUCTION_TITLE'	=> 'Introductie',
-	'INTRODUCTION_BODY'		=> 'Welkom bij phpBB3!<br /><br />phpBB® is wereldwijd de meest gebruikte open source forumsoftware. phpBB3 is de laatste versie van een pakket dat is gestart met de ontwikkeling in 2000. Zoals zijn voorgangers is phpBB3 functie-rijk, het is gebruiksvriendelijk, en wordt volledig ondersteunt door het phpBB-team. phpBB3 verbeterd alles wat phpBB2 zo populair maakte, en voegt de meest gevraagde functies toe die nog niet aanwezig waren in vorige versies. Wij hopen dat het je verwachtingen overtreft.<br /><br />Het installatiesysteem doorloopt samen met je de stappen om phpBB3 te installeren, bij te werken van oudere versies naar de meest recente phpBB3-versie, en ook nog het converteren naar phpBB3 vanaf een andere forumsoftware (inclusief phpBB2). Voor meer informatie adviseren we je dat je de <a href="../docs/INSTALL.html">installatie handleiding</a> leest. Als je de phpBB3-licentie wilt lezen, of als je wilt weten hoe je ondersteuning kan krijgen, dan kies je de juiste optie in het zij-menu aan de linkerkant van deze pagina. Om verder te gaan selecteer je het juiste tabblad bovenaan de pagina.',
+	'INTRODUCTION_BODY'		=> 'Welkom bij phpBB3!<br /><br />phpBB® is wereldwijd de meest gebruikte open source forumsoftware. phpBB3 is de laatste versie van een pakket dat is gestart met de ontwikkeling in 2000. Zoals zijn voorgangers is phpBB3 functie-rijk, is het gebruiksvriendelijk en het wordt volledig ondersteund door het phpBB-team. phpBB3 verbetert alles wat phpBB2 zo populair maakte en voegt de meestgevraagde functies toe die nog niet aanwezig waren in vorige versies. Wij hopen dat het je verwachtingen overtreft.<br /><br />Het installatiesysteem doorloopt samen met je de stappen om phpBB3 te installeren, bij te werken van oudere versies naar de meest recente phpBB3-versie en ook nog het converteren naar phpBB3 vanaf een andere forumsoftware (inclusief phpBB2). Voor meer informatie adviseren we je de <a href="../docs/INSTALL.html">installatiehandleiding</a> te lezen. Als je de phpBB3-licentie wilt lezen of als je wilt weten hoe je ondersteuning kan krijgen, klik dan op de juiste optie in het menu aan de linkerkant van deze pagina. Om verder te gaan selecteer je het juiste tabblad bovenaan de pagina.',
 
 	// Support page
 	'SUPPORT_TITLE'		=> 'Support',
-	'SUPPORT_BODY'		=> 'Volledige ondersteuning word gegegeven voor de huidige stabiele versie van phpBB, helemaal gratis. Dit is inclusief:</p><ul><li>Installatie</li><li>Configuratie</li><li>Technische vragen</li><li>Problemen die zijn gerelateerd aan potentiële fouten in de software</li><li>Updaten van een Release Candidate (RC) versie naar de laatste stabiele versie</li><li>Converteren van een oudere versie naar een stabiele versie</li><li>Converteren van een ander discussie forumsoftware naar phpBB3</li></ul><p>Wij moedigen gebruikers aan die nog steeds beta-versies hebben van phpBB3, dat ze hun installatie vervangen met een nieuwe kopie van de laatste versie.</p><h2>Verkijgen van support</h2><p><a href="http://www.phpbb.nl/forums">phpBB.nl Supportforums</a><br /><br />',
+	'SUPPORT_BODY'		=> 'Volledige ondersteuning word gegegeven voor de huidige stabiele versie van phpBB, helemaal gratis. Dit is inclusief:</p><ul><li>Installatie</li><li>Configuratie</li><li>Technische vragen</li><li>Problemen die zijn gerelateerd aan potentiële fouten in de software</li><li>Updaten van een Release Candidate (RC) versie naar de laatste stabiele versie</li><li>Converteren van een oudere versie naar een stabiele versie</li><li>Converteren van andere forumsoftware naar phpBB3</li></ul><p>Wij moedigen gebruikers aan die nog steeds beta-versies hebben van phpBB3 hun installatie te vervangen met een nieuwe kopie van de laatste versie.</p><h2>Verkijgen van support</h2><p><a href="http://www.phpbb.nl/forums">phpBB.nl Supportforums</a><br /><br />',
 
 	// License
 	'LICENSE_TITLE'		=> 'General Public License',
 
 	// Install page
 	'INSTALL_INTRO'			=> 'Welkom bij de installatie',
-	'INSTALL_INTRO_BODY'	=> 'Met deze optie, is het mogelijk om phpBB3 te kunnen installeren op je server.</p><p>Om verder te gaan heb je de database-instellingen nodig. Als je niet je database-instellingen weet, neem dan contact op met je host en vraag het aan hun. Je zal niet door kunnen gaan met de installatie zonder die gegevens. Je hebt nodig:</p>
+	'INSTALL_INTRO_BODY'	=> 'Met deze optie is het mogelijk om phpBB3 te kunnen installeren op je server.</p><p>Om verder te gaan heb je de database-instellingen nodig. Als je niet je database-instellingen weet, neem dan contact op met je host en vraag het aan hun. Je zal niet door kunnen gaan met de installatie zonder die gegevens. Je hebt nodig:</p>
 
 		<ul>
-			<li>Het Database-type - De database dat je wilt gebruiken.</li>
-			<li>De Database-server hostnaam of DSN - Het adres van de database-server.</li>
-			<li>De Database-serverpoort - De poort van de database-server (in de meeste gevallen is dit niet nodig).</li>
-			<li>De Database-naam - De naam van de database op de server.</li>
-			<li>De Database-gebruikersnaam en Database-wachtwoord - De aanmeldingsgegevens om toegang te hebben tot de database.</li>
+			<li>Het type van je database - De database dat je wilt gebruiken.</li>
+			<li>De hostnaam of DSN van je databaseserver - Het adres van de databaseserver.</li>
+			<li>De poort van de databaseserver (in de meeste gevallen is dit niet nodig).</li>
+			<li>De naam van de database op de server.</li>
+			<li>De gebruikersnaam en het wachtwoord van de database - De aanmeldingsgegevens om toegang te hebben tot de database.</li>
 		</ul>
 
-		<p><strong>Opmerking:</strong> Als je de installatie uitvoert met SQLite, zal je het volledige pad moet invoeren van je database-bestand in het DSN-veld en het veld van de gebruikersnaam en wachtwoord leeglaten. Voor veiligheidsredenen, zal je er zeker van moeten zijn dat je database-bestand niet is opgeslagen in een openbare toegankelijke locatie die je kan bezoeken via het internet.</p>
+		<p><strong>Opmerking:</strong> Als je de installatie uitvoert met SQLite, zal je het volledige pad moet invoeren van je databasebestand in het DSN-veld en het veld van de gebruikersnaam en wachtwoord leeglaten. Voor veiligheidsredenen moet je er zeker van moeten zijn dat je databasebestand niet is opgeslagen in een openbare toegankelijke locatie die je kan bezoeken via het internet.</p>
 
 		<p>phpBB3 ondersteunt de volgende databases:</p>
 		<ul>
-			<li>MySQL 3.23 of hoger (MySQLi ondersteuning)</li>
+			<li>MySQL 3.23 of hoger (MySQLi-ondersteuning)</li>
 			<li>PostgreSQL 8.3+</li>
 			<li>SQLite 3.6.15+</li>
 			<li>MS SQL Server 2000 of hoger (direct of met ODBC)</li>
@@ -78,7 +78,7 @@ $lang = array_merge($lang, array(
 			<li>Oracle</li>
 		</ul>
 
-		<p>Alleen deze databases die worden ondersteunt door uw server zullen worden weergegeven.',
+		<p>Alleen deze databases die worden ondersteund door uw server zullen worden weergegeven.',
 
 	'ACP_LINK'	=> 'Ga naar het <a href="%1$s">beheerderspaneel</a>',
 
@@ -108,14 +108,14 @@ $lang = array_merge($lang, array(
 	'PHP_VERSION_REQD_EXPLAIN'			=> 'phpBB vereist PHP versie 5.4.0 of hoger.',
 	'PHP_GETIMAGESIZE_SUPPORT'			=> 'PHP-functie getimagesize() is beschikbaar',
 	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> '<strong>Vereist</strong> - Om phpBB correct te laten functioneren, zal de getimagesize-functie beschikbaar moeten zijn.',
-	'PCRE_UTF_SUPPORT'				=> 'PCRE UTF-8 onderteuning',
-	'PCRE_UTF_SUPPORT_EXPLAIN'		=> 'phpBB zal <strong>niet</strong> werken als je PHP-installatie niet is gecompileerd met UTF-8 ondersteuning in de PCRE-extensie.',
-	'PHP_JSON_SUPPORT'				=> 'PHP-JSON ondersteuning',
-	'PHP_JSON_SUPPORT_EXPLAIN'		=> '<strong>Verplicht</strong> - Om phpBB correct te laten functioneren, zal de PHP-JSON extensie beschikbaar moeten zijn.',
-	'PHP_XML_SUPPORT'					=> 'PHP XML/DOM ondersteuning',
-	'PHP_XML_SUPPORT_EXPLAIN'			=> 'Om phpBB correct te laten functioneren, zal de PHP XML/DOM extensie beschikbaar moeten zijn.',
-	'PHP_SUPPORTED_DB'				=> 'Ondersteunende databases',
-	'PHP_SUPPORTED_DB_EXPLAIN'		=> '<strong>Verplicht</strong> - Er moet tenminste één type database-module worden ondersteund binnen PHP. Als er geen database-module beschikbaar is moet je contact opnemen met je webhost of de documentatie van de betreffende PHP-installatie bekijken voor advies.',
+	'PCRE_UTF_SUPPORT'				=> 'Ondersteuning voor PCRE UTF-8',
+	'PCRE_UTF_SUPPORT_EXPLAIN'		=> 'phpBB zal <strong>niet</strong> werken als je PHP-installatie niet is gecompileerd met UTF-8-ondersteuning in de PCRE-extensie.',
+	'PHP_JSON_SUPPORT'				=> 'Ondersteuning voor PHP-JSON',
+	'PHP_JSON_SUPPORT_EXPLAIN'		=> '<strong>Verplicht</strong> - Om phpBB correct te laten functioneren, zal de PHP-JSON-extensie beschikbaar moeten zijn.',
+	'PHP_XML_SUPPORT'					=> 'Ondersteuning PHP XML/DOM',
+	'PHP_XML_SUPPORT_EXPLAIN'			=> 'Om phpBB correct te laten functioneren, zal de PHP XML/DOM-extensie beschikbaar moeten zijn.',
+	'PHP_SUPPORTED_DB'				=> 'Ondersteunde databases',
+	'PHP_SUPPORTED_DB_EXPLAIN'		=> '<strong>Verplicht</strong> - Er moet tenminste één type databasemodule worden ondersteund binnen PHP. Als er geen databasemodule beschikbaar is moet je contact opnemen met je webhost of de documentatie van de betreffende PHP-installatie bekijken voor advies.',
 
 	'RETEST_REQUIREMENTS'	=> 'Vereisten opnieuw controleren',
 
@@ -127,7 +127,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR_MISSING_DATA'		=> 'Alle velden in dit blok moeten ingevuld zijn.',
 	
 	'TIMEOUT_DETECTED_TITLE'	=> 'Het installatieprogramma heeft een time-out geconstateerd',
-	'TIMEOUT_DETECTED_MESSAGE'	=> 'Het installatieprogramma heeft een time-out geconstateerd. Je kunt proberen de pagina te vernieuwen, maar dat kan leiden tot corrupte data. We adviseren om je time-out instellingen aan te passen of het via de CLI te proberen.',
+	'TIMEOUT_DETECTED_MESSAGE'	=> 'Het installatieprogramma heeft een time-out geconstateerd. Je kunt proberen de pagina te vernieuwen, maar dat kan leiden tot corrupte data. We adviseren om je time-out-instellingen aan te passen of het via de CLI te proberen.',
 ));
 
 // Data obtaining translations
@@ -159,27 +159,27 @@ $lang = array_merge($lang, array(
 	// Board data
 	//
 	// Form labels
-	'BOARD_CONFIG'		=> 'Forum configuratie',
+	'BOARD_CONFIG'		=> 'Forumconfiguratie',
 	'DEFAULT_LANGUAGE'	=> 'Standaard taal',
 	'BOARD_NAME'		=> 'Sitenaam',
-	'BOARD_DESCRIPTION'	=> 'Korte site beschrijving',
+	'BOARD_DESCRIPTION'	=> 'Korte sitebeschrijving',
 
 	//
 	// Database data
 	//
-	'STAGE_DATABASE'	=> 'Database instellingen',
+	'STAGE_DATABASE'	=> 'Database-instellingen',
 
 	// Form labels
-	'DB_CONFIG'				=> 'Database-configuratie',
-	'DBMS'					=> 'Database-type',
-	'DB_HOST'				=> 'Database-server hostnaam of DSN',
-	'DB_HOST_EXPLAIN'		=> 'DSN staat voor Data Source Name en is alleen relevant voor ODBC-installaties. Gebruik op PostgreSQL de localhost om verbinding te maken met de lokale server via de UNIX-domein socket en via 127.0.0.1 om verbinding te maken via TCP. Voor SQLite moet je het volledige pad invoeren van uw database-bestand.',
-	'DB_PORT'				=> 'Database-serverpoort',
-	'DB_PORT_EXPLAIN'		=> 'Laat dit veld leeg tenzij de server op een niet-standaard poort werkt.',
-	'DB_PASSWORD'			=> 'Database-wachtwoord',
-	'DB_NAME'				=> 'Database-naam',
-	'DB_USERNAME'			=> 'Database-gebruikersnaam',
-	'DATABASE_VERSION'		=> 'Database versie',
+	'DB_CONFIG'				=> 'Databaseconfiguratie',
+	'DBMS'					=> 'Databasetype',
+	'DB_HOST'				=> 'Hostnaam of DSN databaseserver',
+	'DB_HOST_EXPLAIN'		=> 'DSN staat voor Data Source Name en is alleen relevant voor ODBC-installaties. Gebruik op PostgreSQL localhost om verbinding te maken met de lokale server via de UNIX-domein socket en via 127.0.0.1 om verbinding te maken via TCP. Voor SQLite moet je het volledige pad invoeren van het databasebestand.',
+	'DB_PORT'				=> 'Databaseserverpoort',
+	'DB_PORT_EXPLAIN'		=> 'Laat dit veld leeg, tenzij de server op een niet-standaard poort werkt.',
+	'DB_PASSWORD'			=> 'Databasewachtwoord',
+	'DB_NAME'				=> 'Databasenaam',
+	'DB_USERNAME'			=> 'Databasegebruikersnaam',
+	'DATABASE_VERSION'		=> 'Databaseversie',
 	'TABLE_PREFIX'			=> 'Prefix voor tabellen in de database',
 	'TABLE_PREFIX_EXPLAIN'	=> 'De prefix moet starten met een letter en mag alleen letters, getallen en onderstrepingen bevatten.',
 
@@ -193,14 +193,14 @@ $lang = array_merge($lang, array(
 	'DB_OPTION_SQLITE3'		=> 'SQLite 3',
 
 	// Errors
-	'INST_ERR_NO_DB'				=> 'De PHP-module kon niet worden geladen voor het geselecteerde database-type.',
+	'INST_ERR_NO_DB'				=> 'De PHP-module kon niet worden geladen voor het geselecteerde databasetype.',
 	'INST_ERR_DB_INVALID_PREFIX'	=> 'De prefix die je hebt ingevoerd is onjuist. Het moet starten met een letter en mag alleen letters, getallen en onderstrepingen bevatten.',
 	'INST_ERR_PREFIX_TOO_LONG'		=> 'De tabelprefix dat je hebt ingevoerd is te lang. De maximale lengte is %d tekens.',
-	'INST_ERR_DB_NO_NAME'			=> 'Geen database-naam opgegeven.',
-	'INST_ERR_DB_FORUM_PATH'		=> 'Het database-bestand dat is opgegeven bevindt zich in de forummappen-hiërarchie. Je zal dit bestand moeten plaatsen in een locatie die niet via het web toegankelijk is.',
+	'INST_ERR_DB_NO_NAME'			=> 'Geen databasenaam opgegeven.',
+	'INST_ERR_DB_FORUM_PATH'		=> 'Het databasebestand dat is opgegeven bevindt zich in de forummappen-hiërarchie. Je zal dit bestand moeten plaatsen in een locatie die niet via het web toegankelijk is.',
 	'INST_ERR_DB_CONNECT'			=> 'Kon geen verbinding leggen met de database, zie de foutmelding hieronder.',
 	'INST_ERR_DB_NO_ERROR'			=> 'Geen foutmelding gegeven.',
-	'INST_ERR_PREFIX'				=> 'Tabellen met de opgegeven prefix bestaan al, kies een andere prefix als alternatief.',
+	'INST_ERR_PREFIX'				=> 'Tabellen met de opgegeven prefix bestaan al, kies een andere prefix.',
 	'INST_ERR_DB_NO_MYSQLI'			=> 'De versie van MySQL die geïnstalleerd is op deze server werkt niet met de “MySQL met MySQLi-extensie”-optie die je hebt geselecteerd. Probeer in plaats daarvan de optie “MySQL”.',
 	'INST_ERR_DB_NO_SQLITE3'		=> 'De versie van de SQLite-extensie die je hebt geïnstalleerd is te oud, het moet bijgewerkt worden naar versie 3.6.15.',
 	'INST_ERR_DB_NO_ORACLE'			=> 'De versie van Oracle die geïnstalleerd is op deze server verplicht je om de <var>NLS_CHARACTERSET</var>-parameter te laten instellen naar <var>UTF8</var>. Je kan de installatie updaten naar 9.2+ of de parameter veranderen.',
@@ -214,19 +214,19 @@ $lang = array_merge($lang, array(
 	
 	// Package info
 	'PACKAGE_VERSION'					=> 'Pakketversie geïnstalleerd',
-	'UPDATE_INCOMPLETE'				=> 'Je phpBB installatie is niet correct bijgewerkt.',
+	'UPDATE_INCOMPLETE'				=> 'Je phpBB-installatie is niet correct bijgewerkt.',
 	'UPDATE_INCOMPLETE_MORE'		=> 'Lees de onderstaande informatie om het probleem op te lossen.',
 	'UPDATE_INCOMPLETE_EXPLAIN'		=> '<h1>Incomplete update</h1>
 
-		<p>We hebben geconstateerd dat de laatste update van je phpBB installatie niet is afgerond. Volg de <a href="%1$s" title="%1$s">database updater</a>, zorg ervoor dat <em>Aleen database bijwerken</em> is geselecteerd en klik op <strong>Verstuur</strong>. Vergeet niet om de "install"-map te verwijderen nadat de database succesvol is bijgewerkt.</p>',
+		<p>We hebben geconstateerd dat de laatste update van je phpBB-installatie niet is afgerond. Volg de <a href="%1$s" title="%1$s">database-updater</a>, zorg ervoor dat <em>Aleen database bijwerken</em> is geselecteerd en klik op <strong>Verstuur</strong>. Vergeet niet om de "install"-map te verwijderen nadat de database succesvol is bijgewerkt.</p>',
 
 	//
 	// Server data
 	//
 	// Form labels
-	'SERVER_CONFIG'				=> 'Server-configuratie',
+	'SERVER_CONFIG'				=> 'Serverconfiguratie',
 	'SCRIPT_PATH'				=> 'Scriptpad',
-	'SCRIPT_PATH_EXPLAIN'		=> 'Het pad waar phpBB zich bevindt, relatief naar het domeinnaam, bijvoorbeeld <samp>/phpBB3</samp>.',
+	'SCRIPT_PATH_EXPLAIN'		=> 'Het pad waar phpBB zich bevindt, relatief ten opzichte van het domeinnaam, bijvoorbeeld <samp>/phpBB3</samp>.',
 ));
 
 // Default database schema entries...
@@ -235,7 +235,7 @@ $lang = array_merge($lang, array(
 	'CONFIG_SITE_DESC'				=> 'Een korte beschrijving van je forum',
 	'CONFIG_SITENAME'				=> 'jedomein.nl',
 
-	'DEFAULT_INSTALL_POST'			=> 'Dit is een voorbeeldbericht van je phpBB3-installatie. Je mag dit bericht, dit onderwerp, en ook nog dit forum verwijderen als je wilt, aangezien alles correct werkt. Tijdens het installatieproces is je eerste categorie en je eerste forum ingesteld voor de voor-geïnstalleerde groepen; beheerders, zoekrobots, forummoderators, gasten, geregistreerde gebruikers en de geregistreerde COPPA-gebruikers. Als je je eerste categorie en je eerste forum wilt verwijderen, vergeet dan niet voor alle nieuwe categorieën en forums die je hebt aangemaakt de permissies voor alle gebruikersgroepen in te stellen. Het is aanbevolen om je eerste categorie en je eerste forum te hernoemen, en de permissies hiervan te kopiëren wanneer je nieuwe categorieën en forums aanmaakt. Veel plezier!',
+	'DEFAULT_INSTALL_POST'			=> 'Dit is een voorbeeldbericht van je phpBB3-installatie. Je mag dit bericht, dit onderwerp en ook nog dit forum verwijderen als je wilt, aangezien alles correct werkt. Tijdens het installatieproces is je eerste categorie en je eerste forum ingesteld voor de voorgeïnstalleerde groepen; beheerders, zoekrobots, forummoderators, gasten, geregistreerde gebruikers en de geregistreerde COPPA-gebruikers. Als je je eerste categorie en je eerste forum wilt verwijderen, vergeet dan niet voor alle nieuwe categorieën en forums die je hebt aangemaakt de permissies voor alle gebruikersgroepen in te stellen. Het is aanbevolen om je eerste categorie en je eerste forum te hernoemen en de permissies hiervan te kopiëren wanneer je nieuwe categorieën en forums aanmaakt. Veel plezier!',
 
 	'FORUMS_FIRST_CATEGORY'			=> 'Je eerste categorie',
 	'FORUMS_TEST_FORUM_DESC'		=> 'Beschrijving van je eerste forum.',
@@ -291,39 +291,39 @@ $lang = array_merge($lang, array(
 	// Install database
 	'TASK_ADD_CONFIG_SETTINGS'			=> 'Configuratieinstellingen toevoegen',
 	'TASK_ADD_DEFAULT_DATA'				=> 'Standaardinstellingen aan de database toevoegen',
-	'TASK_CREATE_DATABASE_SCHEMA_FILE'	=> 'Database schema bestand creëren',
+	'TASK_CREATE_DATABASE_SCHEMA_FILE'	=> 'Databaseschemabestand creëren',
 	'TASK_SETUP_DATABASE'				=> 'Database opzetten',
 	'TASK_CREATE_TABLES'				=> 'Tabellen creëren',
 	
 	// Install data
 	'TASK_ADD_BOTS'			=> 'Bots registreren',
-	'TASK_ADD_LANGUAGES'	=> 'Beschrikbare talen installeren',
+	'TASK_ADD_LANGUAGES'	=> 'Beschikbare talen installeren',
 	'TASK_ADD_MODULES'		=> 'Modules installeren',
 
 	// Install finish tasks
 	'TASK_INSTALL_EXTENSIONS'	=> 'Gebundelde extensies installeren',
-	'TASK_NOTIFY_USER'			=> 'Notificatie e-mail versturen',
+	'TASK_NOTIFY_USER'			=> 'Notificatie-e-mail versturen',
 	'TASK_POPULATE_MIGRATIONS'	=> 'Migraties vullen',
 
 	// Installer general progress messages
-	'INSTALLER_FINISHED'	=> 'De installatie is succesvul voltooid',
+	'INSTALLER_FINISHED'	=> 'De installatie is succesvol voltooid',
 ));
 
 // Installer's general messages
 $lang = array_merge($lang, array(
 	'MODULE_NOT_FOUND'				=> 'Module niet gevonden',
-	'MODULE_NOT_FOUND_DESCRIPTION'	=> 'Een module kon niet gevonden worden omdat de service, %s, niet is gedefiniëerd.',
+	'MODULE_NOT_FOUND_DESCRIPTION'	=> 'Een module kon niet gevonden worden omdat de service %s niet is gedefiniëerd.',
 
 	'TASK_NOT_FOUND'				=> 'Taak niet gevonden',
-	'TASK_NOT_FOUND_DESCRIPTION'	=> 'Een taak kon niet gevonden worden omdat de service, %s, niet is gedefiniëerd.',
+	'TASK_NOT_FOUND_DESCRIPTION'	=> 'Een taak kon niet gevonden worden omdat de service %s niet is gedefiniëerd.',
 
 	'SKIP_MODULE'	=> 'Sla module “%s” over',
 	'SKIP_TASK'		=> 'Sla taak “%s” over',
 
-	'TASK_SERVICE_INSTALLER_MISSING'	=> 'Alle installatie taak services horen te beginnen met “installer”',
-	'TASK_CLASS_NOT_FOUND'				=> 'Installatie taak service definitie is onjuist. Servicenaam is “%1$s”, de verwacht namespace hiervoor is “%2$s”. Raadpleeg voor meer informatie de documentatie over task_interface.',
+	'TASK_SERVICE_INSTALLER_MISSING'	=> 'Alle installatietaakservices horen te beginnen met “installer”',
+	'TASK_CLASS_NOT_FOUND'				=> 'Installatietaakservicedefinitie is onjuist. Servicenaam is “%1$s”, de verwachte namespace hiervoor is “%2$s”. Raadpleeg voor meer informatie de documentatie over task_interface.',
 
-	'INSTALLER_CONFIG_NOT_WRITABLE'	=> 'Het installatieprogramma configuratiebestand is niet schrijfbaar.',
+	'INSTALLER_CONFIG_NOT_WRITABLE'	=> 'Het installatieprogrammaconfiguratiebestand is niet schrijfbaar.',
 ));
 
 // CLI messages
@@ -335,14 +335,14 @@ $lang = array_merge($lang, array(
 	'CLI_CONFIG_FILE'				=> 'Configuratiebestand dat gebruikt moet worden',
 	'MISSING_FILE'					=> 'Niet in staat om toegang te krijgen tot het bestand %1$s',
 	'MISSING_DATA'					=> 'Het configuratiebestand is niet aanwezig of bevat ongeldige instellingen.',
-	'INVALID_YAML_FILE'				=> 'Kan het YAML bestand niet parsen %1$s',
+	'INVALID_YAML_FILE'				=> 'Kan het YAML-bestand niet parsen %1$s',
 	'CONFIGURATION_VALID'			=> 'Het configuratiebestand is geldig',
 ));
 
 // Common updater messages
 $lang = array_merge($lang, array(
 	'UPDATE_INSTALLATION'			=> 'phpBB-installatie bijwerken',
-	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Met deze optie, is het mogelijk om je phpBB-installatie te updaten naar de laatste versie.<br />Tijdens het proces zullen alle bestanden gecontroleerd worden op hun aanwezigheid. Je kan ook alle verschillen bekijken van de bestanden voordat je gaat updaten.<br /><br />De bestandsupdate kan je op twee manieren doen.</p><h2>Handmatige update</h2><p>Met deze update download je alleen je persoonlijke set van gewijzigde bestanden om er zeker van te zijn dat je geen extensies kwijt raakt die je hebt geïnstalleerd. Nadat je dit pakket hebt gedownload, zal je de bestanden handmatig moeten uploaden naar hun correcte plaats in je phpBB-hoofdmap, dus waar je de bestanden config.php, memberlist.php, enz kan terugvinden. Wanneer je dat hebt gedaan, kan je een bestandscontrole doen dat je laat zien of de bestanden correct zijn geüpload naar de juiste locatie.</p><h2>Automatische update met de FTP</h2><p>Deze methode is bijna hetzelfde als de eerste, maar met deze methode hoef je niet de gewijzigde bestanden te downloaden naar je eigen computer. Dit wordt namelijk gedaan voor je. Om deze methode te gebruiken heb je de FTP-aanmeldgegevens nodig wanneer er naar wordt gevraagd. Wanneer dat klaar is, zal je worden herleidt naar de bestandscontrolemethode dat controleert of alles correct is bijgewerkt.<br /><br />',
+	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Met deze optie is het mogelijk om je phpBB-installatie te updaten naar de laatste versie.<br />Tijdens het proces zullen alle bestanden gecontroleerd worden op hun aanwezigheid. Je kan ook alle verschillen bekijken van de bestanden voordat je gaat updaten.<br /><br />De bestandsupdate kan je op twee manieren doen.</p><h2>Handmatige update</h2><p>Met deze update download je alleen je persoonlijke set van gewijzigde bestanden om er zeker van te zijn dat je geen extensies kwijt raakt die je hebt geïnstalleerd. Nadat je dit pakket hebt gedownload, zal je de bestanden handmatig moeten uploaden naar hun correcte plaats in je phpBB-hoofdmap, dus waar je de bestanden config.php, memberlist.php, enz kan terugvinden. Wanneer je dat hebt gedaan, kan je een bestandscontrole doen dat je laat zien of de bestanden correct zijn geüpload naar de juiste locatie.</p><h2>Automatische update met de FTP</h2><p>Deze methode is bijna hetzelfde als de eerste, maar met deze methode hoef je niet de gewijzigde bestanden te downloaden naar je eigen computer. Dit wordt namelijk gedaan voor je. Om deze methode te gebruiken heb je de FTP-aanmeldgegevens nodig wanneer er naar wordt gevraagd. Wanneer dat klaar is, zal je worden doorgestuurd naar de bestandscontrolemethode die controleert of alles correct is bijgewerkt.<br /><br />',
 	'UPDATE_INSTRUCTIONS'			=> '
 
 		<h1>Versiemededeling</h1>
@@ -358,7 +358,7 @@ $lang = array_merge($lang, array(
 		<ul style="margin-left: 20px; font-size: 1.1em;">
 			<li>Ga naar de downloadspagina van <a href="https://www.phpbb.nl/downloads/" title="http://www.phpbb.nl/downloads/">phpBB.nl</a> en download het "Automatisch update-pakket".<br /><br /></li>
        			<li>Pak het archiefbestand uit.<br /><br /></li>
-			<li>Upload de uitgepakte "install" en "vendor" mappen naar je phpBB-hoofdmap (waar je config.php staat).<br /><br /></li>
+			<li>Upload de uitgepakte "install"- en "vendor"-mappen naar je phpBB-hoofdmap (waar je config.php staat).<br /><br /></li>
 		</ul>
 		
 		<p>Eenmaal geüpload, zal je forum, door het uploaden van de install-map, voor gewone gebruikers uitgeschakeld zijn.<br /><br />
@@ -372,18 +372,18 @@ $lang = array_merge($lang, array(
 // Updater forms
 $lang = array_merge($lang, array(
 	// Updater types
-	'UPDATE_TYPE'			=> 'Updatetype dat gedraait moet worden',
+	'UPDATE_TYPE'			=> 'Updatetype dat gedraaid moet worden',
 
 	'UPDATE_TYPE_ALL'		=> 'Het bestandssysteem en de database updaten',
 	'UPDATE_TYPE_DB_ONLY'	=> 'Alleen de database updaten',
 
 	// File updater methods
-	'UPDATE_FILE_METHOD_TITLE'		=> 'Bestanden update methodes',
+	'UPDATE_FILE_METHOD_TITLE'		=> 'Bestandenupdatemethodes',
 
-	'UPDATE_FILE_METHOD'			=> 'Bestanden update methode',
+	'UPDATE_FILE_METHOD'			=> 'Bestandenupdatemethode',
 	'UPDATE_FILE_METHOD_DOWNLOAD'	=> 'Aangepast bestandsarchief downloaden',
-	'UPDATE_FILE_METHOD_FTP'		=> 'Updaten via FTP (Automatische)',
-	'UPDATE_FILE_METHOD_FILESYSTEM'	=> 'Update via directe bestandstoegang (Automatische)',
+	'UPDATE_FILE_METHOD_FTP'		=> 'Updaten via FTP (automatisch)',
+	'UPDATE_FILE_METHOD_FILESYSTEM'	=> 'Update via directe bestandstoegang (automatisch)',
 
 	// File updater archives
 	'SELECT_DOWNLOAD_FORMAT'	=> 'Bestandsformaat voor het archief kiezen',
@@ -396,9 +396,9 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'UPDATE_FILES_NOT_FOUND'	=> 'Er is geen geldige update map gevonden, controleer of de de juiste bestanden naar de juiste locatie hebt geüpload.',
 
-	'NO_UPDATE_FILES_UP_TO_DATE'	=> 'Je versie is up-to-date. Het is niet nodig om het update-hulpmiddel uit te voeren. Als je een integriteitscontrole wilt uitvoeren op de bestanden, wees er dan zeker van dat je de correcte update-bestanden upload.',
-	'OLD_UPDATE_FILES'				=> 'De update-bestanden zijn niet up-to-date. De update-bestanden die gevonden zijn, zijn voor een update van phpBB %1$s naar phpBB %2$s, maar de laatste versie van phpBB is %3$s.',
-	'INCOMPATIBLE_UPDATE_FILES'		=> 'De update-bestanden zijn onverenigbaar met de geïnstalleerde versie. De geïnstalleerde versie is %1$s en de update-bestanden zijn voor het bijwerken van phpBB %2$s naar %3$s.',
+	'NO_UPDATE_FILES_UP_TO_DATE'	=> 'Je versie is up-to-date. Het is niet nodig om het updatehulpmiddel uit te voeren. Als je een integriteitscontrole wilt uitvoeren op de bestanden, wees er dan zeker van dat je de correcte updatebestanden upload.',
+	'OLD_UPDATE_FILES'				=> 'De updatebestanden zijn niet up-to-date. De updatebestanden die gevonden zijn, zijn voor een update van phpBB %1$s naar phpBB %2$s, maar de laatste versie van phpBB is %3$s.',
+	'INCOMPATIBLE_UPDATE_FILES'		=> 'De updatebestanden zijn onverenigbaar met de geïnstalleerde versie. De geïnstalleerde versie is %1$s en de updatebestanden zijn voor het bijwerken van phpBB %2$s naar %3$s.',
 ));
 
 // Update files
@@ -424,10 +424,10 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> 'Wanneer je het archief hebt gedownload, moet je het archief uitpakken. Je vindt de aangepaste bestanden die je moet uploaden naar je phpBB-hoofdmap (waar je o.a het bestand config.php, memberlist.php etc kan terugvinden) in het archief. Upload de bestanden dan naar de juiste locaties. Wanneer je alle bestanden hebt geüpload, controleer je alle bestanden opnieuw met de andere knop hieronder.',
 	
 	'FILE_ALREADY_UP_TO_DATE'		=> 'Bestand is al bijgewerkt.',
-	'FILE_DIFF_NOT_ALLOWED'			=> 'Bestand niet toegestaan om gediffed te worden.',
+	'FILE_DIFF_NOT_ALLOWED'			=> 'Bestand niet toegestaan om ge-diff-t te worden.',
 	'FILE_USED'						=> 'Informatie gebruikt van',			// Single file
 	'FILES_CONFLICT'				=> 'Conflicterende bestanden',
-	'FILES_CONFLICT_EXPLAIN'		=> 'De volgende bestanden zijn aangepast en vertegenwoordigen niet de originele bestanden van de oude versie. phpBB heeft gevonden dat deze bestanden conflicten veroorzaken als ze worden samengevoegd. Onderzoek deze conflicten en probeer ze handmatig op te lossen, of hervat het bijwerkingsproces en kies dan de voorkeurs-samenvoegingsmethode. Wanneer je de conflicten handmatig oplost vergeet dan niet om de bestanden daarna opnieuw te controleren nadat je ze hebt aangepast. Je kan ook nog kiezen welke samenvoegingsmethode je wilt gebruiken voor elk bestand. De eerste methode zal het resultaat hebben dat de regels die een conflict veroorzaakten in het bestand zullen worden verwijderd, de andere manier zal als resultaat hebben dat je al je aanpassingen kwijtraakt van het nieuwere bestand.',
+	'FILES_CONFLICT_EXPLAIN'		=> 'De volgende bestanden zijn aangepast en vertegenwoordigen niet de originele bestanden van de oude versie. phpBB heeft ontdekt dat deze bestanden conflicten veroorzaken als ze worden samengevoegd. Onderzoek deze conflicten en probeer ze handmatig op te lossen of hervat het updateproces en kies dan de samenvoegingsmethode van je voorkeur. Wanneer je de conflicten handmatig oplost, vergeet dan niet om de bestanden daarna opnieuw te controleren nadat je ze hebt aangepast. Je kan ook nog kiezen welke samenvoegingsmethode je wilt gebruiken voor elk bestand. De eerste methode zal het resultaat hebben dat de regels die een conflict veroorzaakten in het bestand zullen worden verwijderd, de andere manier zal als resultaat hebben dat je al je aanpassingen kwijtraakt van het nieuwere bestand.',
 	'FILES_DELETED'					=> 'Verwijderde bestanden',
 	'FILES_DELETED_EXPLAIN'			=> 'De volgende bestanden bestaan niet meer in de nieuwe versie. Deze bestanden zullen verwijderd moeten worden van je installatie.',
 	'FILES_MODIFIED'				=> 'Aangepaste bestanden',
@@ -449,7 +449,7 @@ $lang = array_merge($lang, array(
 	'UPDATE_FILE_UPDATER_HAS_FAILED'	=> 'Updaten van bestanden via “%1$s“ is mislukt. Het installatieprogramma zal het proberen via de “%2$s“ methode.',
 	'UPDATE_FILE_UPDATERS_HAVE_FAILED'	=> 'Alle methoden om de bestanden bij te werken zijn mislukt. Er zijn geen alternatieven meer.',
 
-	'UPDATE_CONTINUE_UPDATE_PROCESS'	=> 'Update proces vervolgen',
+	'UPDATE_CONTINUE_UPDATE_PROCESS'	=> 'Updateproces vervolgen',
 	'UPDATE_RECHECK_UPDATE_FILES'		=> 'Bestanden opnieuw controleren',
 ));
 
@@ -466,9 +466,9 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	// Common converter messages
 	'CONVERT_NOT_EXIST'			=> 'De opgegeven convertor bestaat niet.',
-	'DEV_NO_TEST_FILE'			=> 'Geen waarde is er opgegeven voor de test_file variabele in de convertor. Als je een gebruiker bent van deze convertor hoor je deze foutmelding niet te zien, meld dit bericht aan de auteur van de convertor. Als je de convertor-auteur bent, moet je de naam of een bestand opgeven die bestaat in het bronforum om het pad te bevestigen.',
+	'DEV_NO_TEST_FILE'			=> 'Geen waarde is er opgegeven voor de test_file-variabele in de convertor. Als je een gebruiker bent van deze convertor hoor je deze foutmelding niet te zien, meld dit bericht aan de auteur van de convertor. Als je de convertor-auteur bent, moet je de naam of een bestand opgeven die bestaat in het bronforum om het pad te bevestigen.',
 	'COULD_NOT_FIND_PATH'		=> 'Kan het pad naar je oude forum niet vinden. Controleer je instellingen en probeer het opnieuw.<br />» %s was het opgegeven doelpad.',
-	'CONFIG_PHPBB_EMPTY'		=> 'De phpBB3 configuratievariabele voor “%s” is leeg.',
+	'CONFIG_PHPBB_EMPTY'		=> 'De phpBB3-configuratievariabele voor “%s” is leeg.',
 
 	'MAKE_FOLDER_WRITABLE'		=> 'Wees er zeker van dat de map bestaat en schrijfbaar is voor de webserver en probeer het dan opnieuw:<br />»<strong>%s</strong>.',
 	'MAKE_FOLDERS_WRITABLE'		=> 'Wees er zeker van dat deze mappen bestaan en schrijfbaar zijn voor de webserver en probeer het dan opnieuw:<br />»<strong>%s</strong>.',
@@ -477,7 +477,7 @@ $lang = array_merge($lang, array(
 
 	'NO_TABLES_FOUND'			=> 'Er zijn geen tabellen gevonden.',
 	'TABLES_MISSING'			=> 'De volgende tabellen kunnen niet worden gevonden<br />» <strong>%s</strong>.',
-	'CHECK_TABLE_PREFIX'		=> 'Controleer de tabel prefix en probeer opnieuw.',
+	'CHECK_TABLE_PREFIX'		=> 'Controleer de tabelprefix en probeer opnieuw.',
 
 	// Conversion in progress
 	'CONTINUE_CONVERT'			=> 'Conversie hervatten',
@@ -499,28 +499,28 @@ $lang = array_merge($lang, array(
 	// Settings
 	'STAGE_SETTINGS'			=> 'Instellingen',
 	'TABLE_PREFIX_SAME'			=> 'De tabelprefix moet hetzelfde zijn als de software waarvan je wilt converteren.<br />» Ingevoerde tabelprefix was %s.',
-	'DEFAULT_PREFIX_IS'			=> 'De convertor was niet in staat om de tabel te vinden met de opgegeven prefix. Wees er zeker van dat je de juiste gegevens hebt ingevuld van het forum waarvan je wilt converteren. De standaard tabel prefix voor %1$s is <strong>%2$s</strong>.',
+	'DEFAULT_PREFIX_IS'			=> 'De convertor was niet in staat om de tabel te vinden met de opgegeven prefix. Wees er zeker van dat je de juiste gegevens hebt ingevuld van het forum waarvan je wilt converteren. De standaard tabelprefix voor %1$s is <strong>%2$s</strong>.',
 	'SPECIFY_OPTIONS'			=> 'Opties opgeven voor de conversie',
 	'FORUM_PATH'				=> 'Forumpad',
 	'FORUM_PATH_EXPLAIN'		=> 'Dit is het <strong>relatieve</strong> pad op de server naar je oude forum vanaf de <strong>root van je phpBB3-installatie</strong>.',
 	'REFRESH_PAGE'				=> 'Vernieuw de pagina om door te gaan met de conversie',
-	'REFRESH_PAGE_EXPLAIN'		=> 'Als je dit instelt op ja, dan zal de convertor de pagina vernieuwen om door te gaan met de conversie nadat er een stap is voltooid. Als dit je eerste conversie is voor test doeleinden en om te bepalen of er enige fouten optreden, raden wij je aan om deze optie op nee in te stellen.',
+	'REFRESH_PAGE_EXPLAIN'		=> 'Als je dit instelt op ja, dan zal de convertor de pagina vernieuwen om door te gaan met de conversie nadat er een stap is voltooid. Als dit je eerste conversie is voor testdoeleinden en om te bepalen of er enige fouten optreden, raden wij je aan om deze optie op nee in te stellen.',
 
 	// Conversion
 	'STAGE_IN_PROGRESS'			=> 'Bezig met converteren',
 
-	'AUTHOR_NOTES'				=> 'Auteur notities<br />» %s',
+	'AUTHOR_NOTES'				=> 'Opmerkingen van de auteur<br />» %s',
 	'STARTING_CONVERT'			=> 'Conversieproces starten',
 	'CONFIG_CONVERT'			=> 'Bezig met het converteren van de configuratie',
 	'DONE'						=> 'Klaar',
-	'PREPROCESS_STEP'			=> 'Bezig met het uitvoeren van de voorprocedure van functies/queries',
+	'PREPROCESS_STEP'			=> 'Bezig met het uitvoeren van de voorprocedure van functies/query\'s',
 	'FILLING_TABLE'				=> 'Vullen van tabel <strong>%s</strong>',
 	'FILLING_TABLES'			=> 'Vullen van tabellen',
-	'DB_ERR_INSERT'				=> 'Fout tijdens het verwerken van de <code>INSERT</code> query.',
+	'DB_ERR_INSERT'				=> 'Fout tijdens het verwerken van de <code>INSERT</code>-query.',
 	'DB_ERR_LAST'				=> 'Fout tijdens het verwerken van de <var>query_last</var>.',
 	'DB_ERR_QUERY_FIRST'		=> 'Fout tijdens het verwerken van de <var>query_first</var>.',
 	'DB_ERR_QUERY_FIRST_TABLE'	=> 'Fout tijdens het verwerken van de <var>query_first</var>, %s (“%s”).',
-	'DB_ERR_SELECT'				=> 'Fout opgetreden tijdens het uitvoeren van een <code>SELECT</code> query.',
+	'DB_ERR_SELECT'				=> 'Fout opgetreden tijdens het uitvoeren van een <code>SELECT</code>-query.',
 	'STEP_PERCENT_COMPLETED'	=> 'Stap <strong>%d</strong> van <strong>%d</strong>',
 	'FINAL_STEP'				=> 'Doorgaan met de laatste stap',
 	'SYNC_FORUMS'				=> 'Synchronisatie van forums gestart',
@@ -529,8 +529,8 @@ $lang = array_merge($lang, array(
 	'SYNC_TOPICS'				=> 'Synchronisatie van onderwerpen gestart',
 	'SYNC_TOPIC_ID'				=> 'Bezig met het synchroniseren van onderwerpen van <var>topic_id</var> %1$s tot %2$s.',
 	'PROCESS_LAST'				=> 'Bezig met de laatste stappen',
-	'UPDATE_TOPICS_POSTED'		=> 'Genereren van geplaatste onderwerpsinformatie',
-	'UPDATE_TOPICS_POSTED_ERR'	=> 'Er is een fout ontstaan terwijl er geplaatse onderwerpsinformatie werd gegenereerd. Je kan deze stap opnieuw uitvoeren in het beheerderspaneel nadat het conversieproces is voltooid.',
+	'UPDATE_TOPICS_POSTED'		=> 'Genereren van informatie geplaatste onderwerpen',
+	'UPDATE_TOPICS_POSTED_ERR'	=> 'Er is een fout ontstaan terwijl er informatie over geplaatste onderwerpen werd gegenereerd. Je kan deze stap opnieuw uitvoeren in het beheerderspaneel nadat het conversieproces is voltooid.',
 	'CONTINUE_LAST'				=> 'Doorgaan met de laatste stappen',
 	'CLEAN_VERIFY'				=> 'Opschonen en bevestigen van de uiteindelijke structuur',
 	'NOT_UNDERSTAND'			=> 'Kan het volgende niet begrijpen %s #%d, tabel %s (“%s”)',
@@ -540,9 +540,9 @@ $lang = array_merge($lang, array(
 	'CONVERT_COMPLETE'			=> 'Conversie compleet',
 	'CONVERT_COMPLETE_EXPLAIN'	=> 'Je hebt succesvol je forum geconverteerd naar phpBB 3.2. Je kan je nu <a href="../">aanmelden op je forum</a>. Voordat je de install-map verwijderd en je forum ingeschakeld, controleer of alle instellingen correct zijn overgezet. Online hulp is beschikbaar via de volgende Nederlandstalige ondersteunings-websites <a href="https://www.phpbbservice.nl/">phpBBservice.nl</a> of <a href="http://www.phpbb.nl/">phpBB.nl</a>.',
 
-	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'FTP-upload voor bijlagen is ingeschakeld op het oude forum. Schakel de FTP-upload optie uit en zorg ervoor dat je een geldige uploadmap opgeeft, kopieer daarna alle bijlagenbestanden naar de nieuwe web toegankelijke map. Wanneer je dit hebt gedaan, herstart je de convertor.',
+	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'FTP-upload voor bijlagen is ingeschakeld op het oude forum. Schakel de FTP-uploadoptie uit en zorg ervoor dat je een geldige uploadmap opgeeft, kopieer daarna alle bijlagenbestanden naar de nieuwe web toegankelijke map. Wanneer je dit hebt gedaan, herstart je de convertor.',
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'Er is geen configuratie-informatie beschikbaar voor de conversie.',
-	'CONV_ERROR_FORUM_ACCESS'			=> 'Kan geen forum-toegangsinformatie verkrijgen.',
+	'CONV_ERROR_FORUM_ACCESS'			=> 'Kan geen forumtoegangsinformatie verkrijgen.',
 	'CONV_ERROR_GET_CATEGORIES'			=> 'Kan geen categorieën verkrijgen.',
 	'CONV_ERROR_GET_CONFIG'				=> 'Kan niet je forumconfiguratie ophalen.',
 	'CONV_ERROR_COULD_NOT_READ'			=> 'Onmogelijk om “%s” te openen/lezen.',
@@ -551,7 +551,7 @@ $lang = array_merge($lang, array(
 	'CONV_ERROR_INSERT_BOT'				=> 'Kan de bot niet toevoegen aan de “user”-tabel.',
 	'CONV_ERROR_INSERT_BOTGROUP'		=> 'Kan de bot niet toevoegen aan de “bots”-tabel.',
 	'CONV_ERROR_INSERT_USER_GROUP'		=> 'Kan de gebruiker niet toevoegen aan de “user_group”-tabel.',
-	'CONV_ERROR_MESSAGE_PARSER'			=> 'Bericht-parser fout',
+	'CONV_ERROR_MESSAGE_PARSER'			=> 'Berichtenparserfout',
 	'CONV_ERROR_NO_AVATAR_PATH'			=> 'Bericht aan de ontwikkelaar: je moet $convertor[\'avatar_path\'] opgeven door %s te gebruiken.',
 	'CONV_ERROR_NO_FORUM_PATH'			=> 'Het relatieve pad naar het bronforum is niet opgegeven.',
 	'CONV_ERROR_NO_GALLERY_PATH'		=> 'Bericht aan de ontwikkelaar: je moet $convertor[\'avatar_gallery_path\'] opgeven door %s te gebruiken.',
@@ -560,13 +560,13 @@ $lang = array_merge($lang, array(
 	'CONV_ERROR_NO_SMILIES_PATH'		=> 'Bericht aan de ontwikkelaar: je moet $convertor[\'smilies_path\'] opgeven door %s te gebruiken.',
 	'CONV_ERROR_NO_UPLOAD_DIR'			=> 'Bericht aan de ontwikkelaar: je moet $convertor[\'upload_path\'] opgeven door %s te gebruiken.',
 	'CONV_ERROR_PERM_SETTING'			=> 'Kan de permissieinstellingen niet bijwerken of toevoegen.',
-	'CONV_ERROR_PM_COUNT'				=> 'Kan de PB-teller map niet selecteren.',
+	'CONV_ERROR_PM_COUNT'				=> 'Kan de PB-tellermap niet selecteren.',
 	'CONV_ERROR_REPLACE_CATEGORY'		=> 'Kan het nieuwe forum niet toevoegen tijdens het vervangen van een oude categorie.',
 	'CONV_ERROR_REPLACE_FORUM'			=> 'Kan het nieuwe forum niet vervangen met het oude forum.',
 	'CONV_ERROR_USER_ACCESS'			=> 'Kan de gebruikersauthenticatie-informatie niet verkrijgen.',
 	'CONV_ERROR_WRONG_GROUP'			=> 'Verkeerde groep “%1$s” opgegeven in %2$s.',
-	'CONV_OPTIONS_BODY'					=> 'Deze pagina verzameld alle nodigde gegevens die nodig zijn om toegang te hebben tot het bronforum. Voer de database-gegevens in van je vorige forum; de convertor zal niks veranderen in de database die je hieronder opgeeft. Het bronforum zal uitgeschakeld moeten zijn om een zo goed als mogelijke conversie te krijgen.',
+	'CONV_OPTIONS_BODY'					=> 'Deze pagina verzamelt alle nodige gegevens die nodig zijn om toegang te hebben tot het bronforum. Voer de databasegegevens in van je vorige forum; de convertor zal niks veranderen in de database die je hieronder opgeeft. Het bronforum zal uitgeschakeld moeten zijn om een zo goed als mogelijke conversie te krijgen.',
 	'CONV_SAVED_MESSAGES'				=> 'Opgeslagen berichten',
 
-	'PRE_CONVERT_COMPLETE'			=> 'Alle voorbereidende conversie stappen zijn succesvol voltooid. Je mag nu beginnen met het werkelijke conversieproces. Hou in de gaten dat je waarschijnlijk diverse dingen handmatig moet aanpassen. Na de conversie, zal je vooral de toegewezen permissies moeten controleren, de zoekindex moeten herbouwen aangezien die niet mee wordt geconverteerd en wees er ook zeker van dat de bestanden correct zijn gekopieerd, bijvoorbeeld de avatars en smilies.',
+	'PRE_CONVERT_COMPLETE'			=> 'Alle voorbereidende conversiestappen zijn succesvol voltooid. Je mag nu beginnen met het werkelijke conversieproces. Hou in de gaten dat je waarschijnlijk diverse dingen handmatig moet aanpassen. Na de conversie zal je vooral de toegewezen permissies moeten controleren en de zoekindex moeten herbouwen, aangezien die niet mee wordt geconverteerd. Kijk ook of bestanden correct zijn gekopieerd, bijvoorbeeld de avatars en smilies.',
 ));

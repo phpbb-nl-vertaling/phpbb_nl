@@ -7,7 +7,7 @@ Dit bericht bevat belangrijke accountinformatie, bewaar deze e-mail dus goed. Je
 ----------------------------
 Gebruikersnaam: {USERNAME}
 
-Forum link: {U_BOARD}
+Forumlink: {U_BOARD}
 ----------------------------
 
 Gebruik onderstaande link om het gebruikersaccount te activeren:

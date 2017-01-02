@@ -185,7 +185,7 @@ $lang = array_merge($lang, array(
 	'NO_TEMP_DIR'				=> 'Tijdelijke map kan niet gevonden worden of is niet schrijfbaar.',
 
 	'PARTIAL_UPLOAD'			=> 'Het geüploade bestand is slechts gedeeltelijk geüpload.',
-	'PHP_UPLOAD_STOPPED'		=> 'Het uploaden is gestopt door een PHP extensie.',
+	'PHP_UPLOAD_STOPPED'		=> 'Het uploaden is gestopt door een PHP-extensie.',
 	'PHP_SIZE_NA'				=> 'De bestandsgrootte van de bijlage is te groot.<br />Kan de maximum grootte opgegeven in PHP in php.ini niet bepalen.',
 	'PHP_SIZE_OVERRUN'			=> 'De bestandsgrootte van de bijlage is te groot, de maximum uploadgrootte is %1$d %2$s.<br />Dit is ingesteld in php.ini en kan niet overschreven worden.',
 	'PLACE_INLINE'				=> 'Plaats in tekst',

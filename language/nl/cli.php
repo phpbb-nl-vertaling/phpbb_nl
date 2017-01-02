@@ -61,20 +61,20 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Verhoogt een configuratie-optie waarde',
 	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> 'Lijst met alle extensies in de database en bestandssysteem.',
 
-	'CLI_DESCRIPTION_OPTION_ENV'				=> 'Omgeving naam.',
-	'CLI_DESCRIPTION_OPTION_SAFE_MODE'			=> 'In Safe Mode draaien (zonder extensies)..',
+	'CLI_DESCRIPTION_OPTION_ENV'				=> 'Naam van de omgeving',
+	'CLI_DESCRIPTION_OPTION_SAFE_MODE'			=> 'In Safe Mode draaien (zonder extensies).',
 	'CLI_DESCRIPTION_OPTION_SHELL'				=> 'Shell-toegang openen…',
 	
 	'CLI_DESCRIPTION_PURGE_EXTENSION'			=> 'Leegt de gespecificeerde extensie.',
 	
-	'CLI_DESCRIPTION_REPARSER_LIST'				=> 'Geef de tekst-typen weer welke opnieuw geparsed kunnen worden.',
+	'CLI_DESCRIPTION_REPARSER_LIST'				=> 'Geef de teksttypen weer welke opnieuw geparsed kunnen worden.',
 	'CLI_DESCRIPTION_REPARSER_AVAILABLE'				=> 'Beschikbare herparsers:',
 	'CLI_DESCRIPTION_REPARSER_REPARSE'			=> 'Parse opgeslagen tekst opnieuw met de huidige opmaakservices.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'	=> 'Teksttype om opnieuw te parsen. Laat leeg om alles opnieuw te parsen.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'Sla geen wijzigingen op; geef alleen weer wat er zou gebeuren.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MIN'	=> 'Laagste record ID om te verwerken',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'	=> 'Hoogste record ID om te verwerken',
-	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'Geschatte aantak records om per keer te verwerken',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'Geschat aantal records om per keer te verwerken',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RESUME'		=> 'Start opnieuw parsen op het punt dat de vorige operatie stopte.',
 	
 	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'	=> 'Herberekend de “user_email_hash”-kolom van de “users”-tabel.',
@@ -89,21 +89,21 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_UPDATE_CHECK'				=> 'Controleer of de installie bijgewerkt is naar de laatste versie.',
 	'CLI_DESCRIPTION_UPDATE_CHECK_ARGUMENT_1'		=> 'Naam van de te controleren extensie (of alle extensies)',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'		=> 'Draai de controle vanuit de cache',
-	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY'	=> 'Voer controle uit of alleen stabiele of ook instabiele versies.',
+	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY'	=> 'Voer controle uit op alleen stabiele of ook instabiele versies.',
 
 	'CLI_ERROR_INVALID_STABILITY' => '"%s" is geen valide stabiliteit.',	
 
 	'CLI_DESCRIPTION_USER_ACTIVATE'				=> 'Activeer (of deactiveer) een account.',
 	'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'	=> 'Gebruikersnaam van het te activeren account.',
-	'CLI_DESCRIPTION_USER_ACTIVATE_DEACTIVATE'	=> 'Deactiveer de gebruiker’s account',
+	'CLI_DESCRIPTION_USER_ACTIVATE_DEACTIVATE'	=> 'Deactiveer account van gebruiker',
 	'CLI_DESCRIPTION_USER_ACTIVATE_ACTIVE'		=> 'Dit gebruikersaccount is al actief.',
-	'CLI_DESCRIPTION_USER_ACTIVATE_INACTIVE'	=> 'Dit gebruikersaccount is al inactief..',
+	'CLI_DESCRIPTION_USER_ACTIVATE_INACTIVE'	=> 'Dit gebruikersaccount is al inactief.',
 	'CLI_DESCRIPTION_USER_ADD'					=> 'Voeg een nieuwe gebruiker toe.',
 	'CLI_DESCRIPTION_USER_ADD_OPTION_USERNAME'	=> 'Gebruikersnaam van de nieuwe gebruiker',
 	'CLI_DESCRIPTION_USER_ADD_OPTION_PASSWORD'	=> 'Wachtwoord van de nieuwe gebruiker',
 	'CLI_DESCRIPTION_USER_ADD_OPTION_EMAIL'		=> 'E-mailadres van de nieuwe gebruiker',
-	'CLI_DESCRIPTION_USER_ADD_OPTION_NOTIFY'	=> 'Verstuur accountactivatiemail naar gebruiker (standaard uitgeschakeld)',
-	'CLI_DESCRIPTION_USER_DELETE'				=> 'Verwijder een gebruiker’s account',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_NOTIFY'	=> 'Verstuur accountactivatie-mail naar gebruiker (standaard uitgeschakeld)',
+	'CLI_DESCRIPTION_USER_DELETE'				=> 'Verwijder een gebruikersaccount',
 	'CLI_DESCRIPTION_USER_DELETE_USERNAME'		=> 'Gebruikernaam van het te verwijderen account',
 	'CLI_DESCRIPTION_USER_DELETE_OPTION_POSTS'	=> 'Verwijder alle berichten van deze gebruiker. Wanneer niet geselecteerd zullen alle berichten bewaard blijven.',
 	'CLI_DESCRIPTION_USER_RECLEAN'				=> 'Opschonen gebruikersnamen.',
@@ -124,7 +124,7 @@ $lang = array_merge($lang, array(
 	
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Alle “email-hashes” succesvol herberekend.',
 
-	'CLI_MIGRATION_NAME'					=> 'Migratie naam, inclusief namespace (gebruik slash (/) in plaats van backslash om problemen te voorkomen).',
+	'CLI_MIGRATION_NAME'					=> 'Migratienaam, inclusief namespace (gebruik slash (/) in plaats van backslash om problemen te voorkomen).',
 	'CLI_MIGRATIONS_AVAILABLE'				=> 'Beschikbare migraties',
 	'CLI_MIGRATIONS_INSTALLED'				=> 'Geïnstalleerde migraties',
 	'CLI_MIGRATIONS_ONLY_AVAILABLE'		    => 'Toon alleen beschikbare migraties',
@@ -132,7 +132,7 @@ $lang = array_merge($lang, array(
 
 	'CLI_REPARSER_REPARSE_REPARSING'		=> 'Opnieuw parsen %1$s (bereik %2$d..%3$d)',
 	'CLI_REPARSER_REPARSE_REPARSING_START'	=> 'Opnieuw parsen %s...',
-	'CLI_REPARSER_REPARSE_SUCCESS'			=> 'Opnieuw parsen successvol beëindigd',
+	'CLI_REPARSER_REPARSE_SUCCESS'			=> 'Opnieuw parsen succesvol beëindigd',
 
 	// In all the case %1$s is the logical name of the file and %2$s the real name on the filesystem
 	// eg: big_image.png (2_a51529ae7932008cf8454a95af84cacd) generated.
@@ -159,11 +159,11 @@ $lang = array_merge($lang, array(
 
 // Additional help for commands.
 $lang = array_merge($lang, array(
-	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Hier kun je eventueel een cronjobnaam opgeven, zodat de speciefieke cronjob gedraait kan worden.',
-	'CLI_HELP_USER_ACTIVATE'	=> 'Activeer een gebruikersaccount, of deactiveer een account met de <info>--deactivate</info> optie.
-	Om daar ook nog een activatiemail bij te sturen, gebruik de <info>--send-email</info> optie.',
+	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Hier kun je eventueel een cronjobnaam opgeven, zodat de speciefieke cronjob gedraaid kan worden.',
+	'CLI_HELP_USER_ACTIVATE'	=> 'Activeer een gebruikersaccount of deactiveer een account met de optie <info>--deactivate</info>.
+	Gebruik de optie <info>--send-email</info> om hierbij ook een activatie-e-mail te sturen.',
 	'CLI_HELP_USER_ADD'			=> 'Het <info>%command.name%</info> commando voegt de nieuwe gebruiker toe:
 	Als dit commando wordt gebruikt zonder het toevoegen van opties zal je hier alsnog naar gevraagd worden.
-	Om nog een activatiemail naar de nieuwe gebruiker te sturen, gebruik de <info>--send-email</info> optie.',
-	'CLI_HELP_USER_RECLEAN'		=> 'Het opschonen van gebruikersnamen checkt de database voor alle gebruikersnamen en zorgt ervoor dat schonen varianten worden gebruikt. Schone gebruiksnamen bevatten geen hoofdletters, zijn NFC genormaliseerd en getransformeerd naar ASCII-formaat.',
+	Gebruik de optie <info>--send-email</info> om ook een activatie-e-mail naar de nieuwe gebruiker te sturen.',
+	'CLI_HELP_USER_RECLEAN'		=> 'Het opschonen van gebruikersnamen controleert alle gebruikersnamen in de database en zorgt ervoor dat schone varianten worden gebruikt. Schone gebruiksnamen bevatten geen hoofdletters, zijn NFC genormaliseerd en getransformeerd naar ASCII-formaat.',
 ));
