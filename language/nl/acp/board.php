@@ -350,6 +350,8 @@ $lang = array_merge($lang, array(
 
 	'COOKIE_DOMAIN'				=> 'Cookie-domein',
 	'COOKIE_NAME'				=> 'Cookie-naam',
+	'COOKIE_NOTICE'				=> 'Cookie-waarschuwing',
+	'COOKIE_NOTICE_EXPLAIN'		=> 'Wanneer ingeschakeld zal er cookiewaarschuwing aan gebruikers worden weergegeven wanneer ze het forum bezoeken. Dit kan wettelijk verplicht zijn afhangend van de inhoud van je forum en de extensies die ingeschakeld zijn.',
 	'COOKIE_PATH'				=> 'Cookie-pad',
 	'COOKIE_SECURE'				=> 'Cookie-beveiliging',
 	'COOKIE_SECURE_EXPLAIN'		=> 'Als je server draait via SSL, schakel dit dan in, laat het anders uitgeschakeld. Als je dit ingeschakeld hebt en niet draait via SSL, dan zal dit resulteren in serverfouten tijdens doorsturingen.',
