@@ -236,7 +236,7 @@ $lang = array_merge($lang, array(
 	'CANNOT_RENAME_FILE'				=> 'Kan een bestand van het systeem niet hernoemen',
 	'CANNOT_TOUCH_FILES'				=> 'Kan niet vaststellen of het bestand bestaat',
 
-	'CONTAINER_EXCEPTION' => 'phpBB is een foutmelding tegengekomen tijdens het bouwen van de container, veroorzaakt door een geïnstalleerde extensie. Om deze reden zijn alle extensies tijdelijk uitgeschakeld. Probeer de cache van je forum te legen. Alle extensies worden automatische ingeschakeld als de foutmelding is opgelost. Als deze foutmelding zich blijft voordoen, bezoek dan ons support forum via <a href="http://www.phpbb.nl/forums/index.php">phpbb.nl</a> of via <a href="https://www.phpbbservice.nl/forum/">phpbbservice.nl</a>.',
+	'CONTAINER_EXCEPTION' => 'phpBB is een foutmelding tegengekomen tijdens het bouwen van de container, veroorzaakt door een geïnstalleerde extensie. Om deze reden zijn alle extensies tijdelijk uitgeschakeld. Probeer de cache van je forum te legen. Alle extensies worden automatische ingeschakeld als de foutmelding is opgelost. Als deze foutmelding zich blijft voordoen, bezoek dan ons support forum via <a href="http://www.phpbb.nl/forums/index.php">phpbb.nl</a>.',
 	'EXCEPTION' => 'Uitzondering',
 
 	'COLOUR_SWATCH'			=> 'Webveilig kleurenpalet',
