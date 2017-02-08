@@ -581,7 +581,7 @@ $lang = array_merge($lang, array(
 	'SMTP_SETTINGS'					=> 'SMTP-instellingen',
 	'SMTP_USERNAME'					=> 'SMTP-gebruikersnaam',
 	'SMTP_USERNAME_EXPLAIN'			=> 'Voer alleen een gebruikersnaam in als je SMTP-server dit vereist.',
-	'TEST_EMAIL_SENT'				=> 'De test-e-mail is verzonden.<br />Controleer je e-mailconfiguratie als je de test e-mail niet hebt ontvangen.<br /><br />Als je hulp nodig hebt, kan je terecht op <a href="http://www.phpbb.nl/forums/index.php">phpbb.nl</a> of <a href="https://www.phpbbservice.nl/forum/">phpbbservice.nl</a>.',
+	'TEST_EMAIL_SENT'				=> 'De test-e-mail is verzonden.<br />Controleer je e-mailconfiguratie als je de test e-mail niet hebt ontvangen.<br /><br />Als je hulp nodig hebt, kan je terecht op <a href="http://www.phpbb.nl/forums/index.php">phpbb.nl</a>.',
 	'USE_SMTP'						=> 'Gebruik SMTP-server voor e-mail',
 	'USE_SMTP_EXPLAIN'				=> 'Selecteer “Ja” als je e-mail wilt versturen via een genoemde server in plaats van de lokale e-mailfunctie.',
 ));
