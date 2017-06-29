@@ -83,7 +83,7 @@ $lang = array_merge($lang, array(
 	'ACP_LINK'	=> 'Ga naar het <a href="%1$s">beheerderspaneel</a>',
 
 	'INSTALL_PHPBB_INSTALLED'		=> 'phpBB is al geïnstalleerd.',
-	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB is nog niet geïnstalleerd.'		
+	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB is nog niet geïnstalleerd.',		
 ));
 
 // Requirements translation
