@@ -119,7 +119,7 @@ $lang = array_merge($lang, array(
 
 	'RETEST_REQUIREMENTS'	=> 'Vereisten opnieuw controleren',
 
-	'STAGE_REQUIREMENTS'	=> 'Controleer vereisten'
+	'STAGE_REQUIREMENTS'	=> 'Controleer vereisten',
 ));
 
 // General error messages
@@ -199,6 +199,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_NAME'			=> 'Geen databasenaam opgegeven.',
 	'INST_ERR_DB_FORUM_PATH'		=> 'Het databasebestand dat is opgegeven bevindt zich in de forummappen-hiërarchie. Je zal dit bestand moeten plaatsen in een locatie die niet via het web toegankelijk is.',
 	'INST_ERR_DB_CONNECT'			=> 'Kon geen verbinding leggen met de database, zie de foutmelding hieronder.',
+	'INST_ERR_DB_NO_WRITABLE'		=> 'Zowel de database en de map ervan moeten schrijfbaar zijn.',
 	'INST_ERR_DB_NO_ERROR'			=> 'Geen foutmelding gegeven.',
 	'INST_ERR_PREFIX'				=> 'Tabellen met de opgegeven prefix bestaan al, kies een andere prefix.',
 	'INST_ERR_DB_NO_MYSQLI'			=> 'De versie van MySQL die geïnstalleerd is op deze server werkt niet met de “MySQL met MySQLi-extensie”-optie die je hebt geselecteerd. Probeer in plaats daarvan de optie “MySQL”.',
@@ -224,6 +225,7 @@ $lang = array_merge($lang, array(
 	// Server data
 	//
 	// Form labels
+	'UPGRADE_INSTRUCTIONS'			=> 'Een nieuwe versie met nieuwe functionaliteiten <strong>%1$s</strong> is beschikbaar. Lees a.u.b. <a href="%2$s" title="%2$s"><strong>de aankondiging</strong></a> om te weten te komen wat dit inhoud en hoe je kun upgraden.',
 	'SERVER_CONFIG'				=> 'Serverconfiguratie',
 	'SCRIPT_PATH'				=> 'Scriptpad',
 	'SCRIPT_PATH_EXPLAIN'		=> 'Het pad waar phpBB zich bevindt, relatief ten opzichte van het domeinnaam, bijvoorbeeld <samp>/phpBB3</samp>.',
@@ -299,6 +301,7 @@ $lang = array_merge($lang, array(
 	'TASK_ADD_BOTS'			=> 'Bots registreren',
 	'TASK_ADD_LANGUAGES'	=> 'Beschikbare talen installeren',
 	'TASK_ADD_MODULES'		=> 'Modules installeren',
+	'TASK_CREATE_SEARCH_INDEX'	=> 'Zoekindex aanmaken',
 
 	// Install finish tasks
 	'TASK_INSTALL_EXTENSIONS'	=> 'Gebundelde extensies installeren',
