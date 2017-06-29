@@ -161,6 +161,8 @@ $lang = array_merge($lang, array(
 	'ACP_POST_SETTINGS_EXPLAIN'			=> 'Hier kan je alle standaard instellingen voor het plaatsen van berichten instellen.',
 	'ALLOW_POST_LINKS'					=> 'Links in berichten/privéberichten toestaan',
 	'ALLOW_POST_LINKS_EXPLAIN'			=> 'Indien niet toegestaan, dan zijn de <code>[URL]</code> BBCode-tag en automatisch/magische URLs uitgeschakeld.',
+	'ALLOWED_SCHEMES_LINKS'				=> 'Toegestande URL schema\'s in links',
+	'ALLOWED_SCHEMES_LINKS_EXPLAIN'			=> 'Genruikers mogen alleen schemaloze URLs plaatsen of een van de door komma\'s gescheiden lijst van toegestane schema\'s.',
 	'ALLOW_POST_FLASH'					=> 'Gebruik van <code>[FLASH]</code> BBCode-tag in berichten toestaan',
 	'ALLOW_POST_FLASH_EXPLAIN'			=> 'Indien niet toegestaan, dan is de <code>[FLASH]</code> BBCode-tag uitgeschakeld in berichten. Anders kan het permissiesysteem controleren welke gebruikers gebruik kunnen maken van de <code>[FLASH]</code> BBCode-tag.',
 
@@ -346,13 +348,16 @@ $lang = array_merge($lang, array(
 
 // Cookie Settings
 $lang = array_merge($lang, array(
-	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Deze details definiëren de data die gebruikt wordt om cookies te versturen naar de browsers van je gebruikers. In de meeste gevallen moet de standaard waardes voor de cookie instellingen genoeg zijn. Als je wel veranderingen moet aanbrengen, doe dit dan voorzichtig, incorrecte instellingen kunnen er voor zorgen dat gebruikers zich niet meer kunnen aanmelden.',
+	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Deze details definiëren de data die gebruikt wordt om cookies te versturen naar de browsers van je gebruikers. In de meeste gevallen moet de standaard waardes voor de cookie instellingen genoeg zijn. Als je wel veranderingen moet aanbrengen, doe dit dan voorzichtig, incorrecte instellingen kunnen er voor zorgen dat gebruikers zich niet meer kunnen aanmelden. Als je problemen ervaart met ingelogd blijven op je forum, lees dan <b><a href="https://www.phpbb.com/support/go/cookie-settings/">phpBB.com Knowledge Base - Fixing incorrect cookie settings</a></b> (engelstalig).',
 
 	'COOKIE_DOMAIN'				=> 'Cookie-domein',
+	'COOKIE_DOMAIN_EXPLAIN'			=> 'In de meeste gevallen is het Cookie-domein optioneel, laat leeg als je niet zeker bent.<br /><br /> Indien je forum samen met andere software geïntegreed is of indien je meerdere domeinen hebt, kun je het cookie-domein als volgt bepalen: Heb je bijvoorbeeld <i>voorbeeld.com</i> en <i>forum.voorbeeld.com</i>, of misschien <i>forum.voorbeeld.com</i> en <i>blog.voorbeeld.com</i>. Verwijder dan de subdomeinen totdat je de gemene deler van het hoofddomein hebt, dus, <i>voorbeeld.com</i>. Voeg nu een punt toe voor het hoofddomein, dus .voorbeeld.com (merk de punt op aan het begin).',
 	'COOKIE_NAME'				=> 'Cookie-naam',
+	'COOKIE_NAME_EXPLAIN'			=> 'Dit mag alles zijn, als het maar uniek is. Wanneer je iets in de cookie-instellingen wijzigt, moet je deze waarde ook wijzigen.',
 	'COOKIE_NOTICE'				=> 'Cookie-waarschuwing',
 	'COOKIE_NOTICE_EXPLAIN'		=> 'Wanneer ingeschakeld zal er cookiewaarschuwing aan gebruikers worden weergegeven wanneer ze het forum bezoeken. Dit kan wettelijk verplicht zijn afhangend van de inhoud van je forum en de extensies die ingeschakeld zijn.',
 	'COOKIE_PATH'				=> 'Cookie-pad',
+	'COOKIE_PATH_EXPLAIN'		=> 'Dit is in principe altijd een slash, ongeacht het adres van je forum.',
 	'COOKIE_SECURE'				=> 'Cookie-beveiliging',
 	'COOKIE_SECURE_EXPLAIN'		=> 'Als je server draait via SSL, schakel dit dan in, laat het anders uitgeschakeld. Als je dit ingeschakeld hebt en niet draait via SSL, dan zal dit resulteren in serverfouten tijdens doorsturingen.',
 	'ONLINE_LENGTH'				=> 'Bekijk online tijdsduur',
@@ -393,6 +398,8 @@ $lang = array_merge($lang, array(
 	'LOAD_CPF_VIEWTOPIC'			=> 'Eigen profielvelden weergeven op onderwerppagina’s',
 	'LOAD_USER_ACTIVITY'			=> 'Gebruikers activiteit tonen',
 	'LOAD_USER_ACTIVITY_EXPLAIN'	=> 'Actieve onderwerp/forum weergeven in gebruikersprofiel en gebruikerspaneel. Het is aanbevolen om dit uit te schakelen op forums met meer dan één miljoen berichten.',
+	'LOAD_USER_ACTIVITY_LIMIT'		=> 'Gebruikers actiiteit bericht limiet',
+	'LOAD_USER_ACTIVITY_LIMIT_EXPLAIN'	=> 'Het actieve forum of onderwerp wordt niet getoond voor gebruikers met meer dan dit aantal berichten. Zet op 0 om uit te schakelen.',
 	'READ_NOTIFICATION_EXPIRE_DAYS'	=> 'Leesnotificatie Vervaltijd',
 	'READ_NOTIFICATION_EXPIRE_DAYS_EXPLAIN' => 'Aantal dagen nadat een leesnotificatie automatisch zal worden verwijderd. Stel deze waarde op 0 in om notificaties permanent te maken.',
 	'RECOMPILE_STYLES'				=> 'Hercompileer oude stijl componenten',
@@ -565,6 +572,8 @@ $lang = array_merge($lang, array(
 	'ENABLE_EMAIL_EXPLAIN'			=> 'Als dit is uitgeschakeld, zullen geen e-mails door het forum verstuurd worden. <em>Let op dat gebruiker- of beheerdersactivatie vereisen dat deze optie is ingeschakeld. Als momenteel gebruik wordt gemaakt van “gebruiker” of “beheerder” activatie in de activatieinstellingen, dan zal het uitschakelen van deze functie ook de registratie uitschakelen.</em>',
 	'SEND_TEST_EMAIL'				=> 'Test e-mail versturen',
 	'SEND_TEST_EMAIL_EXPLAIN'		=> 'Deze optie verstuurt een test-e-mail naar het e-mailadres dat is opgegeven bij je accountinstellingen.',
+	'SMTP_ALLOW_SELF_SIGNED'		=> 'Sta self-signed SSL certificaten toe',
+	'SMTP_ALLOW_SELF_SIGNED_EXPLAIN'	=> 'Sta connecties toe naar SMTP-servers met een self-signed SSL certificaat.<em><strong>Waarschuwing:</strong> Dit kan beveiligingsproblemen opleveren.</em>',
 	'SMTP_AUTH_METHOD'				=> 'Authenticatiemethode voor SMTP',
 	'SMTP_AUTH_METHOD_EXPLAIN'		=> 'Alleen gebruiken als een gebruikersnaam/wachtwoord ingesteld is, vraag je provider als je niet zeker bent welke methode je moet gebruiken.',
 	'SMTP_CRAM_MD5'					=> 'CRAM-MD5',
@@ -581,6 +590,10 @@ $lang = array_merge($lang, array(
 	'SMTP_SETTINGS'					=> 'SMTP-instellingen',
 	'SMTP_USERNAME'					=> 'SMTP-gebruikersnaam',
 	'SMTP_USERNAME_EXPLAIN'			=> 'Voer alleen een gebruikersnaam in als je SMTP-server dit vereist.',
+	'SMTP_VERIFY_PEER'				=> 'Controleer SSL certificaat',
+	'SMTP_VERIFY_PEER_EXPLAIN'		=> 'Vereis verificatie van het SSL certificaat gebruikt door de SMTP server.<em><strong>Waarschuwing:</strong> Uitschakelen kan beveiligingsproblemen opleveren.</em>',
+	'SMTP_VERIFY_PEER_NAME'			=> 'Vereis peer verificatie',
+	'SMTP_VERIFY_PEER_NAME_EXPLAIN'		=> 'Vereis verificatie van de peer name for SMTP servers met SSL / TLS connecties.<em><strong>Waarschuwing:</strong> Uitschakelen kan beveiligingsproblemen opleveren.</em>',
 	'TEST_EMAIL_SENT'				=> 'De test-e-mail is verzonden.<br />Controleer je e-mailconfiguratie als je de test e-mail niet hebt ontvangen.<br /><br />Als je hulp nodig hebt, kan je terecht op <a href="http://www.phpbb.nl/forums/index.php">phpbb.nl</a>.',
 	'USE_SMTP'						=> 'Gebruik SMTP-server voor e-mail',
 	'USE_SMTP_EXPLAIN'				=> 'Selecteer “Ja” als je e-mail wilt versturen via een genoemde server in plaats van de lokale e-mailfunctie.',
@@ -590,6 +603,8 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_JABBER_SETTINGS_EXPLAIN'	=> 'Hier kan je het gebruik van Jabber voor directe berichten en forumnotificaties inschakelen en controleren. Jabber is een open-source protocol en kan daarom gebruikt worden door iedereen. Sommige Jabber-servers bevatten gateways of transporten welke je toestaan om met gebruikers op andere netwerken in contact te komen. Niet alle servers bieden alle transporten en veranderingen in protocollen kunnen transporten voorkomen. Zorg er voor dat je al geregistreerde accountdetails invoert - phpBB zal de details gebruiken die je hier invoert gebruiken zoals ze zijn.',
 
+	'JAB_ALLOW_SELF_SIGNED'			=> 'Sta self-signed SSL certificaten toe',
+	'JAB_ALLOW_SELF_SIGNED_EXPLAIN'		=> 'Sta connecties naar de Jabber server to met een self-signed SSL certificaat.<em><strong>Waarschuwing:</strong> Uitschakelen kan beveiligingsproblemen opleveren.</em>',
 	'JAB_ENABLE'				=> 'Jabber inschakelen',
 	'JAB_ENABLE_EXPLAIN'		=> 'Schakelt het gebruik van Jabber-berichten en notificaties in.',
 	'JAB_GTALK_NOTE'			=> 'Let op dat GTalk niet zal werken omdat de <samp>dns_get_record</samp> functie niet gevonden kan worden. Deze functie is niet beschikbaar in PHP4, en is niet ingebouwd op Windows platforms. Momenteel werkt het niet op BSD-gebaseerde systemen, inclusief Mac OS.',
@@ -606,4 +621,8 @@ $lang = array_merge($lang, array(
 	'JAB_USE_SSL_EXPLAIN'		=> 'Indien ingeschakeld wordt er geprobeerd om een beveiligde connectie te maken. De Jabber-poort zal aangepast worden naar 5223 als poort 5222 is gespecificeerd.',
 	'JAB_USERNAME'				=> 'Jabber-gebruikersnaam of JID',
 	'JAB_USERNAME_EXPLAIN'		=> 'Specificeer een geregistreerde gebruikersnaam of een geldige JID. De gebruikersnaam zal niet worden gecontroleerd op geldigheid. Als je alleen een gebruikersnaam specificeert, dan zal je JID de gebruikersnaam zijn en de server die je hebt gespecificeerd hierboven. Specificeer anders een geldige JID, bijvoorbeeld gebruiker@jabber.org.',
+	'JAB_VERIFY_PEER'			=> 'Controleer SSL certificaat',
+	'JAB_VERIFY_PEER_EXPLAIN'		=> 'Vereis verificatie van het SSL certificaat gebruikt door de Jabber server.<em><strong>Waarschuwing:</strong> Uitschakelen kan beveiligingsproblemen opleveren.</em>',
+	'JAB_VERIFY_PEER_NAME'			=> 'Vereis peer verificatie',
+	'JAB_VERIFY_PEER_NAME_EXPLAIN'	=> 'Vereis verificatie van de peer name for SMTP servers met SSL / TLS connecties.<em><strong>Waarschuwing:</strong> Uitschakelen kan beveiligingsproblemen opleveren.</em>',
 ));
