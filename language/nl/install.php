@@ -574,6 +574,7 @@ $lang = array_merge($lang, array(
 	'UPDATING_DATA'					=> 'Gegevens aan het bijwerken',
 	'UPDATING_TO_LATEST_STABLE'		=> 'Database bijwerken naar de laatst stabiele versie',
 	'UPDATED_VERSION'				=> 'Bijgewerkte versie',
+	'UPGRADE_INSTRUCTIONS'			=> 'Een nieuwe versie met nieuwe functionaliteiten <strong>%1$s</strong> is beschikbaar. Lees a.u.b. <a href="%2$s" title="%2$s"><strong>de aankondiging</strong></a> om te weten te komen wat dit inhoud en hoe je kun upgraden.',
 	'UPLOAD_METHOD'					=> 'Uploadmethode',
 
 	'UPDATE_DB_SUCCESS'				=> 'Database-update was succesvol.',
