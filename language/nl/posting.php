@@ -241,9 +241,9 @@ $lang = array_merge($lang, array(
 	'SMILIES'					=> 'Smilies',
 	'SMILIES_ARE_OFF'			=> 'Smilies staan <em>UIT</em>',
 	'SMILIES_ARE_ON'			=> 'Smilies staan <em>AAN</em>',
-	'STICKY_ANNOUNCE_TIME_LIMIT'=> 'Tijdslimiet sticky/aankondiging',
+	'STICKY_ANNOUNCE_TIME_LIMIT'=> 'Tijdslimiet sticky/aankondiging/algemeen',
 	'STICK_TOPIC_FOR'			=> 'Maak dit onderwerp een sticky voor',
-	'STICK_TOPIC_FOR_EXPLAIN'	=> 'Vul 0 in voor een nooit eindigende sticky of aankondiging. Let er op dat dit nummer relatief is aan de datum van het bericht.',
+	'STICK_TOPIC_FOR_EXPLAIN'	=> 'Vul 0 in voor een nooit eindigende sticky, aankondiging of algemeen status. Let er op dat dit nummer relatief is aan de datum van het bericht.',
 	'STYLES_TIP'				=> 'Tip: op geselecteerde tekst kun je snel opmaak toepassen.',
 
 	'TOO_FEW_CHARS'				=> 'Je bericht bevat te weinig tekens.',
