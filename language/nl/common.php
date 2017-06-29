@@ -334,8 +334,9 @@ $lang = array_merge($lang, array(
 	'INFORMATION'				=> 'Informatie',
 	'INSECURE_REDIRECT'			=> 'Geprobeerd door te sturen naar een mogelijk onveilige URL.',
 	'INTERESTS'					=> 'Interesses',
-	'INVALID_DIGEST_CHALLENGE'	=> 'Ongeldig verslag.', // verslag uitdaging wat is dit? oO geen idee
+	'INVALID_DIGEST_CHALLENGE'	=> 'Ongeldig verslag', 
 	'INVALID_EMAIL_LOG'			=> '<strong>%s</strong> is mogelijk een ongeldig e-mailadres?',
+	'INVALID_FEED_ATTACHMENTS'	=> 'De geselecteerde feed probeerde op een ongeldige wijze bijlagen te verkrijgen.',
 	'INVALID_PLURAL_RULE'		=> 'De gekozen meervoudsregel is ongeldig. Geldige waardes zijn gehele getallen tussen 0 en 15.',
 	'IP'						=> 'IP',
 	'IP_BLACKLISTED'			=> 'Je IP %1$s is geblokkeerd omdat het op een zwarte lijst staat. Voor meer informatie bekijk <a href="%2$s">%2$s</a>.',
