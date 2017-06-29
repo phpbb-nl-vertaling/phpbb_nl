@@ -57,6 +57,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_DISABLE_EXTENSION'			=> 'Schakelt de gespecificeerde extensie uit.',
 	'CLI_DESCRIPTION_ENABLE_EXTENSION'			=> 'Schakelt de gespecificeerde extensie in.',
 	'CLI_DESCRIPTION_FIND_MIGRATIONS'			=> 'Vind migraties waar niet op wordt gesteund.',
+	'CLI_DESCRIPTION_FIX_LEFT_RIGHT_IDS'			=> 'Repareert de structuur voor forums en modules.',
 	'CLI_DESCRIPTION_GET_CONFIG'				=> 'Verkrijgt een configuratie-optie waarde',
 	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Verhoogt een configuratie-optie waarde',
 	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> 'Lijst met alle extensies in de database en bestandssysteem.',
@@ -91,7 +92,9 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'		=> 'Draai de controle vanuit de cache',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY'	=> 'Voer controle uit op alleen stabiele of ook instabiele versies.',
 
-	'CLI_ERROR_INVALID_STABILITY' => '"%s" is geen valide stabiliteit.',	
+	'CLI_DESCRIPTION_UPDATE_HASH_BCRYPT'		=> 'Update wachtwoord hashed naar bcrypt.',
+	
+	'CLI_ERROR_INVALID_STABILITY' => '"%s" moet veranderd worden naar "stable" of "unstable".',	
 
 	'CLI_DESCRIPTION_USER_ACTIVATE'				=> 'Activeer (of deactiveer) een account.',
 	'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'	=> 'Gebruikersnaam van het te activeren account.',
@@ -110,8 +113,10 @@ $lang = array_merge($lang, array(
 
 	'CLI_EXTENSION_DISABLE_FAILURE'		=> 'Kan de extensie %s niet uitschakelen',
 	'CLI_EXTENSION_DISABLE_SUCCESS'		=> 'Extensie %s succesvol uitgeschakeld',
+	'CLI_EXTENSION_DISABLED'		=> 'Extensie %s is niet ingeschakeld',
 	'CLI_EXTENSION_ENABLE_FAILURE'		=> 'Kan de extensie %s niet inschakelen',
 	'CLI_EXTENSION_ENABLE_SUCCESS'		=> 'Extensie %s succesvol ingeschakeld',
+	'CLI_EXTENSION_ENABLED'				=> 'Extensie %s is al ingeschakeld',
 	'CLI_EXTENSION_NAME'				=> 'Naam van de extensie',
 	'CLI_EXTENSION_PURGE_FAILURE'		=> 'Kan extensie %s niet legen',
 	'CLI_EXTENSION_PURGE_SUCCESS'		=> 'Extensie %s succesvol geleegd',
@@ -122,7 +127,9 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_DISABLED'			=> 'Uitgeschakeld',
 	'CLI_EXTENSIONS_ENABLED'			=> 'Ingeschakeld',
 	
+	'CLI_FIXUP_FIX_LEFT_RIGHT_IDS_SUCCESS'		=> 'Structuur van forums en modules succesvol gerepareerd.',
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Alle “email-hashes” succesvol herberekend.',
+	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'		=> 'Verouderde wachtwoord hashes succesvol bijgewerkt naar bcrypt.',
 
 	'CLI_MIGRATION_NAME'					=> 'Migratienaam, inclusief namespace (gebruik slash (/) in plaats van backslash om problemen te voorkomen).',
 	'CLI_MIGRATIONS_AVAILABLE'				=> 'Beschikbare migraties',
