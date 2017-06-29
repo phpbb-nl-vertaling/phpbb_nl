@@ -181,6 +181,7 @@ $lang = array_merge($lang, array(
 	'COOKIE_CONSENT_INFO'	=> 'Meer informatie',
 	'COOKIE_CONSENT_MSG'	=> 'Deze website maakt gebruik van cookies om de beste surfervaring te kunnen bieden.',
 	'COOKIE_CONSENT_OK'		=> 'Begrepen!',
+	'COOKIE_CONSENT_HREF'	=> 'http://cookiesandyou.com',
 	'COOKIES_DELETED'		=> 'Alle forumcookies succesvol verwijderd.',
 	'CURRENT_TIME'			=> 'Het is momenteel %s',
 
