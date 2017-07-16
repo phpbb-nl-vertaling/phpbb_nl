@@ -420,6 +420,9 @@ $lang = array_merge($lang, array(
 	'VALUE'						=> 'Waarde',
 	'VERSIONCHECK_FAIL'			=> 'Het ophalen van de laatste versie is mislukt.',
 	'VERSIONCHECK_FORCE_UPDATE'	=> 'Hercontroleer versie',
+	'VERSIONCHECK_INVALID_ENTRY'	=> 'Laatste versieinformatie bevat een ongeldige invoer.',
+	'VERSIONCHECK_INVALID_URL'		=> 'Laatste versieinformatie bevat een ongeldige URL.',
+	'VERSIONCHECK_INVALID_VERSION'	=> 'Laatste versieinformatie bevat een ongeldige versie.',
 	'VIEW_ADMIN_LOG'			=> 'Bekijk beheerderslog',
 	'VIEW_INACTIVE_USERS'		=> 'Bekijk inactieve gebruikers',
 
