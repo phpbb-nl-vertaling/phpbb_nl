@@ -394,7 +394,7 @@ $lang = array_merge($lang, array(
 	'NUMBER_USERS'		=> 'Aantal gebruikers',
 	'NUMBER_ORPHAN'		=> 'Berichtloze bijlagen',
 
-	'PHP_VERSION'		=> 'PHP versie',
+	'PHP_VERSION'		=> 'PHP-versie',
 	'PHP_VERSION_OLD'	=> 'De versie van PHP op deze server (%1$s) zal binnenkort niet meer ondersteund worden door toekomstige versies van phpBB. De minimaal vereist versie zal PHP %2$s zijn. %3$sDetails%4$s',
 
 	'POSTS_PER_DAY'		=> 'Berichten per dag',
