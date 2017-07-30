@@ -92,7 +92,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'		=> 'Draai de controle vanuit de cache',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY'	=> 'Voer controle uit op alleen stabiele of ook instabiele versies.',
 
-	'CLI_DESCRIPTION_UPDATE_HASH_BCRYPT'		=> 'Update wachtwoord hashed naar bcrypt.',
+	'CLI_DESCRIPTION_UPDATE_HASH_BCRYPT'		=> 'Update verouderde hashes van wachtwoorden naar bcrypt.',
 	
 	'CLI_ERROR_INVALID_STABILITY' => '"%s" moet veranderd worden naar "stable" of "unstable".',	
 
@@ -129,7 +129,7 @@ $lang = array_merge($lang, array(
 	
 	'CLI_FIXUP_FIX_LEFT_RIGHT_IDS_SUCCESS'		=> 'Structuur van forums en modules succesvol gerepareerd.',
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Alle “email-hashes” succesvol herberekend.',
-	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'		=> 'Verouderde wachtwoord hashes succesvol bijgewerkt naar bcrypt.',
+	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'		=> 'Verouderde hashes van wachtwoorden succesvol bijgewerkt naar bcrypt.',
 
 	'CLI_MIGRATION_NAME'					=> 'Migratienaam, inclusief namespace (gebruik slash (/) in plaats van backslash om problemen te voorkomen).',
 	'CLI_MIGRATIONS_AVAILABLE'				=> 'Beschikbare migraties',
