@@ -135,7 +135,7 @@ $lang = array_merge($lang, array(
 	'CLICK_RETURN_FOLDER'		=> '%1$sTerug naar je “%3$s”-map%2$s',
 	'CONFIRMATION'				=> 'Bevestiging van registratie',
 	'CONFIRM_CHANGES'			=> 'Bevestig veranderingen',
-	'CONFIRM_EXPLAIN'			=> 'Om automatische registraties te voorkomen vereist dit forum dat je een bevestigingscode invoert. De code wordt weergegeven in de afbeelding die je hieronder kunt zien. Als je visueel gehandicapt bent en deze code niet kan lezen, neem dan contact op met de %sbeheerder%s.',
+	'CONFIRM_EXPLAIN'			=> 'Om automatische registraties te voorkomen vereist dit forum dat je een bevestigingscode invoert. De code wordt weergegeven in de hier weergegeven afbeelding. Als je visueel gehandicapt bent en deze code niet kan lezen, neem dan contact op met de %sbeheerder%s.',
 	'VC_REFRESH'				=> 'Ververs bevestigingscode',
 	'VC_REFRESH_EXPLAIN'		=> 'Als je de code niet kunt lezen, kun je een nieuwe opvragen door op de knop te drukken.',
 
