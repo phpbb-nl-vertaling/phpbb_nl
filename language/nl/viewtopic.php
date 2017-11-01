@@ -69,7 +69,7 @@ $lang = array_merge($lang, array(
 
 	'LINKAGE_FORBIDDEN'		=> 'Je hebt niet voldoende rechten om van of naar deze site te linken, downloaden of te kunnen bekijken.',
 	'LOGIN_NOTIFY_TOPIC'	=> 'Je bent op de hoogte gebracht van dit onderwerp, meld je aan om het te bekijken.',
-	'LOGIN_VIEWTOPIC'		=> 'De site heeft besloten je dat je aangemeld en geregistreerd bent om dit onderwerp te kunnen bekijken.',
+	'LOGIN_VIEWTOPIC'		=> 'Het forum vereist dat je bent geregistreerd en aangemeld om dit onderwerp te kunnen bekijken.',
 
 	'MAKE_ANNOUNCE'				=> 'Verander naar “Aankondiging”',
 	'MAKE_GLOBAL'				=> 'Verander naar “Algemeen”',

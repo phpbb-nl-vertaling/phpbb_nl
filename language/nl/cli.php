@@ -134,8 +134,8 @@ $lang = array_merge($lang, array(
 	'CLI_MIGRATION_NAME'					=> 'Migratienaam, inclusief namespace (gebruik slash (/) in plaats van backslash om problemen te voorkomen).',
 	'CLI_MIGRATIONS_AVAILABLE'				=> 'Beschikbare migraties',
 	'CLI_MIGRATIONS_INSTALLED'				=> 'Geïnstalleerde migraties',
-	'CLI_MIGRATIONS_ONLY_AVAILABLE'		    => 'Toon alleen beschikbare migraties',
-	'CLI_MIGRATIONS_EMPTY'                  => 'Geen migraties.',
+	'CLI_MIGRATIONS_ONLY_AVAILABLE'			=> 'Toon alleen beschikbare migraties',
+	'CLI_MIGRATIONS_EMPTY'				  => 'Geen migraties.',
 
 	'CLI_REPARSER_REPARSE_REPARSING'		=> 'Opnieuw parsen %1$s (bereik %2$d..%3$d)',
 	'CLI_REPARSER_REPARSE_REPARSING_START'	=> 'Opnieuw parsen %s...',
@@ -166,10 +166,10 @@ $lang = array_merge($lang, array(
 
 // Additional help for commands.
 $lang = array_merge($lang, array(
-	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Hier kun je eventueel een cronjobnaam opgeven, zodat de speciefieke cronjob gedraaid kan worden.',
-	'CLI_HELP_USER_ACTIVATE'	=> 'Activeer een gebruikersaccount of deactiveer een account met de optie <info>--deactivate</info>.
+	'CLI_HELP_CRON_RUN'					=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Hier kun je eventueel een cronjobnaam opgeven, zodat de speciefieke cronjob gedraaid kan worden.',
+	'CLI_HELP_USER_ACTIVATE'		=> 'Activeer een gebruikersaccount of deactiveer een account met de optie <info>--deactivate</info>.
 	Gebruik de optie <info>--send-email</info> om hierbij ook een activatie-e-mail te sturen.',
-	'CLI_HELP_USER_ADD'			=> 'Het <info>%command.name%</info> commando voegt de nieuwe gebruiker toe:
+	'CLI_HELP_USER_ADD'					=> 'Het <info>%command.name%</info> commando voegt de nieuwe gebruiker toe:
 	Als dit commando wordt gebruikt zonder het toevoegen van opties zal je hier alsnog naar gevraagd worden.
 	Gebruik de optie <info>--send-email</info> om ook een activatie-e-mail naar de nieuwe gebruiker te sturen.',
 	'CLI_HELP_USER_RECLEAN'		=> 'Het opschonen van gebruikersnamen controleert alle gebruikersnamen in de database en zorgt ervoor dat schone varianten worden gebruikt. Schone gebruiksnamen bevatten geen hoofdletters, zijn NFC genormaliseerd en getransformeerd naar ASCII-formaat.',
