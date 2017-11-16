@@ -65,9 +65,9 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_OPTION_ENV'				=> 'Naam van de omgeving',
 	'CLI_DESCRIPTION_OPTION_SAFE_MODE'			=> 'In Safe Mode draaien (zonder extensies).',
 	'CLI_DESCRIPTION_OPTION_SHELL'				=> 'Shell-toegang openen…',
-	
+
 	'CLI_DESCRIPTION_PURGE_EXTENSION'			=> 'Leegt de gespecificeerde extensie.',
-	
+
 	'CLI_DESCRIPTION_REPARSER_LIST'				=> 'Geef de teksttypen weer welke opnieuw geparsed kunnen worden.',
 	'CLI_DESCRIPTION_REPARSER_AVAILABLE'				=> 'Beschikbare herparsers:',
 	'CLI_DESCRIPTION_REPARSER_REPARSE'			=> 'Parse opgeslagen tekst opnieuw met de huidige opmaakservices.',
@@ -77,24 +77,24 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'	=> 'Hoogste record ID om te verwerken',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'Geschat aantal records om per keer te verwerken',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RESUME'		=> 'Start opnieuw parsen op het punt dat de vorige operatie stopte.',
-	
+
 	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'	=> 'Herberekend de “user_email_hash”-kolom van de “users”-tabel.',
-	
+
 	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'			=> 'Stelt een configuratie-optie waarde alleen in, als de oude waarde overeenkomt met de nieuwe waarde.',
 	'CLI_DESCRIPTION_SET_CONFIG'				=> 'Stelt een configuratie-optie waarde in',
 
 	'CLI_DESCRIPTION_THUMBNAIL_DELETE'		=> 'Verwijder alle thumbnails.',
 	'CLI_DESCRIPTION_THUMBNAIL_GENERATE'	=> 'Genereer alle missende thumbnails.',
 	'CLI_DESCRIPTION_THUMBNAIL_RECREATE'	=> 'Genereer alle thumbnails opnieuw.',
-	
+
 	'CLI_DESCRIPTION_UPDATE_CHECK'				=> 'Controleer of de installie bijgewerkt is naar de laatste versie.',
 	'CLI_DESCRIPTION_UPDATE_CHECK_ARGUMENT_1'		=> 'Naam van de te controleren extensie (of alle extensies)',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'		=> 'Draai de controle vanuit de cache',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY'	=> 'Voer controle uit op alleen stabiele of ook instabiele versies.',
 
 	'CLI_DESCRIPTION_UPDATE_HASH_BCRYPT'		=> 'Update verouderde hashes van wachtwoorden naar bcrypt.',
-	
-	'CLI_ERROR_INVALID_STABILITY' => '"%s" moet veranderd worden naar "stable" of "unstable".',	
+
+	'CLI_ERROR_INVALID_STABILITY' => '"%s" moet veranderd worden naar "stable" of "unstable".',
 
 	'CLI_DESCRIPTION_USER_ACTIVATE'				=> 'Activeer (of deactiveer) een account.',
 	'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'	=> 'Gebruikersnaam van het te activeren account.',
@@ -126,7 +126,7 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_AVAILABLE'			=> 'Beschikbaar',
 	'CLI_EXTENSIONS_DISABLED'			=> 'Uitgeschakeld',
 	'CLI_EXTENSIONS_ENABLED'			=> 'Ingeschakeld',
-	
+
 	'CLI_FIXUP_FIX_LEFT_RIGHT_IDS_SUCCESS'		=> 'Structuur van forums en modules succesvol gerepareerd.',
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Alle “email-hashes” succesvol herberekend.',
 	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'		=> 'Verouderde hashes van wachtwoorden succesvol bijgewerkt naar bcrypt.',
@@ -134,8 +134,8 @@ $lang = array_merge($lang, array(
 	'CLI_MIGRATION_NAME'					=> 'Migratienaam, inclusief namespace (gebruik slash (/) in plaats van backslash om problemen te voorkomen).',
 	'CLI_MIGRATIONS_AVAILABLE'				=> 'Beschikbare migraties',
 	'CLI_MIGRATIONS_INSTALLED'				=> 'Geïnstalleerde migraties',
-	'CLI_MIGRATIONS_ONLY_AVAILABLE'		    => 'Toon alleen beschikbare migraties',
-	'CLI_MIGRATIONS_EMPTY'                  => 'Geen migraties.',
+	'CLI_MIGRATIONS_ONLY_AVAILABLE'			=> 'Toon alleen beschikbare migraties',
+	'CLI_MIGRATIONS_EMPTY'				  => 'Geen migraties.',
 
 	'CLI_REPARSER_REPARSE_REPARSING'		=> 'Opnieuw parsen %1$s (bereik %2$d..%3$d)',
 	'CLI_REPARSER_REPARSE_REPARSING_START'	=> 'Opnieuw parsen %s...',
@@ -155,7 +155,7 @@ $lang = array_merge($lang, array(
 	'CLI_THUMBNAIL_NOTHING_TO_DELETE'	=> 'Geen thumbnails om te verwijderen.',
 
 	'CLI_USER_ADD_SUCCESS'		=> 'Gebruiker %s is succesvol toegevoegd.',
-	'CLI_USER_DELETE_CONFIRM'	=> 'Weet je zeker dat je gebruiker ‘%s’ wilt verwijderen? [y/N]',
+	'CLI_USER_DELETE_CONFIRM'	=> 'Weet je zeker dat je gebruiker ‘%s’ wil verwijderen? [y/N]',
 	'CLI_USER_RECLEAN_START'	=> 'Opschonen gebruikersnamen',
 	'CLI_USER_RECLEAN_DONE'		=> [
 		0	=> 'Opschonen klaar. Geen gebruikersnamen hoefden opgeschoond te worden.',
@@ -166,10 +166,10 @@ $lang = array_merge($lang, array(
 
 // Additional help for commands.
 $lang = array_merge($lang, array(
-	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Hier kun je eventueel een cronjobnaam opgeven, zodat de speciefieke cronjob gedraaid kan worden.',
-	'CLI_HELP_USER_ACTIVATE'	=> 'Activeer een gebruikersaccount of deactiveer een account met de optie <info>--deactivate</info>.
+	'CLI_HELP_CRON_RUN'					=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Hier kun je eventueel een cronjobnaam opgeven, zodat de speciefieke cronjob gedraaid kan worden.',
+	'CLI_HELP_USER_ACTIVATE'		=> 'Activeer een gebruikersaccount of deactiveer een account met de optie <info>--deactivate</info>.
 	Gebruik de optie <info>--send-email</info> om hierbij ook een activatie-e-mail te sturen.',
-	'CLI_HELP_USER_ADD'			=> 'Het <info>%command.name%</info> commando voegt de nieuwe gebruiker toe:
+	'CLI_HELP_USER_ADD'					=> 'Het <info>%command.name%</info> commando voegt de nieuwe gebruiker toe:
 	Als dit commando wordt gebruikt zonder het toevoegen van opties zal je hier alsnog naar gevraagd worden.
 	Gebruik de optie <info>--send-email</info> om ook een activatie-e-mail naar de nieuwe gebruiker te sturen.',
 	'CLI_HELP_USER_RECLEAN'		=> 'Het opschonen van gebruikersnamen controleert alle gebruikersnamen in de database en zorgt ervoor dat schone varianten worden gebruikt. Schone gebruiksnamen bevatten geen hoofdletters, zijn NFC genormaliseerd en getransformeerd naar ASCII-formaat.',

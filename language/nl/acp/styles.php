@@ -37,13 +37,13 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACP_STYLES_EXPLAIN'	=> 'Hier kan je de beschikbare stijlen van je forum beheren. Je kan bestaande stijlen wijzigen, verwijderen, deactiveren, heractiveren en nieuwe stijlen installeren. Je kan hier ook zien hoe je stijl eruit ziet door de voorbeeldfunctie te gebruiken. Hier wordt ook het aantal gebruikers weergegeven die de stijl gebruiken, let op: dat het overschrijven van de gebruikersstijl hier niet zal worden weergegeven.',
+	'ACP_STYLES_EXPLAIN'	=> 'Hier kun je de beschikbare stijlen van je forum beheren. Je kunt bestaande stijlen wijzigen, verwijderen, deactiveren, heractiveren en nieuwe stijlen installeren. Je kunt hier ook zien hoe je stijl eruit ziet door de voorbeeldfunctie te gebruiken. Hier wordt ook het aantal gebruikers weergegeven die de stijl gebruiken, let op: het overschrijven van de gebruikersstijl zal hier niet worden weergegeven.',
 	
 	'CANNOT_BE_INSTALLED'			=> 'Kan niet worden geïnstalleerd',
-	'CONFIRM_UNINSTALL_STYLES'		=> 'Weet je zeker dat je de geselecteerde stijlen wilt verwijderen?',
+	'CONFIRM_UNINSTALL_STYLES'		=> 'Weet je zeker dat je de geselecteerde stijlen wil verwijderen?',
 	'COPYRIGHT'						=> 'Copyright',
 
-	'DEACTIVATE_DEFAULT'		=> 'Je kan de standaard stijl niet deactiveren.',
+	'DEACTIVATE_DEFAULT'		=> 'Je kunt de standaard stijl niet deactiveren.',
 	'DELETE_FROM_FS'			=> 'Verwijder uit bestandssysteem',
 	'DELETE_STYLE_FILES_FAILED'	=> 'Fout bij het verwijderen van de bestanden van de stijl "%s".',
 	'DELETE_STYLE_FILES_SUCCESS'	=> 'De bestanden van de stijl "%s" zijn verwijderd.',
@@ -52,7 +52,7 @@ $lang = array_merge($lang, array(
 	'INHERITING_FROM'			=> 'Erft van',
 	'INSTALL_STYLE'				=> 'Installeer stijl',
 	'INSTALL_STYLES'			=> 'Installeer stijlen',
-	'INSTALL_STYLES_EXPLAIN'	=> 'Hier kan je nieuwe stijlen installeren.<br />Als je een bepaalde stijl niet in onderstaande lijst staat, controleer dan of de stijl al is geïnstalleerd. Als de stijl nog niet geïnstalleerd is, kijk dan of je hem op de goede manier hebt geüpload.',
+	'INSTALL_STYLES_EXPLAIN'	=> 'Hier kun je nieuwe stijlen installeren.<br />Als je een bepaalde stijl niet in onderstaande lijst staat, controleer dan of de stijl al is geïnstalleerd. Als de stijl nog niet geïnstalleerd is, kijk dan of je hem op de goede manier hebt geüpload.',
 	'INVALID_STYLE_ID'			=> 'Ongeldige stijl-ID.',
 
 	'NO_MATCHING_STYLES_FOUND'	=> 'Er komen geen stijlen overeen met je opdracht.',

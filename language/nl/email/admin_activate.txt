@@ -1,8 +1,8 @@
-Subject: Activeer je gebruikersaccount
+Subject: Activeer gebruikersaccount
 
 Hallo,
 
-Het account gebruikt door "{USERNAME}" is gedeactiveerd of zojuist aangemaakt, je kan de status en details van deze gebruiker controleren (als het nodig is) en dan de juiste handeling uitvoeren.
+Het account gebruikt door "{USERNAME}" is gedeactiveerd of zojuist aangemaakt, je kunt de status en details van deze gebruiker controleren (als het nodig is) en dan de juiste handeling uitvoeren.
 
 Gebruik de volgende link om het gebruikersprofiel te bekijken:
 {U_USER_DETAILS}

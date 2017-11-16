@@ -39,9 +39,9 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACP_VIGLINK_SETTINGS'			=> 'VigLink instellingen',
-	'ACP_VIGLINK_SETTINGS_EXPLAIN'	=> 'VigLink is een externe service waarmee automatisch geld verdiend wordt met links in forumberichten, zonder dat dit nadelig is voor de gebruikerservaring. Jouw gebruikers zullen hier dus niks van merken. Wanneer gebruikers op externe links klikken die naar producten of services gaan en vervolgens iets kopen, betaalt de verkopende partij een commissie aan VigLink. Hiervan wordt een deel gedoneerd aan het phpBB project. Door ervoor te kiezen om VigLink in te schakelen en hiermee aan het phpBB project te doneren, ondersteun je onze open source organisatie en verzeker je onze financiële zekerheid.',
+	'ACP_VIGLINK_SETTINGS_EXPLAIN'	=> 'VigLink is een externe service waarmee automatisch geld verdiend wordt met links in forumberichten zonder dat dit nadelig is voor de gebruikerservaring. Je gebruikers zullen hier dus niks van merken. Wanneer gebruikers op externe links klikken die naar producten of services gaan en vervolgens iets kopen, betaalt de verkopende partij een commissie aan VigLink. Hiervan wordt een deel gedoneerd aan het phpBB project. Door ervoor te kiezen om VigLink in te schakelen en hiermee aan het phpBB project te doneren, ondersteun je onze open source organisatie en verzeker je onze financiële zekerheid.',
 	'ACP_VIGLINK_SETTINGS_CHANGE'	=> 'Je kunt deze instellingen op ieder moment wijzigen in de “<a href="%1$s">VigLink instellingen</a>” module.',
-	'ACP_VIGLINK_SUPPORT_EXPLAIN'	=> 'Je zal niet langer naar deze pagina worden doorverwezen zodra je hieronder een keuze over de opties hebt gemaakt en deze verzonden hebt door op Verstuur te klikken.',
+	'ACP_VIGLINK_SUPPORT_EXPLAIN'	=> 'Je zult niet langer naar deze pagina worden doorverwezen zodra je hieronder een keuze over de opties hebt gemaakt en deze verzonden hebt door op Verstuur te klikken.',
 	'ACP_VIGLINK_ENABLE'			=> 'Schakel VigLink in',
 	'ACP_VIGLINK_ENABLE_EXPLAIN'	=> 'Schakelt het gebruik van de Viglink service in.',
 	'ACP_VIGLINK_EARNINGS'			=> 'Claim je eigen opbrengsten (optioneel)',

@@ -67,7 +67,7 @@ $lang = array_merge($lang, array(
 	'ACP_CAT_FORUMS'			=> 'Forums',
 	'ACP_CAT_GENERAL'			=> 'Algemeen',
 	'ACP_CAT_MAINTENANCE'		=> 'Onderhoud',
-	'ACP_CAT_PERMISSIONS'		=> 'Permissies',
+	'ACP_CAT_PERMISSIONS'		=> 'Rechten',
 	'ACP_CAT_POSTING'			=> 'Berichten',
 	'ACP_CAT_STYLES'			=> 'Stijlen',
 	'ACP_CAT_SYSTEM'			=> 'Systeem',
@@ -89,23 +89,23 @@ $lang = array_merge($lang, array(
 	'ACP_EXTENSION_MANAGEMENT'	=> 'Extensiebeheer',
 	'ACP_EXTENSIONS'			=> 'Beheer extensies',
 
-	'ACP_FORUM_BASED_PERMISSIONS'	=> 'Forumgebaseerde permissies',
+	'ACP_FORUM_BASED_PERMISSIONS'	=> 'Forumgebaseerde rechten',
 	'ACP_FORUM_LOGS'				=> 'Forumlogs',
 	'ACP_FORUM_MANAGEMENT'			=> 'Forumbeheer',
 	'ACP_FORUM_MODERATORS'			=> 'Forummoderators',
-	'ACP_FORUM_PERMISSIONS'			=> 'Forumpermissies',
-	'ACP_FORUM_PERMISSIONS_COPY'	=> 'Kopieer forumpermissies',
+	'ACP_FORUM_PERMISSIONS'			=> 'Forumrechten',
+	'ACP_FORUM_PERMISSIONS_COPY'	=> 'Kopiëer forumrechten',
 	'ACP_FORUM_ROLES'				=> 'Forumrollen',
 
 	'ACP_GENERAL_CONFIGURATION'		=> 'Algemene instellingen',
 	'ACP_GENERAL_TASKS'				=> 'Algemene taken',
 	'ACP_GLOBAL_MODERATORS'			=> 'Globale moderators',
-	'ACP_GLOBAL_PERMISSIONS'		=> 'Globale permissies',
+	'ACP_GLOBAL_PERMISSIONS'		=> 'Globale rechten',
 	'ACP_GROUPS'					=> 'Groepen',
-	'ACP_GROUPS_FORUM_PERMISSIONS'	=> 'Forumpermissies groepen',
+	'ACP_GROUPS_FORUM_PERMISSIONS'	=> 'Forumrechten groepen',
 	'ACP_GROUPS_MANAGE'				=> 'Beheer groepen',
 	'ACP_GROUPS_MANAGEMENT'			=> 'Groepsbeheer',
-	'ACP_GROUPS_PERMISSIONS'		=> 'Groepspermissies',
+	'ACP_GROUPS_PERMISSIONS'		=> 'Groepsrechten',
 	'ACP_GROUPS_POSITION'			=> 'Beheer groepposities',
 	
 	'ACP_HELP_PHPBB'			=> 'Steun phpBB',
@@ -125,7 +125,7 @@ $lang = array_merge($lang, array(
 	'ACP_MAIN'					=> 'Beheerdersoverzicht',
 
 	'ACP_MANAGE_ATTACHMENTS'			=> 'Beheer bijlagen',
-	'ACP_MANAGE_ATTACHMENTS_EXPLAIN'	=> 'Hier kan je bestanden toegevoegd aan, bekijken van en verwijderen uit berichten en privéberichten.',
+	'ACP_MANAGE_ATTACHMENTS_EXPLAIN'	=> 'Hier kun je bestanden toegevoegd aan, bekijken van en verwijderen uit berichten en privéberichten.',
 
 	'ACP_MANAGE_EXTENSIONS'		=> 'Beheer bijlage-extensies',
 	'ACP_MANAGE_FORUMS'			=> 'Beheer forums',
@@ -143,10 +143,10 @@ $lang = array_merge($lang, array(
 
 	'ACP_ORPHAN_ATTACHMENTS'	=> 'Berichtloze bijlagen',
 
-	'ACP_PERMISSIONS'			=> 'Permissies',
-	'ACP_PERMISSION_MASKS'		=> 'Permissiemaskers',
-	'ACP_PERMISSION_ROLES'		=> 'Permissierollen',
-	'ACP_PERMISSION_TRACE'		=> 'Permissietracering',
+	'ACP_PERMISSIONS'			=> 'Rechten',
+	'ACP_PERMISSION_MASKS'		=> 'Rechtenmaskers',
+	'ACP_PERMISSION_ROLES'		=> 'Rechtenrollen',
+	'ACP_PERMISSION_TRACE'		=> 'Rechtentracering',
 	'ACP_PHP_INFO'				=> 'PHP-informatie',
 	'ACP_POST_SETTINGS'			=> 'Berichtinstellingen',
 	'ACP_PRUNE_FORUMS'			=> 'Opschonen forums',
@@ -184,16 +184,16 @@ $lang = array_merge($lang, array(
 	'ACP_THEMES'				=> 'Thema‘s',
 
 	'ACP_UPDATE'					=> 'Bijwerken',
-	'ACP_USERS_FORUM_PERMISSIONS'	=> 'Forumpermissies gebruikers',
+	'ACP_USERS_FORUM_PERMISSIONS'	=> 'Forumrechten gebruikers',
 	'ACP_USERS_LOGS'				=> 'Gebruikerslogs',
-	'ACP_USERS_PERMISSIONS'			=> 'Gebruikerspermissies',
+	'ACP_USERS_PERMISSIONS'			=> 'Gebruikersrechten',
 	'ACP_USER_ATTACH'				=> 'Bijlagen',
 	'ACP_USER_AVATAR'				=> 'Avatar',
 	'ACP_USER_FEEDBACK'				=> 'Feedback',
 	'ACP_USER_GROUPS'				=> 'Groepen',
 	'ACP_USER_MANAGEMENT'			=> 'Gebruikersbeheer',
 	'ACP_USER_OVERVIEW'				=> 'Overzicht',
-	'ACP_USER_PERM'					=> 'Permissies',
+	'ACP_USER_PERM'					=> 'Rechten',
 	'ACP_USER_PREFS'				=> 'Voorkeuren',
 	'ACP_USER_PROFILE'				=> 'Profiel',
 	'ACP_USER_RANK'					=> 'Rang',
@@ -205,11 +205,11 @@ $lang = array_merge($lang, array(
 	'ACP_VC_SETTINGS'					=> 'Spambotpreventie',
 	'ACP_VC_CAPTCHA_DISPLAY'			=> 'CAPTCHA-voorbeeld',
 	'ACP_VERSION_CHECK'					=> 'Controleer op updates',
-	'ACP_VIEW_ADMIN_PERMISSIONS'		=> 'Bekijk beheerderspermissies',
-	'ACP_VIEW_FORUM_MOD_PERMISSIONS'	=> 'Bekijk forum moderatiepermissies',
-	'ACP_VIEW_FORUM_PERMISSIONS'		=> 'Bekijk forum gebaseerde permissies',
-	'ACP_VIEW_GLOBAL_MOD_PERMISSIONS'	=> 'Bekijk globale moderatiepermissies',
-	'ACP_VIEW_USER_PERMISSIONS'			=> 'Bekijk gebruikers gebaseerde permissies',
+	'ACP_VIEW_ADMIN_PERMISSIONS'		=> 'Bekijk beheerdersrechten',
+	'ACP_VIEW_FORUM_MOD_PERMISSIONS'	=> 'Bekijk forum moderatierechten',
+	'ACP_VIEW_FORUM_PERMISSIONS'		=> 'Bekijk forumgebaseerde rechten',
+	'ACP_VIEW_GLOBAL_MOD_PERMISSIONS'	=> 'Bekijk globale moderatierechten',
+	'ACP_VIEW_USER_PERMISSIONS'			=> 'Bekijk gebruikersgebaseerde rechten',
 
 	'ACP_WORDS'					=> 'Woordcensuur',
 
@@ -227,17 +227,17 @@ $lang = array_merge($lang, array(
 	'BACK'					=> 'Terug',
 	
 	'CANNOT_CHANGE_FILE_GROUP'			=> 'Kan bestandsgroep niet veranderen',
-	'CANNOT_CHANGE_FILE_PERMISSIONS'	=> 'Kan bestandspermissies niet veranderen',
+	'CANNOT_CHANGE_FILE_PERMISSIONS'	=> 'Kan bestandsrechten niet veranderen',
 	'CANNOT_COPY_FILES'					=> 'Kan bestanden niet kopieren',
 	'CANNOT_CREATE_SYMLINK'				=> 'Kan geen symlink aanmaken',
 	'CANNOT_DELETE_FILES'				=> 'Kan geen bestanden verwijderen van het systeem',
-	'CANNOT_DUMP_FILE'					=> 'Kan het bestand niet dumpen',
-	'CANNOT_MIRROR_DIRECTORY'			=> 'Kan geen mirror van de map maken',
+	'CANNOT_DUMP_FILE'					=> 'Kan het bestand niet opslaan',
+	'CANNOT_MIRROR_DIRECTORY'			=> 'Kan geen kopie van de map maken',
 	'CANNOT_RENAME_FILE'				=> 'Kan een bestand van het systeem niet hernoemen',
 	'CANNOT_TOUCH_FILES'				=> 'Kan niet vaststellen of het bestand bestaat',
 
-	'CONTAINER_EXCEPTION' => 'phpBB is een foutmelding tegengekomen tijdens het bouwen van de container, veroorzaakt door een geïnstalleerde extensie. Om deze reden zijn alle extensies tijdelijk uitgeschakeld. Probeer de cache van je forum te legen. Alle extensies worden automatische ingeschakeld als de foutmelding is opgelost. Als deze foutmelding zich blijft voordoen, bezoek dan ons support forum via <a href="http://www.phpbb.nl/forums/index.php">phpbb.nl</a>.',
-	'EXCEPTION' => 'Uitzondering',
+	'CONTAINER_EXCEPTION'=> 'phpBB is een foutmelding tegengekomen tijdens het bouwen van de container, veroorzaakt door een geïnstalleerde extensie. Om deze reden zijn alle extensies tijdelijk uitgeschakeld. Probeer de cache van je forum te legen. Alle extensies worden automatische ingeschakeld als de foutmelding is opgelost. Als deze foutmelding zich blijft voordoen, bezoek dan ons support forum via <a href="http://www.phpbb.nl/forums/index.php">phpbb.nl</a>.',
+	'EXCEPTION'=> 'Uitzondering',
 
 	'COLOUR_SWATCH'			=> 'Webveilig kleurenpalet',
 	'CONFIG_UPDATED'		=> 'Instellingen succesvol bijgewerkt.',
@@ -255,7 +255,7 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD'					=> 'Download',
 	'DOWNLOAD_AS'				=> 'Download als',
 	'DOWNLOAD_STORE'			=> 'Download of bestand opslaan',
-	'DOWNLOAD_STORE_EXPLAIN'	=> 'Je kan het bestand direct downloaden of het bewaren in je <samp>store/</samp> map.',
+	'DOWNLOAD_STORE_EXPLAIN'	=> 'Je kunt het bestand direct downloaden of het bewaren in je <samp>store/</samp> map.',
 	'DOWNLOADS'					=> 'Downloads',
 
 	'EDIT'					=> 'Wijzig',
@@ -265,7 +265,7 @@ $lang = array_merge($lang, array(
 
 	'GENERAL_OPTIONS'		=> 'Algemene opties',
 	'GENERAL_SETTINGS'		=> 'Algemene instellingen',
-	'GLOBAL_MASK'			=> 'Globale permissiemasker',
+	'GLOBAL_MASK'			=> 'Globale rechtenmasker',
 
 	'INSTALL'				=> 'Installeer',
 	'IP'					=> 'Gebruikers-IP',
@@ -275,11 +275,11 @@ $lang = array_merge($lang, array(
 	'LOAD_NOTIFICATIONS'			=> 'Notificaties weergeven',
 	'LOAD_NOTIFICATIONS_EXPLAIN'	=> 'Geef de notificatielijst weer op iedere pagina (meestal in de kop).',
 	'LOGGED_IN_AS'			=> 'Je bent aangemeld als:',
-	'LOGIN_ADMIN'			=> 'Om het forum te beheren moet je aangemeld zijn als een geverifieerde gebruiker.',
+	'LOGIN_ADMIN'			=> 'Om het forum te beheren moet je aangemeld zijn als een geverifiëerde gebruiker.',
 	'LOGIN_ADMIN_CONFIRM'	=> 'Om het forum te beheren moet je jezelf verifiëren.',
 	'LOGIN_ADMIN_SUCCESS'	=> 'Je bent succesvol geverifieerd en je wordt nu doorgeleid naar het beheerderspaneel.',
 	'LOOK_UP_FORUM'			=> 'Selecteer een forum',
-	'LOOK_UP_FORUMS_EXPLAIN'=> 'Je kan meer dan één forum selecteren.',
+	'LOOK_UP_FORUMS_EXPLAIN'=> 'Je kunt meer dan één forum selecteren.',
 
 	'MANAGE'				=> 'Beheer',
 	'MENU_TOGGLE'			=> 'Verberg of geef het zijmenu weer',
@@ -289,7 +289,7 @@ $lang = array_merge($lang, array(
 	'MOVE_UP'				=> 'Omhoog verplaatsen',
 
 	'NOTIFY'				=> 'Notificatie',
-	'NO_ADMIN'				=> 'Je hebt niet de juiste permissies om dit forum te beheren.',
+	'NO_ADMIN'				=> 'Je hebt niet de juiste rechten om dit forum te beheren.',
 	'NO_EMAILS_DEFINED'		=> 'Geen geldig e-mailadres gevonden.',
 	'NO_FILES_TO_DELETE'	=> 'Bijlagen die je hebt geselecteerd om te verwijderen bestaan niet.',
 	'NO_PASSWORD_SUPPLIED'	=> 'Je moet je wachtwoord invoeren om toegang te krijgen tot het beheerderspaneel.',
@@ -300,15 +300,15 @@ $lang = array_merge($lang, array(
 	'PARSE_BBCODE'						=> 'BBCode gebruiken',
 	'PARSE_SMILIES'						=> 'Smilies gebruiken',
 	'PARSE_URLS'						=> 'Links gebruiken',
-	'PERMISSIONS_TRANSFERRED'			=> 'Permissies overgebracht',
-	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'Je hebt momenteel de permissies van %1$s. Je kan nu het forum bezoeken met de permissies van deze gebruiker, maar niet het beheerderspaneel omdat beheerderspermissies niet zijn overgebracht. Je kan <a href="%2$s"><strong>je eigen permissies terugzetten</strong></a> op elk moment.',
+	'PERMISSIONS_TRANSFERRED'			=> 'Rechten overgebracht',
+	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'Je hebt momenteel de rechten van %1$s. Je kunt nu het forum bezoeken met de rechten van deze gebruiker, maar niet het beheerderspaneel omdat beheerdersrechten niet zijn overgebracht. Je kunt <a href="%2$s"><strong>je eigen rechten terugzetten</strong></a> op elk moment.',
 	'PROCEED_TO_ACP'					=> '%sGa door naar het beheerderspaneel%s',
 
 	'RELEASE_ANNOUNCEMENT'		=> 'Aankondiging',
 	'REMIND'							=> 'Herinner',
 	'REPARSE_LOCK_ERROR'				=> 'Opnieuw parsen geschiedt reeds via een ander proces.',
 	'RESYNC'							=> 'Synchroniseer',
-	'RUNNING_TASK'                  => 'Taak %s uitvoeren.',
+	'RUNNING_TASK'				=> 'Taak %s uitvoeren.',
 
 	'SELECT_ANONYMOUS'		=> 'Selecteer gastgebruiker',
 	'SELECT_OPTION'			=> 'Selecteer optie',
@@ -318,17 +318,17 @@ $lang = array_merge($lang, array(
 	'SETTING_TOO_LONG'		=> 'De opgegeven waarde voor de instelling “%1$s” is te lang. De maximum geaccepteerde lengte is %2$d.',
 	'SETTING_TOO_SHORT'		=> 'De opgegeven waarde voor de instelling “%1$s” is te kort. De minimum geaccepteerde lengte is %2$d.',
 
-	'SHOW_ALL_OPERATIONS'	=> 'Toon alle operaties',
+	'SHOW_ALL_OPERATIONS'	=> 'Toon alle activiteiten',
 
 	'TASKS_NOT_READY'		=> 'Geen taken die klaar zijn:',
-    'TASKS_READY'			=> 'Taken die klaar zijn:',
-	'TOTAL_SIZE'      		=> 'Totale grootte',
+	'TASKS_READY'			=> 'Taken die klaar zijn:',
+	'TOTAL_SIZE'	 		=> 'Totale grootte',
 
 	'UCP'					=> 'Gebruikerspaneel',
 	'USERNAMES_EXPLAIN'		=> 'Plaats iedere gebruikersnaam op een aparte regel.',
 	'USER_CONTROL_PANEL'	=> 'Gebruikerspaneel',
-	'UPDATE_NEEDED'			=> 'Je installatie is niet up-to-date.',
-	'UPDATE_NOT_NEEDED'		=> 'Je installatie is up-to-date.',
+	'UPDATE_NEEDED'			=> 'Je installatie is niet actueel.',
+	'UPDATE_NOT_NEEDED'		=> 'Je installatie is actueel.',
 	'UPDATES_AVAILABLE'		=> 'Updates beschikbaar:',
 
 	'WARNING'				=> 'Waarschuwing',
@@ -336,16 +336,16 @@ $lang = array_merge($lang, array(
 
 // PHP info
 $lang = array_merge($lang, array(
-	'ACP_PHP_INFO_EXPLAIN'	=> 'Deze pagina geeft de informatie over de versie van PHP die geïnstalleerd is op deze server. Het bevat details van geladen modules, beschikbare variabelen en standaard instellingen. Deze informatie kan bruikbaar zijn bij het oplossen van problemen. Let op dat sommige hostingsbedrijven de informatie die hier wordt getoond limiteren voor beveiligingsredenen. Het is aan te raden geen details van deze pagina openbaar te maken tenzij er naar gevraagd wordt door een <a href="https://www.phpbb.com/about/team/">officieel phpBB.com-teamlid</a>, <a href="https://www.phpbbservice.nl/forum/memberlist.php?mode=leaders">officiële phpBBservice.nl-teamleden</a> of <a href="https://www.phpbb.nl/medewerkers">officiële phpbb.nl-teamleden</a> op de supportforums.',
+	'ACP_PHP_INFO_EXPLAIN'	=> 'Deze pagina geeft de informatie over de versie van PHP die geïnstalleerd is op deze server. Het bevat details van geladen modules, beschikbare variabelen en standaard instellingen. Deze informatie kan bruikbaar zijn bij het oplossen van problemen. Let op dat sommige hostingbedrijven de informatie die hier wordt getoond beperken om beveiligingsredenen. Het is aan te raden geen details van deze pagina openbaar te maken tenzij er naar gevraagd wordt door een <a href="https://www.phpbb.com/about/team/">officieel phpBB.com-teamlid</a>, <a href="https://www.phpbbservice.nl/forum/memberlist.php?mode=leaders">officiële phpBBservice.nl-teamleden</a> of <a href="https://www.phpbb.nl/medewerkers">officiële phpbb.nl-teamleden</a> op de supportforums.',
 
 	'NO_PHPINFO_AVAILABLE'	=> 'Informatie over je PHP-configuratie kan niet vastgesteld worden. Phpinfo() is uitgeschakeld vanwege beveiligingsredenen.',
 ));
 
 // Logs
 $lang = array_merge($lang, array(
-	'ACP_ADMIN_LOGS_EXPLAIN'	=> 'Dit toont alle acties die uitgevoerd worden door de beheerders. Je kan sorteren op gebruikersnaam, datum, IP of actie. Als je de juiste permissies hebt, kan je ook individuele acties opschonen of de hele log.',
-	'ACP_CRITICAL_LOGS_EXPLAIN'	=> 'Dit toont alle acties die uitgevoerd worden door het forum zelf. Deze log geeft je de informatie waarmee je specifieke problemen kan oplossen, bijvoorbeeld niet afgeleverde e-mails. Je kan sorteren op gebruikersnaam, datum, IP of actie. Als je de juiste permissies hebt, kan je ook individuele acties opschonen of de hele log.',
-	'ACP_MOD_LOGS_EXPLAIN'		=> 'Dit toont alle acties die uitgevoerd worden op forums, onderwerpen en berichten alsmede acties die uitgevoerd worden op gebruikers door moderators, inclusief verbanningen. Je kan sorteren op gebruikersnaam, datum, IP of actie. Als je de juiste permissies hebt, kan je ook individuele acties opschonen of de hele log.',
+	'ACP_ADMIN_LOGS_EXPLAIN'	=> 'Dit toont alle acties die uitgevoerd worden door de beheerders. Je kunt sorteren op gebruikersnaam, datum, IP of actie. Als je de juiste rechten hebt, kun je ook individuele acties opschonen of de hele log.',
+	'ACP_CRITICAL_LOGS_EXPLAIN'	=> 'Dit toont alle acties die uitgevoerd worden door het forum zelf. Deze log geeft je de informatie waarmee je specifieke problemen kan oplossen, bijvoorbeeld niet afgeleverde e-mails. Je kunt sorteren op gebruikersnaam, datum, IP of actie. Als je de juiste rechten hebt, kun je ook individuele acties opschonen of de hele log.',
+	'ACP_MOD_LOGS_EXPLAIN'		=> 'Dit toont alle acties die uitgevoerd worden op forums, onderwerpen en berichten alsmede acties die uitgevoerd worden op gebruikers door moderators, inclusief verbanningen. Je kunt sorteren op gebruikersnaam, datum, IP of actie. Als je de juiste rechten hebt, kun je ook individuele acties opschonen of de hele log.',
 	'ACP_USERS_LOGS_EXPLAIN'	=> 'Dit toont alle acties die uitgevoerd worden door gebruikers of op gebruikers (meldingen, waarschuwingen en gebruikersnotities).',
 	'ALL_ENTRIES'				=> 'Alle vermeldingen',
 
@@ -360,9 +360,9 @@ $lang = array_merge($lang, array(
 
 // Index page
 $lang = array_merge($lang, array(
-	'ADMIN_INTRO'				=> 'Dank je wel voor het kiezen van phpBB als je forumoplossing. Dit scherm geeft je een snel overzicht van alle verschillende statistieken van je forum. De links aan de linkerkant van dit scherm staan je toe om ieder aspect van je forum te controleren. Iedere pagina zal instructies hebben over hoe je die pagina kan gebruiken.',
+	'ADMIN_INTRO'				=> 'Dank je wel voor het kiezen van phpBB als je forum software. Dit scherm geeft je een snel overzicht van alle verschillende statistieken van je forum. De links aan de linkerkant van dit scherm laten je ieder onderdeel van je forum beheren. Iedere pagina zal instructies hebben over hoe je die pagina kan gebruiken.',
 	'ADMIN_LOG'					=> 'Gelogde beheerdersacties',
-	'ADMIN_LOG_INDEX_EXPLAIN'	=> 'Dit geeft een overzicht van de laatste vijf acties die uitgevoerd zijn door de beheerders. Een volledig overzicht van de log kan bekijken worden via het juiste menu-item of via de link hieronder.',
+	'ADMIN_LOG_INDEX_EXPLAIN'	=> 'Dit geeft een overzicht van de laatste vijf acties die uitgevoerd zijn door de beheerders. Een volledig overzicht van de log kan bekeken worden via het juiste menu-item of via de link hieronder.',
 	'AVATAR_DIR_SIZE'			=> 'Avatarmapgrootte',
 
 	'BOARD_STARTED'		=> 'Forum gestart op',
@@ -373,20 +373,20 @@ $lang = array_merge($lang, array(
 
 	// Enviroment configuration checks, mbstring related
 	'ERROR_MBSTRING_FUNC_OVERLOAD'					=> 'Functie-overloading is niet goed ingesteld',
-	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'			=> '<var>mbstring.func_overload</var> moet ingesteld zijn op 0 of 4. Je kan de waarde die het momenteel is controleren op de <samp>PHP-informatiepagina</samp>.',
+	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'			=> '<var>mbstring.func_overload</var> moet ingesteld zijn op 0 of 4. Je kunt de huidige waarde controleren op de <samp>PHP-informatiepagina</samp>.',
 	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'Codering transparante tekens is niet goed ingesteld',
-	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> '<var>mbstring.encoding_translation</var> moet ingesteld zijn op 0. Je kan de waarde die het momenteel is controleren op de <samp>PHP-informatiepagina</samp>.',
+	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> '<var>mbstring.encoding_translation</var> moet ingesteld zijn op 0. Je kunt de huidige waarde controleren op de <samp>PHP-informatiepagina</samp>.',
 	'ERROR_MBSTRING_HTTP_INPUT'						=> 'Conversie HTTP-invoertekens is niet goed ingesteld',
-	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> '<var>mbstring.http_input</var> moet ingesteld zijn op <samp>pass</samp>. Je kan de waarde die het momenteel is controleren op de <samp>PHP-informatiepagina</samp>.',
+	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> '<var>mbstring.http_input</var> moet ingesteld zijn op <samp>pass</samp>. Je kunt de huidige waarde controleren op de <samp>PHP-informatiepagina</samp>.',
 	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'Conversie HTTP-uitvoertekens is niet goed ingesteld',
-	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> moet ingesteld zijn op <samp>pass</samp>. Je kan de waarde die het momenteel is controleren op de <samp>PHP-informatiepagina</samp>.',
+	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> moet ingesteld zijn op <samp>pass</samp>. Je kunt de huidige waarde controleren op de <samp>PHP-informatiepagina</samp>.',
 
 	'FILES_PER_DAY'		=> 'Bijlagen per dag',
 	'FORUM_STATS'		=> 'Forumstatistieken',
 
 	'GZIP_COMPRESSION'	=> 'GZip-compressie',
 
-	'NO_SEARCH_INDEX'	=> 'De geselecteerde zoekachtergrond heeft geen zoekindex.<br />Maak de index aan voor “%1$s” in de %2$szoekindex%3$s sectie.',
+	'NO_SEARCH_INDEX'	=> 'De geselecteerde manier van zoeken heeft geen zoekindex.<br />Maak de index aan voor “%1$s” in de %2$szoekindex%3$s sectie.',
 	'NOT_AVAILABLE'		=> 'Niet beschikbaar',
 	'NUMBER_FILES'		=> 'Aantal bijlagen',
 	'NUMBER_POSTS'		=> 'Aantal berichten',
@@ -400,31 +400,31 @@ $lang = array_merge($lang, array(
 	'POSTS_PER_DAY'		=> 'Berichten per dag',
 
 	'PURGE_CACHE'			=> 'Cache legen',
-	'PURGE_CACHE_CONFIRM'	=> 'Weet je zeker dat je de cache wilt legen?',
-	'PURGE_CACHE_EXPLAIN'	=> 'Leeg alle cache gerelateerde items, dit omvat alle gecachede templatebestanden of query\'s.',
+	'PURGE_CACHE_CONFIRM'	=> 'Weet je zeker dat je de cache wil legen?',
+	'PURGE_CACHE_EXPLAIN'	=> 'Leeg alle cache gerelateerde items, dit omvat alle gecache\'te templatebestanden of query\'s.',
 	'PURGE_CACHE_SUCCESS'	=> 'Cache succesvol geleegd.',
 
 	'PURGE_SESSIONS'			=> 'Alle sessies opschonen',
-	'PURGE_SESSIONS_CONFIRM'	=> 'Weet je zeker dat je alle sessies wilt opschonen? Dit zal alle gebruikers afmelden.',
+	'PURGE_SESSIONS_CONFIRM'	=> 'Weet je zeker dat je alle sessies wil opschonen? Dit zal alle gebruikers afmelden.',
 	'PURGE_SESSIONS_EXPLAIN'	=> 'Alle sessies opschonen. Dit zal alle gebruikers afmelden door het legen van de sessietabel.',
 	'PURGE_SESSIONS_SUCCESS'	=> 'Sessies succesvol opgeschoond.',
 
-	'RESET_DATE'					=> 'Opstartdatum van het forum resetten',
-	'RESET_DATE_CONFIRM'			=> 'Weet je zeker dat je de opstartdatum van het forum wilt resetten?',
-	'RESET_DATE_SUCCESS'			=> 'Opstartdatum van het forum gereset',
+	'RESET_DATE'					=> 'Startdatum van het forum resetten',
+	'RESET_DATE_CONFIRM'			=> 'Weet je zeker dat je de Startdatum van het forum wil resetten?',
+	'RESET_DATE_SUCCESS'			=> 'Startdatum van het forum gereset',
 	'RESET_ONLINE'					=> 'De meeste gebruikers tegelijkertijd online resetten',
-	'RESET_ONLINE_CONFIRM'			=> 'Weet je zeker dat je de meeste gebruikers tegelijkertijd online wilt resetten?',
+	'RESET_ONLINE_CONFIRM'			=> 'Weet je zeker dat je de meeste gebruikers tegelijkertijd online wil resetten?',
 	'RESET_ONLINE_SUCCESS'			=> 'Meeste gebruikers tegelijkertijd online gereset',
 	'RESYNC_POSTCOUNTS'				=> 'Berichtentellers synchroniseren',
 	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'Alleen bestaande berichten worden meegenomen. Opgeschoonde berichten zullen niet geteld worden.',
-	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'Weet je zeker dat je de berichtentellers wilt synchroniseren?',
+	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'Weet je zeker dat je de berichtentellers wil synchroniseren?',
 	'RESYNC_POSTCOUNTS_SUCCESS'		=> 'Berichtentellers gesynchroniseerd',
 	'RESYNC_POST_MARKING'			=> 'Gestipte onderwerpen synchroniseren',
-	'RESYNC_POST_MARKING_CONFIRM'	=> 'Weet je zeker dat je de gestipte onderwerpen wilt synchroniseren?',
+	'RESYNC_POST_MARKING_CONFIRM'	=> 'Weet je zeker dat je de gestipte onderwerpen wil synchroniseren?',
 	'RESYNC_POST_MARKING_EXPLAIN'	=> 'Eerst worden alle onderwerpen ongemarkeerd, daarna worden onderwerpen die de afgelopen zes maanden activiteit hebben gehad opnieuw gemarkeerd.',
 	'RESYNC_POST_MARKING_SUCCESS'	=> 'Gestipte onderwerpen gesynchroniseerd',
 	'RESYNC_STATS'					=> 'Statistieken synchroniseren',
-	'RESYNC_STATS_CONFIRM'			=> 'Weet je zeker dat je de statistieken wilt synchroniseren?',
+	'RESYNC_STATS_CONFIRM'			=> 'Weet je zeker dat je de statistieken wil synchroniseren?',
 	'RESYNC_STATS_EXPLAIN'			=> 'Herberekend het aantal berichten, onderwerpen, gebruikers en bestanden.',
 	'RESYNC_STATS_SUCCESS'			=> 'Statistieken gesynchroniseerd',
 	'RUN'							=> 'Nu uitvoeren',
@@ -443,18 +443,18 @@ $lang = array_merge($lang, array(
 	'VERSIONCHECK_FAIL'			=> 'Het ophalen van de laatste versie is mislukt.',
 	'VERSIONCHECK_FORCE_UPDATE'	=> 'Hercontroleer versie',
 	'VERSION_CHECK'				=> 'Versiecontrole',
-	'VERSION_CHECK_EXPLAIN'		=> 'Controleert je phpBB-installatie of deze nog up-to-date is.',
+	'VERSION_CHECK_EXPLAIN'		=> 'Controleert je phpBB-installatie of deze nog actueel is.',
 	'VERSIONCHECK_INVALID_ENTRY'	=> 'Laatste versieinformatie bevat een ongeldige invoer.',
 	'VERSIONCHECK_INVALID_URL'		=> 'Laatste versieinformatie bevat een ongeldige URL.',
 	'VERSIONCHECK_INVALID_VERSION'	=> 'Laatste versieinformatie bevat een ongeldige versie.',
-	'VERSION_NOT_UP_TO_DATE_ACP'	=> 'Je phpBB-installatie is niet up-to-date.<br />Hieronder is een link naar de uitgave-aankondiging, wat meer informatie alsmede instructies over het updaten bevat.',
-	'VERSION_NOT_UP_TO_DATE_TITLE'	=> 'Je phpBB-installatie is niet up-to-date.',
-	'VERSION_UP_TO_DATE_ACP'	=> 'Je phpBB-installatie is up-to-date. Er zijn momenteel geen updates beschikbaar.',	
+	'VERSION_NOT_UP_TO_DATE_ACP'	=> 'Je phpBB-installatie is niet actueel.<br />Hieronder vindt u een link naar de release-aankondiging die meer informatie bevat alsmede instructies over het updaten.',
+	'VERSION_NOT_UP_TO_DATE_TITLE'	=> 'Je phpBB-installatie is niet actueel.',
+	'VERSION_UP_TO_DATE_ACP'	=> 'Je phpBB-installatie is actueel. Er zijn momenteel geen updates beschikbaar.',
 	'VIEW_ADMIN_LOG'			=> 'Bekijk beheerderslog',
 	'VIEW_INACTIVE_USERS'		=> 'Bekijk inactieve gebruikers',
 
 	'WELCOME_PHPBB'			=> 'Welkom bij phpBB',
-	'WRITABLE_CONFIG'		=> 'Je config-bestand (config.php) is momenteel wereld-schrijfbaar. We bevelen sterk aan om de permissies te veranderen naar 640 of minstens naar 644 (bijvoorbeeld: <a href="http://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> (helaas geen Nederlandse pagina beschikbaar) 640 config.php).',
+	'WRITABLE_CONFIG'		=> 'Je config-bestand (config.php) is momenteel wereldwijd-schrijfbaar. We raden sterk aan om de rechten te veranderen naar 640 of minstens naar 644 (bijvoorbeeld: <a href="http://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
 ));
 
 // Inactive Users
@@ -467,8 +467,8 @@ $lang = array_merge($lang, array(
 	'INACTIVE_REASON_REMIND'		=> 'Geforceerde heractivatie gebruikersaccount',
 	'INACTIVE_REASON_UNKNOWN'		=> 'Onbekend',
 	'INACTIVE_USERS'				=> 'Inactieve gebruikers',
-	'INACTIVE_USERS_EXPLAIN'		=> 'Dit is een lijst van gebruikers die zich geregistreerd hebben maar waarvan hun accounts inactief zijn. Je kan deze gebruikers activeren, verwijderen of herinneren (door het sturen van een e-mail) als je wilt.',
-	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Dit is een lijst van de laatste 10 geregistreerde gebruikers welke een inactieve account hebben. Accounts zijn inactief of zijn vanwege accountactivatie (ingeschakeld in gebruikersregistratie-instellingen) nog niet geactiveerd, of vanwege het feit dat deze accounts zijn gedeactiveerd. Een volledige lijst is beschikbaar door op de link hieronder te klikken en daar kan je deze gebruikers activeren, verwijderen of herinneren (door een e-mail te versturen) mocht je dat willen.',
+	'INACTIVE_USERS_EXPLAIN'		=> 'Dit is een lijst van gebruikers die zich geregistreerd hebben maar waarvan het account inactief is. Je kunt deze gebruikers activeren, verwijderen of herinneren (door het sturen van een e-mail) als je wil.',
+	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Dit is een lijst van de laatste 10 geregistreerde gebruikers welke een inactief account hebben. Accounts zijn inactief en vanwege benodigde accountactivatie (ingeschakeld in gebruikersregistratie-instellingen) nog niet geactiveerd of deze accounts zijn gedeactiveerd. Een volledige lijst is beschikbaar door op de link hieronder te klikken en daar kun je deze gebruikers activeren, verwijderen of herinneren (door een e-mail te versturen) mocht je dat willen.',
 
 	'NO_INACTIVE_USERS'	=> 'Geen inactieve gebruikers',
 
@@ -484,9 +484,9 @@ $lang = array_merge($lang, array(
 
 // Help support phpBB page
 $lang = array_merge($lang, array(
-	'EXPLAIN_SEND_STATISTICS'	=> 'Verstuur informatie over je server en foruminstellingen naar phpBB voor statistische analyse. Alle informatie dat je of je website kan identificeren is verwijderd - de data is compleet <strong>anoniem</strong>. We baseren beslissingen over de toekomstige phpBB-versies op deze informatie. De statistieken zullen openbaar worden gemaakt. We delen ook deze data met het PHP-project, de programmeertaal waarin phpBB is geschreven.',
-	'EXPLAIN_SHOW_STATISTICS'	=> 'Door gebruik te maken van de knop hieronder kan je bekijken welke variabelen verstuurd zullen worden.',
-	'DONT_SEND_STATISTICS'		=> 'Ga terug naar de beheerderspaneel als je geen statistische informatie naar phpBB wilt versturen.',
+	'EXPLAIN_SEND_STATISTICS'	=> 'Verstuur informatie over je server en foruminstellingen naar phpBB voor statistische analyse. Alle informatie die jou of je website zou kunnen herleiden of identificeren is verwijderd - de data is volledig <strong>anoniem</strong>. We baseren beslissingen over de toekomstige phpBB-versies op deze informatie. De statistieken zullen openbaar worden gemaakt. We delen deze data ook met het PHP-project, de programmeertaal waarin phpBB is geschreven.',
+	'EXPLAIN_SHOW_STATISTICS'	=> 'Door gebruik te maken van de knop hieronder kun je bekijken welke variabelen verstuurd zullen worden.',
+	'DONT_SEND_STATISTICS'		=> 'Ga terug naar de beheerderspaneel als je geen statistische informatie naar phpBB wil versturen.',
 	'GO_ACP_MAIN'				=> 'Ga naar de beheerderspaneel startpagina',
 	'HIDE_STATISTICS'			=> 'Details verbergen',
 	'SEND_STATISTICS'			=> 'Statistieken versturen',
@@ -498,12 +498,12 @@ $lang = array_merge($lang, array(
 
 // Log Entries
 $lang = array_merge($lang, array(
-	'LOG_ACL_ADD_USER_GLOBAL_U_'		=> '<strong>Gebruikersrechtenpermissies van gebruikers toegevoegd of gewijzigd</strong><br />» %s',
-	'LOG_ACL_ADD_GROUP_GLOBAL_U_'		=> '<strong>Gebruikerspermissies van groepen toegevoegd of gewijzigd</strong><br />» %s',
-	'LOG_ACL_ADD_USER_GLOBAL_M_'		=> '<strong>Globalemoderatorpermissies van gebruikers toegevoegd of gewijzigd</strong><br />» %s',
-	'LOG_ACL_ADD_GROUP_GLOBAL_M_'		=> '<strong>Globalemoderatorpermissies van groepen toegevoegd of gewijzigd</strong><br />» %s',
-	'LOG_ACL_ADD_USER_GLOBAL_A_'		=> '<strong>Beheerderspermissies van gebruikers toegevoegd of gewijzigd</strong><br />» %s',
-	'LOG_ACL_ADD_GROUP_GLOBAL_A_'		=> '<strong>Beheerderspermissies van groepen toegevoegd of gewijzigd</strong><br />» %s',
+	'LOG_ACL_ADD_USER_GLOBAL_U_'		=> '<strong>Gebruikersrechtenrechten van gebruikers toegevoegd of gewijzigd</strong><br />» %s',
+	'LOG_ACL_ADD_GROUP_GLOBAL_U_'		=> '<strong>Gebruikersrechten van groepen toegevoegd of gewijzigd</strong><br />» %s',
+	'LOG_ACL_ADD_USER_GLOBAL_M_'		=> '<strong>Globale moderatorrechten van gebruikers toegevoegd of gewijzigd</strong><br />» %s',
+	'LOG_ACL_ADD_GROUP_GLOBAL_M_'		=> '<strong>Globale moderatorrechten van groepen toegevoegd of gewijzigd</strong><br />» %s',
+	'LOG_ACL_ADD_USER_GLOBAL_A_'		=> '<strong>Beheerdersrechten van gebruikers toegevoegd of gewijzigd</strong><br />» %s',
+	'LOG_ACL_ADD_GROUP_GLOBAL_A_'		=> '<strong>Beheerdersrechten van groepen toegevoegd of gewijzigd</strong><br />» %s',
 
 	'LOG_ACL_ADD_ADMIN_GLOBAL_A_'		=> '<strong>Beheerders toegevoegd of gewijzigd</strong><br />» %s',
 	'LOG_ACL_ADD_MOD_GLOBAL_M_'			=> '<strong>Globale moderators toegevoegd of gewijzigd</strong><br />» %s',
@@ -514,17 +514,17 @@ $lang = array_merge($lang, array(
 	'LOG_ACL_ADD_GROUP_LOCAL_M_'		=> '<strong>Forummoderatortoegang van groepen toegevoegd of gewijzigd</strong> van %1$s<br />» %2$s',
 
 	'LOG_ACL_ADD_MOD_LOCAL_M_'			=> '<strong>Moderators toegevoegd of gewijzigd</strong> van %1$s<br />» %2$s',
-	'LOG_ACL_ADD_FORUM_LOCAL_F_'		=> '<strong>Forumpermissies toegevoegd of gewijzigd</strong> van %1$s<br />» %2$s',
+	'LOG_ACL_ADD_FORUM_LOCAL_F_'		=> '<strong>Forumrechten toegevoegd of gewijzigd</strong> van %1$s<br />» %2$s',
 
 	'LOG_ACL_DEL_ADMIN_GLOBAL_A_'		=> '<strong>Beheerders verwijderd</strong><br />» %s',
 	'LOG_ACL_DEL_MOD_GLOBAL_M_'			=> '<strong>Globale moderators verwijderd</strong><br />» %s',
 	'LOG_ACL_DEL_MOD_LOCAL_M_'			=> '<strong>Moderators verwijderd</strong> van %1$s<br />» %2$s',
-	'LOG_ACL_DEL_FORUM_LOCAL_F_'		=> '<strong>Forumpermissies van gebruikers of groepen verwijderd</strong> van %1$s<br />» %2$s',
+	'LOG_ACL_DEL_FORUM_LOCAL_F_'		=> '<strong>Forumrechten van gebruikers of groepen verwijderd</strong> van %1$s<br />» %2$s',
 
-	'LOG_ACL_TRANSFER_PERMISSIONS'		=> '<strong>Permissies overgebracht van</strong><br />» %s',
-	'LOG_ACL_RESTORE_PERMISSIONS'		=> '<strong>Eigen permissies teruggezet na gebruik permissies van</strong><br />» %s',
+	'LOG_ACL_TRANSFER_PERMISSIONS'		=> '<strong>Rechten overgebracht van</strong><br />» %s',
+	'LOG_ACL_RESTORE_PERMISSIONS'		=> '<strong>Eigen rechten teruggezet na gebruik rechten van</strong><br />» %s',
 
-	'LOG_ADMIN_AUTH_FAIL'		=> '<strong>Mislukte beheerdersaanmeldpoging</strong>',
+	'LOG_ADMIN_AUTH_FAIL'		=> '<strong>Mislukte beheerders-aanmeldpoging</strong>',
 	'LOG_ADMIN_AUTH_SUCCESS'	=> '<strong>Succesvolle beheerdersaanmelding</strong>',
 
 	'LOG_ATTACHMENTS_DELETED'	=> '<strong>Gebruikersbijlagen verwijderd</strong><br />» %s',
@@ -538,12 +538,12 @@ $lang = array_merge($lang, array(
 	'LOG_ATTACH_FILEUPLOAD'		=> '<strong>Weesbestand geüpload naar bericht</strong><br />» ID %1$d - %2$s',
 	'LOG_ATTACH_ORPHAN_DEL'		=> '<strong>Weesbestanden verwijderd</strong><br />» %s',
 
-	'LOG_BAN_EXCLUDE_USER'	=> '<strong>Gebruiker uitgesloten van verbanning</strong> voor reden “<em>%1$s</em>”<br />» %2$s',
-	'LOG_BAN_EXCLUDE_IP'	=> '<strong>IP uitgesloten van verbanning</strong> voor reden “<em>%1$s</em>”<br />» %2$s',
-	'LOG_BAN_EXCLUDE_EMAIL' => '<strong>E-mail uitgesloten van verbanning</strong> voor reden “<em>%1$s</em>”<br />» %2$s',
-	'LOG_BAN_USER'			=> '<strong>Gebruiker verbannen</strong> voor reden “<em>%1$s</em>”<br />» %2$s',
-	'LOG_BAN_IP'			=> '<strong>IP verbannen</strong> voor reden “<em>%1$s</em>”<br />» %2$s',
-	'LOG_BAN_EMAIL'			=> '<strong>E-mail verbannen</strong> voor reden “<em>%1$s</em>”<br />» %2$s',
+	'LOG_BAN_EXCLUDE_USER'	=> '<strong>Gebruiker uitgesloten van verbanning</strong> om reden “<em>%1$s</em>”<br />» %2$s',
+	'LOG_BAN_EXCLUDE_IP'	=> '<strong>IP uitgesloten van verbanning</strong> om reden “<em>%1$s</em>”<br />» %2$s',
+	'LOG_BAN_EXCLUDE_EMAIL'=> '<strong>E-mail uitgesloten van verbanning</strong> om reden “<em>%1$s</em>”<br />» %2$s',
+	'LOG_BAN_USER'			=> '<strong>Gebruiker verbannen</strong> om reden “<em>%1$s</em>”<br />» %2$s',
+	'LOG_BAN_IP'			=> '<strong>IP verbannen</strong> om reden “<em>%1$s</em>”<br />» %2$s',
+	'LOG_BAN_EMAIL'			=> '<strong>E-mail verbannen</strong> om reden “<em>%1$s</em>”<br />» %2$s',
 	'LOG_UNBAN_USER'		=> '<strong>Niet meer verbannen gebruiker</strong><br />» %s',
 	'LOG_UNBAN_IP'			=> '<strong>Niet meer verbannen IP</strong><br />» %s',
 	'LOG_UNBAN_EMAIL'		=> '<strong>Niet meer verbannen e-mail</strong><br />» %s',
@@ -599,7 +599,7 @@ $lang = array_merge($lang, array(
 	'LOG_POST_RESTORED'			=> '<strong>Bericht teruggehaald</strong><br />» %s',
 	'LOG_REPORT_CLOSED'			=> '<strong>Melding gesloten</strong><br />» %s',
 	'LOG_REPORT_DELETED'		=> '<strong>Melding verwijderd</strong><br />» %s',
-	'LOG_RESTORE_TOPIC'	        => '<strong>Onderwerp “%1$s” teruggehaald, geschreven door</strong><br />» %2$s',
+	'LOG_RESTORE_TOPIC'			=> '<strong>Onderwerp “%1$s” teruggehaald, geschreven door</strong><br />» %2$s',
 	'LOG_SOFTDELETE_POST'		=> '<strong>Bericht “%1$s” tijdelijk verwijderd, geschreven door “%2$s” om de volgende reden</strong><br />» %3$s',
 	'LOG_SOFTDELETE_TOPIC'		=> '<strong>Onderwerp “%1$s” tijdelijk verwijderd, geschreven door “%2$s” om de volgende reden</strong><br />» %3$s',
 	'LOG_SPLIT_DESTINATION'		=> '<strong>Afgesplitste berichten verplaatst</strong><br />» naar %s',
@@ -607,7 +607,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_TOPIC_APPROVED'		=> '<strong>Onderwerp goedgekeurd</strong><br />» %s',
 	'LOG_TOPIC_RESTORED'		=> '<strong>Onderwerp teruggehaald</strong><br />» %s',
-	'LOG_TOPIC_DISAPPROVED'		=> '<strong>Onderwerp “%1$s” afgekeurd dat geschreven is door “%3$s” voor de volgende reden</strong><br />» %2$s',
+	'LOG_TOPIC_DISAPPROVED'		=> '<strong>Onderwerp “%1$s” afgekeurd dat geschreven is door “%3$s” om de volgende reden</strong><br />» %2$s',
 	'LOG_TOPIC_RESYNC'			=> '<strong>Onderwerptellers gesynchroniseerd</strong><br />» %s',
 	'LOG_TOPIC_TYPE_CHANGED'	=> '<strong>Onderwerptype veranderd</strong><br />» %s',
 	'LOG_UNLOCK'				=> '<strong>Onderwerp geopend</strong><br />» %s',
@@ -629,7 +629,7 @@ $lang = array_merge($lang, array(
 	'LOG_ERROR_CAPTCHA'		=> '<strong>CAPTCHA-fout</strong><br />» %s',
 
 	'LOG_FORUM_ADD'							=> '<strong>Nieuw forum aangemaakt</strong><br />» %s',
-	'LOG_FORUM_COPIED_PERMISSIONS'			=> '<strong>Forumpermissies gekopieerd</strong> van %1$s<br />» %2$s',
+	'LOG_FORUM_COPIED_PERMISSIONS'			=> '<strong>Forumrechten gekopieerd</strong> van %1$s<br />» %2$s',
 	'LOG_FORUM_DEL_FORUM'					=> '<strong>Forum verwijderd</strong><br />» %s',
 	'LOG_FORUM_DEL_FORUMS'					=> '<strong>Forum en zijn subforums verwijderd</strong><br />» %s',
 	'LOG_FORUM_DEL_MOVE_FORUMS'				=> '<strong>Forum verwijderd en subforums verplaatst</strong> naar %1$s<br />» %2$s',
@@ -704,7 +704,7 @@ $lang = array_merge($lang, array(
 	'LOG_U_ROLE_EDIT'		=> '<strong>Gebruikersrol gewijzigd</strong><br />» %s',
 	'LOG_U_ROLE_REMOVED'	=> '<strong>Gebruikersrol verwijderd</strong><br />» %s',
 
-	'LOG_PLUPLOAD_TIDY_FAILED'		=> '<strong>Kan %1$s niet openen voor opschonen, controleer permissies.</strong><br />Uitzondering: %2$s<br />Tracering: %3$s',
+	'LOG_PLUPLOAD_TIDY_FAILED'		=> '<strong>Kan %1$s niet openen voor opschonen, controleer rechten.</strong><br />Uitzondering: %2$s<br />Tracering: %3$s',
 
 	'LOG_PROFILE_FIELD_ACTIVATE'	=> '<strong>Profielveld geactiveerd</strong><br />» %s',
 	'LOG_PROFILE_FIELD_CREATE'		=> '<strong>Profielveld toegevoegd</strong><br />» %s',
@@ -750,7 +750,7 @@ $lang = array_merge($lang, array(
 	'LOG_TEMPLATE_ADD_DB'			=> '<strong>Nieuwe templateset toegevoegd aan database</strong><br />» %s',
 	// @deprecated 3.1
 	'LOG_TEMPLATE_ADD_FS'			=> '<strong>Nieuwe templateset toegevoegd aan bestandssysteem</strong><br />» %s',
-	'LOG_TEMPLATE_CACHE_CLEARED'	=> '<strong>Gecachede versies van templatebestanden in templateset verwijderd <em>%1$s</em></strong><br />» %2$s',
+	'LOG_TEMPLATE_CACHE_CLEARED'	=> '<strong>Gecache\'te versies van templatebestanden in templateset verwijderd <em>%1$s</em></strong><br />» %2$s',
 	'LOG_TEMPLATE_DELETE'			=> '<strong>Templateset verwijderd</strong><br />» %s',
 	'LOG_TEMPLATE_EDIT'				=> '<strong>Templateset gewijzigd <em>%1$s</em></strong><br />» %2$s',
 	'LOG_TEMPLATE_EDIT_DETAILS'		=> '<strong>Template-details gewijzigd</strong><br />» %s',
@@ -759,9 +759,9 @@ $lang = array_merge($lang, array(
 	'LOG_TEMPLATE_REFRESHED'		=> '<strong>Templateset vernieuwd</strong><br />» %s',
 
 	// @deprecated 3.1
-	'LOG_THEME_ADD_DB'			=> '<strong>Nieuwe thema toegevoegd aan database</strong><br />» %s',
+	'LOG_THEME_ADD_DB'			=> '<strong>Nieuw thema toegevoegd aan database</strong><br />» %s',
 	// @deprecated 3.1
-	'LOG_THEME_ADD_FS'			=> '<strong>Nieuwe thema toegevoegd aan bestandssysteem</strong><br />» %s',
+	'LOG_THEME_ADD_FS'			=> '<strong>Nieuw thema toegevoegd aan bestandssysteem</strong><br />» %s',
 	'LOG_THEME_DELETE'			=> '<strong>Thema verwijderd</strong><br />» %s',
 	'LOG_THEME_EDIT_DETAILS'	=> '<strong>Themadetails gewijzigd</strong><br />» %s',
 	'LOG_THEME_EDIT'			=> '<strong>Thema gewijzigd <em>%1$s</em></strong>',
@@ -774,9 +774,9 @@ $lang = array_merge($lang, array(
 	'LOG_UPDATE_PHPBB'		=> '<strong>phpBB bijgewerkt van versie %1$s naar versie %2$s</strong>',
 
 	'LOG_USER_ACTIVE'		=> '<strong>Gebruiker geactiveerd</strong><br />» %s',
-	'LOG_USER_BAN_USER'		=> '<strong>Gebruiker verbannen via gebruikersbeheer</strong> voor reden “<em>%1$s</em>”<br />» %2$s',
-	'LOG_USER_BAN_IP'		=> '<strong>IP verbannen via gebruikersbeheer</strong> voor reden “<em>%1$s</em>”<br />» %2$s',
-	'LOG_USER_BAN_EMAIL'	=> '<strong>E-mail verbannen via gebruikersbeheer</strong> voor reden “<em>%1$s</em>”<br />» %2$s',
+	'LOG_USER_BAN_USER'		=> '<strong>Gebruiker verbannen via gebruikersbeheer</strong> om reden “<em>%1$s</em>”<br />» %2$s',
+	'LOG_USER_BAN_IP'		=> '<strong>IP verbannen via gebruikersbeheer</strong> om reden “<em>%1$s</em>”<br />» %2$s',
+	'LOG_USER_BAN_EMAIL'	=> '<strong>E-mail verbannen via gebruikersbeheer</strong> om reden “<em>%1$s</em>”<br />» %2$s',
 	'LOG_USER_DELETED'		=> '<strong>Gebruiker verwijderd</strong><br />» %s',
 	'LOG_USER_DEL_ATTACH'	=> '<strong>Alle bijlagen verwijderd, gemaakt door de gebruiker</strong><br />» %s',
 	'LOG_USER_DEL_AVATAR'	=> '<strong>Gebruikersavatar verwijderd</strong><br />» %s',
@@ -809,13 +809,13 @@ $lang = array_merge($lang, array(
 	'LOG_USER_GROUP_CHANGE'			=> '<strong>Standaardgroep van gebruiker veranderd</strong><br />» %s',
 	'LOG_USER_GROUP_DEMOTE'			=> '<strong>Gebruiker gedegradeerd als leider van gebruikersgroep</strong><br />» %s',
 	'LOG_USER_GROUP_JOIN'			=> '<strong>Gebruiker lid geworden van groep</strong><br />» %s',
-	'LOG_USER_GROUP_JOIN_PENDING'	=> '<strong>Gebruiker wilt lid worden van groep en moet goedgekeurd worden</strong><br />» %s',
+	'LOG_USER_GROUP_JOIN_PENDING'	=> '<strong>Gebruiker wil lid worden van groep en moet goedgekeurd worden</strong><br />» %s',
 	'LOG_USER_GROUP_RESIGN'			=> '<strong>Gebruiker heeft lidmaatschap opgezegd van groep</strong><br />» %s',
 
 	'LOG_WARNING_DELETED'		=> '<strong>Gebruikerswaarschuwing verwijderd</strong><br />» %s',
 	'LOG_WARNINGS_DELETED'		=> array(
-		1 => '<strong>Gebruikerswaarschuwing verwijderd</strong><br />» %1$s',
-		2 => '<strong>%2$d gebruikerswaarschuwingen verwijderd</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
+		1=> '<strong>Gebruikerswaarschuwing verwijderd</strong><br />» %1$s',
+		2=> '<strong>%2$d gebruikerswaarschuwingen verwijderd</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
 	),	
 	'LOG_WARNINGS_DELETED_ALL'	=> '<strong>Alle gebruikerswaarschuwingen verwijderd</strong><br />» %s',
 
