@@ -38,13 +38,13 @@ $lang = array_merge($lang, array(
 	'EXTENSION'					=> 'Extensie',
 	'EXTENSIONS'				=> 'Extensies',
 	'EXTENSIONS_ADMIN'			=> 'Extensiebeheer',
-	'EXTENSIONS_EXPLAIN'		=> 'Het extensiebeheer is een gereedschap in je phpBB-forum die je in staat stelt om alle extensiestatussen en informatie te beheren.',
+	'EXTENSIONS_EXPLAIN'		=> 'Extensiebeheer is een gereedschap in je phpBB-forum wat je in staat stelt om alle extensiestatussen en informatie te beheren.',
 	'EXTENSION_INVALID_LIST'	=> 'De “%s” extensie is niet geldig.<br />%s<br /><br />',
 	'EXTENSION_NOT_AVAILABLE'	=> 'De geselecteerde extensie is niet beschikbaar voor dit forum, controleer of je phpBB en PHP-versies toegestaan zijn (zie de detailspagina).',
 	'EXTENSION_DIR_INVALID'		=> 'De geselecteerde extensie heeft een ongeldige mapstructuur en kan niet ingeschakeld worden.',
-	'EXTENSION_NOT_ENABLEABLE'	=> 'De geselecteerde extensie kan niet worden ingeschakeld, controleer de extensie’s vereisten.',
+	'EXTENSION_NOT_ENABLEABLE'	=> 'De geselecteerde extensie kan niet worden ingeschakeld, controleer de vereisten van de extensie.',
 	'EXTENSION_NOT_INSTALLED'	=> 'De extensie %s is niet beschikbaar. Controleer of je de extensie juist hebt geïnstalleerd.',
-	
+
 	'DETAILS'				=> 'Details',
 
 	'EXTENSIONS_DISABLED'	=> 'Uitgeschakelde Extensies',
@@ -54,13 +54,13 @@ $lang = array_merge($lang, array(
 	'EXTENSION_DISABLE'		=> 'Uitschakelen',
 	'EXTENSION_ENABLE'		=> 'Inschakelen',
 
-	'EXTENSION_DELETE_DATA_EXPLAIN'	=> 'Het verwijderen van extensiedata verwijderd alle data en instellingen. De extensiebestanden zullen behouden blijven zodat het weer ingeschakeld kan worden.',
+	'EXTENSION_DELETE_DATA_EXPLAIN'	=> 'Het verwijderen van extensiedata verwijderd alle data en instellingen. De extensiebestanden zullen behouden blijven zodat deze weer ingeschakeld kan worden.',
 	'EXTENSION_DISABLE_EXPLAIN'		=> 'Het uitschakelen van een extensie behoud de bestanden, data en instellingen, maar verwijderd iedere functionaliteit toegevoegd door de extensie aan je forum.',
 	'EXTENSION_ENABLE_EXPLAIN'		=> 'Het inschakelen van een extensie staat je toe om deze te gebruiken op je forum.',
 
-	'EXTENSION_DELETE_DATA_IN_PROGRESS'	=> 'De extensiedata wordt momenteel verwijderd. Verlaat of ververs deze pagina niet tot dat dit gedaan is.',
-	'EXTENSION_DISABLE_IN_PROGRESS'	=> 'De extensie wordt momenteel uitgeschakeld. Verlaat of ververs deze pagina niet tot dat dit gedaan is.',
-	'EXTENSION_ENABLE_IN_PROGRESS'	=> 'De extensie wordt momenteel ingeschakeld. Verlaat of ververs deze pagina niet tot dat dit gedaan is.',
+	'EXTENSION_DELETE_DATA_IN_PROGRESS'	=> 'De extensiedata wordt momenteel verwijderd. Verlaat of ververs deze pagina niet tot dit klaar is.',
+	'EXTENSION_DISABLE_IN_PROGRESS'	=> 'De extensie wordt momenteel uitgeschakeld. Verlaat of ververs deze pagina niet tot dit klaar is.',
+	'EXTENSION_ENABLE_IN_PROGRESS'	=> 'De extensie wordt momenteel ingeschakeld. Verlaat of ververs deze pagina niet tot dit klaar is.',
 
 	'EXTENSION_DELETE_DATA_SUCCESS'	=> 'De extensiedata is succesvol verwijderd',
 	'EXTENSION_DISABLE_SUCCESS'		=> 'De extensie is succesvol uitgeschakeld',
@@ -75,7 +75,7 @@ $lang = array_merge($lang, array(
 			<li>Download een extensie uit de phpBB-extensiesdatabase</li>
 			<li>Pak de extensie uit en upload het naar de <samp>ext/</samp>-map van je phpBB-forum</li>
 			<li>Schakel de extensie hier in, in het extensiebeheer</li>
-		</ol>',		
+		</ol>',
 	'EXTENSION_UPDATE_HEADLINE'	=> 'Het bijwerken van een extensie',
 	'EXTENSION_UPDATE_EXPLAIN'	=> '<ol>
 			<li>De extensie uitschakelen</li>
@@ -90,10 +90,10 @@ $lang = array_merge($lang, array(
 			<li>De extensiebestanden verwijderen van het bestandssysteem</li>
 		</ol>',
 
-	'EXTENSION_DELETE_DATA_CONFIRM'	=> 'Weet je zeker dat je de data die geassocieerd wordt met  “%s” wilt verwijderen?<br /><br />Dit zal alle data en instellingen van de extensie verwijderen en kan niet ongedaan gemaakt worden!',
-	'EXTENSION_DISABLE_CONFIRM'		=> 'Weet je zeker dat je de extensie “%s” wilt uitschakelen?',
-	'EXTENSION_ENABLE_CONFIRM'		=> 'Weet je zeker dat je de extensie “%s” wilt inschakelen?',
-	'EXTENSION_FORCE_UNSTABLE_CONFIRM'	=> 'Weet je zeker dat je het gebruik van de onstabiele versie wilt forceren?',
+	'EXTENSION_DELETE_DATA_CONFIRM'	=> 'Weet je zeker dat je de data die geassocieerd wordt met “%s” wil verwijderen?<br /><br />Dit zal alle data en instellingen van de extensie verwijderen en kan niet ongedaan gemaakt worden!',
+	'EXTENSION_DISABLE_CONFIRM'		=> 'Weet je zeker dat je de extensie “%s” wil uitschakelen?',
+	'EXTENSION_ENABLE_CONFIRM'		=> 'Weet je zeker dat je de extensie “%s” wil inschakelen?',
+	'EXTENSION_FORCE_UNSTABLE_CONFIRM'	=> 'Weet je zeker dat je het gebruik van de onstabiele versie wil forceren?',
 
 	'RETURN_TO_EXTENSION_LIST'	=> 'Terug naar de extensielijst',
 
@@ -116,20 +116,20 @@ $lang = array_merge($lang, array(
 	'AUTHOR_EMAIL'			=> 'E-mail',
 	'AUTHOR_HOMEPAGE'		=> 'Homepage',
 	'AUTHOR_ROLE'			=> 'Rol',
-	
-	'NOT_UP_TO_DATE'		=> '%s is niet up-to-date',
-	'UP_TO_DATE'			=> '%s is up-to-date',
+
+	'NOT_UP_TO_DATE'		=> '%s is niet actueel',
+	'UP_TO_DATE'			=> '%s is actueel',
 	'ANNOUNCEMENT_TOPIC'	=> 'Versie aankondiging',
 	'DOWNLOAD_LATEST'		=> 'Versie downloaden',
 	'NO_VERSIONCHECK'		=> 'Er is geen versie informatie controle opgegeven.',
-	
+
 	'VERSIONCHECK_FORCE_UPDATE_ALL'		=> 'Controleer alle versies opnieuw',
 	'FORCE_UNSTABLE'					=> 'Controleer altijd voor onstabiele versies',
 	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'Versiecontrole-instellingen',
 
-	'BROWSE_EXTENSIONS_DATABASE'		=> 'Blader door de extensiesdatabase',	
-	
-	'META_FIELD_NOT_SET'            => 'Verplicht meta-veld %s is niet ingesteld.',
-	'META_FIELD_INVALID'            => 'Meta-veld %s is ongeldig.',		
-	
+	'BROWSE_EXTENSIONS_DATABASE'		=> 'Blader door de extensiesdatabase',
+
+	'META_FIELD_NOT_SET'			=> 'Verplicht meta-veld %s is niet ingesteld.',
+	'META_FIELD_INVALID'			=> 'Meta-veld %s is ongeldig.',
+
 ));

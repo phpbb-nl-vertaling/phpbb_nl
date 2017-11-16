@@ -38,8 +38,8 @@ if (empty($lang) || !is_array($lang))
 
 // Database Backup/Restore
 $lang = array_merge($lang, array(
-	'ACP_BACKUP_EXPLAIN'	=> 'Hier kan je alle phpBB-gerelateerde gegevens back-uppen. Je mag het bestand opslaan in je <samp>store/</samp>-map, of direct downloaden. Afhankelijk van je serverconfiguratie, kan je het bestand in een aantal verschillende formaten comprimeren.',
-	'ACP_RESTORE_EXPLAIN'	=> 'Dit zorgt ervoor dat alle phpBB-tabellen teruggezet worden vanuit een opgeslagen bestand. Indien je server dit ondersteunt, kan je een gzip of bzip2 ingepakt tekstbestand gebruiken. Deze zal vervolgens automatisch uitgepakt worden. <strong>WAARSCHUWING:</strong> Hierdoor worden alle bestaande gegevens overschreven. Het terugzetten kan veel tijd in beslag nemen. Verlaat deze pagina niet tot het proces volledig afgewerkt is. Back-ups worden opgeslagen in de <samp>store/</samp>-map en worden gegenereerd door phpBB’s back-up functionaliteit. Terugplaatsen van back-ups die niet door dit systeem zijn gemaakt, werken wellicht niet.',
+	'ACP_BACKUP_EXPLAIN'	=> 'Hier kun je alle phpBB-gerelateerde gegevens back-uppen. Je mag het bestand opslaan in je <samp>store/</samp>-map of direct downloaden. Afhankelijk van je serverconfiguratie kun je het bestand in een aantal verschillende formaten comprimeren.',
+	'ACP_RESTORE_EXPLAIN'	=> 'Dit zorgt ervoor dat alle phpBB-tabellen teruggezet worden vanuit een opgeslagen bestand. Indien je server dit ondersteunt, kun je een gzip of bzip2 ingepakt tekstbestand gebruiken. Deze zal vervolgens automatisch uitgepakt worden. <strong>WAARSCHUWING:</strong> Hierdoor worden alle bestaande gegevens overschreven. Het terugzetten kan veel tijd in beslag nemen. Verlaat deze pagina niet tot het proces volledig afgerond is. Back-ups worden opgeslagen in de <samp>store/</samp>-map en worden gegenereerd door phpBB’s back-up functionaliteit. Terugplaatsen van back-ups die niet door dit systeem zijn gemaakt werken wellicht niet.',
 
 	'BACKUP_DELETE'		=> 'Het back-up bestand is succesvol verwijderd.',
 	'BACKUP_INVALID'	=> 'Het geselecteerde back-up bestand is ongeldig.',
@@ -50,7 +50,7 @@ $lang = array_merge($lang, array(
 	'DATABASE'			=> 'Database hulpmiddelen',
 	'DATA_ONLY'			=> 'Alleen data',
 	'DELETE_BACKUP'		=> 'Verwijder back-up',
-	'DELETE_SELECTED_BACKUP'	=> 'Weet je zeker dat je de geselecteerde back-up wilt verwijderen?',
+	'DELETE_SELECTED_BACKUP'	=> 'Weet je zeker dat je de geselecteerde back-up wil verwijderen?',
 	'DESELECT_ALL'		=> 'Deselecteer alles',
 	'DOWNLOAD_BACKUP'	=> 'Bestand downloaden',
 
@@ -60,8 +60,8 @@ $lang = array_merge($lang, array(
 
 	'RESTORE_FAILURE'		=> 'Het back-up bestand is mogelijk beschadigd.',
 	'RESTORE_OPTIONS'		=> 'Herstel instellingen',
-	'RESTORE_SELECTED_BACKUP'	=> 'Weet je zeker dat je de geselecteerde back-up wilt herstellen?',
-	'RESTORE_SUCCESS'		=> 'De database is succesvol teruggezet.<br /><br />Je forum zou nu weer exact hetzelfde moeten zijn als wanneer de back-up gemaakt is.',
+	'RESTORE_SELECTED_BACKUP'	=> 'Weet je zeker dat je de geselecteerde back-up wil herstellen?',
+	'RESTORE_SUCCESS'		=> 'De database is succesvol hersteld.<br /><br />Je forum zou nu weer in dezelfde staat moeten zijn als hij was op het moment dat de back-up werd gemaakt.',
 
 	'SELECT_ALL'			=> 'Selecteer alles',
 	'SELECT_FILE'			=> 'Selecteer een bestand',

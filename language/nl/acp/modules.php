@@ -37,25 +37,25 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACP_MODULE_MANAGEMENT_EXPLAIN'	=> 'Hier kan je alle soorten modules beheren. Let op dat het beheerderspaneel een drielaags menustructuur (Categorie -> Categorie -> Module) heeft, waarbij de andere een tweelaags menustructuur (Categorie -> Module) hebben die behouden moet worden. Wees er ook verdacht op dat je jezelf kan uitsluiten als je de modules uitschakelt of verwijdert die verantwoordelijk zijn voor het modulebeheer zelf.',
+	'ACP_MODULE_MANAGEMENT_EXPLAIN'	=> 'Hier kun je alle soorten modules beheren. Let op dat het beheerderspaneel een drielaags menustructuur (Categorie -> Categorie -> Module) heeft waarbij alle anderen een tweelaags menustructuur (Categorie -> Module) hebben die behouden moet worden. Wees er ook verdacht op dat je jezelf kan uitsluiten als je de modules uitschakelt of verwijdert die verantwoordelijk zijn voor het modulebeheer zelf.',
 	'ADD_MODULE'					=> 'Module toevoegen',
-	'ADD_MODULE_CONFIRM'			=> 'Weet je zeker dat je de geselecteerde module wilt toevoegen aan de geselecteerde mode?',
+	'ADD_MODULE_CONFIRM'			=> 'Weet je zeker dat je de geselecteerde module wil toevoegen aan de geselecteerde modus?',
 	'ADD_MODULE_TITLE'				=> 'Module toevoegen',
 
 	'CANNOT_REMOVE_MODULE'	=> 'Kan module niet verwijderen, het heeft al toegewezen kinderen. Verwijder of verplaats eerst alle kinderen voordat je deze actie uitvoert.',
 	'CATEGORY'				=> 'Categorie',
 	'CHOOSE_MODE'			=> 'Kies modulemode',
-	'CHOOSE_MODE_EXPLAIN'	=> 'Kies de modulemode die gebruikt wordt.',
+	'CHOOSE_MODE_EXPLAIN'	=> 'Kies de modulemodus die gebruikt wordt.',
 	'CHOOSE_MODULE'			=> 'Kies module',
 	'CHOOSE_MODULE_EXPLAIN'	=> 'Kies het bestand wat wordt opgeroepen door deze module.',
 	'CREATE_MODULE'			=> 'Nieuwe module aanmaken',
 
 	'DEACTIVATED_MODULE'	=> 'Gedeactiveerde module',
 	'DELETE_MODULE'			=> 'Module verwijderen',
-	'DELETE_MODULE_CONFIRM'	=> 'Weet je zeker dat je deze module wilt verwijderen?',
+	'DELETE_MODULE_CONFIRM'	=> 'Weet je zeker dat je deze module wil verwijderen?',
 
 	'EDIT_MODULE'			=> 'Module wijzigen',
-	'EDIT_MODULE_EXPLAIN'	=> 'Hier kan je module specifieke instellingen invoeren.',
+	'EDIT_MODULE_EXPLAIN'	=> 'Hier kun je module specifieke instellingen invoeren.',
 
 	'HIDDEN_MODULE'			=> 'Verborgen module',
 
@@ -63,7 +63,7 @@ $lang = array_merge($lang, array(
 	'MODULE_ADDED'				=> 'Module succesvol toegevoegd.',
 	'MODULE_DELETED'			=> 'Module succesvol verwijderd.',
 	'MODULE_DISPLAYED'			=> 'Module weergeven',
-	'MODULE_DISPLAYED_EXPLAIN'	=> 'Als je deze module niet wilt weergeven, maar wel wilt gebruiken, stel dit dan in op nee.',
+	'MODULE_DISPLAYED_EXPLAIN'	=> 'Als je deze module niet wil weergeven maar wel wil gebruiken, stel dit dan in op nee.',
 	'MODULE_EDITED'				=> 'Module succesvol gewijzigd.',
 	'MODULE_ENABLED'			=> 'Module ingeschakeld',
 	'MODULE_LANGNAME'			=> 'Module taalnaam',

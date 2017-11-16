@@ -39,7 +39,7 @@ if (empty($lang) || !is_array($lang))
 // BBCodes
 // Note to translators: you can translate everything but what's between { and }
 $lang = array_merge($lang, array(
-	'ACP_BBCODES_EXPLAIN'		=> 'BBCode is een speciale implementatie van HTML, wat een grotere controle geeft over wat en hoe iets wordt weergegeven. Op deze pagina kan je eigen BBCodes toevoegen, verwijderen en wijzigen.',
+	'ACP_BBCODES_EXPLAIN'		=> 'BBCode is een speciale toepassing van HTML wat een grotere controle geeft over wat en hoe iets wordt weergegeven. Op deze pagina kun je eigen BBCodes toevoegen, verwijderen en wijzigen.',
 	'ADD_BBCODE'				=> 'Een nieuwe BBCode toevoegen',
 
 	'BBCODE_DANGER'				=> 'De BBCode, die je probeert toe te voegen, lijkt een {TEXT} token te gebruiken in een HTML attribuut. Dit is een mogelijk XSS-beveiligingsprobleem. Probeer de meer beperkende {SIMPLETEXT} of {INTTEXT} types te gebruiken. Ga alleen verder als je de risico‘s begrijpt en je vindt het gebruik van {TEXT} absoluut onvermijdelijk.',
@@ -56,45 +56,45 @@ $lang = array_merge($lang, array(
 
 	'BBCODE_INVALID_TAG_NAME'	=> 'De BBCode-tagnaam, die je hebt ingevoerd, bestaat al.',
 	'BBCODE_INVALID'			=> 'Je BBCode is aangemaakt in een ongeldig wijze.',
-	'BBCODE_OPEN_ENDED_TAG'		=> 'Je eigen BBCode moet zowel een openings- als een sluitingstag hebben.',
+	'BBCODE_OPEN_ENDED_TAG'		=> 'Je eigen BBCode moet zowel een open- als sluittag hebben.',
 	'BBCODE_TAG'				=> 'Tag',
-	'BBCODE_TAG_TOO_LONG'		=> 'De tagnaam, die je hebt ingevoerd, is te lang.',
-	'BBCODE_TAG_DEF_TOO_LONG'	=> 'De tagedefinitie, die je hebt ingevoerd, is te lang, vul een kortere tagdefinitie in.',
+	'BBCODE_TAG_TOO_LONG'		=> 'De tagnaam die je hebt ingevoerd is te lang.',
+	'BBCODE_TAG_DEF_TOO_LONG'	=> 'De tagdefinitie die je hebt ingevoerd is te lang, vul een kortere tagdefinitie in.',
 	'BBCODE_USAGE'				=> 'BBCode gebruik',
 	'BBCODE_USAGE_EXAMPLE'		=> '[highlight={COLOR}]{TEXT}[/highlight]<br /><br />[font={SIMPLETEXT1}]{SIMPLETEXT2}[/font]',
-	'BBCODE_USAGE_EXPLAIN'		=> 'Hier kan je definiëren hoe de BBCode gebruikt moet worden. Vervang iedere variabele input door de bijbehorende token (%szie hieronder%s).',
+	'BBCODE_USAGE_EXPLAIN'		=> 'Hier kun je definiëren hoe de BBCode gebruikt moet worden. Vervang iedere variabele input door de bijbehorende token (%szie hieronder%s).',
 
 	'EXAMPLE'						=> 'Voorbeeld:',
 	'EXAMPLES'						=> 'Voorbeelden:',
 
 	'HTML_REPLACEMENT'				=> 'HTML vervanging',
 	'HTML_REPLACEMENT_EXAMPLE'		=> '&lt;span style="background-color: {COLOR};"&gt;{TEXT}&lt;/span&gt;<br /><br />&lt;span style="font-family: {SIMPLETEXT1};"&gt;{SIMPLETEXT2}&lt;/span&gt;',
-	'HTML_REPLACEMENT_EXPLAIN'		=> 'Hier kan je de standaard HTML vervanging definiëren. Vergeet niet de tokens te plaatsen die je hierboven hebt gebruikt!',
+	'HTML_REPLACEMENT_EXPLAIN'		=> 'Hier kun je de standaard HTML vervanging definiëren. Vergeet niet de tokens te plaatsen die je hierboven hebt gebruikt!',
 
 	'TOKEN'					=> 'Token',
 	'TOKENS'				=> 'Tokens',
-	'TOKENS_EXPLAIN'		=> 'Tokens zijn plaatshouders voor gebruikersinvoer. De invoer zal alleen gevalideerd worden als het overeenkomt met de bijbehorende definitie. Indien nodig, kan je ze nummeren door een nummer toe te voegen als laatste karakter tussen de haakjes, bijv. {TEXT1}, {TEXT2}.<br /><br />In de HTML vervanging kan je ook gebruik maken van iedere taalstring die aanwezig is in je language/ map, zoals dit: {L_<em>&lt;STRINGNAME&gt;</em>} waar <em>&lt;STRINGNAME&gt;</em> de naam is van de vertaalde string die je wilt toevoegen. Bijvoorbeeld, {L_WROTE} zal worden weergegeven als “schreef” of zijn vertaling volgens de gebruikers taalinstelling.<br /><br /><strong>Let op dat alleen tokens die hieronder genoemd worden alleen gebruikt kunnen worden in de eigen BBCodes.</strong>',
+	'TOKENS_EXPLAIN'		=> 'Tokens zijn plaatshouders voor gebruikersinvoer. De invoer zal alleen gevalideerd worden als het overeenkomt met de bijbehorende definitie. Indien nodig, kun je ze nummeren door een nummer toe te voegen als laatste karakter tussen de haakjes, bijv. {TEXT1}, {TEXT2}.<br /><br />In de HTML vervanging kun je ook gebruik maken van iedere taalstring die aanwezig is in je language/ map, zoals dit: {L_<em>&lt;STRINGNAME&gt;</em>} waar <em>&lt;STRINGNAME&gt;</em> de naam is van de vertaalde string die je wil toevoegen. Bijvoorbeeld, {L_WROTE} zal worden weergegeven als “schreef” of zijn vertaling volgens de gebruikers taalinstelling.<br /><br /><strong>Let op dat alleen tokens die hieronder genoemd worden gebruikt kunnen worden in de eigen BBCodes.</strong>',
 	'TOKEN_DEFINITION'		=> 'Wat kan het zijn?',
-	'TOO_MANY_BBCODES'		=> 'Je kan niet meer BBCodes aanmaken. Verwijder één of meerdere BBCodes en probeer het opnieuw.',
+	'TOO_MANY_BBCODES'		=> 'Je kunt niet méér BBCodes aanmaken. Verwijder één of meerdere BBCodes en probeer het opnieuw.',
 
 	'tokens'	=>	array(
-		'TEXT'			=> 'Iedere tekst, inclusief buitenlandse karakters, nummers, etc… Je kan dit token beter niet gebruiken in HTML tags. Probeer in plaats daarvan IDENTIFIER, INTTEXT of SIMPLETEXT te gebruiken.',
+		'TEXT'			=> 'Iedere tekst, inclusief buitenlandse karakters, nummers, etc… Je kunt dit token beter niet gebruiken in HTML tags. Probeer in plaats daarvan IDENTIFIER, INTTEXT of SIMPLETEXT te gebruiken.',
 		'SIMPLETEXT'	=> 'Karakters uit het latijnse alfabet (A-Z), nummers, spaties, komma‘s, punten, minus, plus, koppelteken en underscore',
 		'INTTEXT'		=> 'Unicode letter karakters, nummers, spaties, komma‘s, punten, minus, plus, koppelteken, underscore en whitespaces.',
 		'IDENTIFIER'	=> 'Karakters uit het latijnse alfabet (A-Z), nummers, koppelteken en underscore',
 		'NUMBER'		=> 'Iedere serie van cijfers',
 		'EMAIL'			=> 'Een geldig e-mailadres',
-		'URL'			=> 'Een geldig URL, die een protocol gebruikt (http, ftp, etc… kan niet gebruikt worden voor javascript exploits). Als er niks is opgegeven, zal “http://” worden toegevoegd aan de reeks.',
-		'LOCAL_URL'		=> 'Een lokale URL. De URL moet relatief zijn aan de onderwerpenpagina en kan geen servernaam of protocol bevatten, omdat linken worden aangemaakt met “%s” als begin',
-		'RELATIVE_URL'	=> 'Een relatieve URL. Je kan dit gebruiken om delen van een URL te herleiden, maar wees voorzichtig: een volledige URL is een geldige relatieve URL. Wanneer je relatieve URLs wilt gebruiken voor je forum, gebruik dan de LOCAL_URL token.',
+		'URL'			=> 'Een geldige URL die een protocol gebruikt (http, ftp, etc… kan niet gebruikt worden voor javascript exploits). Als er niks is opgegeven zal “http://” worden toegevoegd aan de reeks.',
+		'LOCAL_URL'		=> 'Een lokale URL. De URL moet relatief zijn aan de onderwerpenpagina en kan geen servernaam of protocol bevatten omdat linken worden aangemaakt met “%s” als begin',
+		'RELATIVE_URL'	=> 'Een relatieve URL. Je kunt dit gebruiken om delen van een URL te herleiden maar wees voorzichtig: een volledige URL is een geldige relatieve URL. Wanneer je relatieve URL’s wil gebruiken voor je forum, gebruik dan de LOCAL_URL token.',
 		'COLOR'			=> 'Een HTML kleur, kan geschreven worden in numerieke vorm <samp>#FF1234</samp> of als een <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS kleur sleutelwoord</a> zoals <samp>fuchsia</samp> of <samp>InactiveBorder</samp>'
 	),
 ));
 
 // Smilies and topic icons
 $lang = array_merge($lang, array(
-	'ACP_ICONS_EXPLAIN'		=> 'Op deze pagina kan je de iconen toevoegen verwijderen en wijzigen, die gebruikers kunnen toevoegen aan hun onderwerpen of berichten. Deze iconen worden over het algemeen naast de onderwerptitels weergegeven op de forumlijst, of de berichtonderwerpen in onderwerplijsten. Je kan ook nieuwe pakketten van iconen installeren en aanmaken.',
-	'ACP_SMILIES_EXPLAIN'	=> 'Smilies of emoticons zijn typische kleine, soms geanimeerde afbeeldingen die gebruikt worden om een emotie of gevoel over te brengen. Op deze pagina kan je de smilies toevoegen, verwijderen en wijzigen, die gebruikers kunnen gebruiken in hun berichten. Je kan ook nieuwe pakketten van smilies installeren en aanmaken.',
+	'ACP_ICONS_EXPLAIN'		=> 'Op deze pagina kun je de iconen toevoegen verwijderen en wijzigen, die gebruikers kunnen toevoegen aan hun onderwerpen of berichten. Deze iconen worden over het algemeen naast de onderwerptitels weergegeven op de forumlijst, of de berichtonderwerpen in onderwerplijsten. Je kunt ook nieuwe pakketten van iconen installeren en aanmaken.',
+	'ACP_SMILIES_EXPLAIN'	=> 'Smilies of emoticons zijn typische kleine, soms geanimeerde afbeeldingen die gebruikt worden om een emotie of gevoel over te brengen. Op deze pagina kun je de smilies toevoegen, verwijderen en wijzigen, die gebruikers kunnen gebruiken in hun berichten. Je kunt ook nieuwe pakketten van smilies installeren en aanmaken.',
 	'ADD_SMILIES'			=> 'Meerdere smilies toevoegen',
 	'ADD_SMILEY_CODE'		=> 'Extra smileycode toevoegen',
 	'ADD_ICONS'				=> 'Meerdere iconen toevoegen',
@@ -123,7 +123,7 @@ $lang = array_merge($lang, array(
 
 	'ICONS_ADD'				=> 'Een nieuw icoon toevoegen',
 	'ICONS_ADDED'			=> array(
-		0	=> 'Geen iconen zijn toegevoegd.',
+		0	=> 'Er zijn geen iconen toegevoegd.',
 		1	=> 'Het icoon is succesvol toegevoegd.',
 		2	=> 'De iconen zijn succesvol toegevoegd.',
 	),
@@ -131,7 +131,7 @@ $lang = array_merge($lang, array(
 	'ICONS_DELETED'			=> 'Het icoon is succesvol verwijderd.',
 	'ICONS_EDIT'			=> 'Icoon wijzigen',
 	'ICONS_EDITED'			=> array(
-		0	=> 'Geen iconen zijn gewijzigd.',
+		0	=> 'Er zijn geen iconen gewijzigd.',
 		1	=> 'Het icoon is succesvol gewijzigd.',
 		2	=> 'De iconen zijn succesvol gewijzigd.',
 	),
@@ -204,7 +204,7 @@ $lang = array_merge($lang, array(
 
 // Word censors
 $lang = array_merge($lang, array(
-	'ACP_WORDS_EXPLAIN'		=> 'Via dit controlepaneel kan je woorden toevoegen, verwijderen en wijzigen die automatisch zullen worden gecensureerd op je forums. Mensen zijn nog steeds toegestaan om te registreren met gebruikersnamen die deze woorden bevatten. Jokers (*) worden geaccepteerd in het woordveld, bijv. *test* zal overeenkomen met protesten, test* zal overeenkomen met testfase, *test zal overeenkomen met blaastest.',
+	'ACP_WORDS_EXPLAIN'		=> 'Via dit controlepaneel kun je woorden toevoegen, verwijderen en wijzigen die automatisch zullen worden gecensureerd op je forums. Mensen kunnen nog steeds registreren met gebruikersnamen die deze woorden bevatten. Jokers (*) worden geaccepteerd in het woordveld, bijv. *test* zal overeenkomen met protesten, test* zal overeenkomen met testfase, *test zal overeenkomen met blaastest.',
 	'ADD_WORD'				=> 'Nieuw woord toevoegen',
 
 	'EDIT_WORD'		=> 'Woord wijzigen',
@@ -224,14 +224,14 @@ $lang = array_merge($lang, array(
 
 // Ranks
 $lang = array_merge($lang, array(
-	'ACP_RANKS_EXPLAIN'		=> 'Via dit paneel kan je rangen toevoegen, wijzigen en verwijderen. Je kan ook speciale rangen aanmaken die toegewezen kunnen worden aan een gebruiker via het gebruikersbeheer.',
+	'ACP_RANKS_EXPLAIN'		=> 'Via dit paneel kun je rangen toevoegen, wijzigen en verwijderen. Je kunt ook speciale rangen aanmaken die toegewezen kunnen worden aan een gebruiker via gebruikersbeheer.',
 	'ADD_RANK'				=> 'Nieuwe rang toevoegen',
 
 	'MUST_SELECT_RANK'		=> 'Je moet een rang selecteren.',
 
 	'NO_ASSIGNED_RANK'		=> 'Geen speciale rang toegewezen.',
 	'NO_RANK_TITLE'			=> 'Je hebt geen titel voor de rang opgegeven.',
-	'NO_UPDATE_RANKS'		=> 'De rang is succesvol verwijderd. Echter zijn er gebruikersaccounts die deze rang gebruiken nog niet bijgewerkt. Je zal handmatig de rangen van deze accounts moeten resetten.',
+	'NO_UPDATE_RANKS'		=> 'De rang is succesvol verwijderd. Echter zijn er gebruikersaccounts die deze rang gebruiken nog niet bijgewerkt. Je zult handmatig de rangen van deze accounts moeten resetten.',
 
 	'RANK_ADDED'			=> 'De rang is succesvol toegevoegd.',
 	'RANK_IMAGE'			=> 'Rangafbeelding',
@@ -246,11 +246,11 @@ $lang = array_merge($lang, array(
 
 // Disallow Usernames
 $lang = array_merge($lang, array(
-	'ACP_DISALLOW_EXPLAIN'	=> 'Hier kan je gebruikersnamen beheren welke niet toegestaan zijn om te gebruiken. Verboden gebruikersnamen kunnen een joker (*) bevatten.',
-	'ADD_DISALLOW_EXPLAIN'	=> 'Je kan een gebruikersnaam verbieden door middel van een joker (*) te gebruiken zodat het overeenkomt met elk teken.',
+	'ACP_DISALLOW_EXPLAIN'	=> 'Hier kun je gebruikersnamen beheren welke niet toegestaan zijn om te gebruiken. Verboden gebruikersnamen kunnen een joker (*) bevatten.',
+	'ADD_DISALLOW_EXPLAIN'	=> 'Je kunt een gebruikersnaam verbieden door middel van een joker (*) te gebruiken zodat het overeenkomt met elk teken.',
 	'ADD_DISALLOW_TITLE'	=> 'Een verboden gebruikersnaam toevoegen',
 
-	'DELETE_DISALLOW_EXPLAIN'	=> 'Je kan een verboden gebruikersnaam verwijderen door de gebruikersnaam te selecteren van deze lijst en op verstuur te klikken.',
+	'DELETE_DISALLOW_EXPLAIN'	=> 'Je kunt een verboden gebruikersnaam verwijderen door de gebruikersnaam te selecteren van deze lijst en op verstuur te klikken.',
 	'DELETE_DISALLOW_TITLE'		=> 'Een verboden gebruikersnaam verwijderen',
 	'DISALLOWED_ALREADY'		=> 'De naam die je hebt ingevoerd is al verboden.',
 	'DISALLOWED_DELETED'		=> 'De verboden gebruikersnaam is succesvol verwijderd.',
@@ -262,18 +262,18 @@ $lang = array_merge($lang, array(
 
 // Reasons
 $lang = array_merge($lang, array(
-	'ACP_REASONS_EXPLAIN'	=> 'Hier kan je de redenen beheren die gebruikt worden in meldingen en afwijsberichten wanneer berichten worden afgewezen. Er is één standaard reden (gemarkeerd met een *), die je niet kan verwijderen, deze reden wordt normaal gebruikt voor eigen berichten als er geen andere reden past.',
+	'ACP_REASONS_EXPLAIN'	=> 'Hier kun je de redenen beheren die gebruikt worden in meldingen en afwijsberichten wanneer berichten worden afgewezen. Er is één standaard reden (gemarkeerd met een *), die je niet kan verwijderen, deze reden wordt normaal gebruikt voor eigen berichten als er geen andere reden past.',
 	'ADD_NEW_REASON'		=> 'Nieuwe reden toevoegen',
 	'AVAILABLE_TITLES'		=> 'Beschikbare vertaalde redentitels',
 
 	'IS_NOT_TRANSLATED'			=> 'Reden is <strong>niet</strong> vertaald.',
-	'IS_NOT_TRANSLATED_EXPLAIN'	=> 'Reden is <strong>niet</strong> vertaald. Als je een vertaalde versie wilt leveren, specificeer de correcte sleutel uit de taalbestanden meldingsredenen gedeelte.',
+	'IS_NOT_TRANSLATED_EXPLAIN'	=> 'Reden is <strong>niet</strong> vertaald. Als je een vertaalde versie wil leveren, specificeer de correcte sleutel uit de taalbestanden meldingsredenen gedeelte.',
 	'IS_TRANSLATED'				=> 'Reden is vertaald.',
 	'IS_TRANSLATED_EXPLAIN'		=> 'Reden is vertaald. Als de titel, die je hier invoert, is gespecificeerd in de taalbestanden meldingsredenen gedeelte, dan zal de vertaalde versie van de titel en beschrijving gebruikt worden.',
 
 	'NO_REASON'					=> 'Reden kon niet gevonden worden.',
 	'NO_REASON_INFO'			=> 'Je moet een titel en beschrijving specificeren voor deze reden.',
-	'NO_REMOVE_DEFAULT_REASON'	=> 'Je kan niet de standaardreden “Anders” verwijderen.',
+	'NO_REMOVE_DEFAULT_REASON'	=> 'Je kunt niet de standaardreden “Anders” verwijderen.',
 
 	'REASON_ADD'				=> 'Meldings-/afwijsreden toevoegen',
 	'REASON_ADDED'				=> 'Meldings-/afwijsreden succesvol toegevoegd.',
@@ -281,7 +281,7 @@ $lang = array_merge($lang, array(
 	'REASON_DESCRIPTION'		=> 'Redenbeschrijving',
 	'REASON_DESC_TRANSLATED'	=> 'Weergegeven redenbeschrijving',
 	'REASON_EDIT'				=> 'Meldings-/afwijsreden wijzigen',
-	'REASON_EDIT_EXPLAIN'		=> 'Hier kan je een reden toevoegen of wijzigen. Als de reden is vertaald, dan zal de vertaalde versie gebruikt worden in plaats van de beschrijving die hier ingevoerd is.',
+	'REASON_EDIT_EXPLAIN'		=> 'Hier kun je een reden toevoegen of wijzigen. Als de reden is vertaald, dan zal de vertaalde versie gebruikt worden in plaats van de beschrijving die hier ingevoerd is.',
 	'REASON_REMOVED'			=> 'Meldings-/afwijsreden succesvol verwijderd.',
 	'REASON_TITLE'				=> 'Redentitel',
 	'REASON_TITLE_TRANSLATED'	=> 'Redentitel weergegeven',
