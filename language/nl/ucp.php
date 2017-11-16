@@ -38,22 +38,22 @@ if (empty($lang) || !is_array($lang))
 
 // Privacy policy and T&C
 $lang = array_merge($lang, array(
-	'TERMS_OF_USE_CONTENT'	=> 'Door het bezoeken van “%1$s” (hierna genoemd “wij”, “ons”, “onze”, “%1$s”, “%2$s”), ga je automatisch akkoord met de volgende voorwaarden. Als je niet akkoord gaat met deze voorwaarden, bezoek of gebruik “%1$s” dan niet langer. We hebben het recht om de voorwaarden op ieder moment te wijzigen en zullen ons best doen om je hiervan tijdig op de hoogte te brengen, het is echter aan te raden om zelf de voorwaarden regelmatig te controleren op wijzigingen. Wil je niet akkoord gaan met deze wijzigingen, maak dan niet langer gebruik van “%1$s”. Blijf je gebruik maken van “%1$s”, dan ga je automatisch akkoord met de wijzigingen en of toevoegingen.<br />
+	'TERMS_OF_USE_CONTENT'	=> 'Door het bezoeken van “%1$s” (hierna genoemd “wij”, “ons”, “onze”, “%1$s”, “%2$s”), ga je automatisch akkoord met de voorwaarden. Als je niet akkoord gaat met deze voorwaarden, bezoek of gebruik “%1$s” dan niet langer. We hebben het recht om de voorwaarden op ieder moment te wijzigen en zullen ons best doen om je hiervan tijdig op de hoogte te brengen, het is echter aan te raden om zelf de voorwaarden regelmatig te controleren op wijzigingen. Ga je niet akkoord met deze wijzigingen, maak dan niet langer gebruik van “%1$s”. Blijf je gebruik maken van “%1$s”, dan ga je automatisch akkoord met de wijzigingen en of toevoegingen.<br />
 	<br />
-	Dit forum draait op phpBB. phpBB is een bulletinboardoplossing die is uitgebracht onder de “<a href="http://opensource.org/licenses/gpl-2.0.php">GNU General Public License v2</a>” (hierna “GPL”) en kan gedownload worden via <a href="https://www.phpbb.com/">www.phpbb.com</a> en via de Nederlandstalige website <a href="http://www.phpbb.nl">www.phpbb.nl</a>. De phpBB-software faciliteert internetgebaseerde discussies. phpBB Limited is niet verantwoordelijk voor de inhoud en/of de houding van wat er is toegestaan en wat niet. Meer informatie over phpBB kun je vinden op de volgende websites <a href="https://www.phpbb.com/">https://www.phpbb.com/</a> of de Nederlandstalige website <a href="https://www.phpbb.nl">www.phpbb.nl</a>.<br />
+	Dit forum draait op phpBB. phpBB is een bulletinboardoplossing die is uitgebracht onder de “<a href="http://opensource.org/licenses/gpl-2.0.php">GNU General Public License v2</a>” (hierna “GPL”) en kan gedownload worden via <a href="https://www.phpbb.com/">www.phpbb.com</a> en via de Nederlandstalige website <a href="http://www.phpbb.nl">www.phpbb.nl</a>. De phpBB-software maakt internetgebaseerde discussies mogelijk. phpBB Limited is niet verantwoordelijk voor wat wordt toegestaan of juist geweigerd als toelaatbare inhoud en/of gedrag. Meer informatie over phpBB kun je vinden op <a href="https://www.phpbb.com/">https://www.phpbb.com/</a> of de Nederlandstalige website <a href="https://www.phpbb.nl">www.phpbb.nl</a>.<br />
 	<br />
-	Je gaat akkoord met het volgende: geen kwetsende, obscene, vulgaire, lasterlijke, haatdragende, dreigende, seksueel georiënteerde of anderzijds verwerpelijke berichten te plaatsen, die de van toepassing zijnde regels en/of wetten schenden die gelden voor je land, het land waar “%1$s” is gehost of de internationale wetgeving. Het plaatsen van dergelijke berichten kan ertoe leiden dat je met onmiddellijke ingang en permanent wordt verbannen van dit forum. Tevens kan je serviceprovider worden ingelicht. De IP-adressen van alle berichten worden opgeslagen om deze voorwaarden te kunnen waarborgen. Je gaat er mee akkoord dat “%1$s” het recht heeft om ieder onderwerp te verwijderen, te wijzigen, te sluiten of te verplaatsen wanneer zij dit nodig achten. Als gebruiker ga je ermee akkoord dat de informatie die je bij ons invoert, wordt opgeslagen in een database. Hoewel deze informatie niet aan een derde partij zal worden verstrekt zonder je toestemming, kan “%1$s” noch phpBB niet verantwoordelijk worden gehouden voor een hackpoging die ertoe kan leiden dat de gegevens vrijkomen.
+	Je verklaart geen berichten te plaatsen die kwetsend, obsceen, vulgair, lasterlijk, haatdragend, dreigend, seksueel georiënteerd of enig ander materiaal bevat dat de wetten van je eigen land kan schenden, het land waar “%1$s” is gehost of de internationale wetgeving. Het plaatsen van dergelijke berichten kan ertoe leiden dat je met onmiddellijke ingang en permanent wordt verbannen van dit forum. Tevens kan je provider worden ingelicht. De IP-adressen van alle berichten worden opgeslagen om deze voorwaarden te kunnen waarborgen. Je gaat er mee akkoord dat “%1$s” het recht heeft om ieder onderwerp te verwijderen, te wijzigen, te sluiten of te verplaatsen wanneer zij dit nodig achten. Als gebruiker ga je ermee akkoord dat de informatie die je bij ons invoert, wordt opgeslagen in een database. Hoewel deze informatie niet aan een derde partij zal worden verstrekt zonder je toestemming, kan “%1$s” noch phpBB niet verantwoordelijk worden gehouden voor een hackpoging die ertoe kan leiden dat de gegevens vrijkomen.
 	',
 
 	'PRIVACY_POLICY'		=> 'Dit beleid legt in detail uit hoe “%1$s” samen met zijn verbonden diensten en bedrijven (hierna “wij”, “ons”, “onze”, “%1$s”, “%2$s”) en phpBB (hierna “zij”, “hun”, “zijn”, “phpBB-software”, “www.phpbb.com”, “phpBB Limited”, “phpBB-teams”) de informatie die wordt verzameld gedurende een bezoek aan dit forum, wordt gebruikt (hierna “je informatie”).<br />
 	<br />
 	Je informatie wordt op twee manieren verzameld. De eerste manier is door het gebruik van zogenaamde cookies. De phpBB-software maakt meerdere cookies aan (kleine tekstbestanden die naar de tijdelijke internetbestanden van uw computer worden gedownload). De eerste twee cookies bevatten een indentificatienummer (hierna “user-id”) en een anoniem sessienummer (hierna “session-id”). Deze twee nummers worden automatisch door de phpBB-software aan je toegewezen. Een derde cookie zal worden aangemaakt wanneer je onderwerpen hebt gelezen op “%1$s”. Deze cookie wordt gebruikt om op te slaan welke onderwerpen gelezen zijn en verbetert daarmee je gebruikerservaring.<br />
 	<br />
-	Wij kunnen ook buiten de phpBB-software cookies wanneer je “%1$s” doorzoekt, hoewel dit document daarop niet van toepassing is. Deze tekst heeft betrekking de pagina’s die worden aangemaakt door de phpBB-software. De tweede manier is waarin wij je informatie verzamelen door wat je aan ons verstuurt. Dit is onder andere het plaatsen als een anonieme gebruiker (hierna “anonieme berichten”), registreren op “%1$s” (hierna “je account”) en berichten die verstuurd zijn na je registratie en wanneer je bent aangemeld (hierna “je berichten”).<br />
+	Wij kunnen ook buiten de phpBB-software cookies aanmaken wanneer je “%1$s” bezoekt, hoewel dit document daarop niet van toepassing is. Deze tekst heeft betrekking op de pagina’s die worden aangemaakt door de phpBB-software. De tweede manier is waarin wij je informatie verzamelen door wat je aan ons verstuurt. Dit is onder andere het plaatsen als een anonieme gebruiker (hierna “anonieme berichten”), registreren op “%1$s” (hierna “je account”) en berichten die verstuurd zijn na je registratie en wanneer je bent aangemeld (hierna “je berichten”).<br />
 	<br />
-	Je account bevat minstens een unieke identificeerbare naam (hierna “je gebruikersnaam”), een persoonlijk wachtwoord om te kunnen aanmelden op je account (hierna “je wachtwoord”) en een persoonlijk, geldig e-mailadres (hierna “je e-mail”). Je informatie voor je account op “%1$s” is beveiligd door de gegevensbeschermingswetgeving die geldt in het land waar dit forum gehost wordt. Allse informatie naast je gebruikersnaam, je wachtwoord en je e-mailadres die vereist is bij het registratieproces op “%1$s” is of vereist, of optioneel. Je altijd hebt de mogelijkheid te bepalen welke informatie van je account openbaar wordt weergegeven. Verder heb je ook de mogelijkheid, om in te stellen of je de e-mails die automatisch worden gemaakt door de phpBB-software wilt ontvangen.<br />
+	Je account bevat minstens een unieke identificeerbare naam (hierna “je gebruikersnaam”), een persoonlijk wachtwoord om te kunnen aanmelden op je account (hierna “je wachtwoord”) en een persoonlijk, geldig e-mailadres (hierna “je e-mail”). Je informatie voor je account op “%1$s” is beveiligd door de privacywetgeving die geldt in het land waar dit forum gehost wordt. Alle informatie naast je gebruikersnaam, je wachtwoord en je e-mailadres die vereist is bij het registratieproces op “%1$s” is of verplicht, of optioneel. Je hebt altijd de mogelijkheid te bepalen welke informatie van je account openbaar wordt weergegeven. Verder heb je ook de mogelijkheid om in te stellen of je de e-mails die automatisch worden gemaakt door de phpBB-software wilt ontvangen.<br />
 	<br />
-	Je wachtwoord is versleuteld (en kan niet worden ontsleuteld), waardoor het op een veilige manier is opgeslagen. Desondanks is het niet aan te raden dat je hetzelfde wachtwoord gebruikt op diverse websites. Je wachtwoord is het middel waarmee je op je account op “%1$s” kan aanmelden, bewaar het dus veilig en geef het op geen enkele manier aan iemand van %1$s”, phpBB of een andere derde partij. Als je het wachtwoord van je account bent vergeten, kun je de “Ik ben mijn wachtwoord vergeten”-optie gebruiken bij het aanmeldvenster. Dit proces vereist dat je de gebruikersnaam en e-mailadres opgeeft van je gebruikersaccount, waarna de phpBB-software een nieuw wachtwoord zal genereren en zal opsturen naar het e-mailadres, zodat je opnieuw kunt aanmelden.<br />
+	Je wachtwoord is versleuteld (en kan niet worden ontsleuteld), waardoor het op een veilige manier is opgeslagen. Desondanks is het niet aan te raden dat je hetzelfde wachtwoord gebruikt op meerdere websites. Je wachtwoord is het middel waarmee je op je account op “%1$s” kan aanmelden, bewaar het dus veilig en geef het nooit aan iemand van %1$s”, phpBB of een andere derde partij. Als je het wachtwoord van je account bent vergeten, kun je de “Ik ben mijn wachtwoord vergeten”-optie gebruiken bij het aanmeldvenster. Dit proces vereist dat je gebruikersnaam en e-mailadres opgeeft van je gebruikersaccount, waarna de phpBB-software een nieuw wachtwoord zal genereren en zal opsturen naar het e-mailadres, zodat je je opnieuw kunt aanmelden.<br />
 	',
 ));
 
@@ -89,7 +89,7 @@ $lang = array_merge($lang, array(
 	'ATTACHMENTS_EXPLAIN'			=> 'Dit is een lijst van bijlagen die je geplaatst hebt in berichten op dit forum.',
 	'ATTACHMENTS_DELETED'			=> 'Bijlagen succesvol verwijderd.',
 	'ATTACHMENT_DELETED'			=> 'Bijlage succesvol verwijderd.',
-	'AUTOLOGIN_SESSION_KEYS_DELETED'=> 'De geselecteerde "Onthoud me"-aanmeldsleutels zijn succesvol verwijderd.',
+	'AUTOLOGIN_SESSION_KEYS_DELETED'=> 'De geselecteerde "Onthoud mij"-aanmeldsleutels zijn succesvol verwijderd.',
 	'AVATAR_CATEGORY'				=> 'Categorie',
 	'AVATAR_DRIVER_GRAVATAR_TITLE'	=> 'Gravatar',
 	'AVATAR_DRIVER_GRAVATAR_EXPLAIN'=> 'Gravatar is een service die je toestaat om dezelfde avatar te gebruiken op verschillende websites. Bezoek <a href="http://www.gravatar.com/">Gravatar</a> voor meer informatie.',
@@ -113,14 +113,14 @@ $lang = array_merge($lang, array(
 	'BACK_TO_DRAFTS'			=> 'Terug naar opgeslagen concepten',
 	'BACK_TO_LOGIN'				=> 'Terug naar aanmeldvenster',
 	'BIRTHDAY'					=> 'Verjaardag',
-	'BIRTHDAY_EXPLAIN'			=> 'Het instellen van een jaartal zal je leeftijd weergeven wanneer het je verjaardag is.',
+	'BIRTHDAY_EXPLAIN'			=> 'Het instellen van een jaartal zal je leeftijd weergeven als je jarig bent.',
 	'BOARD_DATE_FORMAT'			=> 'Mijn datumnotatie',
 	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'De syntaxis die gebruikt wordt is identiek aan de <a href="http://www.php.net/date">date()</a>-functie van PHP.',
 	'BOARD_LANGUAGE'			=> 'Mijn taal',
 	'BOARD_STYLE'				=> 'Mijn forumstijl',
 	'BOARD_TIMEZONE'			=> 'Mijn tijdzone',
 	'BOOKMARKS'					=> 'Favorieten',
-	'BOOKMARKS_EXPLAIN'			=> 'Je kunt onderwerpen markeren als favoriet om later terug te vinden. Selecteer het vakje voor elke favoriet die je wenst te verwijderen en druk daarna op de <em>Verwijder gemarkeerde favorieten</em>-knop.',
+	'BOOKMARKS_EXPLAIN'			=> 'Je kunt onderwerpen markeren als favoriet om later terug te vinden. Selecteer het vakje voor elke favoriet die je wenst te verwijderen, druk daarna op de <em>Verwijder gemarkeerde favorieten</em>-knop.',
 	'BOOKMARKS_DISABLED'		=> 'Favorieten zijn uitgeschakeld op dit forum.',
 	'BOOKMARKS_REMOVED'			=> 'Favorieten succesvol verwijderd.',
 
@@ -143,7 +143,7 @@ $lang = array_merge($lang, array(
 	'CONFIRM_PASSWORD_EXPLAIN'	=> 'Je hoeft alleen je wachtwoord te bevestigen als je deze hierboven hebt veranderd.',
 	'COPPA_BIRTHDAY'			=> 'Vertel ons waar je bent geboren om door te gaan met de registratieprocedure.',
 	'COPPA_COMPLIANCE'			=> 'COPPA-toestemming',
-	'COPPA_EXPLAIN'				=> 'Let op met het versturen van dit formulier je account aangemaakt wordt. Echter kan deze niet geactiveerd worden totdat een ouder of voogd je registratie goedkeurt. Je zult een kopie van de benodigde formulieren toegestuurd krijgen via de e-mail met daarin de details waarnaar toe dit verstuurd kan worden.',
+	'COPPA_EXPLAIN'				=> 'Let op: met het versturen van dit formulier wordt je account aangemaakt. Dit account kan echter niet geactiveerd worden totdat een ouder of voogd je registratie goedkeurt. Je zult een kopie van de benodigde formulieren toegestuurd krijgen via e-mail met daarin de details waarheen je deze moet sturen.',
 	'CREATE_FOLDER'				=> 'Map toevoegen…',
 	'CURRENT_IMAGE'				=> 'Bestaande afbeelding',
 	'CURRENT_PASSWORD'			=> 'Bestaande wachtwoord',
@@ -159,7 +159,7 @@ $lang = array_merge($lang, array(
 	'DEFAULT_BBCODE'			=> 'BBCode standaard inschakelen',
 	'DEFAULT_NOTIFY'			=> 'Notificeer me standaard bij reacties',
 	'DEFAULT_SMILIES'			=> 'Smilies standaard inschakelen',
-	'DEFINED_RULES'				=> 'Gedefinieerde regels',
+	'DEFINED_RULES'				=> 'Gedefiniëerde regels',
 	'DELETED_TOPIC'				=> 'Onderwerp is verwijderd.',
 	'DELETE_ATTACHMENT'			=> 'Verwijder bijlage',
 	'DELETE_ATTACHMENTS'		=> 'Verwijder bijlagen',
@@ -210,7 +210,7 @@ $lang = array_merge($lang, array(
 	'FIELD_TOO_LARGE'					=> 'De waarde van “%2$s” is te lang, een maximumwaarde van %1$d is toegestaan.',
 	'FIELD_INVALID_CHARS_INVALID'		=> 'Het veld “%s” heeft ongeldige tekens.',
 	'FIELD_INVALID_CHARS_NUMBERS_ONLY'	=> 'Het veld “%s” heeft ongeldige tekens, alleen cijfers zijn toegestaan.',
-	'FIELD_INVALID_CHARS_ALPHA_DOTS'    => 'Het veld “%s” heeft ongeldige tekens, alleen alfanumerieke tekens en punten zijn toegestaan.',
+	'FIELD_INVALID_CHARS_ALPHA_DOTS'	=> 'Het veld “%s” heeft ongeldige tekens, alleen alfanumerieke tekens en punten zijn toegestaan.',
 	'FIELD_INVALID_CHARS_ALPHA_ONLY'	=> 'Het veld “%s” heeft ongeldige tekens, alleen alfanumerieke tekens zijn toegestaan.',
 	'FIELD_INVALID_CHARS_ALPHA_PUNCTUATION' => 'Het veld “%s” heeft ongeldige tekens, alleen alfanumerieke tekens en de tekens _,-. zijn toegestaan en het eerste teken moet alfabetisch zijn.',	
 	'FIELD_INVALID_CHARS_ALPHA_SPACERS'	=> 'Het veld “%s” heeft ongeldige tekens, alleen alfanumerieke, spaties en de tekens -+_[] zijn toegestaan.',
@@ -221,7 +221,7 @@ $lang = array_merge($lang, array(
 	'FIELD_INVALID_CHARS_LETTER_NUM_SPACERS'		=> 'Het veld “%s” heeft ongeldige tekens, alleen letters, cijfers, spaties en de tekens -+_[] zijn toegestaan.',
 	'FIELD_INVALID_CHARS_LETTER_NUM_UNDERSCORE'		=> 'Het veld “%s” heeft ongeldige tekens, alleen letters, cijfers en de tekens _ zijn toegestaan.',
 	'FIELD_INVALID_DATE'				=> 'Het veld “%s” heeft een ongeldige datum.',
-    'FIELD_INVALID_URL'					=> 'Het veld “%s” heeft een ongeldige URL.',
+	'FIELD_INVALID_URL'					=> 'Het veld “%s” heeft een ongeldige URL.',
 	'FIELD_INVALID_VALUE'				=> 'Het veld “%s” heeft een ongeldige waarde.',
 
 	'FOE_MESSAGE'				=> 'Bericht van vijand',
@@ -556,7 +556,7 @@ $lang = array_merge($lang, array(
 	'UCP_USERGROUPS_MEMBER'		=> 'Wijzig lidmaatschappen',
 	'UCP_USERGROUPS_MANAGE'		=> 'Beheer groepen',
 
-	'UCP_PASSWORD_RESET_DISABLED'	=> 'Het “wachtwoord herstel”-functionaliteit is uitgeschakeld. Als je hulp nodig hebt om toegang te krijgen tot je account, neem dan contact op met de %sbeheerder%s',
+	'UCP_PASSWORD_RESET_DISABLED'	=> 'De “wachtwoord herstel”-functionaliteit is uitgeschakeld. Als je hulp nodig hebt om toegang te krijgen tot je account, neem dan contact op met de %sbeheerder%s',
 	'UCP_REGISTER_DISABLE'			=> 'Het aanmaken van een nieuw account is momenteel niet mogelijk.',
 	'UCP_REMIND'					=> 'Verstuur wachtwoord',
 	'UCP_RESEND'					=> 'Verstuur activatie-e-mail',
@@ -646,7 +646,7 @@ $lang = array_merge($lang, array(
 		'TO_ME'			=> 'naar mij',
 	),
 
-	'GROUPS_EXPLAIN'	=> 'Gebruikersgroepen staan forumbeheerders in staat om gebruikers beter te beheren. Standaard zal je geplaatst worden in een bepaalde groep, je standaardgroep. Deze groep bepaalt hoe je voor anderen zichtbaar bent, bijvoorbeeld de kleur van je gebruikersnaam, avatar, rang, etc. Afhankelijk van de instellingen van de beheerder kun je al dan niet van groep veranderen. Je kunt ook aan groepen toegevoegd worden of jezelf eraan toevoegen. Sommige groepen kunnen je extra permissies geven om inhoud te kunnen zien of om je mogelijkheden op andere gebieden uit te breiden.',
+	'GROUPS_EXPLAIN'	=> 'Gebruikersgroepen stellen forumbeheerders beter in staat om gebruikers te beheren. Standaard zul je geplaatst worden in een bepaalde groep, je standaardgroep. Deze groep bepaalt hoe je voor anderen zichtbaar bent, bijvoorbeeld de kleur van je gebruikersnaam, avatar, rang, etc. Afhankelijk van de instellingen van de beheerder kun je al dan niet van groep veranderen. Je kunt ook aan groepen toegevoegd worden of jezelf eraan toevoegen. Sommige groepen kunnen je extra permissies geven om inhoud te kunnen zien of om je mogelijkheden op andere gebieden uit te breiden.',
 	'GROUP_LEADER'		=> 'Leiderschappen',
 	'GROUP_MEMBER'		=> 'Lidmaatschappen',
 	'GROUP_PENDING'		=> 'Lidmaatschappen in behandeling',

@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 	'GROUP_IS_CLOSED'					=> 'Dit is een gesloten groep, nieuwe leden kunnen alleen lid worden op uitnodiging van een groepsleider.',
 	'GROUP_IS_FREE'						=> 'Dit is een vrije, open groep, alle nieuwe leden zijn welkom.',
 	'GROUP_IS_HIDDEN'					=> 'Dit is een verborgen groep, alleen leden van deze groep kunnen hun lidmaatschap zien.',
-	'GROUP_IS_OPEN'						=> 'Dit is een open groep, leden kunnen hun lidmaatschap aanvragen.',
+	'GROUP_IS_OPEN'						=> 'Dit is een open groep, leden kunnen een lidmaatschap aanvragen.',
 	'GROUP_IS_SPECIAL'					=> 'Dit is een speciale groep. Speciale groepen worden beheerd door de forumbeheerders.',
 	'GROUP_JOIN'						=> 'Lid worden van groep',
 	'GROUP_JOIN_CONFIRM'				=> 'Weet je zeker dat je lid wilt worden van de geselecteerde groep?',
@@ -69,7 +69,7 @@ $lang = array_merge($lang, array(
 	'GROUP_RANK'						=> 'Groepsrang',
 	'GROUP_RESIGN_MEMBERSHIP'			=> 'Groepslidmaatschap opzeggen',
 	'GROUP_RESIGN_MEMBERSHIP_CONFIRM'	=> 'Weet je zeker dat je je lidmaatschap voor de geselecteerde groep wilt opzeggen?',
-	'GROUP_RESIGN_PENDING'				=> 'Een aangevraagde lidmaatschap opzeggen',
+	'GROUP_RESIGN_PENDING'				=> 'Een aangevraagd lidmaatschap opzeggen',
 	'GROUP_RESIGN_PENDING_CONFIRM'		=> 'Weet je zeker dat je je aangevraagde lidmaatschap voor de geselecteerde groep wilt opzeggen?',
 	'GROUP_RESIGNED_MEMBERSHIP'			=> 'Je bent succesvol verwijderd van de geselecteerde groep.',
 	'GROUP_RESIGNED_PENDING'			=> 'Je aangevraagde lidmaatschap is succesvol verwijderd van de geselecteerde groep.',
@@ -79,7 +79,7 @@ $lang = array_merge($lang, array(
 
 	'LOGIN_EXPLAIN_GROUP'	=> 'Je moet aangemeld zijn om de groepsdetails te kunnen bekijken.',
 
-	'NO_LEADERS'					=> 'Je bent geen leider van geen enkele groep.',
+	'NO_LEADERS'					=> 'Je bent geen leider van een groep.',
 	'NOT_LEADER_OF_GROUP'			=> 'De gevraagde operatie kan niet uitgevoerd worden omdat je geen leider bent van de geselecteerde groep.',
 	'NOT_MEMBER_OF_GROUP'			=> 'De gevraagde operatie kan niet uitgevoerd worden omdat je geen lid bent van de geselecteerde groep of je lidmaatschap nog moet worden goedgekeurd.',
 	'NOT_RESIGN_FROM_DEFAULT_GROUP'	=> 'Je kunt je lidmaatschap van je standaardgroep niet opzeggen.',

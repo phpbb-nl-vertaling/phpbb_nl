@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 	'BEFORE'				=> 'Voor',
 
 	'CC_SENDER'				=> 'Stuur een kopie van deze e-mail naar jezelf.',
-	'CONTACT_ADMIN'         => 'Neem contact op met een forumbeheerder',
+	'CONTACT_ADMIN'		=> 'Neem contact op met een forumbeheerder',
 
 	'DEST_LANG'				=> 'Taal',
 	'DEST_LANG_EXPLAIN'		=> 'Selecteer een taal voor de ontvanger van dit bericht indien beschikbaar.',
@@ -64,8 +64,8 @@ $lang = array_merge($lang, array(
 	'EMPTY_MESSAGE_EMAIL'	=> 'Je moet een bericht ingevuld hebben om te e-mailen.',
 	'EMPTY_MESSAGE_IM'		=> 'Je moet een bericht ingevuld hebben om te versturen.',
 	'EMPTY_NAME_EMAIL'		=> 'Je moet de echte naam van de ontvanger invullen.',
-	'EMPTY_SENDER_EMAIL'    => 'Je moet een geldig e-mailadres opgeven.',
-	'EMPTY_SENDER_NAME'     => 'Je moet een naam opgeven.',
+	'EMPTY_SENDER_EMAIL'	=> 'Je moet een geldig e-mailadres opgeven.',
+	'EMPTY_SENDER_NAME'	 => 'Je moet een naam opgeven.',
 	'EMPTY_SUBJECT_EMAIL'	=> 'Je moet een onderwerp specificeren voor de e-mail.',
 	'EQUAL_TO'				=> 'Gelijk aan',
 
@@ -104,8 +104,8 @@ $lang = array_merge($lang, array(
 	'MANAGE_GROUP'			=> 'Beheer groep',
 	'MORE_THAN'				=> 'Meer dan',
 
-    'NO_CONTACT_FORM'		=> 'Het contactformulier is uitgeschakeld.',
-    'NO_CONTACT_PAGE'		=> 'De contactpagina is uitgeschakeld.',
+	'NO_CONTACT_FORM'		=> 'Het contactformulier is uitgeschakeld.',
+	'NO_CONTACT_PAGE'		=> 'De contactpagina is uitgeschakeld.',
 	'NO_EMAIL'				=> 'Je hebt niet de permissies om deze gebruiker te e-mailen.',
 	'NO_VIEW_USERS'			=> 'Je hebt niet de juiste permissies om de ledenlijst of profielen te bekijken.',
 
@@ -121,8 +121,8 @@ $lang = array_merge($lang, array(
 
 	'SELECT_MARKED'			=> 'Selecteer gemarkeerden',
 	'SELECT_SORT_METHOD'	=> 'Selecteer sorteer methode',
-    'SENDER_EMAIL_ADDRESS'  => 'Je e-mailadres',
-    'SENDER_NAME'           => 'Je naam',	
+	'SENDER_EMAIL_ADDRESS'	=> 'Je e-mailadres',
+	'SENDER_NAME'			=> 'Je naam',	
 	'SEND_ICQ_MESSAGE'		=> 'Verstuur ICQ-bericht',
 	'SEND_IM'				=> 'Instant messaging',
 	'SEND_JABBER_MESSAGE'	=> 'Verstuur Jabber-bericht',
@@ -146,9 +146,9 @@ $lang = array_merge($lang, array(
 	'USERS_PER_PAGE'		=> 'Gebruikers per pagina',
 
 	'VIEWING_PROFILE'		=> 'Bekijkt profiel - %s',
-    'VIEW_FACEBOOK_PROFILE'         => 'Bekijk Facebook-profiel',
-	'VIEW_SKYPE_PROFILE'            => 'Bekijk Skype-profiel',
-	'VIEW_TWITTER_PROFILE'          => 'Bekijk Twitter-profiel',
+	'VIEW_FACEBOOK_PROFILE'		=> 'Bekijk Facebook-profiel',
+	'VIEW_SKYPE_PROFILE'			=> 'Bekijk Skype-profiel',
+	'VIEW_TWITTER_PROFILE'		=> 'Bekijk Twitter-profiel',
 	'VIEW_YOUTUBE_CHANNEL'			=> 'Bekijk YouTube-kanaal',
-	'VIEW_GOOGLEPLUS_PROFILE'       => 'Bekijk Google+-profiel'	
+	'VIEW_GOOGLEPLUS_PROFILE'		=> 'Bekijk Google+-profiel'	
 ));
