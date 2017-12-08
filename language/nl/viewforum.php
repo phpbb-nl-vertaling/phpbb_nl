@@ -40,7 +40,7 @@ $lang = array_merge($lang, array(
 	'ACTIVE_TOPICS'			=> 'Actieve onderwerpen',
 	'ANNOUNCEMENTS'			=> 'Aankondigingen',
 
-	'FORUM_PERMISSIONS'		=> 'Forumrechten',
+	'FORUM_PERMISSIONS'		=> 'Forumpermissies',
 
 	'ICON_ANNOUNCEMENT'		=> 'Aankondiging',
 	'ICON_STICKY'			=> 'Sticky',
@@ -53,7 +53,7 @@ $lang = array_merge($lang, array(
 	'NEW_POSTS_LOCKED'		=> 'Nieuwe berichten [ Gesloten ]',	// Not used anymore
 	'NO_NEW_POSTS_HOT'		=> 'Geen nieuwe berichten [ Populair ]',	// Not used anymore
 	'NO_NEW_POSTS_LOCKED'	=> 'Geen nieuwe berichten [ Gesloten ]',	// Not used anymore
-	'NO_READ_ACCESS'		=> 'Je hebt niet de juiste rechten om onderwerpen in dit forum te lezen.',
+	'NO_READ_ACCESS'		=> 'Je hebt niet de juiste permissies om onderwerpen in dit forum te lezen.',
 	'NO_UNREAD_POSTS_HOT'		=> 'Geen ongelezen berichten [ Populair ]',
 	'NO_UNREAD_POSTS_LOCKED'	=> 'Geen ongelezen berichten [ Gesloten ]',
 

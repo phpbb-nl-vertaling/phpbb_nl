@@ -67,7 +67,7 @@ $lang = array_merge($lang, array(
 	'ACP_CAT_FORUMS'			=> 'Forums',
 	'ACP_CAT_GENERAL'			=> 'Algemeen',
 	'ACP_CAT_MAINTENANCE'		=> 'Onderhoud',
-	'ACP_CAT_PERMISSIONS'		=> 'Rechten',
+	'ACP_CAT_PERMISSIONS'		=> 'Permissies',
 	'ACP_CAT_POSTING'			=> 'Berichten',
 	'ACP_CAT_STYLES'			=> 'Stijlen',
 	'ACP_CAT_SYSTEM'			=> 'Systeem',
@@ -89,23 +89,23 @@ $lang = array_merge($lang, array(
 	'ACP_EXTENSION_MANAGEMENT'	=> 'Extensiebeheer',
 	'ACP_EXTENSIONS'			=> 'Beheer extensies',
 
-	'ACP_FORUM_BASED_PERMISSIONS'	=> 'Forumgebaseerde rechten',
+	'ACP_FORUM_BASED_PERMISSIONS'	=> 'Forumgebaseerde permissies',
 	'ACP_FORUM_LOGS'				=> 'Forumlogs',
 	'ACP_FORUM_MANAGEMENT'			=> 'Forumbeheer',
 	'ACP_FORUM_MODERATORS'			=> 'Forummoderators',
-	'ACP_FORUM_PERMISSIONS'			=> 'Forumrechten',
-	'ACP_FORUM_PERMISSIONS_COPY'	=> 'Kopiëer forumrechten',
+	'ACP_FORUM_PERMISSIONS'			=> 'Forumpermissies',
+	'ACP_FORUM_PERMISSIONS_COPY'	=> 'Kopiëer forumpermissies',
 	'ACP_FORUM_ROLES'				=> 'Forumrollen',
 
 	'ACP_GENERAL_CONFIGURATION'		=> 'Algemene instellingen',
 	'ACP_GENERAL_TASKS'				=> 'Algemene taken',
 	'ACP_GLOBAL_MODERATORS'			=> 'Globale moderators',
-	'ACP_GLOBAL_PERMISSIONS'		=> 'Globale rechten',
+	'ACP_GLOBAL_PERMISSIONS'		=> 'Globale permissies',
 	'ACP_GROUPS'					=> 'Groepen',
-	'ACP_GROUPS_FORUM_PERMISSIONS'	=> 'Forumrechten groepen',
+	'ACP_GROUPS_FORUM_PERMISSIONS'	=> 'Forumpermissies groepen',
 	'ACP_GROUPS_MANAGE'				=> 'Beheer groepen',
 	'ACP_GROUPS_MANAGEMENT'			=> 'Groepsbeheer',
-	'ACP_GROUPS_PERMISSIONS'		=> 'Groepsrechten',
+	'ACP_GROUPS_PERMISSIONS'		=> 'Groepspermissies',
 	'ACP_GROUPS_POSITION'			=> 'Beheer groepposities',
 	
 	'ACP_HELP_PHPBB'			=> 'Steun phpBB',
@@ -143,10 +143,10 @@ $lang = array_merge($lang, array(
 
 	'ACP_ORPHAN_ATTACHMENTS'	=> 'Berichtloze bijlagen',
 
-	'ACP_PERMISSIONS'			=> 'Rechten',
-	'ACP_PERMISSION_MASKS'		=> 'Rechtenmaskers',
-	'ACP_PERMISSION_ROLES'		=> 'Rechtenrollen',
-	'ACP_PERMISSION_TRACE'		=> 'Rechtentracering',
+	'ACP_PERMISSIONS'			=> 'Permissies',
+	'ACP_PERMISSION_MASKS'		=> 'Permissiemaskers',
+	'ACP_PERMISSION_ROLES'		=> 'Permissierollen',
+	'ACP_PERMISSION_TRACE'		=> 'Permissietracering',
 	'ACP_PHP_INFO'				=> 'PHP-informatie',
 	'ACP_POST_SETTINGS'			=> 'Berichtinstellingen',
 	'ACP_PRUNE_FORUMS'			=> 'Opschonen forums',
@@ -184,16 +184,16 @@ $lang = array_merge($lang, array(
 	'ACP_THEMES'				=> 'Thema‘s',
 
 	'ACP_UPDATE'					=> 'Bijwerken',
-	'ACP_USERS_FORUM_PERMISSIONS'	=> 'Forumrechten gebruikers',
+	'ACP_USERS_FORUM_PERMISSIONS'	=> 'Forumpermissies gebruikers',
 	'ACP_USERS_LOGS'				=> 'Gebruikerslogs',
-	'ACP_USERS_PERMISSIONS'			=> 'Gebruikersrechten',
+	'ACP_USERS_PERMISSIONS'			=> 'Gebruikerspermissies',
 	'ACP_USER_ATTACH'				=> 'Bijlagen',
 	'ACP_USER_AVATAR'				=> 'Avatar',
 	'ACP_USER_FEEDBACK'				=> 'Feedback',
 	'ACP_USER_GROUPS'				=> 'Groepen',
 	'ACP_USER_MANAGEMENT'			=> 'Gebruikersbeheer',
 	'ACP_USER_OVERVIEW'				=> 'Overzicht',
-	'ACP_USER_PERM'					=> 'Rechten',
+	'ACP_USER_PERM'					=> 'Permissies',
 	'ACP_USER_PREFS'				=> 'Voorkeuren',
 	'ACP_USER_PROFILE'				=> 'Profiel',
 	'ACP_USER_RANK'					=> 'Rang',
@@ -205,11 +205,11 @@ $lang = array_merge($lang, array(
 	'ACP_VC_SETTINGS'					=> 'Spambotpreventie',
 	'ACP_VC_CAPTCHA_DISPLAY'			=> 'CAPTCHA-voorbeeld',
 	'ACP_VERSION_CHECK'					=> 'Controleer op updates',
-	'ACP_VIEW_ADMIN_PERMISSIONS'		=> 'Bekijk beheerdersrechten',
-	'ACP_VIEW_FORUM_MOD_PERMISSIONS'	=> 'Bekijk forum moderatierechten',
-	'ACP_VIEW_FORUM_PERMISSIONS'		=> 'Bekijk forumgebaseerde rechten',
-	'ACP_VIEW_GLOBAL_MOD_PERMISSIONS'	=> 'Bekijk globale moderatierechten',
-	'ACP_VIEW_USER_PERMISSIONS'			=> 'Bekijk gebruikersgebaseerde rechten',
+	'ACP_VIEW_ADMIN_PERMISSIONS'		=> 'Bekijk beheerderspermissies',
+	'ACP_VIEW_FORUM_MOD_PERMISSIONS'	=> 'Bekijk forum moderatiepermissies',
+	'ACP_VIEW_FORUM_PERMISSIONS'		=> 'Bekijk forumgebaseerde permissies',
+	'ACP_VIEW_GLOBAL_MOD_PERMISSIONS'	=> 'Bekijk globale moderatiepermissies',
+	'ACP_VIEW_USER_PERMISSIONS'			=> 'Bekijk gebruikersgebaseerde permissies',
 
 	'ACP_WORDS'					=> 'Woordcensuur',
 
@@ -227,7 +227,7 @@ $lang = array_merge($lang, array(
 	'BACK'					=> 'Terug',
 	
 	'CANNOT_CHANGE_FILE_GROUP'			=> 'Kan bestandsgroep niet veranderen',
-	'CANNOT_CHANGE_FILE_PERMISSIONS'	=> 'Kan bestandsrechten niet veranderen',
+	'CANNOT_CHANGE_FILE_PERMISSIONS'	=> 'Kan bestandspermissies niet veranderen',
 	'CANNOT_COPY_FILES'					=> 'Kan bestanden niet kopieren',
 	'CANNOT_CREATE_SYMLINK'				=> 'Kan geen symlink aanmaken',
 	'CANNOT_DELETE_FILES'				=> 'Kan geen bestanden verwijderen van het systeem',
@@ -265,7 +265,7 @@ $lang = array_merge($lang, array(
 
 	'GENERAL_OPTIONS'		=> 'Algemene opties',
 	'GENERAL_SETTINGS'		=> 'Algemene instellingen',
-	'GLOBAL_MASK'			=> 'Globale rechtenmasker',
+	'GLOBAL_MASK'			=> 'Globale permissiemasker',
 
 	'INSTALL'				=> 'Installeer',
 	'IP'					=> 'Gebruikers-IP',
@@ -289,7 +289,7 @@ $lang = array_merge($lang, array(
 	'MOVE_UP'				=> 'Omhoog verplaatsen',
 
 	'NOTIFY'				=> 'Notificatie',
-	'NO_ADMIN'				=> 'Je hebt niet de juiste rechten om dit forum te beheren.',
+	'NO_ADMIN'				=> 'Je hebt niet de juiste permissies om dit forum te beheren.',
 	'NO_EMAILS_DEFINED'		=> 'Geen geldig e-mailadres gevonden.',
 	'NO_FILES_TO_DELETE'	=> 'Bijlagen die je hebt geselecteerd om te verwijderen bestaan niet.',
 	'NO_PASSWORD_SUPPLIED'	=> 'Je moet je wachtwoord invoeren om toegang te krijgen tot het beheerderspaneel.',
@@ -300,8 +300,8 @@ $lang = array_merge($lang, array(
 	'PARSE_BBCODE'						=> 'BBCode gebruiken',
 	'PARSE_SMILIES'						=> 'Smilies gebruiken',
 	'PARSE_URLS'						=> 'Links gebruiken',
-	'PERMISSIONS_TRANSFERRED'			=> 'Rechten overgebracht',
-	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'Je hebt momenteel de rechten van %1$s. Je kunt nu het forum bezoeken met de rechten van deze gebruiker, maar niet het beheerderspaneel omdat beheerdersrechten niet zijn overgebracht. Je kunt <a href="%2$s"><strong>je eigen rechten terugzetten</strong></a> op elk moment.',
+	'PERMISSIONS_TRANSFERRED'			=> 'Permissies overgebracht',
+	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'Je hebt momenteel de permissies van %1$s. Je kunt nu het forum bezoeken met de permissies van deze gebruiker, maar niet het beheerderspaneel omdat beheerderspermissies niet zijn overgebracht. Je kunt <a href="%2$s"><strong>je eigen permissies terugzetten</strong></a> op elk moment.',
 	'PROCEED_TO_ACP'					=> '%sGa door naar het beheerderspaneel%s',
 
 	'RELEASE_ANNOUNCEMENT'		=> 'Aankondiging',
@@ -343,9 +343,9 @@ $lang = array_merge($lang, array(
 
 // Logs
 $lang = array_merge($lang, array(
-	'ACP_ADMIN_LOGS_EXPLAIN'	=> 'Dit toont alle acties die uitgevoerd worden door de beheerders. Je kunt sorteren op gebruikersnaam, datum, IP of actie. Als je de juiste rechten hebt, kun je ook individuele acties opschonen of de hele log.',
-	'ACP_CRITICAL_LOGS_EXPLAIN'	=> 'Dit toont alle acties die uitgevoerd worden door het forum zelf. Deze log geeft je de informatie waarmee je specifieke problemen kan oplossen, bijvoorbeeld niet afgeleverde e-mails. Je kunt sorteren op gebruikersnaam, datum, IP of actie. Als je de juiste rechten hebt, kun je ook individuele acties opschonen of de hele log.',
-	'ACP_MOD_LOGS_EXPLAIN'		=> 'Dit toont alle acties die uitgevoerd worden op forums, onderwerpen en berichten alsmede acties die uitgevoerd worden op gebruikers door moderators, inclusief verbanningen. Je kunt sorteren op gebruikersnaam, datum, IP of actie. Als je de juiste rechten hebt, kun je ook individuele acties opschonen of de hele log.',
+	'ACP_ADMIN_LOGS_EXPLAIN'	=> 'Dit toont alle acties die uitgevoerd worden door de beheerders. Je kunt sorteren op gebruikersnaam, datum, IP of actie. Als je de juiste permissies hebt, kun je ook individuele acties opschonen of de hele log.',
+	'ACP_CRITICAL_LOGS_EXPLAIN'	=> 'Dit toont alle acties die uitgevoerd worden door het forum zelf. Deze log geeft je de informatie waarmee je specifieke problemen kan oplossen, bijvoorbeeld niet afgeleverde e-mails. Je kunt sorteren op gebruikersnaam, datum, IP of actie. Als je de juiste permissies hebt, kun je ook individuele acties opschonen of de hele log.',
+	'ACP_MOD_LOGS_EXPLAIN'		=> 'Dit toont alle acties die uitgevoerd worden op forums, onderwerpen en berichten alsmede acties die uitgevoerd worden op gebruikers door moderators, inclusief verbanningen. Je kunt sorteren op gebruikersnaam, datum, IP of actie. Als je de juiste permissies hebt, kun je ook individuele acties opschonen of de hele log.',
 	'ACP_USERS_LOGS_EXPLAIN'	=> 'Dit toont alle acties die uitgevoerd worden door gebruikers of op gebruikers (meldingen, waarschuwingen en gebruikersnotities).',
 	'ALL_ENTRIES'				=> 'Alle vermeldingen',
 
@@ -454,7 +454,7 @@ $lang = array_merge($lang, array(
 	'VIEW_INACTIVE_USERS'		=> 'Bekijk inactieve gebruikers',
 
 	'WELCOME_PHPBB'			=> 'Welkom bij phpBB',
-	'WRITABLE_CONFIG'		=> 'Je config-bestand (config.php) is momenteel wereldwijd-schrijfbaar. We raden sterk aan om de rechten te veranderen naar 640 of minstens naar 644 (bijvoorbeeld: <a href="http://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
+	'WRITABLE_CONFIG'		=> 'Je config-bestand (config.php) is momenteel wereldwijd-schrijfbaar. We raden sterk aan om de permissies te veranderen naar 640 of minstens naar 644 (bijvoorbeeld: <a href="http://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
 ));
 
 // Inactive Users
@@ -498,12 +498,12 @@ $lang = array_merge($lang, array(
 
 // Log Entries
 $lang = array_merge($lang, array(
-	'LOG_ACL_ADD_USER_GLOBAL_U_'		=> '<strong>Gebruikersrechtenrechten van gebruikers toegevoegd of gewijzigd</strong><br />» %s',
-	'LOG_ACL_ADD_GROUP_GLOBAL_U_'		=> '<strong>Gebruikersrechten van groepen toegevoegd of gewijzigd</strong><br />» %s',
-	'LOG_ACL_ADD_USER_GLOBAL_M_'		=> '<strong>Globale moderatorrechten van gebruikers toegevoegd of gewijzigd</strong><br />» %s',
-	'LOG_ACL_ADD_GROUP_GLOBAL_M_'		=> '<strong>Globale moderatorrechten van groepen toegevoegd of gewijzigd</strong><br />» %s',
-	'LOG_ACL_ADD_USER_GLOBAL_A_'		=> '<strong>Beheerdersrechten van gebruikers toegevoegd of gewijzigd</strong><br />» %s',
-	'LOG_ACL_ADD_GROUP_GLOBAL_A_'		=> '<strong>Beheerdersrechten van groepen toegevoegd of gewijzigd</strong><br />» %s',
+	'LOG_ACL_ADD_USER_GLOBAL_U_'		=> '<strong>Gebruikerspermissies van gebruikers toegevoegd of gewijzigd</strong><br />» %s',
+	'LOG_ACL_ADD_GROUP_GLOBAL_U_'		=> '<strong>Gebruikerspermissies van groepen toegevoegd of gewijzigd</strong><br />» %s',
+	'LOG_ACL_ADD_USER_GLOBAL_M_'		=> '<strong>Globale moderatorpermissies van gebruikers toegevoegd of gewijzigd</strong><br />» %s',
+	'LOG_ACL_ADD_GROUP_GLOBAL_M_'		=> '<strong>Globale moderatorpermissies van groepen toegevoegd of gewijzigd</strong><br />» %s',
+	'LOG_ACL_ADD_USER_GLOBAL_A_'		=> '<strong>Beheerderspermissies van gebruikers toegevoegd of gewijzigd</strong><br />» %s',
+	'LOG_ACL_ADD_GROUP_GLOBAL_A_'		=> '<strong>Beheerderspermissies van groepen toegevoegd of gewijzigd</strong><br />» %s',
 
 	'LOG_ACL_ADD_ADMIN_GLOBAL_A_'		=> '<strong>Beheerders toegevoegd of gewijzigd</strong><br />» %s',
 	'LOG_ACL_ADD_MOD_GLOBAL_M_'			=> '<strong>Globale moderators toegevoegd of gewijzigd</strong><br />» %s',
@@ -514,15 +514,15 @@ $lang = array_merge($lang, array(
 	'LOG_ACL_ADD_GROUP_LOCAL_M_'		=> '<strong>Forummoderatortoegang van groepen toegevoegd of gewijzigd</strong> van %1$s<br />» %2$s',
 
 	'LOG_ACL_ADD_MOD_LOCAL_M_'			=> '<strong>Moderators toegevoegd of gewijzigd</strong> van %1$s<br />» %2$s',
-	'LOG_ACL_ADD_FORUM_LOCAL_F_'		=> '<strong>Forumrechten toegevoegd of gewijzigd</strong> van %1$s<br />» %2$s',
+	'LOG_ACL_ADD_FORUM_LOCAL_F_'		=> '<strong>Forumpermissies toegevoegd of gewijzigd</strong> van %1$s<br />» %2$s',
 
 	'LOG_ACL_DEL_ADMIN_GLOBAL_A_'		=> '<strong>Beheerders verwijderd</strong><br />» %s',
 	'LOG_ACL_DEL_MOD_GLOBAL_M_'			=> '<strong>Globale moderators verwijderd</strong><br />» %s',
 	'LOG_ACL_DEL_MOD_LOCAL_M_'			=> '<strong>Moderators verwijderd</strong> van %1$s<br />» %2$s',
-	'LOG_ACL_DEL_FORUM_LOCAL_F_'		=> '<strong>Forumrechten van gebruikers of groepen verwijderd</strong> van %1$s<br />» %2$s',
+	'LOG_ACL_DEL_FORUM_LOCAL_F_'		=> '<strong>Forumpermissies van gebruikers of groepen verwijderd</strong> van %1$s<br />» %2$s',
 
-	'LOG_ACL_TRANSFER_PERMISSIONS'		=> '<strong>Rechten overgebracht van</strong><br />» %s',
-	'LOG_ACL_RESTORE_PERMISSIONS'		=> '<strong>Eigen rechten teruggezet na gebruik rechten van</strong><br />» %s',
+	'LOG_ACL_TRANSFER_PERMISSIONS'		=> '<strong>Permissies overgebracht van</strong><br />» %s',
+	'LOG_ACL_RESTORE_PERMISSIONS'		=> '<strong>Eigen permissies teruggezet na gebruik permissies van</strong><br />» %s',
 
 	'LOG_ADMIN_AUTH_FAIL'		=> '<strong>Mislukte beheerders-aanmeldpoging</strong>',
 	'LOG_ADMIN_AUTH_SUCCESS'	=> '<strong>Succesvolle beheerdersaanmelding</strong>',
@@ -629,7 +629,7 @@ $lang = array_merge($lang, array(
 	'LOG_ERROR_CAPTCHA'		=> '<strong>CAPTCHA-fout</strong><br />» %s',
 
 	'LOG_FORUM_ADD'							=> '<strong>Nieuw forum aangemaakt</strong><br />» %s',
-	'LOG_FORUM_COPIED_PERMISSIONS'			=> '<strong>Forumrechten gekopieerd</strong> van %1$s<br />» %2$s',
+	'LOG_FORUM_COPIED_PERMISSIONS'			=> '<strong>Forumpermissies gekopieerd</strong> van %1$s<br />» %2$s',
 	'LOG_FORUM_DEL_FORUM'					=> '<strong>Forum verwijderd</strong><br />» %s',
 	'LOG_FORUM_DEL_FORUMS'					=> '<strong>Forum en zijn subforums verwijderd</strong><br />» %s',
 	'LOG_FORUM_DEL_MOVE_FORUMS'				=> '<strong>Forum verwijderd en subforums verplaatst</strong> naar %1$s<br />» %2$s',
@@ -704,7 +704,7 @@ $lang = array_merge($lang, array(
 	'LOG_U_ROLE_EDIT'		=> '<strong>Gebruikersrol gewijzigd</strong><br />» %s',
 	'LOG_U_ROLE_REMOVED'	=> '<strong>Gebruikersrol verwijderd</strong><br />» %s',
 
-	'LOG_PLUPLOAD_TIDY_FAILED'		=> '<strong>Kan %1$s niet openen voor opschonen, controleer rechten.</strong><br />Uitzondering: %2$s<br />Tracering: %3$s',
+	'LOG_PLUPLOAD_TIDY_FAILED'		=> '<strong>Kan %1$s niet openen voor opschonen, controleer permissies.</strong><br />Uitzondering: %2$s<br />Tracering: %3$s',
 
 	'LOG_PROFILE_FIELD_ACTIVATE'	=> '<strong>Profielveld geactiveerd</strong><br />» %s',
 	'LOG_PROFILE_FIELD_CREATE'		=> '<strong>Profielveld toegevoegd</strong><br />» %s',
@@ -822,7 +822,7 @@ $lang = array_merge($lang, array(
 	'LOG_WORD_ADD'			=> '<strong>Woordcensuur toegevoegd</strong><br />» %s',
 	'LOG_WORD_DELETE'		=> '<strong>Woordcensuur verwijderd</strong><br />» %s',
 	'LOG_WORD_EDIT'			=> '<strong>Woordcensuur gewijzigd</strong><br />» %s',
-	
+
 	'LOG_EXT_ENABLE'	=> '<strong>Extensie ingeschakeld</strong><br />» %s',
 	'LOG_EXT_DISABLE'	=> '<strong>Extensie uitgeschakeld</strong><br />» %s',
 	'LOG_EXT_PURGE'		=> '<strong>Extensiegegevens verwijderd</strong><br />» %s',

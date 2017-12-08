@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 	'DELETE_TOPIC'			=> 'Onderwerp verwijderen',
 	'DELETED_INFORMATION'	=> 'Verwijderd door %1$s op %2$s',
 	'DISAPPROVE'			=> 'Afkeuren',
-	'DOWNLOAD_NOTICE'		=> 'Je hebt niet voldoende rechten om de bijlagen van dit bericht te bekijken.',
+	'DOWNLOAD_NOTICE'		=> 'Je hebt niet voldoende permissies om de bijlagen van dit bericht te bekijken.',
 
 	'EDITED_TIMES_TOTAL'	=> array(
 		1	=> 'Laatst gewijzigd door %2$s op %3$s, %1$d keer totaal gewijzigd.',
@@ -67,7 +67,7 @@ $lang = array_merge($lang, array(
 	'FORK_TOPIC'			=> 'Onderwerp kopiëren',
 	'FULL_EDITOR'			=> 'Volledige bewerker &amp; voorbeeld',
 
-	'LINKAGE_FORBIDDEN'		=> 'Je hebt niet voldoende rechten om van of naar deze site te linken, downloaden of te kunnen bekijken.',
+	'LINKAGE_FORBIDDEN'		=> 'Je hebt niet voldoende permissies om van of naar deze site te linken, downloaden of te kunnen bekijken.',
 	'LOGIN_NOTIFY_TOPIC'	=> 'Je bent op de hoogte gebracht van dit onderwerp, meld je aan om het te bekijken.',
 	'LOGIN_VIEWTOPIC'		=> 'Het forum vereist dat je bent geregistreerd en aangemeld om dit onderwerp te kunnen bekijken.',
 

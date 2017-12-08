@@ -206,7 +206,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_SQLITE3'		=> 'De versie van de SQLite-extensie die je hebt geïnstalleerd is te oud, het moet bijgewerkt worden naar versie 3.6.15.',
 	'INST_ERR_DB_NO_ORACLE'			=> 'De versie van Oracle die geïnstalleerd is op deze server verplicht je om de <var>NLS_CHARACTERSET</var>-parameter te laten instellen naar <var>UTF8</var>. Je kunt de installatie updaten naar 9.2+ of de parameter veranderen.',
 	'INST_ERR_DB_NO_POSTGRES'		=> 'De database die je hebt geselecteerd is niet aangemaakt in <var>UNICODE</var> of <var>UTF8</var>-codering. Probeer de database te installeren in <var>UNICODE</var> of <var>UTF8</var>-codering.',
-	'INST_SCHEMA_FILE_NOT_WRITABLE'	=> 'Geen schrijfrechten op deze database',
+	'INST_SCHEMA_FILE_NOT_WRITABLE'	=> 'Geen schrijfpermissie op deze database',
 
 	//
 	// Email data
@@ -237,7 +237,7 @@ $lang = array_merge($lang, array(
 	'CONFIG_SITE_DESC'				=> 'Een korte beschrijving van je forum',
 	'CONFIG_SITENAME'				=> 'jedomein.nl',
 
-	'DEFAULT_INSTALL_POST'			=> 'Dit is een voorbeeldbericht van je phpBB3-installatie. Alles lijkt te werken. Je mag dit bericht verwijderen als je wil en verdergaan met het instellen van je forum. Tijdens het installatieproces zijn je eerste categorie en je eerste forum ingesteld met de juiste rechten voor de voorgeïnstalleerde gebruikersgroepen beheerders, zoekrobots, algemene moderators, gasten, geregistreerde gebruikers en geregistreerde COPPA-gebruikers. Als je je eerste categorie en je eerste forum wil verwijderen, vergeet dan niet voor al deze gebruikersgroepen voor alle nieuwe categorieën en forums die je hebt aangemaakt de rechten in te stellen. Het is aan te bevelen om je eerste categorie en je eerste forum te hernoemen en de rechten hiervan te kopiëren wanneer je nieuwe categorieën en forums aanmaakt. Veel plezier!',
+	'DEFAULT_INSTALL_POST'			=> 'Dit is een voorbeeldbericht van je phpBB3-installatie. Alles lijkt te werken. Je mag dit bericht verwijderen als je wil en verdergaan met het instellen van je forum. Tijdens het installatieproces zijn je eerste categorie en je eerste forum ingesteld met de juiste permissies voor de voorgeïnstalleerde gebruikersgroepen beheerders, zoekrobots, algemene moderators, gasten, geregistreerde gebruikers en geregistreerde COPPA-gebruikers. Als je je eerste categorie en je eerste forum wil verwijderen, vergeet dan niet voor al deze gebruikersgroepen voor alle nieuwe categorieën en forums die je hebt aangemaakt de permissies in te stellen. Het is aan te bevelen om je eerste categorie en je eerste forum te hernoemen en de permissies hiervan te kopiëren wanneer je nieuwe categorieën en forums aanmaakt. Veel plezier!',
 
 	'FORUMS_FIRST_CATEGORY'			=> 'Je eerste categorie',
 	'FORUMS_TEST_FORUM_DESC'		=> 'Beschrijving van je eerste forum.',
@@ -561,7 +561,7 @@ $lang = array_merge($lang, array(
 	'CONV_ERROR_NO_RANKS_PATH'			=> 'Bericht aan de ontwikkelaar: je moet $convertor[\'ranks_path\'] opgeven door %s te gebruiken.',
 	'CONV_ERROR_NO_SMILIES_PATH'		=> 'Bericht aan de ontwikkelaar: je moet $convertor[\'smilies_path\'] opgeven door %s te gebruiken.',
 	'CONV_ERROR_NO_UPLOAD_DIR'			=> 'Bericht aan de ontwikkelaar: je moet $convertor[\'upload_path\'] opgeven door %s te gebruiken.',
-	'CONV_ERROR_PERM_SETTING'			=> 'Kan de rechteninstellingen niet bijwerken of toevoegen.',
+	'CONV_ERROR_PERM_SETTING'			=> 'Kan de permissiesinstellingen niet bijwerken of toevoegen.',
 	'CONV_ERROR_PM_COUNT'				=> 'Kan de PB-tellermap niet selecteren.',
 	'CONV_ERROR_REPLACE_CATEGORY'		=> 'Kan het nieuwe forum niet toevoegen tijdens het vervangen van een oude categorie.',
 	'CONV_ERROR_REPLACE_FORUM'			=> 'Kan het nieuwe forum niet vervangen met het oude forum.',
@@ -570,5 +570,5 @@ $lang = array_merge($lang, array(
 	'CONV_OPTIONS_BODY'					=> 'Deze pagina verzamelt alle nodige gegevens die nodig zijn om toegang te hebben tot het bronforum. Voer de databasegegevens in van je vorige forum; de convertor zal niks veranderen in de database die je hieronder opgeeft. Het bronforum zal uitgeschakeld moeten zijn om een zo goed als mogelijke conversie te krijgen.',
 	'CONV_SAVED_MESSAGES'				=> 'Opgeslagen berichten',
 
-	'PRE_CONVERT_COMPLETE'			=> 'Alle voorbereidende conversiestappen zijn succesvol voltooid. Je mag nu beginnen met het werkelijke conversieproces. Hou in de gaten dat je waarschijnlijk diverse dingen handmatig moet aanpassen. Na de conversie zul je vooral de toegewezen rechten moeten controleren en de zoekindex moeten herbouwen, aangezien die niet mee wordt geconverteerd. Kijk ook of bestanden correct zijn gekopiëerd, bijvoorbeeld de avatars en smilies.',
+	'PRE_CONVERT_COMPLETE'			=> 'Alle voorbereidende conversiestappen zijn succesvol voltooid. Je mag nu beginnen met het werkelijke conversieproces. Hou in de gaten dat je waarschijnlijk diverse dingen handmatig moet aanpassen. Na de conversie zul je vooral de toegewezen permissies moeten controleren en de zoekindex moeten herbouwen, aangezien die niet mee wordt geconverteerd. Kijk ook of bestanden correct zijn gekopiëerd, bijvoorbeeld de avatars en smilies.',
 ));

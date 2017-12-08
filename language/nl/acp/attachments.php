@@ -137,7 +137,7 @@ $lang = array_merge($lang, array(
 	'NO_IMAGE'					=> 'Geen afbeelding',
 	'NO_THUMBNAIL_SUPPORT'		=> 'Miniatuur ondersteuning is uitgeschakeld. Voor juiste functionaliteit moet de GD-extensie beschikbaar zijn of imagemagick moet geïnstalleerd zijn. Beide zijn niet gevonden.',
 	'NO_UPLOAD_DIR'				=> 'De uploadmap die je hebt opgegeven bestaat niet.',
-	'NO_WRITE_UPLOAD'			=> 'De uploadmap die je hebt opgegeven kan niet beschreven worden. Wijzig de rechten om de webserver toe te staan er naar te schrijven.',
+	'NO_WRITE_UPLOAD'			=> 'De uploadmap die je hebt opgegeven kan niet beschreven worden. Wijzig de permissies om de webserver toe te staan er naar te schrijven.',
 
 	'ONLY_ALLOWED_IN_PM'	=> 'Alleen toegestaan in privéberichten',
 	'ORDER_ALLOW_DENY'		=> 'Toestaan',
@@ -165,7 +165,7 @@ $lang = array_merge($lang, array(
 
 	'UPLOADING_FILES'				=> 'Uploaden bestanden',
 	'UPLOADING_FILE_TO'				=> 'Uploaden bestand “%1$s” naar bericht-ID %2$d…',
-	'UPLOAD_DENIED_FORUM'			=> 'Je hebt niet de rechten om bestanden te uploaden naar forum “%s”.',
+	'UPLOAD_DENIED_FORUM'			=> 'Je hebt niet de permissies om bestanden te uploaden naar forum “%s”.',
 	'UPLOAD_DIR'					=> 'Upload map',
 	'UPLOAD_DIR_EXPLAIN'			=> 'Opslagpad voor bijlagen. Let op dat wanneer je deze map verandert terwijl je al bestanden hebt geüpload, je handmatig de bestanden naar hun nieuwe locatie moet kopiëren.',
 	'UPLOAD_ICON'					=> 'Uploadicoon',

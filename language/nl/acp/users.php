@@ -43,7 +43,7 @@ $lang = array_merge($lang, array(
 	'BAN_ALREADY_ENTERED'	=> 'De verbanning is de vorige keer al succesvol ingevoerd. De banlijst is niet bijgewerkt.',
 	'BAN_SUCCESSFUL'		=> 'Verbanning succesvol ingevoerd.',
 
-	'CANNOT_BAN_ANONYMOUS'			=> 'Je kunt het gastaccount niet verbannen. Rechten voor anonieme gebruikers kunnen ingesteld worden onder de rechten tab.',
+	'CANNOT_BAN_ANONYMOUS'			=> 'Je kunt het gastaccount niet verbannen. Permissies voor anonieme gebruikers kunnen ingesteld worden onder de permissies tab.',
 	'CANNOT_BAN_FOUNDER'			=> 'Je kunt de oprichteraccounts niet verbannen.',
 	'CANNOT_BAN_YOURSELF'			=> 'Je kunt jezelf niet verbannen.',
 	'CANNOT_DEACTIVATE_BOT'			=> 'Je kunt botaccounts niet deactiveren. Deactiveer de bot in plaats hiervan op de botpagina.',
@@ -65,7 +65,7 @@ $lang = array_merge($lang, array(
 
 	'FORCE_REACTIVATION_SUCCESS'	=> 'Heractivatie succesvol geforceerd.',
 	'FOUNDER'						=> 'Oprichter',
-	'FOUNDER_EXPLAIN'				=> 'Oprichters hebben alle administratieve rechten en kunnen nooit verbannen, verwijderd of gewijzigd worden door niet-oprichters.',
+	'FOUNDER_EXPLAIN'				=> 'Oprichters hebben alle administratieve permissies en kunnen nooit verbannen, verwijderd of gewijzigd worden door niet-oprichters.',
 
 	'GROUP_APPROVE'					=> 'Lid goedkeuren',
 	'GROUP_DEFAULT'					=> 'Maak groep standaard voor lid',
