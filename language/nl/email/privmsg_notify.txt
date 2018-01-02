@@ -6,10 +6,10 @@ Je hebt een nieuw privébericht ontvangen van "{AUTHOR_NAME}" op je gebruikersac
 
 {SUBJECT}
 
-Je kan je nieuwe bericht bekijken door op de volgende link te klikken:
+Je kunt je nieuwe bericht bekijken door op de volgende link te klikken:
 
 {U_VIEW_MESSAGE}
 
-Je hebt aangeven dat je op de hoogte gehouden wilt worden van nieuwe privéberichten, als je niet meer op de hoogte gehouden wilt worden, pas dan de instellingen aan in je gebruikerspaneel.
+Je hebt aangeven dat je op de hoogte gehouden wilt worden van nieuwe privéberichten. Als je niet meer op de hoogte gehouden wilt worden, pas dan de instellingen aan in je gebruikerspaneel.
 
 {EMAIL_SIG}

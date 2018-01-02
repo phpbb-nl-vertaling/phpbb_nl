@@ -38,34 +38,34 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ADMIN_SIG_PREVIEW'		=> 'Onderschriftvoorbeeld',
-	'AT_LEAST_ONE_FOUNDER'	=> 'Je kan deze oprichter niet veranderen naar een normale gebruiker. Er moet tenminste één oprichter aanwezig zijn op dit forum. Als je de oprichterstatus van deze gebruiker wilt veranderen, promoveer een andere gebruiker dan eerst naar oprichter.',
+	'AT_LEAST_ONE_FOUNDER'	=> 'Je kunt deze oprichter niet veranderen naar een normale gebruiker. Er moet tenminste één oprichter aanwezig zijn op dit forum. Als je de oprichterstatus van deze gebruiker wil veranderen, promoveer een andere gebruiker dan eerst naar oprichter.',
 
 	'BAN_ALREADY_ENTERED'	=> 'De verbanning is de vorige keer al succesvol ingevoerd. De banlijst is niet bijgewerkt.',
 	'BAN_SUCCESSFUL'		=> 'Verbanning succesvol ingevoerd.',
 
-	'CANNOT_BAN_ANONYMOUS'			=> 'Je kan de gastaccount niet verbannen. Permissies voor anonieme gebruikers kunnen ingesteld worden onder de permissies tab.',
-	'CANNOT_BAN_FOUNDER'			=> 'Je kan de oprichteraccounts niet verbannen.',
-	'CANNOT_BAN_YOURSELF'			=> 'Je kan jezelf niet verbannen.',
-	'CANNOT_DEACTIVATE_BOT'			=> 'Je kan botaccounts niet deactiveren. Deactiveer de bot in plaats hiervan op de botpagina.',
-	'CANNOT_DEACTIVATE_FOUNDER'		=> 'Je kan de oprichteraccount niet deactiveren.',
-	'CANNOT_DEACTIVATE_YOURSELF'	=> 'Je kan je eigen account niet deactiveren.',
-	'CANNOT_FORCE_REACT_BOT'		=> 'Je kan geen heractivatie van botaccounts forceren. Heractiveer de bot in plaats hiervan op de botpagina.',
-	'CANNOT_FORCE_REACT_FOUNDER'	=> 'Je kan geen heractivatie van oprichteraccounts forceren.',
-	'CANNOT_FORCE_REACT_YOURSELF'	=> 'Je kan geen heractivatie van je eigen account forceren.',
-	'CANNOT_REMOVE_ANONYMOUS'		=> 'Je kan niet het gastaccount verwijderen.',
-	'CANNOT_REMOVE_FOUNDER'			=> 'Je kan geen oprichteraccounts verwijderen.',
-	'CANNOT_REMOVE_YOURSELF'		=> 'Je kan niet je eigen account verwijderen.',
-	'CANNOT_SET_FOUNDER_IGNORED'	=> 'Je kan genegeerde gebruikers niet promoveren naar oprichters.',
+	'CANNOT_BAN_ANONYMOUS'			=> 'Je kunt het gastaccount niet verbannen. Permissies voor anonieme gebruikers kunnen ingesteld worden onder de permissies tab.',
+	'CANNOT_BAN_FOUNDER'			=> 'Je kunt de oprichteraccounts niet verbannen.',
+	'CANNOT_BAN_YOURSELF'			=> 'Je kunt jezelf niet verbannen.',
+	'CANNOT_DEACTIVATE_BOT'			=> 'Je kunt botaccounts niet deactiveren. Deactiveer de bot in plaats hiervan op de botpagina.',
+	'CANNOT_DEACTIVATE_FOUNDER'		=> 'Je kunt de oprichteraccount niet deactiveren.',
+	'CANNOT_DEACTIVATE_YOURSELF'	=> 'Je kunt je eigen account niet deactiveren.',
+	'CANNOT_FORCE_REACT_BOT'		=> 'Je kunt geen heractivatie van botaccounts forceren. Heractiveer de bot in plaats hiervan op de botpagina.',
+	'CANNOT_FORCE_REACT_FOUNDER'	=> 'Je kunt geen heractivatie van oprichteraccounts forceren.',
+	'CANNOT_FORCE_REACT_YOURSELF'	=> 'Je kunt geen heractivatie van je eigen account forceren.',
+	'CANNOT_REMOVE_ANONYMOUS'		=> 'Je kunt niet het gastaccount verwijderen.',
+	'CANNOT_REMOVE_FOUNDER'			=> 'Je kunt geen oprichteraccounts verwijderen.',
+	'CANNOT_REMOVE_YOURSELF'		=> 'Je kunt niet je eigen account verwijderen.',
+	'CANNOT_SET_FOUNDER_IGNORED'	=> 'Je kunt genegeerde gebruikers niet promoveren naar oprichters.',
 	'CANNOT_SET_FOUNDER_INACTIVE'	=> 'Je moet gebruikers eerst activeren voordat je ze naar oprichter kan promoveren, alleen geactiveerde gebruikers kunnen gepromoveerd worden.',
 	'CONFIRM_EMAIL_EXPLAIN'			=> 'Je hoeft dit alleen maar op te geven als je het e-mailadres van de gebruiker aan het wijzigen bent.',
 
 	'DELETE_POSTS'			=> 'Verwijder berichten',
 	'DELETE_USER'			=> 'Verwijder gebruiker',
-	'DELETE_USER_EXPLAIN'	=> 'Let op dat het verwijderen van een gebruiker definitief is, dit kan niet meer ongedaan gemaakt worden. Ongelezen privéberichten verstuurd door deze gebruiker zullen worden verwijderd en zal niet beschikbaar zijn voor hun ontvangers.',
+	'DELETE_USER_EXPLAIN'	=> 'Let op dat het verwijderen van een gebruiker definitief is, dit kan niet meer ongedaan gemaakt worden. Ongelezen privéberichten verstuurd door deze gebruiker zullen worden verwijderd en zullen niet beschikbaar zijn voor hun ontvangers.',
 
 	'FORCE_REACTIVATION_SUCCESS'	=> 'Heractivatie succesvol geforceerd.',
 	'FOUNDER'						=> 'Oprichter',
-	'FOUNDER_EXPLAIN'				=> 'Oprichters hebben alle administratieve permissies en kunnen nooit verbannen, verwijderd of gewijzigd worden door niet-oprichter leden.',
+	'FOUNDER_EXPLAIN'				=> 'Oprichters hebben alle administratieve permissies en kunnen nooit verbannen, verwijderd of gewijzigd worden door niet-oprichters.',
 
 	'GROUP_APPROVE'					=> 'Lid goedkeuren',
 	'GROUP_DEFAULT'					=> 'Maak groep standaard voor lid',
@@ -77,7 +77,7 @@ $lang = array_merge($lang, array(
 
 	'LAST_ACTIVE'			=> 'Laatst actief',
 
-	'MOVE_POSTS_EXPLAIN'	=> 'Selecteer het forum waarnaar je alle berichten die deze gebruiker heeft gemaakt naar toe wilt verplaatsen.',
+	'MOVE_POSTS_EXPLAIN'	=> 'Selecteer het forum waar je alle berichten die deze gebruiker heeft gemaakt naar toe wil verplaatsen.',
 
 	'NO_SPECIAL_RANK'		=> 'Geen speciale rang toegewezen',
 	'NO_WARNINGS'			=> 'Geen waarschuwingen.',
@@ -109,7 +109,7 @@ $lang = array_merge($lang, array(
 	'USER_ADMIN_DEL_OUTBOX'			=> 'Leeg PM uitbox',
 	'USER_ADMIN_DEL_POSTS'			=> 'Verwijder alle berichten',
 	'USER_ADMIN_DEL_SIG'			=> 'Verwijder onderschrift',
-	'USER_ADMIN_EXPLAIN'			=> 'Hier kan je je gebruikersinformatie en bepaalde opties veranderen.',
+	'USER_ADMIN_EXPLAIN'			=> 'Hier kun je je gebruikersinformatie en bepaalde opties veranderen.',
 	'USER_ADMIN_FORCE'				=> 'Forceer heractivatie',
 	'USER_ADMIN_LEAVE_NR'			=> 'Verwijder van nieuw geregistreerd',
 	'USER_ADMIN_MOVE_POSTS'			=> 'Verplaats alle berichten',

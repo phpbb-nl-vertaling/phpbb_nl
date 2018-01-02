@@ -38,9 +38,9 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACP_FILES'						=> 'Taalbestanden beheren',
-	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Hier kan je taalpakketten installeren/verwijderen. Het standaard taalpakket is gemarkeerd met een ster (*).',
+	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Hier kun je taalpakketten installeren/verwijderen. Het standaard taalpakket is gemarkeerd met een ster (*).',
 
-	'DELETE_LANGUAGE_CONFIRM'		=> 'Weet je zeker dat je “%s” wilt verwijderen?',
+	'DELETE_LANGUAGE_CONFIRM'		=> 'Weet je zeker dat je “%s” wil verwijderen?',
 	
 	'INSTALLED_LANGUAGE_PACKS'		=> 'Geïnstalleerde taalpakketten',
 
@@ -66,8 +66,8 @@ $lang = array_merge($lang, array(
 
 	'NO_FILE_SELECTED'				=> 'Je hebt geen taalbestand gespecificeerd.',
 	'NO_LANG_ID'					=> 'Je hebt geen taalpakket gespecificeerd.',
-	'NO_REMOVE_DEFAULT_LANG'		=> 'Je kan het standaard taalpakket niet verwijderen.<br />Als je dit taalpakket wilt verwijderen moet je eerst de standaard forumtaal wijzigen.',
-	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'Er zijn geen nog niet geïnstalleerde taalpakketten',
+	'NO_REMOVE_DEFAULT_LANG'		=> 'Je kunt het standaard taalpakket niet verwijderen.<br />Als je dit taalpakket wil verwijderen moet je eerst de standaard forumtaal wijzigen.',
+	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'Er zijn geen niet-geïnstalleerde taalpakketten',
 
 	'THOSE_MISSING_LANG_FILES'			=> 'De volgende taalbestanden ontbreken in de “%s” taalmap',
 	'THOSE_MISSING_LANG_VARIABLES'		=> 'De volgende taalvariabelen ontbreken in het “%s” taalpakket',

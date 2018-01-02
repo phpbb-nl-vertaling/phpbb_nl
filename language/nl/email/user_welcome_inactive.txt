@@ -14,7 +14,7 @@ Gebruik onderstaande link om het gebruikersaccount te activeren:
 
 {U_ACTIVATE}
 
-Je wachtwoord is veilig opgeslagen in onze database en kan niet worden achterhaald. Mocht je toch je wachtwoord vergeten zijn, dan kan je een nieuw wachtwoord aanvragen door het e-mailadres te gebruiken dat overeenkomt met je account.
+Je wachtwoord is veilig opgeslagen in onze database en kan niet worden achterhaald. Mocht je toch je wachtwoord vergeten zijn, dan kun je een nieuw wachtwoord aanvragen door het e-mailadres te gebruiken dat overeenkomt met je account.
 
 Bedankt voor je registratie.
 

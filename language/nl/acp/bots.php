@@ -39,7 +39,7 @@ if (empty($lang) || !is_array($lang))
 // Bot settings
 $lang = array_merge($lang, array(
 	'BOTS'				=> 'Beheer bots',
-	'BOTS_EXPLAIN'		=> '“Bots”, “spiders” of “crawlers” zijn in feite een bot die het wereldwijde web op een methodische en geautomatiseerde manier doorbladert, en worden meestal gebruikt om de database van zoekmachines bij te werken. Omdat ze zelden correct gebruik maken van sessies, kunnen ze het bezoekersaantal beïnvloeden, serverlaadtijd verhogen en soms niet in staat zijn om sites goed te indexeren. Hier kan je een speciaal type gebruiker opgeven om deze problemen te voorkomen.',
+	'BOTS_EXPLAIN'		=> '“Bots”, “spiders” of “crawlers” zijn geautomatiseerde agents (scripts) die worden gebruikt om de database van zoekmachines bij te werken. Omdat ze zelden correct gebruik maken van sessies kunnen ze het bezoekersaantal beïnvloeden, serverlaadtijd verhogen en soms niet in staat zijn om sites goed te indexeren. Hier kun je een speciaal type gebruiker opgeven om deze problemen te voorkomen.',
 	'BOT_ACTIVATE'		=> 'Activeer',
 	'BOT_ACTIVE'		=> 'Bot actief',
 	'BOT_ADD'			=> 'Bot toevoegen',
@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 	'BOT_DEACTIVATE'	=> 'Deactiveer',
 	'BOT_DELETED'		=> 'Bot is succesvol verwijderd.',
 	'BOT_EDIT'			=> 'Bots wijzigen',
-	'BOT_EDIT_EXPLAIN'	=> 'Hier kan je bots toevoegen of wijzigen. Je kan een agent-string en/of één of meerdere IP-adressen (of een bereik van adressen) opgeven die kunnen overeenkomen. Wees voorzichtig tijdens het opgeven van overeenkomstige agent-strings of adressen. Je kan ook een stijl en taal opgeven die de bot zal gebruiken tijdens het bezoeken van het forum. Dit staat je toe om bandbreedte te reduceren door het instellen van een simpele stijl voor bots. Vergeet niet om de juiste permissies in te stellen voor de speciale Bot-gebruikersgroep.',
+	'BOT_EDIT_EXPLAIN'	=> 'Hier kun je bots toevoegen of wijzigen. Je kan een agent-string en/of één of meerdere IP-adressen (of een bereik van adressen) opgeven die kunnen overeenkomen. Wees voorzichtig tijdens het opgeven van overeenkomstige agent-strings of adressen. Je kunt ook een stijl en taal opgeven die de bot zal gebruiken tijdens het bezoeken van het forum. Dit kan dataverbruik verminderen door het instellen van een simpele stijl voor bots. Vergeet niet om de juiste permissies in te stellen voor de speciale Bot-gebruikersgroep.',
 	'BOT_LANG'			=> 'Bottaal',
 	'BOT_LANG_EXPLAIN'	=> 'De taal die de bot ziet tijdens zijn bezoek.',
 	'BOT_LAST_VISIT'	=> 'Laatste bezoek',

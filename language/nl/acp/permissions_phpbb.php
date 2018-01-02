@@ -67,12 +67,12 @@ $lang = array_merge($lang, array(
 // User Permissions
 $lang = array_merge($lang, array(
 	'ACL_U_VIEWPROFILE'	=> 'Kan profielen, ledenlijst en “wie is er online” zien',
-	'ACL_U_CHGNAME'		=> 'Kan gebruikersnaam veranderen',
-	'ACL_U_CHGPASSWD'	=> 'Kan wachtwoord veranderen',
-	'ACL_U_CHGEMAIL'	=> 'Kan e-mailadres veranderen',
-	'ACL_U_CHGAVATAR'	=> 'Kan avatar veranderen',
-	'ACL_U_CHGGRP'		=> 'Kan standaard gebruikersgroep veranderen',
-	'ACL_U_CHGPROFILEINFO'	=> 'Kan profielveld-informatie veranderen',
+	'ACL_U_CHGNAME'		=> 'Kan gebruikersnaam wijzigen',
+	'ACL_U_CHGPASSWD'	=> 'Kan wachtwoord wijzigen',
+	'ACL_U_CHGEMAIL'	=> 'Kan e-mailadres wijzigen',
+	'ACL_U_CHGAVATAR'	=> 'Kan avatar wijzigen',
+	'ACL_U_CHGGRP'		=> 'Kan standaard gebruikersgroep wijzigen',
+	'ACL_U_CHGPROFILEINFO'	=> 'Kan profielveld-informatie wijzigen',
 
 	'ACL_U_ATTACH'		=> 'Kan bestanden bijvoegen',
 	'ACL_U_DOWNLOAD'	=> 'Kan bestanden downloaden',
@@ -124,8 +124,8 @@ $lang = array_merge($lang, array(
 	'ACL_F_REPLY'		=> 'Kan op onderwerpen reageren',
 	'ACL_F_EDIT'		=> 'Kan eigen berichten wijzigen',
 	'ACL_F_DELETE'		=> 'Kan eigen berichten permanent verwijderen',
-	'ACL_F_SOFTDELETE'	=> 'Kan eigen berichten tijdelijk verwijderen<br /><em>Moderators, die berichten goedkeuren permissie hebben, kunnen tijdelijk verwijderde berichten terughalen.</em>',
-	'ACL_F_IGNOREFLOOD' => 'Kan vloedbeperking negeren',
+	'ACL_F_SOFTDELETE'	=> 'Kan eigen berichten tijdelijk verwijderen<br /><em>Moderators die permissie hebben om berichten te kunnen goedkeuren, kunnen tijdelijk verwijderde berichten terughalen.</em>',
+	'ACL_F_IGNOREFLOOD'=> 'Kan vloedbeperking negeren',
 	'ACL_F_POSTCOUNT'	=> 'Berichtenteller verhogen<br /><em>Let op dat deze instelling alleen effect heeft op nieuwe berichten.</em>',
 	'ACL_F_NOAPPROVE'	=> 'Kan berichten plaatsen zonder goedkeuring',
 
@@ -139,17 +139,17 @@ $lang = array_merge($lang, array(
 
 	'ACL_F_POLL'		=> 'Kan peilingen aanmaken',
 	'ACL_F_VOTE'		=> 'Kan op peilingen stemmen',
-	'ACL_F_VOTECHG'		=> 'Kan bestaande stem veranderen',
+	'ACL_F_VOTECHG'		=> 'Kan bestaande stem wijzigen',
 ));
 
 // Moderator Permissions
 $lang = array_merge($lang, array(
 	'ACL_M_EDIT'		=> 'Kan berichten wijzigen',
 	'ACL_M_DELETE'		=> 'Kan berichten permanent verwijderen',
-	'ACL_M_SOFTDELETE'	=> 'Kan berichten tijdelijk verwijderen<br /><em>Moderators, die permissies hebben om berichten te kunnen goedkeuren, kunnen tijdelijk verwijderde berichten terughalen.</em>',
+	'ACL_M_SOFTDELETE'	=> 'Kan berichten tijdelijk verwijderen<br /><em>Moderators die permissie hebben om berichten te kunnen goedkeuren, kunnen tijdelijk verwijderde berichten terughalen.</em>',
 	'ACL_M_APPROVE'		=> 'Kan berichten goedkeuren en herstellen',
 	'ACL_M_REPORT'		=> 'Kan meldingen sluiten en verwijderen',
-	'ACL_M_CHGPOSTER'	=> 'Kan berichtauteur veranderen',
+	'ACL_M_CHGPOSTER'	=> 'Kan berichtauteur wijzigen',
 
 	'ACL_M_MOVE'	=> 'Kan onderwerpen verplaatsen',
 	'ACL_M_LOCK'	=> 'Kan onderwerpen sluiten',
@@ -164,9 +164,9 @@ $lang = array_merge($lang, array(
 
 // Admin Permissions
 $lang = array_merge($lang, array(
-	'ACL_A_BOARD'		=> 'Kan foruminstellingen veranderen/controleren op updates',
-	'ACL_A_SERVER'		=> 'Kan server-/communicatie-instellingen veranderen',
-	'ACL_A_JABBER'		=> 'Kan Jabberinstellingen veranderen',
+	'ACL_A_BOARD'		=> 'Kan foruminstellingen wijzigen/controleren op updates',
+	'ACL_A_SERVER'		=> 'Kan server/communicatie-instellingen wijzigen',
+	'ACL_A_JABBER'		=> 'Kan Jabberinstellingen wijzigen',
 	'ACL_A_PHPINFO'		=> 'Kan PHP-instellingen bekijken',
 
 	'ACL_A_FORUM'		=> 'Kan forums beheren',
@@ -190,12 +190,12 @@ $lang = array_merge($lang, array(
 	'ACL_A_BAN'			=> 'Kan verbanningen beheren',
 
 	'ACL_A_VIEWAUTH'	=> 'Kan permissiemaskers bekijken',
-	'ACL_A_AUTHGROUPS'	=> 'Kan permissies voor individuele groepen veranderen',
-	'ACL_A_AUTHUSERS'	=> 'Kan permissies voor individuele gebruikers veranderen',
-	'ACL_A_FAUTH'		=> 'Kan forumpermissie-klasse veranderen',
-	'ACL_A_MAUTH'		=> 'Kan moderatorpermissie-klasse veranderen',
-	'ACL_A_AAUTH'		=> 'Kan beheerderspermissies-klasse veranderen',
-	'ACL_A_UAUTH'		=> 'Kan gebruikerspermissie-klasse veranderen',
+	'ACL_A_AUTHGROUPS'	=> 'Kan permissies voor individuele groepen wijzigen',
+	'ACL_A_AUTHUSERS'	=> 'Kan permissies voor individuele gebruikers wijzigen',
+	'ACL_A_FAUTH'		=> 'Kan forumpermissies-klasse wijzigen',
+	'ACL_A_MAUTH'		=> 'Kan moderatorpermissies-klasse wijzigen',
+	'ACL_A_AAUTH'		=> 'Kan beheerderspermissie-klasse wijzigen',
+	'ACL_A_UAUTH'		=> 'Kan gebruikerspermissie-klasse wijzigen',
 	'ACL_A_ROLES'		=> 'Kan rollen beheren',
 	'ACL_A_SWITCHPERM'	=> 'Kan permissies van anderen gebruiken',
 
@@ -209,5 +209,5 @@ $lang = array_merge($lang, array(
 	'ACL_A_BOTS'		=> 'Kan bots beheren',
 	'ACL_A_REASONS'		=> 'Kan melding-/afkeurredenen beheren',
 	'ACL_A_BACKUP'		=> 'Kan database back-up maken/terugzetten',
-	'ACL_A_SEARCH'		=> 'Kan zoekachtergronden en instellingen beheren',
+	'ACL_A_SEARCH'		=> 'Kan zoektechnieken en instellingen beheren',
 ));

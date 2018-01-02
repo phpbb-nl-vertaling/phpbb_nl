@@ -4,7 +4,7 @@ Hallo {USERNAME},
 
 Je ontvangt deze e-mail omdat een privébericht getiteld "{SUBJECT}" van "{AUTHOR_NAME}" op "{SITENAME}" is gemeld als ongewenst.
 
-Als je de melding wilt bekijken, klik dan op de volgende link:
+Als je de melding wil bekijken, klik dan op de volgende link:
 {U_VIEW_REPORT}
 
 {EMAIL_SIG}
