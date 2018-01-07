@@ -50,5 +50,5 @@ $lang = array_merge($lang, array(
 	'ACP_VIGLINK_CLAIM'				=> 'Claim je opbrengsten',
 	'ACP_VIGLINK_CLAIM_EXPLAIN'		=> 'Je kunt de Viglink opbrengsten van je forum voor jezelf claimen in plaats van dit te doneren aan het phpBB project. Voor het beheren van je account klik je hiernaast op de link “Convert Account”. Je gaat dan naar de VigLink website waar je kiest voor “Sign Up”.',
 	'ACP_VIGLINK_CONVERT_ACCOUNT'	=> 'Convert Account',
-	'ACP_VIGLINK_NO_CONVERT_LINK'	=> 'VigLink convert accountkoppeling kon niet worden opgehaald.'
+	'ACP_VIGLINK_NO_CONVERT_LINK'	=> 'VigLink convert accountkoppeling kon niet worden opgehaald.',
 ));
