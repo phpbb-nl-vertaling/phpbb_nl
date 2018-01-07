@@ -336,7 +336,7 @@ $lang = array_merge($lang, array(
 
 // PHP info
 $lang = array_merge($lang, array(
-	'ACP_PHP_INFO_EXPLAIN'	=> 'Deze pagina geeft de informatie over de versie van PHP die geïnstalleerd is op deze server. Het bevat details van geladen modules, beschikbare variabelen en standaard instellingen. Deze informatie kan bruikbaar zijn bij het oplossen van problemen. Let op dat sommige hostingbedrijven de informatie die hier wordt getoond beperken om beveiligingsredenen. Het is aan te raden geen details van deze pagina openbaar te maken tenzij er naar gevraagd wordt door een <a href="https://www.phpbb.com/about/team/">officieel phpBB.com-teamlid</a>, <a href="https://www.phpbbservice.nl/forum/memberlist.php?mode=leaders">officiële phpBBservice.nl-teamleden</a> of <a href="https://www.phpbb.nl/medewerkers">officiële phpbb.nl-teamleden</a> op de supportforums.',
+	'ACP_PHP_INFO_EXPLAIN'	=> 'Deze pagina geeft de informatie over de versie van PHP die geïnstalleerd is op deze server. Het bevat details van geladen modules, beschikbare variabelen en standaard instellingen. Deze informatie kan bruikbaar zijn bij het oplossen van problemen. Let op dat sommige hostingbedrijven de informatie die hier wordt getoond beperken om beveiligingsredenen. Het is aan te raden geen details van deze pagina openbaar te maken tenzij er naar gevraagd wordt door een <a href="https://www.phpbb.com/about/team/">officieel phpBB.com-teamleden</a> of <a href="https://www.phpbb.nl/forums/memberlist.php">officiële phpbb.nl-teamleden</a> op de supportforums.',
 
 	'NO_PHPINFO_AVAILABLE'	=> 'Informatie over je PHP-configuratie kan niet vastgesteld worden. Phpinfo() is uitgeschakeld vanwege beveiligingsredenen.',
 ));
