@@ -54,6 +54,7 @@ $lang = array_merge($lang, array(
 	'NO_NEW_POSTS_HOT'		=> 'Geen nieuwe berichten [ Populair ]',	// Not used anymore
 	'NO_NEW_POSTS_LOCKED'	=> 'Geen nieuwe berichten [ Gesloten ]',	// Not used anymore
 	'NO_READ_ACCESS'		=> 'Je hebt niet de juiste permissies om onderwerpen in dit forum te zien of te lezen.',
+	'NO_FORUMS_IN_CATEGORY'	=> 'Deze categorie heeft geen forums.',
 	'NO_UNREAD_POSTS_HOT'		=> 'Geen ongelezen berichten [ Populair ]',
 	'NO_UNREAD_POSTS_LOCKED'	=> 'Geen ongelezen berichten [ Gesloten ]',
 
