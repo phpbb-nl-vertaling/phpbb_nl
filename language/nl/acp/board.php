@@ -22,7 +22,7 @@ if (!defined('IN_PHPBB'))
 if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
-}
+
 
 // DEVELOPERS PLEASE NOTE
 //
@@ -406,6 +406,8 @@ $lang = array_merge($lang, array(
 	'RECOMPILE_STYLES_EXPLAIN'		=> 'Controleert op gewijzigde stijlcomponenten op het bestandssysteem en hercompileert deze.',
 	'YES_ANON_READ_MARKING'			=> 'Onderwerp markering voor gasten inschakelen',
 	'YES_ANON_READ_MARKING_EXPLAIN'	=> 'Bewaart gelezen/ongelezen status informatie voor gasten. Indien uitgeschakeld zullen berichten altijd gelezen zijn voor gasten.',
+	'YES_ACCURATE_PM_BUTTON'			=> 'Schakel exacte PB indicator in op onderwerppagina’s',
+	'YES_ACCURATE_PM_BUTTON_EXPLAIN'	=> 'Indien ingeschakeld wordt de PB knop alleen getoond aan gebruikers met de persmissie om privéberichten te lezen.',
 	'YES_BIRTHDAYS'					=> 'Verjaardagslijst inschakelen',
 	'YES_BIRTHDAYS_EXPLAIN'			=> 'Indien uitgeschakeld, zal de verjaardagslijst niet meer weergegeven worden. Om deze instelling effect te laten hebben, moet de verjaardagfunctie wel ingeschakeld zijn.',
 	'YES_JUMPBOX'					=> 'Weergave van de jumpbox inschakelen',
@@ -583,7 +585,7 @@ $lang = array_merge($lang, array(
 	'SMTP_PASSWORD_EXPLAIN'			=> 'Alleen een wachtwoord invoeren als je SMTP-server dit vereist.<br><em><strong>Waarschuwing:</strong> Dit wachtwoord zal opgeslagen worden als platte tekst in de database, zichtbaar voor iedereen die toegang heeft tot je database of die deze configuratiepagina kan bekijken.</em>',
 	'SMTP_PLAIN'					=> 'PLAIN',
 	'SMTP_POP_BEFORE_SMTP'			=> 'POP-BEFORE-SMTP',
-	'SMTP_PORT'						=> 'SMTP-serverpoort',
+	'SMTP_PORT'						=> 'SMTP-serverpoort en protocol',
 	'SMTP_PORT_EXPLAIN'				=> 'Wijzig dit alleen als je weet dat je SMTP-server op een andere poort draait.',
 	'SMTP_SERVER'					=> 'SMTP-serveradres',
 	'SMTP_SERVER_EXPLAIN'			=> 'Let op dat je het gebruikte protocol ook opgeeft. Wanneer je SSL gebruikt, is het dit "ssl://your.mailserver.com"',
