@@ -80,6 +80,7 @@ $lang = array_merge($lang, array(
 	'STYLE_UNINSTALL'			=> 'Verwijderen',
 	'STYLE_UNINSTALL_DEPENDENT'	=> 'De stijl "%s" kan niet worden verwijderd omdat één of meer stijlen deze stijl nodig hebben om goed te kunnen functioneren.',
 	'STYLE_UNINSTALLED'			=> 'De stijl "%s" is succesvol verwijderd.',
+	'STYLE_PHPBB_VERSION'		=> 'phpBB versie',
 	'STYLE_USED_BY'				=> 'Gebruikt door (inclusief robots)',
 	'STYLE_VERSION'				=> 'Stijlversie',
 
