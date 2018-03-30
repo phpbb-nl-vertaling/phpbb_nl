@@ -193,6 +193,7 @@ $lang = array_merge($lang, array(
 	'DB_OPTION_SQLITE3'		=> 'SQLite 3',
 
 	// Errors
+	'INST_ERR_DB'					=> 'Database installatie fout',
 	'INST_ERR_NO_DB'				=> 'De PHP-module kon niet worden geladen voor het geselecteerde databasetype.',
 	'INST_ERR_DB_INVALID_PREFIX'	=> 'De prefix die je hebt ingevoerd is onjuist. Het moet starten met een letter en mag alleen letters, getallen en onderstrepingen bevatten.',
 	'INST_ERR_PREFIX_TOO_LONG'		=> 'De tabelprefix dat je hebt ingevoerd is te lang. De maximale lengte is %d tekens.',
@@ -353,14 +354,36 @@ $lang = array_merge($lang, array(
 		<p>Lees de (Engelstalige) aankondiging voordat je begint met het updaten van je forum, het kan belangrijke informatie bevatten. Je vindt daar ook de volledige downloadlinks en een overzicht van de wijzigingen ( changelog ).</p>
 
 		<br />
+		<h1>Hoe kan ik mijn forum updaten met het volledige pakket?</h1>
 
+		<p>De aanbevolen manier van updaten is gebruik maken van het volledige pakket. Indien je basisbestanden van phpBB aangepast hebt kun je ervoor kiezen om het Automatische update-pakket te gebruiken om deze aanpassingen niet kwijt te raken. Je kunt je forum ook updaten met de methodes die beschreven zijn in het <a href="../docs/INSTALL.html">INSTALL.html</a> document. De stappen om phpBB te updaten met het volledige pakket zijn als volgt:</p>
+
+		<ol style="margin-left: 20px; font-size: 1.1em;">
+			<li><strong class="error">Maak een back-up van alle bestanden en de database.</strong></li>
+			<li>Ga naar <a href="https://www.phpbb.nl/downloads" title="https://www.phpbb.nl/downloads">phpBB.nl</a> en download het laatste "Volledige pakket".</li>
+			<li>Pak het archiefbestand uit.</li>
+			<li>Verwijder het <code class="inline">config.php</code> bestand en de mappen <code class="inline">/images</code>, <code class="inline">/store</code> en <code class="inline">/files</code> <em>van het gedownloade pakket</em> (NIET van je website).</li>
+			<li>Ga naar het beheerderspaneel, Foruminstellingen en zorg dat prosilver ingesteld is als standaard stijl.</li>
+			<li>Verwijder de map <code class="inline">/vendor</code> en <code class="inline">/cache</code> uit de root map van je forum bij je host.</li>
+			<li>Upload via FTP of SSH de overgebleven bestanden en mappen (d.w.z. de overgebleven INHOUD van de phpBB3 map) naar de root map van je forum op de server, daarbij de bestaande bestanden overschrijvend. (Let op: zorg dat je geen eventueel aanwezige extensies in de <code class="inline">/ext</code> map overschrijft tijdens het uploaden.)</li>
+			<li><strong><a href="%1$s" title="%1$s">Start nu het updateproces door met je browser naar de install map te gaan</a>.</strong></li>
+			<li>Volg de stappen op het scherm om de database bij te werken, zorg dit proces volledig voltooid.</li>
+			<li>Verwijder via FTP of SSH de <code class="inline">/install</code> map uit de root map van je forum bij je host.<br><br></li>
+		</ol>
+		
+		<p>Je hebt nu een nieuw en bijgewerkt forum met alle gebruikers en berichten. De volgende taken:</p>
+		<ul style="margin-left: 20px; font-size: 1.1em;">
+			<li>Werk eventuele andere taalpakketten bij</li>
+			<li>Werk je stijl bij<br><br></li>
+		</ul>
+		
 		<h1>Hoe kan ik mijn forum updaten met het Automatische update-pakket?</h1>
 
-		<p>De aanbevolen manier van updaten die hieronder staat beschreven is alleen geldig voor het Automatische update-pakket. Je mag je forum ook updaten met de methodes die beschreven zijn in het <a href="../docs/INSTALL.html">INSTALL.html</a> document. De stappen om phpBB3 automatisch te updaten zijn als volgt:</p>
+		<p>Het Automatische update-pakket os alleen aanbevolen indien de basisbestanden op je forum zijn aangepast. Je kunt je forum ook updaten met de methodes die beschreven zijn in het <a href="../docs/INSTALL.html">INSTALL.html</a> document. De stappen om phpBB3 automatisch te updaten zijn als volgt:</p>
 
 		<ul style="margin-left: 20px; font-size: 1.1em;">
-			<li>Ga naar de downloadspagina van <a href="https://www.phpbb.nl/downloads/" title="http://www.phpbb.nl/downloads/">phpBB.nl</a> en download het "Automatisch update-pakket".<br /><br /></li>
-				<li>Pak het archiefbestand uit.<br /><br /></li>
+			<li>Ga naar de downloadspagina van <a href="https://www.phpbb.nl/downloads/" title="http://www.phpbb.nl/downloads/">phpBB.nl</a> en download het "Automatisch update-pakket".</li>
+			<li>Pak het archiefbestand uit.</li>
 			<li>Upload de uitgepakte "install"- en "vendor"-mappen naar je phpBB-hoofdmap (waar je config.php staat).<br /><br /></li>
 		</ul>
 
