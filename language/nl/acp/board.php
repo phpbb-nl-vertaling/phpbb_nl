@@ -22,7 +22,7 @@ if (!defined('IN_PHPBB'))
 if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
-
+}
 
 // DEVELOPERS PLEASE NOTE
 //
@@ -585,9 +585,9 @@ $lang = array_merge($lang, array(
 	'SMTP_PASSWORD_EXPLAIN'			=> 'Alleen een wachtwoord invoeren als je SMTP-server dit vereist.<br><em><strong>Waarschuwing:</strong> Dit wachtwoord zal opgeslagen worden als platte tekst in de database, zichtbaar voor iedereen die toegang heeft tot je database of die deze configuratiepagina kan bekijken.</em>',
 	'SMTP_PLAIN'					=> 'PLAIN',
 	'SMTP_POP_BEFORE_SMTP'			=> 'POP-BEFORE-SMTP',
-	'SMTP_PORT'						=> 'SMTP-serverpoort en protocol',
+	'SMTP_PORT'						=> 'SMTP-serverpoort',
 	'SMTP_PORT_EXPLAIN'				=> 'Wijzig dit alleen als je weet dat je SMTP-server op een andere poort draait.',
-	'SMTP_SERVER'					=> 'SMTP-serveradres',
+	'SMTP_SERVER'					=> 'SMTP-serveradres en protocol',
 	'SMTP_SERVER_EXPLAIN'			=> 'Let op dat je het gebruikte protocol ook opgeeft. Wanneer je SSL gebruikt, is het dit "ssl://your.mailserver.com"',
 	'SMTP_SETTINGS'					=> 'SMTP-instellingen',
 	'SMTP_USERNAME'					=> 'SMTP-gebruikersnaam',
