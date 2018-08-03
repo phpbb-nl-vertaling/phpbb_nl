@@ -116,7 +116,10 @@ $lang = array_merge($lang, array(
 		2	=> 'Het huidge tempo van indexeren is ongeveer %1$.1f berichten per seconde.<br />Indexeren is nog bezig…',
 	),
 	'SEARCH_INDEX_DELETE_REDIRECT'			=> array(
-		2	=> 'Alle berichten tot berichten-ID %2$d zijn verwijderd van de zoekindex.<br />Verwijderen is nog bezig…',
+		2	=> 'Alle berichten tot berichten-ID %2$d zijn verwijderd van de zoekindex, waarvan %1$d in deze stap.<br /><br />',
+	),
+	'SEARCH_INDEX_DELETE_REDIRECT_RATE'		=> array(
+		2	=> 'Het huidige tempa van verwijderen is ongeveer %1$.1f berichten per seconde.<br />Verwijderen is nog bezig…',
 	),
 	'SEARCH_INDEX_CREATED'					=> 'Alle berichten in de database succesvol geïndexeerd.',
 	'SEARCH_INDEX_REMOVED'					=> 'De zoekindex voor deze techniek succesvol verwijderd.',
