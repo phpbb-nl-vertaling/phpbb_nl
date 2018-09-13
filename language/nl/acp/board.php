@@ -371,7 +371,7 @@ $lang = array_merge($lang, array(
 	'ACP_CONTACT_SETTINGS_EXPLAIN'		=> 'Hier kun je de contactpagina in- en uitschakelen en je kunt er ook tekst aan toevoegen die op de pagina wordt weergegeven.',
 
 	'CONTACT_US_ENABLE'				=> 'Contactpagina inschakelen',
-	'CONTACT_US_ENABLE_EXPLAIN'		=> 'Deze pagina laat gebruikers e-mails versturen naar forumbeheerders. Let op: dat forumwijde e-mails ingeschakeld moet zijn via Algemeen > Cliëntcommunicatie > E-mailinstellingen.',
+	'CONTACT_US_ENABLE_EXPLAIN'		=> 'Deze pagina laat gebruikers e-mails versturen naar forumbeheerders. Let op dat forumwijde e-mails ingeschakeld moet zijn via Algemeen > Cliëntcommunicatie > E-mailinstellingen.',
 
 	'CONTACT_US_INFO'				=> 'Contactinformatie',
 	'CONTACT_US_INFO_EXPLAIN'		=> 'Het bericht dat wordt weergegeven op de contactpagina',
@@ -554,7 +554,7 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_EMAIL_SETTINGS_EXPLAIN'	=> 'Deze informatie wordt gebruikt wanneer het forum e-mails verstuurt naar je gebruikers. Zorg er voor dat het e-mailadres dat je opgeeft geldig is, elk bericht dat niet verstuurd kan worden zal waarschijnlijk hier naar toe verstuurd worden. Als je host geen (PHP gebaseerde) e-mailservice aanbied, kun je berichten versturen door gebruik te maken van SMTP. Dit vereist het adres van een server (vraag je provider indien nodig). Als de server authenticatie vereist (en alleen áls het vereist is), voer dan de benodigde gebruikersnaam, wachtwoord en authenticatiemethode in.',
 
-	'ADMIN_EMAIL'					=> 'Afzender (van) mailadres',
+	'ADMIN_EMAIL'					=> 'E-mailadres van afzender',
 	'ADMIN_EMAIL_EXPLAIN'			=> 'Dit zal gebruikt worden als het verzendadres voor alle e-mails, het technische contact-e-mailadres. Het zal altijd gebruikt worden als <samp>Afzender</samp>-adres in e-mails.',
 	'BOARD_EMAIL_FORM'				=> 'Gebruikers versturen e-mail via forum',
 	'BOARD_EMAIL_FORM_EXPLAIN'		=> 'In plaats van het weergeven van het gebruikers e-mailadres, kunnen gebruikers e-mail versturen via het forum.',
@@ -564,8 +564,8 @@ $lang = array_merge($lang, array(
 	'CONTACT_EMAIL_EXPLAIN'			=> 'Dit adres zal gebruikt worden wanneer een specifiek contactpunt vereist is, bijv. spam, foutenweergave etc. Het zal altijd gebruikt worden als <samp>Van</samp> en <samp>Reageer op</samp> adres in e-mails.',
 	'CONTACT_EMAIL_NAME'			=> 'Contactnaam',
 	'CONTACT_EMAIL_NAME_EXPLAIN'	=> 'Dit is de contactnaam die e-mail ontvangers zullen zien. Als je geen contactnaam wil hebben, laat dit veld dan leeg.',
-	'EMAIL_FORCE_SENDER'			=> 'Forceer afzender email address',
-	'EMAIL_FORCE_SENDER_EXPLAIN'	=> 'Dit zet het This will set the <samp>Antwoordpad</samp> naar het afzender mailaddres in plaats van de lokale gebruiker en hostnaam van de server. Deze instelling is niet van toepassing indien SMTP gebruikt wordt.<br><em><strong>Waarschuwing:</strong> Dit vereist dat de gebruiker van de webserver toegevoegd is als vertrouwde gebruiker (trusted user) aan de <samp>sendmail</samp> configuratie.</em>',
+	'EMAIL_FORCE_SENDER'			=> 'Forceer e-mailadres van afzender',
+	'EMAIL_FORCE_SENDER_EXPLAIN'	=> 'Dit zet het <samp>antwoordpad</samp> naar het e-mailadres van de afzender in plaats van de lokale gebruiker en hostnaam van de server. Deze instelling is niet van toepassing indien SMTP gebruikt wordt.<br><em><strong>Waarschuwing:</strong> Dit vereist dat de gebruiker van de webserver toegevoegd is als vertrouwde gebruiker (trusted user) aan de <samp>sendmail</samp>-configuratie.</em>',
 	'EMAIL_PACKAGE_SIZE'			=> 'E-mail pakketgrootte',
 	'EMAIL_PACKAGE_SIZE_EXPLAIN'	=> 'Dit is het maximale aantal e-mails verstuurd in één pakket. Deze instelling wordt toegepast op de interne berichtenwachtrij; stel deze waarde in op 0 als je problemen hebt met niet afgeleverde notificatie-mails.',
 	'EMAIL_SIG'						=> 'E-mail onderschrift',
