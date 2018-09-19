@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 
 // Forum Admin
 $lang = array_merge($lang, array(
-	'AUTO_PRUNE_DAYS'			=> 'Automatiche opschoning berichtenleeftijd',
+	'AUTO_PRUNE_DAYS'			=> 'Automatische opschoning berichtenleeftijd',
 	'AUTO_PRUNE_DAYS_EXPLAIN'	=> 'Aantal dagen sinds laatste bericht waarna het onderwerp wordt verwijderd.',
 	'AUTO_PRUNE_FREQ'			=> 'Automatische opschoningsfrequentie',
 	'AUTO_PRUNE_FREQ_EXPLAIN'	=> 'Tijd in dagen tussen opschoningen.',
