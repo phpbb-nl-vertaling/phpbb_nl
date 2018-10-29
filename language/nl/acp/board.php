@@ -371,7 +371,7 @@ $lang = array_merge($lang, array(
 	'ACP_CONTACT_SETTINGS_EXPLAIN'		=> 'Hier kun je de contactpagina in- en uitschakelen en je kunt er ook tekst aan toevoegen die op de pagina wordt weergegeven.',
 
 	'CONTACT_US_ENABLE'				=> 'Contactpagina inschakelen',
-	'CONTACT_US_ENABLE_EXPLAIN'		=> 'Deze pagina laat gebruikers e-mails versturen naar forumbeheerders. Let op dat forumwijde e-mails ingeschakeld moet zijn via Algemeen > Cliëntcommunicatie > E-mailinstellingen.',
+	'CONTACT_US_ENABLE_EXPLAIN'		=> 'Deze pagina laat gebruikers e-mails versturen naar forumbeheerders. Let op dat forumwijde e-mails ingeschakeld moet zijn via Algemeen &gt; Cliëntcommunicatie &gt; E-mailinstellingen.',
 
 	'CONTACT_US_INFO'				=> 'Contactinformatie',
 	'CONTACT_US_INFO_EXPLAIN'		=> 'Het bericht dat wordt weergegeven op de contactpagina',
