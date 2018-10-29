@@ -88,6 +88,7 @@ $lang = array_merge($lang, array(
 	'NO_UNREAD_POSTS'		=> 'Er zijn geen nieuwe ongelezen berichten voor dit onderwerp.',
 	'NO_VOTE_OPTION'		=> 'Je moet een optie specificeren tijdens het stemmen.',
 	'NO_VOTES'				=> 'Geen stemmen',
+	'NO_AUTH_PRINT_TOPIC'	=> 'Je bent niet bevoegd om onderwerpen te printen.',
 
 	'POLL_ENDED_AT'			=> 'Peiling eindigde op %s',
 	'POLL_RUN_TILL'			=> 'Peiling loopt tot %s',
