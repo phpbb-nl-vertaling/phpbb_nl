@@ -62,7 +62,6 @@ $lang = array_merge($lang, array(
 
 	'ACCOUNT_ALREADY_ACTIVATED'		=> 'Je account is al geactiveerd.',
 	'ACCOUNT_DEACTIVATED'			=> 'Je account is handmatig gedeactiveerd en is alleen te heractiveren door een beheerder.',
-	'ACCOUNT_NOT_ACTIVATED'			=> 'Je account is nog niet geactiveerd.',
 	'ACP'							=> 'Beheerderspaneel',
 	'ACP_SHORT'						=> 'Beheer',
 	'ACTIVE'						=> 'actief',
