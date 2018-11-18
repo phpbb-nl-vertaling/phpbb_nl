@@ -111,8 +111,6 @@ $lang = array_merge($lang, array(
 
 	'IMAGE_LINK_SIZE'			=> 'Afbeelding koppeling afmeting',
 	'IMAGE_LINK_SIZE_EXPLAIN'	=> 'Geef afbeeldingsbijlage weer als een inline tekst koppeling als de afbeelding groter is dan dit. Om dit gedrag uit te schakelen, stel dan de waarde in op 0px bij 0px.',
-	'IMAGICK_PATH'				=> 'ImageMagick pad',
-	'IMAGICK_PATH_EXPLAIN'		=> 'Volledig pad naar de imagemagick convertor applicatie, bijv. <samp>/usr/bin/</samp>.',
 
 	'MAX_ATTACHMENTS'				=> 'Maximum aantal bijlagen per bericht',
 	'MAX_ATTACHMENTS_PM'			=> 'Maximum aantal bijlagen per privébericht',
@@ -135,7 +133,6 @@ $lang = array_merge($lang, array(
 	'NO_EXT_GROUP_SPECIFIED'	=> 'Geen extensiegroep opgegeven.',
 	'NO_FILE_CAT'				=> 'Geen',
 	'NO_IMAGE'					=> 'Geen afbeelding',
-	'NO_THUMBNAIL_SUPPORT'		=> 'Miniatuur ondersteuning is uitgeschakeld. Voor juiste functionaliteit moet de GD-extensie beschikbaar zijn of imagemagick moet geïnstalleerd zijn. Beide zijn niet gevonden.',
 	'NO_UPLOAD_DIR'				=> 'De uploadmap die je hebt opgegeven bestaat niet.',
 	'NO_WRITE_UPLOAD'			=> 'De uploadmap die je hebt opgegeven kan niet beschreven worden. Wijzig de permissies om de webserver toe te staan er naar te schrijven.',
 
@@ -147,7 +144,6 @@ $lang = array_merge($lang, array(
 	'REMOVE_DISALLOWED_IPS'			=> 'Verwijder of sluit uit <em>verboden</em> IPs/hostnamen',
 	'RESYNC_FILES_STATS_CONFIRM'	=> 'Weet je zeker dat je de bestandsstatistieken wil synchroniseren?',
 
-	'SEARCH_IMAGICK'				=> 'Zoek naar ImageMagick',
 	'SECURE_ALLOW_DENY'				=> 'Toegestaan/Verboden lijst',
 	'SECURE_ALLOW_DENY_EXPLAIN'		=> 'Verandert het standaard gedrag, wanneer beveiligde downloads zijn ingeschakeld, van de toegestaan/verboden lijst naar die van een <strong>witte lijst</strong> (Toegestaan) of een <strong>zwarte lijst</strong> (Verboden).',
 	'SECURE_DOWNLOADS'				=> 'Beveiligde downloads inschakelen',
