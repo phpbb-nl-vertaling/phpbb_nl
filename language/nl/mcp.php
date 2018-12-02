@@ -410,7 +410,7 @@ $lang = array_merge($lang, array(
 
 	'WARNED_USERS'			=> 'Gewaarschuwde gebruikers',
 	'WARNED_USERS_EXPLAIN'	=> 'Dit is een lijst van alle gebruikers met een nog niet verlopen waarschuwing.',
-	'WARNING_PM_BODY'		=> 'Het volgende is een waarschuwing welke is gegeven naar je door een beheerder of moderator van deze site.[quote]%s[/quote]',
+	'WARNING_PM_BODY'		=> ' Dit is een waarschuwing die je ontvangen hebt van een beheerder of moderator van dit forum.[quote]%s[/quote]',
 	'WARNING_PM_SUBJECT'	=> 'Forumwaarschuwing uitgevaardigd',
 	'WARNING_POST_DEFAULT'	=> 'Dit is een waarschuwing vanwege het volgende bericht dat je hebt geplaatst: %s .',
 	'NO_WARNINGS'	=> 'Er zijn geen waarschuwingen.',
