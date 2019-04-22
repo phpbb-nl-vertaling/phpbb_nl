@@ -272,6 +272,7 @@ $lang = array_merge($lang, array(
 	'IMPORTANT_NEWS'			=> 'Belangrijke mededelingen',
 	'INVALID_USER_BIRTHDAY'		=> 'De ingevoerde verjaardag is geen geldige datum.',
 	'INVALID_CHARS_USERNAME'	=> 'De gebruikersnaam bevat verboden tekens.',
+	'INVALID_EMOJIS_USERNAME'	=> 'De gebruikersnaam bevat verboden tekens (Emoji).',
 	'INVALID_CHARS_NEW_PASSWORD'=> 'Het wachtwoord bevat niet de vereiste tekens.',
 	'ITEMS_REQUIRED'			=> 'De velden gemarkeerd met * zijn vereiste profielvelden en moeten ingevuld worden.',
 
@@ -302,6 +303,7 @@ $lang = array_merge($lang, array(
 	'MESSAGE_EDITED'				=> 'Bericht succesvol gewijzigd.',
 	'MESSAGE_HISTORY'				=> 'Berichtengeschiedenis',
 	'MESSAGE_REMOVED_FROM_OUTBOX'	=> 'Dit bericht is verwijderd door zijn auteur.',
+	'MESSAGE_REPORTED_MESSAGE'		=> 'Geraporteerd bericht',
 	'MESSAGE_SENT_ON'				=> 'op',
 	'MESSAGE_STORED'				=> 'Dit bericht is succesvol verstuurd.',
 	'MESSAGE_TO'					=> 'Aan',
