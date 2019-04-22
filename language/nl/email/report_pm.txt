@@ -1,4 +1,4 @@
-Subject: PrivŽbericht melding - "{SUBJECT}"
+Subject: Privébericht melding - "{SUBJECT}"
 
 Hallo {USERNAME},
 
