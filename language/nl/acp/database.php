@@ -38,14 +38,15 @@ if (empty($lang) || !is_array($lang))
 
 // Database Backup/Restore
 $lang = array_merge($lang, array(
-	'ACP_BACKUP_EXPLAIN'	=> 'Hier kun je alle phpBB-gerelateerde gegevens back-uppen. Je mag het bestand opslaan in je <samp>store/</samp>-map of direct downloaden. Afhankelijk van je serverconfiguratie kun je het bestand in een aantal verschillende formaten comprimeren.',
+	'ACP_BACKUP_EXPLAIN'	=> 'Hier kun je alle phpBB-gerelateerde gegevens back-uppen. Het hieruit voortkomende herstelbestand zal in de <samp>store/</samp>-map worden opgeslagen. Afhankelijk van je serverconfiguratie kun je het bestand in een aantal verschillende formaten comprimeren.',
 	'ACP_RESTORE_EXPLAIN'	=> 'Dit zorgt ervoor dat alle phpBB-tabellen teruggezet worden vanuit een opgeslagen bestand. Indien je server dit ondersteunt, kun je een gzip of bzip2 ingepakt tekstbestand gebruiken. Deze zal vervolgens automatisch uitgepakt worden. <strong>WAARSCHUWING:</strong> Hierdoor worden alle bestaande gegevens overschreven. Het terugzetten kan veel tijd in beslag nemen. Verlaat deze pagina niet tot het proces volledig afgerond is. Back-ups worden opgeslagen in de <samp>store/</samp>-map en worden gegenereerd door phpBB’s back-up functionaliteit. Terugplaatsen van back-ups die niet door dit systeem zijn gemaakt werken wellicht niet.',
 
-	'BACKUP_DELETE'		=> 'Het back-up bestand is succesvol verwijderd.',
-	'BACKUP_INVALID'	=> 'Het geselecteerde back-up bestand is ongeldig.',
-	'BACKUP_OPTIONS'	=> 'Back-up instellingen',
-	'BACKUP_SUCCESS'	=> 'Het back-up bestand is succesvol aangemaakt.',
-	'BACKUP_TYPE'		=> 'Back-up type',
+	'BACKUP_DELETE'		=> 'Het back-upbestand is succesvol verwijderd.',
+	'BACKUP_INVALID'	=> 'Het geselecteerde back-upbestand is ongeldig.',
+	'BACKUP_NOT_SUPPORTED'	=> 'Het geselecteerde back-upbestand is niet ondersteund.',
+	'BACKUP_OPTIONS'	=> 'Back-upinstellingen',
+	'BACKUP_SUCCESS'	=> 'Het back-upbestand is succesvol aangemaakt.',
+	'BACKUP_TYPE'		=> 'Back-uptype',
 
 	'DATABASE'			=> 'Database hulpmiddelen',
 	'DATA_ONLY'			=> 'Alleen data',
