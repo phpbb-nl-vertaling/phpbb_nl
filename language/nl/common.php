@@ -784,6 +784,10 @@ $lang = array_merge($lang, array(
 	'TOPIC_REVIEW'		=> 'Voorafgaande berichten',
 	'TOPIC_TITLE'		=> 'Onderwerptitel',
 	'TOPIC_UNAPPROVED'	=> 'Dit onderwerp is nog niet goedgekeurd.',
+	'TOPIC_UNAPPROVED_FORUM'	=> array(
+		1	=> 'Onderwerp nog niet goedgekeurd',
+		2	=> 'Onderwerpen nog niet goedgekeurd',
+	),
 	'TOPIC_DELETED'		=> 'Dit onderwerp is verwijderd.',
 	'TOTAL_ATTACHMENTS'	=> 'Bijlage(n)',
 	'TOTAL_LOGS'		=> array(
