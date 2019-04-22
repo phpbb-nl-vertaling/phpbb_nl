@@ -145,6 +145,7 @@ $lang = array_merge($lang, array(
 	'LOAD_DRAFT_EXPLAIN'		=> 'Hier kun je het concept selecteren waarmee je verder wil schrijven. Je bestaande bericht zal worden geannuleerd, alle bestaande berichtinhoud zal worden verwijderd. Bekijk, wijzig en verwijder concepten in het gebruikerspaneel.',
 	'LOGIN_EXPLAIN_BUMP'		=> 'Je moet aangemeld zijn om onderwerpen in dit forum omhoog te kunnen halen.',
 	'LOGIN_EXPLAIN_DELETE'		=> 'Je moet aangemeld zijn om berichten in dit forum te kunnen verwijderen.',
+	'LOGIN_EXPLAIN_SOFT_DELETE'	=> 'Je moet aangemeld zijn om berichten in dit forum tijdelijk te kunnen verwijderen.',
 	'LOGIN_EXPLAIN_POST'		=> 'Je moet aangemeld zijn om berichten in dit forum te kunnen plaatsen.',
 	'LOGIN_EXPLAIN_QUOTE'		=> 'Je moet aangemeld zijn om berichten in dit forum te kunnen citeren.',
 	'LOGIN_EXPLAIN_REPLY'		=> 'Je moet aangemeld zijn om reacties op onderwerpen in dit forum te kunnen schrijven.',
