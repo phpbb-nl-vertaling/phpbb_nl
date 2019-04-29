@@ -325,6 +325,7 @@ $lang = array_merge($lang, array(
 	'TOTAL_SIZE'	 		=> 'Totale grootte',
 
 	'UCP'					=> 'Gebruikerspaneel',
+	'URL_INVALID'			=> 'De ingevoerde URL voor de “%1$s” instelling is ongeldig.',
 	'USERNAMES_EXPLAIN'		=> 'Plaats iedere gebruikersnaam op een aparte regel.',
 	'USER_CONTROL_PANEL'	=> 'Gebruikerspaneel',
 	'UPDATE_NEEDED'			=> 'Je installatie is niet actueel.',
