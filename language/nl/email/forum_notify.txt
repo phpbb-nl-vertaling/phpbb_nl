@@ -1,10 +1,11 @@
-Subject: Nieuw bericht - "{FORUM_NAME}"
+Subject: Nieuwe reactie - "{FORUM_NAME}"
 List-Unsubscribe: <{U_STOP_WATCHING_FORUM}>
 
 Hallo {USERNAME},
 
-Je ontvangt dit bericht omdat je geabonneerd bent op een forum, "{FORUM_NAME}" op "{SITENAME}". Dit forum heeft een nieuw bericht in het onderwerp "{TOPIC_TITLE}"<!-- IF AUTHOR_NAME != '' --> van {AUTHOR_NAME}<!-- ENDIF --> sinds je laatste bezoek. Je kunt door gebruik te maken van de volgende link het ongelezen bericht bekijken. Er worden geen nieuwe meldingen verzonden totdat je het onderwerp weer hebt bezocht.
+Je ontvangt dit bericht omdat je geabonneerd bent op een forum, "{FORUM_NAME}" op "{SITENAME}". Dit forum heeft een nieuwe reactie in het onderwerp "{TOPIC_TITLE}"<!-- IF AUTHOR_NAME != '' --> van {AUTHOR_NAME}<!-- ENDIF --> sinds je laatste bezoek. Er worden geen nieuwe meldingen verzonden totdat je het onderwerp weer hebt bezocht.
 
+Als je het nieuwste bericht wil bekijken, klik op de volgende link:
 {U_NEWEST_POST}
 
 Als je het onderwerp wil bekijken, klik op de volgende link:
@@ -17,4 +18,4 @@ Als je niet langer meer geabonneerd wil zijn op dit forum, klik dan op de "Uitsc
 
 {U_STOP_WATCHING_FORUM}
 
-{EMAIL_SIG}
+{EMAIL_SIG} 
