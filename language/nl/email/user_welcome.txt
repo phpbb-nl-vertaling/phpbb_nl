@@ -1,5 +1,7 @@
 Subject: Welkom op "{SITENAME}"
 
+Hallo {USERNAME},
+
 {WELCOME_MSG}
 
 Dit bericht bevat belangrijke accountinformatie, bewaar deze e-mail dus goed. Je accountinformatie is als volgt:
