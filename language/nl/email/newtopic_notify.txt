@@ -3,16 +3,15 @@ List-Unsubscribe: <{U_STOP_WATCHING_FORUM}>
 
 Hallo {USERNAME},
 
-Je ontvangt deze e-mail omdat je een forum volgt, "{FORUM_NAME}" op "{SITENAME}". Dit forum heeft een nieuw onderwerp<!-- IF AUTHOR_NAME != '' --> door {AUTHOR_NAME}<!-- ENDIF --> sinds je laatste bezoek, "{TOPIC_TITLE}". Je kunt, door gebruik te maken van de volgende link, het forum bekijken. Er worden geen nieuwe meldingen verzonden totdat je het forum weer hebt bezocht.
+Je ontvangt dit bericht omdat je op een forum bent geabonneerd, "{FORUM_NAME}" op "{SITENAME}". Dit forum heeft een nieuwe onderwerp<!-- IF AUTHOR_NAME != '' --> door {AUTHOR_NAME}<!-- ENDIF --> sinds je laatste bezoek. Er worden geen nieuwe meldingen verzonden totdat je het onderwerp weer hebt bezocht.
 
-{U_FORUM}
-
-Om dit nieuwe onderwerp meteen te bekijken, bekijk de volgende link: 
-
+Als je het nieuwe onderwerp wil bekijken, klik op de volgende link:
 {U_TOPIC}
 
-Als je dit forum niet langer wilt volgen, klik dan op de "Uitschrijven forum" link onderaan het forum, of door te klikken op de volgende link:
+Als je het forum wil bekijken, klik op de volgende link:
+{U_FORUM}
 
+Als je niet langer meer geabonneerd wil zijn op dit forum, klik dan op de "Uitschrijven forum" link onderaan het forum, of door te klikken op de volgende link:
 {U_STOP_WATCHING_FORUM}
 
 {EMAIL_SIG}
