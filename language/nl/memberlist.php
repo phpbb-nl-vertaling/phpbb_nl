@@ -134,7 +134,7 @@ $lang = array_merge($lang, array(
 
 	'USERNAME_BEGINS_WITH'	=> 'Gebruikersnaam begint met',
 	'USER_ADMIN'			=> 'Beheer gebruiker',
-	'USER_BAN'				=> 'Verbannen',
+	'USER_BAN'				=> 'Verban gebruiker',
 	'USER_FORUM'			=> 'Gebruikersstatistieken',
 	'USER_LAST_REMINDED'	=> array(
 		0		=> 'Nog geen herinnering verstuurd',
