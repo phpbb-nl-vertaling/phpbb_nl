@@ -840,7 +840,7 @@ $lang = array_merge($lang, array(
 		2	=> '%d berichten',
 	),
 	'USERS'					=> 'Gebruikers',
-	'USE_PERMISSIONS'		=> 'Gebruikerspermissies testen',
+	'USE_PERMISSIONS'		=> 'Test gebruikerspermissies',
 
 	'USER_NEW_PERMISSION_DISALLOWED'	=> 'Je hebt geen permissies om deze functie te gebruiken. Het kan zijn dat je pas bent geregistreerd en dat je meer berichten moet plaatsen op het forum om deze functie te kunnen gebruiken.',
 
