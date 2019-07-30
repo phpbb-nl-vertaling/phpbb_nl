@@ -1,8 +1,8 @@
-Subject: "{SITENAME}" - E-mail een vriend
+Subject: {SITENAME} - E-mail een vriend
 
 Hallo {TO_USERNAME},
 
-Deze e-mail is verzonden via "{SITENAME}" door {FROM_USERNAME} die dacht dat je wel interesse zou hebben in het volgende onderwerp:
+Deze e-mail is verzonden via {SITENAME} door {FROM_USERNAME} die dacht dat je wel interesse zou hebben in het volgende onderwerp:
 
 {TOPIC_NAME}
 
