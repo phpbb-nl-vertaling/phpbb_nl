@@ -2,7 +2,7 @@ Subject: Je hebt een nieuw privébericht ontvangen
 
 Hallo {USERNAME},
 
-Je hebt een nieuw privébericht ontvangen van "{AUTHOR_NAME}" op je gebruikersaccount op "{SITENAME}" met het volgende onderwerp:
+Je hebt een nieuw privébericht ontvangen van "{AUTHOR_NAME}" op je gebruikersaccount op {SITENAME} met het volgende onderwerp:
 
 {SUBJECT}
 
