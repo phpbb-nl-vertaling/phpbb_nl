@@ -1,4 +1,4 @@
-Subject: Welkom op "{SITENAME}"
+Subject: Welkom op {SITENAME}
 
 Hallo {USERNAME},
 
