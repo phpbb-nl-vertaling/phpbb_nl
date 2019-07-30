@@ -1,4 +1,4 @@
-Subject: Heractiveer je account op "{SITENAME}"
+Subject: Heractiveer je account op {SITENAME}
 
 Een forumbeheerder heeft gevraagd om je account te heractiveren. Je account is momenteel inactief.
 Volg onderstaande stappen om je account te heractiveren.
