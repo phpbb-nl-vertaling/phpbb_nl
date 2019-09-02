@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_STYLES_EXPLAIN'	=> 'Hier kun je de beschikbare stijlen van je forum beheren. Je kunt bestaande stijlen wijzigen, verwijderen, deactiveren, heractiveren en nieuwe stijlen installeren. Je kunt hier ook zien hoe je stijl eruit ziet door de voorbeeldfunctie te gebruiken. Hier wordt ook het aantal gebruikers weergegeven die de stijl gebruiken, let op: het overschrijven van de gebruikersstijl zal hier niet worden weergegeven.',
 	
 	'CANNOT_BE_INSTALLED'			=> 'Kan niet worden geïnstalleerd',
@@ -87,4 +87,4 @@ $lang = array_merge($lang, array(
 	'UNINSTALL_DEFAULT'		=> 'Je kan de standaard stijl niet verwijderen.',
 
 	'BROWSE_STYLES_DATABASE'	=> 'Blader door de stijlendatabase',
-));
+]);
