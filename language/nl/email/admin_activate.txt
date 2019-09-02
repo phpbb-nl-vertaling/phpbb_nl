@@ -7,7 +7,7 @@ Het account gebruikt door "{USERNAME}" is gedeactiveerd of zojuist aangemaakt, j
 Gebruik de volgende link om het gebruikersprofiel te bekijken:
 {U_USER_DETAILS}
 
-Gebruik deze link om het gebruikersaccount te activeren:
+Je kan de volgende link gebruiken om direct je account te activeren:
 {U_ACTIVATE}
 
 {EMAIL_SIG}
