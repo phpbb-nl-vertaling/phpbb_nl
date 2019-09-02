@@ -43,6 +43,7 @@ $lang = array_merge($lang, array(
 	'ADD_POLL'					=> 'Peiling aanmaken',
 	'ADD_POLL_EXPLAIN'			=> 'Als je geen peiling wil toevoegen aan je onderwerp, laat dan de velden leeg.',
 	'ALREADY_DELETED'			=> 'Sorry, dit bericht is al verwijderd.',
+	'ATTACH_COMMENT_NO_EMOJIS'	=> 'De bijlagetoelichting bevat niet ondersteunde karakters (Emoji).',
 	'ATTACH_DISK_FULL'			=> 'Er is niet genoeg vrije schijfruimte om deze bijlage te plaatsen.',
 	'ATTACH_QUOTA_REACHED'		=> 'Sorry, het bijlagenlimiet van het forum is bereikt.',
 	'ATTACH_SIG'				=> 'Onderschrift toevoegen (onderschriften kunnen gewijzigd worden via het gebruikerspaneel)',
