@@ -80,9 +80,9 @@ $lang = array_merge($lang, array(
 	'ACL_U_CHGCENSORS'	=> 'Kan woordcensuur uitschakelen',
 	'ACL_U_SIG'			=> 'Kan onderschrift gebruiken',
 
-	'ACL_U_SENDPM'		=> 'Kan privérichten versturen',
-	'ACL_U_MASSPM'		=> 'Kan berichten naar meerdere gebruikers versturen',
-	'ACL_U_MASSPM_GROUP'=> 'Kan berichten naar groepen versturen',
+	'ACL_U_SENDPM'		=> 'Kan privéberichten versturen',
+	'ACL_U_MASSPM'		=> 'Kan privéberichten naar meerdere gebruikers versturen',
+	'ACL_U_MASSPM_GROUP'	=> 'Kan privéberichten naar groepen versturen',
 	'ACL_U_READPM'		=> 'Kan privéberichten lezen',
 	'ACL_U_PM_EDIT'		=> 'Kan eigen privéberichten wijzigen',
 	'ACL_U_PM_DELETE'	=> 'Kan privéberichten uit eigen map verwijderen',
