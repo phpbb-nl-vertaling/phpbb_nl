@@ -111,7 +111,7 @@ $lang = array_merge($lang, array(
 	'FIRST_OPTION'				=> 'Eerste optie',
 
 	'HIDE_PROFILE_FIELD'			=> 'Verberg profielveld',
-	'HIDE_PROFILE_FIELD_EXPLAIN'	=> 'Verberg het profielveld voor alle gebruikers behalve de gebruiker zelf, de beheerders en moderators die dit veld nog steeds kunnen zien. Als de “Weergeven in gebruikerspaneel”-optie is uitgeschakeld zal de gebruiker dit veld niet kunnen zien of wijzigen, het veld kan dan alleen gewijzigd worden door beheerders.',
+	'HIDE_PROFILE_FIELD_EXPLAIN'	=> 'Verberg het profielveld voor alle gebruikers behalve de beheerders en moderators, die dit veld nog steeds kunnen zien. Als de “Weergeven in gebruikerspaneel”-optie is uitgeschakeld zal de gebruiker dit veld niet kunnen zien of wijzigen, het veld kan dan alleen gewijzigd worden door beheerders.',
 
 	'INVALID_CHARS_FIELD_IDENT'	=> 'Veldidentificatie kan alleen kleine letters a-z en _ bevatten',
 	'INVALID_FIELD_IDENT_LEN'	=> 'Veldidentificatie kan alleen 17 tekens lang zijn',
