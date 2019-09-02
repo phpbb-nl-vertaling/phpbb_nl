@@ -97,6 +97,7 @@ $lang = array_merge($lang, array(
 	'FORUM_LINK_TRACK_EXPLAIN'			=> 'Slaat op hoeveel keer er op een forumlink is geklikt.',
 	'FORUM_NAME'						=> 'Forumnaam',
 	'FORUM_NAME_EMPTY'					=> 'Je moet een naam invoeren voor dit forum.',
+	'FORUM_NAME_EMOJI'					=> 'De ingevoerde forumnaam is ongeldig. <br>De volgende gebruikte karakters worden niet ondersteund:<br>%s',
 	'FORUM_PARENT'						=> 'Hoofdforum',
 	'FORUM_PASSWORD'					=> 'Forumwachtwoord',
 	'FORUM_PASSWORD_CONFIRM'			=> 'Bevestig forumwachtwoord',
