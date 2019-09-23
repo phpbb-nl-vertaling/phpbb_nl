@@ -85,6 +85,7 @@ $lang = array_merge($lang, [
 	'STYLE_VERSION'				=> 'Stijlversie',
 
 	'UNINSTALL_DEFAULT'		=> 'Je kan de standaard stijl niet verwijderen.',
+	'UNINSTALL_PROSILVER'						=> 'Je kan de stijl “prosilver” niet verwijderen.',
 
 	'BROWSE_STYLES_DATABASE'	=> 'Blader door de stijlendatabase',
 ]);
