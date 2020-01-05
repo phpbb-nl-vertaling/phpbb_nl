@@ -52,6 +52,8 @@ $lang = array_merge($lang, array(
 	'DISABLE_BOARD_EXPLAIN'			=> 'Dit zal het forum niet beschikbaar maken voor gebruikers die geen beheerders of moderators zijn. Je kunt ook een kort (255 tekens) bericht invoeren dat wordt weergegeven indien gewenst.',
 	'DISPLAY_LAST_SUBJECT'			=> 'Geef onderwerp van laatst toegevoegde bericht weer op forumlijst',
 	'DISPLAY_LAST_SUBJECT_EXPLAIN'	=> 'Het onderwerp van het laatst toegevoegde bericht zal weergegeven worden op de forumlijst met een link naar het bericht. Onderwerpen van forums die met een wachtwoord zijn beveiligd en forums waarvan de gebruiker geen leespermissies heeft, zullen niet worden weergegeven.',
+	'DISPLAY_UNAPPROVED_POSTS'		=> 'Weergeef niet goedgekeurde berichten aan de auteur.',
+	'DISPLAY_UNAPPROVED_POSTS_EXPLAIN'	=> 'Niet goedgekeurde berichten kunnen alleen bekekenworden door de auteur. Is niet van toepassing op berichten van gasten.',
 	'GUEST_STYLE'					=> 'Gaststijl',
 	'GUEST_STYLE_EXPLAIN'			=> 'De forumstijl voor gasten.',
 	'OVERRIDE_STYLE'				=> 'Overschrijf gebruikersstijl',
@@ -437,7 +439,7 @@ $lang = array_merge($lang, array(
 	'AUTH_PROVIDER_OAUTH_TITLE'					=> 'OAuth',
 	'AUTH_PROVIDER_OAUTH_SECRET'				=> 'Geheim',
 
-	'APACHE_SETUP_BEFORE_USE'	=> 'Je moet apache authenticatie instellen voordat je phpBB naar deze authenticatie methode schakelt. Onthoud dat de gebruikersnaam die je gebruikt voor apache authenticatie gelijk moet zijn als je phpBB gebruikersnaam. Apache authenticatie kan alleen gebruikt worden met mod_php (niet met een CGI versie) en safe_mode uitgeschakeld.',
+	'APACHE_SETUP_BEFORE_USE'	=> 'Je moet apache authenticatie instellen voordat je phpBB naar deze authenticatie methode schakelt. Onthoud dat de gebruikersnaam die je gebruikt voor apache authenticatie gelijk moet zijn als je phpBB gebruikersnaam. Apache authenticatie kan alleen gebruikt worden met mod_php (niet met een CGI versie).',
 
 	'LDAP'							=> 'LDAP',
 	'LDAP_DN'						=> 'LDAP-base <var>dn</var>',

@@ -78,8 +78,6 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'Geschat aantal records om per keer te verwerken',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RESUME'		=> 'Start opnieuw parsen op het punt dat de vorige operatie stopte.',
 
-	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'	=> 'Herberekend de “user_email_hash”-kolom van de “users”-tabel.',
-
 	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'			=> 'Stelt een configuratie-optie waarde alleen in, als de oude waarde overeenkomt met de nieuwe waarde.',
 	'CLI_DESCRIPTION_SET_CONFIG'				=> 'Stelt een configuratie-optie waarde in',
 
@@ -130,7 +128,6 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_ENABLED'			=> 'Ingeschakeld',
 
 	'CLI_FIXUP_FIX_LEFT_RIGHT_IDS_SUCCESS'		=> 'Structuur van forums en modules succesvol gerepareerd.',
-	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Alle “email-hashes” succesvol herberekend.',
 	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'		=> 'Verouderde hashes van wachtwoorden succesvol bijgewerkt naar bcrypt.',
 
 	'CLI_MIGRATION_NAME'					=> 'Migratienaam, inclusief namespace (gebruik slash (/) in plaats van backslash om problemen te voorkomen).',

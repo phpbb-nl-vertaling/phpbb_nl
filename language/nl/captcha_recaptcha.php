@@ -43,10 +43,10 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_INCORRECT'			=> 'De oplossing die je hebt ingevoerd is onjuist',
 	'RECAPTCHA_NOSCRIPT'			=> 'Schakel JavaScript in om de uitdaging te kunnen laden.',
 
-	'RECAPTCHA_PUBLIC'				=> 'Publieke reCaptcha-sleutel',
-	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Je publieke reCaptcha-sleutel. Sleutels kunnen verkregen worden via <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
-	'RECAPTCHA_PRIVATE'				=> 'Privé reCaptcha-sleutel',
-	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Je privé reCaptcha-sleutel. Sleutels kunnen verkregen worden via <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_PUBLIC'				=> 'Site sleutel',
+	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Je reCaptcha site-sleutel. Sleutels kunnen verkregen worden via <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>. Gebruik hiervoor reCAPTCHA v2 &gt; Invisible reCAPTCHA badge als type.',
+	'RECAPTCHA_PRIVATE'				=> 'Privé sleutel',
+	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Je reCaptcha privé-sleutel. Sleutels kunnen verkregen worden via <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>. Gebruik hiervoor reCAPTCHA v2 &gt; Invisible reCAPTCHA badge als type.',
 
-	'RECAPTCHA_EXPLAIN'				=> 'Om geautomatiseerde registraties te voorkomen, vragen wij je om onderstaande uitdaging op te lossen.',
+	'RECAPTCHA_INVISIBLE'			=> 'Deze CAPTCHA is onzichtbaar. Wanneer deze CAPTCHA werkt, staat er een klein icoon in de beneden rechterhoek van deze pagina.',
 ));

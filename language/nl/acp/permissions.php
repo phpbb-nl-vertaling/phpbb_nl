@@ -53,7 +53,7 @@ $lang = array_merge($lang, array(
 		<p>Deze worden gebruikt om effectieve permissies, toegewezen aan Gebruikers, Moderators (Lokaal en Globaal), Beheerders of Forums te bekijken.</p>
 		<br />
 
-		<p>Voor meer informatie over het opzetten en beheren van permissies op je phpBB3 forum lees je <a href="https://www.phpbb.com/support/docs/en/3.2/ug/quickstart/permissions/">Hoofdstuk 1.5 van onze Snelle Start Gids</a> (Engelstalig).</p>
+		<p>Voor meer informatie over het opzetten en beheren van permissies op je phpBB3 forum lees je <a href="https://www.phpbb.com/support/docs/en/3.3/ug/quickstart/permissions/">Hoofdstuk 1.5 van onze Snelle Start Gids</a> (Engelstalig).</p>
 	',
 
 	'ACL_NEVER'				=> 'Nooit',
