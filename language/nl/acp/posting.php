@@ -56,7 +56,6 @@ $lang = array_merge($lang, array(
 
 	'BBCODE_INVALID_TAG_NAME'	=> 'De BBCode-tagnaam, die je hebt ingevoerd, bestaat al.',
 	'BBCODE_INVALID'			=> 'Je BBCode is aangemaakt in een ongeldig wijze.',
-	'BBCODE_OPEN_ENDED_TAG'		=> 'Je eigen BBCode moet zowel een open- als sluittag hebben.',
 	'BBCODE_TAG'				=> 'Tag',
 	'BBCODE_TAG_TOO_LONG'		=> 'De tagnaam die je hebt ingevoerd is te lang.',
 	'BBCODE_TAG_DEF_TOO_LONG'	=> 'De tagdefinitie die je hebt ingevoerd is te lang, vul een kortere tagdefinitie in.',
@@ -78,13 +77,13 @@ $lang = array_merge($lang, array(
 	'TOO_MANY_BBCODES'		=> 'Je kunt niet méér BBCodes aanmaken. Verwijder één of meerdere BBCodes en probeer het opnieuw.',
 
 	'tokens'	=>	array(
-		'TEXT'			=> 'Iedere tekst, inclusief buitenlandse karakters, nummers, etc… Je kunt dit token beter niet gebruiken in HTML tags. Probeer in plaats daarvan IDENTIFIER, INTTEXT of SIMPLETEXT te gebruiken.',
+		'TEXT'			=> 'Iedere tekst, inclusief buitenlandse karakters, nummers, etc…',
 		'SIMPLETEXT'	=> 'Karakters uit het latijnse alfabet (A-Z), nummers, spaties, komma‘s, punten, minus, plus, koppelteken en underscore',
 		'INTTEXT'		=> 'Unicode letter karakters, nummers, spaties, komma‘s, punten, minus, plus, koppelteken, underscore en whitespaces.',
 		'IDENTIFIER'	=> 'Karakters uit het latijnse alfabet (A-Z), nummers, koppelteken en underscore',
 		'NUMBER'		=> 'Iedere serie van cijfers',
 		'EMAIL'			=> 'Een geldig e-mailadres',
-		'URL'			=> 'Een geldige URL die een protocol gebruikt (http, ftp, etc… kan niet gebruikt worden voor javascript exploits). Als er niks is opgegeven zal “http://” worden toegevoegd aan de reeks.',
+		'URL'			=> 'Een geldige URL die een bescikbaar protocol gebruikt (http, ftp, etc… kan niet gebruikt worden voor javascript exploits). Als er niks is opgegeven zal “http://” worden toegevoegd aan de reeks.',
 		'LOCAL_URL'		=> 'Een lokale URL. De URL moet relatief zijn aan de onderwerpenpagina en kan geen servernaam of protocol bevatten omdat linken worden aangemaakt met “%s” als begin',
 		'RELATIVE_URL'	=> 'Een relatieve URL. Je kunt dit gebruiken om delen van een URL te herleiden maar wees voorzichtig: een volledige URL is een geldige relatieve URL. Wanneer je relatieve URL’s wil gebruiken voor je forum, gebruik dan de LOCAL_URL token.',
 		'COLOR'			=> 'Een HTML kleur, kan geschreven worden in numerieke vorm <samp>#FF1234</samp> of als een <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS kleur sleutelwoord</a> zoals <samp>fuchsia</samp> of <samp>InactiveBorder</samp>'
