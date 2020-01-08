@@ -45,8 +45,8 @@ $lang = array_merge($lang, array(
 
 	'RECAPTCHA_PUBLIC'				=> 'Site sleutel',
 	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Je reCaptcha site-sleutel. Sleutels kunnen verkregen worden via <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>. Gebruik hiervoor reCAPTCHA v2 &gt; Invisible reCAPTCHA badge als type.',
-	'RECAPTCHA_PRIVATE'				=> 'Privé sleutel',
+	'RECAPTCHA_PRIVATE'				=> 'Privésleutel',
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Je reCaptcha privé-sleutel. Sleutels kunnen verkregen worden via <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>. Gebruik hiervoor reCAPTCHA v2 &gt; Invisible reCAPTCHA badge als type.',
 
-	'RECAPTCHA_INVISIBLE'			=> 'Deze CAPTCHA is onzichtbaar. Wanneer deze CAPTCHA werkt, staat er een klein icoon in de beneden rechterhoek van deze pagina.',
+	'RECAPTCHA_INVISIBLE'			=> 'Deze CAPTCHA is onzichtbaar. Wanneer deze CAPTCHA werkt, staat er een klein icoon in de rechterbenedenhoek van deze pagina.',
 ));
