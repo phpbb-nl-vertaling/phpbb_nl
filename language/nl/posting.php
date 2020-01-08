@@ -258,7 +258,7 @@ $lang = array_merge($lang, array(
 	'TOO_MANY_CHARS'			=> 'Je bericht bevat te veel tekens.',
 	'TOO_MANY_CHARS_LIMIT'		=> array(
 		2	=> 'Het maximaal aantal tekens dat is toegestaan is %1$d.',
- 	),
+	),
 	'TOO_MANY_POLL_OPTIONS'		=> 'Je hebt geprobeerd te veel peilingopties in te voeren.',
 	'TOO_MANY_SMILIES'			=> 'Je bericht bevat te veel smilies. Een maximum van %d smilies zijn toegestaan.',
 	'TOO_MANY_URLS'				=> 'Je bericht bevat te veel URL’s. Een maximum van %d URL’s zijn toegestaan.',
@@ -266,7 +266,6 @@ $lang = array_merge($lang, array(
 	'TOPIC_BUMPED'				=> 'Onderwerp is succesvol omhoog gehaald.',
 
 	'UNAUTHORISED_BBCODE'		=> 'Je kunt de volgende BBCodes niet gebruiken: %s.',
-	'UNGLOBALISE_EXPLAIN'		=> 'Om dit onderwerp terug te zetten van algemeen naar normaal onderwerp, moet je het forum selecteren waarin dit onderwerp geplaatst zal worden.',
 	'UNSUPPORTED_CHARACTERS_MESSAGE' => 'Je bericht bevat de volgende tekens die niet worden ondersteund:<br />%s',
 	'UNSUPPORTED_CHARACTERS_SUBJECT' => 'Je onderwerp bevat de volgende tekens die niet worden ondersteund:<br />%s',
 	'UPDATE_COMMENT'			=> 'Werk reactie bij',

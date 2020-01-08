@@ -225,16 +225,6 @@ $lang = array_merge($lang, array(
 	'ADM_LOGGED_OUT'		=> 'Succesvol afgemeld van het beheerderspaneel',
 
 	'BACK'					=> 'Terug',
-	
-	'CANNOT_CHANGE_FILE_GROUP'			=> 'Kan bestandsgroep niet veranderen',
-	'CANNOT_CHANGE_FILE_PERMISSIONS'	=> 'Kan bestandspermissies niet veranderen',
-	'CANNOT_COPY_FILES'					=> 'Kan bestanden niet kopieren',
-	'CANNOT_CREATE_SYMLINK'				=> 'Kan geen symlink aanmaken',
-	'CANNOT_DELETE_FILES'				=> 'Kan geen bestanden verwijderen van het systeem',
-	'CANNOT_DUMP_FILE'					=> 'Kan het bestand niet opslaan',
-	'CANNOT_MIRROR_DIRECTORY'			=> 'Kan geen kopie van de map maken',
-	'CANNOT_RENAME_FILE'				=> 'Kan een bestand van het systeem niet hernoemen',
-	'CANNOT_TOUCH_FILES'				=> 'Kan niet vaststellen of het bestand bestaat',
 
 	'CONTAINER_EXCEPTION'=> 'phpBB is een foutmelding tegengekomen tijdens het bouwen van de container, veroorzaakt door een geïnstalleerde extensie. Om deze reden zijn alle extensies tijdelijk uitgeschakeld. Probeer de cache van je forum te legen. Alle extensies worden automatische ingeschakeld als de foutmelding is opgelost. Als deze foutmelding zich blijft voordoen, bezoek dan ons support forum via <a href="http://www.phpbb.nl/forums/index.php">phpbb.nl</a>.',
 	'EXCEPTION'=> 'Uitzondering',

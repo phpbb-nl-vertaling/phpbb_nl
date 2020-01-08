@@ -70,7 +70,7 @@ $lang = array_merge($lang, array(
 
 		<p>phpBB3 ondersteunt de volgende databases:</p>
 		<ul>
-			<li>MySQL 3.23 of hoger (MySQLi-ondersteuning)</li>
+			<li>MySQL 4.1.3 of hoger (MySQLi-ondersteuning)</li>
 			<li>PostgreSQL 8.3+</li>
 			<li>SQLite 3.6.15+</li>
 			<li>MS SQL Server 2000 of hoger (direct of met ODBC)</li>
@@ -105,7 +105,7 @@ $lang = array_merge($lang, array(
 
 	// Server requirements
 	'PHP_VERSION_REQD'					=> 'PHP-versie',
-	'PHP_VERSION_REQD_EXPLAIN'			=> 'phpBB vereist PHP versie 5.4.0 of hoger.',
+	'PHP_VERSION_REQD_EXPLAIN'			=> 'phpBB vereist PHP versie 7.1.3 of hoger.',
 	'PHP_GETIMAGESIZE_SUPPORT'			=> 'PHP-functie getimagesize() is beschikbaar',
 	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> '<strong>Vereist</strong> - Om phpBB correct te laten functioneren, zal de getimagesize-functie beschikbaar moeten zijn.',
 	'PCRE_UTF_SUPPORT'				=> 'Ondersteuning voor PCRE UTF-8',
@@ -186,7 +186,6 @@ $lang = array_merge($lang, array(
 	// Database options
 	'DB_OPTION_MSSQL_ODBC'	=> 'MSSQL Server 2000+ via ODBC',
 	'DB_OPTION_MSSQLNATIVE'	=> 'MSSQL Server 2005+ [ Native ]',
-	'DB_OPTION_MYSQL'		=> 'MySQL',
 	'DB_OPTION_MYSQLI'		=> 'MySQL met MySQLi Extensie',
 	'DB_OPTION_ORACLE'		=> 'Oracle',
 	'DB_OPTION_POSTGRES'	=> 'PostgreSQL',
@@ -564,7 +563,7 @@ $lang = array_merge($lang, array(
 
 	// Finish conversion
 	'CONVERT_COMPLETE'			=> 'Conversie compleet',
-	'CONVERT_COMPLETE_EXPLAIN'	=> 'Je hebt succesvol je forum geconverteerd naar phpBB 3.2. Je kunt je nu <a href="../">aanmelden op je forum</a>. Voordat je de install-map verwijderd en je forum ingeschakeld, controleer of alle instellingen correct zijn overgezet. Online hulp is beschikbaar via de volgende Nederlandstalige support-website <a href="http://www.phpbb.nl/">phpBB.nl</a>.',
+	'CONVERT_COMPLETE_EXPLAIN'	=> 'Je hebt succesvol je forum geconverteerd naar phpBB 3.3. Je kunt je nu <a href="../">aanmelden op je forum</a>. Voordat je de install-map verwijderd en je forum ingeschakeld, controleer of alle instellingen correct zijn overgezet. Online hulp is beschikbaar via de volgende Nederlandstalige support-website <a href="http://www.phpbb.nl/">phpBB.nl</a>.',
 
 	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'FTP-upload voor bijlagen is ingeschakeld op het oude forum. Schakel de FTP-uploadoptie uit en zorg ervoor dat je een geldige uploadmap opgeeft, kopieer daarna alle bijlagenbestanden naar de nieuwe web toegankelijke map. Wanneer je dit hebt gedaan, herstart je de convertor.',
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'Er is geen configuratie-informatie beschikbaar voor de conversie.',

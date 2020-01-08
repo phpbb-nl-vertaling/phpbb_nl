@@ -68,7 +68,6 @@ $lang = array_merge($lang, array(
 	'ATTACH_QUOTA_EXPLAIN'				=> 'Maximum schijfruimte beschikbaar voor bijlagen van het hele forum, met 0 als onbeperkt.',
 	'ATTACH_TO_POST'					=> 'Bestand bijvoegen aan bericht',
 
-	'CAT_FLASH_FILES'			=> 'Flash-bestanden',
 	'CAT_IMAGES'				=> 'Afbeeldingen',
 	'CHECK_CONTENT'				=> 'Controleer bijlage bestanden',
 	'CHECK_CONTENT_EXPLAIN'		=> 'Sommige browsers kunnen een incorrecte mimetype voor geüploade bestanden aannemen. Deze optie verzekerd je ervan dat bestanden die dit veroorzaken worden afgewezen.',
@@ -99,7 +98,6 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_ARCHIVES'			=> 'Archieven',
 	'EXT_GROUP_DOCUMENTS'			=> 'Documenten',
 	'EXT_GROUP_DOWNLOADABLE_FILES'	=> 'Downloadbare bestanden',
-	'EXT_GROUP_FLASH_FILES'			=> 'Flash-bestanden',
 	'EXT_GROUP_IMAGES'				=> 'Afbeeldingen',
 	'EXT_GROUP_PLAIN_TEXT'			=> 'Platte tekst',
 	
