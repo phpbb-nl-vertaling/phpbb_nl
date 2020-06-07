@@ -226,7 +226,7 @@ $lang = array_merge($lang, array(
 
 	'BACK'					=> 'Terug',
 
-	'CONTAINER_EXCEPTION'=> 'phpBB is een foutmelding tegengekomen tijdens het bouwen van de container, veroorzaakt door een geïnstalleerde extensie. Om deze reden zijn alle extensies tijdelijk uitgeschakeld. Probeer de cache van je forum te legen. Alle extensies worden automatische ingeschakeld als de foutmelding is opgelost. Als deze foutmelding zich blijft voordoen, bezoek dan ons support forum via <a href="http://www.phpbb.nl/forums/index.php">phpbb.nl</a>.',
+	'CONTAINER_EXCEPTION'=> 'phpBB is een foutmelding tegengekomen tijdens het bouwen van de container, veroorzaakt door een geïnstalleerde extensie. Om deze reden zijn alle extensies tijdelijk uitgeschakeld. Probeer de cache van je forum te legen. Alle extensies worden automatische ingeschakeld als de foutmelding is opgelost. Als deze foutmelding zich blijft voordoen, bezoek dan ons support forum via <a href="https://www.phpbb.nl/forums/index.php">phpbb.nl</a>.',
 	'EXCEPTION'=> 'Uitzondering',
 
 	'COLOUR_SWATCH'			=> 'Webveilig kleurenpalet',
@@ -445,7 +445,7 @@ $lang = array_merge($lang, array(
 	'VIEW_INACTIVE_USERS'		=> 'Bekijk inactieve gebruikers',
 
 	'WELCOME_PHPBB'			=> 'Welkom bij phpBB',
-	'WRITABLE_CONFIG'		=> 'Je config-bestand (config.php) is momenteel wereldwijd-schrijfbaar. We raden sterk aan om de permissies te veranderen naar 640 of minstens naar 644 (bijvoorbeeld: <a href="http://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
+	'WRITABLE_CONFIG'		=> 'Je config-bestand (config.php) is momenteel wereldwijd-schrijfbaar. We raden sterk aan om de permissies te veranderen naar 640 of minstens naar 644 (bijvoorbeeld: <a href="https://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
 ));
 
 // Inactive Users
