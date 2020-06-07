@@ -41,7 +41,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'	=> 'Nederlandse vertaling door <a href="http://www.phpbb.nl/">phpBB.nl</a>.',
+	'TRANSLATION_INFO'	=> 'Nederlandse vertaling door <a href="https://www.phpbb.nl/">phpBB.nl</a>.',
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'		=> '|d M Y|',	// 01 Jan 2007 (with Relative days enabled)
 	'DATETIME_FORMAT'	=> '|d M Y, H:i|',	// 01 Jan 2007, 13:37 (with Relative days enabled)
@@ -185,7 +185,7 @@ $lang = array_merge($lang, array(
 	'COOKIE_CONSENT_INFO'	=> 'Meer informatie',
 	'COOKIE_CONSENT_MSG'	=> 'Deze website maakt gebruik van cookies om de beste surfervaring te kunnen bieden.',
 	'COOKIE_CONSENT_OK'		=> 'Begrepen!',
-	'COOKIE_CONSENT_HREF'	=> 'http://cookiesandyou.com',
+	'COOKIE_CONSENT_HREF'	=> 'https://cookiesandyou.com',
 	'COOKIES_DELETED'		=> 'Alle forumcookies succesvol verwijderd.',
 	'CURRENT_TIME'			=> 'Het is momenteel %s',
 
