@@ -87,6 +87,7 @@ $lang = array_merge($lang, array(
 	'RESULT_DAYS'			=> 'Zoek in berichten van afgelopen',
 	'RESULT_SORT'			=> 'Sorteer resultaten op',
 	'RETURN_FIRST'			=> 'Geef eerste',
+	'RETURN_FIRST_EXPLAIN'		=> 'Zet op 0 om het volledige bericht weer te geven.',
 	'GO_TO_SEARCH_ADV'		=> 'Ga naar uitgebreid zoeken',
 
 	'SEARCHED_FOR'				=> 'Gebruikte zoekterm',
