@@ -109,7 +109,12 @@ $lang = array_merge($lang, array(
 
 	'IMAGE_LINK_SIZE'			=> 'Afbeelding koppeling afmeting',
 	'IMAGE_LINK_SIZE_EXPLAIN'	=> 'Geef afbeeldingsbijlage weer als een inline tekst koppeling als de afbeelding groter is dan dit. Om dit gedrag uit te schakelen, stel dan de waarde in op 0px bij 0px.',
+	'IMAGE_QUALITY'				=> 'Kwaliteit geüploade afbeeldingen (alleen JPEG)',
+	'IMAGE_QUALITY_EXPLAIN'		=> 'Voer een waarde tussen 50% (kleinere bestandsgrootte) en 90% (hogere kwaliteit) in. Een kwaliteitswaarde boven de 90% verhoogd de bestandsgrootte zo erg dat het niet toegestaan is. Deze instelling wordt alleen gebruikt wanneer de maximale afbeeldingsdimensies op elke andere waarde behalve 0px bij 0px staat.',
+	'IMAGE_STRIP_METADATA'		=> 'Strip afbeeldingsmetadata (alleen JPEG)',
+	'IMAGE_STRIP_METADATA_EXPLAIN'	=> 'Verwijder Exif metadata van het bestand, zoals de naam van de auteur, GPS-coordinaten en de instellingen van de camera. Deze instelling wordt alleen gebruikt wanneer de maximale afbeeldingsdimensies op elke andere waarde behalve 0px bij 0px staat.',
 
+	'MAX_ATTACHMENTS'				=> 'Maximum aantal bijlagen per bericht',
 	'MAX_ATTACHMENTS'				=> 'Maximum aantal bijlagen per bericht',
 	'MAX_ATTACHMENTS_PM'			=> 'Maximum aantal bijlagen per privébericht',
 	'MAX_EXTGROUP_FILESIZE'			=> 'Maximum bestandsgrootte',
@@ -127,6 +132,8 @@ $lang = array_merge($lang, array(
 	'NOT_ASSIGNED'				=> 'Niet toegewezen',
 	'NO_ATTACHMENTS'			=> 'Geen bijlagen gevonden voor deze periode.',
 	'NO_EXT_GROUP'				=> 'Geen',
+	'NO_EXT_GROUP_ALLOWED_PM'		=> 'Er zijn geen <a href="%s">toegestane extensiegroepen</a> voor bijlagen in privéberichten.',
+	'NO_EXT_GROUP_ALLOWED_POST'		=> 'Er zijn geen <a href="%s">toegestane extensiegroepen</a> voor bijlagen in berichten.',
 	'NO_EXT_GROUP_NAME'			=> 'Geen groepsnaam ingevoerd',
 	'NO_EXT_GROUP_SPECIFIED'	=> 'Geen extensiegroep opgegeven.',
 	'NO_FILE_CAT'				=> 'Geen',
