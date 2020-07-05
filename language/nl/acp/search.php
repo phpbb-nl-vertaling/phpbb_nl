@@ -49,6 +49,8 @@ $lang = array_merge($lang, array(
 	'CONTINUE_INDEXING_EXPLAIN'				=> 'Een indexproces is gestart. Om toegang te krijgen tot de zoekindexpagina zul je dit moeten voltooien of afbreken.',
 	'CREATE_INDEX'							=> 'Index aanmaken',
 
+	'DEFAULT_SEARCH_RETURN_CHARS'			=> 'Standaardaantal getoonde karakters',
+	'DEFAULT_SEARCH_RETURN_CHARS_EXPLAIN'		=> 'Het standaardaantal karakters dat bij het zoeken van een bericht getoond zal worden. Bij een waarde van 0 zal altijd het volledige bericht getoond worden.',
 	'DELETE_INDEX'							=> 'Index verwijderen',
 	'DELETING_INDEX_IN_PROGRESS'			=> 'Het verwijderen van de index is bezig',
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'De zoektechniek is momenteel zijn index aan het opschonen. Dit kan enkele minuten duren.',
