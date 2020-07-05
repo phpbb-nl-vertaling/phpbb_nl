@@ -93,7 +93,6 @@ $lang = array_merge($lang, array(
 	'FIELD_DESCRIPTION'			=> 'Veldbeschrijving',
 	'FIELD_DESCRIPTION_EXPLAIN'	=> 'De uitleg voor dit veld wat weergegeven wordt aan de gebruiker.',
 	'FIELD_DROPDOWN'			=> 'Dropdown box',
-	'FIELD_GOOGLEPLUS'		 => 'Google+',
 	'FIELD_IDENT'				=> 'Veldidentificatie',
 	'FIELD_IDENT_ALREADY_EXIST'	=> 'De gekozen veldidentificatie bestaat al. Kies een andere naam.',
 	'FIELD_IDENT_EXPLAIN'		=> 'De veldidentificatie is een naam om het profielveld te identificeren in de database en in de template.',
