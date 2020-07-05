@@ -168,6 +168,7 @@ $lang = array_merge($lang, array(
 	),
 	'COLLAPSE_VIEW'			=> 'Weergave inklappen',
 	'CLOSE_WINDOW'			=> 'Sluit venster',
+	'CODE'					=> 'Code',
 	'COLOUR_SWATCH'			=> 'Kleurenpalet',
 	'COLON'					=> ':',
 	'COMMA_SEPARATOR'		=> ', ',	// Comma used to join lists into a single string, use localised comma if appropriate, eg: Ideographic or Arabic
@@ -205,6 +206,7 @@ $lang = array_merge($lang, array(
 	'DISPLAY_MESSAGES'		=> 'Toon berichten van afgelopen',
 	'DISPLAY_POSTS'			=> 'Toon berichten van afgelopen',
 	'DISPLAY_TOPICS'		=> 'Toon onderwerpen van afgelopen',
+	'DOMAIN_NO_MX_RECORD_EMAIL'	=> 'Het ingevoerde e-mailadres heeft geen valide MX record.',
 	'DOWNLOADED'			=> 'Gedownload',
 	'DOWNLOADING_FILE'		=> 'Bestand wordt gedownload',
 	'DOWNLOAD_COUNTS'		=> array(
@@ -309,7 +311,6 @@ $lang = array_merge($lang, array(
 	'GB'						=> 'GB',
 	'GIB'						=> 'GiB',
 	'GO'						=> 'Ga',
-	'GOOGLEPLUS'				=> 'Google+',
 	'GOTO_FIRST_POST'			=> 'Ga naar eerste bericht',
 	'GOTO_LAST_POST'			=> 'Ga naar laatste bericht',
 	'GOTO_PAGE'					=> 'Ga naar pagina',
@@ -619,8 +620,11 @@ $lang = array_merge($lang, array(
 	'POST_TOPIC'			=> 'Plaats een nieuw onderwerp',
 	'POST_UNAPPROVED_ACTION'=> 'Bericht wacht op goedkeuring:',
 	'POST_UNAPPROVED'		=> 'Dit bericht is nog niet goedgekeurd.',
-    'POST_UNAPPROVED_EXPLAIN'	=> 'Dit bericht is niet zichtbaar voor andere gebruikers totdat het is goedgekeurd door een moderator.',
-    'POWERED_BY'			=> 'Powered by %s',
+    	'POST_UNAPPROVED_EXPLAIN'	=> 'Dit bericht is niet zichtbaar voor andere gebruikers totdat het is goedgekeurd door een moderator.',
+   	'POWERED_BY'			=> 'Powered by %s',
+	
+	'QUOTE'					=> 'Citeer',
+	
 	'PREVIEW'				=> 'Voorbeeld',
 	'PREVIOUS'				=> 'Vorige',		// Used in pagination
 	'PREVIOUS_STEP'			=> 'Vorige',
