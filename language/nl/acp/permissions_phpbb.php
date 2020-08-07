@@ -79,6 +79,7 @@ $lang = array_merge($lang, array(
 	'ACL_U_SAVEDRAFTS'	=> 'Kan concepten opslaan',
 	'ACL_U_CHGCENSORS'	=> 'Kan woordcensuur uitschakelen',
 	'ACL_U_SIG'			=> 'Kan onderschrift gebruiken',
+    'ACL_U_EMOJI'		=> 'Kan emoji en UTF-8 tekens gebruiken in onderwerpen',
 
 	'ACL_U_SENDPM'		=> 'Kan privéberichten versturen',
 	'ACL_U_MASSPM'		=> 'Kan privéberichten naar meerdere gebruikers versturen',

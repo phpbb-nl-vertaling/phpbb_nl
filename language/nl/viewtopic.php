@@ -49,8 +49,6 @@ $lang = array_merge($lang, array(
 	'BUMPED_BY'				=> 'Laatst omhoog gehaald door %1$s op %2$s.',
 	'BUMP_TOPIC'			=> 'Onderwerp omhoog halen',
 
-	'CODE'					=> 'Code',
-
 	'DELETE_TOPIC'			=> 'Onderwerp verwijderen',
 	'DELETED_INFORMATION'	=> 'Verwijderd door %1$s op %2$s',
 	'DISAPPROVE'			=> 'Afkeuren',
@@ -98,8 +96,6 @@ $lang = array_merge($lang, array(
 
 	'QUICK_MOD'				=> 'Snelle moderatiehulpmiddelen',
 	'QUICKREPLY'			=> 'Snelle reactie',
-	'QUOTE'					=> 'Citeer',
-
 	'REPLY_TO_TOPIC'		=> 'Reageer op onderwerp',
 	'RESTORE'				=> 'Terugbrengen',
 	'RESTORE_TOPIC'			=> 'Onderwerp terugbrengen',

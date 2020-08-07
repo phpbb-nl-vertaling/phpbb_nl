@@ -179,7 +179,6 @@ $lang = array_merge($lang, array(
 	'DEMOTE_SELECTED'			=> 'Degradeer geselecteerde',
 	'DISABLE_CENSORS'			=> 'Woordcensuur inschakelen',
 	'DISPLAY_GALLERY'			=> 'Galerij weergeven',
-	'DOMAIN_NO_MX_RECORD_EMAIL'	=> 'Het ingevoerde e-maildomein heeft geen geldig MX-record.',
 	'DOWNLOADS'					=> 'Downloads',
 	'DRAFTS_DELETED'			=> 'Alle geselecteerde concepten zijn succesvol verwijderd.',
 	'DRAFTS_EXPLAIN'			=> 'Hier kun je je opgeslagen concepten bekijken, wijzigen en verwijderen.',
