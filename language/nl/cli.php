@@ -48,7 +48,7 @@ $lang = array_merge($lang, array(
 	'CLI_CONFIG_SET_FAILURE'		 	=> 'Kan config %s niet instellen',
 	'CLI_CONFIG_SET_SUCCESS'			=> 'Config %s succesvol ingesteld',
 
-	'CLI_DESCRIPTION_CRON_LIST'					=> 'Geeft een lijst weer van cronjobs die klaar en niet klaar zijn.',
+	'CLI_DESCRIPTION_CRON_LIST'					=> 'Geeft een lijst weer van voltooide en openstaande cronjobs.',
 	'CLI_DESCRIPTION_CRON_RUN'					=> 'Draait al cronjobs die klaar zijn.',
 	'CLI_DESCRIPTION_CRON_RUN_ARGUMENT_1'		=> 'Naam van de taak die moet worden uitgevoerd',
 	'CLI_DESCRIPTION_DB_LIST'					=> 'Geef alle geïnstalleerde en beschikbare migraties weer.',

@@ -96,7 +96,6 @@ $lang = array_merge($lang, array(
 
 	'QUICK_MOD'				=> 'Snelle moderatiehulpmiddelen',
 	'QUICKREPLY'			=> 'Snelle reactie',
-
 	'REPLY_TO_TOPIC'		=> 'Reageer op onderwerp',
 	'RESTORE'				=> 'Terugbrengen',
 	'RESTORE_TOPIC'			=> 'Onderwerp terugbrengen',

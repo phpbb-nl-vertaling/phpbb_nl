@@ -168,7 +168,7 @@ $lang = array_merge($lang, array(
 	),
 	'COLLAPSE_VIEW'			=> 'Weergave inklappen',
 	'CLOSE_WINDOW'			=> 'Sluit venster',
-	'CODE'					=> 'Code',
+	'CODE'				=> 'Code',
 	'COLOUR_SWATCH'			=> 'Kleurenpalet',
 	'COLON'					=> ':',
 	'COMMA_SEPARATOR'		=> ', ',	// Comma used to join lists into a single string, use localised comma if appropriate, eg: Ideographic or Arabic
@@ -620,7 +620,7 @@ $lang = array_merge($lang, array(
 	'POST_TOPIC'			=> 'Plaats een nieuw onderwerp',
 	'POST_UNAPPROVED_ACTION'=> 'Bericht wacht op goedkeuring:',
 	'POST_UNAPPROVED'		=> 'Dit bericht is nog niet goedgekeurd.',
-    	'POST_UNAPPROVED_EXPLAIN'	=> 'Dit bericht is niet zichtbaar voor andere gebruikers totdat het is goedgekeurd door een moderator.',
+    'POST_UNAPPROVED_EXPLAIN'	=> 'Dit bericht is niet zichtbaar voor andere gebruikers totdat het is goedgekeurd door een moderator.',
    	'POWERED_BY'			=> 'Powered by %s',
 	
 	'QUOTE'					=> 'Citeer',
