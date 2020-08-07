@@ -41,7 +41,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'	=> 'Nederlandse vertaling door <a href="http://www.phpbb.nl/">phpBB.nl</a>.',
+	'TRANSLATION_INFO'	=> 'Nederlandse vertaling door <a href="https://www.phpbb.nl/">phpBB.nl</a>.',
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'		=> '|d M Y|',	// 01 Jan 2007 (with Relative days enabled)
 	'DATETIME_FORMAT'	=> '|d M Y, H:i|',	// 01 Jan 2007, 13:37 (with Relative days enabled)
@@ -168,6 +168,7 @@ $lang = array_merge($lang, array(
 	),
 	'COLLAPSE_VIEW'			=> 'Weergave inklappen',
 	'CLOSE_WINDOW'			=> 'Sluit venster',
+	'CODE'				=> 'Code',
 	'COLOUR_SWATCH'			=> 'Kleurenpalet',
 	'COLON'					=> ':',
 	'COMMA_SEPARATOR'		=> ', ',	// Comma used to join lists into a single string, use localised comma if appropriate, eg: Ideographic or Arabic
@@ -186,7 +187,7 @@ $lang = array_merge($lang, array(
 	'COOKIE_CONSENT_INFO'	=> 'Meer informatie',
 	'COOKIE_CONSENT_MSG'	=> 'Deze website maakt gebruik van cookies om de beste surfervaring te kunnen bieden.',
 	'COOKIE_CONSENT_OK'		=> 'Begrepen!',
-	'COOKIE_CONSENT_HREF'	=> 'http://cookiesandyou.com',
+	'COOKIE_CONSENT_HREF'	=> 'https://cookiesandyou.com',
 	'COOKIES_DELETED'		=> 'Alle forumcookies succesvol verwijderd.',
 	'CURRENT_TIME'			=> 'Het is momenteel %s',
 
@@ -205,6 +206,7 @@ $lang = array_merge($lang, array(
 	'DISPLAY_MESSAGES'		=> 'Toon berichten van afgelopen',
 	'DISPLAY_POSTS'			=> 'Toon berichten van afgelopen',
 	'DISPLAY_TOPICS'		=> 'Toon onderwerpen van afgelopen',
+	'DOMAIN_NO_MX_RECORD_EMAIL'	=> 'Het ingevoerde e-maildomein heeft geen geldig MX-record.',
 	'DOWNLOADED'			=> 'Gedownload',
 	'DOWNLOADING_FILE'		=> 'Bestand wordt gedownload',
 	'DOWNLOAD_COUNTS'		=> array(
@@ -619,8 +621,10 @@ $lang = array_merge($lang, array(
 	'POST_TOPIC'			=> 'Plaats een nieuw onderwerp',
 	'POST_UNAPPROVED_ACTION'=> 'Bericht wacht op goedkeuring:',
 	'POST_UNAPPROVED'		=> 'Dit bericht is nog niet goedgekeurd.',
-    'POST_UNAPPROVED_EXPLAIN'	=> 'Dit bericht is niet zichtbaar voor andere gebruikers totdat het is goedgekeurd door een moderator.',
-    'POWERED_BY'			=> 'Powered by %s',
+  'POST_UNAPPROVED_EXPLAIN'	=> 'Dit bericht is niet zichtbaar voor andere gebruikers totdat het is goedgekeurd door een moderator.',
+	'POWERED_BY'			=> 'Powered by %s',
+	
+	'QUOTE'					=> 'Citeer',
 	'PREVIEW'				=> 'Voorbeeld',
 	'PREVIOUS'				=> 'Vorige',		// Used in pagination
 	'PREVIOUS_STEP'			=> 'Vorige',
