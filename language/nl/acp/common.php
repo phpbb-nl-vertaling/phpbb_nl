@@ -320,8 +320,8 @@ $lang = array_merge($lang, array(
 
 	'SHOW_ALL_OPERATIONS'	=> 'Toon alle activiteiten',
 
-	'TASKS_NOT_READY'		=> 'Geen taken die klaar zijn:',
-	'TASKS_READY'			=> 'Taken die klaar zijn:',
+	'TASKS_NOT_READY'		=> 'Openstaande taken:',
+	'TASKS_READY'			=> 'Voltooide taken:',
 	'TOTAL_SIZE'	 		=> 'Totale grootte',
 
 	'UCP'					=> 'Gebruikerspaneel',
