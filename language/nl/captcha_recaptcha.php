@@ -43,6 +43,8 @@ $lang = array_merge($lang, array(
 
 	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha v2',
 	'CAPTCHA_RECAPTCHA_V3'			=> 'reCaptcha v3',
+	
+	'RECAPTCHA_INCORRECT'			=> 'De oplossing die je hebt ingevoerd is onjuist',
 	'RECAPTCHA_NOSCRIPT'			=> 'Schakel JavaScript in om de uitdaging te kunnen laden.',
 	'RECAPTCHA_NOT_AVAILABLE'		=> 'Om gebruik te kunnen maken van reCaptcha, moet je een account aanmaken op <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'RECAPTCHA_INVISIBLE'			=> 'Deze CAPTCHA is onzichtbaar. Wanneer deze CAPTCHA werkt, staat er een klein icoon in de rechterbenedenhoek van deze pagina.',
