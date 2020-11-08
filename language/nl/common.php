@@ -48,7 +48,7 @@ $lang = array_merge($lang, array(
 	'USER_LANG'			=> 'nl-nl',
 
 	// You can define different rules for the determination of plural forms here.
-	// See https://area51.phpbb.com/docs/dev/32x/language/plurals.html for more information
+	// See https://area51.phpbb.com/docs/dev/3.3.x/language/plurals.html for more information
 	// or ask the translation manager for help.
 	'PLURAL_RULE'		=> 1,
 
@@ -110,6 +110,8 @@ $lang = array_merge($lang, array(
 	'AVATAR_NOT_UPLOADED'			=> 'Avatar kon niet worden geüpload.',
 	'AVATAR_NO_TEMP_DIR'			=> 'Tijdelijke map kan niet gevonden worden of is niet schrijfbaar.',
 	'AVATAR_NO_SIZE'				=> 'De breedte of hoogte van de gekoppelde avatar kon niet worden vastgesteld. Vul ze hier handmatig in.',
+	'AVATAR_NO_UPLOAD_DIR'			=> 'Avataropslaglocatie bestaat niet of is niet schrijfbaar.',
+	'AVATAR_NO_UPLOAD_PATH'			=> 'Het uploaden van avatars is ingeschakeld maar er is op geen opslaglocatie voor avatars ingesteld.',
 	'AVATAR_PARTIAL_UPLOAD'			=> 'Het opgegeven bestand is maar gedeeltelijk geüpload.',
 	'AVATAR_PHP_SIZE_NA'			=> 'De bestandsgrootte van de avatar is te groot.<br />De maximum bestandsgrootte, ingesteld in php.ini, kon niet vastgesteld worden.',
 	'AVATAR_PHP_SIZE_OVERRUN'		=> 'De bestandsgrootte van de avatar is te groot. De maximum bestandsgrootte is %1$d %2$s.<br />Let op: dit is ingesteld in php.ini en kan niet worden omzeild.',
@@ -491,6 +493,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_REFERENCE'			=> '"%1$s"',
 	'NOTIFICATION_REASON'				=> '<em>Reden:</em> %1$s.',
 	'NOTIFICATION_REPORT_PM'			=> '<strong>Privébericht gemeld</strong> door %1$s:',
+	'NOTIFICATION_REPORT_PM_CLOSED'		=> '<strong>Melding privébericht gesloten</strong> door %1$s:',
 	'NOTIFICATION_REPORT_POST'			=> '<strong>Bericht gemeld</strong> door %1$s:',
 	'NOTIFICATION_REPORT_CLOSED'		=> '<strong>Melding gesloten</strong> door %1$s vanwege:',
 	'NOTIFICATION_TOPIC'				=> '<strong>Nieuw onderwerp</strong> door %1$s:',
