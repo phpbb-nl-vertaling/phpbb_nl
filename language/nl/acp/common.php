@@ -235,6 +235,7 @@ $lang = array_merge($lang, array(
 	'CRON_NO_SUCH_TASK'		=> 'Kan crontaak “%s” niet vinden.',
 	'CRON_NO_TASK'			=> 'Er hoeven geen crontaken te worden uitgevoerd.',
 	'CRON_NO_TASKS'			=> 'Er kunnen geen crontaken worden gevonden.',
+	'CSV_INVALID'			=> 'De ingevoerde komma-onderbrekingsinstelling “%1$s” is ongeldig. De waarden moeten alleen door kommatekens onderbroken worden, daar hoort niks voor of achter te staan.',
 	'CURRENT_VERSION'		=> 'Huidige versie',
 
 	'DEACTIVATE'				=> 'Deactiveer',
@@ -316,6 +317,7 @@ $lang = array_merge($lang, array(
 
 	'UCP'					=> 'Gebruikerspaneel',
 	'URL_INVALID'			=> 'De ingevoerde URL voor de “%1$s” instelling is ongeldig.',
+	'URL_SCHEME_INVALID'	=> 'Het schema “%2$s” in de komma-onderbroken instelling “%1$s” is ongeldig. Het schema dient te starten met een latin karakter gevolgd door alfanumerieke karakters, liggende streepjes of punten.',
 	'USERNAMES_EXPLAIN'		=> 'Plaats iedere gebruikersnaam op een aparte regel.',
 	'USER_CONTROL_PANEL'	=> 'Gebruikerspaneel',
 	'UPDATE_NEEDED'			=> 'Je installatie is niet actueel.',
