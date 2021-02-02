@@ -6,7 +6,7 @@ Je ontvangt dit bericht omdat een melding van het privébericht "{SUBJECT}" door
 
 Je kan het door jou gemelde privébericht bekijken via de volgende link:
 
-{U_VIEW_POST}
+{U_VIEW_MESSAGE}
 
 Je hebt verzocht hiervan een notificatie te krijgen, mocht je dit niet meer willen dan kan je in de notificatie-instellingen in je Gebruikerspaneel de instellingen hiervoor aanpassen. 
 
