@@ -73,4 +73,6 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_V3_THRESHOLD_REPORT'				=> 'Rapporteren maximumscore',
 	'RECAPTCHA_V3_THRESHOLDS'					=> 'Maximumscores',
 	'RECAPTCHA_V3_THRESHOLDS_EXPLAIN'			=> 'reCAPTCHA v3 geeft een score weer (<samp>1.0</samp> is zeer waarschijnlijk een normale interactie, <samp>0.0</samp> is zeer waarschijnlijk een bot). Hier kan je de maximumscore voor elke actie instellen',
+	
+	'EMPTY_RECAPTCHA_V3_REQUEST_METHOD'			=> 'reCAPTCHA v3 verplicht je om te weten welke manier van verifieren je wilt gebruiken'
 ));
