@@ -370,10 +370,12 @@ $lang = array_merge($lang, array(
 	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'Codering transparante tekens is niet goed ingesteld',
 	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> '<var>mbstring.encoding_translation</var> moet ingesteld zijn op 0. Je kunt de huidige waarde controleren op de <samp>PHP-informatiepagina</samp>.',
 	'ERROR_MBSTRING_HTTP_INPUT'						=> 'Conversie HTTP-invoertekens is niet goed ingesteld',
-	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> '<var>mbstring.http_input</var> moet ingesteld zijn op <samp>pass</samp>. Je kunt de huidige waarde controleren op de <samp>PHP-informatiepagina</samp>.',
+	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> '<var>mbstring.http_input</var> moet leeg worden gelaten. Je kunt de huidige waarde controleren op de <samp>PHP-informatiepagina</samp>.',
 	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'Conversie HTTP-uitvoertekens is niet goed ingesteld',
-	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> moet ingesteld zijn op <samp>pass</samp>. Je kunt de huidige waarde controleren op de <samp>PHP-informatiepagina</samp>.',
-
+	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var>moet leeg worden gelaten. Je kunt de huidige waarde controleren op de <samp>PHP-informatiepagina</samp>.',
+	'ERROR_DEFAULT_CHARSET'							=> 'De standaard encoding is incorrect geconfigureerd',
+	'ERROR_DEFAULT_CHARSET_EXPLAIN'					=> '<var>default_charset</var> moet worden ingesteld op <samp>UTF-8</samp>. Je kunt de huidige waarde controleren op de <samp>PHP-informatiepagina</samp>.',
+	
 	'FILES_PER_DAY'		=> 'Bijlagen per dag',
 	'FORUM_STATS'		=> 'Forumstatistieken',
 
