@@ -48,7 +48,7 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_NOSCRIPT'			=> 'Schakel JavaScript in om de uitdaging te kunnen laden.',
 	'RECAPTCHA_NOT_AVAILABLE'		=> 'Om gebruik te kunnen maken van reCaptcha, moet je een account aanmaken op <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'RECAPTCHA_INVISIBLE'			=> 'Deze CAPTCHA is onzichtbaar. Wanneer deze CAPTCHA werkt, staat er een klein icoon in de rechterbenedenhoek van deze pagina.',
-	'RECAPTCHA_V3_LOGIN_ERROR_ATTEMPTS'	=> 'Je hebt het maximaal aantal login pogingen overschreden.<br> Naast je gebruikersnaam/wachtwoord reCAPTCHA v3 moet ook worden gebruikt voor je sessie.',
+	'RECAPTCHA_V3_LOGIN_ERROR_ATTEMPTS'	=> 'Je hebt het maximaal aantal aanmeldpogingen overschreden.<br>Naast je gebruikersnaam en wachtwoord zal de verborgen reCAPTCHA v3 gebruikt worden om je sessie te valideren.',
 
 	'RECAPTCHA_PUBLIC'				=> 'Site sleutel',
 	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Je reCaptcha site-sleutel. Sleutels kunnen verkregen worden via <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Gebruik hiervoor reCAPTCHA v2 &gt; Invisible reCAPTCHA badge als type.',
