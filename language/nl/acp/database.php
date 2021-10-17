@@ -70,7 +70,6 @@ $lang = array_merge($lang, array(
 	'START_RESTORE'			=> 'Start het herstel',
 	'STORE_AND_DOWNLOAD'	=> 'Bestand opslaan en downloaden',
 	'STORE_LOCAL'			=> 'Bestand opslaan',
-	'STRUCTURE_ONLY'		=> 'Alleen de structuur',
 
 	'TABLE_SELECT'		=> 'Selecteer tabel',
 	'TABLE_SELECT_ERROR'=> 'Je moet minimaal één tabel selecteren.',
