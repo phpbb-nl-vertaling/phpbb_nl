@@ -347,7 +347,7 @@ $lang = array_merge($lang, array(
 // Common updater messages
 $lang = array_merge($lang, array(
 	'UPDATE_INSTALLATION'			=> 'phpBB-installatie bijwerken',
-	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Met deze optie is het mogelijk om je phpBB-installatie bij te werken naar de laatste versie.<br />Tijdens het proces zullen alle bestanden gecontroleerd worden op hun integriteit. Je kunt ook alle verschillen bekijken van de bestanden voordat je gaat bijwerken.<br /><br />De bestandsupdate kun je op twee manieren doen.</p><h2>Handmatige update</h2><p>Met deze update download je alleen je persoonlijke set van gewijzigde bestanden om er zeker van te zijn dat je geen extensies kwijt raakt die je hebt geïnstalleerd. Nadat je dit pakket hebt gedownload, zul je de bestanden handmatig moeten uploaden naar hun correcte plaats in je phpBB-hoofdmap (root), dus waar je het bestand config.php, memberlist etc. kunt terugvinden. Wanneer je dat hebt gedaan, kun je opnieuw een bestandscontrole doen om te zien of de bestanden correct zijn geüpload naar de juiste locatie.</p><h2>Automatische update met de FTP</h2><p>Deze methode is bijna hetzelfde als de eerste maar met deze methode hoef je niet de gewijzigde bestanden te downloaden naar je eigen computer. Dit wordt namelijk gedaan voor je. Om deze methode te gebruiken heb je de FTP-aanmeldgegevens nodig wanneer er naar wordt gevraagd. Wanneer dit klaar is, zul je worden doorgestuurd naar de bestandscontrolemethode die controleert of alles correct is bijgewerkt.<br /><br />',
+	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Met deze optie is het mogelijk om je phpBB-installatie bij te werken naar de laatste versie.<br />Tijdens het proces zullen alle bestanden gecontroleerd worden op hun integriteit. Je kunt ook alle verschillen bekijken van de bestanden voordat je gaat bijwerken.<br /><br />De bestandsupdate kun je op twee manieren doen.</p><h2>Handmatige update</h2><p>Met deze update download je alleen je persoonlijke set van gewijzigde bestanden om er zeker van te zijn dat je geen extensies kwijt raakt die je hebt geïnstalleerd. Nadat je dit pakket hebt gedownload, zul je de bestanden handmatig moeten uploaden naar hun correcte plaats in je phpBB-hoofdmap (root), dus waar je het bestand config.php, memberlist etc. kunt terugvinden. Wanneer je dat hebt gedaan, kun je opnieuw een bestandscontrole doen om te zien of de bestanden correct zijn geüpload naar de juiste locatie.</p><h2>Geavanceerde update met de FTP</h2><p>Deze methode is bijna hetzelfde als de eerste maar met deze methode hoef je niet de gewijzigde bestanden te downloaden naar je eigen computer. Dit wordt namelijk gedaan voor je. Om deze methode te gebruiken heb je de FTP-aanmeldgegevens nodig wanneer er naar wordt gevraagd. Wanneer dit klaar is, zul je worden doorgestuurd naar de bestandscontrolemethode die controleert of alles correct is bijgewerkt.<br /><br />',
 	'UPDATE_INSTRUCTIONS'			=> '
 
 		<h1>Versiemededeling</h1>
@@ -378,12 +378,12 @@ $lang = array_merge($lang, array(
 			<li>Werk je stijl bij<br><br></li>
 		</ul>
 		
-		<h1>Hoe kan ik mijn forum updaten met het Automatische update-pakket?</h1>
+		<h1>Hoe kan ik mijn forum updaten met het Geavanceerde update-pakket?</h1>
 
-		<p>Het Automatische update-pakket is alleen aanbevolen indien de basisbestanden op je forum zijn aangepast. Je kunt je forum ook updaten met de methodes die beschreven zijn in het <a href="../docs/INSTALL.html">INSTALL.html</a>-document. De stappen om phpBB3 automatisch te updaten zijn als volgt:</p>
+		<p>Het Geavanceerde update-pakket is alleen aanbevolen indien de basisbestanden op je forum zijn aangepast. Je kunt je forum ook updaten met de methodes die beschreven zijn in het <a href="../docs/INSTALL.html">INSTALL.html</a>-document. De stappen om phpBB3 automatisch te updaten zijn als volgt:</p>
 
 		<ul style="margin-left: 20px; font-size: 1.1em;">
-			<li>Ga naar de downloadspagina van <a href="https://www.phpbb.nl/downloads/" title="http://www.phpbb.nl/downloads/">phpBB.nl</a> en download het "Automatisch update-pakket".</li>
+			<li>Ga naar de downloadspagina van <a href="https://www.phpbb.nl/downloads/" title="http://www.phpbb.nl/downloads/">phpBB.nl</a> en download het "Geavandceerde update-pakket".</li>
 			<li>Pak het archiefbestand uit.</li>
 			<li>Upload de uitgepakte "install"- en "vendor"-mappen naar je phpBB-hoofdmap (waar je config.php staat).<br /><br /></li>
 		</ul>
