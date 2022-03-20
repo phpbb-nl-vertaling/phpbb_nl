@@ -171,4 +171,5 @@ $lang = array_merge($lang, array(
 	'UPLOAD_DIR_EXPLAIN'			=> 'Opslagpad voor bijlagen. Let op dat wanneer je deze map verandert terwijl je al bestanden hebt geüpload, je handmatig de bestanden naar hun nieuwe locatie moet kopiëren.',
 	'UPLOAD_ICON'					=> 'Uploadicoon',
 	'UPLOAD_NOT_DIR'				=> 'De uploadlocatie die je hebt opgegeven lijkt geen map te zijn.',
+	'UPLOAD_POST_NOT_EXIST'			=> 'Het bestand “%1$s” kan niet geupload worden naar post %2$d, doordat die post niet bestaat.',
 ));
