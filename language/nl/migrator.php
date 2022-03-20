@@ -77,5 +77,6 @@ $lang = array_merge($lang, array(
 	'PARENT_MODULE_FIND_ERROR'			=> 'Kan de bovenliggende modulen niet identificeren: %s',
 	'PERMISSION_NOT_EXIST'				=> 'De permissieinstelling “%s” bestaat onverwachts niet.',
 
+	'ROLE_ASSIGNED_NOT_EXIST'			=> 'De permissierol toegewezen aan de groep "%1$s" bestaat niet. Rol id: "%2$s"',
 	'ROLE_NOT_EXIST'					=> 'De permissierol “%s” bestaat onverwachts niet.',
 ));
