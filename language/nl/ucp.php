@@ -229,8 +229,8 @@ $lang = array_merge($lang, array(
 	'FOES_UPDATED'				=> 'Je vijandenlijst is succesvol bijgewerkt.',
 	'FOLDER_ADDED'				=> 'Map succesvol toegevoegd.',
 	'FOLDER_MESSAGE_STATUS'		=> array(
-		1	=> '%2$d van %1$s bericht opgeslagen',
-		2	=> '%2$d van %1$s berichten opgeslagen',
+		1	=> '%2$d van %1$s opgeslagen',
+		2	=> '%2$d van %1$s opgeslagen',
 	),
 	'FOLDER_NAME_EMPTY'			=> 'Je moet een naam invoeren voor deze map.',
 	'FOLDER_NAME_EXIST'			=> 'Map <strong>%s</strong> bestaat al.',
