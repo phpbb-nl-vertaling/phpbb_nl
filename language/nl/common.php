@@ -432,6 +432,7 @@ $lang = array_merge($lang, array(
 	'MESSAGE'				=> 'Bericht',
 	'MESSAGES'				=> 'Berichten',
 	'MESSAGES_COUNT'		=> array(
+		0	=> 'onbeperkte berichten',
 		1	=> '%d bericht',
 		2	=> '%d berichten',
 	),
@@ -606,7 +607,7 @@ $lang = array_merge($lang, array(
 	'POSTS_UNAPPROVED_FORUM'=> 'Tenminste één bericht in dit forum is nog niet goedgekeurd.',
 	'POST_BY_AUTHOR'		=> 'door',
 	'POST_BY_FOE'			=> '<strong>%1$s</strong>, die momenteel op je negeerlijst staat, heeft dit bericht geschreven.',
-	'POST_DISPLAY'			=> '%1$sDit bericht weergeven%2$s.',
+	'POST_DISPLAY'			=> 'Dit bericht weergeven.',
 	'POST_DAY'				=> '%.2f berichten per dag',
 	'POST_DELETED_ACTION'	=> 'Verwijderd bericht:',
 	'POST_DELETED'			=> 'Dit bericht is verwijderd.',
