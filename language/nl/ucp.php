@@ -229,8 +229,8 @@ $lang = array_merge($lang, array(
 	'FOES_UPDATED'				=> 'Je vijandenlijst is succesvol bijgewerkt.',
 	'FOLDER_ADDED'				=> 'Map succesvol toegevoegd.',
 	'FOLDER_MESSAGE_STATUS'		=> array(
-		1	=> '%2$d van %1$s bericht opgeslagen',
-		2	=> '%2$d van %1$s berichten opgeslagen',
+		1	=> '%2$d van %1$s opgeslagen',
+		2	=> '%2$d van %1$s opgeslagen',
 	),
 	'FOLDER_NAME_EMPTY'			=> 'Je moet een naam invoeren voor deze map.',
 	'FOLDER_NAME_EXIST'			=> 'Map <strong>%s</strong> bestaat al.',
@@ -238,8 +238,8 @@ $lang = array_merge($lang, array(
 	'FOLDER_RENAMED'			=> 'Map succesvol hernoemd.',
 	'FOLDER_REMOVED'			=> 'Map succesvol verwijderd.',
 	'FOLDER_STATUS_MSG'			=> array(
-		1	=> '%2$d van de %1$s opgeslagen',
-		2	=> '%2$d van de %1$s opgeslagen',
+		1	=> 'Map is %3$d%% vol (%2$d van %1$s opgeslagen)',
+		2	=> 'Map is %3$d%% vol (%2$d van %1$s opgeslagen)',
 	),
 	'FORWARD_PM'				=> 'PB doorsturen',
 	'FORCE_PASSWORD_EXPLAIN'	=> 'Voordat je door kunt gaan met het bezoeken van het forum, moet je je wachtwoord veranderen.',
