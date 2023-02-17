@@ -737,6 +737,10 @@ $lang = array_merge($lang, array(
 	'LOG_SEARCH_INDEX_CREATED'	=> '<strong>Zoekindex aangemaakt voor</strong><br />» %s',
 	'LOG_SEARCH_INDEX_REMOVED'	=> '<strong>Zoekindex verwijderd voor</strong><br />» %s',
 	'LOG_SPHINX_ERROR'			=> '<strong>Sphinx-fout</strong><br />» %s',
+	
+	'LOG_SPAMHAUS_OPEN_RESOLVER'		=> 'Spamhaus staat het niet toe om bevragen te doen via een open resolver. De blacklist controle is hierom uitgeschakt. Zie voor meer informatie https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/.',
+	'LOG_SPAMHAUS_VOLUME_LIMIT'		=> 'Spamhaus querie limiet is overschreden. De blacklist controle is hierom uitgeschakeld. Zie voor meer informatie https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/.',
+
 	'LOG_STYLE_ADD'				=> '<strong>Nieuwe stijl toegevoegd</strong><br />» %s',
 	'LOG_STYLE_DELETE'			=> '<strong>Stijl verwijderd</strong><br />» %s',
 	'LOG_STYLE_EDIT_DETAILS'	=> '<strong>Stijl gewijzigd</strong><br />» %s',
