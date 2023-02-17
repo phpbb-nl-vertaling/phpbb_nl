@@ -682,6 +682,9 @@ $lang = array_merge($lang, array(
 	'RETURN_TO'					=> 'Terug naar “%s”',
 	'RETURN_TO_INDEX'			=> 'Terug naar het forumoverzicht',
 
+	'ROUTE_NOT_FOUND'				=> 'De opgrevraagde route “%s” kon niet worden gevonden.',
+	'ROUTE_INVALID_MISSING_PARAMS'	=> 'Ongeldige or missende parameters doorgegeven voor route “%s”.',
+	
 	'FEED'						=> 'Feed',
 	'FEED_NEWS'					=> 'Nieuws',
 	'FEED_TOPICS_ACTIVE'		=> 'Actieve onderwerpen',
