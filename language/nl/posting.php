@@ -151,7 +151,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_QUOTE'		=> 'Je moet aangemeld zijn om berichten in dit forum te kunnen citeren.',
 	'LOGIN_EXPLAIN_REPLY'		=> 'Je moet aangemeld zijn om reacties op onderwerpen in dit forum te kunnen schrijven.',
 
-	'MAX_ATTACHMENT_FILESIZE'	=> 'Maximale bestandsgrote per bijlage: %s.',
+	'MAX_ATTACHMENT_FILESIZE'	=> 'Maximale bestandsgrootte per bijlage: %s.',
 	'MAX_FONT_SIZE_EXCEEDED'	=> 'Je mag alleen gebruik maken van lettergroottes tot %d.',
 	'MAX_FLASH_HEIGHT_EXCEEDED'	=> array(
 		1	=> 'Je flash-bestanden mogen tot %d pixel hoog zijn.',
