@@ -45,7 +45,7 @@ $lang = array_merge($lang, array(
 
 	// Introduction page
 	'INTRODUCTION_TITLE'	=> 'Introductie',
-	'INTRODUCTION_BODY'		=> 'Welkom bij phpBB3!<br /><br />phpBB® is wereldwijd de meest gebruikte open source forumsoftware. phpBB3 is de laatste versie van een pakket dat is gestart met de ontwikkeling in 2000. Zoals zijn voorgangers is phpBB3 functie-rijk, gebruiksvriendelijk en het wordt volledig ondersteund door het phpBB-team. phpBB3 verbetert alles wat phpBB2 zo populair maakte en voegt de meestgevraagde functies toe die nog niet aanwezig waren in vorige versies. Wij hopen dat het je verwachtingen overtreft.<br /><br />Het installatiesysteem doorloopt samen met je de stappen om phpBB3 te installeren, oudere versies bijwerken naar de meest recente phpBB3-versie en ook nog het converteren naar phpBB3 vanaf een andere forumsoftware (inclusief phpBB2). Voor meer informatie adviseren we je de <a href="../docs/INSTALL.html">installatiehandleiding</a> te lezen. Als je de phpBB3-licentie wil lezen of als je wil weten hoe je ondersteuning kunt krijgen en onze mening daarover, klik dan op de juiste optie in het menu aan de linkerkant van deze pagina. Om verder te gaan selecteer je het juiste tabblad bovenaan de pagina.',
+	'INTRODUCTION_BODY'		=> 'Welkom bij phpBB3!<br /><br />phpBB® is wereldwijd de meest gebruikte open source forumsoftware. phpBB3 is de laatste versie van een pakket dat is gestart met de ontwikkeling in 2000. Zoals zijn voorgangers is phpBB3 functie-rijk, gebruiksvriendelijk en het wordt volledig ondersteund door het phpBB-team. phpBB3 verbetert alles wat phpBB2 zo populair maakte en voegt de meestgevraagde functies toe die nog niet aanwezig waren in vorige versies. Wij hopen dat het je verwachtingen overtreft.<br /><br />Het installatiesysteem doorloopt samen met je de stappen om phpBB3 te installeren, oudere versies bijwerken naar de meest recente phpBB3-versie en ook nog het converteren naar phpBB3 vanaf een andere forumsoftware (inclusief phpBB2). Voor meer informatie adviseren we je de <a href="%1$s">installatiehandleiding</a> te lezen. Als je de phpBB3-licentie wil lezen of als je wil weten hoe je ondersteuning kunt krijgen en onze mening daarover, klik dan op de juiste optie in het menu aan de linkerkant van deze pagina. Om verder te gaan selecteer je het juiste tabblad bovenaan de pagina.',
 
 	// Support page
 	'SUPPORT_TITLE'		=> 'Support',
@@ -105,7 +105,7 @@ $lang = array_merge($lang, array(
 
 	// Server requirements
 	'PHP_VERSION_REQD'					=> 'PHP-versie',
-	'PHP_VERSION_REQD_EXPLAIN'			=> 'phpBB vereist PHP versie 7.1.3 of hoger.',
+	'PHP_VERSION_REQD_EXPLAIN'			=> 'phpBB vereist PHP versie 7.2.0 of hoger.',
 	'PHP_GETIMAGESIZE_SUPPORT'			=> 'PHP-functie getimagesize() is beschikbaar',
 	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> '<strong>Vereist</strong> - Om phpBB correct te laten functioneren, zal de getimagesize-functie beschikbaar moeten zijn.',
 	'PCRE_UTF_SUPPORT'				=> 'Ondersteuning voor PCRE UTF-8',
@@ -507,10 +507,12 @@ $lang = array_merge($lang, array(
 	'CHECK_TABLE_PREFIX'		=> 'Controleer de tabelprefix en probeer opnieuw.',
 
 	// Conversion in progress
+	'CATEGORY'					=> 'Categorie',
 	'CONTINUE_CONVERT'			=> 'Conversie hervatten',
 	'CONTINUE_CONVERT_BODY'		=> 'Een vorige conversiepoging is gevonden. Je kunt nu kiezen tussen het starten van een nieuwe conversie of doorgaan met de vorige conversie.',
 	'CONVERT_NEW_CONVERSION'	=> 'Nieuwe conversie',
 	'CONTINUE_OLD_CONVERSION'	=> 'Doorgaan met vorige conversie',
+	'POST_ID'					=> 'Post ID',
 
 	// Start conversion
 	'SUB_INTRO'					=> 'Introductie',
@@ -567,6 +569,10 @@ $lang = array_merge($lang, array(
 	'CONVERT_COMPLETE'			=> 'Conversie compleet',
 	'CONVERT_COMPLETE_EXPLAIN'	=> 'Je hebt succesvol je forum geconverteerd naar phpBB 3.3. Je kunt je nu <a href="../">aanmelden op je forum</a>. Voordat je de install-map verwijderd en je forum ingeschakeld, controleer of alle instellingen correct zijn overgezet. Online hulp is beschikbaar via de volgende Nederlandstalige support-website <a href="http://www.phpbb.nl/">phpBB.nl</a>.',
 
+	'COLLIDING_CLEAN_USERNAME'			=> '<strong>%s</strong> is opgeschoonde gebruikersnaam voor:',
+	'COLLIDING_USER'					=> '» gebruikers id: <strong>%d</strong> gebruikersnaam: <strong>%s</strong> (%d posts)',
+	'COLLIDING_USERNAMES_FOUND'			=> 'Botsende gebruikersnamen zijn gevonden in het oude forum. Voordat we verder kunnen gaan met de conversie, graag de gebruikersnamen veranderen, of de gebruiker verwijderen, zodat er nog maar 1 gebruiker is voor iedere opgeschoonde gebruikersnaam.',
+	'CONV_ERR_FATAL'					=> 'Fatale conversie fout',
 	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'FTP-upload voor bijlagen is ingeschakeld op het oude forum. Schakel de FTP-uploadoptie uit en zorg ervoor dat je een geldige uploadmap opgeeft, kopieer daarna alle bijlagenbestanden naar de nieuwe web toegankelijke map. Wanneer je dit hebt gedaan, herstart je de convertor.',
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'Er is geen configuratie-informatie beschikbaar voor de conversie.',
 	'CONV_ERROR_FORUM_ACCESS'			=> 'Kan geen forumtoegangsinformatie verkrijgen.',
