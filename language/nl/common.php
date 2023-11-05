@@ -170,6 +170,11 @@ $lang = array_merge($lang, array(
 		2	=> '%d tekens',
 	),
 	'COLLAPSE_VIEW'			=> 'Weergave inklappen',
+	// Special version to be used when describing ranges e.g. "min x characters and max y characters"
+	'CHARACTERS_XY'			=> array(
+		1	=> '%d teken',
+		2	=> '%d tekens',
+	),	
 	'CLOSE_WINDOW'			=> 'Sluit venster',
 	'CODE'				=> 'Code',
 	'COLOUR_SWATCH'			=> 'Kleurenpalet',
