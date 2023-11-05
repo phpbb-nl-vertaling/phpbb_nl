@@ -116,7 +116,7 @@ $lang = array_merge($lang, array(
 	'BIRTHDAY'					=> 'Verjaardag',
 	'BIRTHDAY_EXPLAIN'			=> 'Het instellen van een jaartal zal je leeftijd weergeven als je jarig bent.',
 	'BOARD_DATE_FORMAT'			=> 'Mijn datumnotatie',
-	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'De syntaxis die gebruikt wordt is identiek aan de <a href="https://secure.php.net/manual/function.date.php">date()</a>-functie van PHP.',
+	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'De syntaxis die gebruikt wordt is identiek aan de <a href="https://www.php.net/manual/datetime.format.php">date()</a>-functie van PHP.',
 	'BOARD_LANGUAGE'			=> 'Mijn taal',
 	'BOARD_STYLE'				=> 'Mijn forumstijl',
 	'BOARD_TIMEZONE'			=> 'Mijn tijdzone',
