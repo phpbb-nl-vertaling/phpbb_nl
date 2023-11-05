@@ -52,7 +52,7 @@ $lang = array_merge($lang, array(
 	'DEFAULT_SEARCH_RETURN_CHARS'			=> 'Standaardaantal getoonde karakters',
 	'DEFAULT_SEARCH_RETURN_CHARS_EXPLAIN'		=> 'Het standaardaantal karakters dat bij het zoeken van een bericht getoond zal worden. Bij een waarde van 0 zal altijd het volledige bericht getoond worden.',
 	'DELETE_INDEX'							=> 'Index verwijderen',
-	'DELETING_INDEX_IN_PROGRESS'			=> 'Het verwijderen van de index is bezig',
+	'DELETING_INDEX_IN_PROGRESS'			=> 'Het verwijderen van de index is bezig…',
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'De zoektechniek is momenteel zijn index aan het opschonen. Dit kan enkele minuten duren.',
 
 	'FULLTEXT_MYSQL_INCOMPATIBLE_DATABASE'	=> 'De “MySQL fulltext”-techniek kan alleen gebruikt worden met MySQL4 en hoger.',
@@ -92,7 +92,7 @@ $lang = array_merge($lang, array(
 	'GO_TO_SEARCH_INDEX'					=> 'Ga naar zoekindexpagina',
 
 	'INDEX_STATS'							=> 'Index-statistieken',
-	'INDEXING_IN_PROGRESS'					=> 'Indexering is bezig',
+	'INDEXING_IN_PROGRESS'					=> 'Indexering is bezig…',
 	'INDEXING_IN_PROGRESS_EXPLAIN'			=> 'De zoektechniek is momenteel alle berichten op het forum aan het indexeren. Dit kan enkele minuten tot een aantal uren duren, afhankelijk van de grootte van je forum.',
 
 	'LIMIT_SEARCH_LOAD'						=> 'Beperking van de systeembelasting voor de zoekpagina',
@@ -112,18 +112,19 @@ $lang = array_merge($lang, array(
 	'SEARCH_GUEST_INTERVAL'					=> 'Wachttijd voor gasten tussen zoekopdrachten',
 	'SEARCH_GUEST_INTERVAL_EXPLAIN'			=> 'Aantal seconden die gasten moeten wachten tussen zoekopdrachten. Als één gast aan het zoeken is zullen anderen moeten wachten tot deze tijd voorbij is.',
 	'SEARCH_INDEX_CREATE_REDIRECT'			=> array(
-		2	=> 'Alle berichten tot berichten-ID %2$d zijn nu geïndexeerd, waarvan er %1$d berichten waren in deze stap.<br />',
+		2	=> 'Alle berichten tot berichten-ID %2$d zijn nu geïndexeerd, waarvan er %1$d berichten waren in deze stap.',
 	),
 	'SEARCH_INDEX_CREATE_REDIRECT_RATE'		=> array(
-		2	=> 'Het huidge tempo van indexeren is ongeveer %1$.1f berichten per seconde.<br />Indexeren is nog bezig…',
+		2	=> 'Het huidge tempo van indexeren is ongeveer %1$.1f berichten per seconde.',
 	),
 	'SEARCH_INDEX_DELETE_REDIRECT'			=> array(
-		2	=> 'Alle berichten tot berichten-ID %2$d zijn verwijderd van de zoekindex, waarvan %1$d in deze stap.<br /><br />',
+		2	=> 'Alle berichten tot berichten-ID %2$d zijn verwijderd van de zoekindex, waarvan %1$d in deze stap.',
 	),
 	'SEARCH_INDEX_DELETE_REDIRECT_RATE'		=> array(
-		2	=> 'Het huidige tempo van verwijderen is ongeveer %1$.1f berichten per seconde.<br />Verwijderen is nog bezig…',
+		2	=> 'Het huidige tempo van verwijderen is ongeveer %1$.1f berichten per seconde.',
 	),
 	'SEARCH_INDEX_CREATED'					=> 'Alle berichten in de database succesvol geïndexeerd.',
+	'SEARCH_INDEX_PROGRESS'					=> 'Klaar: %1$d | Wachtend: %2$d | Totaal: %3$d',
 	'SEARCH_INDEX_REMOVED'					=> 'De zoekindex voor deze techniek succesvol verwijderd.',
 	'SEARCH_INTERVAL'						=> 'Wachttijd voor gebruikers tussen zoekopdrachten',
 	'SEARCH_INTERVAL_EXPLAIN'				=> 'Aantal seconden die gebruikers moeten wachten tussen zoekopdrachten. Deze interval wordt onafhankelijk voor iedere gebruiker gecontroleerd.',
