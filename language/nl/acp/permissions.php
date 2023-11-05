@@ -58,7 +58,7 @@ $lang = array_merge($lang, array(
 
 	'ACL_NEVER'				=> 'Nooit',
 	'ACL_SET'				=> 'Permissies instellen',
-	'ACL_SET_EXPLAIN'		=> 'Permissies zijn gebaseerd op een simpel <strong>JA</strong>/<strong>NEE</strong> systeem. Door een optie in te stellen op <strong>NOOIT</strong> voor een gebruiker of gebruikersgroep, zal deze instelling iedere andere waarde die daaraan wordt toegewezen overschrijven. Als je geen waarde wenst toe te wijzen voor een optie voor deze gebruiker of gebruikersgroep, selecteer dan <strong>NEE</strong>. Als waarden ergens anders worden toegewezen voor deze optie, zullen ze in plaats daarvan gebruikt worden, anders wordt <strong>NOOIT</strong> verondersteld. Alle gemarkeerde objecten (met het vinkje ervoor) zullen de permissiesset die je hebt gedefiniëerd kopiëren.',
+	'ACL_SET_EXPLAIN'		=> 'Permissies zijn gebaseerd op een simpel <strong>JA</strong>/<strong>NEE</strong> systeem. Door een optie in te stellen op <strong>NOOIT</strong> voor een gebruiker of gebruikersgroep, zal deze instelling iedere andere waarde die daaraan wordt toegewezen overschrijven. Als je geen waarde wenst toe te wijzen voor een optie voor deze gebruiker of gebruikersgroep, selecteer dan <strong>NEE</strong>. Als waarden ergens anders worden toegewezen voor deze optie, zullen ze in plaats daarvan gebruikt worden, anders wordt <strong>NOOIT</strong> verondersteld. Alle gemarkeerde objecten (met het vinkje ervoor) zullen de permissiesset die je hebt gedefiniëerd kopiëren. Let op dat eigenaar accounts geen gevolgen hebben voor administratieve permissies, aangezien deze altijd op <strong>JA</strong> staan',
 	'ACL_SETTING'			=> 'Instelling',
 
 	'ACL_TYPE_A_'			=> 'Beheerderspermissies',
