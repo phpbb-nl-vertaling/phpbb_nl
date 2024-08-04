@@ -159,9 +159,9 @@ $lang = array_merge($lang, array(
 	'ACL_M_MERGE'	=> 'Kan onderwerpen samenvoegen',
 
 	'ACL_M_INFO'	=> 'Kan berichtdetails bekijken',
-	'ACL_M_WARN'	=> 'Kan waarschuwingen geven<br /><em>Deze instelling wordt alleen globaal toegewezen. Het is niet op een forum gebaseerd.</em>', // This moderator setting is only global (and not local)
-	'ACL_M_PM_REPORT'	=> 'Kan meldingen over privéberichten sluiten en verwijderen<br /><em>Deze instelling wordt alleen globaal toegewezen. Het is niet op een forum gebaseerd.</em>', // This moderator setting is only global (and not local)
-	'ACL_M_BAN'		=> 'Kan verbanningen beheren<br /><em>Deze instelling wordt alleen globaal toegewezen. Het is niet op een forum gebaseerd.</em>', // This moderator setting is only global (and not local)
+	'ACL_M_WARN'	=> 'Kan waarschuwingen geven', 
+	'ACL_M_PM_REPORT'	=> 'Kan meldingen over privéberichten sluiten en verwijderen',
+	'ACL_M_BAN'		=> 'Kan verbanningen beheren', 
 ));
 
 // Admin Permissions
