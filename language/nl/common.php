@@ -64,6 +64,7 @@ $lang = array_merge($lang, array(
 	'ACCOUNT_DEACTIVATED'			=> 'Je account is handmatig gedeactiveerd en is alleen te heractiveren door een beheerder.',
 	'ACP'							=> 'Beheerderspaneel',
 	'ACP_SHORT'						=> 'Beheer',
+	'ACTIVATION_ALREADY_SENT'		=> 'De activatie email is al verstuurd naar je email adres. Je kan het opnieuw proberen over 24 uur. Mocht je problemen blijven houden, neem dan contact op met de beheerders.',
 	'ACTIVE'						=> 'actief',
 	'ACTIVE_ERROR'					=> 'De opgevraagde gebruikersnaam is momenteel inactief. Als je problemen hebt met het activeren van je account, neem dan contact op met de beheerder.',
 	'ADMINISTRATOR'					=> 'Beheerder',
