@@ -64,7 +64,7 @@ $lang = array_merge($lang, array(
 	'ACCOUNT_DEACTIVATED'			=> 'Je account is handmatig gedeactiveerd en is alleen te heractiveren door een beheerder.',
 	'ACP'							=> 'Beheerderspaneel',
 	'ACP_SHORT'						=> 'Beheer',
-	'ACTIVATION_ALREADY_SENT'		=> 'De activatie email is al verstuurd naar je email adres. Je kan het opnieuw proberen over 24 uur. Mocht je problemen blijven houden, neem dan contact op met de beheerders.',
+	'ACTIVATION_ALREADY_SENT'		=> 'De activatie-e-mail is al verstuurd naar je e-mailadres. Je kunt het over 24 uur opnieuw proberen. Mocht je problemen blijven houden, neem dan contact op met de beheerder.',
 	'ACTIVE'						=> 'actief',
 	'ACTIVE_ERROR'					=> 'De opgevraagde gebruikersnaam is momenteel inactief. Als je problemen hebt met het activeren van je account, neem dan contact op met de beheerder.',
 	'ADMINISTRATOR'					=> 'Beheerder',
@@ -688,8 +688,8 @@ $lang = array_merge($lang, array(
 	'RETURN_TO'					=> 'Terug naar “%s”',
 	'RETURN_TO_INDEX'			=> 'Terug naar het forumoverzicht',
 
-	'ROUTE_NOT_FOUND'				=> 'De opgrevraagde route “%s” kon niet worden gevonden.',
-	'ROUTE_INVALID_MISSING_PARAMS'	=> 'Ongeldige or missende parameters doorgegeven voor route “%s”.',
+	'ROUTE_NOT_FOUND'				=> 'De opgevraagde route “%s” kon niet worden gevonden.',
+	'ROUTE_INVALID_MISSING_PARAMS'	=> 'Ongeldige of missende parameters doorgegeven voor route “%s”.',
 	
 	'FEED'						=> 'Feed',
 	'FEED_NEWS'					=> 'Nieuws',
