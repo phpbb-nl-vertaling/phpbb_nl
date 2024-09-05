@@ -87,7 +87,21 @@ $lang = array_merge($lang, array(
 		'URL'			=> 'Een geldige URL die een beschikbaar protocol gebruikt (http, ftp, etc… kan niet gebruikt worden voor javascript exploits). Als er niks is opgegeven zal “http://” worden toegevoegd aan de reeks.',
 		'LOCAL_URL'		=> 'Een lokale URL. De URL moet relatief zijn aan de onderwerpenpagina en kan geen servernaam of protocol bevatten omdat linken worden aangemaakt met “%s” als begin',
 		'RELATIVE_URL'	=> 'Een relatieve URL. Je kunt dit gebruiken om delen van een URL te herleiden maar wees voorzichtig: een volledige URL is een geldige relatieve URL. Wanneer je relatieve URL’s wil gebruiken voor je forum, gebruik dan de LOCAL_URL token.',
-		'COLOR'			=> 'Een HTML kleur, kan geschreven worden in numerieke vorm <samp>#FF1234</samp> of als een <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS kleur sleutelwoord</a> zoals <samp>fuchsia</samp> of <samp>InactiveBorder</samp>'
+		'COLOR'			=> 'Een HTML kleur, kan geschreven worden in numerieke vorm <samp>#FF1234</samp> of als een <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS kleur sleutelwoord</a> zoals <samp>fuchsia</samp> of <samp>InactiveBorder</samp>',
+		'ALNUM'			=> 'Tekens uit het latijnse alfabet (A-Z) en getallen.',
+		'CHOICE'		=> 'Keuze uit de opgegeven waardes, bijvoorbeeld <samp>{CHOICE=schoppen,harten,ruiten,klaveren}</samp>. De waardes zijn standaard hoofdlettergevoelig en kunnen hoofdletterongevoelig worden gemaakt via de <samp>caseSensitive</samp>-optie: <samp>{CHOICE=Schoppen,Harten,Ruiten,Klaveren;caseSensitive}</samp>',
+		'FLOAT'			=> 'Een decimale waarde, bijvoorbeeld <samp>0.5</samp>.',
+		'HASHMAP'		=> 'Vervangt strings met een vervanging in de vorm <samp>{HASHMAP=string1:vervanging1,string2:vervanging2}</samp>. Hoofdlettergevoelig. Behoudt onbekende waardes standaard.',
+		'INT'			=> 'Een geheel getal, bijvoorbeeld <samp>2</samp>.',
+		'IP'			=> 'Een geldig IPv4- of IPv6-adres.',
+		'IPPORT'		=> 'Een geldig IPv4- of IPv6-adres met poortnummer.',
+		'IPV4'			=> 'Een geldig IPv4-adres.',
+		'IPV6'			=> 'Een geldig IPv6-adres.',
+		'MAP'			=> 'Vervangt strings met een vervanging in de vorm <samp>{MAP=string1:vervanging1,string2:vervanging2}</samp>. Hoofdlettergevoelig. Behoudt onbekende waardes standaard.',
+		'RANGE'			=> 'Neemt een geheel getal in het opgegeven bereik, bijvoorbeeld <samp>{RANGE=-10,42}</samp>.',
+		'REGEXP'		=> 'Valideert de opgegeven waarde tegen de opgegeven regexp, bijvoorbeeld <samp>{REGEXP=/^foo\w+bar$/}</samp>.',
+		'TIMESTAMP'		=> 'Een timestamp als <samp>1h30m10s</samp> die naar het aantal secondes wordt omgezet. Accepteert ook een getal.',
+		'UINT'			=> 'Een tekenloos geheel getal. Hetzelfde als <samp>{INT}</samp>, maar accepteert geen waardes kleiner dan 0.',	
 	),
 ));
 
