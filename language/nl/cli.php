@@ -107,6 +107,8 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_USER_ADD_OPTION_NOTIFY'	=> 'Verstuur accountactivatie-mail naar gebruiker (standaard uitgeschakeld)',
 	'CLI_DESCRIPTION_USER_DELETE'				=> 'Verwijder een gebruikersaccount',
 	'CLI_DESCRIPTION_USER_DELETE_USERNAME'		=> 'Gebruikernaam van het te verwijderen account',
+	'CLI_DESCRIPTION_USER_DELETE_ID'			=> 'Verwijder gebruikersaccount door middel van ID.',
+	'CLI_DESCRIPTION_USER_DELETE_ID_OPTION_ID'	=> 'Gebruikers-IDs van de te verwijderen gebruikers',
 	'CLI_DESCRIPTION_USER_DELETE_OPTION_POSTS'	=> 'Verwijder alle berichten van deze gebruiker. Wanneer niet geselecteerd zullen alle berichten bewaard blijven.',
 	'CLI_DESCRIPTION_USER_RECLEAN'				=> 'Opschonen gebruikersnamen.',
 
@@ -154,10 +156,14 @@ $lang = array_merge($lang, array(
 	'CLI_THUMBNAIL_NOTHING_TO_GENERATE'	=> 'Geen thumbnails om te genereren.',
 	'CLI_THUMBNAIL_NOTHING_TO_DELETE'	=> 'Geen thumbnails om te verwijderen.',
 
-	'CLI_USER_ADD_SUCCESS'		=> 'Gebruiker %s is succesvol toegevoegd.',
-	'CLI_USER_DELETE_CONFIRM'	=> 'Weet je zeker dat je gebruiker ‘%s’ wil verwijderen? [y/N]',
-	'CLI_USER_RECLEAN_START'	=> 'Opschonen gebruikersnamen',
-	'CLI_USER_RECLEAN_DONE'		=> [
+	'CLI_USER_ADD_SUCCESS'			=> 'Gebruiker %s is succesvol toegevoegd.',
+	'CLI_USER_DELETE_CONFIRM'		=> 'Weet je zeker dat je gebruiker ‘%s’ wil verwijderen? [y/N]',
+	'CLI_USER_DELETE_ID_CONFIRM'	=> 'Weet je zeker dat je gebruiker-ID\'s ‘%s’? wil verwijderen? [y/N]',
+	'CLI_USER_DELETE_ID_SUCCESS'	=> 'Gebruiker-ID\'s succesvol verwijderd.',
+	'CLI_USER_DELETE_ID_START'		=> 'Verwijderen van gebruikers door middel van ID',
+	'CLI_USER_DELETE_NONE'			=> 'Er zijn geen gebruikers verwijderd door middel van ID.',
+	'CLI_USER_RECLEAN_START'		=> 'Opschonen gebruikersnamen',
+	'CLI_USER_RECLEAN_DONE'			=> [
 		0	=> 'Opschonen klaar. Geen gebruikersnamen hoefden opgeschoond te worden.',
 		1	=> 'Opschonen klaar. %d gebruikersnaam was opgeschoond.',
 		2	=> 'Opschonen klaar. %d gebruikersnamen waren opgeschoond.',

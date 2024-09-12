@@ -110,7 +110,7 @@ $lang = array_merge($lang, array(
 	'IMAGE_LINK_SIZE'			=> 'Afbeelding koppeling afmeting',
 	'IMAGE_LINK_SIZE_EXPLAIN'	=> 'Geef afbeeldingsbijlage weer als een inline tekst koppeling als de afbeelding groter is dan dit. Om dit gedrag uit te schakelen, stel dan de waarde in op 0px bij 0px.',
 	'IMAGE_QUALITY'				=> 'Kwaliteit geüploade afbeeldingen (alleen JPEG)',
-	'IMAGE_QUALITY_EXPLAIN'		=> 'Voer een waarde tussen 50% (kleinere bestandsgrootte) en 90% (hogere kwaliteit) in. Een kwaliteitswaarde boven de 90% verhoogd de bestandsgrootte zo erg dat het niet toegestaan is. Deze instelling wordt alleen gebruikt wanneer de maximale afbeeldingsdimensies op elke andere waarde behalve 0px bij 0px staat.',
+	'IMAGE_QUALITY_EXPLAIN'		=> 'Voer een waarde tussen 50% (kleinere bestandsgrootte) en 90% (hogere kwaliteit) in. Een kwaliteitswaarde boven de 90% verhoogt de bestandsgrootte zo erg dat het niet toegestaan is. Deze instelling wordt alleen gebruikt wanneer de maximale afbeeldingsdimensies op elke andere waarde behalve 0px bij 0px staat.',
 	'IMAGE_STRIP_METADATA'		=> 'Strip afbeeldingsmetadata (alleen JPEG)',
 	'IMAGE_STRIP_METADATA_EXPLAIN'	=> 'Verwijder Exif metadata van het bestand, zoals de naam van de auteur, GPS-coordinaten en de instellingen van de camera. Deze instelling wordt alleen gebruikt wanneer de maximale afbeeldingsdimensies op elke andere waarde behalve 0px bij 0px staat.',
 
