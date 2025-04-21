@@ -493,7 +493,7 @@ $lang = array_merge($lang, array(
 	'SMILIES_PATH_EXPLAIN'		=> 'Pad in je phpBB hoofdmap, bijv. <samp>images/smilies</samp>.',
 	'UPLOAD_ICONS_PATH'			=> 'Extensiegroep-iconen opslagpad',
 	'UPLOAD_ICONS_PATH_EXPLAIN'	=> 'Pad in je phpBB hoofdmap, bijv. <samp>images/upload_icons</samp>.',
-	'USE_SYSTEM_CRON'			=> 'Draai periodieke taken van systeem cron',
+	'USE_SYSTEM_CRON'			=> 'Draai periodieke taken van het van het besturingssysteem cron',
 	'USE_SYSTEM_CRON_EXPLAIN'	=> 'Wanneer uitgeschakeld zal phpBB periodieke taken instellen om deze automatisch te laten draaien. Wanneer ingeschakeld zal phpBB geen periodieke taken instellen; een systeembeheerder zal moeten regelen dat <code>bin/phpbbcli.php cron:run</code> opgeroepen wordt door de systeemcron-voorziening op reguliere interval (bijv. iedere 5 minuten).',
 ));
 
