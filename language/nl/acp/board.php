@@ -298,7 +298,7 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> 'Schakelt de “Alle forums”-feed in, welke een lijst van forums weergeeft.',
 
 	'ACP_FEED_HTTP_AUTH'				=> 'HTTP-Authenticatie toestaan',
-	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'Schakelt HTTP-authenticatie in, waardoor gebruikers toegang kunnen krijgen tot inhoud die voor gasten verborgen is door de <samp>auth=http</samp>-parameter aan de feed-URL toe te voegen. Let op dat sommige PHP installaties extra wijzigingen vereisen aan het .htaccess bestand; raadpleeg dat bestand voor meer informatie. HTTP-authenticatie wordt alleen ondersteund via versleutelde (HTTPS) verbindingen.',
+	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'Schakelt HTTP-authenticatie in, waardoor gebruikers toegang kunnen krijgen tot inhoud die voor gasten verborgen is door de <samp>auth=http</samp>-parameter aan de feed-URL toe te voegen. Let op dat sommige PHP installaties extra wijzigingen vereisen aan het .htaccess-bestand; raadpleeg dat bestand voor meer informatie. HTTP-authenticatie wordt alleen ondersteund via versleutelde (HTTPS) verbindingen.',
 
 	'ACP_FEED_ITEM_STATISTICS'			=> 'Item statistieken',
 	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'Geeft individuele statistieken weer onder de feed-items<br>(bijv. geplaatst door, datum en tijd, reacties, weergaves)',
