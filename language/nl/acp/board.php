@@ -367,6 +367,12 @@ $lang = array_merge($lang, array(
 	'ONLINE_LENGTH_EXPLAIN'		=> 'Aantal minuten waarna inactieve gebruikers niet meer in de “Wie is online”-lijst zullen voorkomen. Hoe hoger deze waarde is, hoe groter de vereiste verwerkingskracht om de lijst aan te maken.',
 	'SESSION_LENGTH'			=> 'Sessieduur',
 	'SESSION_LENGTH_EXPLAIN'	=> 'Sessies zullen verlopen na deze tijd, in secondes.',
+	'SESSION_GC'					=> 'Interval voor opschonen sessies',
+	'SESSION_GC_EXPLAIN'			=> 'Sessies zullen worden opgeschoond na deze tijd, in secondes.',
+	'SESSION_GUEST_LENGTH'			=> 'Sessieduur gasten',
+	'SESSION_GUEST_LENGTH_EXPLAIN'	=> 'Gastsessies zullen verlopen na deze tijd, in secondes.',
+	'SESSION_GUEST_GC'				=> 'Interval voor opschonen gastsessies',
+	'SESSION_GUEST_GC_EXPLAIN'		=> 'Gastsessies zullen worden opgeschoond na deze tijd, in secondes.',
 ));
 
 // Contact Settings

@@ -1,0 +1,14 @@
+Subject: phpBB {NEW_VERSION}-update beschikbaar - Beveiligingsupdate beschikbaar voor "{SITENAME}"
+
+Hallo {USERNAME},
+
+Dit is een notificatie om je te laten weten dat er een beveiligingsupdate is uitgebracht voor je phpBB-installatie.
+
+Je huidige versie is {CURRENT_VERSION} en er is een nieuwe versie met beveiligingsoplossingen beschikbaar. We raden je aan je forum bij te werken naar de laatst beschikbare versie {NEW_VERSION}, zodat je installatie veilig en beschermd blijft.
+
+Je kunt de details van deze versie bekijken in het Beheerderspaneel van je phpBB-installatie.
+{U_BOARD}
+
+Voor hulp bij het bijwerken kun je de documentatie raadplegen of de phpBB-supportforums bezoeken.
+
+{EMAIL_SIG}

@@ -1,0 +1,14 @@
+Subject: phpBB {NEW_VERSION}-update beschikbaar voor "{SITENAME}"
+
+Hallo {USERNAME},
+
+Dit is een notificatie om je te laten weten dat er een nieuwe update beschikbaar is voor je phpBB-installatie.
+
+Je huidige versie is {CURRENT_VERSION} en de laatst beschikbare versie is {NEW_VERSION}. Het wordt sterk aanbevolen om je forum actueel te houden voor de hoogste mate van veiligheid, stabiliteit en prestaties.
+
+Je kunt de details van deze versie bekijken in het Beheerderspaneel van je phpBB-installatie.
+{U_BOARD}
+
+Voor hulp bij het bijwerken kun je de documentatie raadplegen of de phpBB-supportforums bezoeken.
+
+{EMAIL_SIG}

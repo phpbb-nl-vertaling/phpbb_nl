@@ -50,6 +50,8 @@ $lang = array_merge($lang, array(
 	'BOT_DELETED'		=> 'Bot is succesvol verwijderd.',
 	'BOT_EDIT'			=> 'Bots wijzigen',
 	'BOT_EDIT_EXPLAIN'	=> 'Hier kun je bots toevoegen of wijzigen. Je kan een agent-string en/of één of meerdere IP-adressen (of een bereik van adressen) opgeven die kunnen overeenkomen. Wees voorzichtig tijdens het opgeven van overeenkomstige agent-strings of adressen. Je kunt ook een stijl en taal opgeven die de bot zal gebruiken tijdens het bezoeken van het forum. Dit kan dataverbruik verminderen door het instellen van een simpele stijl voor bots. Vergeet niet om de juiste permissies in te stellen voor de speciale Bot-gebruikersgroep.',
+	'BOT_GROUP'			=> 'Botgroep',
+	'BOT_GROUP_EXPLAIN'	=> 'Selecteer de groep waartoe deze bot behoort.',
 	'BOT_LANG'			=> 'Bottaal',
 	'BOT_LANG_EXPLAIN'	=> 'De taal die de bot ziet tijdens zijn bezoek.',
 	'BOT_LAST_VISIT'	=> 'Laatste bezoek',
@@ -66,6 +68,7 @@ $lang = array_merge($lang, array(
 	'ERR_BOT_AGENT_MATCHES_UA'	=> 'De bot-agent die je hebt opgegeven is gelijk aan degene die je momenteel gebruikt. Pas de agent voor deze bot aan.',
 	'ERR_BOT_NO_IP'				=> 'De IP-adressen die je hebt opgegeven is ongeldig of de hostnaam kan niet worden opgelost.',
 	'ERR_BOT_NO_MATCHES'		=> 'Je moet tenminste één agent of IP opgeven voor deze bot overeenkomst.',
+	'ERR_BOT_NO_NAME'			=> 'Je moet een botnaam opgeven.',
 
 	'NO_BOT'		=> 'Geen bot gevonden met de opgegeven ID.',
 	'NO_BOT_GROUP'	=> 'Kan de speciale botgroep niet vinden.',

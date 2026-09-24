@@ -608,6 +608,7 @@ $lang = array_merge($lang, array(
 	'LOG_TOPIC_TYPE_CHANGED'	=> '<strong>Onderwerptype veranderd</strong><br />» %s',
 	'LOG_UNLOCK'				=> '<strong>Onderwerp geopend</strong><br />» %s',
 	'LOG_UNLOCK_POST'			=> '<strong>Bericht geopend</strong><br />» %s',
+	'LOG_VERSION_CHECK_FAIL'	=> '<strong>Versiecontrole mislukt</strong>',
 
 	'LOG_DISALLOW_ADD'		=> '<strong>Niet toegestane gebruikersnaam toegevoegd</strong><br />» %s',
 	'LOG_DISALLOW_DELETE'	=> '<strong>Niet toegestane gebruikersnaam verwijderd</strong>',

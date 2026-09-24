@@ -348,6 +348,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TYPE_REPORT_PM_CLOSED'				=> 'Jouw melding van een privébericht gesloten is door een moderator',
 	'NOTIFICATION_TYPE_TOPIC'							=> 'Iemand heeft een onderwerp aangemaakt in een forum waarop je bent geabonneerd',
 	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Gebruiker moet geactiveerd worden',
+	'NOTIFICATION_TYPE_UPDATE_MAINTENANCE'				=> 'phpBB-updatenotificaties',
 
 	'NOTIFY_METHOD'					=> 'Notificatiemethode',
 	'NOTIFY_METHOD_BOTH'			=> 'Beide',

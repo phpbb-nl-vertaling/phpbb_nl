@@ -101,7 +101,7 @@ $lang = array_merge($lang, array(
 	'AUTH_PROVIDER_OAUTH_SERVICE_BITLY'						=> 'Bitly',
 	'AUTH_PROVIDER_OAUTH_SERVICE_FACEBOOK'					=> 'Facebook',
 	'AUTH_PROVIDER_OAUTH_SERVICE_GOOGLE'					=> 'Google',
-	'AUTH_PROVIDER_OAUTH_SERVICE_TWITTER'					=> 'Twitter',
+	'AUTH_PROVIDER_OAUTH_SERVICE_TWITTER'					=> 'X',
 	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_NOT_STORED'			=> 'OAuth-token niet opgeslagen.',
 	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_INCORRECTLY_STORED'	=> 'OAuth-token incorrect opgeslagen.',
 	'AVATAR_DISALLOWED_CONTENT'		=> 'De upload is geweigerd omdat het geüploade bestand mogelijk gevaarlijk is.',
@@ -338,6 +338,7 @@ $lang = array_merge($lang, array(
 		2	=> '%d gasten',
 	),
 	'G_ADMINISTRATORS'			=> 'Beheerders',
+	'G_AI_CRAWLERS'				=> 'AI-crawlers',
 	'G_BOTS'					=> 'Bots',
 	'G_GUESTS'					=> 'Gasten',
 	'G_REGISTERED'				=> 'Geregistreerde gebruikers',
@@ -511,6 +512,9 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> '<strong>Onderwerpgoedkeuring</strong> aangevraagd door %1$s:',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'Het notificatietype "%s" mist in het bestandssysteem.',
 	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Activatie benodigd</strong> voor gedeactiveerde nieuw geregistreerde gebruiker: “%1$s”',
+	'NOTIFICATION_UPDATE_CRITICAL'		=> '<strong>phpBB %2$s-update beschikbaar - Kritieke update vereist</strong>: Je forum draait op %1$s en er is een nieuwe versie met kritieke beveiligingsoplossingen die onmiddellijk geïnstalleerd moet worden.',
+	'NOTIFICATION_UPDATE_MAINTENANCE'	=> '<strong>phpBB %2$s-update beschikbaar</strong>: Je forum draait op %1$s en er is een nieuwe versie beschikbaar.',
+	'NOTIFICATION_UPDATE_SECURITY'		=> '<strong>phpBB %2$s-update beschikbaar - Beveiligingsupdate</strong>: Je forum draait op %1$s en er is een nieuwe versie met beveiligingsoplossingen beschikbaar. We raden je aan je forum bij te werken om het veilig en beschermd te houden.',
 	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_MANY_OTHERS'			=> 'anderen',
 	'NOTIFICATION_X_OTHERS'				=> array(
@@ -845,7 +849,7 @@ $lang = array_merge($lang, array(
 		2	=> 'Aantal leden <strong>%d</strong>',
 	),
 	'TRACKED_PHP_ERROR'	=> 'Bijgehouden PHP-fouten: %s',
-	'TWITTER'		=> 'Twitter',
+	'TWITTER'		=> 'X',
 
 	'UNABLE_GET_IMAGE_SIZE'	=> 'Het was niet mogelijk om de afmetingen van de afbeelding te bepalen. Controleer of de URL die je hebt ingevoerd juist is.',
 	'UNABLE_TO_DELIVER_FILE'=> 'Kan bestand niet leveren.',

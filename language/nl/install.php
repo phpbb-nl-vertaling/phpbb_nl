@@ -301,6 +301,7 @@ $lang = array_merge($lang, array(
 	'TASK_CREATE_TABLES'				=> 'Tabellen creëren',
 
 	// Install data
+	'TASK_ADD_AI_CRAWLERS'	=> 'AI-crawlers registreren',
 	'TASK_ADD_BOTS'			=> 'Bots registreren',
 	'TASK_ADD_LANGUAGES'	=> 'Beschikbare talen installeren',
 	'TASK_ADD_MODULES'		=> 'Modules installeren',
@@ -495,6 +496,7 @@ $lang = array_merge($lang, array(
 	// Common converter messages
 	'CONVERT_NOT_EXIST'			=> 'De opgegeven convertor bestaat niet.',
 	'DEV_NO_TEST_FILE'			=> 'Geen waarde opgegeven voor de test_file variabele in de convertor. Als je een gebruiker bent van deze convertor hoor je deze foutmelding niet te zien, meld dit bericht aan de auteur van de convertor. Als je de convertor-auteur bent, moet je de naam of een bestand opgeven die bestaat in het bronforum om het pad erheen te verifiëren.',
+	'COULD_NOT_COPY'			=> 'Kan bestand <strong>%1$s</strong> niet kopiëren naar <strong>%2$s</strong><br><br>Controleer of de doelmap bestaat en of de webserver er schrijfrechten op heeft.',
 	'COULD_NOT_FIND_PATH'		=> 'Kan het pad naar je oude forum niet vinden. Controleer a.u.b. je instelligen en probeer het opnieuw.<br>» %s was opgegeven als pad.',
 	'CONFIG_PHPBB_EMPTY'		=> 'De phpBB3-configuratievariabele voor “%s” is leeg.',
 
